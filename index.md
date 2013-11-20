@@ -1,7 +1,7 @@
 ---
 layout: page
-title: TIAN XIA
-tagline: DA QIN DI GUO
+title: 天下
+tagline: 追求卓越
 ---
 {% include JB/setup %}
 
