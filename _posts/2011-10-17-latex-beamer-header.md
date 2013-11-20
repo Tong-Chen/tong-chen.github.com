@@ -1,0 +1,93 @@
+---
+title: latex beamer header package
+author: 悟道
+layout: post
+permalink: /?p=1221
+categories:
+  - tex
+tags:
+  - beamer
+  - latex
+---
+<table>
+  <tr cellpadding=0><td>
+    热度:
+  </td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td></tr>
+</table>
+
+<div class="wp_codebox">
+  <table>
+    <tr id="p1221142">
+      <td class="code" id="p1221code142">
+        <pre class="latex" style="font-family:monospace;">&nbsp;
+<span style="color: #800000; font-weight: normal;">\ProvidesPackage</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">CtBeamer</span><span style="color: #E02020; ">}</span>
+<span style="color: #2C922C; font-style: italic;">%\useoutertheme{infolines} %footnote</span>
+<span style="color: #800000; font-weight: normal;">\usetheme</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">Frankfurt</span><span style="color: #E02020; ">}</span>
+<span style="color: #800000; font-weight: normal;">\usefonttheme</span><span style="color: #E02020; ">[</span><span style="color: #C08020; font-weight: normal;">stillsansseriflarge, stillsansserifsmall</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">serif</span><span style="color: #E02020; ">}</span>
+&nbsp;
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">[</span><span style="color: #C08020; font-weight: normal;">english</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">babel</span><span style="color: #E02020; ">}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">graphicx</span><span style="color: #E02020; ">}</span> <span style="color: #2C922C; font-style: italic;">%used to insert picture</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">times</span><span style="color: #E02020; ">}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">color</span><span style="color: #E02020; ">}</span>
+<span style="color: #2C922C; font-style: italic;">%-------------second screen-----------</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">pgfpages</span><span style="color: #E02020; ">}</span>
+<span style="color: #800000; font-weight: normal;">\setbeameroption</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">show notes on second screen</span><span style="color: #E02020; ">}</span>
+<span style="color: #800000; font-weight: normal;">\setbeameroption</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">show notes</span><span style="color: #E02020; ">}</span>
+<span style="color: #2C922C; font-style: italic;">%-------------second screen-----------</span>
+&nbsp;
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">[</span><span style="color: #C08020; font-weight: normal;">position=t, singlelinecheck=off</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">subfig</span><span style="color: #E02020; ">}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">caption</span><span style="color: #E02020; ">}</span>
+&nbsp;
+<span style="color: #800000; font-weight: normal;">\captionsetup</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">labelformat=simple, labelsep=period, font=scriptsize</span><span style="color: #E02020; ">}</span>
+<span style="color: #800000; font-weight: normal;">\captionsetup</span><span style="color: #E02020; ">[</span><span style="color: #C08020; font-weight: normal;">subfigure</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">labelformat=simple</span><span style="color: #E02020; ">}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Crenewcommand"><span style="color: #800000;">renewcommand</span></a><span style="color: #800000; font-weight: normal;">\thesubfigure</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #800000; font-weight: normal;">\Alph</span>{subfigure</span><span style="color: #E02020; ">}}</span>
+&nbsp;
+<span style="color: #2C922C; font-style: italic;">%--------table--------------------------------</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">multirow</span><span style="color: #E02020; ">}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">threeparttable</span><span style="color: #E02020; ">}</span>
+<span style="color: #2C922C; font-style: italic;">%--------table--------------------------------</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">listings</span><span style="color: #E02020; ">}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">xcolor</span><span style="color: #E02020; ">}</span>
+<span style="color: #2C922C; font-style: italic;">%set parameter</span>
+&nbsp;
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">moreverb</span><span style="color: #E02020; ">}</span>
+&nbsp;
+<span style="color: #2C922C; font-style: italic;">%-----------todo-------------------------------</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cusepackage"><span style="color: #800000;">usepackage</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">todonotes</span><span style="color: #E02020; ">}</span>
+<span style="color: #800000; font-weight: normal;">\presetkeys</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">todonotes</span><span style="color: #E02020; ">}{</span><span style="color: #2020C0; font-weight: normal;">inline</span><span style="color: #E02020; ">}{</span><span style="color: #2020C0; font-weight: normal;">size=<span style="color: #800000; font-weight: normal;">\tiny</span></span><span style="color: #E02020; ">}{</span><span style="color: #E02020; ">}</span>
+<span style="color: #2C922C; font-style: italic;">%-----------todo-------------------------------</span>
+<span style="color: #2C922C; font-style: italic;">%------------------------------------------------------------------------</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cgraphicspath"><span style="color: #800000;">graphicspath</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">{pic/</span><span style="color: #E02020; ">}}</span> 
+<span style="color: #800000; font-weight: normal;">\setbeamercovered</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">dynamic</span><span style="color: #E02020; ">}</span>
+<span style="color: #800000; font-weight: normal;">\beamertemplatetransparentcovereddynamic</span>    
+<span style="color: #800000; font-weight: normal;">\beamertemplateballitem</span>    
+<span style="color: #800000; font-weight: normal;">\beamertemplatenumberedballsectiontoc</span>    
+<span style="color: #800000; font-weight: normal;">\beamertemplateboldpartpage</span>    
+&nbsp;
+<span style="color: #800000; font-weight: normal;">\setbeamertemplate</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">caption</span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">numbered</span><span style="color: #E02020; ">]</span>
+<span style="color: #2C922C; font-style: italic;">%%this delete the naigation bar at bottom-right</span>
+<span style="color: #800000; font-weight: normal;">\setbeamertemplate</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">navigation symbols</span><span style="color: #E02020; ">}{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #E02020; ">}</span> 
+<span style="color: #800000; font-weight: normal;">\setbeamertemplate</span>{blocks</span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">rounded</span><span style="color: #E02020; ">][</span><span style="color: #C08020; font-weight: normal;">shadow=true</span><span style="color: #E02020; ">]</span>
+<span style="color: #2C922C; font-style: italic;">%-------------newcommand---------------------------------------------</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cnewcommand"><span style="color: #800000;">newcommand</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #800000; font-weight: normal;">\numcol</span></span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">1</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">{\<a href="http://www.golatex.de/wiki/index.php?title=%5Ccolor"><span style="color: #800000;">color</span></a>{blue</span><span style="color: #E02020; ">}{</span><span style="color: #2020C0; font-weight: normal;">#1</span><span style="color: #E02020; ">}}}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cnewcommand"><span style="color: #800000;">newcommand</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #800000; font-weight: normal;">\itemn</span></span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">1</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">\<a href="http://www.golatex.de/wiki/index.php?title=%5Citem"><span style="color: #800000;">item</span></a> {#1</span><span style="color: #E02020; ">}</span> <span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Chfill"><span style="color: #800000;">hfill</span></a> <span style="color: #E02020; ">\\}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cnewcommand"><span style="color: #800000;">newcommand</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #800000; font-weight: normal;">\graph</span></span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">1</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">\<a href="http://www.golatex.de/wiki/index.php?title=%5Cincludegraphics"><span style="color: #800000;">includegraphics</span></a><span style="color: #E02020; ">[</span><span style="color: #C08020; font-weight: normal;">width=\<a href="http://www.golatex.de/wiki/index.php?title=%5Ctextwidth"><span style="color: #800000;">textwidth</span></a>,
+height=0.8<span style="color: #800000; font-weight: normal;">\textheight</span>, keepaspectratio=true</span>]{#1</span><span style="color: #E02020; ">}}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cnewcommand"><span style="color: #800000;">newcommand</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #800000; font-weight: normal;">\graphe</span></span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">1</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">
+<span style="color: #C00000; font-weight: normal;">\begin</span><span style="color: #E02020; ">{</span><span style="color: #0000D0; font-weight: normal;">figure</span></span><span style="color: #E02020; ">}</span>
+  <span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Ccentering"><span style="color: #800000;">centering</span></a>
+  <span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cincludegraphics"><span style="color: #800000;">includegraphics</span></a><span style="color: #E02020; ">[</span><span style="color: #C08020; font-weight: normal;">width=\<a href="http://www.golatex.de/wiki/index.php?title=%5Ctextwidth"><span style="color: #800000;">textwidth</span></a>, height=0.8<span style="color: #800000; font-weight: normal;">\textheight</span>, keepaspectratio=true</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">#1</span><span style="color: #E02020; ">}</span>
+<span style="color: #C00000; font-weight: normal;">\end</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #0000D0; font-weight: normal;">figure</span></span><span style="color: #E02020; ">}}</span>
+<span style="color: #E02020; ">\</span><a href="http://www.golatex.de/wiki/index.php?title=%5Cnewcommand"><span style="color: #800000;">newcommand</span></a><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #800000; font-weight: normal;">\grapheTwo</span></span><span style="color: #E02020; ">}[</span><span style="color: #C08020; font-weight: normal;">4</span><span style="color: #E02020; ">]{</span><span style="color: #2020C0; font-weight: normal;">
+<span style="color: #C00000; font-weight: normal;">\begin</span><span style="color: #E02020; ">{</span><span style="color: #0000D0; font-weight: normal;">columns</span></span><span style="color: #E02020; ">}</span>
+  <span style="color: #C00000; font-weight: normal;">\begin</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #0000D0; font-weight: normal;">column</span></span><span style="color: #E02020; ">}{</span><span style="color: #2020C0; font-weight: normal;">#1\<a href="http://www.golatex.de/wiki/index.php?title=%5Ctextwidth"><span style="color: #800000;">textwidth</span></a></span><span style="color: #E02020; ">}</span>
+	<span style="color: #800000; font-weight: normal;">\graphe</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">#2</span><span style="color: #E02020; ">}</span>
+  <span style="color: #C00000; font-weight: normal;">\end</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #0000D0; font-weight: normal;">column</span></span><span style="color: #E02020; ">}</span>
+  <span style="color: #C00000; font-weight: normal;">\begin</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #0000D0; font-weight: normal;">column</span></span><span style="color: #E02020; ">}{</span><span style="color: #2020C0; font-weight: normal;">#3\<a href="http://www.golatex.de/wiki/index.php?title=%5Ctextwidth"><span style="color: #800000;">textwidth</span></a></span><span style="color: #E02020; ">}</span>
+	<span style="color: #800000; font-weight: normal;">\graphe</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;">#4</span><span style="color: #E02020; ">}</span>
+  <span style="color: #C00000; font-weight: normal;">\end</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #0000D0; font-weight: normal;">column</span></span><span style="color: #E02020; ">}</span>
+<span style="color: #C00000; font-weight: normal;">\end</span><span style="color: #E02020; ">{</span><span style="color: #2020C0; font-weight: normal;"><span style="color: #0000D0; font-weight: normal;">columns</span></span><span style="color: #E02020; ">}}</span></pre>
+      </td>
+    </tr>
+  </table>
+</div>
