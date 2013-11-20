@@ -11,11 +11,11 @@ pygments: true
 title : TianXia
 tagline: No idea
 author : Chen Tong
-  name : Chen Tong
-  email : chentong_biology@163.com
-  github : Tong-Chen
-  twitter : ct586
-  feedburner : feedname
+name : Chen Tong
+email : chentong_biology@163.com
+github : Tong-Chen
+twitter : ct586
+feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
