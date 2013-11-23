@@ -8,7 +8,7 @@
   <channel>
     <title>{{ site.author }}</title>
     <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
-    <link>http://yihui.name</link>
+	<link>http://{{ site.url }}</link>
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
     <webMaster>xie@yihui.name</webMaster>
     {% for post in site.posts limit:10 %}
