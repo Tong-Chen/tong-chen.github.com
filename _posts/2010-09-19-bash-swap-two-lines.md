@@ -14,7 +14,7 @@ tags:
       <td class="code" id="p171code3">
         <pre class="bash" style="font-family:monospace;"><span style="color: #666666; font-style: italic;">#!/bin/bash</span>
 <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #7a0874; font-weight: bold;">test</span> <span style="color: #007800;">$#</span> <span style="color: #660033;">-ne</span> <span style="color: #000000;">2</span>; <span style="color: #000000; font-weight: bold;">then</span>
-        <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #000000;">1</span><span style="color: #000000; font-weight: bold;">&</span>gt;<span style="color: #000000; font-weight: bold;">&</span>amp;<span style="color: #000000;">2</span> <span style="color: #ff0000;">"Usage rename.sh inputfile outputfile"</span>
+        <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #000000;">1</span><span style="color: #000000; font-weight: bold;">&</span>><span style="color: #000000; font-weight: bold;">&</span>amp;<span style="color: #000000;">2</span> <span style="color: #ff0000;">"Usage rename.sh inputfile outputfile"</span>
         <span style="color: #7a0874; font-weight: bold;">exit</span> <span style="color: #000000;">1</span>
 <span style="color: #000000; font-weight: bold;">fi</span>
 &nbsp;
