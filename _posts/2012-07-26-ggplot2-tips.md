@@ -1,6 +1,5 @@
 ---
 title: ggplot2 tips
-author: 悟道
 layout: post
 categories:
   - R
@@ -9,16 +8,15 @@ tags:
   - R
 ---
 
-1.General usages
+## General usages [click here to see list of opts](https://github.com/hadley/ggplot2/wiki/+opts%28%29-List)
 
 {% highlight r %}
 1.theme_get() will show you the "hidden" options that you can use in theme()
 2.?opts or ?themes
-3.List of opts: https://github.com/hadley/ggplot2/wiki/+opts%28%29-List
 {% endhighlight %}
 
 
-2.Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
+### Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
 
 {% highlight r %}
 #chang axis size
@@ -30,11 +28,12 @@ p + theme(axis.ticks=element\_blank(), axis.text.x=element\_blank(), \
 axis.text.y=element\_blank(),axis.ticks.x = element\_blank())  
 {% endhighlight %}
 
-3.Title, xlab, ylab
+#### Title, xlab, ylab
 
 {% highlight r %}
 #wrap the title, you can use "\n" to move the remaining text to a new line:
-#ggplot2 doesn't have "subtitle" functionality. But you can use the \n term in any of the labels to drop down a line.
+#ggplot2 doesn't have "subtitle" functionality. 
+#But you can use the \n term in any of the labels to drop down a line.
 theme(title="text \n more text")
 xlab(NULL) + ylab(NULL)
 {% endhighlight %}
@@ -142,6 +141,7 @@ sclale_y_continuous(breaks=c(8,16,100,128,512,1000))  #any number
 {% endhighlight %}
 
 19.  
+
 20.
 
 21.
