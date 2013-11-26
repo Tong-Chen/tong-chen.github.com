@@ -12,25 +12,25 @@ tags:
 **las **represents the style of axis labels.  
 (0=parallel, 1=all horizontal, 2=all perpendicular to axis, 3=all vertical)
 
-<pre class="brush: bash; title: ; notranslate" title="">par(las=1)
+{% highlight r %}
 plot(x,y,las=1)
-</pre>
+{% endhighlight %}
 
 2.生成一些列的颜色
 
-<pre class="brush: bash; title: ; notranslate" title="">&gt;cm.colors(10, alpha = 1)
+{% highlight r %}>cm.colors(10, alpha = 1)
 [1] "#80FFFFFF" "#99FFFFFF" "#B2FFFFFF" "#CCFFFFFF" "#E6FFFFFF" "#FFE6FFFF"
 [7] "#FFCCFFFF" "#FFB2FFFF" "#FF99FFFF" "#FF80FFFF"
-&gt;rainbow(n, s = 1, v = 1, start = 0, end = max(1, n - 1)/n, alpha = 1)
-&gt;heat.colors(n, alpha = 1)
-&gt;terrain.colors(n, alpha = 1)
-&gt;topo.colors(n, alpha = 1)
-&gt;cm.colors(n, alpha = 1)
-</pre>
+>rainbow(n, s = 1, v = 1, start = 0, end = max(1, n - 1)/n, alpha = 1)
+>heat.colors(n, alpha = 1)
+>terrain.colors(n, alpha = 1)
+>topo.colors(n, alpha = 1)
+>cm.colors(n, alpha = 1)
+{% endhighlight %}
 
 3. 画颜色梯度条
 
-<pre class="brush: bash; title: ; notranslate" title="">library(RColorBrewer)
+{% highlight r %}library(RColorBrewer)
 
 color.bar &lt;- function(lut, min, max=-min, nticks=11, ticks=seq(min, max, len=nticks), title='') 
 { 
@@ -44,15 +44,15 @@ color.bar &lt;- function(lut, min, max=-min, nticks=11, ticks=seq(min, max, len=
 }
 
 color.bar(colorRampPalette(c("light green", "yellow", "orange", "red"))(100), -1)
-</pre>
+{% endhighlight %}
 
 <http://stackoverflow.com/questions/9314658/colorbar-from-custom-colorramppalette></code>  
 <http://www.colbyimaging.com/wiki/statistics/color-bars> </blockquote> 
 
 4.多个图形置于一张图
 
-<pre class="brush: bash; title: ; notranslate" title="">par(mfrow=c(2,2))
-</pre>
+{% highlight r %}par(mfrow=c(2,2))
+{% endhighlight %}
 
 5.Text and Symbol Size
 
