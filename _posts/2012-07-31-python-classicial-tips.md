@@ -10,43 +10,45 @@ tags:
 
 1.字典生成
 
-<pre class="brush: python; title: ; notranslate" title="">#--a file---------
+{% highlight python %}
+#--a file---------
 chr1   1
 chr2   2
 #------end file----
-dict([line.strip().split() for line in open(file)])</pre>
+dict([line.strip().split() for line in open(file)])
+{% endhighlight %}
 
 2.区分Python2和Python3的判断
 
-<pre class="brush: python; title: ; notranslate" title="">if False: # check if print statement works, SyntaxError if it doesn't
+{% highlight python %}
+if False: # check if print statement works, SyntaxError if it doesn't
 	print 'This program does not work under python 3, run it in python 2.5/2.6/2.7'
-
-</pre>
-
-&nbsp;
-
-3.
+{% endhighlight %}
 
 &nbsp;
+
+3.python判断是否到文件结束
+{% highlight python %}
+if line: # not end
+		print 'Non-end'
+if line.strip()：# not blank line
+		print "Non-blank"
+{% endhighlight %}
+
 
 4.
 
-&nbsp;
 
 5.
 
-&nbsp;
 
 6.
 
-&nbsp;
 
 7.
 
-&nbsp;
 
 8.
 
-&nbsp;
 
 9.

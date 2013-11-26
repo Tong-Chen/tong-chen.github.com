@@ -8,15 +8,15 @@ tags:
 ---
 
 1. Check if an executable program is 32 bit or 64 bit.
-``` bash
+{% highlight bash %}
 file `which program-name`
-```
+{% endhighlight %}
 
 2. Set the value for executable files or libs
-``` bash
+{% highlight bash %}
 # For executable
 export PATH=${PATH}:/yourpath
 # Shared libraries
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/yourpatj
-```
+{% endhighlight %}
 
