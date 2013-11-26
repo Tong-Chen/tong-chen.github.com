@@ -12,8 +12,8 @@ tags:
 
 {% highlight python %}
 #--a file---------
-chr1   1
-chr2   2
+chr1	1
+chr2	2
 #------end file----
 dict([line.strip().split() for line in open(file)])
 {% endhighlight %}
