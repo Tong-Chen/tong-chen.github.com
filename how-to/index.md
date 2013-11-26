@@ -55,4 +55,4 @@ _Forward this domain to USERNAME.github.com may be worked well_
 [http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/](http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/)
 [http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html](http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html)
 [http://www.mceiba.com/develop/jekyll-introduction.html](http://www.mceiba.com/develop/jekyll-introduction.html)
-[http://jiyeqian.github.io/](http://jiyeqian.github.io/ "ptential module")
+[http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/](http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/)
