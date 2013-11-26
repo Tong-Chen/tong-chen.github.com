@@ -8,7 +8,9 @@ tags:
   - R
 ---
 
-## General usages [click here to see list of opts](https://github.com/hadley/ggplot2/wiki/+opts%28%29-List)
+##### General usages 
+
+[click here to see list of opts](https://github.com/hadley/ggplot2/wiki/+opts%28%29-List)
 
 {% highlight r %}
 1.theme_get() will show you the "hidden" options that you can use in theme()
@@ -16,7 +18,7 @@ tags:
 {% endhighlight %}
 
 
-### Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
+##### Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
 
 {% highlight r %}
 #chang axis size
