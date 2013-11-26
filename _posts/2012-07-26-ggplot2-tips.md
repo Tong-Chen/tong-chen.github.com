@@ -8,7 +8,7 @@ tags:
   - R
 ---
 
-##### General usages 
+##### -General usages 
 
 [click here to see list of opts](https://github.com/hadley/ggplot2/wiki/+opts%28%29-List)
 
@@ -18,7 +18,7 @@ tags:
 {% endhighlight %}
 
 
-##### Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
+##### -Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
 
 {% highlight r %}
 #chang axis size
@@ -30,7 +30,7 @@ p + theme(axis.ticks=element\_blank(), axis.text.x=element\_blank(), \
 axis.text.y=element\_blank(),axis.ticks.x = element\_blank())  
 {% endhighlight %}
 
-#### Title, xlab, ylab
+##### -Title, xlab, ylab
 
 {% highlight r %}
 #wrap the title, you can use "\n" to move the remaining text to a new line:
@@ -40,7 +40,7 @@ theme(title="text \n more text")
 xlab(NULL) + ylab(NULL)
 {% endhighlight %}
 
-4.Axis transform log [link](http://wiki.stdout.org/rcookbook/Graphs/Axes%20%28ggplot2%29/#axis-transformations-log-sqrt-etc)
+##### -Axis transform log [link](http://wiki.stdout.org/rcookbook/Graphs/Axes%20%28ggplot2%29/#axis-transformations-log-sqrt-etc)
 
 {% highlight r %}
 # A scatterplot with regular (linear) axis scaling
@@ -59,7 +59,7 @@ sp + coord_trans(y="log2")
 #So you need coord_trans(ytrans = "log2") instead of scale_y_log2()
 {% endhighlight %}
 
-5.operations for legends
+##### -operations for legends
 
 {% highlight r %}
 theme(legend.key.width=unit(1, "in"),
@@ -73,20 +73,20 @@ legend.justification = "center"
 )
 {% endhighlight %}
 
-7. Set the levl of legends
+##### -Set the levl of legends
 
 {% highlight r %}
 foomelt$COG <- factor(foomelt$COG, levels = unique(as.character(foo[[1]])), ordered=T)
 {% endhighlight %}
 
-8.facets
+##### facets
 
 {% highlight r %}
 facet_wrap(~Size,  ncol=6,  scale='free')   #horizontally , six pics one row, each pic can have different axis ranges(scale='free').
 Another solution for facets http://stackoverflow.com/questions/1532535/showing-multiple-axis-labels-using-ggplot2-with-facet-wrap-in-r
 {% endhighlight %}
 
-10.Add pearson coefficient [link](http://stackoverflow.com/questions/2050610/creating-a-facet-wrap-plot-with-ggplot2-with-different-annotations-in-each-plot)
+##### Add pearson coefficient [link](http://stackoverflow.com/questions/2050610/creating-a-facet-wrap-plot-with-ggplot2-with-different-annotations-in-each-plot)
 
 {% highlight r %}
 # Calculate correlation coefficient
@@ -97,7 +97,7 @@ with(mtcars,cor(wt, mpg, use = "everything", method = "pearson"))
 geom_text(data = data.frame(), aes(4.5, 30, label = "Pearson-R = -.87"))
 {% endhighlight %}
 
-11.Remove grid line and use white background
+##### Remove grid line and use white background
 
 {% highlight r %}
 theme_bw()
@@ -105,9 +105,9 @@ theme(panel.grid.major = element_blank(), #theme_blank for old version
 panel.grid.minor = element_blank())  #theme_blank for old version
 {% endhighlight %}
 
-15.[ggplot2 layout] (https://ggplot2-dev.googlegroups.com/attach/5aa16afece3d5bc6/theme0.html?gda=9XgBzEYAAABCncUW0npTUN_veVgl3inYi0oNsf4Sjxsz8g3AimkTHy2Q5nwgitdzQrQMmMK7aytx40jamwa1UURqDcgHarKEE-Ea7GxYMt0t6nY0uV5FIQ&view=1&part=4)
+##### [ggplot2 layout] (https://ggplot2-dev.googlegroups.com/attach/5aa16afece3d5bc6/theme0.html?gda=9XgBzEYAAABCncUW0npTUN_veVgl3inYi0oNsf4Sjxsz8g3AimkTHy2Q5nwgitdzQrQMmMK7aytx40jamwa1UURqDcgHarKEE-Ea7GxYMt0t6nY0uV5FIQ&view=1&part=4)
 
-16.geom_boxplot
+##### geom_boxplot
 
 {% highlight r %}
 1.Hidden outliers
@@ -118,7 +118,7 @@ ylim_zoomin <- c(stats[1]/2,stats[5]*2)
 p + coord_cartesian(ylim=ylim_zoomin)
 {% endhighlight %}
 
-17.manually set line type and lince color
+##### manually set line type and lince color
 
 {% highlight r %}
 ggplot(mort3, aes(x = year, y = BCmort, col = State, linetype = State)) +
@@ -133,7 +133,7 @@ scale_color_manual(values = c(rgb(255/255,0/255,0/255),rgb(0/255,255/255,0/255),
 [http://stackoverflow.com/questions/11344561/controlling-line-color-and-line-type-in-ggplot-legend]
 {% endhighlight %}
 
-18.manually set ytics and xtics
+##### manually set ytics and xtics
 
 {% highlight r %}
 scale_x_continuous(breaks=round(seq(min(dat$x), mx(dat$x), by=0.5),1))
@@ -142,19 +142,7 @@ sclale_y_continuous(breaks=c(8,16,100,128,512,1000))  #any number
 
 {% endhighlight %}
 
-19.  
-
-20.
-
-21.
-
-30.
-
-40.
-
-50.
-
-60.color define
+##### color define
 
 [color bars] (http://www.colbyimaging.com/wiki/statistics/color-bars)
 
