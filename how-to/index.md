@@ -4,17 +4,27 @@ title: The way to create this blog
 comments: yes
 ---
 
+There are three big steps listed below to construct a jekyll 
+blog if I understand right.
+
+* Accompliish the first step, you can write blogs already.
+* For me, the second step is only used for testing. A local server 
+may also be useful for you to browse blogs when you are off line.
+* The third step gives you a setted domain name. 
+
 #### Basic three steps
 1. Create a Github repository, names as `USERNAME`.github.com.
 
 2. Clone a constructed jekyll repository
-{% highlight bash %}
-git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
-{% endhighlight %}
+   {% highlight bash %}
+   git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
+   {% endhighlight %}
 
 3. Write blogs in _post folder according to Markdown syntax and push to Github.
 
-*Attention: Please be patient, it may take a while for your blog to be accessed.*
+*Attention: Please be patient, it may take a while (about 10 minutes) for your blog to be accessed.*
+
+Congratulations! You can write things now.
 
 #### Install local server
 Here only lists instructions for Windows system since I am not familar with it.
@@ -33,7 +43,7 @@ For Unix-like system, it should be very easy.
 *Local sever may be helpful for debugging you posts.*
 
 #### Get another domain name
-1. Get a free domain name from [dot.tk](www.dot.tk).
+1. Get a free domain name from [dot.tk](http://dot.tk).
 
 _Forward this domain to USERNAME.github.com may be worked well_
 
@@ -41,7 +51,7 @@ _Forward this domain to USERNAME.github.com may be worked well_
 
 2. Use [DNSpod](https://www.dnspod.cn/) to support domain name parsing.
   * Register at DNSpod and add the applied tk domain name.
-  * Use DNSpod supported DNS server like `f1g1ns.dnspod.net.` to set your domain name DNS at [dot.tk](dot.tk).
+  * Use DNSpod supported DNS server like `f1g1ns.dnspod.net.` to set your domain name DNS at [dot.tk](http://dot.tk).
   ![Set tk DNA server]({{ site.img_url }}/tk-set.png)
   * Manage domain `CNAME` and `A record` at DNApod.
   ![Set DNSpod]({{ site.img_url }}/DNApod-set.png)
