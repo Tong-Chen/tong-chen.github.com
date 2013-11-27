@@ -17,7 +17,7 @@ may also be useful for you to browse blogs when you are off line.
 
 2. Clone a constructed jekyll repository.
   * Linux: ```git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com```
-  * Windows: Fork the repository (jekyll-bootstrap) at <github.com> and clone it to local computer and put it into your local github repository. 
+  * Windows: Fork the repository [jekyll-bootstrap](https://github.com/plusjade/jekyll-bootstrap/fork) at [github.com] and clone it to local computer and put it into your local github repository. 
 
 3. Write blogs in _post folder according to Markdown syntax and push to Github.
 
