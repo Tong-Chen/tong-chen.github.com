@@ -16,9 +16,7 @@ may also be useful for you to browse blogs when you are off line.
 1. Create a Github repository, names as `USERNAME`.github.com.
 
 2. Clone a constructed jekyll repository
-  {% highlight bash %}
-  git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
-  {% endhighlight %}
+```git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com```
 
 3. Write blogs in _post folder according to Markdown syntax and push to Github.
 
