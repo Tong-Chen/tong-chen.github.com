@@ -17,11 +17,11 @@ may also be useful for you to browse blogs when you are off line.
 
 2. Clone a constructed jekyll repository.
   * Linux: ```git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com```
-  * Windows: Fork the repository [jekyll-bootstrap](https://github.com/plusjade/jekyll-bootstrap/fork) at [github](www.github.com) and clone it to local computer and put it into your local github repository. 
+  * Windows: Fork the repository [jekyll-bootstrap](https://github.com/plusjade/jekyll-bootstrap/fork) at [github](https://github.com) and clone it to local computer and put it into your local github repository. 
 
 3. Write blogs in _post folder according to Markdown syntax and push to Github.
 
-*Attention: Please be patient, it may take a while (about 10 minutes) for your blog to be accessed.*
+*Attention: Please be patient, it may take a while (about `10` minutes) for your blog to be accessed.*
 
 Congratulations! You can write things now.
 
@@ -59,9 +59,15 @@ _Forward this domain to USERNAME.github.com may be worked well_
 #### Refs
 
 [http://jekyllbootstrap.com/usage/jekyll-quick-start.html](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
 [http://jekyllrb.com/docs/templates/](http://jekyllrb.com/docs/templates/)
+
 [http://thinkinside.tk/2013/05/27/jekyll_mysite.html](http://thinkinside.tk/2013/05/27/jekyll_mysite.html)
+
 [http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/](http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/)
+
 [http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html](http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html)
+
 [http://www.mceiba.com/develop/jekyll-introduction.html](http://www.mceiba.com/develop/jekyll-introduction.html)
+
 [http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/](http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/)
