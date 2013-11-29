@@ -5,6 +5,10 @@ layout: post
 categories:
   - bash
   - tex
+  - article
+tag:
+  - bash
+  - tex
 ---
 
 <pre class="brush: bash; title: ; notranslate" title="">#!/bin/bash
