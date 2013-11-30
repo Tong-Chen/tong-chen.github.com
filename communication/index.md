@@ -6,6 +6,7 @@ layout: page
 <ul class="listing">
 {% for cat in site.categories %}
 {% if cat[0] == 'communication' %}
+{% if cat[1].size > 0 %}
 {% for post in cat[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -16,6 +17,7 @@ layout: page
   <li class="listing-item">
   <a href="{{ site.url }}" title="Too lazy to have a post">Return home</a>
   </li>
+{% endif %}
 {% endif %}
 {% endfor %}
 </ul>
