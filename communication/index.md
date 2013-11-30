@@ -12,6 +12,10 @@ layout: page
   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
+{% else %}
+  <li class="listing-item">
+  <a href="{{ site.url }}" title="Too lazy to have a post">Return home</a>
+  </li>
 {% endif %}
 {% endfor %}
 </ul>
