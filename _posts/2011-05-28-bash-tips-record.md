@@ -48,7 +48,7 @@ find . -name README -exec sed -i 's/pat/sub/g {} \;
 {% highlight vim %}
 cat file | tr -s  ''[:blank:]" "\n" | sort -n | sed -n '1p;$p'
 
-tr -s "[:blank:]" "\n" &lt;file | sort -n | sed '/^$/d' | sed -n '1p;$p'
+tr -s "[:blank:]" "\n" <file | sort -n | sed '/^$/d' | sed -n '1p;$p'
 {% endhighlight %}
 
 7.从文件中取出随机行或文件夹中取出随机文件
@@ -86,15 +86,15 @@ tr 'a-z' 'A-Z'  'small'
 
 declare -l m="HELLO"
 
-echo $m   (output&gt;:hello)
+echo $m   (output>:hello)
 
 declare -u m
 
-echo $m  (output&gt;:hello)
+echo $m  (output>:hello)
 
 m='cde'
 
-echo $m  (output&gt;:CDE)
+echo $m  (output>:CDE)
 {% endhighlight %}
 
 11.bash一行行读取文件
@@ -144,9 +144,9 @@ a[$j]=$i; j=`expr $j + 1`; done
 
 #second choice
 
-ls | grep 'DE$' | grep '-' &gt;tmp
+ls | grep 'DE$' | grep '-' >tmp
 
-read -a a &lt;tmp
+read -a a <tmp
 
 /bin/rm -f tmp
 
@@ -160,9 +160,9 @@ echo ${a[@]} #show all elements, so does ${a[*]}
 
 length=${#a[@]};
 
-for((i=0;i&lt;$[${length}-1]; i++)); do
+for((i=0;i<$[${length}-1]; i++)); do
 
-for((j=$[$i+1];j&lt;${length};j++)); do
+for((j=$[$i+1];j<${length};j++)); do
 
 if [ $i -eq 0 ]; then pre=`echo ${a[i]} | cut -d ' ' -f 1`;
 
@@ -212,9 +212,9 @@ killall -u user
 18.bash下diff比较标准输入的重定向
 
 {% highlight vim %}
-diff &lt;(sort file1)  &lt;(sort file2)
+diff <(sort file1)  <(sort file2)
 
-bash -c 'diff &lt;(sort file1)  &lt;(sort file2)'
+bash -c 'diff <(sort file1)  <(sort file2)'
 
 #To specify using bash command if you meets an error
 #when working on other types of term.
@@ -422,7 +422,7 @@ $cat a  [tab分割]
 
 3 c
 
-$paste -s &lt;(cut -f 1 a) &lt;(cut -f 2 a)
+$paste -s <(cut -f 1 a) <(cut -f 2 a)
 
 1 2 3
 
@@ -432,7 +432,7 @@ a b c
 34.sort排序，保留标题行http://forums.devshed.com/unix-help-35/sort-excluding-first-line-heading-line-183574.html
 
 {% highlight vim %}
-(  head -1 ${in:=dummy.txt} ; tail +2 $in | sort -u  ) &gt;  sort_$in
+(  head -1 ${in:=dummy.txt} ; tail +2 $in | sort -u  ) >  sort_$in
 在vi中使用
 :2,$!sort -u
 
@@ -449,7 +449,7 @@ grep [[:space:]] // 所有空白字符
 
 grep $'\t'
 
-&lt;/div&gt;
+</div>
 {% endhighlight %}
 
 36.for循环中使用后台运行【Both & and ; are line terminators, only one is enough.】
@@ -460,7 +460,7 @@ grep $'\t'
 for i in *.data; do nohup \
     awk 'BEGIN{OFS="\t"}{if(match($0, /^fixed/)) {split($0,  array,  " "); \
     chr=substr(array[2],7); start=substr(array[3], 7); step=substr(array[4],6); } \
-    else {end=start+step; print chr, start, end, $0; start=end} }' $i &gt;$i.bed & done
+    else {end=start+step; print chr, start, end, $0; start=end} }' $i >$i.bed & done
 {% endhighlight %}
 
 37.输出当前运行的bash文件所在目录
@@ -488,7 +488,7 @@ echo "Could not find python"
 
 fi
 
-if ! python --version &gt;/dev/null 2&gt;&1; then
+if ! python --version >/dev/null 2>&1; then
 
 echo "Could not find python"
 
@@ -500,7 +500,7 @@ fi
 {% highlight vim %}
 split -l 300 bigfile
 
-sort bigfile.aa &gt; bigfile.aa.sort
+sort bigfile.aa > bigfile.aa.sort
 
 sort -m *.sort
 
@@ -583,7 +583,7 @@ find -anewer file
 {% highlight vim %}
 ls -l | grep -P '^l' | awk 'BEGIN{OFS="\t"}{if($11~/^\/home\/CT/) \
     {gsub("/home","/oldhome",$11)}; if($11~/^\/media\//){gsub("/media","\~",$11)}; print "ln -sf ",$11,$9}' \
-    &gt;updateSOftLink.sh bash updateSOftLink.sh
+    >updateSOftLink.sh bash updateSOftLink.sh
 {% endhighlight %}
 
 45.批量删除断了的软连接 (search for and remove dead symbolic link)
@@ -597,7 +597,7 @@ find . -type l -print | xargs -r file | grep 'broken symbolic' | cut -d ":“ -f
 {% highlight vim %}
 如果当前是csh or tcsh
 
-cat &lt;&lt;END &gt;~/.login
+cat <<END >~/.login
 
 exec bash --login
 
@@ -605,7 +605,7 @@ END
 
 如果当前是sh或ksh
 
-cat&lt;&lt;END &gt;~/.profile
+cat<<END >~/.profile
 
 exec bash --login
 #[ -f /usr/gnu/bin/bash ] && exec /usr/gnu/bin/bash --login
@@ -688,8 +688,8 @@ shopt -s extdebug
 check_for_rm_star() {
   case $1 in
     (rm*[\ /]"* "* | rm*[\ /]\*)  #you can change rm to other commands
-      read -p "check_for_rm_star: Are you sure this is the right directory? " -n1 answer &lt; /dev/tty &gt; /dev/tty
-      echo &gt; /dev/tty
+      read -p "check_for_rm_star: Are you sure this is the right directory? " -n1 answer < /dev/tty > /dev/tty
+      echo > /dev/tty
       [[ $answer == [yY] ]]
   esac
 }
@@ -709,7 +709,7 @@ ls --color=always | less -R
 
 {% highlight vim %}
 #------------------------------------------
-for ((i=0;i&lt;10;i++)); do
+for ((i=0;i<10;i++)); do
     echo $i
 done
 
@@ -728,7 +728,7 @@ done
 #------------------------------------------
 i=1
 for day in Mon Tue Wed Thu Fri
-#&lt;"Mon Tue Wed Thu Fri"&gt; and &lt;Mon, Tue, Wed, Thu, Fri&gt; are unsuitable
+#<"Mon Tue Wed Thu Fri"> and <Mon, Tue, Wed, Thu, Fri> are unsuitable
 
 do
  echo "Weekday $((i++)) : $day"
@@ -738,7 +738,7 @@ done
 i=1
 weekdays="Mon Tue Wed Thu Fri"
 for day in $weekdays
-#Do not double quote &lt;$weekdays&gt; like "$weekdays" here
+#Do not double quote <$weekdays> like "$weekdays" here
 do
  echo "Weekday $((i++)) : $day"
 done
@@ -763,7 +763,7 @@ do
  echo "File $((i++)) : $file"
 done
 #------------------------------------------
-for ((i=1, j=10; i &lt;= 5 ; i++, j=j+5))
+for ((i=1, j=10; i <= 5 ; i++, j=j+5))
 do
  echo "Number $i: $j"
 done
@@ -818,7 +818,7 @@ sed 's/\(pat\)/ok \1 ok/'
 {% highlight vim %}
 sed = file(增加行号，并行号单独放在一行)
 sed = file | sed 'N;s/\n/\t/'（编号和行在同一行）
-sed = file | sed 's/^/&gt;locus/;N' （把文件转换为fasta格式,添加locus是为了避免fasta的序列标号以数字开头，这不被tcoffee识别）
+sed = file | sed 's/^/>locus/;N' （把文件转换为fasta格式,添加locus是为了避免fasta的序列标号以数字开头，这不被tcoffee识别）
 {% endhighlight %}
 
 6.sed在特定位置插入行 [\ 可能不需要]
@@ -908,9 +908,9 @@ Awk篇(默认用空格分割)
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{file="";
-    if(FNR==1) {print $0 &gt;"DhMR.high.2"; print $0 &gt;"DhMR.low.2";} \
-    else { if(($2+1)/($3+1) &gt; 2 && ($4+1)/($3+1) &gt; 2) {file="DhMR.high.2"; print $0 &gt;&gt;file;} \
-    else if (($2+1)/($3+1) &lt; 0.5 && ($4+1)/($3+1) &lt; 0.5) {file="DhMR.low.2"; print $0 &gt;&gt;file;}}}'
+    if(FNR==1) {print $0 >"DhMR.high.2"; print $0 >"DhMR.low.2";} \
+    else { if(($2+1)/($3+1) > 2 && ($4+1)/($3+1) > 2) {file="DhMR.high.2"; print $0 >>file;} \
+    else if (($2+1)/($3+1) < 0.5 && ($4+1)/($3+1) < 0.5) {file="DhMR.low.2"; print $0 >>file;}}}'
 
 {% endhighlight %}
 
@@ -929,28 +929,28 @@ awk '{ss=$1;$1=$2;$2=ss; print $0}' awk 'BEGIN{FS="\t";OFS="\t"}{ss=$1;$1=$2;$2=
 3.求文件一行的最小值
 
 {% highlight vim %}
-awk 'a=$1{for(i=2;i&lt;=NF;i++)if($i&lt;a)a=$1;print a}' file
+awk 'a=$1{for(i=2;i<=NF;i++)if($i<a)a=$1;print a}' file
 {% endhighlight %}
 
 4.求文件所有数值的最小值
 
 {% highlight vim %}
-awk 'NR==1{a=$1}{for(i=2;i&lt;=NF;i++)if($i&lt;a)a=$i}END{print a}' file
+awk 'NR==1{a=$1}{for(i=2;i<=NF;i++)if($i<a)a=$i}END{print a}' file
 {% endhighlight %}
 
 5.求文件每一列的平均值
 
 {% highlight vim %}
-awk '{for(i=1;i&lt;=NF;i++)a[i]+=$i}END{for(i=1;i&lt;=NF;i++)print a[i]/NR}' file
+awk '{for(i=1;i<=NF;i++)a[i]+=$i}END{for(i=1;i<=NF;i++)print a[i]/NR}' file
 {% endhighlight %}
 
 6.awk if else if else
 
 {% highlight vim %}
-cat &lt;&lt;END &gt;grade.awk
-f ( avg &gt;= 90 ) grade="A";
-else if ( avg &gt;= 80) grade ="B";
-else if (avg &gt;= 70) grade ="C";
+cat <<END >grade.awk
+f ( avg >= 90 ) grade="A";
+else if ( avg >= 80) grade ="B";
+else if (avg >= 70) grade ="C";
 else grade="D";
 END
 
@@ -1036,13 +1036,13 @@ C：44；433
 awk '{a[$1]=a[$1]" "$2}END{for(i in a)print i,a[i]}' test.txt |awk '{print $1":",$2";",$3}'
 
 awk 'BEGIN{OFS="\t";FS="\t"}{key=$1"\t"$2"\t"$3; if (! a[key]) a[key]=$4; \
-    else if ($4&gt;a[key]) a[key]=$4; }END{for (i in a ) print i,a[i]}'
+    else if ($4>a[key]) a[key]=$4; }END{for (i in a ) print i,a[i]}'
 {% endhighlight %}
 
 14.按行统计字符出现次数
 
 {% highlight vim %}
-awk -F'[XY]' 'NF&gt;1{t+=NF-1}END{print t}' input
+awk -F'[XY]' 'NF>1{t+=NF-1}END{print t}' input
 
 {% endhighlight %}
 
@@ -1077,9 +1077,9 @@ awk -v v1=$v1 -v v2=$V2 '{ print "shell root value - " v1, v2}'
 19.awk匹配含有特定字符串的列
 
 {% highlight vim %}
-awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i&lt;=NF;i++) if ($i ~ /MIR/) print $i}'
+awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i<=NF;i++) if ($i ~ /MIR/) print $i}'
 
-awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i&lt;=NF;i++) if ($i ~ "MIR") print $i}'
+awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i<=NF;i++) if ($i ~ "MIR") print $i}'
 {% endhighlight %}
 
 20.awk计算对数
@@ -1106,7 +1106,7 @@ cat file2 | awk 'BEGIN{OFS="\t";FS="\t"}ARGIND==1{a[$4]=a[$4]"\n"$0}ARGIND==2{$0
 {% highlight vim %}
 awk 'BEGIN {OFS="\t";FS="\t"}
 {
-    getline f2line &lt; "file2"
+    getline f2line < "file2"
     f2line_len = split(f2line,f2line_L,FS)
     print $1,f2line[1]
 } '  file1
@@ -1119,7 +1119,7 @@ awk 'BEGIN {OFS="\t";FS="\t"}
 &nbsp;
 
 {% highlight vim %}
-while ((getline line &lt; "file") &gt; 0)
+while ((getline line < "file") > 0)
     print line
 close("file")
 
@@ -1128,7 +1128,7 @@ close("file")
 23.awk写入多个文件，根据文件内部条件写入不同文件
 
 {% highlight vim %}
-awk 'BEGIN{OFS="\t";FS="\t"}{print $2 &gt;$1}' file
+awk 'BEGIN{OFS="\t";FS="\t"}{print $2 >$1}' file
 {% endhighlight %}
 
 24.awk去除数字小数位
@@ -1146,20 +1146,20 @@ awk 'BEGIN{OFS="\t";FS="\t"}{print $1，int($2+0.5)}' file
 28.awk输出到标准错误并退出 [错误的用法]
 
 {% highlight vim %}
-awk 'BEGIN{OFS="\t";FS="\t"}{print $0 &gt;"&2"; exit;}' file
+awk 'BEGIN{OFS="\t";FS="\t"}{print $0 >"&2"; exit;}' file
 
 {% endhighlight %}
 
 29.awk格式化输出
 
 {% highlight vim %}
-&gt;echo "12345 0.618" | awk '{printf("%s\t%f\n", $1,$2)}'
+>echo "12345 0.618" | awk '{printf("%s\t%f\n", $1,$2)}'
 12345	0.618000
-&gt;echo "12345 0.618" | awk '{printf("%s\t%.2f\n", $1,$2)}'
+>echo "12345 0.618" | awk '{printf("%s\t%.2f\n", $1,$2)}'
 12345	0.62
-&gt;echo "12345 0.618" | awk '{printf("%s\t%.1f\n", $1,$2)}'
+>echo "12345 0.618" | awk '{printf("%s\t%.1f\n", $1,$2)}'
 12345	0.6
-&gt;echo "12345 0.618" | awk '{printf("%s\t%.0f\n", $1,$2)}'
+>echo "12345 0.618" | awk '{printf("%s\t%.0f\n", $1,$2)}'
 12345	1
 
 {% endhighlight %}
@@ -1167,7 +1167,7 @@ awk 'BEGIN{OFS="\t";FS="\t"}{print $0 &gt;"&2"; exit;}' file
 30.awk中自定义函数
 
 {% highlight vim %}
-awk 'function abs(x){return ((x &lt; 0.0) ? -x : x)}BEGIN{OFS="\t";FS="\t"}{pos[1]=$1;pos[2]=$2;pos[3]=$3;pos[4]=$4; len=asort(pos);for(i=len;i&gt;1;i--) print abs(pos[i]-pos[i-1]);}'
+awk 'function abs(x){return ((x < 0.0) ? -x : x)}BEGIN{OFS="\t";FS="\t"}{pos[1]=$1;pos[2]=$2;pos[3]=$3;pos[4]=$4; len=asort(pos);for(i=len;i>1;i--) print abs(pos[i]-pos[i-1]);}'
 
 {% endhighlight %}
 
@@ -1190,7 +1190,7 @@ echo `perl -e "print '-' x 10"`
 2.统计一个字符的出现次数
 
 {% highlight vim %}
-perl -e 'while (&lt;&gt;){$count+=s/char//g;} print "$count\n"' filename
+perl -e 'while (<>){$count+=s/char//g;} print "$count\n"' filename
 
 perl -en '$count += s/char//g; print "$count\n"' filename | tail -n 1
 
@@ -1200,7 +1200,7 @@ echo '12,21,23,' | perl -nle '$t +=tr/,//;print ++$t if eof'
 3.匹配并且利用
 
 {% highlight vim %}
-perl -ne 'print if /AS:i:(\d+)/&&$1&gt;=400' in.sam
+perl -ne 'print if /AS:i:(\d+)/&&$1>=400' in.sam
 {% endhighlight %}
 
 4.
