@@ -15,11 +15,9 @@
     <div id="container">
       <div id="main" role="main">
         <header>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <div style="font-family:'Electrolize',sans-serif;color:#00F;font-size:1.1em;text-transform:uppercase; display:block;background-color:#D2CBCB;text-align:center">
-          <span><a title="home page" href="{{ site.url }}/">HOME</a></span>
-		  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <h1 align="right">{{ site.main_title }}</h1>
+		</header>
+        <div style="font-family:'Electrolize',sans-serif;color:#00F;font-size:1.1em;text-transform:uppercase; display:block; background-color:#D2CBCB;text-align:right">
           <span><a title="Article" href="{{ site.url }}/article/">ARTICLE</a></span>
 		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span><a title="Letter" class="" href="{{ site.url }}/letter/">LETTER</a></span>
@@ -27,6 +25,13 @@
           <span><a title="Review" class="" href="{{ site.url }}/review/">REVIEW</a></span>
 		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span><a title="Communication" class="" href="{{ site.url }}/communication/">COMMUNICATION</a></span>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><a title="home page" href="{{ site.url }}/">HOME</a></span>
+		</div>
+		<div>
+        <header>
+        <h1>{{ page.title }}</h1>
+		</header>
 		</div>
         <nav>
         <span><a title="home page" class="" href="{{ site.url }}/">home</a></span>
