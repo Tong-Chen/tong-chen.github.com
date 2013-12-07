@@ -5,6 +5,7 @@ layout: post
 categories:
   - scripts
   - python
+  - scripts
 tags:
   - python
 ---

@@ -3,6 +3,7 @@ title: Collected tips for linux usage
 layout: post
 categories:
 - linux
+- letter
 tags:
 - linux
 ---

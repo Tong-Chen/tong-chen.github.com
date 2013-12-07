@@ -3,6 +3,7 @@ title: ggplot2 tips
 layout: post
 categories:
   - R
+  - letter
 tags:
   - ggplot2
   - R

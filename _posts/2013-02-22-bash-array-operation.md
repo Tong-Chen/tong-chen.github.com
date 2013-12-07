@@ -4,6 +4,7 @@ author: 悟道
 layout: post
 categories:
   - bash
+  - letter
 ---
 
 1.数组声明和赋值

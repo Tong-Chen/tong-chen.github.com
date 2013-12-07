@@ -4,52 +4,52 @@ author: 悟道
 layout: post
 categories:
   - php
+  - letter
 tags:
   - php
 ---
+<pre>
+<html>
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;html&gt;
-
-&lt;head&gt;
-&lt;title&gt;
+<head>
+<title>
 Homework
-&lt;/title&gt;
-&lt;/head&gt;
+</title>
+</head>
 
-&lt;body&gt;
+<body>
 
-Please give us a sequence in fasta format:&lt;br/&gt;
+Please give us a sequence in fasta format:<br/>
 
-&lt;form method="post" action="b.php"&gt;
+<form method="post" action="b.php">
 
-&lt;textarea name="texttext1" rows="10" cols="80" &gt;&lt;/textarea&gt;
+<textarea name="texttext1" rows="10" cols="80" ></textarea>
 
-&lt;p&gt;Length(k):
-&lt;input type="text" name="len_k" value="6" /&gt;
-&lt;/p&gt;
-&lt;input type="submit" value="Submit" &gt;
-&lt;/input&gt;
+<p>Length(k):
+<input type="text" name="len_k" value="6" />
+</p>
+<input type="submit" value="Submit" >
+</input>
 
-&lt;/form&gt;
+</form>
 
-&lt;/body&gt;
+</body>
 
-&lt;/html&gt;
-
-
+</html>
 
 </pre>
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php
+<pre>
+<?php
 $my_input=$_POST["texttext1"];
 $k=$_POST["len_k"];
 // Parse fasta
 $lines=split("\n", $my_input);
 $description=array();
 $linked_seq=array();
-for($i=0,$j=-1;$i&lt;sizeof($lines);$i++){
- if ($lines[$i][0]=="&gt;"){
-  $locus = str_replace('&gt;','',trim($lines[$i]));
+for($i=0,$j=-1;$i<sizeof($lines);$i++){
+ if ($lines[$i][0]==">"){
+  $locus = str_replace('>','',trim($lines[$i]));
   $description[]=$locus;
   $j++;
  }else {
@@ -64,31 +64,29 @@ if( mysqli_connect_errno()){
 }
 //-----table-----------------------------------------------------
 $query = "DROP TABLE IF EXISTS query;";
-$result=$db-&gt;query($query);
+$result=$db->query($query);
 $query = "create table query ( id int unsigned not null auto_increment primary key, `desc` text, seq text);";
-$result=$db-&gt;query($query);
+$result=$db->query($query);
 //-----table-----------------------------------------------------
 $tables=array('query','dbseq');
-for ($i=0;$i&lt;sizeof($description);$i++){  
+for ($i=0;$i<sizeof($description);$i++){  
   $segs=str_split($linked_seq[$i],$k);
-  for ($j=0;$j&lt;sizeof($segs);$j++){
+  for ($j=0;$j<sizeof($segs);$j++){
     $query = "INSERT INTO " . $tables[$i] . " (`desc`, seq) values ('$description[$i]', '$segs[$j]');";
-    $result=$db-&gt;query($query);
+    $result=$db->query($query);
   }
 }
 //--------select and display-------------------------------------------------
-echo "&lt;hr&gt;";
+echo "<hr>";
 $query="select * from query";
-$result=$db-&gt;query($query);
-echo "Sequences in table query&lt;br/&gt;&lt;br/&gt;";
-while ($row=$result-&gt;fetch_row()){
-    echo $row[0].' | '.$row[1].' | '.$row[2].'&lt;/br&gt;';
+$result=$db->query($query);
+echo "Sequences in table query<br/><br/>";
+while ($row=$result->fetch_row()){
+    echo $row[0].' | '.$row[1].' | '.$row[2].'</br>';
 }
-$db-&gt;close();
-?&gt;
+$db->close();
+?>
 
 </pre>
-
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;  
 1.修改完html之后，先刷新再调用。  
 2.
