@@ -4,6 +4,7 @@ author: 悟道
 layout: post
 categories:
   - octave
+  - letter
 tags:
   - octave
 ---

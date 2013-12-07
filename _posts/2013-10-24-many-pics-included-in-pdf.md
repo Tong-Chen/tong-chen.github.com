@@ -5,7 +5,7 @@ layout: post
 categories:
   - bash
   - tex
-  - article
+  - scripts
 tag:
   - bash
   - tex

@@ -4,6 +4,8 @@ author: 悟道
 layout: post
 categories:
   - seq
+  - NGS
+  - letter
 tags:
   - igv
 ---

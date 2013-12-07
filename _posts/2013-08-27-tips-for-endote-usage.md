@@ -5,6 +5,7 @@ layout: post
 categories:
   - biology
   - literature
+  - letter
 ---
 
 # **1. Right journal abbrevation**

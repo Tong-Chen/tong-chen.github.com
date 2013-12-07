@@ -4,6 +4,8 @@ author: 悟道
 layout: post
 categories:
   - seq
+  - NGS
+  - letter
 ---
 
 1.Get the type of each transcripts
