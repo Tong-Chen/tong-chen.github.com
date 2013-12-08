@@ -36,16 +36,16 @@ chown -R www-data.www-data /var/www/gw/cgi-bin/
 {% highlight bash %}
 /etc/apache2$ cat httpd.conf
 XBitHack on
-&lt;Directory /var/www/gw&gt;
+<Directory /var/www/gw>
 	AllowOverride AuthConfig
 	Options +Includes
-&lt;/Directory&gt;
+</Directory>
 
  # the ScriptAlias directive is crucial
 
 ScriptAlias /gw/cgi-bin /var/www/gw/cgi-bin
 
-&lt;Directory "/var/www/gw/cgi-bin"&gt;
+<Directory "/var/www/gw/cgi-bin">
 
 	AllowOverride None
 	Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
@@ -54,7 +54,7 @@ ScriptAlias /gw/cgi-bin /var/www/gw/cgi-bin
 	Allow from all
 	AddHandler cgi-script cgi pl
 
-&lt;/Directory&gt;
+</Directory>
 
 {% endhighlight %}
 
@@ -114,11 +114,11 @@ ln -s /var/www/gw/style/ /usr/local/apache/htdocs/style
 
 {% highlight bash %}
 wget http://hgdownload.cse.ucsc.edu/admin/hgcentral.sql
-mysql -u&lt;high-user&gt; -p&lt;passwd&gt; -e 'create database hgcentral'
-mysql -u&lt;high-user&gt; -p&lt;passwd&gt; -e &quot;grant all privileges on hgcentral.* to 'gw'@'localhost'&quot;
-mysql -ugw -p qazplm_gw hgcentral &lt;hgcentral.sql
-mysql -u&lt;high-user&gt; -p&lt;passwd&gt; -e 'create database hgFixed'
-mysql -u&lt;high-user&gt; -p&lt;passwd&gt; -e &quot;grant select on hgFixed.* to 'gw'@'localhost'
+mysql -u<high-user> -p<passwd> -e 'create database hgcentral'
+mysql -u<high-user> -p<passwd> -e &quot;grant all privileges on hgcentral.* to 'gw'@'localhost'&quot;
+mysql -ugw -p qazplm_gw hgcentral <hgcentral.sql
+mysql -u<high-user> -p<passwd> -e 'create database hgFixed'
+mysql -u<high-user> -p<passwd> -e &quot;grant select on hgFixed.* to 'gw'@'localhost'
 
 {% endhighlight %}
 
@@ -193,11 +193,13 @@ ln -s /home/genomebrowser/gbdb /gbdb
 
 {% endhighlight %}
 
-14.访问链接<http://localhost/gw/cgi-bin/hgGateway?db=mm9>
+14.访问链接[http://localhost/gw/cgi-bin/hgGateway?db=mm9](http://localhost/gw/cgi-bin/hgGateway?db=mm9)
 
-安装参考：http://blog.sciencenet.cn/blog-723745-569746.html
+安装参考：
 
-http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/
+[http://blog.sciencenet.cn/blog-723745-569746.html](http://blog.sciencenet.cn/blog-723745-569746.html)
+
+[http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/](http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/)
 
 15.构建UCSC hubtrack
 
@@ -843,14 +845,14 @@ a. To print or save the image to a file:
   </tr>
 </table>
 
-<pre>b.We will work on fixing it, but in the
-&gt; &gt; meantime, you can still get to the page where you can export .eps files
-&gt; &gt; by altering your URL. If you add "hgGenome_doPsOutput=1" right after
-&gt; &gt; the "?" and add an "&" right after it, you should get to the
-&gt; &gt; "PostScript/PDF Output" screen. Your altered URL will look something
-&gt; &gt; like this:
-&gt; &gt;
-&gt; &gt; 
-&gt; <a href="http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red" target="_blank">http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput= 1&hgsid=301123643&clade=mammal&org=Human&db= hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19 _1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blu e&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_ 1_2=red</a>
+b.We will work on fixing it, but in the
+> > meantime, you can still get to the page where you can export .eps files
+> > by altering your URL. If you add "hgGenome_doPsOutput=1" right after
+> > the "?" and add an "&" right after it, you should get to the
+> > "PostScript/PDF Output" screen. Your altered URL will look something
+> > like this:
+> >
+> > 
+> <a href="http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red" target="_blank">http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput= 1&hgsid=301123643&clade=mammal&org=Human&db= hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19 _1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blu e&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_ 1_2=red</a>
 <a href="http://redmine.soe.ucsc.edu/forum/index.php?t=msg&goto=11357&S=5c52b567667756e3c66db0714f1f779f">http://redmine.soe.ucsc.edu/forum/index.php?t=msg&goto=11357&S=5c52b567667756e3c66db0714f1f779f</a>
-</pre>
+
