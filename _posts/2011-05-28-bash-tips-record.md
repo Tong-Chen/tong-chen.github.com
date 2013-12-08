@@ -11,13 +11,9 @@ tags:
   - sed
 ---
 
-#############################################################################  
-由于高开始使用的高亮工具wp-code在“可视化”和“文本”两个模式下切换操作时会发生字符的转移问。  
-现在更换了新的语法高亮工具，因此可能存在部分html字符或引号使用不当的地方，正在着力修改，也请读者发现后指出。  
-#############################################################################  
 这篇日志记录使用到的快捷bash，sed，awk脚本。
 
-Bash篇
+##### Bash篇
 
 1.输出指定行(第k行，包括k行)及其后面所有行，用于去除文件头
 
@@ -25,8 +21,19 @@ Bash篇
 tail -n +k filename
 {% endhighlight %}
 
-2.
-
+2.Record the typescripts of everything printed on your terminal
+{% highlight bash %}
+#-t 2>script.time: save timeing data to stderr and redirect to script.time
+#-a : append output to already existed files to retain the prior contents
+#-f ：flush outpput after each wrie to facilitate real-timely surprise
+#.cmdscript：record typescripts in this file
+$script -t 2>script.time -a -f .cmdscript
+$run-commands
+#display the recored commands, the time file should be given before command-file
+#after hit the 'Enter'，wait and watch
+$scriptrereplay script.time .cmdscript
+#One can also use `grep` to select some commands to check.
+{% endhighlight %}
 3.拷贝一个文件到当前目录的所有子目录(可以使用-maxdepth指定子文件级数)
 
 {% highlight vim %}
