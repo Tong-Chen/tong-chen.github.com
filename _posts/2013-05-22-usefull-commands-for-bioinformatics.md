@@ -23,13 +23,13 @@ I usually use this online tool.
 
 Still, there are several ways to do this which I have not tested.
 
-* scripture
+* [scripture](http://www.broadinstitute.org/software/scripture/)
 
     > java -Xmx1000m -jar <path_to_scripture>/scripture_alpha2.jar -task toGFF -cufflinks -in your_file.bed -source SCRIPTURE -out your_file.gtf
 
 * bedToGenePred
 
-    > bedToGenePred input.bed stdout | genePredToGtf file stdin output.gtf [I do not find `bedToGenePred` in ucsc]
+> bedToGenePred input.bed stdout | genePredToGtf file stdin output.gtf [I do not find `bedToGenePred` in ucsc]
 
 * one-line script
 
@@ -56,10 +56,10 @@ Still, there are several ways to do this which I have not tested.
 * Extract FATSA sequence for `gtf` file
     * gffread from [cufflinks](http://cufflinks.cbcb.umd.edu/gff.html)  
 
-    ```gffread -w output.fa -g gename_assembl.fa refgene.gtf```
+>> gffread -w output.fa -g gename_assembl.fa refgene.gtf
 
 * Extract FATSA sequence for `bed` file
     * I recmmend my script [seqExtract.3.py](https://github.com/Tong-Chen/NGS/blob/master/seqExtract.3.py) 
 
-``` seqExtract.3.py -i genome.fa -b "bed1,bed2..."```
+>> seqExtract.3.py -i genome.fa -b "bed1,bed2..."
  	
