@@ -25,11 +25,11 @@ Still, there are several ways to do this which I have not tested.
 
 * scripture
 
-> java -Xmx1000m -jar <path_to_scripture>/scripture_alpha2.jar -task toGFF -cufflinks -in your_file.bed -source SCRIPTURE -out your_file.gtf
+    > java -Xmx1000m -jar <path_to_scripture>/scripture_alpha2.jar -task toGFF -cufflinks -in your_file.bed -source SCRIPTURE -out your_file.gtf
 
 * bedToGenePred
 
-> bedToGenePred input.bed stdout | genePredToGtf file stdin output.gtf [I do not find `bedToGenePred` in ucsc]
+    > bedToGenePred input.bed stdout | genePredToGtf file stdin output.gtf [I do not find `bedToGenePred` in ucsc]
 
 * one-line script
 
