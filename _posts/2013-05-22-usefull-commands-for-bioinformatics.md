@@ -40,16 +40,18 @@ $ gtf2bed < foo.gtf | sort-bed - > foo.bed #< a file simply means read in the fi
 $ perl gtf2bed.pl input.gtf > output.bed 
 
 * If you want to get the 5'UTR, CDS, 3'UTR, start-codon and stop codon separately, I recommend use my own script [parseGTF.py](https://github.com/Tong-Chen/NGS/blob/master/parseGTF.py). Please see detailed usage for this script in [parseGTF](http://tianxia-world.tk/2013/03/parsegtf-py/).
-[sortGTF.py](https://github.com/Tong-Chen/NGS/blob/master/sortGTF.py) gtf-file >sorted.gtf-file
+
+>[sortGTF.py](https://github.com/Tong-Chen/NGS/blob/master/sortGTF.py) gtf-file >sorted.gtf-file
 > 
 > [parseGTF.py](https://github.com/Tong-Chen/NGS/blob/master/parseGTF.py) sorted.gtf-file chrom-sizes-file >gtf.bed
 
 #### Sequence extraction
 * Extract FATSA sequence for `gtf` file
     * gffread from [cufflinks](http://cufflinks.cbcb.umd.edu/gff.html)  
+
 >gffread -w output.fa -g gename_assembl.fa refgene.gtf
 * Extract FATSA sequence for `bed` file
     * I recmmend my script [seqExtract.3.py](https://github.com/Tong-Chen/NGS/blob/master/seqExtract.3.py) 
-> seqExtract.3.py -i genome.fa -b "bed1,bed2..."
 
+> seqExtract.3.py -i genome.fa -b "bed1,bed2..."
  	
