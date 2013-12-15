@@ -37,9 +37,10 @@ parseGTF.py mm9.gene.refgene.sorted.gtf mm9.chrom.sizes >mm9.gene.refgene.gtf.be
 
 
 #####File formats
-* [Input file][] format
-* Output file
+
+* Output file format
   * TSS represents transcription start site while TTS represents translation terminal site.
+
 > chr17	25377309	25377388	NM_026676_11.Intron.1	0	+
 
 > chr17	25377197	25377309	NM_026676_11.Coding_exon.1	0	+
@@ -100,8 +101,8 @@ parseGTF.py mm9.gene.refgene.sorted.gtf mm9.chrom.sizes >mm9.gene.refgene.gtf.be
 
 > chr17	25379606	25379744	NM_026676_11.UTR3	0	+
 
-
-##### All types of special GTF structures processed during writing scripts [Input file] #####
+* Input file format
+    * All types of special GTF structures processed during writing scripts
 > chr2	refGene	stop_codon	176083705	176083707	.	-	0	gene_id "100043387"; transcript_id "NM_001099327"; exon_number "1"; exon_id "NM_001099327.1"; gene_name "100043387";
 
 > chr2	refGene	exon	176083705	176085010	.	-	.	gene_id "100043387"; transcript_id "NM_001099327"; exon_number "1"; exon_id "NM_001099327.1"; gene_name "100043387";
