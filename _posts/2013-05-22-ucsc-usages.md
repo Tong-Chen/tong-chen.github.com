@@ -33,23 +33,36 @@ fetchChromSizes mm9 > mm9.chrom.sizes
     * Change `table` from `refGene` to `refSeqStatus` in above picture.
     * Click `describe table schema` to see the description of each table. Here lists the information for reference.
 
+
 > --Status
+
 >     'Unknown', 'Reviewed', 'Validated', 'Provisional', 'Predicted', 'Inferred'
+
 > --Molecular type
+
 >     'DNA', 'RNA', 'ds-RNA', 'ds-mRNA', 'ds-rRNA', 'mRNA', 'ms-DNA', 'ms-RNA', 'rRNA', 'scRNA',
+
 >     'snRNA', 'snoRNA', 'ss-DNA', 'ss-RNA', 'ss-snoRNA', 'tRNA', 'cRNA', 'ss-cRNA', 'ds-cRNA', 'ms-rRNA'
 
 * For Ensemble genes
     * From track `ensemblGenes` and table `ensemblSource`.
     * Click `describe table schema` to see the description of each table. Here lists the information for reference.
 
+
 > name	source
+
 > ENSMUST00000160944	transcribed_unprocessed_pseudogene
+
 > ENSMUST00000082908	snRNA
+
 > ENSMUST00000162897	processed_transcript
+
 > ENSMUST00000159265	processed_transcript
+
 > ENSMUST00000070533	protein_coding
+
 > ENSMUST00000161581	antisense
+
 > ENSMUST00000157765	snRNA
 
 * Please also refer to [http://asia.ensembl.org/info/docs/genebuild/ncrna.html](http://asia.ensembl.org/info/docs/genebuild/ncrna.html) and [http://redmine.soe.ucsc.edu/forum/index.php?t=msg&#038;goto=12047&#038;S=03eba72760c0c4d83c9a2327810936cb](http://redmine.soe.ucsc.edu/forum/index.php?t=msg&#038;goto=12047&#038;S=03eba72760c0c4d83c9a2327810936cb).
