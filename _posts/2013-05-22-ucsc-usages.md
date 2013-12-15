@@ -20,7 +20,7 @@ Open [UCSC table browser](http://genome.ucsc.edu/cgi-bin/hgTables) and fill the 
 ![Sub-gene annotation file in Bed format]({{ site.img_url }}/UCSC-refgene-bed-1.jpg "Get sub-gene annotation file in Bed format")
 
 ##### Get chromosome size file or genome size file
-{% highlight bahs %}
+{% highlight bash %}
 mysql --user=genome --host=genome-mysql.cse.ucsc.edu -A -e \
 	"select chrom, size from hg19.chromInfo" > hg19.chromsome.size
 #or
