@@ -38,7 +38,7 @@ parseGTF.py mm9.gene.refgene.sorted.gtf mm9.chrom.sizes >mm9.gene.refgene.gtf.be
 #####File formats
 
 * Output file format
-  * TSS represents transcription start site while TTS represents translation terminal site.
+  * TSS represents transcription start site while TTS represents translation terminal site. TSS500 represents 500 nt regions centered by TSS. TSS-UP0-500 represents the upstream 500 nt regions of TSS. TSS-DW0-500 represents the downstream 500 nt regions of TSS.
 
 > chr17	25377309	25377388	NM\_026676\_11.Intron.1	0	+
 
