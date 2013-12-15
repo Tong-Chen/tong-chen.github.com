@@ -2,7 +2,6 @@
 title: Documents for using parseGTF.py
 layout: post
 categories:
-  - scripts
   - python
   - scripts
 tags:
