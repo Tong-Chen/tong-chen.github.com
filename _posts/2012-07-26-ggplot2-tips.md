@@ -17,6 +17,19 @@ tags:
 3. `args(function_name)` will list the arguments for this function
 4. The alpha channel is normally used as an opacity channel. If a pixel has a value of 0% in its alpha channel, it is fully transparent (and, thus, invisible), whereas a value of 100% in the alpha channel gives a fully opaque pixel (traditional digital images).
 
+##### Common variable
+* Two dots variable
+
+> The two dots are a visual indicator highlighting that variable is not present in the original data, but has been computed by the statistic.
+  
+  * `..density..`: bin_count / sum(count)
+  * `..scaled..`: bin_count / max(count)
+  * `..ndensity..`: bin_density / max(abs(density))
+  * `..ncount..`: bin_count / max(abs(count))
+  * **count**: number of points in bin
+  * **density**: density of points in bin, scaled to integrate to 1
+  * **ncount**: count, scaled to maximum of 1
+  * **ndensity**: density, scaled to maximum of 1
 
 ##### Change font size and color for labels [link](http://stackoverflow.com/questions/3864535/how-can-i-add-a-subtitle-and-change-the-font-size-of-ggplot-plots-in-r)
 
