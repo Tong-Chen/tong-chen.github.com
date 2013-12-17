@@ -10,12 +10,12 @@ layout: page
 {% for post in cat[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 {% else %}
   <li class="listing-item">
-  <a href="{{ site.url }}" title="Too lazy to have a post">Return home</a>
+  <a href="{{ site.baseurl }}" title="Too lazy to have a post">Return home</a>
   </li>
 {% endif %}
 {% endif %}

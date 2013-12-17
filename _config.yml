@@ -1,9 +1,10 @@
 markdown: redcarpet
 permalink: /:year/:month/:title/
 url: http://tianxia-world.tk
+baseurl: http://tianxia-world.tk
 img_url: http://tianxia-world.tk/assets/images
 author: 陈同
 pygments: true
-paginate: 25
+paginate: 20
 main_title: 天下 ：书不如思贵，意不可言传
 excerpt_separator: ""   # get from for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed

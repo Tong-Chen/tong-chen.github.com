@@ -11,8 +11,14 @@ tags:
 1. Run local jekyll serve
 {% highlight bash %}
 jekyll serve
-jekyll serve --watch #Aumatically inspect the changes in your site and re-construct the site
-jekyll serve --baseurl http://localhost:4000 #Specify url for all links locally to support debug 
+#Aumatically inspect the changes in your site and re-construct the site.
+#This parameter will not work well if you use jekyll portable server mentioned
+#in HOW-To.
+jekyll serve --watch
+#First set <baseurl: http_address (no trailing slash)> in <_config.xml>
+#Remember to use site.baseurl to represent site.url in all needed places.
+#Then run following command and begin local test
+jekyll serve --baseurl= 
 {% endhighlight %}
 
 2. Jekyll tag like highlight newver closed [Liquid exception: highlight tag was never closed][1]
