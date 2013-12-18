@@ -91,6 +91,13 @@ One main hint, if the formula you typed in does not work, please check if the da
 <pre class="brush: bash; title: ; notranslate" title="">文件-选项-高级-输入法控制处于活动状态 【勾掉】
 </pre>
 
+4.word让标题支持多级列表
+
+> Click 'Multilevel list' -> 'Define new multilevel list' -> Click 'More' ->
+Set the style for each level and link to "Heading 1 2 3".
+
+> Rember first select 'Number style for this level', then 'Include level number from'(pay attention to the order) 
+
 #### PPT part
 1.快速插入多张图片
 

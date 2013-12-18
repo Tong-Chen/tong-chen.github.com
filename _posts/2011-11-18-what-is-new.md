@@ -2,10 +2,10 @@
 title: A script to test new things in a directory
 layout: post
 categories:
-	- bash
-	- letter
+    - bash
+    - letter
 tags:
-	- bash
+    - bash
 ---
 
 Here is a script used to detect the changes in one directory since you last accessed.
