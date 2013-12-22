@@ -8,4 +8,4 @@ comments: yes
 * [Tumblr](http://www.tumblr.com/dashboard)
 * [Diggreader](http://digg.com/reader)
 * [Quora](www.quora.com/)
-*
+* [Telegram](https://telegram.org/)
