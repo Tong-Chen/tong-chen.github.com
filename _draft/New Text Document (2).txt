@@ -1,0 +1,84 @@
+7 Ways Data Scientists Use Statistics
+
+Data scientists use statistics to...
+
+
+1. Design and interpret experiments to inform product decisions
+
+Observation: Advertisement variant A has a 5% higher click-through rate than variant B.
+
+Data Scientists can help determine whether or not that difference is significant enough to warrant increased attention, focus, and investment.
+
+They can help you understand experimental results, this is especially useful when you're measuring many metrics, running experiments that affect each other, or have some Simpson's Paradox happening in your results.
+
+Let's say you're a national retailer and you're trying to test the effect of a new marketing campaigns. Data Scientists can help you decide which stores you should assign to the experimental group to get a good balance between the experimental and control groups, what sample size you should assign to the experimental group to get clear results, and how to run the study spending as little money as possible.
+
+Statistics Used: Experimental Design, Frequentist Statistics (Hypothesis Tests and Confidence Intervals)
+
+2. Build models that predict signal, not noise
+
+Observation: Sales in December increased by 5%. 
+
+Data Scientists can tell you potential reasons why sales have increased by 5%. Data scientists can help you understand what drives sales, what sales could look like next month, and potential trends to pay attention to.
+
+See Statistics (academic discipline): What is an intuitive explanation of over-fitting? to understand why its important to only fit on signal.
+
+Statistics Used: Regression, Classification, Time Series Analysis, Causal Analysis
+
+3. Turn big data into the big picture
+
+Observation: Some customers only buy healthy food, while others only buy when there's a sale.
+
+Anyone can observe that the business has 100,000 customers buying 10,000 items at your grocery store.
+
+Data Scientists can help you label each customer, group them with similar customers, and understand their buying habits. This allows you to see how business developments can affect certain groups of the population, instead of looking at everyone as a whole or looking at everyone individually.
+
+Dunnhumby breaks down grocery shoppers into groups including Shoppers On A Budget, Finest, Family Focused, Watching the Waistline, and Splurge and Save [1]
+
+Statistics Used: Clustering, Dimensionality Reduction, Latent Variable Analysis
+
+4. Understand user engagement, retention, conversion, and leads
+
+Observation: A lot of people are signing up for our site and never coming back.
+
+Why do your customers buy items from your site? How do you keep your clients coming back? Why are users dropping out of your funnel? When will they come out next? What kinds of emails from your company are most successfully engaging users? What are some leading indicators of engagement, activity, or success? What are some good sales leads?
+
+Statistics Used: Regression, Causal Effects Analysis, Latent Variable analysis, Survey Design
+
+5. Give your users what they want
+
+Given a matrix of users (customers, clients, users), and their interactions (clicks, purchases, ratings) with your companies items (ads, goods, movies), can you suggest what items your users will want next?
+
+Statistics Used: Predictive Modeling, Latent Variable Analysis, Dimensionality Reduction, Collaborative Filtering, Clustering
+
+6. Estimate intelligently
+
+Observation: We have a banner with 100 impressions and 0 clicks.
+
+Would you say the click-through-rate is 0%?
+
+Data Scientists can incorporate data, global data, and prior knowledge to get a desirable estimate, tell you the properties of that estimate, and summarize what the estimate means.
+
+If you're interested in a better approach to estimating the click-through rate, check out What are the advantages of Bayesian methods over frequentist methods in web data?
+
+Statistics Used: Bayesian Data Analysis
+
+7. Tell the story with the data
+
+The Data Scientist's role in the company is the serve as the ambassador between the data and the company. Communication is key, and the Data Scientist must be able to explain their insights in a way that the company can get aboard, without sacrificing the fidelity of the data.
+
+The Data Scientist does not simply summarize the numbers, but explains why the numbers are important and what actionable insights one can get from these.
+
+The Data Scientist is the storyteller of the company, communicating the meaning of the data and why it is important to the company.
+
+The success of the previous six points can be measured and quantified, but this one cannot. I'd say this role is the most important.
+
+Statistics Used: Presenting and Communicating Data, Data Visualization
+
+
+
+TL; DR - With statistics, Data Scientists derive insights that encourage decisions that improve the product and business, distilling the data into actionable insights that promote the vision of the company.
+
+This answer is reposted on my (soon-to-be-populated) blog Storytelling with Statistics
+[1] - dunnhumby & hack/reduce: A Product Launch Challenge
+

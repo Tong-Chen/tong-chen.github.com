@@ -37,8 +37,11 @@ if line.strip()：# not blank line
 {% endhighlight %}
 
 
-4.
-
+4. Python start local server
+{% highlight python %}
+#Will run an instant file server on port 8000 on the current directory
+python -m SimpleHTTPServer - 
+{% endhighlight %}
 
 5.
 
