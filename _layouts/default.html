@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="/media/css/style.css">
     <link rel="stylesheet" href="/media/css/highlight.css">
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/media/js/jquery-tapir.min.js"></script>
   </head>
   <body>
     <div id="container">
-      <div id="main" role="main">
+		<form class="navbar-search pull-right" action="/search.html">
+		  <input type="text" class="search-query" placeholder="Search">
+		</form>
         <header>
         <h1 align="right">{{ site.main_title }}</h1>
 		</header>
@@ -30,6 +33,7 @@
 		  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span><a title="Scripts" href="{{ site.baseurl }}/scripts/">Scripts</a></span>
 		</div>
+      <div id="main" role="main">
         <header>
         <h1>{{ page.title }}</h1>
 		</header>
@@ -55,19 +59,19 @@
       </div>
     </div>
 	<!--google search -->
-		<script>
-		  (function() {
-			var cx = '004481164118709579990:nuv6224gela';
-			var gcse = document.createElement('script');
-			gcse.type = 'text/javascript';
-			gcse.async = true;
-			gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-				'//www.google.com/cse/cse.js?cx=' + cx;
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(gcse, s);
-		  })();
-		</script>
-		<gcse:search></gcse:search>
+<!--		<script>-->
+<!--		  (function() {-->
+<!--			var cx = '004481164118709579990:nuv6224gela';-->
+<!--			var gcse = document.createElement('script');-->
+<!--			gcse.type = 'text/javascript';-->
+<!--			gcse.async = true;-->
+<!--			gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +-->
+<!--				'//www.google.com/cse/cse.js?cx=' + cx;-->
+<!--			var s = document.getElementsByTagName('script')[0];-->
+<!--			s.parentNode.insertBefore(gcse, s);-->
+<!--		  })();-->
+<!--		</script>-->
+<!--		<gcse:search></gcse:search>-->
     <!--google search -->
 	<!--google analytics -->
 		<script>
