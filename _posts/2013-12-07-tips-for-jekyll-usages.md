@@ -8,7 +8,8 @@ tags:
 - jekyll
 ---
 
-1. Run local jekyll serve
+* Run local jekyll serve
+
 {% highlight bash %}
 jekyll serve
 #Aumatically inspect the changes in your site and re-construct the site.
@@ -21,7 +22,7 @@ jekyll serve --watch
 jekyll serve --baseurl= 
 {% endhighlight %}
 
-2. Jekyll tag like highlight newver closed [Liquid exception: highlight tag was never closed][1]
+* Jekyll tag like highlight newver closed [Liquid exception: highlight tag was never closed][1]
 
 {% highlight bash%}
 #add the following line to _config.xml to let the excerpt 

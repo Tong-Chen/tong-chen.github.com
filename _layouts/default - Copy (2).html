@@ -7,27 +7,19 @@
     <title>{{ page.title }} | {{ site.author }}</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link href="{{ site.baseurl }}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    <link rel="stylesheet" href="/media/css/bootstrap.2.2.2.min.css">
     <link rel="stylesheet" href="/media/css/style.css">
     <link rel="stylesheet" href="/media/css/highlight.css">
+    <link rel="stylesheet" href="/media/css/bootstrap.2.2.2.min.css">
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="/media/js/jquery-tapir.min.js"></script>
   </head>
   <body>
     <div class="navbar navbar-fixed-top navbar-inverse">
-      <div class="navbar-inner" align="center">
-		<a class="brand" href="{{ site.baseurl }}/">{{ site.main_title }}</a>
+      <div class="navbar-inner">
+		<a class="brand" href="{{ HOME_PATH }}">{{ site.main_title }}</a>
         <ul class="nav">
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><a title="Article" href="{{ site.baseurl }}/article/">ARTICLE</a></li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><a title="Letter" class="" href="{{ site.baseurl }}/letter/">LETTER</a></li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><a title="Review" class="" href="{{ site.baseurl }}/review/">REVIEW</a></li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><a title="Communication" class="" href="{{ site.baseurl }}/communication/">COMMUNICATION</a></li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><a title="Scripts" href="{{ site.baseurl }}/scripts/">TUTORIALS</a></li>
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
            <li>
               <form class="navbar-search" action="/search.html" method="get">
                <input name="query" type="text" class="search-query">
@@ -38,7 +30,24 @@
     </div>
     
     <div id="container">
+		<form class="navbar" method='get' action="/search.html">
+		  <input type="text" class="search-query" placeholder="search">
+		</form>
+        <header>
+        <h1 align="right">{{ site.main_title }}</h1>
+		</header>
         <div style="font-family:'Electrolize',sans-serif;color:#00F;font-size:1.1em;text-transform:uppercase; display:block; background-color:#D2CBCB;text-align:right">
+          <span><a title="home" href="{{ site.baseurl }}/">HOME</a></span>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><a title="Article" href="{{ site.baseurl }}/article/">ARTICLE</a></span>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><a title="Letter" class="" href="{{ site.baseurl }}/letter/">LETTER</a></span>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><a title="Review" class="" href="{{ site.baseurl }}/review/">REVIEW</a></span>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><a title="Communication" class="" href="{{ site.baseurl }}/communication/">COMMUNICATION</a></span>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><a title="Scripts" href="{{ site.baseurl }}/scripts/">Scripts</a></span>
 		</div>
       <div id="main" role="main">
         <header>
