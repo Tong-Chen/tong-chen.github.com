@@ -71,3 +71,5 @@ _Forward this domain to USERNAME.github.com may be worked well_
 [http://www.mceiba.com/develop/jekyll-introduction.html](http://www.mceiba.com/develop/jekyll-introduction.html)
 
 [http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/](http://jiyeqian.github.io/2012/07/host-your-pages-at-github-using-jekyll/)
+
+[http://realasking.github.io/%E7%BD%91%E7%BB%9C%E5%86%B2%E6%B5%AA/2013/07/15/makeblog2/](http://realasking.github.io/%E7%BD%91%E7%BB%9C%E5%86%B2%E6%B5%AA/2013/07/15/makeblog2/)
