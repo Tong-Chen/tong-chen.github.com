@@ -55,7 +55,20 @@ _Forward this domain to USERNAME.github.com may be worked well_
   * Manage domain `CNAME` and `A record` at DNApod.
   ![Set DNSpod]({{ site.img_url }}/DNApod-set.png)
 
+#### Use Tapir to construct search engine
 
+1. Generate an `atom.html` file. See mine at [Github](https://github.com/Tong-Chen/tong-chen.github.com/blob/master/feed/index.html). 
+
+2. Supply the url of `atom.html` to [Tapir](http://tapirgo.com/) and get a token for your feed. I recomed supply the URL without `http` start, or you will get duplicates when you perform the searching.
+
+3. Add a search box and related Jquery function to your module html file, for me [`_layout/default.html`](https://github.com/Tong-Chen/tong-chen.github.com/blob/master/_layouts/default.html). Please use `ctrl+F` to search `form` to navigate to the code box and search `jquery` to locate to loading jquery part. Also download `jquery-tapir.min.js` and/or other js files you needed from [here](https://github.com/Tong-Chen/tong-chen.github.com/tree/master/media/js). 
+
+4. Download the [`search.html`](https://github.com/Tong-Chen/tong-chen.github.com/blob/master/search.html) and put it in your root directory.
+
+5. Other things you may pay attention to:
+  * Since I do not have `description` part in my posts, I supply `post.content` instead of `post.description` in `summary` line of `atom.html`.
+  * I changed the function in `jquery-tapir.min.js` to add a conditional statement `val.summary==null` to avoid outputting `null` when no `description` part.
+ 
 #### Refs
 
 [http://jekyllbootstrap.com/usage/jekyll-quick-start.html](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
