@@ -27,15 +27,15 @@ Congratulations! You can write things now.
 
 #### Install local server
 Here only lists instructions for Windows system since I am not familar with it.
-
-For Unix-like system, it should be very easy.
+(For Unix-like system, it should be very easy.)
 
 1. Download portable servers from [Madhur](http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html)
 
 *Set environmental variable from My computer->property->Advanced system settings
 ->Environmental Variables->PATH `for each program`*
 
-2. Open a `cmd` window and set UTF-8 character by running `chcp 65001` to support Chinese characters.
+2. Open a `cmd` window and set UTF-8 character by running `chcp 65001`
+to support Chinese characters if there is any.
 
 3. Go to the directory contains the Github repository locally and run `jekyll serve` to run local server.
 
