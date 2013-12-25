@@ -31,8 +31,8 @@ Here only lists instructions for Windows system since I am not familar with it.
 
 1. Download portable servers from [Madhur](http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html)
 
-*Set environmental variable from My computer->property->Advanced system settings
-->Environmental Variables->PATH `for each program`*
+  *Set environmental variable from My computer->property->Advanced system settings
+  ->Environmental Variables->PATH `for each program`*
 
 2. Open a `cmd` window and set UTF-8 character by running `chcp 65001`
 to support Chinese characters if there is any.
@@ -44,9 +44,9 @@ to support Chinese characters if there is any.
 #### Get another domain name
 1. Get a free domain name from [dot.tk](http://dot.tk).
 
-_Forward this domain to USERNAME.github.com may be worked well_
+  _Forward this domain to USERNAME.github.com may be worked well_
 
-*Remember set the global domain name in _config.xml*
+  *Remember set the global domain name in _config.xml*
 
 2. Use [DNSpod](https://www.dnspod.cn/) to support domain name parsing.
   * Register at DNSpod and add the applied tk domain name.
