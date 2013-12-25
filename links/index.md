@@ -23,6 +23,7 @@ comments: yes
 ##### Online courses
 
 * [CS109](http://cs109.org/readings.php)
+* [System Biology](http://ocw.mit.edu/courses/biology/7-342-systems-biology-stochastic-processes-and-biological-robustness-fall-2008/index.html)
 
 ##### Visualization
 * [Visualization](http://www-958.ibm.com/software/data/cognos/manyeyes/page/Visualization_Options.html)
