@@ -13,33 +13,30 @@
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="/media/js/jquery-tapir.min.js"></script>
   </head>
+
   <body>
     <div class="navbar navbar-fixed-top navbar-inverse">
-      <div class="navbar-inner" align="center">
-		<a class="brand" href="{{ site.baseurl }}/">{{ site.main_title }}</a>
-        <ul class="nav">
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <div class="navbar-inner" >
+		<div class="mynav"> 
+		  <div class="mytitle">
+		    <a class="brand" href="{{ site.baseurl }}/">{{ site.main_title }}</a></div>
+		  <div class="mymenu">        
+		  <ul class="nav">
           <li><a title="Article" href="{{ site.baseurl }}/article/">ARTICLE</a></li>
-		  <li>&nbsp;&nbsp;</li>
           <li><a title="Letter" class="" href="{{ site.baseurl }}/letter/">LETTER</a></li>
-		  <li>&nbsp;&nbsp;</li>
           <li><a title="Review" class="" href="{{ site.baseurl }}/review/">REVIEW</a></li>
-		  <li>&nbsp;&nbsp;</li>
           <li><a title="Communication" class="" href="{{ site.baseurl }}/communication/">COMMUNICATION</a></li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
           <li><a title="Scripts" href="{{ site.baseurl }}/scripts/">TUTORIALS</a></li>
-           <li>
-              <form class="navbar-search" action="/search.html" method="get">
-               <input name="query" type="text" class="search-query">
-              </form>
-           </li>
-		   <li>
-		   </li>
-        </ul>
+		  </ul>
+		  </div>
+		  <form class="navbar-search" style="margin-top:12px; " action="/search.html">
+             <input name="query" type="text" id="search_results"class="search-query">
+          </form>
       </div>
+	  </div>
     </div>
     
-    <div id="container">
+    <div id="container" style="padding-top:10px;">
         <div style="font-family:'Electrolize',sans-serif;color:#00F;font-size:1.1em;text-transform:uppercase; display:block; background-color:#D2CBCB;text-align:right">
 		</div>
       <div id="main" role="main">

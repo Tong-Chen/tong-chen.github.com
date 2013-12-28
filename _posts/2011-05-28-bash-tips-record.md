@@ -913,13 +913,12 @@ sed '1 s/^\t/label\t/' r.output
 Awk篇(默认用空格分割)  
 0.Awk representing script
 
-{% highlight vim %}
-awk 'BEGIN{OFS="\t";FS="\t"}{file="";
-    if(FNR==1) {print $0 >"DhMR.high.2"; print $0 >"DhMR.low.2";} \
-    else { if(($2+1)/($3+1) > 2 && ($4+1)/($3+1) > 2) {file="DhMR.high.2"; print $0 >>file;} \
-    else if (($2+1)/($3+1) < 0.5 && ($4+1)/($3+1) < 0.5) {file="DhMR.low.2"; print $0 >>file;}}}'
-
-{% endhighlight %}
+  {% highlight vim %}
+  awk 'BEGIN{OFS="\t";FS="\t"}{file="";
+      if(FNR==1) {print $0 >"DhMR.high.2"; print $0 >"DhMR.low.2";} \
+      else { if(($2+1)/($3+1) > 2 && ($4+1)/($3+1) > 2) {file="DhMR.high.2"; print $0 >>file;} \
+      else if (($2+1)/($3+1) < 0.5 && ($4+1)/($3+1) < 0.5) {file="DhMR.low.2"; print $0 >>file;}}}'
+  {% endhighlight %}
 
 1.做两列的四则运算
 
@@ -1178,8 +1177,22 @@ awk 'function abs(x){return ((x < 0.0) ? -x : x)}BEGIN{OFS="\t";FS="\t"}{pos[1]=
 
 {% endhighlight %}
 
-31.
-
+31. awk execute shell command
+{% highlight bash %}
+$ awk 'BEGIN{system("echo shell")}' # output shell
+$ awk 'BEGIN{cmd="echo"; par="shell"; system(cmd" "par)}'
+$ awk 'BEGIN{print "echo shell" | "/bin/bash"}' # output shell
+$ awk 'BEGIN{print "echo", "shell" | "/bin/bash"}' # output shell
+$ awk 'BEGIN{cmd="echo"; par="shell"; print cmd, par | "/bin/bash"}'
+#Commands evoked by AWK executed in new sub-shell, current Shell variable
+#needed to be exported to be recognized in sub-shell
+$ par="shell"
+$ awk 'BEGIN{cmd="echo"; system(cmd" $par")}' #output nothing
+$ 
+$ export par="shell"
+$ awk 'BEGIN{cmd="echo"; system(cmd" $par")}' #output shell
+$ shell
+{% endhighlight %}
 32.
 
 33.

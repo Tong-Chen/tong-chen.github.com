@@ -19,12 +19,9 @@ chr2	2
 dict([line.strip().split() for line in open(file)])
 {% endhighlight %}
 
-##### 区分Python2和Python3的判断
+##### Global variable
 
-{% highlight python %}
-if False: # check if print statement works, SyntaxError if it doesn't
-	print 'This program does not work under python 3, run it in python 2.5/2.6/2.7'
-{% endhighlight %}
+> First `global variable_name` when using global variable in a function  
 
 ##### python判断是否到文件结束
 {% highlight python %}
