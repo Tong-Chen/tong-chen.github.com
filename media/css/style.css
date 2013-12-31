@@ -30,9 +30,8 @@ blockquote p{margin:0;padding:.5em 0;}
 		float:left;
         width:380px;
         margin-left:25px;
-		
+		background:black;
 		margin-top:8px;
-		
 }
 
 .navbar .nav li a
@@ -44,11 +43,11 @@ blockquote p{margin:0;padding:.5em 0;}
 .nav li{
 	height:50px;
 	line-height:50px;
-    	
 }
 .mymenu{
 		float:left;
-		
+		height:100%;
+		background:black;
 		margin-left:20px;
 		width:465px;
 }

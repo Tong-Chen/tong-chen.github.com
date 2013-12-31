@@ -14,6 +14,7 @@ comments: yes
 ##### Blogs
 
 * [Kaggle, learn machine learning with examples](http://blog.kaggle.com/)
+* [Blue Collar Bioinformatics,Brad Chapman，Harvard Public Health](http://bcbio.wordpress.com/)
 
 ##### Tutorials
 
