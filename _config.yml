@@ -3,7 +3,7 @@ permalink: /:year/:month/:title/
 url: http://tianxia-world.tk
 baseurl: http://tianxia-world.tk
 img_url: http://tianxia-world.tk/assets/images
-author: 陈同
+author: ChenTong (陈同)
 pygments: true
 paginate: 20
 main_title: 天下：书不如思贵，意不可言传

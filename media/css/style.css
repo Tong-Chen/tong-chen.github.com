@@ -25,7 +25,7 @@ pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
-#container{width:950px;margin:2em auto;display:block;padding:0 2em;margin-left:auto;margin-right;}
+#container{width:900px;margin:2em auto;display:block;padding:0 2em;margin-left:auto;margin-right;}
 .mytitle{
 		float:left;
         width:380px;

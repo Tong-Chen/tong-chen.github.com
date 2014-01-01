@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/media/css/highlight.css">
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="/media/js/jquery-tapir.min.js"></script>
+	<!--<script type="text/javascript" src="/media/js/outliner.js"></script>-->
   </head>
 
   <body>
@@ -29,8 +30,8 @@
           <li><a title="Scripts" href="{{ site.baseurl }}/scripts/">TUTORIALS</a></li>
 		  </ul>
 		  </div>
-		  <form class="navbar-search" style="margin-top:12px;" action="/search.html">
-             <input type="text" class="search-query">
+		  <form class="navbar-search" style="margin-top:12px;" method="get" action="/search.html">
+             <input type="text" class="search-query" name="query">
           </form>
       </div>
 	  </div>
