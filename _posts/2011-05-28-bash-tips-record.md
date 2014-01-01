@@ -353,6 +353,14 @@ echo "10/3" | bc -l
 
 echo $(( 1+3 ))
 
+i=`expr $i + 1`
+let i+=1
+((i++))
+i=$[$i+1]
+i=$(( $i + 1 ))
+
+
+
 用于脚本时declare -i
 {% endhighlight %}
 

@@ -30,7 +30,7 @@ blockquote p{margin:0;padding:.5em 0;}
 		float:left;
         width:380px;
         margin-left:25px;
-		background:black;
+		background:-moz-linear-gradient(top, #ffffff, #f2f2f2);
 		margin-top:8px;
 }
 
@@ -47,7 +47,7 @@ blockquote p{margin:0;padding:.5em 0;}
 .mymenu{
 		float:left;
 		height:100%;
-		background:black;
+		background:-moz-linear-gradient(top, #ffffff, #f2f2f2);
 		margin-left:20px;
 		width:465px;
 }

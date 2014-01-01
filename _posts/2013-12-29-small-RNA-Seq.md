@@ -70,4 +70,18 @@ Use the following command to quantify miRNA expression and check your result in 
 quantifier.pl -p hsa.hairpin.fa -m hsa.mature.fa -r GSM416732.clipped.fa -t hsa -j -W -y hela
 {% endhighlight %}
 
+#### Trim reads and quantify miRNA expression again
 
+[The 3' ends of canonical miRNAs are often subject to untemplated additions, especially the 39 ends of mirtron-3p species][1]. Then sometimes we want to trim 3' end reads one by one and perform mapping process for each trim. 
+
+Here I constrcuted a flow to simply the process. All one need is the main program  [`quantifier.sh`](https://github.com/Tong-Chen/NGS/blob/master/quantifier.sh), and depeneded three programs [`trimFasta.py`](https://github.com/Tong-Chen/NGS/blob/master/trimFasta.sh), [`quantifier.modified.pl`](https://github.com/Tong-Chen/NGS/blob/master/quantifier.modified.pl) a modified version of `quantifier.pl`. 
+
+{% highlight bash %}
+quantifier.sh -p hsa.hairpin.fa -m hsa.mature.fa -r GSM416732.clipped.fa -t hsa -y hela
+{% endhighlight %}
+
+The principle is like described below. First, map all reads to miRNA precursor using; Second, save mapped reads; Third, extract unmapped reads and trim the 3' last  nucleotide; Forth, map trimmed reads again and save those with no more than 20 mapping loci (this number can be changes as wanted) into mapped reads; Fifth, repeat trimming and mapping process until all reads are shorted than a given length or the cycle-index larger than given number; Sixth, map all saved mapped reads.
+
+
+
+[1]: http://genome.cshlp.org/content/22/9/1634
