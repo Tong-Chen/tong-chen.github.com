@@ -811,11 +811,12 @@ cat files | rev # the columns will be reversed
 #assume this function is saved in file `func.sh`
 function test {
     local_variable=0
-    echo "In function test, local variable is ${local\_variable}, global variable is ${global\_variable}, parameter is $1"
+    echo "In function test, local variable is ${local_variable}, global variable is ${global_variable}, parameter is $1"
 }
 
 #assume we have another script in same directory to call this fucntion
 . `dirname $0`/func.sh  #source func.sh and read in the function
+						#pay attention to the first dot
 global_variable=1
 `test parameter`
 
