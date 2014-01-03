@@ -801,8 +801,27 @@ done
 {% endhighlight %}
 
 55. bash中把行倒叙 tac， 把列倒叙 rev
+{% highlight bash %}
+cat files | tac # the lines will be reversed
+cat files | rev # the columns will be reversed
+{% endhighlight %}
 
-#&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-
+56. Bash function
+{% highlight bash %}
+#assume this function is saved in file `func.sh`
+function test {
+    local_variable=0
+    echo "In function test, local variable is ${local\_variable}, global variable is ${global\_variable}, parameter is $1"
+}
+
+#assume we have another script in same directory to call this fucntion
+. `dirname $0`/func.sh  #source func.sh and read in the function
+global_variable=1
+`test parameter`
+
+#then you will get output
+In function test, local variable is 0, global variable is 1, parameter is file
+{% endhighlight %}
 
 Sed篇 1.取出文件中特定的一行或几行
 
