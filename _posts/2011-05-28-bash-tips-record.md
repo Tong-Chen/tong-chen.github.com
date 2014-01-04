@@ -800,13 +800,15 @@ done
 
 {% endhighlight %}
 
-55. bash中把行倒叙 tac， 把列倒叙 rev
+55.bash中把行倒叙 tac， 把列倒叙 rev
+
 {% highlight bash %}
 cat files | tac # the lines will be reversed
 cat files | rev # the columns will be reversed
 {% endhighlight %}
 
-56. Bash function
+56.Bash function
+
 {% highlight bash %}
 #assume this function is saved in file `func.sh`
 function test {
@@ -824,7 +826,9 @@ global_variable=1
 In function test, local variable is 0, global variable is 1, parameter is file
 {% endhighlight %}
 
-Sed篇 1.取出文件中特定的一行或几行
+Sed篇 
+
+1.取出文件中特定的一行或几行
 
 {% highlight vim %}
 sed -n '1,20'p TAIR10_cds_20101214
