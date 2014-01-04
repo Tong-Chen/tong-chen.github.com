@@ -78,7 +78,32 @@ Two types of input file are supported. If each boxplot contains the same number 
 
   ![diamond.extract.matrix.boxplot.violin1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot.violin1.png)
 
-* Plot the distribution of `carat` and `price` in each `cut` category, ``; or in each `color` category 
+* Plot the distribution of `carat` and `price` in each `cut` category,
+`boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I "'color'"`; or
+in each `color` category `boxplot.sh -f diamond.extract.matrix -r 70
+-a color -I "'cut','carat'"`. Remember to exclude other columns if there is
+any by giving their names to `-I` in format `"'col1','col2'"` or
+`"'col'"`.
 
+  ![diamond.extract.matrix.boxplot.violin1.set]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.violin1.set.png)
+
+* Plot the distribution of `price` in each `cut` category,
+`boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I
+"'color','carat'"`; or
+in each `color` category `boxplot.sh -f diamond.extract.matrix -r 70
+-a color -I "'cut','carat'"`. Remember to exclude other columns if there is
+any by giving their names to `-I` in format `"'col1','col2'"` or
+`"'col'"`.
+
+  ![diamond.extract.matrix.boxplot.price_color]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_color.png)
+
+
+* Plot the distribution of `price` in different `carat` categories, 
+`boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'"  -B 4 -x 'carat' -y 'price'`
+or 
+` boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'" -B "c(0.1,0.4,0.7,1,6)"  -x 'carat' -y 'price'`
+
+  ![diamond.extract.matrix.boxplot.price_carat_num]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_num.png)
+  ![diamond.extract.matrix.boxplot.price_carat_interval]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_interval.png)
 
 
