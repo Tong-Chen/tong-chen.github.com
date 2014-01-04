@@ -16,11 +16,14 @@ comments: yes
 * [Kaggle, learn machine learning with examples](http://blog.kaggle.com/)
 * [Blue Collar Bioinformatics,Brad Chapman，Harvard Public Health](http://bcbio.wordpress.com/)
 * [ygc](http://ygc.name/)
+* [simplystatistics](http://simplystatistics.org/)
+* [gettinggeneticsdone](http://gettinggeneticsdone.blogspot.com/)
 
 ##### Tutorials
 
 * [Data science](http://cm.dce.harvard.edu/2014/01/14328/publicationListing.shtml)
 * [ggplot2 中文](http://ygc.name/stats/ggplot2.html)
+* [cs109 data science](http://cs109.org/)
 
 ##### Online courses
 

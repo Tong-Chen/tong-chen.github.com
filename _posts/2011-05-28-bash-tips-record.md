@@ -15,13 +15,13 @@ tags:
 
 #### Bash篇
 
-#####输出指定行(第k行，包括k行)及其后面所有行，用于去除文件头
+##### 输出指定行(第k行，包括k行)及其后面所有行，用于去除文件头
 
 {% highlight vim %}
 tail -n +k filename
 {% endhighlight %}
 
-#####Record the typescripts of everything printed on your terminal
+##### Record the typescripts of everything printed on your terminal
 {% highlight bash %}
 #-t 2>script.time: save timeing data to stderr and redirect to script.time
 #-a : append output to already existed files to retain the prior contents
@@ -34,23 +34,24 @@ $run-commands
 $scriptrereplay script.time .cmdscript
 #One can also use `grep` to select some commands to check.
 {% endhighlight %}
-#####拷贝一个文件到当前目录的所有子目录(可以使用-maxdepth指定子文件级数)
+##### 拷贝一个文件到当前目录的所有子目录(可以使用-maxdepth指定子文件级数)
 
 {% highlight vim %}
 find . -type d -exec cp ./file {}/ \;
+find . -type d -exec echo {} \; -exec grep 'things' {} \;
 
 for dir in $(find . -type d); do rm -f "$dir/file" ; done
 {% endhighlight %}
 
-#####修改多个目录下的同一个文件
+##### 修改多个目录下的同一个文件
 
 {% highlight vim %}
 find . -name README -exec sed -i 's/pat/sub/g {} \;
 {% endhighlight %}
 
-#####bash script中使用$符号，需加反斜线(\)转义
+##### bash script中使用$符号，需加反斜线(\\)转义
 
-#####求文件所有数值的最小值（两条语句细微的差别，第二个更保险）
+##### 求文件所有数值的最小值（两条语句细微的差别，第二个更保险）
 
 {% highlight vim %}
 cat file | tr -s  ''[:blank:]" "\n" | sort -n | sed -n '1p;$p'
@@ -58,7 +59,7 @@ cat file | tr -s  ''[:blank:]" "\n" | sort -n | sed -n '1p;$p'
 tr -s "[:blank:]" "\n" <file | sort -n | sed '/^$/d' | sed -n '1p;$p'
 {% endhighlight %}
 
-#####从文件中取出随机行或文件夹中取出随机文件
+##### 从文件中取出随机行或文件夹中取出随机文件
 
 {% highlight vim %}
 shuf -n num filename   #取出num行
@@ -68,7 +69,7 @@ ls dir | shuf -n num #取出num个随机文件
 ls dir | shuf #随机重拍所有文件
 {% endhighlight %}
 
-#####删除指定大小的文件
+##### 删除指定大小的文件
 
 {% highlight vim %}
 find . -size 28c -exec /bin/rm -f {} \;
@@ -76,7 +77,7 @@ find . -size 28c -exec /bin/rm -f {} \;
 find . -size +28k -delete  删除大于28k的文件
 {% endhighlight %}
 
-#####查看当前目录下文件的个数（包含隐藏文件）
+##### 查看当前目录下文件的个数（包含隐藏文件）
 
 {% highlight vim %}
 ls -al | grep -c '^-'
@@ -84,7 +85,7 @@ ls -al | grep -c '^-'
 find . -maxdepth 1 -type f -print | wc -l
 {% endhighlight %}
 
-#####大小写转换
+##### 大小写转换
 
 {% highlight vim %}
 cat file.txt | tr 'a-z' 'A-Z'
@@ -104,7 +105,7 @@ m='cde'
 echo $m  (output>:CDE)
 {% endhighlight %}
 
-#####bash一行行读取文件
+##### bash一行行读取文件
 
 {% highlight vim %}
 #!/bin/bash
@@ -126,13 +127,13 @@ done
 IFS=$OLDIFS
 {% endhighlight %}
 
-#####sort多列排序
+##### sort多列排序
 
 {% highlight vim %}
 sort -k1,1 -k2,2n testsort （特殊的第二列为数字）
 {% endhighlight %}
 
-#####bash数组操作，索引版
+##### bash数组操作，索引版
 
 {% highlight vim %}
 declare -a a;
@@ -157,13 +158,13 @@ read -a a <tmp
 
 /bin/rm -f tmp
 
-#################
+##### ############
 
 echo $a # only shows the first element
 
 echo ${a[@]} #show all elements, so does ${a[*]}
 
-#################3
+##### ############3
 
 length=${#a[@]};
 
@@ -180,7 +181,7 @@ else echo -n ${a[i]}; echo -n ' '; echo ${a[j]};fi;
 done; done
 {% endhighlight %}
 
-#####bash数据同步
+##### bash数据同步
 
 {% highlight vim %}
 rsync -vazuL –delete /project user@server:/project/
@@ -188,7 +189,7 @@ rsync -vazuL –delete /project user@server:/project/
 #-L treat symbolic link as the dir/file linked
 {% endhighlight %}
 
-#####时间函数
+##### 时间函数
 
 {% highlight vim %}
 date
@@ -198,7 +199,7 @@ date '+%Y-%m-%d %H:%M:%S'
 
 {% endhighlight %}
 
-#####显示自己的进程
+##### 显示自己的进程
 
 {% highlight vim %}
 ps u  #返回当前终端运行的程序及其所有登录终端(-bash)
@@ -210,13 +211,13 @@ ps uxr #只返回运行中的程序
 ps aux | grep 'user' #让程序描述折行显示
 {% endhighlight %}
 
-#####杀掉一个用户的进程
+##### 杀掉一个用户的进程
 
 {% highlight vim %}
 killall -u user
 {% endhighlight %}
 
-#####bash下diff比较标准输入的重定向
+##### bash下diff比较标准输入的重定向
 
 {% highlight vim %}
 diff <(sort file1)  <(sort file2)
@@ -227,7 +228,7 @@ bash -c 'diff <(sort file1)  <(sort file2)'
 #when working on other types of term.
 {% endhighlight %}
 
-#####paste, cut, join, split
+##### paste, cut, join, split
 
 {% highlight vim %}
 paste 把多个文件的列粘帖在一起构成一个新文件
@@ -237,7 +238,7 @@ join 按指定的列作为key来粘帖
 split -l 200 file  #把文件分为2000行的小文件
 {% endhighlight %}
 
-#####expand, unexpand
+##### expand, unexpand
 
 {% highlight vim %}
 expand把tab转换为空格
@@ -245,13 +246,13 @@ expand把tab转换为空格
 unexpand把空格转换为tab
 {% endhighlight %}
 
-#####计算文件中最长行的长度
+##### 计算文件中最长行的长度
 
 {% highlight vim %}
 wc -L file
 {% endhighlight %}
 
-#####join使用，[参考][1] **使用join前确保已按第一列排好序sort -k1,1,而不是sort. 第一行如果有标题，应去掉。**
+##### join使用，[参考][1] **使用join前确保已按第一列排好序sort -k1,1,而不是sort. 第一行如果有标题，应去掉。**
 
 {% highlight vim %}
 join file1 file2  #内连接，关键字不匹配的行不输出
@@ -269,7 +270,7 @@ join -o 1.1,2.2 file2 file2 #只输出第一个文件第一字段和第二个文
 join -o 1.1,2.2,1.2 file1 file2
 {% endhighlight %}
 
-#####bash从标准输入读取信息
+##### bash从标准输入读取信息
 
 {% highlight vim %}
 read -p "how old r u? " age
@@ -295,19 +296,19 @@ read -dq -p “input something end with q: ” menu
 read -e file #在这试试命令历史和补齐功能
 {% endhighlight %}
 
-#####删除一个用户的全部进程
+##### 删除一个用户的全部进程
 
 {% highlight vim %}
 killall -u username
 {% endhighlight %}
 
-#####删除包含某一特定的程序的所有进程
+##### 删除包含某一特定的程序的所有进程
 
 {% highlight vim %}
 killall -e progNamw
 {% endhighlight %}
 
-#####bash中while循环
+##### bash中while循环
 
 {% highlight vim %}
 while [ condition ]
@@ -319,7 +320,7 @@ command1 command2 command3
 done
 {% endhighlight %}
 
-#####window文件^M转换为linux格式
+##### window文件^M转换为linux格式
 
 {% highlight vim %}
 sed -i 's/^M//' file.ok
@@ -330,7 +331,7 @@ perl -p -i -e "s/^M//g" `find .`
 
 {% endhighlight %}
 
-#####wc -l的误差
+##### wc -l的误差
 
 {% highlight vim %}
 wc -l只能给出文件中换行符的个数，而不一定是行数，特例是最后一行没有换行符时。
@@ -338,13 +339,13 @@ wc -l只能给出文件中换行符的个数，而不一定是行数，特例是
 wc -L返回最长行的字符数
 {% endhighlight %}
 
-#####touch修改时间戳
+##### touch修改时间戳
 
 {% highlight vim %}
 touch -t [[CC]YY]MMDDhhmm[.ss]
 {% endhighlight %}
 
-#####bash数学运算<http://blog.chinaunix.net/space.php?uid=20609878&do=blog&id=1915813>
+##### bash数学运算<http://blog.chinaunix.net/space.php?uid=20609878&do=blog&id=1915813>
 
 {% highlight vim %}
 echo $[1+3]
@@ -364,7 +365,7 @@ i=$(( $i + 1 ))
 用于脚本时declare -i
 {% endhighlight %}
 
-#####uniq指定忽略的列或字符，配合awk使用，把不需要比较的列放到前面
+##### uniq指定忽略的列或字符，配合awk使用，把不需要比较的列放到前面
 
 {% highlight vim %}
 uniq -f 1   #跳过第一列
@@ -372,22 +373,22 @@ uniq -f 1   #跳过第一列
 uniq -s 10  #跳过前十个字符
 {% endhighlight %}
 
-#####统计字符出现个数
+##### 统计字符出现个数
 
 {% highlight vim %}
 grep -o 'h' file | wc -l
 {% endhighlight %}
 
-#####在终端向其它用户发送信息<http://blog.csdn.net/knock/article/details/4801360> 发送的信息会插入你正在编辑的文本，造成混乱。
+##### 在终端向其它用户发送信息<http://blog.csdn.net/knock/article/details/4801360> 发送的信息会插入你正在编辑的文本，造成混乱。
 
 {% highlight vim %}
-#####用w命令查看都有哪些中断用户
+##### 用w命令查看都有哪些中断用户
 
 []#w
 
 jeff     pts/5    192.168.96.128   16:47   10:44   0.03s  0.03s -bash
 
-#####发送消息
+##### 发送消息
 
 []#write jeff pts/5
 
@@ -398,7 +399,7 @@ hello!
 广播消息
 
 echo "hello,This is a message" | wall
-#####paste用法，-s表示每个文件一行行处理，其实是做了一个转置。
+##### paste用法，-s表示每个文件一行行处理，其实是做了一个转置。
 1     $ cat num2
 
 1
@@ -444,7 +445,7 @@ $paste -s <(cut -f 1 a) <(cut -f 2 a)
 a b c
 {% endhighlight %}
 
-#####sort排序，保留标题行http://forums.devshed.com/unix-help-35/sort-excluding-first-line-heading-line-183574.html
+##### sort排序，保留标题行http://forums.devshed.com/unix-help-35/sort-excluding-first-line-heading-line-183574.html
 
 {% highlight vim %}
 (  head -1 ${in:=dummy.txt} ; tail +2 $in | sort -u  ) >  sort_$in
@@ -453,7 +454,7 @@ a b c
 
 {% endhighlight %}
 
-#####grep匹配tab
+##### grep匹配tab
 
 {% highlight vim %}
 grep -P '\t'
@@ -467,7 +468,7 @@ grep $'\t'
 </div>
 {% endhighlight %}
 
-#####for循环中使用后台运行【Both & and ; are line terminators, only one is enough.】
+##### for循环中使用后台运行【Both & and ; are line terminators, only one is enough.】
 
 <http://ubuntuforums.org/showthread.php?t=504030>
 
@@ -478,13 +479,13 @@ for i in *.data; do nohup \
     else {end=start+step; print chr, start, end, $0; start=end} }' $i >$i.bed & done
 {% endhighlight %}
 
-#####输出当前运行的bash文件所在目录
+##### 输出当前运行的bash文件所在目录
 
 {% highlight vim %}
 `dirname $0`
 {% endhighlight %}
 
-#####得到linux下命令的地址和判断某个命令是否存在
+##### 得到linux下命令的地址和判断某个命令是否存在
 
 {% highlight vim %}
 type cmd  ----------python is /home/username/soft/Python-2.6.7/bin/python
@@ -510,7 +511,7 @@ echo "Could not find python"
 fi
 {% endhighlight %}
 
-#####排序大文件，先拆分再排序
+##### 排序大文件，先拆分再排序
 
 {% highlight vim %}
 split -l 300 bigfile
@@ -524,7 +525,7 @@ sort -S 5G bifile  #K,M,G,P 1%
 
 {% endhighlight %}
 
-#####bash中输出从1到n的数
+##### bash中输出从1到n的数
 
 {% highlight vim %}
 seq 1 n
@@ -532,14 +533,14 @@ seq 1 n
 $(echo `seq 0 0.05 1` | sed 's/ /,/g') #产生一些列的数值作为传入参数
 {% endhighlight %}
 
-#####bash中统计所有文件的大小
+##### bash中统计所有文件的大小
 
 {% highlight vim %}
 find folder -type f -printf "%s+" | sed 's/+$/\n/' | bc
 
 {% endhighlight %}
 
-#####wait的使用
+##### wait的使用
 
 {% highlight vim %}
 #!/bin/bash
@@ -587,13 +588,13 @@ wait )
 
 {% endhighlight %}
 
-#####找更新的文件
+##### 找更新的文件
 
 {% highlight vim %}
 find -anewer file
 {% endhighlight %}
 
-#####批量修改软链接
+##### 批量修改软链接
 
 {% highlight vim %}
 ls -l | grep -P '^l' | awk 'BEGIN{OFS="\t"}{if($11~/^\/home\/CT/) \
@@ -601,13 +602,13 @@ ls -l | grep -P '^l' | awk 'BEGIN{OFS="\t"}{if($11~/^\/home\/CT/) \
     >updateSOftLink.sh bash updateSOftLink.sh
 {% endhighlight %}
 
-#####批量删除断了的软连接 (search for and remove dead symbolic link)
+##### 批量删除断了的软连接 (search for and remove dead symbolic link)
 
 {% highlight vim %}
 find . -type l -print | xargs -r file | grep 'broken symbolic' | cut -d ":“ -f 1
 {% endhighlight %}
 
-#####配置登录终端类型 [不添加--login不回读取.bash_profile]
+##### 配置登录终端类型 [不添加--login不回读取.bash_profile]
 
 {% highlight vim %}
 如果当前是csh or tcsh
@@ -633,7 +634,7 @@ echo $SHELL
 http://www.unixguide.net/unix/bash/A7.shtml
 {% endhighlight %}
 
-#####在bash 脚本中，subshells (写在圆括号里的) 是一个很方便的方式来组合一些命令。一个常用的例子是临时地到另一个目录中，例如：
+##### 在bash 脚本中，subshells (写在圆括号里的) 是一个很方便的方式来组合一些命令。一个常用的例子是临时地到另一个目录中，例如：
 
 {% highlight vim %}
 # do something in current dir
@@ -648,7 +649,7 @@ http://www.unixguide.net/unix/bash/A7.shtml
 截断一个字符串： ${var%suffix} 和 ${var#prefix}。  
 示例： if var=foo.pdf, then echo ${var%.pdf}.txt prints “foo.txt”.
 
-#####find使用
+##### find使用
 
 {% highlight vim %}
 #-exec is the same as -ok, except that -ok needs you type yes to make sure
@@ -667,24 +668,24 @@ find . -type d -delete -print
 
 {% endhighlight %}
 
-#####bash命令的重用
+##### bash命令的重用
 
 {% highlight vim %}
-#####!$是一个特殊的环境变量，它代表了上一个命令的最后一个字符串。
-#####!!表示上一个命令
-#####！vim 表示最近一条以vim开头的命令
-#####!!:gs/old_name/new_name   #把上一条命令中的old_name全部替换为new_name
+##### !$是一个特殊的环境变量，它代表了上一个命令的最后一个字符串。
+##### !!表示上一个命令
+##### ！vim 表示最近一条以vim开头的命令
+##### !!:gs/old_name/new_name   #把上一条命令中的old_name全部替换为new_name
 !cd:gs/old_name/new_name    #把最近一条以cd开头的命令中的old_name全部替换为new_name
-#####^old^new  #把上一条命令中的第一个old替换为new
-#####在 bash 里，使用 Ctrl-R 而不是上下光标键来查找历史命令。
-#####在 bash里，使用 Ctrl-W 来删除最后一个单词，使用 Ctrl-U 来删除一行
-#####Alt-. 把上一次命令的最后一个参数打出来，而Alt-* 则列出你可以输入的命令
-#####man bash后查找Readline Key Bindings一节来看看bash的默认热键
-#####CTRL+R 快速查找包含特定字符的命令
+##### ^old^new  #把上一条命令中的第一个old替换为new
+##### 在 bash 里，使用 Ctrl-R 而不是上下光标键来查找历史命令。
+##### 在 bash里，使用 Ctrl-W 来删除最后一个单词，使用 Ctrl-U 来删除一行
+##### Alt-. 把上一次命令的最后一个参数打出来，而Alt-* 则列出你可以输入的命令
+##### man bash后查找Readline Key Bindings一节来看看bash的默认热键
+##### CTRL+R 快速查找包含特定字符的命令
 
 {% endhighlight %}
 
-#####delete files with hypen or dash or search dash(-) in a file
+##### delete files with hypen or dash or search dash(-) in a file
 
 {% highlight vim %}
 # -file
@@ -696,7 +697,7 @@ grep -- '-[a-zA-Z]' file
 
 {% endhighlight %}
 
-#####Promot a hint, when * appears in command line
+##### Promot a hint, when * appears in command line
 
 {% highlight vim %}
 shopt -s extdebug
@@ -712,7 +713,7 @@ trap 'check_for_rm_star "$BASH_COMMAND"' DEBUG
 
 {% endhighlight %}
 
-#####Getting colored results when using a pipe from grep or ls to less
+##### Getting colored results when using a pipe from grep or ls to less
 
 {% highlight vim %}
 grep --color=always 'sth' file | less -R
@@ -720,7 +721,7 @@ ls --color=always | less -R
 
 {% endhighlight %}
 
-#####bash for loop
+##### bash for loop
 
 {% highlight vim %}
 #------------------------------------------
@@ -791,7 +792,7 @@ done
 
 {% endhighlight %}
 
-#####bash中的算术元算
+##### bash中的算术元算
 
 {% highlight vim %}
 #自加
@@ -800,14 +801,14 @@ done
 
 {% endhighlight %}
 
-#####bash中把行倒叙 tac， 把列倒叙 rev
+##### bash中把行倒叙 tac， 把列倒叙 rev
 
 {% highlight bash %}
 cat files | tac # the lines will be reversed
 cat files | rev # the columns will be reversed
 {% endhighlight %}
 
-#####Bash function
+##### Bash function
 
 {% highlight bash %}
 #assume this function is saved in file `func.sh`
@@ -817,7 +818,7 @@ function test {
 }
 
 #assume we have another script in same directory to call this fucntion
-##### `dirname $0`/func.sh  #source func.sh and read in the function
+#####  `dirname $0`/func.sh  #source func.sh and read in the function
 						#pay attention to the first dot
 global_variable=1
 `test parameter`
@@ -828,31 +829,31 @@ In function test, local variable is 0, global variable is 1, parameter is file
 
 Sed篇 
 
-#####取出文件中特定的一行或几行
+##### 取出文件中特定的一行或几行
 
 {% highlight vim %}
 sed -n '1,20'p TAIR10_cds_20101214
 {% endhighlight %}
 
-#####列出文件夹的目录结构，可以用tree命令实现
+##### 列出文件夹的目录结构，可以用tree命令实现
 
 {% highlight vim %}
 ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
 {% endhighlight %}
 
-#####去除文件中的空行
+##### 去除文件中的空行
 
 {% highlight vim %}
 sed -i '/^$/d' filename
 {% endhighlight %}
 
-#####sed记忆匹配
+##### sed记忆匹配
 
 {% highlight vim %}
 sed 's/\(pat\)/ok \1 ok/'
 {% endhighlight %}
 
-#####sed给每行增加行号
+##### sed给每行增加行号
 
 {% highlight vim %}
 sed = file(增加行号，并行号单独放在一行)
@@ -860,7 +861,7 @@ sed = file | sed 'N;s/\n/\t/'（编号和行在同一行）
 sed = file | sed 's/^/>locus/;N' （把文件转换为fasta格式,添加locus是为了避免fasta的序列标号以数字开头，这不被tcoffee识别）
 {% endhighlight %}
 
-#####sed在特定位置插入行 [\ 可能不需要]
+##### sed在特定位置插入行 [\ 可能不需要]
 
 {% highlight vim %}
 a.在第n行前面插入内容"content"（假设n为1）[i为前面插入，\表示i结束]
@@ -872,7 +873,7 @@ sed '/pattern/a\context' -i file
 
 {% endhighlight %}
 
-#####sed奇数偶数行处理
+##### sed奇数偶数行处理
 
 {% highlight vim %}
 a.偶数行合并到奇数行
@@ -888,19 +889,19 @@ d.如果用awk处理，可能会更方便和易于理解些。
 
 {% endhighlight %}
 
-#####删除一个用户的全部进程
+##### 删除一个用户的全部进程
 
 {% highlight vim %}
 killall -u username
 {% endhighlight %}
 
-#####删除包含某一特定的程序的所有进程
+##### 删除包含某一特定的程序的所有进程
 
 {% highlight vim %}
 killall -e progNamw
 {% endhighlight %}
 
-#####sed使用bash的变量
+##### sed使用bash的变量
 
 {% highlight vim %}
 J=‘OK’
@@ -908,7 +909,7 @@ sed -i "s/yes/$j/" file
 
 {% endhighlight %}
 
-#####sed删除行 (删除不需要-n，去除行需要-n)
+##### sed删除行 (删除不需要-n，去除行需要-n)
 
 {% highlight vim %}
 sed '2d' text  #删除第二行
@@ -928,7 +929,7 @@ sed -n '1,/match/p' file
 
 {% endhighlight %}
 
-##### sed对特定行进行操作
+#####  sed对特定行进行操作
 
 {% highlight vim %}
 #特定行替换［最初用于保证R的write.table能输出正确的列数］
@@ -938,12 +939,12 @@ sed '1 s/^\t/label\t/' r.output
 
 {% endhighlight %}
 
-#####  
-#####  
-##### http://sed.sourceforge.net/sed1line_zh-CN.html
+#####   
+#####   
+#####  http://sed.sourceforge.net/sed1line_zh-CN.html
 
 Awk篇(默认用空格分割)  
-#####Awk representing script
+##### Awk representing script
 
   {% highlight vim %}
   awk 'BEGIN{OFS="\t";FS="\t"}{file="";
@@ -952,37 +953,37 @@ Awk篇(默认用空格分割)
       else if (($2+1)/($3+1) < 0.5 && ($4+1)/($3+1) < 0.5) {file="DhMR.low.2"; print $0 >>file;}}}'
   {% endhighlight %}
 
-#####做两列的四则运算
+##### 做两列的四则运算
 
 {% highlight vim %}
 awk -F ' ' '{print $1 "\t" $2 "\t" $3 "\t" $3/$2}' result.ori
 {% endhighlight %}
 
-#####交换两列
+##### 交换两列
 
 {% highlight vim %}
 awk '{ss=$1;$1=$2;$2=ss; print $0}' awk 'BEGIN{FS="\t";OFS="\t"}{ss=$1;$1=$2;$2=ss;print $0}'
 {% endhighlight %}
 
-#####求文件一行的最小值
+##### 求文件一行的最小值
 
 {% highlight vim %}
 awk 'a=$1{for(i=2;i<=NF;i++)if($i<a)a=$1;print a}' file
 {% endhighlight %}
 
-#####求文件所有数值的最小值
+##### 求文件所有数值的最小值
 
 {% highlight vim %}
 awk 'NR==1{a=$1}{for(i=2;i<=NF;i++)if($i<a)a=$i}END{print a}' file
 {% endhighlight %}
 
-#####求文件每一列的平均值
+##### 求文件每一列的平均值
 
 {% highlight vim %}
 awk '{for(i=1;i<=NF;i++)a[i]+=$i}END{for(i=1;i<=NF;i++)print a[i]/NR}' file
 {% endhighlight %}
 
-#####awk if else if else
+##### awk if else if else
 
 {% highlight vim %}
 cat <<END >grade.awk
@@ -996,7 +997,7 @@ awk -f grade.awk grade
 
 {% endhighlight %}
 
-#####awk中计算相关的函数
+##### awk中计算相关的函数
 
 {% highlight vim %}
 + （加），- （减）， * （乘）， / （除）， ^ 或 **（乘方）， % 取模） 等等。
@@ -1004,25 +1005,25 @@ awk -f grade.awk grade
 awk 也提供了一些常用的数学函数, 比如 sin(x), cos(x), exp(x), log(x)[自然对数], sqrt(x), rand()。
 {% endhighlight %}
 
-#####awk字符串连接
+##### awk字符串连接
 
 {% highlight vim %}
 awk '{a=$1 $2 $3 "\t" $4;print a}' file
 {% endhighlight %}
 
-#####awk替换操作，支持正则表达式
+##### awk替换操作，支持正则表达式
 
 {% highlight vim %}
 awk '{gsub(/ori/, "sub", $2}' file
 {% endhighlight %}
 
-#####awk转换大小写
+##### awk转换大小写
 
 {% highlight vim %}
 awk 'BEGIn{OFS="\t"}{print $1, toupper($2)}' file
 {% endhighlight %}
 
-#####awk if else <http://www.thegeekstuff.com/2010/02/awk-conditional-statements/>
+##### awk if else <http://www.thegeekstuff.com/2010/02/awk-conditional-statements/>
 
 {% highlight vim %}
 conditional-expression ? action1 : action2 ;
@@ -1039,7 +1040,7 @@ else
 
 {% endhighlight %}
 
-#####awk的split函数
+##### awk的split函数
 
 {% highlight vim %}
 split(fullstr,a,"-")
@@ -1050,7 +1051,7 @@ the third parameter is the separtor. I
 t return the length of the array. One can get the first part by using a[1].
 {% endhighlight %}
 
-##### awk 按第一列合并<http://blog.163.com/qingfeng_0105@126/blog/static/750627382011315112338716/>
+#####  awk 按第一列合并<http://blog.163.com/qingfeng_0105@126/blog/static/750627382011315112338716/>
 
 {% highlight vim %}
 A     88
@@ -1077,33 +1078,33 @@ awk 'BEGIN{OFS="\t";FS="\t"}{key=$1"\t"$2"\t"$3; if (! a[key]) a[key]=$4; \
     else if ($4>a[key]) a[key]=$4; }END{for (i in a ) print i,a[i]}'
 {% endhighlight %}
 
-#####按行统计字符出现次数
+##### 按行统计字符出现次数
 
 {% highlight vim %}
 awk -F'[XY]' 'NF>1{t+=NF-1}END{print t}' input
 
 {% endhighlight %}
 
-#####awk给每行增加行号，使其变为唯一
+##### awk给每行增加行号，使其变为唯一
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}NR!=1{$4=$4"_"NR;print $0}' file
 {% endhighlight %}
 
-#####awk round
+##### awk round
 
 {% highlight vim %}
 awk  'BEGIN { rounded = sprintf("%.0f", 3/2); print rounded }'
 
 {% endhighlight %}
 
-#####awk统计文件中一行某字符的比例
+##### awk统计文件中一行某字符的比例
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{a=length; gsub(/[^A]/,""); print length/a}' txtfile
 {% endhighlight %}
 
-#####Pass Shell Variables To awk [http://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-bash-passing-variables-to-awk/]
+##### Pass Shell Variables To awk [http://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-bash-passing-variables-to-awk/]
 
 {% highlight vim %}
 root="/webroot"
@@ -1112,7 +1113,7 @@ awk -v v1=$v1 -v v2=$V2 '{ print "shell root value - " v1, v2}'
 
 {% endhighlight %}
 
-#####awk匹配含有特定字符串的列
+##### awk匹配含有特定字符串的列
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i<=NF;i++) if ($i ~ /MIR/) print $i}'
@@ -1120,13 +1121,13 @@ awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i<=NF;i++) if ($i ~ /MIR/) print $i}'
 awk 'BEGIN{OFS="\t";FS="\t"}{for(i=1;i<=NF;i++) if ($i ~ "MIR") print $i}'
 {% endhighlight %}
 
-#####awk计算对数
+##### awk计算对数
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{print log($0)/log(2)}'
 {% endhighlight %}
 
-#####awk读两个文件
+##### awk读两个文件
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}NR==FNR{a[$4]=a[$4]"\n"$0}NR!=FNR{$0=a[$1];print}' file1 file2
@@ -1139,7 +1140,7 @@ cat file2 | awk 'BEGIN{OFS="\t";FS="\t"}ARGIND==1{a[$4]=a[$4]"\n"$0}ARGIND==2{$0
 
 {% endhighlight %}
 
-#####awk同时读两个文件，每次各读一行 (文件名 file1,file2) [也可用paste完成]
+##### awk同时读两个文件，每次各读一行 (文件名 file1,file2) [也可用paste完成]
 
 {% highlight vim %}
 awk 'BEGIN {OFS="\t";FS="\t"}
@@ -1163,32 +1164,32 @@ close("file")
 
 {% endhighlight %}
 
-#####awk写入多个文件，根据文件内部条件写入不同文件
+##### awk写入多个文件，根据文件内部条件写入不同文件
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{print $2 >$1}' file
 {% endhighlight %}
 
-#####awk去除数字小数位
+##### awk去除数字小数位
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{print $1，int($2+0.5)}' file
 {% endhighlight %}
 
-#####awk在作字符串比较时可能使用位与操作，因此对于很小的数比较可恩那个会发生溢出的现象。推荐使用算数操作，可以避免这个问题。
+##### awk在作字符串比较时可能使用位与操作，因此对于很小的数比较可恩那个会发生溢出的现象。推荐使用算数操作，可以避免这个问题。
 
-#####awk强制退出用some_cmd;exit;
+##### awk强制退出用some_cmd;exit;
 
-#####awk不能识别Linux下的家目录符号(~)
+##### awk不能识别Linux下的家目录符号(~)
 
-#####awk输出到标准错误并退出 [错误的用法]
+##### awk输出到标准错误并退出 [错误的用法]
 
 {% highlight vim %}
 awk 'BEGIN{OFS="\t";FS="\t"}{print $0 >"&2"; exit;}' file
 
 {% endhighlight %}
 
-#####awk格式化输出
+##### awk格式化输出
 
 {% highlight vim %}
 >echo "12345 0.618" | awk '{printf("%s\t%f\n", $1,$2)}'
@@ -1202,14 +1203,14 @@ awk 'BEGIN{OFS="\t";FS="\t"}{print $0 >"&2"; exit;}' file
 
 {% endhighlight %}
 
-#####awk中自定义函数
+##### awk中自定义函数
 
 {% highlight vim %}
 awk 'function abs(x){return ((x < 0.0) ? -x : x)}BEGIN{OFS="\t";FS="\t"}{pos[1]=$1;pos[2]=$2;pos[3]=$3;pos[4]=$4; len=asort(pos);for(i=len;i>1;i--) print abs(pos[i]-pos[i-1]);}'
 
 {% endhighlight %}
 
-##### awk execute shell command
+#####  awk execute shell command
 {% highlight bash %}
 $ awk 'BEGIN{system("echo shell")}' # output shell
 $ awk 'BEGIN{cmd="echo"; par="shell"; system(cmd" "par)}'
@@ -1225,21 +1226,21 @@ $ export par="shell"
 $ awk 'BEGIN{cmd="echo"; system(cmd" $par")}' #output shell
 $ shell
 {% endhighlight %}
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
 Perl篇
 
-#####一个字符串重复多次输出
+##### 一个字符串重复多次输出
 
 {% highlight vim %}
 echo `perl -e "print '-' x 10"`
 {% endhighlight %}
 
-#####统计一个字符的出现次数
+##### 统计一个字符的出现次数
 
 {% highlight vim %}
 perl -e 'while (<>){$count+=s/char//g;} print "$count\n"' filename
@@ -1249,41 +1250,41 @@ perl -en '$count += s/char//g; print "$count\n"' filename | tail -n 1
 echo '12,21,23,' | perl -nle '$t +=tr/,//;print ++$t if eof'
 {% endhighlight %}
 
-#####匹配并且利用
+##### 匹配并且利用
 
 {% highlight vim %}
 perl -ne 'print if /AS:i:(\d+)/&&$1>=400' in.sam
 {% endhighlight %}
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
-#####
+##### 
 
 Convert篇
 
-#####eps图形转换为png
+##### eps图形转换为png
 
 {% highlight vim %}
 mogrify -format png logo*.eps    #批量转换
