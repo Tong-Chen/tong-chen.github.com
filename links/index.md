@@ -18,6 +18,7 @@ comments: yes
 * [ygc](http://ygc.name/)
 * [simplystatistics](http://simplystatistics.org/)
 * [gettinggeneticsdone](http://gettinggeneticsdone.blogspot.com/)
+* [bioinformaticszen](http://www.bioinformaticszen.com/)
 
 ##### Tutorials
 

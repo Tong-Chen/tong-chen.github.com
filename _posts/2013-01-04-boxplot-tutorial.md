@@ -14,7 +14,7 @@ tags:
 ---
 #### Box-plot and violin plot
 
-These words were typed according to [`wikipedia`](http://wikipedia.org) to let me know the concepts and descriptions. One can totally skip this part.
+These words were typed according to [`wikipedia`](http://wikipedia.org) to let me know the concepts and descriptions. **One can totally skip this part**.
 
 In descriptive statistics, a box plot or boxplot is a convenient way of graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending vertically from the boxes (whiskers) indicating variability outside the upper and lower quantiles, hence the terms box-and-whisker plot and box-and-whisker diagram. Outliers may be plooted as individual points.
 
@@ -30,11 +30,11 @@ The violoin plots is similar to box plots, except that they show the prbability 
 
 #### How-to do the plot
 
-Here I will introduce a script `boxplot.sh` as one-line command to plot various box-plots on given data.
+Here I will introduce a script [`boxplot.sh`](https://github.com/Tong-Chen/Plot/blob/master/boxplot.sh) as one-line command to plot various box-plots on given data.
 
 ##### Input file format
 
-Two types of input file are supported. If each boxplot contains the same number of points, the first format may be suitable. If each box contains different number of points, you may use the sceond format.
+Two types of input file are supported. The first type if the table file we used most often with the first column as ID and other columns as data values. It is suitable when all boxes share same IDs. If each box contains different set of IDs, you may use the sceond format. A practical example, if one want to compare the expression level of all genes in multiple samples, the table format is OK. Otherwise, if one only want to compare the expression distribution of top 100 genes in each sample, the melted format should be used since each sample may have different top 100 genes.
 
 * Matrix data table like `diamonds` as described in [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/).
 
@@ -50,7 +50,7 @@ Two types of input file are supported. If each boxplot contains the same number 
   6  0.24 Very Good     J 0.336
   {% endhighlight %}
 
-* A melted format as in described in [Basic things you should know to use s-plot]({{ site.baseurl }}/2013/01/test-data-sets/).
+* The melted format as in described in [Basic things you should know to use s-plot]({{ site.baseurl }}/2013/01/test-data-sets/).
 
   {% highlight r %}
        cut color variable value
@@ -70,40 +70,70 @@ Two types of input file are supported. If each boxplot contains the same number 
 
 ##### Begin plotting
 
-* The easiest way `boxplot.sh -f diamond.extract.matrix` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE` will get the following boxplot.
+* Simply, running `boxplot.sh -f diamond.extract.matrix` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE` will get the following boxplot.
 
   ![diamond.extract.matrix.boxplot-simple1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot-simple1.png)
 
-* Also want to get the violin plot, `boxplot.sh -f diamond.extract.matrix`. If you do not want to plot the inner-boxplot, please give `FALSE` to `-W`.
+* Also want to get the violin plot, `boxplot.sh -f diamond.extract.matrix -V TRUE`. If you do not want to plot the inner-boxplot, please give `FALSE` to `-W`.
 
   ![diamond.extract.matrix.boxplot.violin1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot.violin1.png)
 
-* Plot the distribution of `carat` and `price` in each `cut` category,
-`boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I "'color'"`; or
-in each `color` category `boxplot.sh -f diamond.extract.matrix -r 70
--a color -I "'cut','carat'"`. Remember to exclude other columns if there is
-any by giving their names to `-I` in format `"'col1','col2'"` or
-`"'col'"`.
+* Plot the distribution of `carat` and `price` in each given category.
 
-  ![diamond.extract.matrix.boxplot.violin1.set]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.violin1.set.png)
+  In `cut` category, `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'"`; 
+  
+  In `color` category `boxplot.sh -f diamond.extract.matrix -a color -I "'cut'"`. 
+  
+  Remember to *exclude other columns* if there is any by giving their names to `-I` in format `"'col1','col2'"` or `"'col'"`. Pay attention to the **double quotation** marks.  
+  
+  If the input file is in melted format, `boxplot.sh -f diamond.extract.matrix.melt -m TRUE -d value -F variable -a color -I "'cut'" -x color` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE -a color -I "'cut'" -x color` would be suitable since the default value for `-d` is `value`, `-F` is `variable`.
 
-* Plot the distribution of `price` in each `cut` category,
-`boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I
-"'color','carat'"`; or
-in each `color` category `boxplot.sh -f diamond.extract.matrix -r 70
--a color -I "'cut','carat'"`. Remember to exclude other columns if there is
-any by giving their names to `-I` in format `"'col1','col2'"` or
-`"'col'"`.
+  ![diamond.extract.matrix.boxplot.price_carat_color_set]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_color_set.png)
+
+* Manually set color for boxes in each category and exclude outliers to display clearly.
+  
+  `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'" -x 'cut' -c TRUE -C "'red','blue'" -o TRUE`. 
+  
+  For manual color setting, give `TRUE` to `-c` and color list to `-C`. 
+  
+  When `-o` is `TRUE`, outliers will be excluded. Default, points out [minimum/1.05, maximum*1.05] will be treated as outliers. One can give other numbers to `-O` when `-o` is `TRUE` to set other ranges of outliers. 
+  
+  Excluding outliers will be usefull for displaying data with very large ranges. Another way to do this is scale the Y-axis using `log10` or `log2`. 
+  
+  Such as `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'" -x 'cut' -c TRUE -C "'red','blue'" -s TRUE -v "scale_y_log10()"`. 
+  
+  Giving `TRUE` to `-s` means executing scale y-axis. Strings given to `-v` indicates the way to transform y-axis, including `scale_y_log10()`,`coord_trans(y="log10")`, `scale_y_continuous(trans=log2_trans())`, `coord_trans(y="log2")`. You may also want to add a value like `1` given to `-S` to avoid to get log value for `0`.
+
+  ![diamond.extract.matrix.boxplot.manual_color_noOutlier]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.manual_color_noOutlier.png)
+
+* Set the order of boxes in one category or set the order of categories (default alphabetical order). 
+  
+  `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'" -l "'price','carat'" -L "'Ideal','Premium','Very Good','Good','Fair'" -x 'cut'`. 
+  
+  For legend variable, the order should be given to `-l`. For category variable, the order should be given to `-L`. You may also want to rotate the x-tics to display vertically sometimes, please give `-90` to `-b`.
+
+  ![diamond.extract.matrix.boxplot.legend_xvariable_order]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.legend_xvariable_order.png)
+
+* Plot only the distribution of one column `price` in each category.
+  In `cut` category, `boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I "'color','carat'"`; 
+  
+  In `color` category `boxplot.sh -f diamond.extract.matrix -r 70 -a color -I "'cut','carat'"`. 
+  
+  Remember to exclude other columns if there is any by giving their names to `-I` in format `"'col1','col2'"` or `"'col'"`. If you want to do this to melted files, please remove unneeded numerical columns before metling process.
 
   ![diamond.extract.matrix.boxplot.price_color]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_color.png)
 
 
-* Plot the distribution of `price` in different `carat` categories, 
-`boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'"  -B 4 -x 'carat' -y 'price'`
-or 
-` boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'" -B "c(0.1,0.4,0.7,1,6)"  -x 'carat' -y 'price'`
+* Plot the distribution of `price` in different `carat` categories. 
+  
+  `boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'" -B 4 -x 'carat' -y 'price'` 
+  or `boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'" -B "c(0.1,0.4,0.7,1,6)"  -x 'carat' -y 'price'`
+
+  The first command gives `4` to `-B` indicates splitting `carat` into 4 categories. 
+  
+  The second command gives numerical vector `c(0.1,0.4,0.7,1,6)` to `-B` to splie `carat` into given ranges.
 
   ![diamond.extract.matrix.boxplot.price_carat_num]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_num.png)
   ![diamond.extract.matrix.boxplot.price_carat_interval]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_interval.png)
 
-
+* Please see [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/) to modify other formats like the *position of legend*, *width*, *height*, *resolution* and *output type* of pictures, *install required module* or *generating R scripts only*.
