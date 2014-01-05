@@ -657,10 +657,10 @@ http://www.unixguide.net/unix/bash/A7.shtml
 #{} represents the things you find by given conditions
 
 #\; is mandatory
+#if find will match multiple files, quote strings after -name
+find . -name "*.tdf" -exec ln -s {} . \;
 
-find . -name *.tdf -exec ln -s {} . \;
-
-find . -name *.tdf -ok ln -s {} \;
+find . -name "*.tdf" -ok ln -s {} \;
 
 #fast delete files
 find . -type f -delete -print

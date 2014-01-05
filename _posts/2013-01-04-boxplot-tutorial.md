@@ -164,3 +164,12 @@ A practical example, if one want to compare the expression level of all genes in
   ![diamond.extract.matrix.boxplot.price_carat_interval]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_interval.png)
 
 * Please see [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/) to modify other formats like the *position of legend*, *width*, *height*, *resolution* and *output type* of pictures, *install required module* or *generating R scripts only*.
+
+#### Ref
+
+* [ggplot2](http://docs.ggplot2.org/current/)
+* http://www.statmethods.net/graphs/boxplot.html
+* http://stackoverflow.com/questions/2492947/boxplot-in-r-showing-the-mean
+* http://stackoverflow.com/questions/10441214/r-boxplot-with-multiple-factor-labels
+* http://stackoverflow.com/questions/10805643/ggplot2-add-color-to-boxplot-continuous-value-supplied-to-discrete-scale-er
+
