@@ -118,6 +118,7 @@ One can get, save and view the dataset using below commands. Or download data se
 > library(reshape2)
 
 #Default all non-numerical column will be used as id variables
+#melt will group each data value into combinations of factor variable or categorial variable.
 > data_m <- melt(diamonds)
 Using cut, color, clarity as id variables
 

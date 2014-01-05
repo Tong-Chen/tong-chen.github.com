@@ -34,7 +34,7 @@ Here I will introduce a script [`boxplot.sh`](https://github.com/Tong-Chen/Plot/
 
 ##### Input file format
 
-Two types of input file are supported. The first type if the table file we used most often with the first column as ID and other columns as data values. It is suitable when all boxes share same IDs. If each box contains different set of IDs, you may use the sceond format. A practical example, if one want to compare the expression level of all genes in multiple samples, the table format is OK. Otherwise, if one only want to compare the expression distribution of top 100 genes in each sample, the melted format should be used since each sample may have different top 100 genes.
+Two types of input files are supported. The first type is the table file with the first column as ID and other columns as data values, just as what you think in the mind. It is suitable when all boxes share same IDs. If each box contains different set of IDs, you may use the sceond format. 
 
 * Matrix data table like `diamonds` as described in [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/).
 
@@ -50,7 +50,7 @@ Two types of input file are supported. The first type if the table file we used 
   6  0.24 Very Good     J 0.336
   {% endhighlight %}
 
-* The melted format as in described in [Basic things you should know to use s-plot]({{ site.baseurl }}/2013/01/test-data-sets/).
+* Molten format as described in [Basic things you should know to use s-plot]({{ site.baseurl }}/2013/01/test-data-sets/).
 
   {% highlight r %}
        cut color variable value
@@ -67,6 +67,32 @@ Two types of input file are supported. The first type if the table file we used 
    Premium     H    price 2.757
      Ideal     D    price 2.757
   {% endhighlight %}
+
+A practical example, if one want to compare the expression level of all genes in multiple samples, the table format is OK. Otherwise, if one only want to compare the expression distribution of top 100 genes in each sample, the molten format should be used since each sample may have different top 100 genes.
+
+  {% highlight r %}
+  #table file (faked value)
+  Gene	ES_rpkm	iPS_rpkm Type
+  Pou5f1  1.23     1.22  TF 
+  Tet1    0.21     0.20  Enzyme
+  Tet2    0.23     0.24  Enzyme
+  Tet3    0.01     0.01  Enzyme
+  Nanog   1.31     1.30  TF
+  #molten format
+  gene	rpkm	sample	type
+  Pou5f1	1.23	ES  TF
+  Pou5f1	1.22	iPS  TF
+  Tet1	0.21	ES  Enzyme
+  Tet1	0.20	iPS Enzyme
+  Tet2	0.23	ES  Enzyme
+  Tet2	0.24	iPS Enzyme
+  Tet3	0.01	ES  Enzyme
+  Tet3	0.01	iPS Enzyme
+  Nanog	1.23	ES  TF
+  Nanog	1.22	iPS  TF
+  {% endhighlight %}
+
+
 
 ##### Begin plotting
 
@@ -86,7 +112,7 @@ Two types of input file are supported. The first type if the table file we used 
   
   Remember to *exclude other columns* if there is any by giving their names to `-I` in format `"'col1','col2'"` or `"'col'"`. Pay attention to the **double quotation** marks.  
   
-  If the input file is in melted format, `boxplot.sh -f diamond.extract.matrix.melt -m TRUE -d value -F variable -a color -I "'cut'" -x color` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE -a color -I "'cut'" -x color` would be suitable since the default value for `-d` is `value`, `-F` is `variable`.
+  If the input file is in molten format, `boxplot.sh -f diamond.extract.matrix.melt -m TRUE -d value -F variable -a color -I "'cut'" -x color` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE -a color -I "'cut'" -x color` would be suitable since the default value for `-d` is `value`, `-F` is `variable`. For the practical example, `rpkm` should be given to `-d` and `gene` given to `-F`.
 
   ![diamond.extract.matrix.boxplot.price_carat_color_set]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_color_set.png)
 
@@ -115,11 +141,12 @@ Two types of input file are supported. The first type if the table file we used 
   ![diamond.extract.matrix.boxplot.legend_xvariable_order]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.legend_xvariable_order.png)
 
 * Plot only the distribution of one column `price` in each category.
+
   In `cut` category, `boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I "'color','carat'"`; 
   
   In `color` category `boxplot.sh -f diamond.extract.matrix -r 70 -a color -I "'cut','carat'"`. 
   
-  Remember to exclude other columns if there is any by giving their names to `-I` in format `"'col1','col2'"` or `"'col'"`. If you want to do this to melted files, please remove unneeded numerical columns before metling process.
+  Remember to exclude other columns if there is by giving their names to `-I` in format `"'col1','col2'"` or `"'col'"`. If you want to do this to molten files, please remove unneeded numerical columns before metling process using shell commands like `grep -v` and give new file to `boxplot.sh`.
 
   ![diamond.extract.matrix.boxplot.price_color]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_color.png)
 
