@@ -57,7 +57,7 @@ blockquote p{margin:0;padding:.5em 0;}
 
 .content{font-size:18px;line-height:27px;}
 .content h1{padding:.5em 0;}
-.content img{max-width:400px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+.content img{max-width:500px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
@@ -75,6 +75,8 @@ h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-siz
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
 h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
 h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+h5{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.8em;color:#333;}
+h6{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.6em;color:#333;}
 pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
 code{background-color:#F7F7F7;}
 embed,object,iframe{display:block;margin:4px auto;}
