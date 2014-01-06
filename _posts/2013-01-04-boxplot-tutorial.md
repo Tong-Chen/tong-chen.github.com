@@ -12,7 +12,7 @@ tags:
   - ggplot2
   - R
 ---
-#### Box-plot and violin plot
+## Box-plot and violin plot
 
 These words were typed according to [`wikipedia`](http://wikipedia.org) to let me know the concepts and descriptions. **One can totally skip this part**.
 
@@ -28,15 +28,15 @@ The violoin plots is similar to box plots, except that they show the prbability 
 ![boxplot-norm-distribution wiki](http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Boxplot_vs_PDF.svg/550px-Boxplot_vs_PDF.svg.png)
 ![violin-plot wiki](http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Violinplot-hiv-paper-plot-pathogens.png/320px-Violinplot-hiv-paper-plot-pathogens.png)
 
-#### How-to do the plot
+## How-to do the plot
 
 Here I will introduce a script [`boxplot.sh`](https://github.com/Tong-Chen/Plot/blob/master/boxplot.sh) as one-line command to plot various box-plots on given data.
 
-##### Input file format
+### Input file format
 
 Two types of input files are supported. The first type is the table file with the first column as ID and other columns as data values, just as what you think in the mind. It is suitable when all boxes share same IDs. If each box contains different set of IDs, you may use the sceond format. 
 
-* Matrix data table like `diamonds` as described in [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/).
+#### Matrix data table like `diamonds` as described in [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/).
 
   The first column is the ID variable, normally the values in this column should be unqiue. The other columns are data columns and you can have any number of columns if you want. 
   {% highlight r %}
@@ -50,7 +50,7 @@ Two types of input files are supported. The first type is the table file with th
   6  0.24 Very Good     J 0.336
   {% endhighlight %}
 
-* Molten format as described in [Basic things you should know to use s-plot]({{ site.baseurl }}/2013/01/test-data-sets/).
+#### Molten format as described in [Basic things you should know to use s-plot]({{ site.baseurl }}/2013/01/test-data-sets/).
 
   {% highlight r %}
        cut color variable value
@@ -94,17 +94,17 @@ A practical example, if one want to compare the expression level of all genes in
 
 
 
-##### Begin plotting
+### Begin plotting
 
-* Simply, running `boxplot.sh -f diamond.extract.matrix` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE` will get the following boxplot.
+#### Simply, running `boxplot.sh -f diamond.extract.matrix` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE` will get the following boxplot.
 
   ![diamond.extract.matrix.boxplot-simple1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot-simple1.png)
 
-* Also want to get the violin plot, `boxplot.sh -f diamond.extract.matrix -V TRUE`. If you do not want to plot the inner-boxplot, please give `FALSE` to `-W`.
+#### Also want to get the violin plot, `boxplot.sh -f diamond.extract.matrix -V TRUE`. If you do not want to plot the inner-boxplot, please give `FALSE` to `-W`.
 
   ![diamond.extract.matrix.boxplot.violin1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot.violin1.png)
 
-* Plot the distribution of `carat` and `price` in each given category.
+#### Plot the distribution of `carat` and `price` in each given category.
 
   In `cut` category, `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'"`; 
   
@@ -116,7 +116,7 @@ A practical example, if one want to compare the expression level of all genes in
 
   ![diamond.extract.matrix.boxplot.price_carat_color_set]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_color_set.png)
 
-* Manually set color for boxes in each category and exclude outliers to display clearly.
+#### Manually set color for boxes in each category and exclude outliers to display clearly.
   
   `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'" -x 'cut' -c TRUE -C "'red','blue'" -o TRUE`. 
   
@@ -132,7 +132,7 @@ A practical example, if one want to compare the expression level of all genes in
 
   ![diamond.extract.matrix.boxplot.manual_color_noOutlier]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.manual_color_noOutlier.png)
 
-* Set the order of boxes in one category or set the order of categories (default alphabetical order). 
+#### Set the order of boxes in one category or set the order of categories (default alphabetical order). 
   
   `boxplot.sh -f diamond.extract.matrix -a cut -I "'color'" -l "'price','carat'" -L "'Ideal','Premium','Very Good','Good','Fair'" -x 'cut'`. 
   
@@ -140,7 +140,7 @@ A practical example, if one want to compare the expression level of all genes in
 
   ![diamond.extract.matrix.boxplot.legend_xvariable_order]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.legend_xvariable_order.png)
 
-* Plot only the distribution of one column `price` in each category.
+#### Plot only the distribution of one column `price` in each category.
 
   In `cut` category, `boxplot.sh -f diamond.extract.matrix -r 70 -a cut -I "'color','carat'"`; 
   
@@ -151,7 +151,7 @@ A practical example, if one want to compare the expression level of all genes in
   ![diamond.extract.matrix.boxplot.price_color]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_color.png)
 
 
-* Plot the distribution of `price` in different `carat` categories. 
+#### Plot the distribution of `price` in different `carat` categories. 
   
   `boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'" -B 4 -x 'carat' -y 'price'` 
   or `boxplot.sh -f diamond.extract.matrix -a carat -I "'cut','color'" -B "c(0.1,0.4,0.7,1,6)"  -x 'carat' -y 'price'`
@@ -163,9 +163,9 @@ A practical example, if one want to compare the expression level of all genes in
   ![diamond.extract.matrix.boxplot.price_carat_num]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_num.png)
   ![diamond.extract.matrix.boxplot.price_carat_interval]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_interval.png)
 
-* Please see [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/) to modify other formats like the *position of legend*, *width*, *height*, *resolution* and *output type* of pictures, *install required module* or *generating R scripts only*.
+#### Please see [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/) to modify other formats like the *position of legend*, *width*, *height*, *resolution* and *output type* of pictures, *install required module* or *generating R scripts only*.
 
-#### Ref
+## Ref
 
 * [ggplot2](http://docs.ggplot2.org/current/)
 * http://www.statmethods.net/graphs/boxplot.html
