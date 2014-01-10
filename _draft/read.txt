@@ -1,0 +1,494 @@
+我在mitbbs上发现的好文章，很长，我认为重要的就加粗了。
+
+给那些有志于在生物学术道路上走下去的。
+
+I apologize for using English for the remaining, but this allows me to write
+much faster.
+
+Even in biomedical studies, there can be multiple paths. There will soon be 
+more openings in the biotech and pharmaceutical industry when the economy 
+comes back. About 7-8 years ago, when the economy was turning strong, many 
+of my friends got nice jobs in industry immediately out of graduate school, 
+or with limited postdoc experience. Given health needs are indispensible 
+similar things will likely happen again soon.
+
+However, I know more about the academic job, and will only focus on it.
+
+General aspects:
+1)    Reading books: There are many books from established scientists about 
+what it takes to become a successful scientist. I like these several: “
+Advice for a young investigator”(不止一个人向我推荐这本书，之前读了个开头，觉得在我们试图从作者的语言中得到什么的同时，首先要具备一定的知识背景去读懂它，甚至涉及到希腊神话）, “A Ph.D. is not enough”, “At the bench
+”, for a later stage “making the right moves” and “At the helm”. Spend 
+time reading them if you want to move on in academia.
+
+2)    Knowing what you want or what is expected from you for a faculty 
+position in a good institute. Two aspects: A good colleague, and a good and 
+unique scientific identity that can self-support (through writing grants). 
+See also the later session about finding a faculty job.
+a.    Being a not-so-good colleague can really hurt your chance of getting a
+good job, no matter how strong your other aspects are. There will be enough
+phone calls to your former and current colleagues to check on you during 
+job hunting. And a sentence like “he is not a good colleague” can go a 
+long long way in the final decision. You will not become a good colleague 
+overnight. This is an ability and a reputation that takes a long time to 
+build. Help you colleagues whenever you can, interact with your colleagues 
+and share their interests. You cannot only do this among Chinese friends 
+because there are no departments other than those in China that are 
+dominated by Chinese.
+A good colleague also needs to have common sense. Do not request, talk or 
+think inappropriately. When somebody think that he is working very hard by 
+going an 9-5 schedule and never show up during the weekend, when somebody 
+think he deserves a co-first authorship by contributing an idea and when 
+somebody think his support is from tax money and has nothing to do with his 
+mentor, then this person is hard to become a good colleague. Common sense is
+to some degree a gift – some are born to be better. But you can improve 
+your common sense by consistently sensing others’ feedbacks, directly or 
+indirectly.
+b.     A unique scientific identity means easy to get support, less 
+competition and more collaboration. A scientific identity can come by from 
+many aspects: you may have a unique technique, or you may have a unique 
+preparation, or you may have a unique question (or an angle to a question). 
+No matter what, you have to be differently in an important way. The 
+questions that can be answered by your technique, preparation or angle have 
+to be so obviously important that they can wake you up at night. They also 
+need to be different enough from what others (especially your former mentor)
+would do. Such an identity can be achieved by developing an important 
+technique that everybody wants (that is why Sunny Xie’s postdocs are so 
+popular), by combining your different expertise during your Ph.D. and postoc
+to answer an question, by moving on to a different cell type/region where 
+similar questions are important, and by unique critical thinking that allow 
+you to go into further depth than others.
+
+3)    Unless you are ready to go back to China after your training, try to 
+join at least one lab (out of your Ph.D. and 1-2 postdoc labs) that has a PI
+from a western countries and a majority of non-Asian members. There are a 
+lot of subtle value, culture and other stuffs that you will not learn from a
+Chinese PI (for example, how to grab credit without much contribution). You
+don’t have to follow what Americans do, but you do need to understand the 
+situation and know how to deal with these kinds of things. 
+
+4)      Have a long term plan and think ahead of time. 
+a.    I know somebody who want to switch field in his 7th year of postdoc 
+because although he is clearly capable and has nice publication records, his
+field (clinical related) is nearly saturated and difficult to take him as a
+faculty (without a MD). It is too late. He should have thought earlier and 
+moved on faster. 
+b.    Another thing is that what is hot right now is going to cool down by 
+the time you come out. Even if it is still hot, all the postdocs trained 
+right now will have filled most of the positions by the time you come out. 
+You have to see the trend and go in early before it gets so ‘hot’. This 
+requires some judgment – and this says a goal of graduate study: you have 
+to have good judgment (otherwise very good luck) by the time you look for 
+postdocs.
+
+More specifics.
+Graduate studies (First year)
+1)    Do not join a lab without a rotation!!! Simply take a look at how many
+people on this board have problems with their mentors and probably their 
+careers. It is not that the PIs are always evil, but it is all about 
+chemistry. Also, different people are good at different experiments and 
+techniques. It is difficult to know whether you will fit the chemistry or 
+what you are good at without a trial. Rotation is a good thing and will only
+help you. This is especially important for Chinese students whom come 
+directly from college. Most American students have 1-3 years research 
+technician experience and they know better what they need. Chinese students 
+should compensate by doing a couple more rotations. Also remember that the 
+sole purpose of rotation is to find a thesis lab. Don’t waste your chance 
+to go to a lab just to learn a technique (without the possibility of stay).
+2)    You don’t have to do the same thing that you did for your college 
+thesis. Starting fast is not necessary, and nobody expects that for a 
+student. Starting properly is important. I have seen people want to do 
+biochemistry (this is not to disrespect biochemistry) simply because they 
+spend 3 month before college graduation in doing that. Learning a new 
+technique is not that difficult. I have done biochemistry, molecular biology
+, electrophysiology, imaging, microscopy and EM in my short career. They are
+just not that hard. It is silly not to try something because you have not 
+done it before.
+3)    It is interesting that Chinese students tend to go to big and well 
+established labs while American students go to more junior or smaller labs. 
+Again, most American students have 1-3 years research technician experience 
+and they know better what they need. Graduate school is a place to get 
+trained properly. High profile publication is not ultimately important for a
+graduate student (obviously it is a bonus), but the ability to think and 
+judge is important. Unless you feel that you are very matured and 
+independent, going to a smaller lab means more time to interact with the PI 
+and the chance to learn much more in thinking and judging. I join a very 
+well established lab for my Ph.D. Although I come out with nice publications
+, I regret it. I had very nice relationship with my mentor, but there are a 
+lot of mistakes along the way that I could have avoided if my mentor was 
+more hand-on.
+4)    Class scores are not that important. Chinese students tend to spend 
+too much time preparing for exams. You want to do OK in your classes, and 
+the classes are designed to give you a broad exposure to up-to-date 
+biological knowledge and technology. However, don’t spend two weeks full 
+time before an exam to prepare for it. You could lose your chance to join a 
+good lab that is more important for your future (rotation is for PI to 
+choose his/her students as well). I failed the biggest course for my 
+graduate study. Anyone cares? Nobody.
+5)    Do not join a lab without a semi-formal labmeeting! Very soon, you 
+will need to present your work all the time. Without a labmeeting, you lose 
+the chance to practice. You also lose the chance to get feedback from peers 
+and could be blind to what others are doing in the lab – both lead to a 
+lack of training in critical thinking and judgment.
+
+Graduate study (later years)
+1)    Reading papers. This should apply to first year students as well. 
+Having a few hundred papers in your belly is the best jump start in research
+. I don’t mean those papers you scan through within a few minutes. These 
+have to be the papers that you read carefully and discuss with others. You 
+have to know (at least conceptually) what the paper try to say, what 
+technique they use and what is each experiment about. You should judge why 
+this is a Nature paper instead of a JBC or vice versa. You should see others
+opinions and compare them to your own understanding, especially when you 
+are still junior. Don’t bother one person too much though. What I did a 
+while back was to make an appointment with a senior student for one-question
+-a-day, and you can do this to multiple people. Over time, knowledge 
+accumulates (often faster than you expect), and you are ahead of your peers.
+It is important to note that in this country, paper goes by names. Spend 
+effort to remember the author names.
+2)    Write grants. Writing grant will help you clear your mind of what to 
+do, and give you practices to a much needed skill throughout life – writing
+. It also makes your CV looks good. There aren’t too many pre-doctoral 
+grants a Chinese student can apply, but I know multiple people get one from 
+American Heart Association – even if you are a little bit outside of the 
+field (e.g. hearing sensation).
+3)    Work hard. All who move on successfully to the next level work very 
+hard. The most efficient way to work hard is to focus and be goal oriented 
+while you work. Think about what you need to do before you start and finish 
+all tasks that you have planned. Don’t spend too much time to chat around 
+during working hours unless you are ready and capable of working extra long 
+hours. You don’t have to work extra hours, but should be ready to come in 
+afterhours briefly if that means pushing the experiment a day. If you don’t
+find yourself a very focus person (like me), then be ready to work long 
+hours (or quit). 
+4)    Courses. There are summer courses provide by Cold Spring Harbor 
+Laboratory, Woods Hole and other places. They were life changing events to 
+me. Highly recommend. You can establish connections with established 
+scientist through these courses, and broaden your scientific horizon greatly
+through these courses. I further learned that science can be fun, other 
+than all the hard works. The courses can be expensive if your mentor does 
+not pay. But it is still worth the money even if you have to pay yourself. 
+In general, a student benefit more from the longer Woods Hole course, while 
+CSHL course is appropriate when your need is very specific. 
+5)    Focus. This is a different type of focus than the work-hard session. 
+It means don’t spread yourself thin by doing too many projects. I learn 
+this from an American student when I was doing postdoc. This guy worked and 
+thought on only one project at a time. If he had to start something new, he 
+completely dropped his old one until the new one was finished. He had a 
+Nature, a Science and a PNAS in 4 years. He published another Nature 10 
+month into his postdoc. There is obvious some luck associated, but being 
+focus and finishing each job as soon as possible are also the key.
+6)    Presenting your work. Don’t just go to meetings for vacation. You 
+want to present your work at meetings. I think a poster is a better way in 
+early years because it allows you to talk to people, get feedbacks, and 
+establish connections. Try to go to small meetings whenever possible.
+7)    A balanced life. Exercises, hobbies, family and friends are the energy
+source for a long scientific career.
+8)    Move on when you are ready (graduated). You want to well plan for your
+postdoc when you can see yourself graduate. As soon as you graduate, move 
+on. A big mistake of mine was to graduate then hang around in my old lab for
+another two years. I lost the chance to chase a lot of prestigious 
+postdoctoral fellowships, and I lost my intensity and focus that never fully
+come back to me.
+9)    Join your American peers. During your pastime, try to join your 
+American classmates for activity whenever there is a chance. Science 
+requires a package of skills. Social is one of them.
+
+Looking for postdocs
+1)    As soon as you start your postdoc, the clock is ticking. You are not a
+student anymore and are expected to produce. If you are unsuccessful for a 
+first postdoc, you will have a chance to switch. But after two unfruitful 
+postdocs, your chance of move on diminishes. So don’t graduate until you 
+are ready; and choose your postdoc lab very carefully. Most labs have to be 
+applied one year ahead. So think early.
+2)    This is your last chance to choose a direction (to some degree) until 
+you become very successful in your career. So think hard and get advice from
+your PI, thesis committee and others. Most importantly, follow your heart.
+3)    You don’t have to work in the same field as your Ph.D. lab. It may be
+a slow start in the beginning, but your different background could make you
+go further or help in establishing your unique scientific identity when you
+look for jobs.
+4)    Many people have realized that going to a big name with a good track 
+record is a key. How to achieve that is not easy because there are only a 
+few big names in a given field, and every graduating student is thinking the
+same thing. How to joining a big name lab? All the small things count. The 
+summer course you attend, the papers you publish, the posters you present, 
+the meetings you go, as well as your hard work and your nice personal nature
+in the lab. I knew my first postoc mentor when he was still nobody in a 
+summer course. Most people will have a chance to know a couple of big names 
+before they graduate, the important things is that you have to impress them 
+with what you have learned. 
+5)    All big names come from small names. It will be a lot easier to catch 
+them before they become very big. This takes some judgments; but if you 
+cannot judge somebody’s potential, you are not ready to graduate yet. A graduate student three years junior than me in my Ph.D. lab went to a 
+starting faculty. He got job the same year and me, at a very high profile 
+place. An established PI (currently a chair of a major university) said that
+the best lab to go is somebody who just gets tenure – a proven PI who is 
+still hand-on and ready to expand his program using the ideas piled up 
+during his junior years. 
+6)    Basically, I believe a person with good judgments can succeed by going
+to a PI at any level. The advantage of going to a big name is that you don
+’t have to judge. But without good judgment, your chance of joining a big 
+lab is small anyway. One should also realize how many people just get buried
+in those big labs and think about the competition you will face once you 
+come out. There will be another 30 years after you get your faculty position
+… A case study: there was a very famous lab putting 6 people in a genetic 
+screen. Am I going to join if I am the #3-6? No way.
+7)    I don’t know what a good way is to write a postdoc application, but 
+you should show specific interest in their work. Outline the problems you 
+like (but a full proposal is too much), and mention your own expertise. 
+Being opinionated is a good thing usually. Many PIs like technically capable
+people who can bring in a new dimension to the lab. I do know that there 
+are people apply to every big name regardless of the research direction. 
+That can serve negatively once found out. A few directions of research 
+interest are good, but too many mean no research interest.
+8)    If you are invited for an interview, be well prepared. 
+a.    Talk is the most decisive factor whether you will land the offer. It 
+also demonstrates your presentation skill that will be crucial in your 
+future job hunting. Give a nice talk, and explain things very well because 
+people may not be familiar with your talk. Rehearsal enough times in front 
+of other people in advance. If you are going to give a 30 minute talk, do 
+not present your entire thesis talk by simply speak twice as fast (This just
+happened in my institute two weeks ago…). People will get lost and you 
+will lose your chance. 
+b.    Read all recent papers from the lab and show interests to people’s 
+work. Be ready to ask questions – life, research environment, PI’s habit (
+when you talk to the lab members) and other things that you value – You 
+need to interview the lab in addition to it interviews you. This also shows 
+your enthusiasm to the lab. If you don’t have a chance to talk to the PI’s
+students/postdocs, it is usually a bad sign (unless he is a junior PI with 
+nobody yet).
+c.    Dress neatly but not over-dressed. Ask helps from your female friends 
+unless you are very confident in your taste.
+d.    It is OK to take the chance of ticket for a vacation, but do not ask 
+the lab to pay for your 10-day stay (I have seen this happen).
+e.    Ask for specific projects to start. Going for good and immediate 
+projects can save you a lot of time, sometimes a career.
+9)    A quick thought about applying to a lab that really interests you. If 
+you don’t get direct response, you can write to their next door lab (or 
+maybe the lab directly) and say that you have a friend at the place who you 
+are visiting. You want to take a chance to look at the place for a few labs 
+for potential postdoc possibility. Be sure to mention that it is a 
+preliminary inquiry. If you are invited, it is up to you to impress the lab 
+you like…
+10)    Think carefully and consider all factors, including salary and the 
+possibility of other offers, before you accept an offer.  The last thing you
+want to do is to back off. Science is a small community and everybody knows
+everybody…
+11)    Visa issue. UC and some other schools only give J-1 visa. If you want
+an H1, one trick has worked is to submit a green card application. Then you
+are disqualified for the J-1 visa, and HR has to get H1 for you.
+
+
+Postdoc years.
+1)    As soon as you start your postdoc, the clock is ticking. The sweet 
+spot to get a job is 3-8 years. Don’t laugh, because 8 years can pass very 
+quickly. If you are beyond 10 years, forget it unless you can justify that 
+you were sick for a few years or you have to stay home for kids.
+2)    The expectation to a postdoc is completely different than that to a 
+student. A student can make mistakes, and can take time to develop; but a 
+postdoc is supposed to be a matured scientist who can contribute immediately
+, and there is less room for major mistakes.
+3)    If there is a time to sacrifice a little bit of other things for your 
+career, this is the time. If you cannot work long hours, try to focus as 
+much as you can while working. But do not give up all your pastime and/or 
+family time because they are your energy source.
+4)    If you work at different hours than your PI, communicate it in a 
+casual way (e.g. during a happy hour: I had a headache today probably 
+because I did not finish until 11 pm last night, so I cannot drink beer.) –
+I would not know that my student comes to work at 5 am every day if he does
+not tell me. Americans are very good in this kind of things, Chinese need 
+to catch up. Good communication can help to alleviate immediate pressure 
+from the mentor and sometimes give you more room to explore.
+5)    When PI asks you “how are you” or “what is up”, he usually wants to hear about your recent progress in a casual way. If all you answer is “
+fine”, then you may be facing more direct way of checking into your work. 
+This is and #4 are some of the reasons why many people think American and 
+Chinese are treated differently.
+6)    Write postdoctoral grant. There are at least a few of them to try. 
+This is important whether or not you get it in the end – you can practice 
+your writing, communicate and impress your boss, and sort out the ideas for 
+experiments (maybe your original idea is not that interesting after all).
+7)    No matter how busy you are, do proper controls. With our little 
+knowledge in biology, you never know what is going to happen. A couple of my
+major papers started from negative controls turning positive.
+8)    Be goal-oriented. Do not spread yourself too thin. All you need is one
+nice paper, but not 10 papers. You surely will know much faster whether one
+project will work or not by focusing on it. I emphasize on this in the 
+graduate study session as well because I know lack of focus was my weak 
+point, and probably the weak point of many students/postdocs who believe in 
+their own capability.
+9)    There is no discrimination during job hunting to postdocs who did 
+their Ph.D. in China. However, they often suffer from a few less years 
+understanding of the American system. You will have to catch up fast, or 
+spend a couple more years (or maybe one more postdoc) than your peers.
+10)    Presenting your work at meeting, going to courses and making 
+connections. All these helps towards the final job hunting.
+11)    When to move on? This is different case by case. Feel free to discuss
+with your PI well ahead of time. It is usually better to have a paper or 
+more at hand already. But it can also work when you have a manuscript ready 
+to submit. The latter usually required a strong recommendation letter and a 
+hot but not yet very competitive field. A responsible PI usually has better 
+sense in the timing than the postdoc.
+
+
+A few sporadic things.
+1)    Developing new projects. If you are ever in the position to develop a 
+new project by yourself and do not have an immediate good direction, there 
+are a couple of possibilities:
+a.    According to MM Poo, you can try to repeat a text book experiment 
+using a new technique. The worst is an OK publication that confirms the 
+early result. If anything different, you have a high profile paper.
+b.    Characterize your system very hard. People always go for the “lowest 
+hanging fruits”. This often leaves a lot of parameter uncharacterized. By 
+spending time to characterize the system, you will see a lot more details 
+nobody has seen before. This can put you immediately ahead of everybody in 
+the field, and can often lead to interesting hypothesis.
+2)    Having a family. Many people keep waiting for a good time to start a 
+family. Well, there is no a good time until you are tenured. By that time 
+you are likely too old. Because there is no good time, anytime is a good 
+time. It might be slightly better to have kids after the initial ramp up 
+period of a graduate study or after the first a couple of years of a postdoc
+when you have secured your project. Having and rising kids are not easy, 
+but they can also make you more responsible and more focused.
+3)    Female Scientist. There are more difficulties on the way for women to 
+move on in academia because they usually have more family responsibilities. 
+However, Chinese women also have some advantages. Compared to Chinese male scientists, Chinese women tend to have less language barrier and better 
+adaptability to the different culture. Compared to American women, many 
+Chinese women (and men) have advantages in that they often receive daily 
+helps from parents in caring kids. Currently, most departments as well as 
+HHMI hope to have a female faculty percentage of 25% or higher, but few meet
+the expectation. Therefore, there is a general emphasis in recruiting 
+female faculties. Indeed, there has been a major department of a top n 
+university that only considers female candidates in the past a couple of 
+years. So Chinese female scientists should consider your advantages before 
+you feel so tired and decide to go a different path.
+
+Hunting for a faculty job.
+
+Every year, there will be somebody saying that his labmate with 2 Science 
+papers cannot land any jobs, at least not at a good place. I hope the 
+analysis below can make some sense.
+
+The decision factors to make a faculty offer are very complex. With some 
+approximation, the following formula illustrates some considerations. 
+
+A faculty offer ~ scientific potential * sustainability * departmental 
+direction * pleasant factor / (external competition * internal competition^2
+);
+
+Among which, 
+scientific potential ~ scientific ability * scientific future potential.
+Scientific ability ~ scientific publication record * scientific originality.
+Sustainability ~ funding easiness * writing skills * presentation skill * 
+maturity/mentoring ability
+Funding easiness ~ uniqueness in scientific identity * direction of funding 
+agency
+Pleasant factor ~ social skill * collaboration possibility / bad mouth about
+this person
+
+In other words, getting a faculty job requires a full package. Most factors 
+are determined way before you start your job hunting. While publication 
+record is a very important factor, it is only one of the factors. I know a 
+person with 5 Nature and Science papers (all primary authors) who could not 
+land a job in the United States. There was even a departmental chair flew 
+over to interview him, but left without giving an offer. No everybody, 
+including many Americans, has the entire package. As a student and a postdoc
+, what you need to do is to well prepare for every single factor to maximize
+your potential.
+
+Below, I will discuss some practical considerations during the job hunting.
+1)    What publication record is good enough? This depends on your field. 
+But even in my field, which is full of CNS papers, a friend in a top n 
+university said that they no longer look at whether this guy has a first 
+tier paper because that most of time has something to do with the luck and 
+the assigned project. Still, I believe one or two above-average papers are 
+necessary unless you are ultra-strong in other aspects.
+2)    Spending enough time. Even many Americans make this mistake. After 
+spending 8-15 years to get to a point of getting a real job, most people 
+just cannot spend a few months full time in this critical task that can 
+affect the entire career. If your boss would not allow you to stop 
+experiments, you should start even earlier.
+3)    Don’t embarrass yourself by embarrassing yourself early. Show your 
+proposal to people, many people. Proposal is the key to judge your 
+scientific potential, sustainability and you fitness to departmental 
+direction. But more than a few people show their writing to few if any for 
+comments. This is typically for 3 reasons: embarrassment, worry about 
+competition from colleagues and lack of time. Well, lack of invitation to 
+interview is the biggest embarrassment, and don’t worry too much about 
+competition before you are in a position to compete. Ideas are cheap, but 
+positions are not. If the potential competition is really so big, then you 
+should have worry about it before you start your postdoc. Especially for 
+Chinese, get some American friends to check your grammar and improve the 
+writing. Being a good colleague early on helps here – a friend basically re
+-wrote my proposal. Otherwise I may not get my job.
+4)    Different places like different proposals. First tier places want to 
+see your big picture and see interesting proposals, while other places like 
+to see the hints of an NIH grant. You can sometimes do a hybrid for both 
+purposes. 
+5)     Seminar – once you get an interview, the most decisive factor is the
+seminar.  Like in #3, prepare your talk early and rehearsal in front of 
+colleagues and PIs! Many people rehearsal with friends, but only 2 days (or 
+even the day) before interview. It is too late! Unless you are a genius, 
+your talk will be far from optimal. Remember, there will be 5-6 interviewees
+, and you have to be the best one. Most university will not go down the list
+. You have to make your audience think that this is the talk of the year. 
+Otherwise you don’t’ even need to go. So – prepare your slides 1 month 
+before the talk, and do your first rehearsal >2 weeks before the talk, and 
+rehearsal in front of people every two days. It is simple, but few people do
+it. Also, practice starting from your first “thank you” sentence all the 
+way to future direction. You will need to present them all, and everything 
+counts. One particular point, while most people would agree to ~50% of the 
+comments during rehearsal, >90% will improve the talk. So try to incorporate
+as many comments as possible. How to know whether you are getting the right
+people to help you during rehearsal? If you don’t feel like jumping down a
+cliff after the first a couple of rehearsals, it is usually a sign saying 
+that you should get another group of people to help.
+6)    A case study. There is a postdoc with Nature and other papers who 
+probably worried about competition. He did not show his proposal to lab 
+mates and did not really rehearsal in the lab. He probably is not going to 
+get an offer. At the same time, the second author of his paper, with his own
+unfinished story and more helps in job hunting, landed a job in a first 
+tier place. The first guy may still get a job next year, but by the time he 
+starts, the second author will have several students/postdocs working on 
+every possible project already. More competition for the first author? For 
+sue.
+7)    Interview is a very involving process. Read and ask about every person
+who will talk to you. Think about ice breaking questions for every person. 
+Show enthusiasm to other people’s work. Ask about life, housing, etc to 
+show your long-term interests. Also, be proud of your work, but don’t be 
+arrogant. 
+8)    Dress well, but don’t be over-dressed. There was somebody who 
+interviewed with very formal black suit almost like a Tuxedo. That was too 
+much. Scientists are usually very casual. Very formal dressing can lead to a
+sense of pressure that people don’t like.
+9)    Chalk talk or equivalent. Not all places have chalk talks, but all 
+places will set up an opportunity to ask you tough questions. Be well 
+prepared. Questions can be very direct, difficult and confronting. Some of 
+the toughest questions for me included how your technique can even work in 
+your preparation, what the first 3 experiments you are going to do are, and 
+what you classify yourself into (e.g. a electrophysiologist, a cell 
+biologist, a structural biologist)… There was also people said that I don’
+t think your result make sense. 
+10)    For the few people who have 20+ interview offers, it is better to 
+focus on 10 or so and make the most of it rather than fly for half a year 
+without a breath… The latter often lead to underachievement. 
+11)    Couple. In general it is better to go to a city with lots of 
+opportunity – NY, Boston and California.
+a.    If you are at comparable stage. There is essentially no chance to get 
+two jobs at one department if both of you work on similar subjects. If your 
+directions are different, and both want to move on to faculty positions, 
+make it clear either in the coverletter or during the interview for schools 
+not in the three areas. Although many Americans think it is illegal to ask 
+about spouse, more than half of the people interviewed me (and others) asked
+this question. You don’t want to lie for sure. Schools will consider 
+whenever possible, but most departments are very cautious about give two 
+offers at the same department because firing 2 persons (if necessary) 
+quadruples the impact of firing one person down the road. Both of you have 
+to be very good.
+b.    If you two are separated by a few years, it is better to tell the 
+school that the junior person’s plan is flexible. Otherwise the school will
+realize that by the time your spouse is ready for a faculty job, if the 
+school cannot give him/her an offer, you will both leave (after you spend 
+all your startup but have not generated much revenue for the department).
+Well, Good luck!
+
