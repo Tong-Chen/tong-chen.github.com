@@ -75,9 +75,9 @@ nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-
 h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
 h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
-h5{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.8em;color:#333;}
-h6{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.6em;color:#333;}
+h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;}
+h5{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.8em;}
+h6{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.6em;}
 pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
 code{background-color:#F7F7F7;}
 embed,object,iframe{display:block;margin:4px auto;}

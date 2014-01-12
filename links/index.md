@@ -19,6 +19,7 @@ comments: yes
 * [simplystatistics](http://simplystatistics.org/)
 * [gettinggeneticsdone](http://gettinggeneticsdone.blogspot.com/)
 * [bioinformaticszen](http://www.bioinformaticszen.com/)
+* [xiu shi jie](http://pgfe.umassmed.edu/ou)
 
 ##### Tutorials
 
