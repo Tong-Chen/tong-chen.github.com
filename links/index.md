@@ -20,6 +20,7 @@ comments: yes
 * [gettinggeneticsdone](http://gettinggeneticsdone.blogspot.com/)
 * [bioinformaticszen](http://www.bioinformaticszen.com/)
 * [xiu shi jie](http://pgfe.umassmed.edu/ou)
+* [Allen Downey](https://sites.google.com/site/allendowney/)
 
 ##### Tutorials
 

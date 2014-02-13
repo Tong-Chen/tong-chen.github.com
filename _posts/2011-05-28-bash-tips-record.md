@@ -666,6 +666,11 @@ find . -name "*.tdf" -ok ln -s {} \;
 find . -type f -delete -print
 find . -type d -delete -print
 
+#search for empty files
+#-L means follow soft link
+find -L . -empty -exec ls {} \; #pay attention to the position of -L
+#search for un-empty files
+find -L . -not -empty -exec ls {} \; #pay attention to the position of -not
 {% endhighlight %}
 
 ##### bash命令的重用

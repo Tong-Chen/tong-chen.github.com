@@ -34,9 +34,9 @@ Some notes:
 
 2. The term list can be downloaded from https://www.library.uq.edu.au/faqs/endnote/medical_2010.txt. It would be much better if you use the third column as the first colum to get another copy.
 
-# **2.Endote reference double space**
+# **2.Endote reference double space, font, font size**
 
-In EndNote (not word), go up to Tools > Cite While You Write > Format Bibliography.  From here, you can change the line spacing of the bibliography.
+In EndNote (not word), go up to Tools > Cite While You Write > Format Bibliography.  From here, you can change the line spacing of the bibliography and font type, font size.
 
 Open Word and Endnote &#8211; then click on &#8220;Tools&#8221; &#8211; &#8220;Endnote 6&#8243; &#8211; &#8220;Format Bibliography&#8221; &#8211; &#8220;Layout&#8221; &#8211; &#8220;Line  
 Spacing&#8221; and set to double space.
