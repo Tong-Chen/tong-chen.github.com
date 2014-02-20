@@ -56,6 +56,8 @@ Once getting the adaptor sequence, one can use [fastx_clipper](http://hannonlab.
 
 {% highlight bash %}
 fastx_clipper -a TCGTATGCCGT -l 17 -v -i GSM416732.fa -o GSM416732.clipped.fa
+#If there is error like 'invalid quality score value', add '-Q 33' as below
+fastx_clipper -a TCGTATGCCGT -l 17 -v -i GSM416732.fa -o GSM416732.clipped.fa -Q 33 
 {% endhighlight %}
 
 Here I used [`Mega`](http://www.megasoftware.net/) result as an example. The left colorfull letters show the MSA result of 25 reads and black-boxed 11 letters were selected as adaptor sequence. The length of adaptor sequence normally should be larger than 10. The right txt shows the adaptor-clipping result connected by thin-lines.

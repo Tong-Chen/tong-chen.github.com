@@ -37,3 +37,11 @@ comments: yes
 ##### Visualization
 * [Visualization](http://www-958.ibm.com/software/data/cognos/manyeyes/page/Visualization_Options.html)
 
+##### Companies
+* [seqWright](http://www.seqwright.com/)
+*
+
+##### Labs
+* China
+  * [brainnetome](http://www.brainnetome.org/en/)
+  *

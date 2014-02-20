@@ -658,9 +658,14 @@ http://www.unixguide.net/unix/bash/A7.shtml
 
 #\; is mandatory
 #if find will match multiple files, quote strings after -name
+#if you want to use pattern match, must quote patterns using '' or ""
 find . -name "*.tdf" -exec ln -s {} . \;
 
 find . -name "*.tdf" -ok ln -s {} \;
+
+find . -name *makefile  # Wrong
+
+find . -name '*makefile' # Right
 
 #fast delete files
 find . -type f -delete -print
