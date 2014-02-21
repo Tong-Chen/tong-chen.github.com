@@ -1,5 +1,5 @@
 ---
-title: Tutorial for smRNA-Seq analysis
+title: Backup data using rdiff-backup
 author: Chen Tong
 layout: post
 categories:
@@ -9,18 +9,18 @@ tags:
   - rsync
 ---
 
-Here summarizes the usages of rdiff-backup to backup files.
+Here summarizes the usages of rdiff-backup to backup files with old version kept also.
 
 
 #### Mirror backup and incremental backup
 
-`rsync` is a great tool and also a great algorithm to mirror your data to different disks for backup usage. However, with a mirror, any changes made to the source directory are immediately sent to the backup directory, and old changes are lost. Therefor backup tools which can save both original files and changes are required. There are at least three tools can do this, rdiff-backup, duplicity, and rsnapshot. 
+`rsync` is a great tool and also a great algorithm to mirror your data to different disks for backup usage. However, with a mirror, any changes made to the source directory are immediately sent to the backup directory, and old changes are lost. Therefor backup tools which can save both original files and changes are required. There are at least three tools can do this, `rdiff-backup`, `duplicity`, and `rsnapshot`. 
 
 `rdiff-backup` creates an exact mirror of the **latest** copy of the data, and stores old versions of files - in fact, diffs between new and old - in a special subdirectory. To recover a file from 4 revisions ago, you start with the latest version and apply the 4 diffs in reverse order. One major disadvantage of `rdiff-backup` besides from the lack of encryption is that it demands that the server also has installed the **exact same version** of `rdiff-backup`.
 
 `duplicity`, on the other hand, starts with a full copy of the **oldest** version of the data, and stores new versions of files as diffs between old and new. So to recreate the latest version of a file, you start with the original, and apply all the diffs required to bring it up to date.
 
-`Rsnapshot` creates a "virtual look" where it appears that each backup is a full backup. Rsnapshot uses hard links to achieve the "virtual look" of full backups. The disk space required is just a little more than the space of one full backup, plus incrementals. This is an important feature if disk space is an issue.
+`Rsnapshot` creates a "virtual look" where it appears that **each backup is a full backup**. Rsnapshot uses hard links to achieve the "virtual look" of full backups. The disk space required is just a little more than the space of one full backup, plus incrementals. This is an important feature if disk space is an issue.
 
 Detailed comparison of these tools are referred in following links.
 
@@ -80,13 +80,23 @@ Detailed comparison of these tools are referred in following links.
 
 #### Use `rdiff-backup`
 
-* Run for the first time with `--force`
-  * `rdiff-backup --no-compression --force --print-statistics user@host::/home/user/source_dir destination_dir` 
-
-* Run normal backup without `--force`
+* Start backup
+  
   * `rdiff-backup --no-compression --print-statistics user@host::/home/user/source_dir destination_dir` 
 
+  * If the `destination_dir` exists, please add `--force` like `rdiff-backup --no-compression --force --print-statistics user@host::/home/user/source_dir destination_dir`. All things in original `destination_dir` will be depleted.
+
 * Timely backup your data
+  
   * Add the above command into `crontab (hit 'crontab -e' in terminal to open crontab)` in the format like `5   22  */1    *   *   command` which means executing the `command` at 22:05 everyday.
 
-* Restore data
+* Restore data 
+
+  * Restore the latest data by running `rdiff-backup -r now destination_dir user@host::/home/user/source_dir.restore`. Add `--force` if you want to restore to `source_dir`.
+  * Restore files 10 days ago by running `rdiff-backup -r 10D destination_dir user@host::/home/user/source_dir.restore`. Other acceptable time formats include 5m4s (5 minutes 4 seconds) and 2014-01-01 (January 1st, 2014).
+  * Restore files from an increment file by running `rdiff-backup destination_dir/rdiff-backup-data/increments/server_add.2014-02-21T09:22:45+08:00.missing user@host::/home/user/source_dir.restore/server_add`. Increment files are stored in `destination_dir/rdiff-backup-data/increments/server_add.2014-02-21T09:22:45+08:00.missing`.
+
+* Remove older files to save space
+
+  * Deletes all information concerning file versions which have not been current for 2 weeks by running `rdiff-backup --remove-older-than 2W destination_dir`. Note that an existing file which has not changed for a year will still be preserved. But a file which was deleted 15 days ago can not be restored after this command.
+  * Only keeps the last n rdiff-backup sessions by running `rdiff-backup --remove-older-than 20B destination_dir`.
