@@ -22,16 +22,8 @@ Here summarizes the usages of rdiff-backup to backup files with old version kept
 
 `Rsnapshot` creates a "virtual look" where it appears that **each backup is a full backup**. Rsnapshot uses hard links to achieve the "virtual look" of full backups. The disk space required is just a little more than the space of one full backup, plus incrementals. This is an important feature if disk space is an issue.
 
-Detailed comparison of these tools are referred in following links.
+Detailed comparison of these tools are referred in following references.
 
-* [rdiff-backup](http://www.nongnu.org/rdiff-backup/index.html)
-* [duplicity](http://www.nongnu.org/duplicity/)
-* [rsnapshot](http://www.rsnapshot.org/howto/)
-* [http://www.saltycrane.com/blog/2008/02/backup-on-linux-rsnapshot-vs-rdiff/](http://www.saltycrane.com/blog/2008/02/backup-on-linux-rsnapshot-vs-rdiff/)
-* [http://james.lab6.com/2008/07/09/rdiff-backup-and-duplicity/](http://james.lab6.com/2008/07/09/rdiff-backup-and-duplicity/)
-* [http://bitflop.com/document/75](http://bitflop.com/document/75)
-* [http://askubuntu.com/questions/2596/comparison-of-backup-tools](http://askubuntu.com/questions/2596/comparison-of-backup-tools)
-* [http://www.reddit.com/r/linux/comments/fgmbb/rdiffbackup_duplicity_or_rsnapshot_which_is/](http://www.reddit.com/r/linux/comments/fgmbb/rdiffbackup_duplicity_or_rsnapshot_which_is/)
 
 #### Install `rdiff-backup` at both local and remote computers
 
@@ -50,6 +42,7 @@ Detailed comparison of these tools are referred in following links.
 
 * Install rdiff-backup
   {% highlight bash %}
+  #See Reference part for download link
   python setup.py install --prefix=/home/user/rdiff-backup
   #If you complied rsync-dev yourself, please specify the location of rsync-dev
   python setup.py --librsync-dir=/home/user/rsync install --prefix=/home/user/rdiff-backup
@@ -86,6 +79,8 @@ Detailed comparison of these tools are referred in following links.
 
   * If the `destination_dir` exists, please add `--force` like `rdiff-backup --no-compression --force --print-statistics user@host::/home/user/source_dir destination_dir`. All things in original `destination_dir` will be depleted.
 
+  * If you want to exclude or include special files or dirs please specify like `--exclude '**trash'` or `--include /home/user/source_dir/important`.
+
 * Timely backup your data
   
   * Add the above command into `crontab (hit 'crontab -e' in terminal to open crontab)` in the format like `5   22  */1    *   *   command` which means executing the `command` at 22:05 everyday.
@@ -98,5 +93,16 @@ Detailed comparison of these tools are referred in following links.
 
 * Remove older files to save space
 
-  * Deletes all information concerning file versions which have not been current for 2 weeks by running `rdiff-backup --remove-older-than 2W destination_dir`. Note that an existing file which has not changed for a year will still be preserved. But a file which was deleted 15 days ago can not be restored after this command.
-  * Only keeps the last n rdiff-backup sessions by running `rdiff-backup --remove-older-than 20B destination_dir`.
+  * Deletes all information concerning file versions which have not been current for 2 weeks by running `rdiff-backup --remove-older-than 2W --force destination_dir`. Note that an existing file which has not changed for a year will still be preserved. But a file which was deleted 15 days ago can not be restored after this command. Normally one should use `--force` since it is used to delete multiple increments at the same time which `--remove-older-than` refuses to do by default.
+  * Only keeps the last n rdiff-backup sessions by running `rdiff-backup --remove-older-than 20B --force destination_dir`.
+
+#### References
+* [rdiff-backup](http://www.nongnu.org/rdiff-backup/index.html)
+* [duplicity](http://www.nongnu.org/duplicity/)
+* [rsnapshot](http://www.rsnapshot.org/howto/)
+* [http://www.saltycrane.com/blog/2008/02/backup-on-linux-rsnapshot-vs-rdiff/](http://www.saltycrane.com/blog/2008/02/backup-on-linux-rsnapshot-vs-rdiff/)
+* [http://james.lab6.com/2008/07/09/rdiff-backup-and-duplicity/](http://james.lab6.com/2008/07/09/rdiff-backup-and-duplicity/)
+* [http://bitflop.com/document/75](http://bitflop.com/document/75)
+* [http://askubuntu.com/questions/2596/comparison-of-backup-tools](http://askubuntu.com/questions/2596/comparison-of-backup-tools)
+* [http://www.reddit.com/r/linux/comments/fgmbb/rdiffbackup_duplicity_or_rsnapshot_which_is/](http://www.reddit.com/r/linux/comments/fgmbb/rdiffbackup_duplicity_or_rsnapshot_which_is/)
+* [http://serverfault.com/questions/491341/optimize-space-rdiff-backup](http://serverfault.com/questions/491341/optimize-space-rdiff-backup)
