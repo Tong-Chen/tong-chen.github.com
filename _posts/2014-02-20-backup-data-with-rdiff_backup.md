@@ -91,7 +91,7 @@ Detailed comparison of these tools are referred in following references.
   * Restore files 10 days ago by running `rdiff-backup -r 10D destination_dir user@host::/home/user/source_dir.restore`. Other acceptable time formats include 5m4s (5 minutes 4 seconds) and 2014-01-01 (January 1st, 2014).
   * Restore files from an increment file by running `rdiff-backup destination_dir/rdiff-backup-data/increments/server_add.2014-02-21T09:22:45+08:00.missing user@host::/home/user/source_dir.restore/server_add`. Increment files are stored in `destination_dir/rdiff-backup-data/increments/server_add.2014-02-21T09:22:45+08:00.missing`.
 
-* Remove older files to save space
+* Remove older records to save space
 
   * Deletes all information concerning file versions which have not been current for 2 weeks by running `rdiff-backup --remove-older-than 2W --force destination_dir`. Note that an existing file which has not changed for a year will still be preserved. But a file which was deleted 15 days ago can not be restored after this command. Normally one should use `--force` since it is used to delete multiple increments at the same time which `--remove-older-than` refuses to do by default.
   * Only keeps the last n rdiff-backup sessions by running `rdiff-backup --remove-older-than 20B --force destination_dir`.
