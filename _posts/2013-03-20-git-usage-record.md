@@ -48,7 +48,7 @@ After you run this script, you can get a directory `.git`, check the `config` fi
         merge = refs/heads/master
 {% endhighlight %}
 
-#### Git update files
+#### Git update files (use `gitUpdate.sh "*"` for multiple files)
 
 {% highlight bash %}
 #!/bin/bash

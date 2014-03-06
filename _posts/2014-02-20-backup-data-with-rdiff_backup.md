@@ -96,6 +96,14 @@ Detailed comparison of these tools are referred in following references.
   * Deletes all information concerning file versions which have not been current for 2 weeks by running `rdiff-backup --remove-older-than 2W --force destination_dir`. Note that an existing file which has not changed for a year will still be preserved. But a file which was deleted 15 days ago can not be restored after this command. Normally one should use `--force` since it is used to delete multiple increments at the same time which `--remove-older-than` refuses to do by default.
   * Only keeps the last n rdiff-backup sessions by running `rdiff-backup --remove-older-than 20B --force destination_dir`.
 
+* Statistics
+  
+  * Lists increments in given golder by `rdiff-backup --list-increments destination_dir/`.
+  * Lists of files changed in last 5 days by `rdiff-backup --list-changed-since 5D destination_dir/`.
+  * Compare the difference between source and bak by `rdiff-backup --compare user@host::source-dir destination_dir`
+  * Compare the sifference between source and bak (as it was two weeks ago) by `rdiff-backup --compare-at-time 2W user@host::source-dir destination_dir`.
+
+
 #### References
 * [rdiff-backup](http://www.nongnu.org/rdiff-backup/index.html)
 * [duplicity](http://www.nongnu.org/duplicity/)
@@ -106,3 +114,4 @@ Detailed comparison of these tools are referred in following references.
 * [http://askubuntu.com/questions/2596/comparison-of-backup-tools](http://askubuntu.com/questions/2596/comparison-of-backup-tools)
 * [http://www.reddit.com/r/linux/comments/fgmbb/rdiffbackup_duplicity_or_rsnapshot_which_is/](http://www.reddit.com/r/linux/comments/fgmbb/rdiffbackup_duplicity_or_rsnapshot_which_is/)
 * [http://serverfault.com/questions/491341/optimize-space-rdiff-backup](http://serverfault.com/questions/491341/optimize-space-rdiff-backup)
+* [Another great post on usage of rdiff-backup](http://bencane.com/2013/05/20/securely-backing-up-your-files-with-rdiff-backup-and-sudo/)
