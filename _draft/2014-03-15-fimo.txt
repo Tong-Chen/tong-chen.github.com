@@ -1,0 +1,15 @@
+Some FIMO users have written to us about difficulties they've experienced when scanning whole genome with FIMO. The most common problem is running out of memory even on machines with quite generous amounts of RAM. 
+
+We've used FIMO to scan hg18 and hg19 with the motifs from the TRANSFAC and JASPAR database and generated custom tracks for the UCSC Genome Browser. Those tracks are linked to from the FIMO submission page on the MEME web site. 
+
+The memory problems occur when FIMO is writing out the results. By default, FIMO saves its results in XML format, and then uses XSLT to transform the XML into the various output formats (HTML, GFF, plain text). The drawback of the this is that XML is extremely verbose, and the XSLT library that FIMO uses reads the entire XML file into memory in order to parse it. This process is very memory intensive, but it can be turned off by using FIMO's '--text' option, which is described below. Except for the translation of the XML file, FIMO's memory complexity is O(1). While FIMO calculates the score and p-value for each position in the input sequences, it only retains the results up to the limit of '--max-stored-scores'. This defaults to 1e5. Once the stored score limit is reached, FIMO begins dropping the least significant scores. FIMO uses a randomly sampled selection of 10000 of the observed p-values to calculate the q-values. 
+
+The main trick to scanning whole genomes with FIMO is to set a stringent p-value threshold. In most cases you really don't want 10 million matches almost all of which are statistically insignificant after correcting for multiple testing. When we were generating the custom tracks mentioned above we used the following settings: 
+
+--output-pthresh 1e-6 
+--max-stored-scores 500000 
+
+This ran without problem on a cluster node with 16GB of memory. We filtered the FIMO output afterwards so that we only included matches with a q-value less than 0.01. 
+
+If you can't apply a stringent p-value threshold then you'll need to use FIMO's '--text' option. The '--text' option directs FIMO to skip creating the XML output, and simply writes each motif match to the standard output as it is evaluated. This prevents FIMO from providing a q-value with each score, but the q-values can be calculated after the fact using the 'qvalue' utility included with the MEME Suite. The documentation for 'qvalue' can be found here. To use 'qvalue' with the '--text' output of FIMO you will have to write scripts to extract the p-values from the FIMO output, and to assign the resulting q-values back to the FIMO matches. In order for 'qvalue' to correctly calculate q-values you'll need run FIMO with '--output-pthresh 1.0', and work with one motif at a time.
+

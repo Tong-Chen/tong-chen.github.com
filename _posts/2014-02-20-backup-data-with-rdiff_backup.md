@@ -53,7 +53,8 @@ Detailed comparison of these tools are referred in following references.
   #Add the following words into .bashrc or .bash_profile or any other config files
   export PATH=${PATH}:/home/user/rdiff-backup/bin
   export PYTHONPATH=${PYTHONPATH}:/home/user/rdiff-backup/lib/python2.x/site-packages
-  #pay attention to the x in python2.x of above line
+  #pay attention to the x in python2.x of above line which can be 6 or 7 depending on 
+  #the Python version used.
   {% endhighlight %}
 
 * Test environmental variable when executing commands through ssh
@@ -103,6 +104,30 @@ Detailed comparison of these tools are referred in following references.
   * Compare the difference between source and bak by `rdiff-backup --compare user@host::source-dir destination_dir`
   * Compare the sifference between source and bak (as it was two weeks ago) by `rdiff-backup --compare-at-time 2W user@host::source-dir destination_dir`.
 
+#### A complete script (automatically sync using `crontab`)
+
+{% highlight bash %}
+
+#!/bin/bash
+
+export PYTHONPATH=${PYTHONPATH}:/soft/rdiff_backup/lib/python2.7/site-packages/
+
+rdiff-backup --no-compression -v5 --exclude '**trash' user@server::source/ bak_dir/
+
+ret=$?
+if test $ret -ne 0; then
+	echo "Wrong in bak" | mutt -s "Wrong in bak" bak@mail.com
+else
+	echo "Right in bak" | mutt -s "Right in bak" bak@mail.com
+fi
+
+echo "Finish rdiff-backup $0 ---`date`---"  >>bak.log 2>&1
+
+
+echo "`rdiff-backup --exclude '**trash' --compare-at-time 1D user@server::source/ bak_dir/`" | mutt -s "Lists of baked files" bak@mail.com
+
+
+{% endhighlight %}
 
 #### References
 * [rdiff-backup](http://www.nongnu.org/rdiff-backup/index.html)
