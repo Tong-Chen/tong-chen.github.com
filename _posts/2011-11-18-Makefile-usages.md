@@ -6,7 +6,7 @@ categories:
     - letter
 tags:
     - bash
-	- Makefile
+    - Makefile
 ---
 
 1. 列出目录内所有文件
@@ -73,7 +73,7 @@ $(foreach var, $(nameL), make $(var).map line=$(var);) #将执行make a.map line
 names := a b c d
 files := $(foreach n,$(names),$(n).o)
 上面的例子中，$(name)中的单词会被挨个取出，并存到变量“n”中，“$(n).o”每次根据“$(n)”计算出一个值，
-这些值以空格分隔，最后作为foreach函数的返回，所以，$(files)的值是“a.o b.o c.o d.o”。{% endhighlight %}
+这些值以空格分隔，最后作为foreach函数的返回，所以，$(files)的值是“a.o b.o c.o d.o”。
 
 7. Make中增加判断语句，控制执行的命令
 
