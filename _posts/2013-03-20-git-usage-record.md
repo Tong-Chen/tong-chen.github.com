@@ -91,5 +91,16 @@ git diff --cached
 通过git log找到最想要的版本的SHA码，然后git reset SHA码，这样中间状态被消除，但是程序却没有变，再执行add-commit，提交就可以了。
 {% endhighlight %}
 
+#### git更新本地版本库
+
+{% highlight bash %}
+git pull #git会自动尝试抓取、合并更新后的文件，但有时会发生冲突，需要手动处理。处理好之后，需要再把数据更新到git库。
+{% endhighlight %}
+
+#### git克隆已有版本库
+
+{% highlight bash %}
+git clone git@github.com:User_name/training.git training
+{% endhighlight %}
 
 Ref：http://gitbook.liuhui998.com/3_5.html

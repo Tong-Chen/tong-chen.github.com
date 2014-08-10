@@ -808,7 +808,13 @@ done
 #自加
 ((num++))
 
+{% endhighlight %}
 
+##### Useful tips
+
+{% highlight bash %}
+tr -cd ‘'A-Za-z'   #Delete all characteristics except A-Za-z
+fold -w 75         #Wrap each input line with no more than 75 chars
 {% endhighlight %}
 
 ##### bash中把行倒叙 tac， 把列倒叙 rev
@@ -1120,6 +1126,18 @@ awk 'BEGIN{OFS="\t";FS="\t"}{a=length; gsub(/[^A]/,""); print length/a}' txtfile
 root="/webroot"
 echo | awk -v r=$root '{ print "shell root value - " r}'
 awk -v v1=$v1 -v v2=$V2 '{ print "shell root value - " v1, v2}'
+
+{% endhighlight %}
+
+##### awk行调换与缩减
+{% highlight bash %}
+echo '1 2 3 4 5 6 7' | 
+  awk '{for (i=3;i<=NF;i++) $(i-2)=$i; NF=NF-2; print $0}' | tr  ' ' '-'
+3-4-5-6-7
+
+$ echo '1 2 3 4 5 6 7' | 
+  awk '{for(i=n;i<=NF;i++)$(i-(n-1))=$i;NF=NF-(n-1);print $0}' n=4 | tr ' ' '-'
+4-5-6-7
 
 {% endhighlight %}
 
