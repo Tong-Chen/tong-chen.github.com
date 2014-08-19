@@ -9,7 +9,7 @@ tags:
 ---
 
 #### Overview of GSEA
-gene set enrichment analysis ([gsea](http://www.broadinstitute.org/gsea/index.jsp)) is a computational method that determines whether an a priori defined set of genes shows statistically 
+Gene set enrichment analysis ([gsea](http://www.broadinstitute.org/gsea/index.jsp)) is a computational method that determines whether an a priori defined set of genes shows statistically 
 significant, concordant differences between two biological states 
 (e.g. phenotypes). 
 
@@ -38,9 +38,9 @@ c	1	2	3	4	5	6
 d	1	2	3	4	5	6
 ```
 
-The program [transfernormalexprmatrixforgsea.py](https://github.com/tong-chen/ngs/blob/master/transfernormalexprmatrixforgsea.py) will help to transfer expression matrix to generate `gct` and `cls` file for gsea usages. the program has deatiled description for input and output file format.
+The program [transfernormalexprmatrixforgsea.py](https://github.com/tong-chen/ngs/blob/master/transfernormalexprmatrixforgsea.py) will help to transfer expression matrix to generate `gct` and `cls` file for gsea usages. 
 
-Run this script using sample data as showed below:
+Run this script using sample data as showed below (Please refer to the program for deatiled description of input and output files.):
 
 ```bash
 #transfer test.a
@@ -71,7 +71,7 @@ d	d	1	2	3	4	5	6
 kdctcf kdctcf kdctcf ctl ctl ctl
 ```
 
-`gmt` files can be downloaded from [gsea](http://www.broadinstitute.org/gsea/downloads.jsp) and [enrichmentmap](http://download.baderlab.org/EM_Genesets/current_release/).
+For huamn and mouse dataset, `gmt` files can be downloaded from [gsea](http://www.broadinstitute.org/gsea/downloads.jsp) and [enrichmentmap](http://download.baderlab.org/EM_Genesets/current_release/).
 
 Now, we have got all required files for GSEA analysis.
 
@@ -81,17 +81,17 @@ Now, we have got all required files for GSEA analysis.
 
 ![gct format]({{ site.img_url }}/gct.gif)
 
-    * the first line should always be `#1.2`.
-	* the second line contains tow columns, `(# of genes)<tab>(# of samples)`.
-	* the first two columns of data lines are `gene name` (should be unique) and `gene description` (which will not be used in gsea, usually it can be the same as gene name).
+    * The first line should always be `#1.2`.
+	* The second line contains tow columns, `(# of genes)<tab>(# of samples)`.
+	* The first two columns of data lines are `gene name` (should be unique) and `gene description` (which will not be used in gsea, usually it can be the same as gene name).
 
 * cls format
     
 ![cls format]({{ site.img_url }}/cls.png)
 
-	* the first line contains `(# of damples)<space>(# of classes)<space>1`.
-	* the second line contains `#<space>(class 0 name)<space>(class 1 name)...`.
-	* the third line contains `(class1-samp1)<space>(class1-samp2)<space>(class2-samp1)...`.
+	* The first line contains `(# of damples)<space>(# of classes)<space>1`.
+	* The second line contains `#<space>(class 0 name)<space>(class 1 name)...`.
+	* The third line contains `(class1-samp1)<space>(class1-samp2)<space>(class2-samp1)...`.
 
 * gmt format
 
@@ -105,9 +105,9 @@ Since I can directly download `gmt` files from [gsea](http://www.broadinstitute.
 
 #### Run gsea
 
-Below steps borrowed from [http://www.baderlab.org/Software/EnrichmentMap/Tutorial](http://www.baderlab.org/Software/EnrichmentMap/Tutorial). They also have test data in their web sites. Please down if you want to run following this tutorial.
+Below steps are borrowed from [http://www.baderlab.org/Software/EnrichmentMap/Tutorial](http://www.baderlab.org/Software/EnrichmentMap/Tutorial). There is also `sample data` in their web sites for testing this tutorial.
 
-* GO to GSEA website - http://www.broadinstitute.org/gsea/
+* GO to GSEA website - [http://www.broadinstitute.org/gsea/](http://www.broadinstitute.org/gsea/).
 * Click on [Downloads](http://www.broadinstitute.org/gsea/downloads.jsp) in the page header.
     * From the *javaGSEA Desktop Application* right click on Launch with 1 Gb memory.
     * Click on "Save Target as…" and save shortcut to your desktop or your folder of choice so you can launch GSEA for your analysis without having to navigate to it through your web browser.
