@@ -107,6 +107,20 @@ $(sort $(nameL)) #排序
 $(sort c b a) #输出为a b c
 {% endhighlight %}
 
+* Substitute blank with comma in Makefile
+{% highlight bash %}
+#define a variable represent comma
+comma:= ,
+#define an empty variable
+empty:=
+#define a space by two empty variable and one blank
+space:= $(empty) $(empty)
+foo:= a b c
+#no space after each comma especially the last one
+bar:= $(subst $(space),$(comma),$(foo))
+# bar is now `a,b,c'.
+{% endhighlight %}
+
 * 获取文件路径
 {% highlight bash %}
 annovar_dir=$(dir $(shell which annotate_variation.pl))
