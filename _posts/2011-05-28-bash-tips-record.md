@@ -85,6 +85,13 @@ ls -al | grep -c '^-'
 find . -maxdepth 1 -type f -print | wc -l
 {% endhighlight %}
 
+##### 统计多个文件总大小
+
+{% highlight bash %}
+find . -name 'special*' -printf "%s+" | sed 's/+$/\n/' | bc
+find . -type f -printf "%s+" | sed 's/+$/\n/' | bc
+{% endhighlight %}
+
 ##### 大小写转换
 
 {% highlight vim %}

@@ -222,6 +222,9 @@ write.table("filename.xls", sep="\t", col.names = NA, row.names = TRUE)
 {% endhighlight %}
 
 21.R中and操作使用&，而不是&&, or操作使用|而不是||。
+{% highlight R %}
+data[data$ok<3] | data$nok == ‘'yes',]
+{% endhighlight %}
 
 22.修改矩阵或数据框中某一列符合条件的值
 

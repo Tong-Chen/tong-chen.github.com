@@ -1,0 +1,281 @@
+89-93-97-113-117-124-125-127-138-145
+1.%d print as decimal integer;%6d print as decimal integer, at least 6 characters wide;%f print as floating point;%6f print as floating point, at least 6 characters wide;%.2f print as floating point, 2 characters after decimal point;%6.2f print as floating point, at least 6 wide and 2 after decimal point; %o for octal, %x for hexadecimal, %c for character, %sfor character string and %% for itself.
+2.A #define line defines a symbolic name or symbolic constant to be a particular string of characters: #define name replacement list   (Notice that there is no semicolon at the end of a #define line.)
+3.When the name of an array is used as an argument, the value passed to the function is the location or address of the beginning of the array - there is no copying of array elements. By subscripting this value, the function can access and alter any argument of the array.
+4.The qualifier const can be applied to the declaration of any variable to specify that its value will not be changed.
+5.For portability, specify signed or unsigned if non-character data is to be stored in char variables.
+6.i整数与字符串之间的加零或减零的转化45 + '0',45 - '0'.
+7.The break statement provides an early exit from for, while, and do, just as from switch. A break causes the innermost enclosing loop or switch to be exited immediately.
+8.The standard library includes an atof; the header <stdlib.h> declares it.
+9.If a function is declared static, however, its name is invisible outside of the file in which it is declared.
+10.The static declaration can also be applied to internal variables. Internal static variables are local to a particular function just as automatic variables are, but unlike automatics, they remain in existence rather than coming and going each time the function is activated. This means that internal static variables provide private, permanent storage within a single function.
+11.Exercise 4-11. Modify getop so that it doesn't need to use ungetch. Hint: use an internal static variable.
+12.In the absence of explicit initialization, external and static variables are guaranteed to be initialized to zero; automatic and register variables have undefined (i.e., garbage) initial values.
+13.An array may be initialized by following its declaration with a list of initializers enclosed in braces and separated by commas. For example, to initialize an array days with the number of days in each month:int days[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 }
+14.#include "filename" or #include <filename> is replaced by the contents of the file filename. If the filename is quoted, searching for the file typically begins where the source program was found; if it is not found there, or if the name is enclosed in < and >, searching follows an implementation-defined rule to find the file.
+15.Any name may be defined with any replacement text. For example: #define forever for(;;)   /* infinite loop */defines a new word, forever, for an infinite loop.
+16.It is also possible to define macros with arguments, so the replacement text can be different for different calls of the macro. As an example, define a macro called max:  -------#define max(A, B) ((A) > (B) ? (A) : (B)) ---- Although it looks like a function call, a use of max expands into in-line code. Each occurrence of a formal parameter (here A or B) will be replaced by the corresponding actual argument.Thus the line----x = max(p+q, r+s);----will be replaced by the line----x = ((p+q) > (r+s) ? (p+q) : (r+s));----So long as the arguments are treated consistently, this macro will serve for any data type; there is no need for different kinds of max for different data types, as there would be with functions.If you examine the expansion of max, you will notice some pitfalls. The expressions are evaluated twice; this is bad if they involve side effects like increment operators or input and output. For instance
+----max(i++, j++) /* WRONG */----will increment the larger twice. Some care also has to be taken with parentheses to make sure the order of evaluation is preserved; consider what happens when the macro ----#define square(x) x * x /* WRONG */----is invoked as square(z+1).
+18.Formal parameters are not replaced within quoted strings. If, however, a parameter name is preceded by a # in the replacement text, the combination will be expanded into a quoted string with the parameter replaced by the actual argument. This can be combined with string concatenation to make, for example, a debugging print macro: --
+#define dprint(expr) printf(#expr " = %g\n", expr)
+When this is invoked, as in dprint(x/y) the macro is expanded into printf("x/y" " = &g\n", x/y);and the strings are concatenated, so the effect is printf("x/y = &g\n", x/y);
+19.Exercise 4-14. Define a macro swap(t,x,y) that interchanges two arguments of type t.(Block structure will help.)
+20.The unary operator & gives the address of an object, so the statement----p = &c;----assigns the address of c to the variable p, and p is said to ``point to'' c. The & operator only applies to objects in memory: variables and array elements. It cannot be applied to expressions,constants, or register variables.
+21.while ----*ip += 1 ----increments what ip points to, as do -- ++*ip -- and -- (*ip)++ --The parentheses are necessary in this last example; without them, the expression would increment ip instead of what it points to, because unary operators like * and ++ associate right to left.
+22.The meaning of ``adding 1 to a pointer,`` and by extension, all pointer arithmetic, is that pa+1 points to the next object, and pa+i points to the i-th object beyond pa.
+23.Thus after the assignment -- pa = &a[0]; -- 'pa' and 'a' have identical values. Since the name of an array is a synonym for the location of the initial element, the assignment -- pa=&a[0] --can also be written as --pa = a;--.
+24.Rather more surprising, at first sight, is the fact that a reference to a[i] can also be written as *(a+i). In evaluating a[i], C converts it to *(a+i) immediately; the two forms are equivalent. Applying the operator & to both parts of this equivalence, it follows that &a[i] and a+i are also identical: a+i is the address of the i-th element beyond a. As the other side of this coin, if pa is a pointer, expressions might use it with a subscript; pa[i] is identical to *(pa+i).In short, an array-and-index expression is equivalent to one written as a pointer and offset.
+25.There is one difference between an array name and a pointer that must be kept in mind. A pointer is a variable, so pa=a and pa++ are legal. But an array name is not a variable; constructions like a=pa and a++ are illegal.
+26.89-93
+27.Pointers and integers are not interchangeable. Zero is the sole exception: the constant zero may be assigned to a pointer, and a pointer may be compared with the constant zero. The symbolic constant NULL is often used in place of zero, as a mnemonic to indicate more clearly that this is a special value for a pointer. NULL is defined in <stdio.h>. We will use NULL henceforth.
+28.在某些情况下指针可以进行比较运算。例如，如果指针p和q指向同一个数组的成员，那么它们之间可以进行==、!=、<、>=等关系比较运算。如果p指向的数组成员的位置在q所指向的数组成员位置之前，则p<q成立。任何指针与0进行相等或不等的比较运算都有意义。但是对指向不同数组成员的指针之间的算术或比较运算，其执行行为没有定义。其次，指针可以和整数进行相加或相减运算。指针的减运算也有意义：如果p和q指向相同数组中的元素且p<q，那么p-q+1就等于位于p和q所指元素之间的元素的数目。有效的指针运算包括：相同类型指针之间的赋值运算；指针值加或减一个整数值的运算；指向相同数组中的元素的指针之间的减或比较运算；将指针赋0或指针与0之间的比较运算符。
+29.There is an important difference between these definitions:
+char amessage[] = "now is the time"; /* an array */
+char *pmessage = "now is the time"; /* a pointer */
+amessage is an array, just big enough to hold the sequence of characters and '\0' that initializes it. Individual characters within the array may be changed but amessage will always refer to the same storage. On the other hand, pmessage is a pointer, initialized to point to a string constant; the pointer may subsequently be modified to point elsewhere, but the result is undefined if you try to modify the string contents.
+30.char *lineptr[MAXLINES] says that lineptr is an array of MAXLINES elements, each element of which is a pointer to a char.That is, lineptr[i] is a character pointer, and *lineptr[i] is the character it points to, the first character of the i-th saved text line.
+31.Recall that the arithmetic value of a logical expression, such as the one for leap, is either zero (false) or one (true), so it can be used as a subscript of an array.
+32.It could also be -- f(int daytab[][13]) { ... } --since the number of rows is irrelevant, or it could be -- f(int (*daytab)[13]) { ... } --which says that the parameter is a pointer to an array of 13 integers. The parentheses are necessary since brackets [] have higher precedence than *. Without parentheses, the declaration -- int *daytab[13]-- is an array of 13 pointers to integers.
+33.When main is called, it is called with two arguments.The first (conventionally called argc, for argument count) is the number of command-line arguments the program was invoked with; the second (argv, for argument vector) is a pointer to an array of character strings that contain the arguments, one per string. We customarily use multiple levels of pointers to manipulate these character strings.By convention, argv[0] is the name by which the program was invoked, so argc is at least 1.If argc is 1, there are no command-line arguments after the program name.
+34.Notice that *++argv is a pointer to an argument string, so (*++argv)[0] is its first character.(An alternate valid form would be **++argv.) Because [] binds tighter than * and ++, the parentheses are necessary; without them the expression would be taken as *++(argv[0]). In fact, that is what we have used in the inner loop, where the task is to walk along a specific argument string. In the inner loop, the expression *++argv[0] increments the pointer argv[0]!
+35.The generic pointer type void * is used for the pointer arguments. Any pointer can be cast to void * and back again without loss of information.
+36.char **argv ------argv: pointer to char指向字符数组的指针
+int (*daytab)[13] ------daytab: pointer to array[13] of int指向整型数组的指针
+int *daytab[13] ------daytab: array[13] of pointer to int由指向整型的指针组成的数组
+void *comp() ------comp: function returning pointer to void返回值为指针
+void (*comp)() ------comp: pointer to function returning void指向函数的指针
+char (*(*x())[])() ------x: function returning pointer to array[] of pointer to function returning char
+char (*(*x[3])())[5]-x: array[3] of pointer to function returning pointer to array[5] of char
+37.A structure declaration that is not followed by a list of variables reserves no storage; it merely describes a template or shape of a structure. If the declaration is tagged, however, the tag can be used later in definitions of instances of the structure.
+38.The only legal operations on a structure are copying it or assigning to it as a unit, taking its address with &, and accessing its members. Copy and assignment include passing arguments to functions and returning values from functions as well. Structures may not be compared. A structure may be initialized by a list of constant member values; an automatic structure may also be initialized by an assignment.
+39. -*- ++p->len -*- increments len, not p, because the implied parenthesization is ++(p->len). Parentheses can be used to alter binding:  -*- (++p)->len -*-  increments p before accessing len, and  -*- (p++)->len -*- increments p afterward. (This last set of parentheses is unnecessary.)In the same way, -*-  *p->str -*-  fetches whatever str points to;  -*- *p->str++ -*- increments str after accessing whatever it points to (just like *s++); (*p->str)++ increments whatever str points to; and *p++->str increments p after accessing whatever str points to.
+40.The expressions -*- sizeof object -*- and  -*- sizeof (type name) -*- yield an integer equal to the size of the specified object or type in bytes. (Strictly, sizeof produces an unsigned integer value whose type, size_t, is defined in the header <stddef.h>.)An object can be a variable or array or structure. A type name can be the name of a basic type like int or double, or a derived type like a structure or a pointer.
+41.Don't assume, however, that the size of a structure is the sum of the sizes of its members. Because of alignment requirements for different objects, there may be unnamed ``holes'' in a structure. Thus, for instance, if a char is one byte and an int four bytes, the structure  -*- struct {char c;int i;}; -*- might well require eight bytes, not five. The sizeof operator returns the proper value.
+42.In C, the proper method is to declare that malloc returns a pointer to void, then explicitly coerce the pointer into the desired type with a cast. malloc and related routines are declared in the standard header <stdlib.h>.
+43.Notice that the type being declared in a typedef appears in the position of a variable name,not right after the word typedef. Syntactically, typedef is like the storage classes extern,static, etc. We have used capitalized names for typedefs, to make them stand out.
+44.It must be emphasized that a typedef declaration does not create a new type in any sense; it merely adds a new name for some existing type. Nor are there any new semantics: variables declared this way have exactly the same properties as variables whose declarations are spelled out explicitly. In effect, typedef is like #define, except that since it is interpreted by the compiler, it can cope with textual substitutions that are beyond the capabilities of the preprocessor. For example,typedef int (*PFI)(char *, char *);creates the type PFI, for "pointer to function (of two char * arguments) returning int,"which can be used in contexts like -*- PFI strcmp, numcmp; -*- 
+45.A union is a variable that may hold (at different times) objects of different types and sizes, with the compiler keeping track of size and alignment requirements. Unions provide a way to manipulate different kinds of data in a single area of storage, without embedding any machine-dependent information in the program.
+46.A union may only be initialized with a value of the type of its first member;
+47.The usual way this is done is to define a set of ``masks'' corresponding to the relevant bit positions, as in -*- #define KEYWORD 01 -*- #define EXTRENAL 02 -*- #define STATIC 04 -*- or -*- enum { KEYWORD = 01, EXTERNAL = 02, STATIC = 04 }; -*- The numbers must be powers of two. Then accessing the bits becomes a matter of "bitfiddling"with the shifting, masking, and complementing operators
+48.The library functions gets and puts are similar to fgets and fputs, but operate on stdin
+and stdout. Confusingly, gets deletes the terminating '\n', and puts adds it.
+49.The standard library provides an input and output routine fgets that is similar to the getline function that we have used in earlier chapters:
+char *fgets(char *line, int maxline, FILE *fp)
+fgets reads the next input line (including the newline) from file fp into the character array
+line; at most maxline-1 characters will be read. The resulting line is terminated with '\0'.
+Normally fgets returns line; on end of file or error it returns NULL. (Our getline returns the line length, which is a more useful value; zero means end of file.)
+For output, the function fputs writes a string (which need not contain a newline) to a file:
+int fputs(char *line, FILE *fp)
+It returns EOF if an error occurs, and non-negative otherwise.
+50.The functions malloc and calloc obtain blocks of memory dynamically.
+void *malloc(size_t n)
+returns a pointer to n bytes of uninitialized storage, or NULL if the request cannot be satisfied.
+void *calloc(size_t n, size_t size)
+returns a pointer to enough free space for an array of n objects of the specified size, or NULL if the request cannot be satisfied. The storage is initialized to zero.
+51.The system call lseek provides a way to move around in a file without reading or writing any data:  -*- long lseek(int fd, long offset, int origin);  -*- sets the current position in the file whose descriptor is fd to offset, which is taken relative to the location specified by origin. Subsequent reading or writing will begin at that position.origin can be 0, 1, or 2 to specify that offset is to be measured from the beginning, from the current position, or from the end of the file respectively.
+52.In C, any assignment, such as c = getchar(); is an expression and has a value, which is the value of the left hand side after the assignment.
+53.Typically, a return value of zero implies normal termination;non-zero values signal unusual or erroneous termination conditions.
+54.int *x;  指向int的指针
+   int *x[];    指向int的指针数组
+   int *x();    指向int的指针的返回函数
+   int (x)[5];  整数数组
+   int (*x)[5]; 指向整数数组的指针
+   int (x[5])[5];   整数数组的数组
+   int x[5][5]; 整数数组的数组
+-----------------------------------------------------------------------------------------------------
+QUESTION:
+-----------------------------------------------------------------------------------------------------
+1.C的变量在使用之前必须声明并且初始化，使用默认值会得到意想不到的错误。
+2.指针pi的值是指针所指向的变量的内存地址，而*pi是pi所指的地址的内容。在函数参数中传递地址时要加上&，传址时对地址内容做得修改才可在主函数中发生效应，而对地址的本身的修改则等同于地址的传值，在被调函数中的修改将不影响主函数.在分析函数的参数传递时要注意隐含的函数内参数赋值操作，借助此可明了的分析。
+3.数组名和指针的区别：数组名是指针常量，其值不可修改，即不可做自加减运算。（int * const pi）
+4.const int ic; int const ic; int const * pi; const int * pi;(指针指向的变量的值不可修改，const修饰的是整个*pi，*pi是一个常量不可更改，而pi则可被再次赋予不同的内存地址) int * const pi;(指针变量不可修改，pi的值不可再被修改，它始终指向同一地址，但地址内存储的内容可以更改，即可以给*pi再赋值)我们用const修饰的变量不可更改。
+5.const int 类型的i1的地址是不能赋值给指向int 类型地址的指针pi的。否则pi岂不是能修改i1的值了吗！
+const int * const pi=&i;//你能想象pi能够作什么操作吗？pi值不能改，也不能通过pi修改i的值。因为不管是*pi还是pi都是const的。
+6.指向指针的指针，int i = 0;int *pi; int **ppi; ppi = &pi;则ppi的值是pi的地址，*ppi的值是pi的值，i的地址，**ppi的值0,即*pi的值，i的值。
+7.void MyFun(int); void (*FunP)(int);整个函数指针变量的申明格式如同函数MyFun的申明处一样.
+8.typedef void (*FunType)(int ); //这样只是定义一个函数指针类型  FunType FunP; //然后用FunType类型来申明全局FunP变量。
+9.指针有四个方面的内容:即指针的类型,指针所指向的类型,指针的值,指针本身所占有的内存区.从语法的角度看，你只要把指针声明语句里的指针名字去掉，剩下的部分就是这个指针的类型。这是指针本身所具有的类型。当你通过指针来访问指针所指向的内存区时，指针所指向的类型决定了编译器将把那片内存区里的内容当做什么来看待。从语法上看，你只须把指针声明语句中的指针名字和名字左边的一个指针声明符*去掉，剩下的就是指针所指向的类型。指针的值，或者叫指针所指向的内存区或地址，是指针本身存储的数值，这个值将被编译器当作一个地址，而不是一个一般的数值。在32位程序里，所有类型的指针的值都是一个32位整数，因为32位程序里内存地址全都是32位长。 指针所指向的内存区就是从指针的值所代表的那个内存地址开始，长度为sizeof（指针所指向的类型）的一片内存区。以后，我们说一个指针的值是XX，就相当于说该指针指向了以XX为首地址的一片内存区域；我们说一个指针指向了某块内存区域，就相当于说该指针的值是这块内存区域的首地址。指针所指向的内存区和指针所指向的类型是两个完全不同的概念。在例int*（*ptr）[4]；中，指针所指向的类型已经有了，但由于指针还未初始化，所以它所指向的内存区是不存在的，或者说是无意义的。在32位平台里，指针本身占据了4个字节的长度。
+10.每遇到一个指针，都应该问问：这个指针的类型是什么？指针指的类型是什么？该指针指向了哪里？
+11.malloc与free是C/C++语言的标准库函数，它用于申请动态内存和释放内存。
+函数malloc的原型如下：void * malloc(size_t size);
+用malloc申请一块长度为length的整数类型的内存，程序如下：
+int *ip = (int *) malloc(sizeof(int) * length);
+我们应当把注意力集中在两个要素上：“类型转换”和“sizeof”。malloc函数返回值的类型是void *，所以在调用malloc时要显式地进行类型转换，将void * 转换成所需要的指针类型。malloc函数本身并不识别要申请的内存是什么类型，它只关心内存的总字节数。例如int变量在16位系统下是2个字节，在32位下是4个字节；而float变量在16位系统下是4个字节，在32位下也是4个字节。这个你可以用sizeof(类型)去测试。
+函数free的原型如下：
+void free( void * memblock );
+为什么free函数不象malloc函数那样复杂呢？这是因为指针p的类型以及它所指的内存的容量事先都是知道的，语句free(p)能正确地释放内存。如果p是NULL指针，那么free对p无论操作多少次都不会出问题。如果p不是NULL指针，那么free对p连续操作两次就会导致程序运行错误。
+如果在申请动态内存时找不到足够大的内存块，malloc将返回NULL指针，宣告内存申请失败。通常有三种方式处理“内存耗尽”问题。（1）判断指针是否为NULL，如果是则马上用return语句终止本函数。（2）判断指针是否为NULL，如果是则马上用exit(1)终止整个程序的运行。
+12.“野指针”不是NULL指针，是指向“垃圾”内存的指针。人们一般不会错用NULL指针，因为用if语句很容易判断。但是“野指针”是很危险的，if语句对它不起作用。 “野指针”的原因主要有如下几种：（1）指针变量没有被初始化。任何指针变量刚被创建时不会自动成为NULL指针，它的缺省值是随机的，它会乱指一气。所以，指针变量在创建的同时应当被初始化，要么将指针设置为NULL，要么让它指向合法的内存。例如char *ip = NULL;（2）指针ip被free或者delete之后，没有置为NULL，让人误以为ip是个合法的指针。（3）指针操作超越了变量的作用范围。这种情况让人防不胜防。
+13.【规则1】用malloc或new申请内存之后，应该立即检查指针值是否为NULL, 防止使用指针值为NULL的内存。
+【规则2】不要忘记为数组和动态内存赋初值, 防止将未被初始化的内存作为右值使用。
+【规则3】避免数组或指针的下标越界，特别要当心发生“多1”或者“少1”操作。
+【规则4】动态内存的申请与释放必须配对，防止内存泄漏。
+【规则5】用free或delete释放了内存之后，立即将指针设置为NULL，防止产生“野指针”。
+14.char *pc= "c language";这里应说明的是并不是把整个字符串装入指针变量， 而是把存放该字符串的字符数组的首地址装入指针变量。
+15.指针变量还可以与0比较。设ip为指针变量，则ip==0表明ip是空指针，它不指向任何变量；ip!=0表示ip不是空指针。空指针是由对指针变量赋予0值而得到的。例如：#define NULL 0 int *ip=NULL;
+对指针变量赋0值和不赋值是不同的。指针变量未赋值时，可以是任意值，是不能使用的。否则将造成意外错误。而指针变量赋0值后，则可以使用，只是它不指向具体的变量而已。
+16.取地址运算符&是单目运算符，其结合性为自右至左，其功能是取变量的地址。
+取内容运算符*是单目运算符，其结合性为自右至左，用来表示指针变量所指的变量。在*运算符之后跟的变量必须是指针变量。需要注意的是指针运算符*和指针变量说明中的指针说明符* 不是一回事。在指针变量说明中，‘*’是类型说明符，表示其后的变量是指针类型。而表达式中出现的‘*’则是一个运算符用以表示指针变量所指的变量。
+17.在解释组合说明符时， 标识符右边的方括号和圆括号优先于标识符左边的“*”号，而方括号和圆括号以相同的优先级从左到右结合。但可以用圆括号改变约定的结合顺序。
+阅读组合说明符的规则是“从里向外”。从标识符开始，先看它右边有无方括号或园括号，如有则先作出解释，再看左边有无*号。 如果在任何时候遇到了闭括号，则在继续之前必须用相同的规则处理括号内的内容。
+一个表达式的最后结果如果是一个指针，那么这个表达式就叫指针表式。所以指针表达式也具有指针所具有的四个要素:指针的类型,指针所指向的类型,指针指向的内存区,指针自身占据的内存。
+18.“右左法则”是一个简单的法则，但能让你准确理解所有的声明。这个法则运用如下：从最内部的括号开始阅读声明，向右看，然后向左看。当你碰到一个括号时就调转阅读的方向。括号内的所有内容都分析完毕就跳出括号的范围。这样继续，直到整个声明都被分析完毕。
+19.对上述“右左法则”做一个小小的修正：当你第一次开始阅读声明的时候，你必须从变量名开始，而不是从最内部的括号,向右看，然后向左看。当你碰到一个括号时就调转阅读的方向。括号内的所有内容都分析完毕就跳出括号的范围。这样继续，直到整个声明都被分析完毕。
+int * (* (*fp1) (int) ) [10];
+阅读步骤：
+1. 从变量名开始——fp1
+2. 往右看，什么也没有，碰到了)，因此往左看，碰到一个*——一个指针
+3. 跳出括号，碰到了(int)——一个带一个 int 参数的函数
+4. 向左看，发现一个*——（函数）返回一个指针
+5. 跳出括号，向右看，碰到[10]——一个 10元素的数组
+6. 向左看，发现一个*——指针
+7. 向左看，发现 int——int 类型
+总结：fp1被声明成为一个函数的指针,该函数返回指向指针数组的指针. 
+int *( *( *arr[5])())();
+阅读步骤：
+1. 从变量名开始——arr
+2. 往右看，发现是一个数组——一个 5 元素的数组
+3. 向左看，发现一个*——指针
+4. 跳出括号，向右看，发现()——不带参数的函数
+5. 向左看，碰到*——（函数）返回一个指针
+6. 跳出括号，向右发现()——不带参数的函数
+7. 向左，发现*——（函数）返回一个指针
+8. 继续向左，发现 int——int 类型 
+float ( * ( *b()) [] )();
+// b is a function that returns a
+// pointer to an array of pointers
+// to functions returning floats.
+
+void * ( *c) ( char, int (*)());
+// c is a pointer to a function that takes
+// two parameters: // a char and a pointer to a
+// function that takes no
+// parameters and returns
+// an int
+// and returns a pointer to void.
+
+void ** (*d) (int &, char **(*)(char *, char **));
+// d is a pointer to a function that takes
+// two parameters:
+// a reference to an int and a pointer
+// to a function that takes two parameters:
+// a pointer to a char and a pointer
+// to a pointer to a char
+// and returns a pointer to a pointer
+// to a char
+// and returns a pointer to a pointer to void
+
+float ( * ( * e[10])   (int &) ) [5];
+// e is an array of 10 pointers to
+// functions that take a single
+// reference to an int as an argument
+// and return pointers to
+// an array of 5 floats. 
+20.int (*func[5])(int *p);
+func右边是一个[]运算符，说明func是一个具有5个元素的数组，func的左边有一个*，说明func的元素是指针，要注意这里的*不是修饰func的，而是修饰func[5]的，原因是[]运算符优先级比*高，func先跟[] 结合，因此*修饰的是func[5]。跳出这个括号，看右边，也是一对圆括号，说明func数组的元素是函数类型的指针，它所指向的函数具有int*类型的形参，返回值类型为int。
+int (*(*func)[5])(int *p);
+func被一个圆括号包含，左边又有一个*，那么func是一个指针，跳出括号，右边是一个[]运算符号，说明func是一个指向数组的指针，现在往左看，左边有一个*号，说明这个数组的元素是指针，再跳出括号，右边又有一个括号，说明这个数组的元素是指向函数的指针。总结一下，就是：func是一个指向数组的指针，这个数组的元素是函数指针，这些指针指向具有int*形参，返回值为int类型的函数。
+int (*(*func)(int *p))[5];
+func是一个函数指针，这类函数具有int*类型的形参，返回值是指向数组的指针，所指向的数组的元素是具有5个int元素的数组。 
+int func(void) [5];
+func是一个返回值为具有5个int元素的数组的函数。但C语言的函数返回值不能为数组，这是因为如果允许函数返回值为数组，那么接收这个数组的内容的东西，也必须是一个数组，但C语言的数组名是一个右值，它不能作为左值来接收另一个数组，因此函数返回值不能为数组。
+int func[5](void);
+func是一个具有5个元素的数组，这个数组的元素都是函数。这也是非法的，因为数组的元素除了类型必须一样外，每个元素所占用的内存空间也必须相同，显然函数是无法达到这个要求的，即使函数的类型一样，但函数所占用的空间通常是不相同的。
+21.C语言的引用传递需要使用g++编译，函数声明int func(int &b);调用func(b);此为隐式的指针调用，似乎更安全。
+22.typedef与结构结合使用
+typedef struct tagMyStruct
+{
+　int iNum;
+　long lLength;
+} MyStruct;
+这语句实际上完成两个操作：
+1) 定义一个新的结构类型   
+struct tagMyStruct
+{
+ 　int iNum;
+ 　long lLength;
+};
+分析：tagMyStruct称为“tag”，即“标签”，实际上是一个临时名字，struct 关键字和tagMyStruct一起，构成了这个结构类型，不论是否有typedef，这个结构都存在。我们可以用struct tagMyStruct varName来定义变量，但要注意，使用tagMyStruct varName来定义变量是不对的，因为struct 和tagMyStruct合在一起才能表示一个结构类型。
+2) typedef为这个新的结构起了一个名字，叫MyStruct。
+typedef struct tagMyStruct MyStruct;
+MyStruct实际上相当于struct tagMyStruct，我们可以使用MyStruct varName来定义变量。
+23.当用下面的代码定义一个结构时，编译器报了一个错误，为什么呢？莫非C语言不允许在结构中包含指向它自己的指针吗？
+    typedef struct tagNode
+    {
+    　char *pItem;
+    　pNode pNext;
+    } *pNode; 
+　　答案与分析：
+　　C语言当然允许在结构中包含指向它自己的指针，我们可以在建立链表等数据结构的实现上看到无数这样的例子，上述代码的根本问题在于typedef的应用。根据我们上面的阐述可以知道：新结构建立的过程中遇到了pNext域的声明，类型是pNode，要知道pNode表示的是类型的新名字，那么在类型本身还没有建立完成的时候，这个类型的新名字也还不存在，也就是说这个时候编译器根本不认识pNode。
+　　解决这个问题的方法有多种：
+    1)、
+    typedef struct tagNode
+    {
+    　char *pItem;
+    　struct tagNode *pNext;
+    } *pNode;   
+    2)、
+    typedef struct tagNode *pNode;
+    struct tagNode
+    {
+    　char *pItem;
+    　pNode pNext;
+    };   
+    注意：在这个例子中，你用typedef给一个还未完全声明的类型起新名字。C语言编译器支持这种做法。
+    3)、规范做法：
+    struct tagNode
+    {
+    　char *pItem;
+    　struct tagNode *pNext;
+    };
+    typedef struct tagNode *pNode;
+
+24.gdb myc可直接找到错误位置（常用选项还有run\list\bt\where\break）
+25.&a 的运算结果是一个指针，指针的类型是a 的类型加个*，指针所指向的类型是a 的类型，指针所指向的地址嘛，那就是a 的地址。*p 的运算结果就五花八门了。总之*p 的结果是p 所指向的东西，这个东西有这些特点：它的类型是p 指向的类型，它所占用的地址是p所指向的地址。
+26.当一个指针表达式的结果指针已经明确地具有了指针自身占据的内存的话，这个指针表达式就是一个左值，否则就不是一个左值.
+27.char *str[3] = {
+    "Hello,thisisasample!",
+    "Hi,goodmorning.",
+    "Helloworld"
+};
+str是一个三单元的数组，该数组的每个单元都是一个指针，这些指针各指向一个字符串。把指针数组名str当作一个指针的话，它指向数组的第0号单元，它的类型是char**,它指向的类型是char*。*str也是个指针，它的类型是char *,它所指向的类型是char,它指向的地址是字符串“Hello,thisisasample!”的第一个字符的地址，即‘H’的地址。
+28.sizeof(对象)测出的都是对象自身的类型的大小，而不是别的什么类型的大小。
+29.把指针的值作为整数取出来需要加(int).int *ptr = &a; b = (int)ptr;str = (char *)b把整数的值作为地址赋给char型指针。
+30.在指针的强制类型转换：ptr1=(TYPE *)ptr2 中，如果sizeof(ptr2的类型)大于sizeof(ptr1 的类型)，那么在使用指针ptr1 来访问ptr2所指向的存储区时是安全的。如果sizeof(ptr2 的类型) 小于sizeof(ptr1 的类型)，那么在使用指针ptr1 来访问ptr2 所指向的存储区时是不安全的.
+31.C中，main里声明的变量为main本身所有，其它函数不可直接使用。在main外面声明的变量所有函数都可以使用。
+32.long int strtol(const char *nptr, char **endptr, int base)
+strtol()会将nptr指向的字符串，根据参数base，按权转化为long int, 然后返回这个值。strtol()函数检测到第一个非法字符时，立即停止检测，其后的所有字符都会被当作非法字符处理。合法字符串会被转换为long int, 作为函数的返回值。非法字符串，即从第一个非法字符的地址，被赋给*endptr。**endptr是个双重指针，即指针的指针。strtol()函数就是通过它改变*endptr的值，即把第一个非法字符的地址传给endptr。
+33.不需要改变的量声明为const.
+34.函数中以指针为参数时，一般可声明为void类型，用时再转换。
+35.声明变量使用前一定要给定初始值。
+
+#---------------------------------------------------------------------
+判断一个文件的大小
+feek(file, 0, SEEK_END);
+len = ftell(file);
+feesk(file, 0, SEEK_SET);
+#---------------------------------------------------------------------
+
+常用组织结构：
+ct_main.h
+ct_assist.c
+ct_assist.h
+ct_global.c
+ct_global.h
+1.头文件不要嵌套。
+2.变量声明放在相应的头文件中。
+3.脚本文件使用。
+4.注释放在头文件中。
+5.变量$数组＠
+6.嵌套的循环不要使用同一迭代变量。
+7.注意全局变量变量值的复原。
+8.利用assert做数值检验，验证程序有没有误写错误。
+9.调试输出时数据前后要加上＠，便于shell处理数据。
+10.注意内存分配。尤其是二维数组
+11.valgrind测试。
+12.注释的格式为/**
+               *variable: sdsjdsjdjsd;
+               **/(一行一个变量)
+13.不修改的变量用const。
+14.
+
