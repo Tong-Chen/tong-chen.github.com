@@ -112,6 +112,18 @@ m='cde'
 echo $m  (output>:CDE)
 {% endhighlight %}
 
+##### bash记录命令运行时间并写入相应目录
+
+{% highlight bash %}
+HISTCONTROL=ignoredups;ignorespace
+shopt -s histappend
+HISTSIZE=1000000000
+HISTFILESIZE=2000000000
+HISTTIMEFORMAT="%F %T "
+export PROMPT_COMMAND='hpwd=$(history 1); echo "${hpwd}" >>.bash_history'
+{% endhighlight %}
+
+
 ##### bash一行行读取文件
 
 {% highlight vim %}
