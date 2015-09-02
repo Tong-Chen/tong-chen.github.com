@@ -85,7 +85,7 @@ tags:
   </div>
   
   <div>
-    <a href="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/project+log+bu_hd+1.png"><img class="aligncenter size-thumbnail wp-image-2578" title="project+log+(bu_hd)+(1)" src="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/project+log+bu_hd+1-150x150.png" alt="" width="150" height="150" /></a>
+    <a href="{{ site.img_url }}/strandproject+log+bu_hd+1.png"><img class="aligncenter size-thumbnail wp-image-2578" title="project+log+(bu_hd)+(1)" src="{{ site.img_url }}/strandproject+log+bu_hd+1-150x150.png" alt="" width="150" height="150" /></a>
   </div>
   
   <table cellspacing="0" cellpadding="0" align="center">
@@ -108,7 +108,7 @@ tags:
   </table>
   
   <p style="text-align: center;">
-    But regarding to which strand the RNA fragment is synthesized from, this involves different strand-specific protocols. Thanks to the illustration figure (see below) from Zhao Zhang, we could see that for example dUTP method is to only sequence the strand from the first strand synthesis (the original RNA strand is  degradated due to the dUTP incorporated), so the /2 read is from the original RNA strand.<br /> <a href="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/strand.png"><img class="aligncenter size-thumbnail wp-image-2579" title="strand" src="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/strand-150x150.png" alt="" width="150" height="150" /></a>
+    But regarding to which strand the RNA fragment is synthesized from, this involves different strand-specific protocols. Thanks to the illustration figure (see below) from Zhao Zhang, we could see that for example dUTP method is to only sequence the strand from the first strand synthesis (the original RNA strand is  degradated due to the dUTP incorporated), so the /2 read is from the original RNA strand.<br /> <a href="{{ site.img_url }}/strandstrand.png"><img class="aligncenter size-thumbnail wp-image-2579" title="strand" src="{{ site.img_url }}/strandstrand-150x150.png" alt="" width="150" height="150" /></a>
   </p>
   
   <table cellspacing="0" cellpadding="0" align="center">
@@ -148,7 +148,7 @@ tags:
 </div>
 
 <div>
-  <a href="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/screen+shot+2012-07-30+at+4.27.10+pm.png"><img class="aligncenter size-thumbnail wp-image-2580" title="screen+shot+2012-07-30+at+4.27.10+pm" src="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/screen+shot+2012-07-30+at+4.27.10+pm-150x150.png" alt="" width="150" height="150" /></a>
+  <a href="{{ site.img_url }}/strandscreen+shot+2012-07-30+at+4.27.10+pm.png"><img class="aligncenter size-thumbnail wp-image-2580" title="screen+shot+2012-07-30+at+4.27.10+pm" src="{{ site.img_url }}/strandscreen+shot+2012-07-30+at+4.27.10+pm-150x150.png" alt="" width="150" height="150" /></a>
 </div>
 
 <div>
@@ -159,7 +159,7 @@ tags:
   </div>
   
   <div>
-     <a href="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/1.png"><img class="aligncenter size-thumbnail wp-image-2581" title="1" src="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/1-150x131.png" alt="" width="150" height="131" /></a>
+     <a href="{{ site.img_url }}/strand1.png"><img class="aligncenter size-thumbnail wp-image-2581" title="1" src="{{ site.img_url }}/strand1-150x131.png" alt="" width="150" height="131" /></a>
   </div>
   
   <div>
@@ -176,7 +176,7 @@ tags:
   </div>
   
   <div>
-     <a href="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/21.png"><img class="aligncenter size-thumbnail wp-image-2583" title="2" src="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/21-150x111.png" alt="" width="150" height="111" /></a><a href="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/3.png"><img class="aligncenter size-thumbnail wp-image-2584" title="3" src="http://210.75.224.29/wordpress/wp-content/uploads/2012/10/3-150x91.png" alt="" width="150" height="91" /></a>
+     <a href="{{ site.img_url }}/strand21.png"><img class="aligncenter size-thumbnail wp-image-2583" title="2" src="{{ site.img_url }}/strand21-150x111.png" alt="" width="150" height="111" /></a><a href="{{ site.img_url }}/strand3.png"><img class="aligncenter size-thumbnail wp-image-2584" title="3" src="{{ site.img_url }}/strand3-150x91.png" alt="" width="150" height="91" /></a>
   </div>
   
   <div>

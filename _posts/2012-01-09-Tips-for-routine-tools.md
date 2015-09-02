@@ -1,18 +1,10 @@
 ---
-title: 常用软件命令记录
-author: 悟道
-layout: post
-permalink: /?p=1473
+title: Tips for routine tools
 categories:
   - bioinformatics
 tags:
   - bioinformatics
 ---
-<table>
-  <tr cellpadding=0><td>
-    热度:
-  </td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td><td cellpadding=0><img src='http://210.75.224.29/wordpress/wp-content/plugins/statpresscn/images/sun_dark.gif' width=10 height=10 border=0 /></td></tr>
-</table>
 
 1.hmmer
 
@@ -45,7 +37,7 @@ blastdbcmd -entry NP_172083.1 -db /data7T/mercu-b-backup/pub-data/NCBI-NR/nr
 
 #自定义输出格式
 
-blastp -query 1PP2.L.fasta -db /data7T/mercu-b-backup/pub-data/NCBI-NR/nr -out 1PP2.L.fasta.out.0 -num_threads=8 **-outfmt=&#8217;6 qseqid sseqid pident length slen evalue&#8217;**
+blastp -query 1PP2.L.fasta -db /data7T/mercu-b-backup/pub-data/NCBI-NR/nr -out 1PP2.L.fasta.out.0 -num_threads=8 **-outfmt='6 qseqid sseqid pident length slen evalue'**
 
 http://www.ncbi.nlm.nih.gov/blast/html/sub_matrix.html
 
@@ -106,8 +98,8 @@ http://www.ncbi.nlm.nih.gov/blast/html/sub_matrix.html
 > &#8211;oc $@ &#8211;max-stored-scores 1000000000 \  
 > ~/soft/meme/db/motif\_databases/uniprobe\_mouse.meme $<  
 > pythonmail2.py $@ $@  
-> tail -n +2 $@/fimo.txt | cut -f 1 | sort | uniq -c | sed &#8216;s/^ *//&#8217; \  
-> | awk &#8216;BEGIN{OFS=&#8221;\t&#8221;;FS=&#8221; &#8220;;}{print $$2,$$1}&#8217; | sort -k1,1 \  
+> tail -n +2 $@/fimo.txt | cut -f 1 | sort | uniq -c | sed &#8216;s/^ *//' \  
+> | awk &#8216;BEGIN{OFS=&#8221;\t&#8221;;FS=&#8221; &#8220;;}{print $$2,$$1}' | sort -k1,1 \  
 > >$@/fimo.txt.motif.pattern.cnt  
 > join -a1 -t &#8216; &#8216; -o 2.2,1.2 \  
 > $@/fimo.txt.motif.pattern.cnt $(uniprobe_tf) \  
@@ -120,7 +112,7 @@ http://www.ncbi.nlm.nih.gov/blast/html/sub_matrix.html
 > mhmmscan &#8211;fancy &#8211;allow-weak-motifs &#8211;p-thresh 0.0005 \  
 > &#8211;max-gap 50 &#8211;e-thresh 10 &#8211;eg-cost 1 \  
 > &#8211;blocksize \  
-> \`gawk &#8216;{if(x<length()) x = length()}END{print x}&#8217; $<\` \  
+> \`gawk &#8216;{if(x<length()) x = length()}END{print x}' $<\` \  
 > &#8211;verbosity 5 &#8211;pseudo-weight 4.0 \  
 > $@/uniprobe_mouse.meme.mhmm $< \  
 > >$@/mcast.txt  
