@@ -9,12 +9,12 @@ tags:
   - KEGG
 ---
 
-# Get full list of KEGG pathways and orthologs
+### Get full list of KEGG pathways and orthologs
 
 <http://www.genome.jp/kegg-bin/download_htext?htext=br08901.keg&format=htext&filedir=>
 <http://www.genome.jp/kegg-bin/download_htext?htext=ko00001.keg&format=htext&filedir=>
 
-# Get the orthologs of one pathway
+### Get the orthologs of one pathway
 
 ```
 http://togows.org/entry/kegg-pathway/ko00010/orthologs.json
@@ -37,7 +37,7 @@ will return
 ]
 ```
 
-# Get the genes of one ortholog
+### Get the genes of one ortholog
 
 ```
 http://togows.org/entry/kegg-orthology/K00001/genes.json
@@ -68,7 +68,7 @@ will return
 ```
 
 
-# Get the amino sequence of one gene
+### Get the amino sequence of one gene
 
 ```
 http://togows.org/entry/kegg-genes/dme:Dmel_CG3481,dpo:Dpse_GA17214/aafasta.json
@@ -87,7 +87,7 @@ will return
 ```
 
 
-# Get the compounds of one pathway
+### Get the compounds of one pathway
 
 ```
 http://togows.org/entry/kegg-pathway/ko00010/compounds.json
@@ -107,7 +107,7 @@ will return
 ]
 ```
 
-# Get the names of one compound
+### Get the names of one compound
 
 ```
 http://togows.org/entry/kegg-compound/C00003/names.json
