@@ -1,3 +1,14 @@
+---
+title: Tips for KEGG usage
+author: 悟道
+layout: post
+categories:
+  - KEGG
+  - letter
+tags:
+  - KEGG
+---
+
 # Get full list of KEGG pathways and orthologs
 
 <http://www.genome.jp/kegg-bin/download_htext?htext=br08901.keg&format=htext&filedir=>
