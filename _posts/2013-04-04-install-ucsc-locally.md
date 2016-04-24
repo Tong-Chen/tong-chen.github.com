@@ -9,32 +9,59 @@ tags:
   - NGS
 ---
 
-前期配置安装mysql+apache略过
+> UCSC基因组浏览器在大规模高通量数据的可视化和比较分析研究中发挥着重要的作用。
+> 本文详细介绍了如何一步步在本地安装、配置、高级使用UCSC浏览器。
 
-1.新建mysql用户
+## 安装UCSC浏览器
+
+### 1. 安装mysql+apache
 
 {% highlight bash %}
-create user 'gw'@'localhost' identified by 'qazplm_gw';
+#For Ubuntu user
+sudo apt-get install tasksel
+sudo apt-get install lamp-server
 
+#For readhat or centos user
+yum install httpd mariadb-server mariadb
 {% endhighlight %}
 
-2.同步UCSC所需html文件和运行程序
+### 2. 新建mysql用户
 
 {% highlight bash %}
+# 用户名：gw
+# 密码  ：qazplm_gw
+create user 'gw'@'localhost' identified by 'qazplm_gw';
+{% endhighlight %}
+
+### 3.同步UCSC所需html文件和运行程序
+
+{% highlight bash %}
+# 设置UCSC的安装目录为 /var/www/gw
 mkdir /var/www/gw
-#rsync -avzP --exclude 'ENCODE' --exclude 'goldenPath' rsync://hgdownload.cse.ucsc.edu/htdocs/ /var/www/gw
+
+# 同步相应的html文件
 rsync -avzP --exclude 'ENCODE' rsync://hgdownload.cse.ucsc.edu/htdocs/ /var/www/gw
+
+# 同步可执行程序到cgi-bin目录下
 mkdir /var/www/gw/cgi-bin
+
+# For 64-bit
 rsync -avzP rsync://hgdownload.cse.ucsc.edu/cgi-bin/ /var/www/gw/cgi-bin/  #64 bit
+
+# For 32-it
 rsync -avzP rsync://hgdownload.cse.ucsc.edu/cgi-bin-i386/ /var/www/gw/cgi-bin/  #32bit
+
+# 更改cgi-bin目录的所有者
 chown -R www-data.www-data /var/www/gw/cgi-bin/
 
 {% endhighlight %}
 
-3.把一下内容写入/etc/apahce2/httpd.conf。XBitHack on是必须的。
+### 4.把以下内容写入`/etc/apahce2/httpd.conf`
 
 {% highlight bash %}
 /etc/apache2$ cat httpd.conf
+# XBitHack on 是必须的
+# 其它参数的意思参见apache文档
 XBitHack on
 <Directory /var/www/gw>
 	AllowOverride AuthConfig
@@ -58,17 +85,16 @@ ScriptAlias /gw/cgi-bin /var/www/gw/cgi-bin
 
 {% endhighlight %}
 
-4.设置Apache解析有执行权限的文件中的SSI指令，然后重启apache
+### 5.设置Apache解析有执行权限的文件中的SSI指令，然后重启apache
 
 {% highlight bash %}
 ln -s /etc/apache2/mods-available/include.load /etc/apache2/mods-enabled/
 /etc/init.d/apache2 restart
-
 {% endhighlight %}
 
-5.配置数据库。
+### 6.设置数据库配置文件
 
-进入/var/www/gw/cgi-bin/ 目录，建立hg.conf并写入下列内容，同时sudo chown www-data /var/www/gw/cgi-bin/hg.conf。 更多功能的conf文件见http://genome-test.cse.ucsc.edu/~kent/src/unzipped/product/ex.hg.conf。
+进入/var/www/gw/cgi-bin/ 目录，建立hg.conf并写入下列内容
 
 {% highlight bash %}
 db.host=localhost
@@ -90,7 +116,12 @@ backupcentral.domain=
 
 {% endhighlight %}
 
-6.建立缓存文件夹
+同时运行如下命令`sudo chown www-data /var/www/gw/cgi-bin/hg.conf`更改文件的所有权。 
+
+更多功能的conf文件见[http://genome-test.cse.ucsc.edu/~kent/src/unzipped/product/ex.hg.conf](http://genome-test.cse.ucsc.edu/~kent/src/unzipped/product/ex.hg.conf).
+
+
+### 7.建立缓存文件夹
 
 {% highlight bash %}
 rm /var/www/gw/trash
@@ -99,43 +130,50 @@ chown www-data.www-data /var/www/gw/trash
 
 {% endhighlight %}
 
-7、提供Javascript文件
+### 8. 提供Javascript文件
 
 {% highlight bash %}
 mkdir -p /usr/local/apache/htdocs/
 ln -s /var/www/gw/js/ /usr/local/apache/htdocs/js
 ln -s /var/www/gw/style/ /usr/local/apache/htdocs/style
-每次重启服务器后，可能要重复上述操作。
+# 每次重启服务器后，可能要重复上述操作。
 {% endhighlight %}
 
-8.这时就应该能够访问了，成功的标志就是访问http://localhost/gw 会看到UCSC常见的页面。
+### 9.这时就应该能够访问了，成功的标志就是访问[http://localhost/gw](http://localhost/gw)会看到UCSC常见的页面。
 
-9.配置数据库
+---
+
+## 加载UCSC浏览器所需数据库内容
+
+### 1.安装`hgcentral`数据库内容
 
 {% highlight bash %}
 wget http://hgdownload.cse.ucsc.edu/admin/hgcentral.sql
-mysql -u<high-user> -p<passwd> -e 'create database hgcentral'
-mysql -u<high-user> -p<passwd> -e &quot;grant all privileges on hgcentral.* to 'gw'@'localhost'&quot;
+mysql -uroot -proot_passwd -e 'create database hgcentral'
+mysql -uroot -proot_passwd -e 'grant all privileges on hgcentral.* to 'gw'@'localhost''
+# 加载下载的hgcentral数据库
 mysql -ugw -p qazplm_gw hgcentral <hgcentral.sql
-mysql -u<high-user> -p<passwd> -e 'create database hgFixed'
-mysql -u<high-user> -p<passwd> -e &quot;grant select on hgFixed.* to 'gw'@'localhost'
-
+mysql -uroot -proot_passwd -e 'create database hgFixed'
+mysql -uroot -proot_passwd -e 'grant select on hgFixed.* to 'gw'@'localhost'
 {% endhighlight %}
 
-10.出现错误/var/www/gw/cgi-bin/hgGateway: error while loading shared libraries: libssl.so.6: cannot open shared object file: No such file or directory,&#8230;
+* 出现错误/var/www/gw/cgi-bin/hgGateway: error while loading shared libraries: libssl.so.6: cannot open shared object file: No such file or directory时的解决方案：
 
 {% highlight bash %}
-sudo apt-get install libssl0.9.8  #不能确定是否必须
-#ln -s /usr/lib/libssl.so.0.9.8 /usr/lib/libssl.so.6
-#ln -s /usr/lib/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.6
+#如果不存在就安装，如果存在就直接建立软连接
+sudo apt-get install libssl0.9.8  
+# Use `locate libssl.so.0.9.8` to find the path of this file.
+
+# For 32 bit
 sudo ln -s /lib/i386-linux-gnu/libssl.so.0.9.8 /usr/lib/libssl.so.6
 sudo ln -s /lib/i386-linux-gnu/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.6
 
 {% endhighlight %}
 
-11.建立本地mysql数据库
+### 2.获取相关物种信息数据库
 
 {% highlight bash %}
+# 鉴于物种信息数据库比较大，可以在数据盘新建目录用于存储
 #change datadir to /home/mysql
 /etc/init.d/mysql stop
 vim /etc/mysql/my.cnf
@@ -162,8 +200,9 @@ chown -R mysql.mysql /home/mysql/mm9
 
 {% endhighlight %}
 
-12.出现错误  
-a.Couldn&#8217;t connect to database (null) on localhost as gw. Client does not support authentication protocol requested by server; consider upgrading MySQL 的解决方法
+* 出现错误  
+		
+		a.Could not connect to database (null) on localhost as gw. Client does not support authentication protocol requested by server; consider upgrading MySQL 的解决方法
 
 {% highlight bash %}
 set password for 'gw'@'localhost'=OLD_PASSWORD('qazplm_gw');
@@ -171,7 +210,7 @@ flush privileges;
 
 {% endhighlight %}
 
-b. Can’t connect to local MySQL server through socket ‘/var/lib/mysql/mysql.sock’
+		b. Can’t connect to local MySQL server through socket ‘/var/lib/mysql/mysql.sock’
 
 {% highlight bash %}
 ln -s /var/run/mysqld/mysqld.sock /var/lib/mysql/mysql.sock
@@ -180,28 +219,29 @@ chmod 755 /var/lib/mysql/
 
 {% endhighlight %}
 
-13.下载gbdb数据
+### 3.下载gbdb数据
 
 {% highlight bash %}
 #bbi 为encode数据
-mkdir -p ~/gbdb/mm9
+mkdir -p /home/user/gbdb/mm9
 rsync -avzP --delete --max-delete=20 --exclude=bbi \
     rsync://hgdownload.cse.ucsc.edu/gbdb/mm9/ ~/gbdb/mm9/
 #---mappability data---------------
 rsync -avzp rsync://hgdownload.cse.ucsc.edu/gbdb/mm9/bbi/*.bw ~/gbdb/mm9/bbi
-ln -s /home/genomebrowser/gbdb /gbdb
-
+ln -s /home/user/gbdb /gbdb
 {% endhighlight %}
 
-14.访问链接[http://localhost/gw/cgi-bin/hgGateway?db=mm9](http://localhost/gw/cgi-bin/hgGateway?db=mm9)
+### 4.访问链接[http://localhost/gw/cgi-bin/hgGateway?db=mm9](http://localhost/gw/cgi-bin/hgGateway?db=mm9)
 
-安装参考：
+### 5. 安装参考：
 
-[http://blog.sciencenet.cn/blog-723745-569746.html](http://blog.sciencenet.cn/blog-723745-569746.html)
+* [http://blog.sciencenet.cn/blog-723745-569746.html](http://blog.sciencenet.cn/blog-723745-569746.html)
 
-[http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/](http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/)
+* [http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/](http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/)
 
-15.构建UCSC hubtrack
+## UCSC Track Hub使用
+
+### 1. 构建UCSC hub track
 
 {% highlight bash %}
 #首先看目录结构
@@ -233,7 +273,7 @@ email	my@my.com
 $cat mm9/trackDb.txt
 # access http://localhost/cgi-bin/hgTracks?db=mm9&amp;hubUrl=https://localhost/hub.txt
 # help : http://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html
-# trackDb.txt syntaxhttp://genome.ucsc.edu/goldenPath/help/trackDb/trackDbHub.html#bigBed_-_Item_or_Region_Track_Settings
+# trackDb.txt syntax http://genome.ucsc.edu/goldenPath/help/trackDb/trackDbHub.html#bigBed_-_Item_or_Region_Track_Settings
 #http://davetang.org/muse/2012/03/15/ucsc-genome-browser-custom-overlap-tracks/
 track One
 container multiWig
@@ -300,8 +340,8 @@ color 136,102,255
 
 {% endhighlight %}
 
-PS:其它需要添加的数据  
-1.mm9相关数据表
+## 其它需要添加的数据  
+### 1.mm9相关数据表
 
 {% highlight bash %}
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/all_bacends.frm /home/mysql/mm9/
@@ -505,7 +545,7 @@ rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/chr*_rmsk.MYI /home/mysql
 
 {% endhighlight %}
 
-2.定时清理
+### 2.定时清理
 
 {% highlight bash %}
 #!/bin/bash
@@ -517,37 +557,16 @@ find /var/www/gw/trash/ \! \( -regex "/var/www/gw/trash/ct/.*" -or \
 
 {% endhighlight %}
 
-3.Other great browsers  
+### 3.Other great browsers  
 [Trackster](http://www.nature.com/nbt/journal/v30/n11/full/nbt.2404.html?WT.ec_id=NBT-201211)
 [http://epigenomegateway.wustl.edu/browser/](http://epigenomegateway.wustl.edu/browser/)
 
 
-3.UCSC输出eps或pdf  
-a. To print or save the image to a file:
+## UCSC输出eps或pdf  
 
-<table>
-  <tr>
-    <td valign="top" width="20">
-      <b>1.</b>
-    </td>
-    
-    <td>
-      In the blue navigation bar at the top of the screen, from the "View" menu, click the "PDF/PS" link.
-    </td>
-  </tr>
-  
-  <tr>
-    <td valign="top" width="20">
-      <b>2.</b>
-    </td>
-    
-    <td>
-      Click one of the PDF or EPS links.
-    </td>
-  </tr>
-</table>
+1. To print or save the image to a file:
 
-b.We will work on fixing it, but in the meantime, you can still get to the page where you can export .eps files by altering your URL. If you add "hgGenome_doPsOutput=1" right after the "?" and add an "&" right after it, you should get to the "PostScript/PDF Output" screen. Your altered URL will look something like this: 
-[http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red](http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red)
-<a href="http://redmine.soe.ucsc.edu/forum/index.php?t=msg&goto=11357&S=5c52b567667756e3c66db0714f1f779f">http://redmine.soe.ucsc.edu/forum/index.php?t=msg&goto=11357&S=5c52b567667756e3c66db0714f1f779f</a>
+      > In the blue navigation bar at the top of the screen, from the "View" menu, click the "PDF/PS" link.
+
+2. One can get to the page where you can export `.eps` files by altering your URL. If you add `hgGenome_doPsOutput=1` right after the `?` and add an `&` right after it, you should get to the `PostScript/PDF Output` screen. Your altered URL will look something like this: [http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red](http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red).
 
