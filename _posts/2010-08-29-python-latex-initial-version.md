@@ -1,6 +1,5 @@
 ---
 title: 用python脚本实现latex文档的自动生成—初级版本
-author: 悟道
 layout: post
 categories:
   - python
