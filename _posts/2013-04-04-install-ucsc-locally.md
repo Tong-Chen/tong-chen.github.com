@@ -141,7 +141,6 @@ ln -s /var/www/gw/style/ /usr/local/apache/htdocs/style
 
 ### 9.这时就应该能够访问了，成功的标志就是访问[http://localhost/gw](http://localhost/gw)会看到UCSC常见的页面。
 
----
 
 ## 加载UCSC浏览器所需数据库内容
 
