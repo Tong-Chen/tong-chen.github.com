@@ -7,10 +7,12 @@ categories:
   - bioinfor
 tags:
   - bash
---
+---
 
 1. Install IMP
-		* Prerequires
+
+	* Prerequires
+
 ** Install mpfr (needed by CGAL) **
 
 wget http://www.mpfr.org/mpfr-current/mpfr-3.1.2.tar.gz -o mpfr-3.1.2.tar.gz
