@@ -33,7 +33,7 @@ yum install httpd mariadb-server mariadb
 create user 'gw'@'localhost' identified by 'qazplm_gw';
 {% endhighlight %}
 
-### 3.同步UCSC所需html文件和运行程序
+### 3. 同步UCSC所需html文件和运行程序
 
 {% highlight bash %}
 # 设置UCSC的安装目录为 /var/www/gw
@@ -56,7 +56,7 @@ chown -R www-data.www-data /var/www/gw/cgi-bin/
 
 {% endhighlight %}
 
-### 4.把以下内容写入`/etc/apahce2/httpd.conf`
+### 4. 把以下内容写入`/etc/apahce2/httpd.conf`
 
 {% highlight bash %}
 /etc/apache2$ cat httpd.conf
@@ -85,16 +85,16 @@ ScriptAlias /gw/cgi-bin /var/www/gw/cgi-bin
 
 {% endhighlight %}
 
-### 5.设置Apache解析有执行权限的文件中的SSI指令，然后重启apache
+### 5. 设置Apache解析有执行权限的文件中的SSI指令，然后重启apache
 
 {% highlight bash %}
 ln -s /etc/apache2/mods-available/include.load /etc/apache2/mods-enabled/
 /etc/init.d/apache2 restart
 {% endhighlight %}
 
-### 6.设置数据库配置文件
+### 6. 设置数据库配置文件
 
-进入/var/www/gw/cgi-bin/ 目录，建立hg.conf并写入下列内容
+进入`/var/www/gw/cgi-bin/`目录，建立`hg.conf`文件并写入下列内容
 
 {% highlight bash %}
 db.host=localhost
@@ -121,7 +121,7 @@ backupcentral.domain=
 更多功能的conf文件见[http://genome-test.cse.ucsc.edu/~kent/src/unzipped/product/ex.hg.conf](http://genome-test.cse.ucsc.edu/~kent/src/unzipped/product/ex.hg.conf).
 
 
-### 7.建立缓存文件夹
+### 7. 建立缓存文件夹
 
 {% highlight bash %}
 rm /var/www/gw/trash
@@ -139,12 +139,13 @@ ln -s /var/www/gw/style/ /usr/local/apache/htdocs/style
 # 每次重启服务器后，可能要重复上述操作。
 {% endhighlight %}
 
-### 9.这时就应该能够访问了，成功的标志就是访问[http://localhost/gw](http://localhost/gw)会看到UCSC常见的页面。
+### 9. 这时就应该能够访问了，成功的标志就是访问[http://localhost/gw](http://localhost/gw)会看到UCSC常见的页面。
 
+*****
 
 ## 加载UCSC浏览器所需数据库内容
 
-### 1.安装`hgcentral`数据库内容
+### 1. 安装`hgcentral`数据库内容
 
 {% highlight bash %}
 wget http://hgdownload.cse.ucsc.edu/admin/hgcentral.sql
@@ -158,18 +159,18 @@ mysql -uroot -proot_passwd -e 'grant select on hgFixed.* to 'gw'@'localhost'
 
 * 出现错误/var/www/gw/cgi-bin/hgGateway: error while loading shared libraries: libssl.so.6: cannot open shared object file: No such file or directory时的解决方案：
 
-{% highlight bash %}
-#如果不存在就安装，如果存在就直接建立软连接
-sudo apt-get install libssl0.9.8  
-# Use `locate libssl.so.0.9.8` to find the path of this file.
+	{% highlight bash %}
+	#如果不存在就安装，如果存在就直接建立软连接
+	sudo apt-get install libssl0.9.8  
+	# Use `locate libssl.so.0.9.8` to find the path of this file.
 
-# For 32 bit
-sudo ln -s /lib/i386-linux-gnu/libssl.so.0.9.8 /usr/lib/libssl.so.6
-sudo ln -s /lib/i386-linux-gnu/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.6
+	# For 32 bit
+	sudo ln -s /lib/i386-linux-gnu/libssl.so.0.9.8 /usr/lib/libssl.so.6
+	sudo ln -s /lib/i386-linux-gnu/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.6
 
-{% endhighlight %}
+	{% endhighlight %}
 
-### 2.获取相关物种信息数据库
+### 2. 获取相关物种信息数据库
 
 {% highlight bash %}
 # 鉴于物种信息数据库比较大，可以在数据盘新建目录用于存储
@@ -201,24 +202,24 @@ chown -R mysql.mysql /home/mysql/mm9
 
 * 出现错误  
 		
-		a.Could not connect to database (null) on localhost as gw. Client does not support authentication protocol requested by server; consider upgrading MySQL 的解决方法
+	a.Could not connect to database (null) on localhost as gw. Client does not support authentication protocol requested by server; consider upgrading MySQL 的解决方法
 
-{% highlight bash %}
-set password for 'gw'@'localhost'=OLD_PASSWORD('qazplm_gw');
-flush privileges;
+	{% highlight bash %}
+	set password for 'gw'@'localhost'=OLD_PASSWORD('qazplm_gw');
+	flush privileges;
 
-{% endhighlight %}
+	{% endhighlight %}
 
-		b. Can’t connect to local MySQL server through socket ‘/var/lib/mysql/mysql.sock’
+	b. Can’t connect to local MySQL server through socket ‘/var/lib/mysql/mysql.sock’
 
-{% highlight bash %}
-ln -s /var/run/mysqld/mysqld.sock /var/lib/mysql/mysql.sock
-chmod 666 /var/lib/mysql/mysql.sock
-chmod 755 /var/lib/mysql/
+	{% highlight bash %}
+	ln -s /var/run/mysqld/mysqld.sock /var/lib/mysql/mysql.sock
+	chmod 666 /var/lib/mysql/mysql.sock
+	chmod 755 /var/lib/mysql/
 
-{% endhighlight %}
+	{% endhighlight %}
 
-### 3.下载gbdb数据
+### 3. 下载gbdb数据
 
 {% highlight bash %}
 #bbi 为encode数据
@@ -230,13 +231,15 @@ rsync -avzp rsync://hgdownload.cse.ucsc.edu/gbdb/mm9/bbi/*.bw ~/gbdb/mm9/bbi
 ln -s /home/user/gbdb /gbdb
 {% endhighlight %}
 
-### 4.访问链接[http://localhost/gw/cgi-bin/hgGateway?db=mm9](http://localhost/gw/cgi-bin/hgGateway?db=mm9)
+### 4. 访问链接[http://localhost/gw/cgi-bin/hgGateway?db=mm9](http://localhost/gw/cgi-bin/hgGateway?db=mm9)
 
 ### 5. 安装参考：
 
 * [http://blog.sciencenet.cn/blog-723745-569746.html](http://blog.sciencenet.cn/blog-723745-569746.html)
 
 * [http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/](http://enotacoes.wordpress.com/2009/09/03/installing-a-minimal-ucsc-mirror-in-ubuntu-jaunty-64-bits/)
+
+*****
 
 ## UCSC Track Hub使用
 
@@ -339,8 +342,11 @@ color 136,102,255
 
 {% endhighlight %}
 
+*****
+
 ## 其它需要添加的数据  
-### 1.mm9相关数据表
+
+### 1. mm9相关数据表
 
 {% highlight bash %}
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/all_bacends.frm /home/mysql/mm9/
@@ -544,28 +550,29 @@ rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/chr*_rmsk.MYI /home/mysql
 
 {% endhighlight %}
 
-### 2.定时清理
+### 2. 定时清理
 
 {% highlight bash %}
 #!/bin/bash
 #10080 means 10080 minutes which is 14 days.
 find /var/www/gw/trash/ \! \( -regex "/var/www/gw/trash/ct/.*" -or \
 	-regex "/var/www/gw/trash/hgSs/.*" \) -type f -amin +10080 -exec rm -f {} \;
-#find /var/www/gw/trash/ \( -regex "/var/www/gw/trash/ct/.*" -or -regex "/var/www/gw/trash/hgSs/.*" \) -type f -amin +10080 -exec rm -f {} \;
-
 
 {% endhighlight %}
 
-### 3.Other great browsers  
-[Trackster](http://www.nature.com/nbt/journal/v30/n11/full/nbt.2404.html?WT.ec_id=NBT-201211)
+### 3. 其它基因组浏览器  
+
+* [Trackster](http://www.nature.com/nbt/journal/v30/n11/full/nbt.2404.html?WT.ec_id=NBT-201211)
 [http://epigenomegateway.wustl.edu/browser/](http://epigenomegateway.wustl.edu/browser/)
 
+* [IGV](http://www.broadinstitute.org/igv/)
+
+*****
 
 ## UCSC输出eps或pdf  
 
-1. To print or save the image to a file:
-
-      > In the blue navigation bar at the top of the screen, from the "View" menu, click the "PDF/PS" link.
+1. To print or save the image to a file: 
+	* In the blue navigation bar at the top of the screen, from the `View` menu, click the `PDF/PS` link.
 
 2. One can get to the page where you can export `.eps` files by altering your URL. If you add `hgGenome_doPsOutput=1` right after the `?` and add an `&` right after it, you should get to the `PostScript/PDF Output` screen. Your altered URL will look something like this: [http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red](http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red).
 
