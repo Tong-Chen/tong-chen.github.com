@@ -10,7 +10,7 @@ logo:             images/logo.png # logo visible in the topbar
 # When testing locally leave blank or use http://localhost:4000
 
 url: http://blog.genesino.com
-img_url: http://blog.genesino.com/images/
+img_url: http://blog.genesino.com/images
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -27,7 +27,7 @@ menu:
     url: '/tags'
   - title: 'Categories'
     url: '/categories'
-    type: 'categories'
+
   - title: 'Favorites'
     url: '#'
     submenu:
