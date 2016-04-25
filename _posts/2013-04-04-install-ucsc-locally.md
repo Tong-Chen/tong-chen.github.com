@@ -200,24 +200,18 @@ chown -R mysql.mysql /home/mysql/mm9
 
 {% endhighlight %}
 
-* 出现错误  
+* 错误解决
 		
-	a.Could not connect to database (null) on localhost as gw. Client does not support authentication protocol requested by server; consider upgrading MySQL 的解决方法
+	a. Could not connect to database (null) on localhost as gw. Client does not support authentication protocol requested by server; consider upgrading MySQL
 
-	{% highlight bash %}
-	set password for 'gw'@'localhost'=OLD_PASSWORD('qazplm_gw');
-	flush privileges;
+		set password for 'gw'@'localhost'=OLD_PASSWORD('qazplm_gw');
+		flush privileges;
 
-	{% endhighlight %}
+	b. Cant connect to local MySQL server through socket '/var/lib/mysql/mysql.sock'
 
-	b. Can’t connect to local MySQL server through socket ‘/var/lib/mysql/mysql.sock’
-
-	{% highlight bash %}
-	ln -s /var/run/mysqld/mysqld.sock /var/lib/mysql/mysql.sock
-	chmod 666 /var/lib/mysql/mysql.sock
-	chmod 755 /var/lib/mysql/
-
-	{% endhighlight %}
+		ln -s /var/run/mysqld/mysqld.sock /var/lib/mysql/mysql.sock
+		chmod 666 /var/lib/mysql/mysql.sock
+		chmod 755 /var/lib/mysql/
 
 ### 3. 下载gbdb数据
 
@@ -574,5 +568,7 @@ find /var/www/gw/trash/ \! \( -regex "/var/www/gw/trash/ct/.*" -or \
 1. To print or save the image to a file: 
 	* In the blue navigation bar at the top of the screen, from the `View` menu, click the `PDF/PS` link.
 
-2. One can get to the page where you can export `.eps` files by altering your URL. If you add `hgGenome_doPsOutput=1` right after the `?` and add an `&` right after it, you should get to the `PostScript/PDF Output` screen. Your altered URL will look something like this: [http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red](http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red).
+2. One can get to the page where you can export `.eps` files by altering your URL. 
+	* If you add `hgGenome_doPsOutput=1` right after the `?` and add an `&` right after it, you should get to the `PostScript/PDF Output` screen. 
+	* Your altered URL will look something like this: [http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red](http://genome.ucsc.edu/cgi-bin/hgGenome?hgGenome_doPsOutput=1&hgsid=301123643&clade=mammal&org=Human&db=hg19&hgGenome_threshold_hg19=3.5&hgGenome_graph_hg19_1_1=ct_UserTrack1_8429&hgGenome_graphColor_hg19_1_1=blue&hgGenome_graph_hg19_1_2=&hgGenome_graphColor_hg19_1_2=red).
 
