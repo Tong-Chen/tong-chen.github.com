@@ -1,47 +1,45 @@
 ---
-title: Conceive the world in mind
-layout: page
+layout: post-index
+title: "天下"
+description: "书不如思贵，意不可言传"
+comments: false
+share: false
 ---
-<!-- pagination extracted from http://jekyllrb.com/docs/pagination/-->
-<!-- This loops through the paginated posts -->
-<ul>
+
 {% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-   <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<article class="hentry">
+  <header>
+    {% if post.image.feature %}
+      <div class="entry-image-index">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
+        {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 
-<!-- Perfect for page 1 -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      </div><!-- /.entry-image -->
     {% endif %}
-  {% endfor %}
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+      {% if site.reading_time %}
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+      </span><!-- /.entry-reading-time -->
+      {% endif %}
+    </div><!-- /.entry-meta -->
+    {% if post.link %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% else %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+    {% endif %}
+  </header>
+  <div class="entry-content">
+    {% if post.content contains "<!-- more -->" %}
+    {{ post.content | split:"<!-- more -->" | first % }}
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-
+{% include pagination.html %}
