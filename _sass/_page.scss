@@ -4,6 +4,10 @@ body {
 	width: 100%;
 	background-color: $body-color;
 	overflow-x: hidden;
+	text-align: justify; 
+	text-align: end; 
+	text-align-last: justify; 
+	text-justify: distribute; 
 }
 
 // Main
