@@ -67,10 +67,10 @@ Datun Road, Chaoyang District, Beijing, 100101, China
 
 <table>
 <tr>
-<td>2009-Now</td>	 
-<td>Ph.D. candidate</td>
+<td>2009-2015</td>	 
+<td>Ph.D.</td>
 <td>Bioinformatics</td>	
-<td>Institute of Genetics and Developmental Biology</td>
+<td>Institute of Genetics and<br/> Developmental Biology</td>
 </tr>
 <tr>
 <td>2005-2009</td>	 
