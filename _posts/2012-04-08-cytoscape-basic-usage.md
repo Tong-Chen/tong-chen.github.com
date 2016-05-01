@@ -6,6 +6,7 @@ categories:
   - letter
 tags:
   - Cytoscape
+description: Video tutorial for cytoscape usage
 ---
 
 {:toc #toc}
