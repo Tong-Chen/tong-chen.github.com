@@ -87,7 +87,19 @@ allowFullScreen="true"  quality="high"  width="480"  height="400" align="middle"
 * The video tutorial
 
 {::nomarkdown}
-<iframe width="560" src="http://www.ehbio.com/video/ehbio_cytoscape_kegg.mp4"  frameborder="0" allowfullscreen></iframe>
+
+<div id="youkuplayer" style="width:480px;height:400px"></div>
+<script type="text/javascript" src="http://player.youku.com/jsapi"></script>
+<script type="text/javascript">
+player = new YKU.Player('youkuplayer', {
+styleid: '0', 
+client_id: 'a40cba4210523c08', 
+vid: 'XMTU1NDU4NDQ5Mg', 
+autoplay: false, 
+show_related: false
+});
+</script>
+
 {:/nomarkdown}
 
 #### Import a table to construct network
