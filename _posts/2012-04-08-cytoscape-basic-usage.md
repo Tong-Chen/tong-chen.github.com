@@ -8,7 +8,7 @@ tags:
   - Cytoscape
 ---
 
-[TOC]
+{:toc #toc}
 
 #### What is cytoscape
 
