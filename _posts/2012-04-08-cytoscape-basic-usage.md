@@ -8,6 +8,8 @@ tags:
   - Cytoscape
 ---
 
+[TOC]
+
 #### What is cytoscape
 
 [Cytoscape](http://www.cytoscape.org) is an open source 
@@ -126,7 +128,7 @@ type="application/x-shockwave-flash" ></embed>
 {:/nomarkdown}
 
 
-===
+***
 
 #### Import a table to construct network
 
