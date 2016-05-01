@@ -90,7 +90,7 @@ align="middle" allowScriptAccess="always"
 	- [galExpData.mrna](/images/cytoscape/galExpData.mrna): Gene expression profile in various conditions
 
 * Effect picture
-![cytoscape_galfilter.png](/images/cytoscape/cytoscape_galfilter.png)
+	* ![cytoscape_galfilter.png](/images/cytoscape/cytoscape_galfilter.png)
 
 {::nomarkdown}
 <embed src="http://player.youku.com/player.php/sid/XMTU1NDc5OTI1Mg==/v.swf"
@@ -107,7 +107,7 @@ align="middle" allowScriptAccess="always"
 
 * Files needed
 	- KEGG pathway xml file, like ko00900.xml
-	![ko00900.xml](cytoscape_kegg_xml.png)
+		* ![ko00900.xml](/images/cytoscape/cytoscape_kegg_xml.png)
 	- Expression data for genes involved in ko00900 pathway
 
 * Plugins needed
@@ -126,29 +126,12 @@ type="application/x-shockwave-flash" ></embed>
 {:/nomarkdown}
 
 
-
-{::nomarkdown}
-<div id="youkuplayer" style="width:480px;height:400px"></div>
-<script type="text/javascript" src="http://player.youku.com/jsapi"></script>
-<script type="text/javascript">
-player = new YKU.Player('youkuplayer', {
-styleid: '0', 
-client_id: 'a40cba4210523c08', 
-vid: 'XMTU1NDU4NDQ5Mg', 
-autoplay: false, 
-show_related: false
-});
-</script>
-{:/nomarkdown}
-
 ===
 
 #### Import a table to construct network
 
-* "Import" - "Network" - "File" - "Selet a two-column file", then a network is constructed.
-* "Tools" - "NetworkAnalyzer" - "Network Analysis" - "Analyze network"
-* - The attribute of the network is analyzed. The analyzing result can
-* be used to set the visulization styles of nodes and edges.
+* `Import` - `Network` - `File` - `Selet a two-column file`, then a network is constructed.
+* `Tools` - `NetworkAnalyzer` - `Network Analysis` - `Analyze network`, the attribute of the network is analyzed. The analyzing result can be used to set the visualization styles of nodes and edges.
 
 #### Layout
 
@@ -159,16 +142,16 @@ performing `Attribute Circle Layout` by the related `attributes`.
 For example, I have two classes of genes, one is upregulated, the other is downregulated. 
 This information is saved in a two columns file with the first column containing gene names and 
 the second column named `expr` containing `0` (down-regulated) and `1` (up-regulated). 
-This file can be imported into Cytoscape by "File-Import-Table". 
+This file can be imported into Cytoscape by `File` - `Import` - `Table`. 
 Following one can select all these genes and perform `Attribute Circle
 Layout` by `expr`.
 
 #### Select nodes
 
-"Select"-"Nodes"-"From ID list file" (working in Cytoscape 3.1.1)
+`Select`-`Nodes`-`From ID list file` (working in Cytoscape 3.1.1)
 
 #### Color specific nodes
 
 * Contruct a at-least two columns file to represent nodes and their attributes. Make sure the attribute columns have unique names to facilitate selection.
-* Import this attribute file as "Node Table Column" through "FIle" - "Import" - "Table".
+* Import this attribute file as `Node Table Column` through `FIle` - `Import` - `Table`.
 * Set node color by given attributes using given column names.
