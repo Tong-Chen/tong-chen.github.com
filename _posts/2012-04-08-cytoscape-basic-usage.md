@@ -63,7 +63,7 @@ The video tutorial to show how to use `cytoscape` to transfer the text
 into a network.
 
 {::nomarkdown}
-<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="560" src="http://www.ehbio.com/video/Toy-withSRC.avi"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 #### More cytoscape operations
@@ -71,11 +71,11 @@ into a network.
 * Including 
 
 {::nomarkdown}
-<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="560" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 {::nomarkdown}
-<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="560" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 #### Cytoscape mapping gene expression to KEGG pathway
@@ -86,7 +86,7 @@ into a network.
 * The video tutorial
 
 {::nomarkdown}
-<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_kegg.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="560" src="http://www.ehbio.com/video/ehbio_cytoscape_kegg.mp4"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 #### Import a table to construct network
