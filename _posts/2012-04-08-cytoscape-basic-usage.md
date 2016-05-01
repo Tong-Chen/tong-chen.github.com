@@ -34,52 +34,61 @@ available from [Cytoscape App Store](http://apps.cytoscape.org/).
 
 * App installation
 	- Cytoscape menu bar --> Apps --> App manager --> Browse and install apps.
-	- [cytoscape APP install](/images/cytoscape/cytoscape_app_install.png)
+	- ![cytoscape APP install](/images/cytoscape/cytoscape_app_install.png)
 
 #### Simple cytoscape usage
 
-A toy data (saved in toy.txt)
+A toy data (saved in `toy.txt`)
 
 ```
-SUPERIOR	SUBORDINATE	edge	
-Dean	Vice dean1	1
-Dean	Vice dean2	1
-Vice dean1	DirectorA	1
-Vice dean2	DirectorB	1
-Vice dean1	DirectorC	1
-Vice dean1	DirectorD	1
-DirectorA	T1	1
-DirectorA	T2	1
-DirectorB	T3	1
-DirectorB	T4	1
-DirectorB	T5	1
+SUPERIOR	SUBORDINATE
+Dean	Vice dean1
+Dean	Vice dean2
+Vice dean1	DirectorA
+Vice dean2	DirectorB
+Vice dean1	DirectorC
+Vice dean1	DirectorD
+DirectorA	T1
+DirectorA	T2
+DirectorB	T3
+DirectorB	T4
+DirectorB	T5
 ```
 
 The toy network
 
 ![toy network](/images/cytoscape/cytoscape_toy.png)
 
-The video tutorial
+The video tutorial to show how to use `cytoscape` to transfer the text
+into a network.
 
 {::nomarkdown}
-<iframe width="800" src="//www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 #### More cytoscape operations
 
-* jjj
+* Including 
 
 {::nomarkdown}
-<iframe width="800" src="//www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 {::nomarkdown}
-<iframe width="800" src="//www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 #### Cytoscape mapping gene expression to KEGG pathway
 
 * Time-series expression profile 
+
+
+* The video tutorial
+
+{::nomarkdown}
+<iframe width="800" src="http://www.ehbio.com/video/ehbio_cytoscape_kegg.mp4"  frameborder="0" allowfullscreen></iframe>
+{:/nomarkdown}
+
 #### Import a table to construct network
 
 * "Import" - "Network" - "File" - A network is constructed.
