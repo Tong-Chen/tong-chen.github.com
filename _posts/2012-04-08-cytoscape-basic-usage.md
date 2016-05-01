@@ -63,7 +63,8 @@ The video tutorial to show how to use `cytoscape` to transfer the text
 into a network.
 
 {::nomarkdown}
-<iframe width="560" src="http://www.ehbio.com/video/Toy-withSRC.avi"  frameborder="0" allowfullscreen></iframe>
+<embed src="http://player.youku.com/player.php/sid/XMTU1NDU3MzQyNA==/v.swf"
+allowFullScreen="true"  quality="high"  width="480"  height="400" align="middle"  allowScriptAccess="always"  type="application/x-shockwave-flash" ></embed>
 {:/nomarkdown}
 
 #### More cytoscape operations
