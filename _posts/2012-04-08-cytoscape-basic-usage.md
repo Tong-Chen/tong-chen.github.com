@@ -1,5 +1,5 @@
 ---
-title: Record of cytoscape usage 
+title: Simple tutorial for cytoscape usage 
 layout: post
 categories:
   - Cytoscape
@@ -8,6 +8,78 @@ tags:
   - Cytoscape
 ---
 
+#### What is cytoscape
+
+[Cytoscape](http://www.cytoscape.org) is an open source 
+software platform for visualizing *molecular
+interaction networks* and *biological pathways* and integrating these
+networks with annotations, gene expression profiles and other state
+data. Although Cytoscape was originally designed for biological
+research, now it is a general platform for complex network analysis
+and visualization. Cytoscape core distribution provides a basic set
+of features for data integration, analysis, and visualization.
+Additional features are available as Apps (formerly called Plugins).
+Apps are available for network and molecular profiling analyses,
+new layouts,  additional file format support,  scripting,  and
+connection with databases.   They may be developed by anyone using
+the Cytoscape open API based on Java™ technology and App
+community development is encouraged. Most of the Apps are freely
+available from [Cytoscape App Store](http://apps.cytoscape.org/).
+
+#### How to install cytoscape
+
+* Install [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) if you do not have one.
+
+* Download [cytoscape](http://cytoscape.org/download.php).
+
+* App installation
+	- Cytoscape menu bar --> Apps --> App manager --> Browse and install apps.
+	- [cytoscape APP install](/images/cytoscape/cytoscape_app_install.png)
+
+#### Simple cytoscape usage
+
+A toy data (saved in toy.txt)
+
+```
+SUPERIOR	SUBORDINATE	edge	
+Dean	Vice dean1	1
+Dean	Vice dean2	1
+Vice dean1	DirectorA	1
+Vice dean2	DirectorB	1
+Vice dean1	DirectorC	1
+Vice dean1	DirectorD	1
+DirectorA	T1	1
+DirectorA	T2	1
+DirectorB	T3	1
+DirectorB	T4	1
+DirectorB	T5	1
+```
+
+The toy network
+
+![toy network](/images/cytoscape/cytoscape_toy.png)
+
+The video tutorial
+
+{::nomarkdown}
+<iframe width="800" src="//www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+{:/nomarkdown}
+
+#### More cytoscape operations
+
+* jjj
+
+{::nomarkdown}
+<iframe width="800" src="//www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+{:/nomarkdown}
+
+{::nomarkdown}
+<iframe width="800" src="//www.ehbio.com/video/ehbio_cytoscape_toy.mp4"  frameborder="0" allowfullscreen></iframe>
+{:/nomarkdown}
+
+#### Cytoscape mapping gene expression to KEGG pathway
+
+* Time-series expression profile 
 #### Import a table to construct network
 
 * "Import" - "Network" - "File" - A network is constructed.
