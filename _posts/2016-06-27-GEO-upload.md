@@ -125,7 +125,7 @@ lftp -f lftp.script
 
 * `Filezilla`上传
 
-	* 如图所示，填写好登录所需的信息，
+	* 如图所示，填写好登录所需的信息，然后双击进入`fasp`目录。
       ![Filezilla login](/images/Filezilla_1.png)
 
 	* 在右侧窗口，点击右键，选择`创建目录并进入`。
