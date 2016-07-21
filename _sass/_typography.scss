@@ -124,7 +124,7 @@ pre {
 	}
 }
 
-p,
+p pre,
 li pre { 
 	code {
 		@include font-rem(12);
