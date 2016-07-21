@@ -124,16 +124,18 @@ pre {
 	}
 }
 
-p pre,
-li pre { 
-	code {
-		@include font-rem(12);
-		line-height: 1.5;
-		//white-space: nowrap;
-		//margin: 0 2px;
-		//padding: 0 5px;
-		//border: 1px solid lighten($black, 90);
-		//background-color: lighten($black, 95);
-		@include rounded(3px);
+p,
+li {
+    pre {	
+		code {
+			@include font-rem(12);
+			line-height: 1.5;
+			white-space: pre;
+			margin: 0px;
+			padding: 0px;
+			border: 0px;
+			background-color: transparent;
+			@include rounded(3px);
+		}
 	}
 }
