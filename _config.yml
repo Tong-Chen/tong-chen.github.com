@@ -22,7 +22,8 @@ menu:
     url: '/'
   - title: 'About'
     url: '/about'
-
+  - title: 'T'
+    url: '/tutorial'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
