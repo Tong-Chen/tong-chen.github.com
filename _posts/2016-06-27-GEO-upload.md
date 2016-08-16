@@ -41,87 +41,87 @@ tags:
   为了简单方便，`localdir`里面只包含需要上传的文件，包括原始测序文件，
   处理后文件和Metadata spreadsheet。
 
-```bash
-
-#!/bin/bash
-
-#set -x
-set -e
-set -u
-
-usage()
-{
-cat <<EOF >&2
-${txtcyn}
-Usage:
-
-$0 options${txtrst}
-
-${bldblu}Function${txtrst}:
-
-This script is used to upload files to an FTP server using lftp.
-
-${txtbld}OPTIONS${txtrst}:
-	-f	FTP address ${bldred}[NECESSARY]${txtrst}
-	-u	User name ${bldred}[NECESSARY]${txtrst}
-	-p	Password ${bldred}[NECESSARY]${txtrst}
-	-t	Target dir ${bldred}[NECESSARY]${txtrst}
-	-s	Source dir ${bldred}[NECESSARY]${txtrst}	
-EOF
-}
-
-ftp=
-user=
-passwd=
-target=
-source_dir=
-
-while getopts "hf:u:p:t:s:" OPTION
-do
-	case $OPTION in
-		h)
-			usage
-			exit 1
-			;;
-		f)
-			ftp=$OPTARG
-			;;
-		u)
-			user=$OPTARG
-			;;
-		p)
-			passwd=$OPTARG
-			;;
-		t)
-			target=$OPTARG
-			;;
-		s)
-			source_dir=$OPTARG
-			;;
-		?)
-			usage
-			exit 1
-			;;
-	esac
-done
-
-if [ -z $ftp ]; then
-	usage
-	exit 1
-fi
-
-cat <<END >lftp.script
-open -u ${user},${passwd} ${ftp}
-mkdir -p ${target}
-cd ${target}
-cache size 33554432
-set cmd:parallel 10
-mput -c ${source_dir}/*
-END
-
-lftp -f lftp.script
-
-```
+  ```bash
+  
+  #!/bin/bash
+  
+  #set -x
+  set -e
+  set -u
+  
+  usage()
+  {
+  cat <<EOF >&2
+  ${txtcyn}
+  Usage:
+  
+  $0 options${txtrst}
+  
+  ${bldblu}Function${txtrst}:
+  
+  This script is used to upload files to an FTP server using lftp.
+  
+  ${txtbld}OPTIONS${txtrst}:
+  	-f	FTP address ${bldred}[NECESSARY]${txtrst}
+  	-u	User name ${bldred}[NECESSARY]${txtrst}
+  	-p	Password ${bldred}[NECESSARY]${txtrst}
+  	-t	Target dir ${bldred}[NECESSARY]${txtrst}
+  	-s	Source dir ${bldred}[NECESSARY]${txtrst}	
+  EOF
+  }
+  
+  ftp=
+  user=
+  passwd=
+  target=
+  source_dir=
+  
+  while getopts "hf:u:p:t:s:" OPTION
+  do
+  	case $OPTION in
+  		h)
+  			usage
+  			exit 1
+  			;;
+  		f)
+  			ftp=$OPTARG
+  			;;
+  		u)
+  			user=$OPTARG
+  			;;
+  		p)
+  			passwd=$OPTARG
+  			;;
+  		t)
+  			target=$OPTARG
+  			;;
+  		s)
+  			source_dir=$OPTARG
+  			;;
+  		?)
+  			usage
+  			exit 1
+  			;;
+  	esac
+  done
+  
+  if [ -z $ftp ]; then
+  	usage
+  	exit 1
+  fi
+  
+  cat <<END >lftp.script
+  open -u ${user},${passwd} ${ftp}
+  mkdir -p ${target}
+  cd ${target}
+  cache size 33554432
+  set cmd:parallel 10
+  mput -c ${source_dir}/*
+  END
+  
+  lftp -f lftp.script
+  
+  ```
 
 * `Filezilla`上传
 
@@ -137,33 +137,33 @@ lftp -f lftp.script
 
 * 上传完成后，需要给GEO的管理人员写一封邮件，大体内容如下：
 
-```
-Receiver: geo@ncbi.nlm.nih.gov
-
-Subject: ftp upload
-
-Context:
-
-Dear Sir/Madam, 
-
-Thanks for you kindly host such great public data resource.
-
-I have successfully transferred my data to NCBI-GEO ftp sever. 
-
-Here is the information you may be needed for further processing
-
-1. GEO account username: 我的GEO用户名
-2. Names of the directory and files deposited: 文件上传的路径, 对应上
-面的fasp/detination_dir/
-3. Public release date: 2018-12-31 文件释放时间，一般可以设置的比较远
-
-If there is any format or content problem,  please do not hesitate to
-contact me.
-
-Best, 
-
-Name
-```
+  ```
+  Receiver: geo@ncbi.nlm.nih.gov
+  
+  Subject: ftp upload
+  
+  Context:
+  
+  Dear Sir/Madam, 
+  
+  Thanks for you kindly host such great public data resource.
+  
+  I have successfully transferred my data to NCBI-GEO ftp sever. 
+  
+  Here is the information you may be needed for further processing
+  
+  1. GEO account username: 我的GEO用户名
+  2. Names of the directory and files deposited: 文件上传的路径, 对应上
+  面的fasp/detination_dir/
+  3. Public release date: 2018-12-31 文件释放时间，一般可以设置的比较远
+  
+  If there is any format or content problem,  please do not hesitate to
+  contact me.
+  
+  Best, 
+  
+  Name
+  ```
 
 * 待GEO的工作人员审核处理后，你可以在GEO的账户下查看已上次的数据的GEO
 号和供Reviewer访问的私人链接用于文章审阅。
