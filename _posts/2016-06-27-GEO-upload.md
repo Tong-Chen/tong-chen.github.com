@@ -33,9 +33,8 @@ tags:
 
 * `lftp`上传
 
-  为了方便lftp上传，我写了一个bash脚本, 命名为`GEO_upload.sh`，只需提
-  供FTP服务器的地址、用户名、密码、上传文件所在目录和上传到FTP服务器的
-  目录即可。
+  为了方便lftp上传，我写了一个bash脚本, 
+  命名为[`GEO_upload.sh`](https://raw.githubusercontent.com/Tong-Chen/NGS/master/GEO_upload.sh)，只需提供FTP服务器的地址、用户名、密码、上传文件所在目录和上传到FTP服务器的目录即可。
 
   `GEO_upload.sh -f ftp-private.ncbi.nlm.nih.gov -u geo -p password -t
   fasp/detination_dir/ -s localdir/`
