@@ -16,7 +16,9 @@ tags:
 
 * 点击[Submission 
   Guidelines](https://www.ncbi.nlm.nih.gov/geo/info/seq.html) .
-  从中查找`GEOarchive spreadsheet format`，并下载Metadata spreadsheet
+  从中查找`GEOarchive spreadsheet format`，并下载`Metadata
+  spreadsheet`, 通常是
+  [Download metadata spreadsheet (template and examples) UPDATED!](https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template_v2.1.xls)
   ，官方推荐下载最新版，这儿就提供链接了。
 
 * 下载完之后填写表格。表格中有2个样例表，可以参考着填写。
