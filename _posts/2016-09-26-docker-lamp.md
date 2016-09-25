@@ -15,7 +15,7 @@ Docker的基本使用请参考 <{{ site.url }}/2016/07/docker/>。
 ### 基本使用
 
 官方未提供LAMP的镜像，搜索了下推荐使用
-`[tutum/lamp](https://hub.docker.com/r/tutum/lamp/)`的帖子最多，
+[`tutum/lamp`](https://hub.docker.com/r/tutum/lamp/)的帖子最多，
 且在Docker hub上评分较高，故这里也用这个做为示例。
 
 运行`docker pull tutum/lamp`获取LAMP镜像
@@ -87,14 +87,13 @@ Docker的基本使用请参考 <{{ site.url }}/2016/07/docker/>。
 
 1. 新建数据库容器存储数据
 
-```
-docker run -d -v /var/lib/mysql --name wicd_db ubuntu
-```
-
-Note: you can change the name of the volume container,  which will be
-used in the next step. The volume path (/var/lib/mysql) should not be
-changed.
-
+   ```
+   docker run -d -v /var/lib/mysql --name wicd_db ubuntu
+   ```
+   
+   Note: you can change the name of the volume container,  which will be
+   used in the next step. The volume path (/var/lib/mysql) should not be
+   changed.
  
 2. 在LAMP中向`wicd_db`写入数据
 
@@ -222,12 +221,9 @@ changed.
    docker rm -v wicd_db
    ```
 
-### 参考
-
-* 基本LAMP <http://www.tuicool.com/articles/UBNvMjq>
-* Database volume <https://blog.tutum.co/2014/05/27/containerize-your-database-volume-with-tutum-mysql-images/>
 
 ### 参考
 
 * 基本LAMP <http://www.tuicool.com/articles/UBNvMjq>
 * Database volume <https://blog.tutum.co/2014/05/27/containerize-your-database-volume-with-tutum-mysql-images/>
+* 官方Volume <https://docs.docker.com/engine/tutorials/dockervolumes/>
