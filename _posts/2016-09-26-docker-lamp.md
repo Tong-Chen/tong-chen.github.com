@@ -14,11 +14,12 @@ Docker的基本使用请参考 <{{ site.url }}/2016/07/docker/>。
 
 ### 基本使用
 
-官方未提供LAMP的镜像，搜索了下推荐使用
+官方未提供LAMP的镜像，搜索了下, 发现推荐使用
 [`tutum/lamp`](https://hub.docker.com/r/tutum/lamp/)的帖子最多，
-且在Docker hub上评分较高，故这里也用这个做为示例。
+且在Docker hub上评分较高，故这里也用这个做为示例。运行`docker search
+lamp`获得其它LAMP相关镜像。
 
-运行`docker pull tutum/lamp`获取LAMP镜像
+运行`docker pull tutum/lamp`获取LAMP镜像。
 
 运行`docker run --rm -p 8080:80 -p 3306:3306 tutum/lamp`启动LAMP容器。
 	
@@ -83,12 +84,21 @@ Docker的基本使用请参考 <{{ site.url }}/2016/07/docker/>。
   f15ce52fc004        8 months ago        /bin/sh -c #(nop) ADD file:7ce20ce3daa6af21db   187.7 MB            
   ```
 
+  我们可以从运行的container中拷贝文件到宿主机，使用`docker ps`查看运行
+  中container的名字，如`berserk_payne`, 运行`docker cp
+  berserk_payne:run.sh .`就可以拷贝`run.sh`文件到本地，然后相应修改。
+
+  ```
+  CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                            NAMES
+  aeafa241a81c        tutum/lamp          "/run.sh"           About an hour ago   Up About an hour    0.0.0.0:10000->80/tcp, 0.0.0.0:10001->3306/tcp   berserk_payne       
+  ```
+
 ### 挂载外部数据库
 
 1. 新建数据库容器存储数据
 
    ```
-   docker run -d -v /var/lib/mysql --name wicd_db ubuntu
+   docker create -v /var/lib/mysql --name wicd_db ubuntu
    ```
    
    Note: you can change the name of the volume container,  which will be
