@@ -98,7 +98,11 @@ lamp`获得其它LAMP相关镜像。
 1. 新建数据库容器存储数据
 
    ```
+   # 如果是跟着流程走，想偷懒的话或者系统中有其它需要依赖ubuntu image
+   # 的容器，则使用ubuntu image 构建数据容器。
    docker create -v /var/lib/mysql --name wicd_db ubuntu
+   # 推荐使用alpine image，占用空间小，只有5M
+   docker create -v /var/lib/mysql --name wicd_db alpine sh
    ```
    
    Note: you can change the name of the volume container,  which will be
