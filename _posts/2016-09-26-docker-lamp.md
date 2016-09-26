@@ -101,19 +101,24 @@ lamp`获得其它LAMP相关镜像。
    # 如果是跟着流程走，想偷懒的话或者系统中有其它需要依赖ubuntu image
    # 的容器，则使用ubuntu image 构建数据容器。
    docker create -v /var/lib/mysql --name wicd_db ubuntu
+   # 也可以用docker run创建新的容器
+   docker run -d -v /var/lib/mysql --name wicd_db ubuntu
    # 推荐使用alpine image，占用空间小，只有5M
    docker create -v /var/lib/mysql --name wicd_db alpine sh
    ```
    
    Note: you can change the name of the volume container,  which will be
-   used in the next step. The volume path (/var/lib/mysql) should not be
-   changed.
+   used in the next step. The volume path (`/var/lib/mysql`) should not be
+   changed if using `mysql`.
  
 2. 在LAMP中向`wicd_db`写入数据
 
    启动LAMP容器，`docker run --rm --volumes-from=wicd_db -v
    /local_html/:/app -p 10000:80 -p 10001:3306 -e
-   MYSQL_PASS="wicd_ali" tutum/lamp`
+   MYSQL_PASS="wicd_ali" tutum/lamp`。
+
+
+   请注意：`An empty or uninitialized MySQL volume is detected`。
 
    ```
    => An empty or uninitialized MySQL volume is detected in
@@ -157,7 +162,7 @@ lamp`获得其它LAMP相关镜像。
    state,  process has stayed up for > than 1 seconds (startsecs)
    ```
 
-   连接mysql数据库 `mysql -uadmin -pwicd_ali -h 127.0.0.1 -P 10001`
+   连接mysql数据库 `mysql -uadmin -pwicd_ali -h 127.0.0.1 -P 10001`。
 
    ```
    mysql> create database wicd;
@@ -170,6 +175,9 @@ lamp`获得其它LAMP相关镜像。
    `docker run --rm --volumes-from=wicd_db -v
    /root/docker/docker-wicd/web/:/app -p 10000:80 -p 10001:3306 -e
    MYSQL_PASS="wicd_ali" tutum/lamp`
+
+
+   请注意：`Using an existing volume of MySQL`。
 
    ```
    => Using an existing volume of MySQL
@@ -197,43 +205,43 @@ lamp`获得其它LAMP相关镜像。
    /root/docker/docker-wicd/web/:/app -p 10000:80 -p 10001:3306 -e
    MYSQL_PASS="wicd_ali" tutum/lamp`
 
-5. 备份wicd_db中的数据
+### 备份数据库容器
    
-   前面，我们运行`docker run -d -v /var/lib/mysql --name wicd_db
-   ubuntu`新建了一个数据容器，并且在mysql里面写入了数据。现在我们想把
-   这些数据保存起来，怎么操作？
+前面，我们运行`docker run -d -v /var/lib/mysql --name wicd_db
+ubuntu`新建了一个数据容器，并且在mysql里面写入了数据。现在我们想把
+这些数据保存起来，怎么操作？
 
-   打包提取：
+打包提取：
 
-   ```
-   docker run --rm --volumes-from=wicd_db \
-	 -v /root/docker/docker-wicd/:/backup ubuntu \
-	 tar czvf /backup/backup.tar.gz /var/lib/mysql/
-   # wicd_db: 为想要储存的数据容器名字, 必须有
-   # /root/docker/docker-wicd/: 为宿主机存储备份文件backup.tar的位置
-   # /backup/: 为容器ubuntu中存储backup.tar的位置
-   # /var/lib/mysql: 为需要打包的目录，来源于wicd_db
-   ```
-   
-   解压到新的容器：
-   
-   ```
-   #新建一个容器, 使用alphine，只有5M系统
-   docker run -v /var/lib/mysql --name wicd_db2 alpine sh
-   #解压到指定目录 /var/lib/mysql
-   docker run --rm --volumes-from=wicd_db2 \
-	 -v /root/docker/docker-wicd/:/backup ubuntu \
-	 bash -c "cd /var/ && tar zxvf /backup/backup.tar --strip 1"
+```
+docker run --rm --volumes-from=wicd_db \
+ -v /root/docker/docker-wicd/:/backup ubuntu \
+ tar czvf /backup/backup.tar.gz /var/lib/mysql/
+# wicd_db: 为想要储存的数据容器名字, 必须有
+# /root/docker/docker-wicd/: 为宿主机存储备份文件backup.tar的位置
+# /backup/: 为容器ubuntu中存储backup.tar的位置
+# /var/lib/mysql: 为需要打包的目录，来源于wicd_db
+```
 
-   #注意我们在打包时，tar会去除leading /, 因此解压时我们是在/var目录下
-   做的解压。
-   ```
+解压到新的容器：
 
-   删除旧的数据容器：
+```
+#新建一个容器, 使用alphine，只有5M系统
+docker run -v /var/lib/mysql --name wicd_db2 alpine sh
+#解压到指定目录 /var/lib/mysql
+docker run --rm --volumes-from=wicd_db2 \
+ -v /root/docker/docker-wicd/:/backup ubuntu \
+ bash -c "cd /var/ && tar zxvf /backup/backup.tar --strip 1"
 
-   ```
-   docker rm -v wicd_db
-   ```
+#注意我们在打包时，tar会去除leading /, 因此解压时我们是在/var目录下
+做的解压。
+```
+
+删除旧的数据容器：
+
+```
+docker rm -v wicd_db
+```
 
 
 ### 参考
