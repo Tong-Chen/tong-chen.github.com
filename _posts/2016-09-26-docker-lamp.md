@@ -259,7 +259,8 @@ docker rm -v test_db
 设置好的反向代理。
 
 ```
-docker run -d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock jwilder/nginx-proxy
+docker run -d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock \
+--name=nginx-proxy jwilder/nginx-proxy
 ```
 
 在我们运行其它虚拟主机时加上对应的域名 （域名需在DNS服务商处配置过指向
@@ -267,10 +268,13 @@ host机的IP）。
 
 ```
 #virtual machine 1
-docker run -d --volumes-from=test_db -v /root/docker_test/web/:/app -e
-VIRTUAL_HOST=test.ehb.com -e MYSQL_PASS="test_ali" tutum/lamp
+docker run -d --volumes-from=test_db -v /root/docker_test/web/:/app \
+  -e VIRTUAL_HOST=test.ehb.com -e MYSQL_PASS="test_ali" \
+  --name=test-ehb tutum/lamp
 #virtual machine 2
-docker run -d -v /var/www/html:/app -v /data/ct/ehb_result/:/app/result -e VIRTUAL_HOST=www.ehb.com httpd:2.4-alpine
+docker run -d -v /var/www/html:/app \
+  -v /data/ct/ehb_result/:/app/result -e VIRTUAL_HOST=www.ehb.com \
+  --name=ehb-main httpd:2.4-alpine
 ```
 
 ### 参考
