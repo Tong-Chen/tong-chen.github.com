@@ -93,6 +93,16 @@ lamp`获得其它LAMP相关镜像。
   aeafa241a81c        tutum/lamp          "/run.sh"           About an hour ago   Up About an hour    0.0.0.0:10000->80/tcp, 0.0.0.0:10001->3306/tcp   berserk_payne       
   ```
 
+  我们可以利用命令`docker run --rm -it -p 8080:80 tutum/lamp bash`来覆盖原来image中的CMD命令，进而进入交互式界面。
+
+  ```
+  root@a1716037e274:/# ls
+  app   create_mysql_admin_user.sh  home   media  proc  run.sh
+  start-apache2.sh   tmp            bin    dev    lib   mnt    
+  root  sbin         start-mysqld.sh       usr    boot  etc                  lib64              opt            run    srv    sys   var
+  root@a1716037e274:/# 
+  ```
+
 ### 挂载外部数据库
 
 1. 新建数据库容器存储数据
@@ -249,3 +259,4 @@ docker rm -v wicd_db
 * 基本LAMP <http://www.tuicool.com/articles/UBNvMjq>
 * Database volume <https://blog.tutum.co/2014/05/27/containerize-your-database-volume-with-tutum-mysql-images/>
 * 官方Volume <https://docs.docker.com/engine/tutorials/dockervolumes/>
+* 步步Docker apache <http://linoxide.com/linux-how-to/configure-apache-containers-docker-fedora-22/>
