@@ -110,22 +110,22 @@ lamp`获得其它LAMP相关镜像。
    ```
    # 如果是跟着流程走，想偷懒的话或者系统中有其它需要依赖ubuntu image
    # 的容器，则使用ubuntu image 构建数据容器。
-   docker create -v /var/lib/mysql --name wicd_db ubuntu
+   docker create -v /var/lib/mysql --name test_db ubuntu
    # 也可以用docker run创建新的容器
-   docker run -d -v /var/lib/mysql --name wicd_db ubuntu
+   docker run -d -v /var/lib/mysql --name test_db ubuntu
    # 推荐使用alpine image，占用空间小，只有5M
-   docker create -v /var/lib/mysql --name wicd_db alpine sh
+   docker create -v /var/lib/mysql --name test_db alpine sh
    ```
    
    Note: you can change the name of the volume container,  which will be
    used in the next step. The volume path (`/var/lib/mysql`) should not be
    changed if using `mysql`.
  
-2. 在LAMP中向`wicd_db`写入数据
+2. 在LAMP中向`test_db`写入数据
 
-   启动LAMP容器，`docker run --rm --volumes-from=wicd_db -v
+   启动LAMP容器，`docker run --rm --volumes-from=test_db -v
    /local_html/:/app -p 10000:80 -p 10001:3306 -e
-   MYSQL_PASS="wicd_ali" tutum/lamp`。
+   MYSQL_PASS="test_ali" tutum/lamp`。
 
 
    请注意：`An empty or uninitialized MySQL volume is detected`。
@@ -141,7 +141,7 @@ lamp`获得其它LAMP相关镜像。
    ========================================================================
    You can now connect to this MySQL Server using:
    
-       mysql -uadmin -pwicd_ali -h<host> -P<port>
+       mysql -uadmin -ptest_ali -h<host> -P<port>
    
    Please remember to change the above password as soon as possible!
    MySQL user 'root' has no password but only allows local connections
@@ -172,19 +172,19 @@ lamp`获得其它LAMP相关镜像。
    state,  process has stayed up for > than 1 seconds (startsecs)
    ```
 
-   连接mysql数据库 `mysql -uadmin -pwicd_ali -h 127.0.0.1 -P 10001`。
+   连接mysql数据库 `mysql -uadmin -ptest_ali -h 127.0.0.1 -P 10001`。
 
    ```
-   mysql> create database wicd;
+   mysql> create database test;
    Query OK,  1 row affected (0.00 sec)
    ```
    
-   加载备份的数据库 `mysql -uadmin -pwicd_ali -h 127.0.0.1 -P 10001 wicd <wicd.dump`
+   加载备份的数据库 `mysql -uadmin -ptest_ali -h 127.0.0.1 -P 10001 test <test.dump`
 
 3. 再次启动LAMP容器，查看写入的数据是否已经保存。
-   `docker run --rm --volumes-from=wicd_db -v
-   /root/docker/docker-wicd/web/:/app -p 10000:80 -p 10001:3306 -e
-   MYSQL_PASS="wicd_ali" tutum/lamp`
+   `docker run --rm --volumes-from=test_db -v
+   /root/docker/docker-test/web/:/app -p 10000:80 -p 10001:3306 -e
+   MYSQL_PASS="test_ali" tutum/lamp`
 
 
    请注意：`Using an existing volume of MySQL`。
@@ -211,36 +211,36 @@ lamp`获得其它LAMP相关镜像。
    ```
 
 4. 正式运行：
-   `docker run -d --volumes-from=wicd_db -v
-   /root/docker/docker-wicd/web/:/app -p 10000:80 -p 10001:3306 -e
-   MYSQL_PASS="wicd_ali" tutum/lamp`
+   `docker run -d --volumes-from=test_db -v
+   /root/docker/docker-test/web/:/app -p 10000:80 -p 10001:3306 -e
+   MYSQL_PASS="test_ali" tutum/lamp`
 
 ### 备份数据库容器
    
-前面，我们运行`docker run -d -v /var/lib/mysql --name wicd_db
+前面，我们运行`docker run -d -v /var/lib/mysql --name test_db
 ubuntu`新建了一个数据容器，并且在mysql里面写入了数据。现在我们想把
 这些数据保存起来，怎么操作？
 
 打包提取：
 
 ```
-docker run --rm --volumes-from=wicd_db \
- -v /root/docker/docker-wicd/:/backup ubuntu \
+docker run --rm --volumes-from=test_db \
+ -v /root/docker/docker-test/:/backup ubuntu \
  tar czvf /backup/backup.tar.gz /var/lib/mysql/
-# wicd_db: 为想要储存的数据容器名字, 必须有
-# /root/docker/docker-wicd/: 为宿主机存储备份文件backup.tar的位置
+# test_db: 为想要储存的数据容器名字, 必须有
+# /root/docker/docker-test/: 为宿主机存储备份文件backup.tar的位置
 # /backup/: 为容器ubuntu中存储backup.tar的位置
-# /var/lib/mysql: 为需要打包的目录，来源于wicd_db
+# /var/lib/mysql: 为需要打包的目录，来源于test_db
 ```
 
 解压到新的容器：
 
 ```
 #新建一个容器, 使用alphine，只有5M系统
-docker run -v /var/lib/mysql --name wicd_db2 alpine sh
+docker run -v /var/lib/mysql --name test_db2 alpine sh
 #解压到指定目录 /var/lib/mysql
-docker run --rm --volumes-from=wicd_db2 \
- -v /root/docker/docker-wicd/:/backup ubuntu \
+docker run --rm --volumes-from=test_db2 \
+ -v /root/docker/docker-test/:/backup ubuntu \
  bash -c "cd /var/ && tar zxvf /backup/backup.tar --strip 1"
 
 #注意我们在打包时，tar会去除leading /, 因此解压时我们是在/var目录下
@@ -250,9 +250,28 @@ docker run --rm --volumes-from=wicd_db2 \
 删除旧的数据容器：
 
 ```
-docker rm -v wicd_db
+docker rm -v test_db
 ```
 
+### 多虚拟主机实现
+
+为了实现多虚拟主机的挂载，我们使用[`jwilder/nginx-proxy`](https://github.com/jwilder/nginx-proxy)
+设置好的反向代理。
+
+```
+docker run -d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock jwilder/nginx-proxy
+```
+
+在我们运行其它虚拟主机时加上对应的域名 （域名需在DNS服务商处配置过指向
+host机的IP）。
+
+```
+#virtual machine 1
+docker run -d --volumes-from=test_db -v /root/docker_test/web/:/app -e
+VIRTUAL_HOST=test.ehb.com -e MYSQL_PASS="test_ali" tutum/lamp
+#virtual machine 2
+docker run -d -v /var/www/html:/app -v /data/ct/ehb_result/:/app/result -e VIRTUAL_HOST=www.ehb.com httpd:2.4-alpine
+```
 
 ### 参考
 
