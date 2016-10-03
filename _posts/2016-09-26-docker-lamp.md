@@ -279,3 +279,5 @@ docker run -d -v /var/www/html:/app -v /data/ct/ehb_result/:/app/result -e VIRTU
 * Database volume <https://blog.tutum.co/2014/05/27/containerize-your-database-volume-with-tutum-mysql-images/>
 * 官方Volume <https://docs.docker.com/engine/tutorials/dockervolumes/>
 * 步步Docker apache <http://linoxide.com/linux-how-to/configure-apache-containers-docker-fedora-22/>
+* Nginx proxy <http://tech.mybuilder.com/virtual-hosts-with-docker/>
+* Apache virtual hosts (not work for me ) <https://medium.com/@jmarhee/running-multiple-web-applications-on-a-docker-host-with-apache-85f673f02803#.dbg3bbqyz>
