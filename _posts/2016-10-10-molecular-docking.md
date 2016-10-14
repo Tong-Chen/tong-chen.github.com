@@ -1,4 +1,4 @@
-﻿---
+---
 title: Basic molecular docking
 author: ct
 layout: post
