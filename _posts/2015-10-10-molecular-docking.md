@@ -8,13 +8,18 @@ tags: [Docking]
 
 ### Molecular Docking理论
 
+AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受体活性氨基
+酸附近划定一个长方体区域作为搜索空间，扫描不同类型的原子计算格点能量，
+在搜索空间内，调整配体的构象、位置和方向，进而评分、排序获得能量最低的
+构象作为输出结果。
+
 
 
 ### 蛋白可视化
 
 我们观察的是一个分辨率为2艾的X-射线衍射晶体结构(PDB ID: [1HSG](http://www.rcsb.org/pdb/explore/explore.do?structureId=1HSG))，展示的是HIV-1蛋白酶与药物茚地那韦([indinavir](http://en.wikipedia.org/wiki/Indinavir))结合在一起的构象。软件[`PyMOL`](https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners)用来观察HIV-蛋白酶、结合位点和药物分析的结构。
 
-* 下载HIV-1蛋白酶的PDB结构(https://files.rcsb.org/download/1HSG.pdb)，存储到一个不含中文的目录下。
+* 下载HIV-1蛋白酶的PDB结构(<https://files.rcsb.org/download/1HSG.pdb>)，存储到一个不含中文的目录下。
 * 启动PyMOL
 * 选择`File`-`Open`-`1hsg.pdb`
 
@@ -32,7 +37,7 @@ tags: [Docking]
 
 ![ligand_indinavir_mk1.png]({{ site.img_url }}/docking/ligand_indinavir_mk1.png)
 
-在PyMOL的命令行处输入`select indinavir, resn MK1`，如下图所示
+在PyMOL的命令行处输入`PyMOL> select indinavir, resn MK1`，如下图所示
 
 ![get_ligand_using_select.png]({{ site.img_url }}/docking/get_ligand_using_select.png)
 
@@ -46,7 +51,7 @@ tags: [Docking]
 
 * PyMOL鼠标操作：按住左键移动旋转，按住右键移动放大，按住中键移动，观察结合位点所在的位置。
 
-* 显示水分子，水分子的残基名字为`HOH`，运行命令`select H2O, resn HOH`调出水分子。然后选择`S`-`spheres`,`C`-`red`。再运行`set sphere_scale, 0.2`设置水球的大小。
+* 显示水分子，水分子的残基名字为`HOH`，运行命令`PyMOL> select H2O, resn HOH`调出水分子。然后选择`S`-`spheres`,`C`-`red`。再运行`set sphere_scale, 0.2`设置水球的大小。
 
 * 存储, 在命令行输入`png E:/docking/1shg.png`保存当前结果。
 
@@ -339,27 +344,266 @@ Surface - Show`
 
 
 
-这个选项是加氢和计算局部电荷和原子半径的
+
+### 文件格式解释
+
+PDB文件 [(详细格式描述)](http://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html)
+
+基本信息部分
+
+* `HEADER`记录: 包括分子的分类、提交日期、PDB ID
+* `TITLE`记录: 为该结构的描述，如果有多行，除第一行外，其它行有连续的数字标示。
+* `COMPND`记录: 包含分子数目、名字、链特征、分子是如何获得的等。 
+* `SOURCE`记录: 大分子的生物或化学来源
+* `KEYWDS`记录：关键字
+* `EXPDTA`记录：实验信息
+* `JRNL`记录：文献引用信息 
+* `REMARK`记录：更为丰富的记录信息
+
+
+```
+HEADER    HYDROLASE (ACID PROTEINASE)             31-MAR-95   1HSG              
+TITLE     CRYSTAL STRUCTURE AT 1.9 ANGSTROMS RESOLUTION OF HUMAN                
+TITLE    2 IMMUNODEFICIENCY VIRUS (HIV) II PROTEASE COMPLEXED WITH L-           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: HIV-1 PROTEASE;                                            
+COMPND   3 CHAIN: A, B;                                                         
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 OTHER_DETAILS: NY5 ISOLATE                                           
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HUMAN IMMUNODEFICIENCY VIRUS 1;                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562                                         
+KEYWDS    HYDROLASE (ACID PROTEINASE)                                           
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    Z.CHEN                                                                
+REVDAT   3   24-FEB-09 1HSG    1       VERSN                                    
+REVDAT   1   03-APR-96 1HSG    0                                                
+JRNL        AUTH   Z.CHEN,Y.LI,E.CHEN,D.L.HALL,P.L.DARKE,C.CULBERSON,           
+JRNL        TITL   CRYSTAL STRUCTURE AT 1.9-A RESOLUTION OF HUMAN               
+JRNL        TITL 2 IMMUNODEFICIENCY VIRUS (HIV) II PROTEASE COMPLEXED           
+JRNL        REF    J.BIOL.CHEM.                  V. 269 26344 1994              
+JRNL        PMID   7929352                                                      
+REMARK   1                                                                      
+REMARK   3   PROGRAM     : X-PLOR                                               
+REMARK   3   AUTHORS     : BRUNGER                                              
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.00                           
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MK1 B 902                 
+```
+
+结构部分
+
+* `DBREF`: 数据库的交叉引用信息
+* `SEQRES`: 形成多聚合物的线性共价相连的化学组分
+* `HET`: 表述提供了坐标的非标准残基，比如辅基、抑制子、溶剂分子和离子, 
+  第二列如`MK1`为hetID, 可用于在pymol中提取信息展示`select name, resn hetID`。
+* `FORMUL`：表述非标准聚合物外其它成分的化学结构，包括水(用*表示)。
+  第二列如`MK1`为hetID, 可用于在pymol中提取信息展示`select H2O, resn HOH`。
+* `HELIX`: 标记分子二级结构中螺旋的位置
+* `SHEET`: 标记分子二级结构中片的位置
+* `SITE`: 标示特殊残基，比如催化位点、辅因子、反密码子、调节位点或其它
+  关键位点，也可标示配体的环境信息。这个信息对我们做Docking很重要，随
+  后会详细描述。
+  [<http://www.wwpdb.org/documentation/file-format-content/format33/sect7.html>]
+* `CRYST1`: 标示晶胞参数、空间群和Z值。这部分可能对我们设置搜索空间有帮助。
+  [<http://www.wwpdb.org/documentation/file-format-content/format33/sect8.html>]
+
+```
+DBREF  1HSG A    1    99  UNP    P03367   POL_HV1BR       69    167             
+DBREF  1HSG B    1    99  UNP    P03367   POL_HV1BR       69    167             
+SEQRES   1 A   99  PRO GLN ILE THR LEU TRP GLN ARG PRO LEU VAL THR ILE          
+SEQRES   7 A   99  PRO THR PRO VAL ASN ILE ILE GLY ARG ASN LEU LEU THR          
+SEQRES   8 A   99  GLN ILE GLY CYS THR LEU ASN PHE                              
+SEQRES   1 B   99  PRO GLN ILE THR LEU TRP GLN ARG PRO LEU VAL THR ILE          
+SEQRES   2 B   99  LYS ILE GLY GLY GLN LEU LYS GLU ALA LEU LEU ASP THR          
+SEQRES   8 B   99  GLN ILE GLY CYS THR LEU ASN PHE                              
+HET    MK1  B 902      45                                                       
+HETNAM     MK1 N-[2(R)-HYDROXY-1(S)-INDANYL]-5-[(2(S)-TERTIARY                  
+HETNAM   2 MK1  BUTYLAMINOCARBONYL)-4(3-PYRIDYLMETHYL)PIPERAZINO]-              
+HETNAM   3 MK1  4(S)-HYDROXY-2(R)-PHENYLMETHYLPENTANAMIDE                       
+HETSYN     MK1 INDINAVIR                                                        
+FORMUL   3  MK1    C36 H47 N5 O4                                                
+FORMUL   4  HOH   *127(H2 O)                                                    
+HELIX    1   1 ARG A   87  LEU A   90  1                                   4    
+HELIX    2   2 ARG B   87  LEU B   90  1                                   4    
+SHEET    1   A 2 LEU A  10  ILE A  15  0                                        
+SHEET    2   A 2 GLN A  18  LEU A  23 -1  N  ALA A  22   O  VAL A  11           
+SHEET    1   B 4 VAL A  32  GLU A  34  0                                        
+SITE     1 AC1 20 ARG A   8  ASP A  25  GLY A  27  GLY A  48                    
+SITE     2 AC1 20 GLY A  49  VAL A  82  ARG B   8  ASP B  25                    
+SITE     3 AC1 20 GLY B  27  ALA B  28  ASP B  29  ASP B  30                    
+SITE     4 AC1 20 VAL B  32  GLY B  48  GLY B  49  ILE B  50                    
+SITE     5 AC1 20 PRO B  81  HOH B 308  HOH B 313  HOH B 444                    
+CRYST1   59.570   87.070   46.710  90.00  90.00  90.00 P 21 21 2     8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.016787  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.011485  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.021409        0.00000                         
+```
+
+原子坐标
+
+* `ATOM`: 标记氨基酸或核苷酸的坐标，依次包含原子的标号、原子名字
+  (三个字符，若有第4个字符标示原子另外的构象)、残基名字、链、
+  残基在序列的编号(4位数，若有第5位则为残基插入)、原子的坐标(x, y, z)、
+  occupancy、温度、元素符号。【注：此简易描述只为简单理解PDB文件而写；
+  若需用程序解析PDB文件，请参照官方文档来设计程序。】
+* `TER`: 标记一条链的结束。 
+
+```
+ATOM      1  N   PRO A   1      29.361  39.686   5.862  1.00 38.10           N  
+ATOM      2  CA  PRO A   1      30.307  38.663   5.319  1.00 40.62           C  
+ATOM      3  C   PRO A   1      29.760  38.071   4.022  1.00 42.64           C  
+ATOM      4  O   PRO A   1      28.600  38.302   3.676  1.00 43.40           O  
+ATOM      5  CB  PRO A   1      30.508  37.541   6.342  1.00 37.87           C  
+ATOM    757  CZ  PHE A  99      20.700  32.221  -9.700  1.00 27.25           C  
+TER     758      PHE A  99                                                      
+ATOM    759  N   PRO B   1      22.659  36.727 -10.823  1.00 48.12           N  
+ATOM    760  CA  PRO B   1      21.708  37.741 -10.269  1.00 43.36           C  
+ATOM   1513  CE1 PHE B  99      25.450  37.240   6.756  1.00 37.02           C  
+ATOM   1514  CE2 PHE B  99      25.473  38.988   8.409  1.00 37.11           C  
+ATOM   1515  CZ  PHE B  99      25.658  37.663   8.073  1.00 36.24           C  
+TER    1516      PHE B  99                                                      
+```
+
+* `HETATM`: 测定了坐标的非聚合物或非标准分子部分，如水分子、
+  结合的小分子化合物。
+
+```
+HETATM 1517  N1  MK1 B 902       9.280  23.763   3.004  1.00 28.25           N  
+HETATM 1518  C1  MK1 B 902       9.498  23.983   4.459  1.00 30.30           C  
+HETATM 1519  C2  MK1 B 902      10.591  24.905   4.962  1.00 27.27           C  
+HETATM 1560  C35 MK1 B 902       4.654  23.774   4.136  1.00 49.34           C  
+HETATM 1561  C36 MK1 B 902       5.905  23.211   3.897  1.00 44.71           C  
+HETATM 1562  O   HOH A 305      20.857  43.192  21.450  1.00 63.07           O  
+HETATM 1563  O   HOH A 307      14.076  19.789  19.440  1.00 63.34           O  
+HETATM 1687  O   HOH B 613      24.127 -10.994  -0.982  1.00 64.49           O  
+HETATM 1688  O   HOH B 617      30.112  17.912  -4.791  1.00 54.09           O  
+```
+
+* `CONECT`: 标示原子之间的连接，每一列为原子的编号。主要用于`HET`基团
+  的连接。这些记录是自动生成的，也是强制性要有的。
+* `MASTER`: 记录坐标的行数等信息
+* `END`: 文件结尾
+
+```
+CONECT 1517 1518 1529 1555                                                      
+CONECT 1518 1517 1519                                                           
+CONECT 1519 1518 1520 1527                                                      
+CONECT 1520 1519 1521 1522                                                      
+CONECT 1561 1556 1560                                                           
+MASTER      274    0    1    2   17    0    5    6 1686    2   45   16          
+END                                                                             
+```
+
+PDBQT文件
+
+PDBQT文件比PDB文件多两列，在原子坐标的后面增添了原子的局部电荷(partial
+charges)和AutoDock可以识别原子类型代码。
+
+在利用Vinna做Docking时，受体和配体都要获得PDBQT文件，一般包含下面两部
+分信息：
+
+  * 加斯泰格尔原子局部电荷
+  * 联合原子模型展示（包括极性氢），首先对分子加氢然后计算其局部电荷。
+    任何有氢键结合的非极性重原子的电荷需加上与其连接的氢的电荷，然后移
+    除这些氢原子。
+  * Gasteiger PEOE partial charges 
+  * A united-atom representation (i.e. only polar hydrogens). A united
+    atom representation can be obtained by first computing the partial
+    charges for an all-hydrogen model of the molecule. Then,  for each
+    non-polar heavy atom that has any hydrogens bonded to it,  the
+    partial charge of the hydrogen should be added to that of the
+    bonded heavy atom,  then this hydrogen atom can be deleted.)
+
+```
+REMARK   4 XXXX COMPLIES WITH FORMAT V. 2.0
+ATOM      1  N   PRO A   1      29.361  39.686   5.862  1.00 38.10    -0.038 N 
+ATOM      2  HN1 PRO A   1      28.682  40.038   5.187  1.00  0.00     0.280 HD
+ATOM      3  HN2 PRO A   1      29.784  40.592   6.064  1.00  0.00     0.280 HD
+ATOM      4  CA  PRO A   1      30.307  38.663   5.319  1.00 40.62     0.259 C 
+ATOM      5  C   PRO A   1      29.760  38.071   4.022  1.00 42.64     0.259 C 
+ATOM      6  O   PRO A   1      28.600  38.302   3.676  1.00 43.40    -0.271 OA
+TER     923      PHE A  99 
+ATOM    923  N   PRO B   1      22.659  36.727 -10.823  1.00 48.12    -0.038 N 
+ATOM    924  HN1 PRO B   1      23.408  37.118 -11.394  1.00  0.00     0.280 HD
+ATOM    925  HN2 PRO B   1      23.268  36.295 -10.128  1.00  0.00     0.280 HD
+ATOM    926  CA  PRO B   1      21.708  37.741 -10.269  1.00 43.36     0.259 C 
+ATOM   1844  CZ  PHE B  99      25.658  37.663   8.073  1.00 36.24     0.000 A 
+TER    1845      PHE B  99 
+```
+
+AutoDock中配体可以为柔性结构，使用`torsion tree`来代表配体中固定的和可
+选择的部分。在这个树中，有一个根，多个分支，其中分支可以嵌套。每一个分
+支代表一个可以选择的键。在PDBQT文件中表示如下：
+  
+  * `ROOT`记录标记分子刚性部分的起始。
+  * 刚性root包含一个或多个PDBQT-格式的`ATOM`或`HETATM`记录。
+    这些记录与其在PDB文件中的含义类似, 只是在最后2列增加了电荷信息和
+	原子类型信息。【注：这个文件的解析请见参考资料中的英文文档，此中文
+	介绍只是为了方便理解】
+  * `ENDROOT`记录标记配体刚性部分的结束。`ROOT/ENDROOT`原子块一般出现
+    在PDBQT文件中的首部。如果我们想把配体的某部分作为刚性处理，则在其
+	前后加上`ROOT/ENDROOT`标签即可。
+  * 配体可选择部分包含于`BRANCH/ENDBRANCH`记录中间。
+    `BRANCH`和`ENDBRANCH`记录行包含两个空格分开的数字，代表可旋转的键
+	连接的第一个和第二个原子的编号。`BRANCH/ENDBRANCH`记录中间的记录旋转键中
+	间的`ATOM/HETATM`记录。另外`BRANCH/ENDBRANCH`记录可以嵌套。
+  * 配体PDBQT文件的最后一行为`TORSDOF`记录。这个记录包含一个整数，
+    代表配体自由扭转度，这一值不依赖于可旋转的键的数目，而是取决于前述
+	记录。【注:最后半句未理解，选择直译，请参照原文理解】
+
+```
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1559 
+REMARK    2  A    between atoms: C2_1519  and  C3_1520 
+REMARK       I    between atoms: C3_1520  and  N2_1522 
+REMARK    4  A    between atoms: N3_1528  and  C10_1531 
+REMARK   13  A    between atoms: C23_1549  and  O4_1550 
+REMARK   14  A    between atoms: C31_1559  and  C32_1560 
+ROOT
+HETATM    1  N1  MK1 B 902       9.280  23.763   3.004  1.00 28.25     0.146 N 
+HETATM    2  C1  MK1 B 902       9.498  23.983   4.459  1.00 30.30     0.282 C 
+HETATM    6  C9  MK1 B 902      10.440  23.182   2.493  1.00 27.47     0.274 C 
+ENDROOT
+BRANCH   1   7
+HETATM    7  C31 MK1 B 902       8.033  23.100   2.604  1.00 36.25     0.278 C 
+BRANCH   7   8
+HETATM    8  C32 MK1 B 902       6.666  23.739   2.876  1.00 42.75     0.028 A 
+HETATM    9  C36 MK1 B 902       5.905  23.211   3.897  1.00 44.71     0.001 A 
+HETATM   10  C35 MK1 B 902       4.654  23.774   4.136  1.00 49.34     0.018 A 
+HETATM   11  C34 MK1 B 902       4.207  24.839   3.348  1.00 50.60     0.072 A 
+HETATM   12  N5  MK1 B 902       4.911  25.430   2.300  1.00 51.38    -0.351 N 
+HETATM   13  C33 MK1 B 902       6.158  24.808   2.124  1.00 47.41     0.070 A 
+HETATM   14  H5  MK1 B 902       4.567  26.208   1.737  1.00  0.00     0.166 HD
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 14
+```
 
 
 
 ### 用到的文件列表
 
-* 原始文件
+原始文件
 	
-	* [1hsg.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1hsg.pdb)
-	* [1OHR.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1OHR.pdb)
+  * [1hsg.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1hsg.pdb)
+  * [1OHR.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1OHR.pdb)
 
-* 处理后文件
-	* [1hsg_prot.pdb 提取的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdb)
-	* [indinavir.pdb 提取的小分子结构]({{ site.img_url }}/docking/indinavir.pdb)
-	* [1hsg_prot.pdbqt 转换后的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdbqt)
-	* [indinavir.pdbqt 转换后的小分子结构]({{ site.img_url }}/docking/indinavir.pdbqt)
-	* [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResult.pdbqt)
-	* [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
-	* [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
-	* [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResultAllH.pdbqt)
-	* [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果]({{ site.img_url }}/docking/1hsg_indinavir_original_tutorial_result.pdbqt)
+处理后文件
+  * [1hsg_prot.pdb 提取的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdb)
+  * [indinavir.pdb 提取的小分子结构]({{ site.img_url }}/docking/indinavir.pdb)
+  * [1hsg_prot.pdbqt 转换后的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdbqt)
+  * [indinavir.pdbqt 转换后的小分子结构]({{ site.img_url }}/docking/indinavir.pdbqt)
+  * [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResult.pdbqt)
+  * [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
+  * [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
+  * [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResultAllH.pdbqt)
+  * [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果]({{ site.img_url }}/docking/1hsg_indinavir_original_tutorial_result.pdbqt)
 	
 	
 
@@ -370,38 +614,8 @@ Surface - Show`
 * 官方文档 <http://vina.scripps.edu>
 * PyMOL操作手册 <https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners>
 * PyMOL APBS <https://pymolwiki.org/index.php/APBS>
+* PDBQT文件格式解释 <http://autodock.scripps.edu/faqs-help/faq/what-is-the-format-of-a-pdbqt-file>
+* APBS使用文档<http://www.poissonboltzmann.org/examples/comp_tut/>
 
 
 
-
-这个选项是加氢和计算局部电荷和原子半径的
-
-
-
-### 用到的文件列表
-
-* 原始文件
-	
-	* [1hsg.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1hsg.pdb)
-	* [1OHR.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1OHR.pdb)
-
-* 处理后文件
-	* [1hsg_prot.pdb 提取的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdb)
-	* [indinavir.pdb 提取的小分子结构]({{ site.img_url }}/docking/indinavir.pdb)
-	* [1hsg_prot.pdbqt 转换后的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdbqt)
-	* [indinavir.pdbqt 转换后的小分子结构]({{ site.img_url }}/docking/indinavir.pdbqt)
-	* [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResult.pdbqt)
-	* [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
-	* [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
-	* [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResultAllH.pdbqt)
-	* [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果]({{ site.img_url }}/docking/1hsg_indinavir_original_tutorial_result.pdbqt)
-	
-	
-
-
-### 参考
-
-* Detailed tutorial <http://sbcb.bioch.ox.ac.uk/users/greg/teaching/docking-2012.html>
-* 官方文档 <http://vina.scripps.edu>
-* PyMOL操作手册 <https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners>
-* PyMOL APBS <https://pymolwiki.org/index.php/APBS>
