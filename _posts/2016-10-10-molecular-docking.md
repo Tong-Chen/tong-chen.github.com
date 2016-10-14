@@ -1,7 +1,6 @@
 ﻿---
 title: Basic molecular docking
 author: ct
-description: 
 layout: post
 categories: [Docking]
 tags: [Docking]
