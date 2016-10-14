@@ -1,4 +1,17 @@
-﻿
+﻿---
+title: Basic molecular docking
+author: ct
+layout: post
+categories:
+  - Docking
+tags:
+  - Docking
+---
+
+### Molecular Docking理论
+
+
+
 ### 蛋白可视化
 
 我们观察的是一个分辨率为2艾的X-射线衍射晶体结构(PDB ID: [1HSG](http://www.rcsb.org/pdb/explore/explore.do?structureId=1HSG))，展示的是HIV-1蛋白酶与药物茚地那韦([indinavir](http://en.wikipedia.org/wiki/Indinavir))结合在一起的构象。软件[`PyMOL`](https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners)用来观察HIV-蛋白酶、结合位点和药物分析的结构。
