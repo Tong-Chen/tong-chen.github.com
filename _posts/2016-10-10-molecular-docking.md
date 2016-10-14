@@ -50,7 +50,7 @@ tags: [Docking]
 
 * 存储, 在命令行输入`png E:/docking/1shg.png`保存当前结果。
 
-![1hsg.png]({{ site.imturl }}/docking/1hsg.png)
+![1hsg.png]({{ site.img_url }}/docking/1hsg.png)
 
 ### 准备docking需要的受体(protein)和配体(化合物)
 
@@ -167,7 +167,7 @@ seed = 2009
     Using random seed: 2009
     Performing search ... done.
     Refining results ... done.
-    
+		
     mode |   affinity | dist from best mode
          | (kcal/mol) | rmsd l.b.| rmsd u.b.
     -----+------------+----------+----------
@@ -285,6 +285,61 @@ You may have observed that moving the structure around the window is a bit diffi
 
 前面我们提到，PDB结构中不包含原子的局部电荷信息，而这对静电力场的计算是很重要的。因此我们需要给PDB文件中增加这一数据。
 
+为了完成这一任务，我们需要在<http://www.poissonboltzmann.org/>注册，然
+后下载安装软件
+[`APBS`](https://sourceforge.net/projects/apbs/)和
+[`pdb2pqr`](https://sourceforge.net/projects/pdb2pqr/)。
+
+* 在Windows下, `APBS`直接下载安装就可, 使用默认的安装目录；
+  `pdb2pqr`解压缩到`C:\pdb2pqr`; 路径中不能有空格。
+
+  设置环境变量：`我的电脑`-`属性`-`高级系统设置`-`高级`-`环境变量`-`系
+  统变量中选中PATH`-`编辑`-`新建`-`加入安装路径(如下图所示)`
+
+  ![windows_PATH.png]({{ site.img_url }}/docking/windows_PATH.png)
+
+  安装完成之后，启动PyMOL，会在`Plugin`下看到`APBS Tools`。
+
+* 在Lunux下，尚未试验。
+
+
+打开PyMOL并读入`1hsg_prot.pdb`，然后通过下述步骤启动并配置APBS，
+依次点击菜单或按钮，`Plugin` - `APBS Tools` - `Main` - 
+`Select Use PyMOL generated PQR and
+PyMOL generated Hydrogens and termini`(这步操作是给PDB文件中的每个原子
+加氢、局部电荷和计算原子半径;This adds hydrogens and assigns
+partial charges and atomic radii to each atom in the PDB file.) - 
+`Configuration` - `Set grid`(点击后定义了一个保护蛋白的框，但并未显示
+，因此点击后看不到任何反应。This defines a grid that encloses the
+protein, but Grid is not displayed on the screen) - `System
+Temperature = 300` - `on concentration (+1) and (-1) to 0.15`(相当于
+0.15摩尔的阳离子和阴离子。which is equivalent of 0.15M cations and anions) 
+- 按图设置APBS和pdb2pqr的路径 -  `Run APBS` - `Visualization` -
+`Update`(如果出现*Unable to open file error*，运行命令`PyMOL > load
+C:\Users\ct\AppData\Local\Temp\pymol-generated.dx`) - `Molecular
+Surface - Show`
+
+<figure class="third">
+	<img src="{{ site.img_url }}/docking/pymol_apbs_config_1.png" alt="">
+	<img src="{{ site.img_url }}/docking/pymol_apbs_config_2.png" alt="">
+	<img src="{{ site.img_url }}/docking/pymol_apbs_config_location.png" alt="">
+	<figcaption>左图为配置加氢的参数；中图是设置GRID；右图为设置可执行
+	文件的路径</figcaption>
+</figure>
+
+<figure class="third">
+	<img src="{{ site.img_url }}/docking/pymol_apbs_config_3.png" alt="">
+	<img src="{{ site.img_url }}/docking/pymol_apbs_config_4.png" alt="">
+	<img src="{{ site.img_url }}/docking/pymol_apbs_show.png" alt="">
+	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果
+	展示</figcaption>
+</figure>
+
+
+
+
+
+这个选项是加氢和计算局部电荷和原子半径的
 
 
 
@@ -314,3 +369,39 @@ You may have observed that moving the structure around the window is a bit diffi
 * Detailed tutorial <http://sbcb.bioch.ox.ac.uk/users/greg/teaching/docking-2012.html>
 * 官方文档 <http://vina.scripps.edu>
 * PyMOL操作手册 <https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners>
+* PyMOL APBS <https://pymolwiki.org/index.php/APBS>
+
+
+
+
+这个选项是加氢和计算局部电荷和原子半径的
+
+
+
+### 用到的文件列表
+
+* 原始文件
+	
+	* [1hsg.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1hsg.pdb)
+	* [1OHR.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1OHR.pdb)
+
+* 处理后文件
+	* [1hsg_prot.pdb 提取的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdb)
+	* [indinavir.pdb 提取的小分子结构]({{ site.img_url }}/docking/indinavir.pdb)
+	* [1hsg_prot.pdbqt 转换后的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdbqt)
+	* [indinavir.pdbqt 转换后的小分子结构]({{ site.img_url }}/docking/indinavir.pdbqt)
+	* [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResult.pdbqt)
+	* [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
+	* [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
+	* [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResultAllH.pdbqt)
+	* [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果]({{ site.img_url }}/docking/1hsg_indinavir_original_tutorial_result.pdbqt)
+	
+	
+
+
+### 参考
+
+* Detailed tutorial <http://sbcb.bioch.ox.ac.uk/users/greg/teaching/docking-2012.html>
+* 官方文档 <http://vina.scripps.edu>
+* PyMOL操作手册 <https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners>
+* PyMOL APBS <https://pymolwiki.org/index.php/APBS>
