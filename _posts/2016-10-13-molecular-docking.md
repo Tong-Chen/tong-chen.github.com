@@ -2,10 +2,8 @@
 title: Basic molecular docking
 author: ct
 layout: post
-categories:
-  - Docking
-tags:
-  - Docking
+categories: [Docking]
+tags: [Docking]
 ---
 
 ### Molecular Docking理论
@@ -20,31 +18,31 @@ tags:
 * 启动PyMOL
 * 选择`File`-`Open`-`1hsg.pdb`
 
-![file_open_visual.png]({{ site.imgurl }}/docking/file_open_visual.png)
+![file_open_visual.png]({{ site.img_url }}/docking/file_open_visual.png)
 
 * 首先隐藏所有的图像，在右侧的对象控制面板，行`all`的`H`列`Hide: everything`，这时屏幕应该是漆黑一片。
 
-![all_hide_everything.png]({{ site.imgurl }}/docking/all_hide_everything.png)
+![all_hide_everything.png]({{ site.img_url }}/docking/all_hide_everything.png)
 
 * 显示蛋白，在右侧的对象控制面板，行`1hsg`的`S`列，选择`cartoon`展示，然后在`C`列按`chain`显色，这时可以看到一个同源二聚体的展示。
 
-![1hsg_cartoon_chain.png]({{ site.imgurl }}/docking/1hsg_cartoon_chain.png)
+![1hsg_cartoon_chain.png]({{ site.img_url }}/docking/1hsg_cartoon_chain.png)
 
 * 显色配体药物`indinavir`，其残基的名字为`MK1`,这个信息可以在上述PDB网站链接查看，具体如下图所示。
 
-![ligand_indinavir_mk1.png]({{ site.imgurl }}/docking/ligand_indinavir_mk1.png)
+![ligand_indinavir_mk1.png]({{ site.img_url }}/docking/ligand_indinavir_mk1.png)
 
 在PyMOL的命令行处输入`select indinavir, resn MK1`，如下图所示
 
-![get_ligand_using_select.png]({{ site.imgurl }}/docking/get_ligand_using_select.png)
+![get_ligand_using_select.png]({{ site.img_url }}/docking/get_ligand_using_select.png)
 
 回车后，会看到界面如图所示
 
-![ligand_indinavir_mk1_show_1.png]({{ site.imgurl }}/docking/ligand_indinavir_mk1_show_1.png)
+![ligand_indinavir_mk1_show_1.png]({{ site.img_url }}/docking/ligand_indinavir_mk1_show_1.png)
 
 * 显示配体，在右侧的对象控制面板，行`indinavir`的`S`列，选择`stick`展示，再选择`C`一种不同的颜色。在屏幕没有无图处点击鼠标，取消选择。
 
-![lgand_show.png]({{ site.imgurl }}/docking/lgand_show.png)
+![lgand_show.png]({{ site.img_url }}/docking/lgand_show.png)
 
 * PyMOL鼠标操作：按住左键移动旋转，按住右键移动放大，按住中键移动，观察结合位点所在的位置。
 
@@ -81,8 +79,8 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 5. 晶体结构中通常缺少氢原子 (因为氢原子电子少，且质子核对电子吸引能力弱，因此很难定位，具体见<http://www.uh.edu/~chembi/ChemSocRev_Jones_critical.pdf>)。但是在docking过程中，氢原子，尤其是极性氢原子对计算静电作用是必须的。因此我们需要给蛋白加上氢原子，`Edit`-`Hydrogen`-`Add`-`Polar only`-`OK`(之所以选择`Polar only`是因为`vina`的官方视频里面是这么选择的)。这时氢原子会以白色短线形式出现。
 
 <figure class="half">
-	<img src="{{ site.imgurl }}/docking/1hsg_prot_no_H.png" alt="1hsg_prot_no_H.png">
-	<img src="{{ site.imgurl }}/docking/1hsg_prot_with_H.png" alt="1hsg_prot_with_H.png">
+	<img src="{{ site.img_url }}/docking/1hsg_prot_no_H.png" alt="1hsg_prot_no_H.png">
+	<img src="{{ site.img_url }}/docking/1hsg_prot_with_H.png" alt="1hsg_prot_with_H.png">
 	<figcaption>增加氢原子前（左）和后（右）蛋白结构显示</figcaption>
 </figure>
 
@@ -113,8 +111,8 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 4. 晶体结构中通常缺少氢原子 (因为氢原子电子少，且质子核对电子吸引能力弱，因此很难定位，具体见<http://www.uh.edu/~chembi/ChemSocRev_Jones_critical.pdf>)。但是在docking过程中，氢原子，尤其是极性氢原子对计算静电作用是必须的。因此我们需要给配体加上氢原子，`Edit`-`Hydrogen`-`Add`-`Polar only`-`OK`(之所以选择`Polar only`是因为`vina`的官方视频里面是这么选择的)。这时氢原子会以白色短线形式出现。
 
 <figure class="half">
-	<img src="{{ site.imgurl }}/docking/indinavir_no_H.png" alt="1hsg_prot_no_H.png">
-	<img src="{{ site.imgurl }}/docking/indinavir_with_H.png" alt="1hsg_prot_with_H.png">
+	<img src="{{ site.img_url }}/docking/indinavir_no_H.png" alt="1hsg_prot_no_H.png">
+	<img src="{{ site.img_url }}/docking/indinavir_with_H.png" alt="1hsg_prot_with_H.png">
 	<figcaption>增加氢原子前（左）和后（右）化合物结构显示</figcaption>
 </figure>
 
@@ -188,9 +186,9 @@ seed = 2009
   * original_tutorial_result.pdbqt：原教程中的docking结果
 
 <figure class="third">
-	<img src="{{ site.imgurl }}/docking/docking_result_all.png" alt="docking_result_all.png">
-	<img src="{{ site.imgurl }}/docking/our_ligand_gold_standard.png" alt="our_ligand_gold_standard.png">
-	<img src="{{ site.imgurl }}/docking/our_ligand_original_ligand.png" alt="our_ligand_original_ligand.png">
+	<img src="{{ site.img_url }}/docking/docking_result_all.png" alt="docking_result_all.png">
+	<img src="{{ site.img_url }}/docking/our_ligand_gold_standard.png" alt="our_ligand_gold_standard.png">
+	<img src="{{ site.img_url }}/docking/our_ligand_original_ligand.png" alt="our_ligand_original_ligand.png">
 	<figcaption>Docking结果展示。白色化合物为原PDB晶体结构中配体的构象，视为金标准。蓝色为本教程的结果只加极性氢。粉红色为原教程结果。黄色为本教程加所有氢的结果 (与蓝色构象完全一致，因此显示不出)。</figcaption>
 </figure>
 
@@ -219,16 +217,16 @@ You may have observed that moving the structure around the window is a bit diffi
 提取`1OHR`中的`nelfinavir (残基为1UN)`,`PyMOL> select nelfinavir, 1OHR and resn 1UN`，对象面板更改其展示方式，`S`-`sticks`, `C`-`white`。
 
 <figure class="half">
-	<img src="{{ site.imgurl }}/docking/1OHR_1HSG_unalign.png" alt="1OHR_1HSG_unalign.png">
-	<img src="{{ site.imgurl }}/docking/1OHR_1HSG_align.png" alt="1OHR_1HSG_align.png">
+	<img src="{{ site.img_url }}/docking/1OHR_1HSG_unalign.png" alt="1OHR_1HSG_unalign.png">
+	<img src="{{ site.img_url }}/docking/1OHR_1HSG_align.png" alt="1OHR_1HSG_align.png">
 	<figcaption>Docking结果展示。第一张图表示2个晶体结构align前的展示；第二张图表示2个晶体align后重合在了一起。白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的结果(只加极性氢)。</figcaption>
 </figure>
 
 通过与金标准比对，判断哪个构象是预测的最佳模式。
 
 <figure class="half">
-	<img src="{{ site.imgurl }}/docking/nelfinavir_first_with_gold_standard.png" alt="nelfinavir_first_with_gold_standard.png">
-	<img src="{{ site.imgurl }}/docking/nelfinavir_second_with_gold_standard.png" alt="nelfinavir_second_with_gold_standard.png">
+	<img src="{{ site.img_url }}/docking/nelfinavir_first_with_gold_standard.png" alt="nelfinavir_first_with_gold_standard.png">
+	<img src="{{ site.img_url }}/docking/nelfinavir_second_with_gold_standard.png" alt="nelfinavir_second_with_gold_standard.png">
 	<figcaption>Docking第一张图表示AutoDock Vina输出结果的Best Mode与金标准的比对情况；第二张图表示AutoDock Vina输出结果的Second Best Mode与金标准的比对情况；白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的结果(只加极性氢)。</figcaption>
 </figure>
 
@@ -237,8 +235,8 @@ You may have observed that moving the structure around the window is a bit diffi
 那么还有一个问题，1SHG的chainA与1OHR的chainA是不是一个呢？我们比对1OHR的chainA与1HSG的chainB，`PyMOL> align 1OHR and chain A, 1hsg_prot and chain B`。
 
 <figure class="half">
-	<img src="{{ site.imgurl }}/docking/1OHR_1HSG_chainA_align.png" alt="1OHR_1HSG_chainA_align.png">
-	<img src="{{ site.imgurl }}/docking/1OHR_1HSG_chainAB_align.png" alt="1OHR_1HSG_chainAB_align.png">
+	<img src="{{ site.img_url }}/docking/1OHR_1HSG_chainA_align.png" alt="1OHR_1HSG_chainA_align.png">
+	<img src="{{ site.img_url }}/docking/1OHR_1HSG_chainAB_align.png" alt="1OHR_1HSG_chainAB_align.png">
 	<figcaption>Docking结果展示。第一张图表示2个晶体结构align后重合在了一起。第二张图表示1OHR的chainA与1HSG的chainB比对的结果。白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的预测的second best mode结果(只加极性氢)。</figcaption>
 </figure>
 
