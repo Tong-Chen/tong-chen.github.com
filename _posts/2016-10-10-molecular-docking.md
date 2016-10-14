@@ -175,6 +175,21 @@ seed = 2009
        2        -10.6      1.425      4.304
        3        -10.4      2.042     10.990
        4        -10.3      2.034     10.326
+       5        -10.2      2.517      4.774
+       6        -10.1      1.933     10.911
+       7         -9.9      2.176     10.884
+       8         -9.8      1.794      3.600
+       9         -9.6      1.981     10.865
+      10         -9.5      2.431     10.943
+      11         -9.3      2.417     10.370
+      12         -8.9      2.404     10.285
+      13         -8.8      4.058     10.904
+      14         -8.7      5.574     11.291
+      15         -8.7      4.441      8.312
+      16         -8.6      5.659      8.929
+      17         -8.6      4.404      8.275
+      18         -8.5      5.630      8.900
+    Writing output ... done.
 	```
 
 4. 用`PyMOL`可视化docking结果
@@ -205,6 +220,30 @@ seed = 2009
 * 按照上述步骤对配体文件进行预处理获得`pdbqt`格式文件。
 
 * 修改配置文件，执行Docking。
+
+  ```
+  Detected 4 CPUs
+  Reading input ... done.
+  Setting up the scoring function ... done.
+  Analyzing the binding site ... done.
+  Using random seed: 2009
+  Performing search ... done.
+  Refining results ... done.
+  
+  mode |   affinity | dist from best mode
+       | (kcal/mol) | rmsd l.b.| rmsd u.b.
+  -----+------------+----------+----------
+     1        -11.2      0.000      0.000
+     2        -11.0      1.878      9.618
+     3         -9.8      1.354      4.254
+     4         -9.6      1.732      8.679
+     5         -9.5      1.192      1.814
+     6         -9.2      1.669      2.269
+     7         -9.0      2.003      8.075
+     8         -8.7      1.850      3.803
+     9         -8.4      1.856      9.549
+  Writing output ... done.
+  ```
 
 * 用`pymol`可视化结果。
 
@@ -249,6 +288,25 @@ You may have observed that moving the structure around the window is a bit diffi
 
 
 
+### 用到的文件列表
+
+* 原始文件
+	
+	* [1hsg.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1hsg.pdb)
+	* [1OHR.pdb 蛋白小分子晶体结构]({{ site.img_url }}/docking/1OHR.pdb)
+
+* 处理后文件
+	* [1hsg_prot.pdb 提取的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdb)
+	* [indinavir.pdb 提取的小分子结构]({{ site.img_url }}/docking/indinavir.pdb)
+	* [1hsg_prot.pdbqt 转换后的蛋白结构]({{ site.img_url }}/docking/1hsg_prot.pdbqt)
+	* [indinavir.pdbqt 转换后的小分子结构]({{ site.img_url }}/docking/indinavir.pdbqt)
+	* [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResult.pdbqt)
+	* [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
+	* [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)]({{ site.img_url }}/docking/1hsg_prot_all_h.pdbqt)
+	* [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResultAllH.pdbqt)
+	* [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果]({{ site.img_url }}/docking/1hsg_indinavir_original_tutorial_result.pdbqt)
+	
+	
 
 
 ### 参考
