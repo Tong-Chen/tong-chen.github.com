@@ -8,22 +8,17 @@ tags: [Docking]
 
 ### Molecular Docking理论
 
-AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受体活性氨基
-酸附近划定一个长方体区域作为搜索空间，扫描不同类型的原子计算格点能量，
-在搜索空间内，调整配体的构象、位置和方向，进而评分、排序获得能量最低的
-构象作为输出结果。
-
+AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受体活性氨基酸附近划定一个长方体区域作为搜索空间，扫描不同类型的原子计算格点能量，在搜索空间内，调整配体的构象、位置和方向，进而评分、排序获得能量最低的构象作为输出结果。
 
 
 ### 蛋白可视化
 
-我们观察的是一个分辨率为2艾的X-射线衍射晶体结构(PDB ID: [1HSG](http://www.rcsb.org/pdb/explore/explore.do?structureId=1HSG))，展示的是HIV-1蛋白酶与药物茚地那韦([indinavir](http://en.wikipedia.org/wiki/Indinavir))结合在一起的构象。软件[`PyMOL`](https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners)用来观察HIV-蛋白酶、结合位点和药物分析的结构。
+例子文件是一个分辨率为2艾的X-射线衍射晶体结构(PDB ID: [1HSG](http://www.rcsb.org/pdb/explore/explore.do?structureId=1HSG))，其为HIV-1蛋白酶与药物茚地那韦([indinavir](http://en.wikipedia.org/wiki/Indinavir))结合在一起的构象。软件[`PyMOL`](https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners)用来观察HIV-蛋白酶、结合位点和药物分子的结构。
 
-* 下载HIV-1蛋白酶的PDB结构(<https://files.rcsb.org/download/1HSG.pdb>)，存储到一个不含中文的目录下。
-* 启动PyMOL
-* 选择`File`-`Open`-`1hsg.pdb`
+* 下载HIV-1蛋白酶的PDB结构(<https://files.rcsb.org/download/1HSG.pdb>)，存储到一个不含中文和空格的目录下。
+* 启动PyMOL，依次点选`File`-`Open`-`1hsg.pdb`，会看到如下界面
 
-![file_open_visual.png]({{ site.img_url }}/docking/file_open_visual.png)
+  ![file_open_visual.png]({{ site.img_url }}/docking/file_open_visual.png)
 
 * 首先隐藏所有的图像，在右侧的对象控制面板，行`all`的`H`列`Hide: everything`，这时屏幕应该是漆黑一片。
 
@@ -37,13 +32,14 @@ AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受�
 
 ![ligand_indinavir_mk1.png]({{ site.img_url }}/docking/ligand_indinavir_mk1.png)
 
-在PyMOL的命令行处输入`PyMOL> select indinavir, resn MK1`，如下图所示
+在PyMOL的命令行处输入`PyMOL> select indinavir, resn MK1`，回车，会看到
+如下画面变化。
 
-![get_ligand_using_select.png]({{ site.img_url }}/docking/get_ligand_using_select.png)
-
-回车后，会看到界面如图所示
-
-![ligand_indinavir_mk1_show_1.png]({{ site.img_url }}/docking/ligand_indinavir_mk1_show_1.png)
+<figure class="half">
+	<img src="{{ site.img_url }}/docking/get_ligand_using_select.png" alt="get_ligand_using_select.png">
+	<img src="{{ site.img_url }}/docking/ligand_indinavir_mk1_show_1.png" alt="ligand_indinavir_mk1_show_1.png">
+	<figcaption>左图展示输入的命令和输入命令前的结构图，右图展示输入命令后的结构图。</figcaption>
+</figure>
 
 * 显示配体，在右侧的对象控制面板，行`indinavir`的`S`列，选择`stick`展示，再选择`C`一种不同的颜色。在屏幕没有无图处点击鼠标，取消选择。
 
@@ -54,6 +50,7 @@ AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受�
 * 显示水分子，水分子的残基名字为`HOH`，运行命令`PyMOL> select H2O, resn HOH`调出水分子。然后选择`S`-`spheres`,`C`-`red`。再运行`set sphere_scale, 0.2`设置水球的大小。
 
 * 存储, 在命令行输入`png E:/docking/1shg.png`保存当前结果。
+
 
 ![1hsg.png]({{ site.img_url }}/docking/1hsg.png)
 
@@ -67,17 +64,17 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 
 1. PDB文件(1hsg.pdb)中包含了蛋白、配体和水分子；首先提取出蛋白的坐标，即以关键字`ATOM`开头的行。每一条蛋白链以关键字`TER`开头的行作为终止行。
 
-  * 在windows下，我们可以手动选择，或者利用Excel的筛选功能。
-  * 在Linux下，使用命令`egrep "^(ATOM|TER)"` 1hsg.pdb >1hsg_prot.pdb
+   * 在windows下，我们可以手动选择，或者利用Excel的筛选功能。
+   * 在Linux下，使用命令`egrep "^(ATOM|TER)"` 1hsg.pdb >1hsg_prot.pdb
 
 2. 启动AutoDockTools
   
-  * windows直接双击图标就可
-  * linux可以使用命令`adt &`
+   * windows直接双击图标就可
+   * linux可以使用命令`adt &`
 
 3. 加载蛋白分子 `File`-`Read MOlecule`-'1hsg_prot.pdb'。
   
-  * ADT中按住左键拖动旋转分子结构；点击中键，滚动缩放；按住邮件移动晶体位置。
+   * ADT中按住左键拖动旋转分子结构；点击中键，滚动缩放；按住邮件移动晶体位置。
 
 4. 更改展示方式，`Color`-`By Atom Type`-`All Geometries`-`OK`。
 
