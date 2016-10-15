@@ -23,7 +23,7 @@ AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受�
 
    ![file_open_visual.png]({{ site.img_url }}/docking/file_open_visual.png)
 
-3. 首先在右侧的对象控制面板，依次点选`行all`的`H列`-`Hide: everything`（如左图所示），然后浩瀚无际的没有月亮的夜空出现在我们面前。
+3. 首先在右侧的对象控制面板，依次点选`行all`的`H列`-`Hide: everything`(如左图所示)，然后浩瀚无际的没有月亮的夜空出现在我们面前。
 
 4. 在右侧的对象控制面板，依次点选`行1hsg`的`S列`-`Show: cartoon`，然后点选`C列`-`By chain`显色，这时可以看到如右图所示的同源二聚体。
 
@@ -35,7 +35,7 @@ AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受�
 
 #### 显示与蛋白结合的小分子化合物和水分子  
 
-1. 从蛋白结构的PDB文件（PDB文件格式解析见后面）或PDB官网的信息（如下图所示）可以看到，`1hsg`结构中包含配体药物`indinavir`，其残基的名字为`MK1`。
+1. 从蛋白结构的PDB文件(PDB文件格式解析见后面)或PDB官网的信息(如下图所示)可以看到，`1hsg`结构中包含配体药物`indinavir`，其残基的名字为`MK1`。
 
    ![ligand_indinavir_mk1.png]({{ site.img_url }}/docking/ligand_indinavir_mk1.png)
 
@@ -45,17 +45,17 @@ AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受�
    <figure class="half">
    	<img src="{{ site.img_url }}/docking/get_ligand_using_select.png" alt="get_ligand_using_select.png">
    	<img src="{{ site.img_url }}/docking/ligand_indinavir_mk1_show_1.png" alt="ligand_indinavir_mk1_show_1.png">
-   	<figcaption>左图展示输入的命令和输入命令前的结构图，右图展示输入命令后的结构图, 药物分子的结构呈被选定状态（红色空心块）。</figcaption>
+   	<figcaption>左图展示输入的命令和输入命令前的结构图，右图展示输入命令后的结构图，药物分子的结构呈被选定状态(红色空心块)。</figcaption>
    </figure>
 
 3. 在右侧的对象控制面板，依次点选`行indinavir`的`S列`-`Show stick`，再点选`C列`选择一种不同的颜色。在屏幕无图处点击鼠标，取消小分子药物的选择状态。这时可以清晰的看到小分子的结构和空间位置(如下左图)，随意拖动鼠标旋转或放大查看药物分子与蛋白的结合方式。PyMOL鼠标操作：按住左键移动旋转，按住右键移动放大，按住中键移动，观察结合位点所在的位置。
 
-4. 显示水分子。水分子的残基名字为`HOH`，运行命令`PyMOL> select H2O, resn HOH`调出水分子。然后点选`S`-`Show spheres`,`C`-`red`。再运行`PyMOL> set sphere_scale, 0.2`设置水球的大小。
+4. 显示水分子。水分子的残基名字为`HOH`，运行命令`PyMOL> select H2O, resn HOH`调出水分子。然后点选`S`-`Show spheres`, `C`-`red`。再运行`PyMOL> set sphere_scale, 0.2`设置水球的大小。
 
    <figure class="half">
    	<img src="{{ site.img_url }}/docking/lgand_show.png" alt="lgand_show.png">
    	<img src="{{ site.img_url }}/docking/1hsg.png" alt="1hsg.png">
-   	<figcaption>左图小分子的结构图及其与蛋白的结合位点，右图展示蛋白、小分子、水分子（红色圆球）的空间构象。</figcaption>
+   	<figcaption>左图小分子的结构图及其与蛋白的结合位点，右图展示蛋白、小分子、水分子(红色圆球)的空间构象。</figcaption>
    </figure>
 
 5. 如果要存储结果，则在命令行输入`png E:/docking/1shg.png`保存当前结果。
@@ -85,12 +85,12 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 
 4. 更改展示方式：依次点选`Color`-`By Atom Type`-`All Geometries`-`OK`。
 
-5. 加氢：晶体结构中通常缺少氢原子的坐标 (因为氢原子电子少，且质子核对电子吸引能力弱，因此很难定位，具体见<http://www.uh.edu/~chembi/ChemSocRev_Jones_critical.pdf>)。但是在docking过程中，氢原子尤其是极性氢原子对计算静电作用是必须的。因此我们需要给蛋白加上氢原子，依次点选`Edit`-`Hydrogen`-`Add`-`Polar only`-`OK`(之所以选择`Polar only`是因为`vina`的官方视频里面是这么选择的, 后面我们会做一个测试，最终会证明这个地方是不是选极性氢对最终结果没有影响)。这时氢原子会以白色短线形式出现。
+5. 加氢：晶体结构中通常缺少氢原子的坐标 (因为氢原子电子少，且质子核对电子吸引能力弱，因此很难定位，具体见<http://www.uh.edu/~chembi/ChemSocRev_Jones_critical.pdf>)。但是在docking过程中，氢原子尤其是极性氢原子对计算静电作用是必须的。因此我们需要给蛋白加上氢原子，依次点选`Edit`-`Hydrogen`-`Add`-`Polar only`-`OK`(之所以选择`Polar only`是因为`vina`的官方视频里面是这么选择的，后面我们会做一个测试，最终会证明这个地方是不是选极性氢对最终结果没有影响)。这时氢原子会以白色短线形式出现。
 
    <figure class="half">
    	<img src="{{ site.img_url }}/docking/1hsg_prot_no_H.png" alt="1hsg_prot_no_H.png">
    	<img src="{{ site.img_url }}/docking/1hsg_prot_with_H.png" alt="1hsg_prot_with_H.png">
-   	<figcaption>增加氢原子前（左）和后（右）蛋白结构显示</figcaption>
+   	<figcaption>增加氢原子前(左)和后(右)蛋白结构显示</figcaption>
    </figure>
 
 6. 存储对蛋白的每个原子所做的修改和原子类型判断：依次点选`Grid`-`Macromolecule`-`Choose`-`1HSG_protein`-`Slect Molecule`。ADT会弹出一个信息框包含程序所做的处理，比如合并非极性氢原子，计算原子局部电荷和判断原子类型，并提示保存`Save`-`1hsg_prot.pdbqt`。打开文件，查看最后两列，分别为每个原子的电量和类型 (详见后面PDBQT文件格式解析)。
@@ -102,7 +102,7 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 
 7. 在受体蛋白定义配体结合的3D搜索空间: 如果我们事先不知道结合位点，理论上可以定义一个长方体盒子包含整个蛋白或者随便一个特定区域 (下文PDB文件解析中会提到PDB文件中有时会包含活性位点信息)。
   
-   依次点选`Grid`-`Grid box`将会在蛋白上画出一个长方体，并且有一个弹出框。在弹出框中，拖拽刻度线查看长方体的变化, 完成设置。在这个例子中，我们知道结合位点，就选取以其为中心的一个小空间。设置`Spacing (angstrom)`为`1`埃 (这实际是一个换算系数)。在我们调整的过程中，可以看到随着这个数值的变大，立方体也被放大了。另外我们设置`x,y,z center`为`16,25,4`,`number of points in (x,y,z)-dimension`为`30,30,30`。记下我们设置的这些点, 下面会用到。
+   依次点选`Grid`-`Grid box`将会在蛋白上画出一个长方体，并且有一个弹出框。在弹出框中，拖拽刻度线查看长方体的变化，完成设置。在这个例子中，我们知道结合位点，就选取以其为中心的一个小空间。设置`Spacing (angstrom)`为`1`埃 (这实际是一个换算系数)。在我们调整的过程中，可以看到随着这个数值的变大，立方体也被放大了。另外我们设置`x,y,z center`为`16,25,4`,`number of points in (x,y,z)-dimension`为`30,30,30`。记下我们设置的这些点，下面会用到。
 
    关掉`grid`和删除`protein`：`Grid Options`-`File`-`Close w/out saving`; `Edit`-`Delete`-`Delete Molecule`-`1hsg_prot`-`Continue`。
 
@@ -110,7 +110,7 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 
 1. 与蛋白结构类似，配体的结构也缺少氢原子，我们需要添加氢原子并且定义哪些键是可以旋转的以用于柔性docking。
 
-2. 从PDB结构中提取配体的原子位置。`indinavir`的配体残基名字为`MK1`, 以`HETATM`开头的行表示非核心多聚体的成分 (heteroatoms)(具体见PDB文件格式解释)。
+2. 从PDB结构中提取配体的原子位置。`indinavir`的配体残基名字为`MK1`，以`HETATM`开头的行表示非核心多聚体的成分 (heteroatoms)(具体见PDB文件格式解释)。
 
    * Linux系统下，运行`grep "^HETATM.*MK1" 1hsg.pdb >indinavir.pdb`
    * Windows系统下，直接拷贝到文件`indinavir.pdb`
@@ -122,19 +122,19 @@ Docking algorithms require each atom to have a charge and an atom type that desc
    <figure class="half">
    	<img src="{{ site.img_url }}/docking/indinavir_no_H.png" alt="1hsg_prot_no_H.png">
    	<img src="{{ site.img_url }}/docking/indinavir_with_H.png" alt="1hsg_prot_with_H.png">
-   	<figcaption>增加氢原子前（左）和后（右）化合物结构显示</figcaption>
+   	<figcaption>增加氢原子前(左)和后(右)化合物结构显示</figcaption>
    </figure>
 
-5. 在ADT中定义此化合物为配体，以便ADT为其计算局部电荷(partial charges)和设置可旋转配体键。依次点选`Ligand`-`input`-`Choose`-`indinavir`-`Select Molecule for AutoDock4`。这时会有一个弹出框显示ADT所做的操作，包括合并非极性氢（只在添加了的情况下）、计算电荷电量和设置旋转键。然后点选`Ligand`-`Output`-`Save as PDBQT`存储结果。
+5. 在ADT中定义此化合物为配体，以便ADT为其计算局部电荷(partial charges)和设置可旋转配体键。依次点选`Ligand`-`input`-`Choose`-`indinavir`-`Select Molecule for AutoDock4`。这时会有一个弹出框显示ADT所做的操作，包括合并非极性氢(只在添加了的情况下)、计算电荷电量和设置旋转键。然后点选`Ligand`-`Output`-`Save as PDBQT`存储结果。
 
    * `indinavir.pdbqt`为只加了极性氢的结果
    * `indinavir_all_h.pdbqt`为加了所以氢的结果
 
-6. 查看ADT检测出的旋转键，依次点选`Ligand`-`Torsion Tree`-`Choose Torsions`,可以看到`Number of rotatable bonds=14/32`。
+6. 查看ADT检测出的旋转键，依次点选`Ligand`-`Torsion Tree`-`Choose Torsions`，可以看到`Number of rotatable bonds=14/32`。
 
 #### 准备docking配置文件
 
-docking配置文件包含了输入的受体（蛋白）、配体（化合物）和搜索参数的信息，为一个文本文件，名字任意，可以为`conf.txt`，内容如下
+docking配置文件包含了输入的受体(蛋白)、配体(化合物)和搜索参数的信息，为一个文本文件，名字任意，可以为`conf.txt`，内容如下
 
 ```
 receptor = 1hsg_prot.pdbqt
@@ -164,7 +164,7 @@ seed = 2009
 2. 输出结果包含两个文件，构象文件`dockingResult.pdbqt`和日志文件`docking.log`。
 
    * `dockingResult.pdbqt`: 包含所有docking的模式，通常第一个为结合最好的构象，但如果前几个能量值相差不大时也有例外。
-   * `docking.log`: 日志文件，包含结合能量值（第一列，越低越稳定，默认由低到高排序，所以第一个为最好的构象）、每个构象与第一个构象的距离、每个构象与第一个构象的差别。
+   * `docking.log`: 日志文件，包含结合能量值(第一列，越低越稳定，默认由低到高排序，所以第一个为最好的构象)、每个构象与第一个构象的距离、每个构象与第一个构象的差别。
     
    ```
    Detected 4 CPUs
@@ -209,7 +209,7 @@ seed = 2009
    	<img src="{{ site.img_url }}/docking/docking_result_all.png" alt="docking_result_all.png">
    	<img src="{{ site.img_url }}/docking/our_ligand_gold_standard.png" alt="our_ligand_gold_standard.png">
    	<img src="{{ site.img_url }}/docking/our_ligand_original_ligand.png" alt="our_ligand_original_ligand.png">
-   	<figcaption>Docking结果展示。左图为蛋白与全部小分子的构象展示;中图为本教程预测的小分子构象（蓝色）与标准构象（白色）的吻合程度，红色框起来的区域为预测不准确区域。右图为本教程预测的小分子构象（蓝色）与原教程预测的小分子构象（粉色）的比较。白色化合物为原PDB晶体结构中配体的构象，视为金标准。蓝色为本教程的只加极性氢的预测结果。粉红色为原教程结果。黄色为本教程加所有氢的结果 (与蓝色构象完全一致，因此显示不出。可在实际操作时尝试隐藏和显示不同的分子观看效果)。</figcaption>
+   	<figcaption>Docking结果展示。左图为蛋白与全部小分子的构象展示;中图为本教程预测的小分子构象(蓝色)与标准构象(白色)的吻合程度，红色框起来的区域为预测不准确区域。右图为本教程预测的小分子构象(蓝色)与原教程预测的小分子构象(粉色)的比较。白色化合物为原PDB晶体结构中配体的构象，视为金标准。蓝色为本教程的只加极性氢的预测结果。粉红色为原教程结果。黄色为本教程加所有氢的结果 (与蓝色构象完全一致，因此显示不出。可在实际操作时尝试隐藏和显示不同的分子观看效果)。</figcaption>
    </figure>
 
 ### Docking非原生配体
@@ -221,12 +221,12 @@ seed = 2009
 * 在网站<https://pubchem.ncbi.nlm.nih.gov/compound/64143#section=3D-Conformer>获得其3D构象，下载`SDF`格式的文件。
 
 * 在网站<http://www.drugbank.ca/drugs/DB00220>获得`PDB`格式的文件。
-  * DB00220_nelfinavir.pdb：为我下载的pdb文件,是一个平面PDB结构。
+  * DB00220_nelfinavir.pdb：为我下载的pdb文件，是一个平面PDB结构。
   * nelfinavir.pdb：为教程提供的pdb文件
 
 * 按照上述步骤对配体文件进行预处理获得`pdbqt`格式文件。
 
-* 修改配置文件，执行Docking，输出日子如下, 并用`pymol`可视化结果。
+* 修改配置文件，执行Docking，输出日子如下，并用`pymol`可视化结果。
 
   ```
   Detected 4 CPUs
@@ -256,7 +256,7 @@ seed = 2009
 
 1. 对这个例子来讲，PDB中存在nelfinavir与HIV-1蛋白酶的晶体结构([1OHR](http://www.rcsb.org/pdb/explore/explore.do?structureId=1OHR))，可以作为金标准来检测docking的准确性。
 
-2. PyMOL中导入`1OHR.pdb`文件，在对象面板中依次点选`1OHR行`-`H`-`Hide everything`-`S`-`Show cartoons`-`C`-`By chain`。从图中可以看到这两个蛋白酶体在空间的方向不同，因此我们需要重新比对这两个结构, 运行`PyMOL> align 1OHR, 1hsg_prot`，可以看到两个结构完全重合了。
+2. PyMOL中导入`1OHR.pdb`文件，在对象面板中依次点选`1OHR行`-`H`-`Hide everything`-`S`-`Show cartoons`-`C`-`By chain`。从图中可以看到这两个蛋白酶体在空间的方向不同，因此我们需要重新比对这两个结构，运行`PyMOL> align 1OHR, 1hsg_prot`，可以看到两个结构完全重合了。
 
    You may have observed that moving the structure around the window is a bit difficult since the origin of the view has been altered when you loaded 1OHR.pdb. To reset it, try:`PyMOL> reset`，运行之后没有看到变化。
 
@@ -266,13 +266,13 @@ seed = 2009
    	<figcaption>Docking结果展示。第一张图表示2个晶体结构align前的展示；第二张图表示2个晶体align后重合在了一起。白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的结果(只加极性氢)。</figcaption>
    </figure>
 
-3. 展示PDB文件中的蛋白结合的化合物提取`1OHR`中的`nelfinavir (残基为1UN)`,运行`PyMOL> select nelfinavir, 1OHR and resn 1UN`；在对象面板更改其展示方式，依次点选`S`-`Show sticks`-`C`-`white`。通过与金标准比对，判断哪个构象是预测的最佳模式。
+3. 展示PDB文件中的蛋白结合的化合物提取`1OHR`中的`nelfinavir (残基为1UN)`，运行`PyMOL> select nelfinavir, 1OHR and resn 1UN`；在对象面板更改其展示方式，依次点选`S`-`Show sticks`-`C`-`white`。通过与金标准比对，判断哪个构象是预测的最佳模式。
 
    <figure class="half">
    	<img src="{{ site.img_url }}/docking/nelfinavir_first_with_gold_standard.png" alt="nelfinavir_first_with_gold_standard.png">
 	<img src="{{ site.img_url }}/docking/nelfinavir_second_with_gold_standard.png" alt="nelfinavir_second_with_gold_standard.png">
 	<figcaption>Docking第一张图表示AutoDock Vina输出结果的Best Mode与金标准的比对情况；第二张图表示AutoDock Vina输出结果的Second Best Mode与金标准的比对情况；白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的结果(只加极性氢)。</figcaption>
-</figure>
+   </figure>
 
    结果看到`second best mode`看上去吻合的更好，为什么呢？从日志的结合能量来看，`best mode`和`second best mode`只差了0.2。
 
@@ -286,14 +286,14 @@ seed = 2009
 
 ### 在蛋白表面搭建静电层 (electrostatic surface)
 
-静电作用在分子docking过程中发挥着重要的作用, 接下来将观察静电力是如何与配体作用的。前面提到，PDB结构中不包含原子的局部电荷信息，而这对静电力场的计算是很重要的。因此我们需要给PDB文件中增加这一数据。
+静电作用在分子docking过程中发挥着重要的作用，接下来将观察静电力是如何与配体作用的。前面提到，PDB结构中不包含原子的局部电荷信息，而这对静电力场的计算是很重要的。因此我们需要给PDB文件中增加这一数据。
 
 为了完成这一任务，我们需要在<http://www.poissonboltzmann.org/>注册，然
 后下载安装软件
 [`APBS`](https://sourceforge.net/projects/apbs/)和
 [`pdb2pqr`](https://sourceforge.net/projects/pdb2pqr/)。
 
-* 在Windows下, `APBS`直接下载安装就可, 使用默认的安装目录；`pdb2pqr`解压缩到`C:\pdb2pqr`; 路径中不能有空格。
+* 在Windows下，`APBS`直接下载使用默认的安装目录安装即可；`pdb2pqr`解压缩到`C:\pdb2pqr`; 路径中不能有空格。
 
   设置环境变量：`我的电脑`-`属性`-`高级系统设置`-`高级`-`环境变量`-`系统变量中选中PATH`-`编辑`-`新建`-`加入安装路径(如下图所示)`
 
@@ -501,7 +501,7 @@ charges)和AutoDock可以识别原子类型代码。
 分信息：
 
   * 加斯泰格尔原子局部电荷
-  * 联合原子模型展示（包括极性氢），首先对分子加氢然后计算其局部电荷。
+  * 联合原子模型展示(包括极性氢)，首先对分子加氢然后计算其局部电荷。
     任何有氢键结合的非极性重原子的电荷需加上与其连接的氢的电荷，然后移
     除这些氢原子。
   * Gasteiger PEOE partial charges 
