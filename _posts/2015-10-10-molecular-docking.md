@@ -8,7 +8,7 @@ tags: [Docking]
 
 ### 分子对接(Molecular Docking)理论
 
-所谓分子对接就是两个或多个分子之间通过几何匹配和能量匹配相互识别的过程。分子对接对酶学研究和药物设计中有重要的应用意义。
+所谓分子对接就是两个或多个分子之间通过几何匹配和能量匹配相互识别找到最佳匹配模式的过程。分子对接对酶学研究和药物设计中有重要的应用意义。
 
 分子对接计算是在受体活性位点区域通过空间结构互补和能量最小化原则来搜寻配体与受体是否能产生相互作用以及它们之间的最佳结合模式。分子对接的思想起源于Fisher E的"钥匙和锁模型"，主要强调的是空间形状的匹配。但配体和受体的识别要比这个模型更加复杂。首先，配体和受体在对接过程中会由于相互适应而产生构象的变化。其次，分子对接还要求能量匹配，对接过程中结合自由能的变化决定了两个分子是否能够结合以及结合的强度。
 
@@ -117,9 +117,9 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 
 7. 在受体蛋白定义配体结合的3D搜索空间: 如果我们事先不知道结合位点，理论上可以定义一个长方体盒子包含整个蛋白或者随便一个特定区域 (下文PDB文件解析中会提到PDB文件中有时会包含活性位点信息)。
   
-   依次点选`Grid`-`Grid box`将会在蛋白上画出一个长方体，并且有一个弹出框。在弹出框中，拖拽刻度线查看长方体的变化，完成设置。在这个例子中，我们知道结合位点，就选取以其为中心的一个小空间。设置`Spacing (angstrom)`为`1`埃 (这实际是一个换算系数)。在我们调整的过程中，可以看到随着这个数值的变大，立方体也被放大了。另外我们设置`x,y,z center`为`16,25,4`,`number of points in (x,y,z)-dimension`为`30,30,30`。记下我们设置的这些点，下面会用到。
+   依次点选`Grid`-`Grid box`将会在蛋白上画出一个长方体，并且有一个弹出框。在弹出框中，拖拽刻度线查看长方体的变化，完成设置。在这个例子中，我们知道结合位点，就选取以其为中心的一个小空间。设置`Spacing (angstrom)`为`1`埃 (这实际是一个换算系数, 相当于步长; 默认为0.375，是C-C单键长度的1/4，最大为1。spacing值与(各个维度上的点的数目+1)的乘机就是长方体Grid box的大小)。在我们调整的过程中，可以看到随着这个数值的变大，立方体也被放大了。另外我们设置`x,y,z center`为`16,25,4`,`number of points in (x,y,z)-dimension`为`30,30,30`(最大为126，必须为偶数，AutoDock会自动再每一维再加一个点)。记下我们设置的这些点，下面会用到。
 
-   在刻度转盘处点击右键会弹出一个窗口，输入数字回车即可设置GRID的中心坐标和大小。
+   在刻度转盘处点击右键会弹出一个窗口，输入数字回车即可设置GRID的中心坐标和大小。较大的`number of points in (xyz)-dimension`和较小的`Spacing`会增加搜索的精度，同时需要花费更多的计算时间。
 
 8. 设置受体的柔性残基：在ADT中依次点选`Flexible Residues`-`Input`-`Choose Macromolecule`-`1hsg_prot`; `select`-`select from string`-`Residue: ARG8`-`Add`-`Dismiss`, 8号ARG氨基酸残基就被选中了。
 
@@ -224,6 +224,15 @@ seed = 2009
    Writing output ... done.
    ```
 
+   The key results in a docking log are the docked structures found at the
+   end of each run,  the energies of these docked structures and their
+   similarities to each other. The similarity of docked structures is
+   measured by computing the root-mean-square-deviation,  rmsd, 
+   between the coordinates of the atoms. The docking results consist of
+   the PDBQ of the Cartesian coordinates of the atoms in the docked
+   molecule,  along with the state variables that describe this docked
+   conformation and position.
+
 4. 用`PyMOL`可视化docking结果。打开PyMOL，依次点选`File`-`Open`文件类型选择`All Files`-选取结果`dockingResult.pdbqt文件`、`原始蛋白和配体的pdb文件`、`原教程的pdbqt文件`。
   
    * dockingResult.pdbqt: 增加非极性氢的docking结果
@@ -243,11 +252,9 @@ seed = 2009
 
 #### 重复上述步骤执行docking
 
-* 在网站<https://pubchem.ncbi.nlm.nih.gov/compound/64143#section=3D-Conformer>获得其3D构象，下载`SDF`格式的文件。
-
 * 在网站<http://www.drugbank.ca/drugs/DB00220>获得`PDB`格式的文件。
-  * DB00220_nelfinavir.pdb：为我下载的pdb文件，是一个平面PDB结构。
-  * nelfinavir.pdb：为教程提供的pdb文件
+  * DB00220_nelfinavir.pdb：为我下载的pdb文件，是一个平面PDB结构, 不可用。
+  * nelfinavir.pdb：为教程提供的pdb文件(可从`1OHR.pdb`获得)
 
 * 按照上述步骤对配体文件进行预处理获得`pdbqt`格式文件。
 
@@ -376,7 +383,7 @@ Surface - Show`
    </figure>
 
 3. 展示相互作用: `Analyze`-`Dockings`-`Show interactions`
-
+   
    This display is radically different: the viewer
    background color is white,  the ligand is displayed with
    a solvent-excluded molecular surface,  atoms in the
@@ -392,7 +399,7 @@ Surface - Show`
    <figure class="half">
    	<img src="{{ site.img_url }}/docking/adt_visual_vina_interaction.png" alt="">
    	<img src="{{ site.img_url }}/docking/adt_visual_vina_interaction2.png" alt="">
-   	<figcaption>配体与受体作用展示</figcaption>
+   	<figcaption>配体与受体作用展示, 使用方向键切换不同的配体构象</figcaption>
    </figure>
 
 
@@ -413,12 +420,11 @@ Surface - Show`
 
 1. 怎么判断哪个是想要的结果？
 
-   A: When the results are sorted by lowest-energy, the compounds which bind as well as your positive control or better can be considered potential hits.  (Remember to allow for the ~2.1 kcal/mol standard error of AutoDock).  If you have no positive control, consider the compounds with the lowest energies as potential hits.)
+   When the results are sorted by lowest-energy, the compounds which bind as well as your positive control or better can be considered potential hits.  (Remember to allow for the ~2.1 kcal/mol standard error of AutoDock).  If you have no positive control, consider the compounds with the lowest energies as potential hits.)
 
 2. 怎么分析结果？
 
-   A: Sort them by lowest energy first,  then use ADT to inspect the
-   quality of the binding. Generally it is wise to inspect the top 30 to 50 results. 
+   Sort them by lowest energy first,  then use ADT to inspect the quality of the binding. Generally it is wise to inspect the top 30 to 50 results. 
 
 3. 可视化结果时关注哪些方面?
 
@@ -434,7 +440,7 @@ Surface - Show`
    that residue.  In the case of HIV protease,  good inhibitors bind
    in a mode which mimics the transition state.
 
-4. 小分子获取
+4. 配体小分子获取
 
    * NCI Diversity Set
      
@@ -450,9 +456,48 @@ Surface - Show`
 	 commercially-available compounds for virtual screening
 	 (blaster.docking.org/zinc).
 	
+5. 如何绘制小分子？
 
+   * 使用Gaussview从头画出配体的空间结构模型保存为mol2文件，稍微复杂的分子在画完后需要做一下量子化学水平的结构优化
+   * 如果配体十分复杂，可以先使用ChemDraw或ChemBioDraw画出配体结构的平面图，保存成cdx后缀的文件，然后使用OpenBabel转换成mol2文件 `babel -icdx Ligand_1.cdx -omol2 ligand.mol2 --gen3D` [参数`--gen3D`输出立体结构]。
+   * SDF文件转mol2, `babel -i sdf Ligand.sdf -o mol2 ligand.mol2 --gen3D`。	
 
+6. 始终需要加氢吗？
+ 
+   Yes, for both the macromolecule and the ligand,  you should
+   always add hydrogens,  compute Gasteiger charges and then
+   you must merge the non-polar hydrogens. Polar hydrogens are
+   hydrogens that are bonded to electronegative atoms like
+   oxygen and nitrogen. Non-polar hydrogens are hydrogens
+   bonded to carbon atoms.
 
+7. 可以使用AutoDock确认潜在的结合位点吗？
+
+   如果不知道配体在受体上的结合位点，就设置一个大到足够覆盖整个受体蛋白表面的长方体（在每个维度设置更多的grid points，加大grid spacing）。然后执行Docking。利用这次分子对接的结果再针对性的设定Grid的大小和位置，再执行Docking。如果蛋白特别大，那么可以分多次设置Grid，如第一次覆盖蛋白上面2/3, 第二次覆盖中间2/3，第三次覆盖下面2/3等。
+
+8. 确定大分子活性位点方法总结
+
+   * 查阅文献，根据文献报道找到活性位点。
+   * 如果有受体-配体的三维结构，则可以运用配体扩张法，确定活性位点，就是以配体的位置为中心，再向外扩增一定范围，一般为6.5到9埃，这个范围的受体残基就构成了相关的活性位点。
+   * 利用分子空洞技术列如MOE中的site Finder模块，然后根据经验规律，（疏水残基最多的空洞为活性位点）判断活性位点。
+   * Discovery Studio Visualizer (free)观察配体结合位点，也可试试from PDB Site records或from receptor cavities确定活性位点。
+   * 有一个活性位点预测网上服务器 Q-Site Finder 地址http://www.modelling.leeds.ac.uk/qsitefinder/
+   * 找一个序列结构类似的有配体-受体复合物的3D结构，与未知活性位点的蛋白进行对比：
+     * 在PyMOL中, 载入两个蛋白
+	 * 用align 将未知活性位点的蛋白与配体-受体蛋白进行比对
+	 * 标记未知活性位点的蛋白残基
+	 * 保存比对并标记过的未知活性位点蛋白
+
+9. 如果某一蛋白受体有多个晶体。我们要从中选择那一个比较好呢？：
+
+   * 采用解析晶体分辨率较高的
+   * 观察晶体图的B-因子
+   * 蛋白和配体的平均B-因子之间的不同
+   * 配体、受体的电子密度。
+   * 选择的蛋白受体的来源与研究的生物体一致
+   * 选择残基（特别是活性位点）完整，分辨率高的蛋白受体。
+   * 选择结合位点，温度系数较低的蛋白受体。
+   * 选择配体物与蛋白形成复合物的蛋白，最好配体的构想、结构构像与研究的小分子类似。
 
 ### 文件格式解释
 
@@ -653,31 +698,31 @@ PDBQT中的原子类型
 |HD*     |Donor 1 H-bond Hydrogen                   |
 |HS      |Donor S Spherical Hydrogen                |
 |C*      |Non H-bonding Aliphatic Carbon            |
-|A*      |Non H-bonding Aromatic Carbon              |
-|N*      |Non H-bonding Nitrogen              |
-|NA*     |Acceptor 1 H-bond Nitrogen              |
-|NS      |Acceptor S Spherical Nitrogen              |
-|OA*     |Acceptor 2 H-bonds Oxygen              |
-|OS      |Acceptor S Spherical Oxygen              |
-|F       |Non H-bonding Fluorine              |
-|Mg      |Non H-bonding Magnesium              |
-|MG      |Non H-bonding Magnesium              |
-|P       |Non H-bonding Phosphorus              |
-|SA*     |Acceptor 2 H-bonds Sulphur              |
-|S       |Non H-bonding Sulphur              |
-|Cl      |Non H-bonding Chlorine              |
-|CL      |Non H-bonding Chlorine              |
-|Ca      |Non H-bonding Calcium              |
-|CA      |Non H-bonding Calcium              |
-|Mn      |Non H-bonding Manganese              |
-|MN      |Non H-bonding Manganese              |
-|Fe      |Non H-bonding Iron              |
-|FE      |Non H-bonding Iron              |
-|Zn      |Non H-bonding Zinc              |
-|ZN      |Non H-bonding Zinc              |
-|Br      |Non H-bonding Bromine              |
-|BR      |Non H-bonding Bromine              |
-|I       |Non H-bonding Iodine              |
+|A*      |Non H-bonding Aromatic Carbon             |
+|N*      |Non H-bonding Nitrogen                    |
+|NA*     |Acceptor 1 H-bond Nitrogen                |
+|NS      |Acceptor S Spherical Nitrogen             |
+|OA*     |Acceptor 2 H-bonds Oxygen                 |
+|OS      |Acceptor S Spherical Oxygen               |
+|F       |Non H-bonding Fluorine                    |
+|Mg      |Non H-bonding Magnesium                   |
+|MG      |Non H-bonding Magnesium                   |
+|P       |Non H-bonding Phosphorus                  |
+|SA*     |Acceptor 2 H-bonds Sulphur                |
+|S       |Non H-bonding Sulphur                     |
+|Cl      |Non H-bonding Chlorine                    |
+|CL      |Non H-bonding Chlorine                    |
+|Ca      |Non H-bonding Calcium                     |
+|CA      |Non H-bonding Calcium                     |
+|Mn      |Non H-bonding Manganese                   |
+|MN      |Non H-bonding Manganese                   |
+|Fe      |Non H-bonding Iron                        |
+|FE      |Non H-bonding Iron                        |
+|Zn      |Non H-bonding Zinc                        |
+|ZN      |Non H-bonding Zinc                        |
+|Br      |Non H-bonding Bromine                     |
+|BR      |Non H-bonding Bromine                     |
+|I       |Non H-bonding Iodine                      |
 
 
 AutoDock中配体可以为柔性结构，使用`torsion tree`来代表配体中固定的和可
@@ -750,8 +795,6 @@ TORSDOF 14
   * [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果]({{ site.img_url }}/docking/1hsg_indinavir_dockingResultAllH.pdbqt)
   * [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果]({{ site.img_url }}/docking/1hsg_indinavir_original_tutorial_result.pdbqt)
 	
-	
-
 
 ### 参考
 
@@ -763,4 +806,6 @@ TORSDOF 14
 * APBS使用文档<http://www.poissonboltzmann.org/examples/comp_tut/>
 * 本文理论部分总结自<http://www.docin.com/p-93380394.html>
 * AutoDock 4 for virtual screening <http://autodock.scripps.edu/faqs-help/tutorial/using-autodock4-for-virtual-screening/UsingAutoDock4forVirtualScreening_v4.pdf>
-
+* <http://blog.sina.com.cn/s/blog_602a741d01010yhk.html>
+* <http://people.pharmacy.purdue.edu/~mlill/software/pymol_plugins/tutorial.shtml>
+* <http://bioms.org/thread-58-1-1.html>
