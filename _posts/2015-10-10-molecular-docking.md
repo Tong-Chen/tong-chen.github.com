@@ -368,6 +368,13 @@ Surface - Show`
 
 2. 导入蛋白结构：`Analzye`-`Macromolecule`-`Open`-`1hsg_prot.pdbqt` 
 
+
+   <figure class="half">
+   	<img src="{{ site.img_url }}/docking/adt_visual_vina_result.png" alt="">
+   	<img src="{{ site.img_url }}/docking/adt_visual_protein.png" alt="">
+   	<figcaption>左图是Vina结果展示；右图为蛋白结果展示</figcaption>
+   </figure>
+
 3. 展示相互作用: `Analyze`-`Dockings`-`Show interactions`
 
    This display is radically different: the viewer
@@ -382,13 +389,11 @@ Surface - Show`
    specialized display as well as list interactions in the
    python shell.
 
-<figure class="third">
-	<img src="{{ site.img_url }}/docking/adt_visual_vina_result.png" alt="">
-	<img src="{{ site.img_url }}/docking/adt_visual_protein.png" alt="">
-	<img src="{{ site.img_url }}/docking/adt_visual_vina_interaction.png" alt="">
-	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果展示</figcaption>
-</figure>
-
+   <figure class="half">
+   	<img src="{{ site.img_url }}/docking/adt_visual_vina_interaction.png" alt="">
+   	<img src="{{ site.img_url }}/docking/adt_visual_vina_interaction2.png" alt="">
+   	<figcaption>配体与受体作用展示</figcaption>
+   </figure>
 
 
 
