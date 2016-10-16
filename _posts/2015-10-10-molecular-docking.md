@@ -6,9 +6,24 @@ categories: [Docking]
 tags: [Docking]
 ---
 
-### Molecular Docking理论
+### 分子对接(Molecular Docking)理论
 
-AutoDock Vina使用拉马克遗传算法执行格点(grid)计算。首先在受体活性氨基酸附近划定一个长方体区域作为搜索空间，扫描不同类型的原子计算格点能量，在搜索空间内，调整配体的构象、位置和方向，进而评分、排序获得能量最低的构象作为输出结果。
+所谓分子对接就是两个或多个分子之间通过几何匹配和能量匹配相互识别的过程。分子对接对酶学研究和药物设计中有重要的应用意义。
+
+分子对接计算是在受体活性位点区域通过空间结构互补和能量最小化原则来搜寻配体与受体是否能产生相互作用以及它们之间的最佳结合模式。分子对接的思想起源于Fisher E的"钥匙和锁模型"，主要强调的是空间形状的匹配。但配体和受体的识别要比这个模型更加复杂。首先，配体和受体在对接过程中会由于相互适应而产生构象的变化。其次，分子对接还要求能量匹配，对接过程中结合自由能的变化决定了两个分子是否能够结合以及结合的强度。
+
+1958年D.E.Koshland提出分子识别过程中的诱导契合概念，受体分子活性中心的结构原本并非与底物完全吻合，但其是柔软和可塑的。当配体与受体相遇时，可诱导受体构象发生相应的变化，从而便于他们的结合进而引起相应的反应。
+
+分子对接方法根据不同的简化程度分为三类：刚性对接、半柔性对接和柔性对接。刚性对接指在对接过程中，受体和配体的构象不发生变化，适合研究比较大的体系如蛋白-蛋白之间以及蛋白-核酸之间，计算简单，主要考虑对象之间的契合程度。半柔性对接常用于小分子和大分子的对接，在对接过程中，小分子的构象可以在一定范围内变化，但大分子是刚性的。这样既可以在一定程度上考察柔性的影响，又能保持较高的计算效率。在药物设计和虚拟筛选过程中一般采用半柔性的分子对接方法。柔性对接方法一般用于精确研究分子之间的识别情况，由于允许对接体系的构象变化，可以提高对接准确性但耗时较长。
+
+分子对接的目的是找到底物分子和受体分子最佳结合位置及其结合强度，最终可以获得配体和受体的结合构象，但这样的构象可以有很多，一般认为自由能最小的构象存在的概率最高。搜寻最佳构象就要用到构象搜索方法，常用的有系统搜索法和非系统搜索法。系统搜索法通过改变每个扭转角评估所有可能的结合构象，进而选取能量最低的。这一方法计算量非常大。因此通常使用非系统搜索法来寻找能量较低构象，常用方法有：分子动力学方法、随机搜索、遗传算法、距离几何算法等。随机搜索又包括完全随机算法、蒙特卡罗法和模拟退火法等。
+
+AutoDock Vina是The Scripp Research Institute的Olson科研小组开发的分子对接软件包，使用拉马克遗传算法提高效率。软件把遗传算法和局部搜索结合在一起，遗传算法用于全局搜索，而局部搜索用于能量优化。为了加快计算速度，AutoDock Vina采用格点(grid)计算。首先在受体活性氨基酸附近划定一个长方体区域作为搜索空间，扫描不同类型的原子计算格点能量，在搜索空间内，调整配体的构象、位置和方向，进而评分、排序获得能量最低的构象作为输出结果。
+
+对范德华相互作用的计算：每个格点上保存的范德华能量的值的数目与要对接的配体上的原子类型数目相同。如果一个配体中含有C、H、O三种原子类型，那么每个葛店需要用单个探针原子与来计算其与受体之间的范德华相互作用值。当配体与受体进行分子对接时，配体中某个原子和受体之间的相互作用能通过周围8个格点上的这种原子类型为探针的格点值用内插法得到。
+
+静电相互作用的计算采用静电势格点。当配体与受体对接时，某个原子和受体之间的静电相互作用能通过周围格点上静电势以及原子上的部分电荷计算得到。
+
 
 
 ### 蛋白和小分子可视化
@@ -104,7 +119,17 @@ Docking algorithms require each atom to have a charge and an atom type that desc
   
    依次点选`Grid`-`Grid box`将会在蛋白上画出一个长方体，并且有一个弹出框。在弹出框中，拖拽刻度线查看长方体的变化，完成设置。在这个例子中，我们知道结合位点，就选取以其为中心的一个小空间。设置`Spacing (angstrom)`为`1`埃 (这实际是一个换算系数)。在我们调整的过程中，可以看到随着这个数值的变大，立方体也被放大了。另外我们设置`x,y,z center`为`16,25,4`,`number of points in (x,y,z)-dimension`为`30,30,30`。记下我们设置的这些点，下面会用到。
 
-   关掉`grid`和删除`protein`：`Grid Options`-`File`-`Close w/out saving`; `Edit`-`Delete`-`Delete Molecule`-`1hsg_prot`-`Continue`。
+   在刻度转盘处点击右键会弹出一个窗口，输入数字回车即可设置GRID的中心坐标和大小。
+
+8. 设置受体的柔性残基：在ADT中依次点选`Flexible Residues`-`Input`-`Choose Macromolecule`-`1hsg_prot`; `select`-`select from string`-`Residue: ARG8`-`Add`-`Dismiss`, 8号ARG氨基酸残基就被选中了。
+
+   再依次点选`Flexible Residues`-`Choose Torsions in Currently Selected Residues`将选择的残基标记为柔性残基并设置可扭转的数量。在分子显示窗口中分别点击两个残基上CA和CB原子之间的建，使之变为非扭转的（紫色显示），这样两个残基中的32个键中有6个是可扭转的。这里设置配体的柔性残基或者使CA-CB的键为刚性都是可选操作。放在教程中只是用来展示怎么操作的，无其它指导意义。
+  
+   `Flexible Residues`-`Output`-`Save Flexible PDBQT`保存柔性残基文件。
+   `Flexible Residues`-`Output`-`Save Rigid PDBQT`保存柔性残基文件。
+
+
+9. 关掉`grid`和删除`protein`：`Grid Options`-`File`-`Close w/out saving`; `Edit`-`Delete`-`Delete Molecule`-`1hsg_prot`-`Continue`。
 
 #### 准备配体
 
@@ -284,7 +309,7 @@ seed = 2009
    	<figcaption>Docking结果展示。第一张图表示2个晶体结构align后重合在了一起。第二张图表示1OHR的chainA与1HSG的chainB比对的结果。白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的预测的second best mode结果(只加极性氢)。</figcaption>
    </figure>
 
-### 在蛋白表面搭建静电层 (electrostatic surface)
+### 用PyMOL在蛋白表面搭建静电层 (electrostatic surface)
 
 静电作用在分子docking过程中发挥着重要的作用，接下来将观察静电力是如何与配体作用的。前面提到，PDB结构中不包含原子的局部电荷信息，而这对静电力场的计算是很重要的。因此我们需要给PDB文件中增加这一数据。
 
@@ -325,17 +350,103 @@ Surface - Show`
 	<img src="{{ site.img_url }}/docking/pymol_apbs_config_1.png" alt="">
 	<img src="{{ site.img_url }}/docking/pymol_apbs_config_2.png" alt="">
 	<img src="{{ site.img_url }}/docking/pymol_apbs_config_location.png" alt="">
-	<figcaption>左图为配置加氢的参数；中图是设置GRID；右图为设置可执行
-	文件的路径</figcaption>
+	<figcaption>左图为配置加氢的参数；中图是设置GRID；右图为设置可执行文件的路径</figcaption>
 </figure>
 
 <figure class="third">
 	<img src="{{ site.img_url }}/docking/pymol_apbs_config_3.png" alt="">
 	<img src="{{ site.img_url }}/docking/pymol_apbs_config_4.png" alt="">
 	<img src="{{ site.img_url }}/docking/pymol_apbs_show.png" alt="">
-	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果
-	展示</figcaption>
+	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果展示</figcaption>
 </figure>
+
+得到这个图之后，我们首先需要看配体是否落在受体的"口袋"里；然后检查配体与受体之间原子的化学匹配，如配体中的碳原子应该与受体的疏水原子结合, 氮原子和氧原子与其受体中相近原子结合；然后看有没有电荷互补；最后根据已有知识查看结合q区域有没有包括蛋白的活性位点, 以及活性位点怎么与受体相互作用的。
+
+### 用ADT可视化结果
+
+1. 导入Vina输出结果：打开ADT依次点选`Analyze`-`Dockings`-`Open AutoDock Vina result`-选择``结果PDBQT文件`dockingResult.pdbqt`-`Single molecular with multiple conformations`。
+
+2. 导入蛋白结构：`Analzye`-`Macromolecule`-`Open`-`1hsg_prot.pdbqt` 
+
+3. 展示相互作用: `Analyze`-`Dockings`-`Show interactions`
+
+   This display is radically different: the viewer
+   background color is white,  the ligand is displayed with
+   a solvent-excluded molecular surface,  atoms in the
+   receptor which are hydrogen-bonded or in close-contact
+   to atoms in the ligand are shown as spheres AND
+   pieces of secondary structure are shown for sequences
+   of 3 or more residues in the receptor which are
+   interacting with the ligand. The GUI for this command
+   lets you turn on and off different parts of this
+   specialized display as well as list interactions in the
+   python shell.
+
+<figure class="third">
+	<img src="{{ site.img_url }}/docking/adt_visual_vina_result.png" alt="">
+	<img src="{{ site.img_url }}/docking/adt_visual_protein.png" alt="">
+	<img src="{{ site.img_url }}/docking/adt_visual_vina_interaction.png" alt="">
+	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果展示</figcaption>
+</figure>
+
+
+
+
+### 虚拟筛选
+
+1. 准备受体文件 `prepare_receptor4.py -r 1hsg_prot.pdb -o 1hsg_prot.auto.pdbqt -A hydrogens`。【注：脚本在目录mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24下, 自行添加到环境变量或参照软件安装部分】
+
+2. 准备配体文件 `prepare_ligand4.py -l indinavir.pdb -o indinavir.auto.pdbqt -A bonds_hydrogens`。
+
+3. 书写conf.txt文件。
+
+4. 执行Docking `vina --config conf.txt`
+
+5. `prepare_receptor4.py`和`prepare_ligand4.py`支持`pdb\mol2`格式文件。
+
+### F&Q
+
+1. 怎么判断哪个是想要的结果？
+
+   A: When the results are sorted by lowest-energy, the compounds which bind as well as your positive control or better can be considered potential hits.  (Remember to allow for the ~2.1 kcal/mol standard error of AutoDock).  If you have no positive control, consider the compounds with the lowest energies as potential hits.)
+
+2. 怎么分析结果？
+
+   A: Sort them by lowest energy first,  then use ADT to inspect the
+   quality of the binding. Generally it is wise to inspect the top 30 to 50 results. 
+
+3. 可视化结果时关注哪些方面?
+
+   A: The first thing to check is that the ligand is docking into some
+   kind of **pocket** on the receptor. The second is that there is a
+   **chemical match** between the atoms in the ligand and those in
+   the receptor.  For example,  check that carbon atoms in the ligand are near hydrophobic atoms in the receptor while
+   nitrogens and oxygens in the ligand are near similar atoms in
+   the binding pocket.  Check for **charge complementarity**.  Check
+   whatever else you may know about your particular system:  for
+   instance,  if you know that the enzymatic action of your protein
+   involves a **particular residue**,  examine how the ligand binds to
+   that residue.  In the case of HIV protease,  good inhibitors bind
+   in a mode which mimics the transition state.
+
+4. 小分子获取
+
+   * NCI Diversity Set
+     
+     To expedite drug discovery,  the National Cancer Institute maintains a
+	 resource of more than 140, 000 synthetic chemicals and 80, 000 natural
+	 products for which it can provide samples for high-through-put screening
+	 (HTS). The NCI Diversity Set is a collection of 1990 compounds selected
+	 to represent the structural diversity in the whole resource.
+
+   * ZINC
+
+	 ZINC Is Not Commerical is a free database of over 4.6 million
+	 commercially-available compounds for virtual screening
+	 (blaster.docking.org/zinc).
+	
+
+
 
 
 ### 文件格式解释
@@ -529,6 +640,41 @@ ATOM   1844  CZ  PHE B  99      25.658  37.663   8.073  1.00 36.24     0.000 A
 TER    1845      PHE B  99 
 ```
 
+PDBQT中的原子类型
+
+|原子类型|解释                                      |
+|--------|------------------------------------------|
+|H       |Non H-bonding Hydrogen                    |
+|HD*     |Donor 1 H-bond Hydrogen                   |
+|HS      |Donor S Spherical Hydrogen                |
+|C*      |Non H-bonding Aliphatic Carbon            |
+|A*      |Non H-bonding Aromatic Carbon              |
+|N*      |Non H-bonding Nitrogen              |
+|NA*     |Acceptor 1 H-bond Nitrogen              |
+|NS      |Acceptor S Spherical Nitrogen              |
+|OA*     |Acceptor 2 H-bonds Oxygen              |
+|OS      |Acceptor S Spherical Oxygen              |
+|F       |Non H-bonding Fluorine              |
+|Mg      |Non H-bonding Magnesium              |
+|MG      |Non H-bonding Magnesium              |
+|P       |Non H-bonding Phosphorus              |
+|SA*     |Acceptor 2 H-bonds Sulphur              |
+|S       |Non H-bonding Sulphur              |
+|Cl      |Non H-bonding Chlorine              |
+|CL      |Non H-bonding Chlorine              |
+|Ca      |Non H-bonding Calcium              |
+|CA      |Non H-bonding Calcium              |
+|Mn      |Non H-bonding Manganese              |
+|MN      |Non H-bonding Manganese              |
+|Fe      |Non H-bonding Iron              |
+|FE      |Non H-bonding Iron              |
+|Zn      |Non H-bonding Zinc              |
+|ZN      |Non H-bonding Zinc              |
+|Br      |Non H-bonding Bromine              |
+|BR      |Non H-bonding Bromine              |
+|I       |Non H-bonding Iodine              |
+
+
 AutoDock中配体可以为柔性结构，使用`torsion tree`来代表配体中固定的和可
 选择的部分。在这个树中，有一个根，多个分支，其中分支可以嵌套。每一个分
 支代表一个可以选择的键。在PDBQT文件中表示如下：
@@ -610,6 +756,6 @@ TORSDOF 14
 * PyMOL APBS <https://pymolwiki.org/index.php/APBS>
 * PDBQT文件格式解释 <http://autodock.scripps.edu/faqs-help/faq/what-is-the-format-of-a-pdbqt-file>
 * APBS使用文档<http://www.poissonboltzmann.org/examples/comp_tut/>
-
-
+* 本文理论部分总结自<http://www.docin.com/p-93380394.html>
+* AutoDock 4 for virtual screening <http://autodock.scripps.edu/faqs-help/tutorial/using-autodock4-for-virtual-screening/UsingAutoDock4forVirtualScreening_v4.pdf>
 
