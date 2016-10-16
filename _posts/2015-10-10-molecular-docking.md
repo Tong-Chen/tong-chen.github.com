@@ -252,13 +252,11 @@ seed = 2009
 
 #### 重复上述步骤执行docking
 
-* 在网站<http://www.drugbank.ca/drugs/DB00220>获得`PDB`格式的文件。
-  * DB00220_nelfinavir.pdb：为我下载的pdb文件，是一个平面PDB结构, 不可用。
-  * nelfinavir.pdb：为教程提供的pdb文件(可从`1OHR.pdb`获得)
+* 获取nelfinavir.pdb：为教程提供的pdb文件(可从`1OHR.pdb`获得)
 
 * 按照上述步骤对配体文件进行预处理获得`pdbqt`格式文件。
 
-* 修改配置文件，执行Docking，输出日子如下，并用`pymol`可视化结果。
+* 修改配置文件，执行Docking，输出日志如下，并用`PyMOL`可视化结果。
 
   ```
   Detected 4 CPUs
@@ -410,13 +408,13 @@ Surface - Show`
 
 2. 准备配体文件 `prepare_ligand4.py -l indinavir.pdb -o indinavir.auto.pdbqt -A bonds_hydrogens`。
 
-3. 书写conf.txt文件。
+3. 还有关键一步是确定搜索空间，书写conf.txt文件。
 
 4. 执行Docking `vina --config conf.txt`
 
 5. `prepare_receptor4.py`和`prepare_ligand4.py`支持`pdb\mol2`格式文件。
 
-### F&Q
+### FAQ
 
 1. 怎么判断哪个是想要的结果？
 
