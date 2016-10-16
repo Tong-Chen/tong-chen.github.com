@@ -24,8 +24,6 @@ AutoDock Vina是The Scripp Research Institute的Olson科研小组开发的分子
 
 静电相互作用的计算采用静电势格点。当配体与受体对接时，某个原子和受体之间的静电相互作用能通过周围格点上静电势以及原子上的部分电荷计算得到。
 
-
-
 ### 蛋白和小分子可视化
 
 例子文件是一个分辨率为2艾的X-射线衍射晶体结构(PDB ID: [1HSG](http://www.rcsb.org/pdb/explore/explore.do?structureId=1HSG))，其为HIV-1蛋白酶与药物茚地那韦([indinavir](http://en.wikipedia.org/wiki/Indinavir))结合在一起的构象。软件[`PyMOL`](https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners)用来观察HIV-蛋白酶、结合位点和药物分子的结构。
@@ -773,6 +771,42 @@ TORSDOF 14
 ```
 
 
+### 软件安装
+
+#### Windows下软件安装
+
+* AutoDock Vina <http://vina.scripps.edu/download.html>，下载双击安装
+* AutoDockTools <http://mgltools.scripps.edu/downloads>, 下载双击安装
+* PyMOL <http://www.pymol.org>，申请教育版，双击安装
+
+#### Linux下软件安装
+
+```
+#First make sure "~/bin" is in "PATH"
+
+#AutoDock Vina
+wget http://vina.scripps.edu/download/autodock_vina_1_1_2_linux_x86.tgz
+tar xvzf autodock_vina_1_1_2_linux_x86.tgz
+ln -s `pwd`/autodock_vina_1_1_2_linux_x86/bin ~/bin
+
+#AutoDockTools
+wget http://mgltools.scripps.edu/downloads/downloads/tars/releases/REL1.5.6/mgltools_x86_64Linux2_1.5.6.tar.gz
+tar xvzf mgltools_x86_64Linux2_1.5.6.tar.gz
+(cd mgltools_x86_64Linux2_1.5.6/; ./install.sh)
+ln -s `pwd`/mgltools_x86_64Linux2_1.5.6/bin/pmv ~/bin/pmv
+ln -s `pwd`/mgltools_x86_64Linux2_1.5.6/bin/adt ~/bin/adt
+ln -s `pwd`/mgltools_x86_64Linux2_1.5.6/bin/vision ~/bin/vision
+ln -s `pwd`/mgltools_x86_64Linux2_1.5.6/bin/pythonsh ~/bin/pythonsh
+
+ln -s `pwd`/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py ~/bin
+sed -i '1 s/python/pythonsh/' ~/bin/prepare_ligand4.py
+
+ln -s `pwd`/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_receptor4.py ~/bin
+sed -i '1 s/python/pythonsh/' ~/bin/prepare_receptor4.py
+
+#PyMOL
+尚未尝试编译
+```
 
 ### 用到的文件列表
 
