@@ -3,14 +3,14 @@
   $.fn.toc = function(options) {
     var defaults = {
       noBackToTopLinks: false,
-      title: '<i>目录</i>',
+      title: '<i>Jump to...</i>',
       minimumHeaders: 3,
       headers: 'h1, h2, h3, h4, h5, h6',
       listType: 'ol', // values: [ol|ul]
-      showEffect: 'show', // values: [show|slideDown|fadeIn|none]
+      showEffect: 'slideDown', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow', // set to 0 to deactivate effect
-      classes: { list: '',
-                 item: ''
+      classes: { list: 'lorem ipsum',
+                 item: 'dolor sit amet'
                }
     },
     settings = $.extend(defaults, options);
