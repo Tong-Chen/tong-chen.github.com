@@ -244,6 +244,188 @@ seed = 2009
    	<figcaption>Docking结果展示。左图为蛋白与全部小分子的构象展示;中图为本教程预测的小分子构象(蓝色)与标准构象(白色)的吻合程度，红色框起来的区域为预测不准确区域。右图为本教程预测的小分子构象(蓝色)与原教程预测的小分子构象(粉色)的比较。白色化合物为原PDB晶体结构中配体的构象，视为金标准。蓝色为本教程的只加极性氢的预测结果。粉红色为原教程结果。黄色为本教程加所有氢的结果 (与蓝色构象完全一致，因此显示不出。可在实际操作时尝试隐藏和显示不同的分子观看效果)。</figcaption>
    </figure>
 
+5. 展示配体和受体相互作用的原子和氢键
+
+   为了简化展示过程，我们设计了一个`pml`脚本 (脚本内有很详细的解释)，只需要修改脚本里面受体和配体的名字，然后在PyMOL的命令行界面输入`PyMOL> run display.pml`即可获得展示结果。当然这个脚本也可以使用程序`generatePmlForHbond.py`生成。
+
+   ```
+    ############################################################
+   ###All one needs to do is replacing:                        ##
+   ###  * Protein structure file: E:\docking\1hsg_prot.pdb     ##
+   ###  * Protein name: 1hsg                                   ##
+   ###  * Docking result file: E:\docking\indinavir.pdbqt      ##
+   ###  * Docking result name (normally ligand name): indinavir##
+    ############################################################
+   # The following 4 lines: 
+   	# 1. load protein structure and rename it
+   	# 2. add hydrogen (`h_add` uses a primitive algorithm to add hydrogens onto a molecule.)
+   	# 3. hide protein display
+   	# 4. show cartoon display for protein
+   load E:\yunpan\docking\1hsg_prot.pdb, 1hsg
+   h_add 1hsg
+   hide everything, 1hsg
+   show cartoon, 1hsg
+   cmd.spectrum("count", selection="1hsg", byres=1)
+   
+   # The following 6 lines: 
+   	# 1. load ligand structure and rename it
+   	# 2. add hydrogen
+   	# 3. hide ligand display
+   	# 4. show ligand in sticks mode
+   	# 5. Set width of stick to 0.15
+   	# 6. Set atom color: C-white;N-blue;O-red
+   load E:\yunpan\docking\indinavir.pdbqt, indinavir
+   h_add indinavir
+   hide everything, indinavir
+   show sticks, indinavir
+   set stick_radius, 0.15
+   util.cbaw indinavir
+   
+   # The following 2 lines:
+   	# 1. Set hydrogen donator
+   	# 2. Set hydrogen accrptor 
+   	# `select` creates a named selection from an atom selection. 
+   	# `select name, (selection)`
+   select h_donator,  (elem n,o and (neighbor hydro))
+   select h_acceptor, (elem o or (elem n and not (neighbor hydro)))
+   
+   # The following 4 lines:
+   	# 1. Create link between ligand_h_acceptor and prot_h_donator  within given distance 3.2
+   	# 2. Create link between ligand_h_donator  and prot_h_acceptor within given distance 3.2
+   	#    Set filter 3.6 for ideal geometry and filter 3.2 for minimally acceptable geometry
+   	# 3. Set red color for ligand_h_acceptor and prot_h_donator 
+   	# 4. Set blue color for ligand_h_donator  and prot_h_acceptor
+   	# `distance` creates a new distance object between two selections. It will display all distances within the cutoff. Distance is also used to make hydrogen bonds like `distance hbonds, all, all, 3.2, mode=2`.
+   	# distance [ name [, selection1 [, selection2 [, cutoff [, mode ]]]]]
+   distance LaccPdon, (indinavir and h_acceptor), (1hsg and h_donator), 3.2
+   distance LdonPacc, (indinavir and h_donator), (1hsg and h_acceptor), 3.2
+   color red, LaccPdon
+   color blue, LdonPacc
+   
+   # The following 6 lines:
+   	# 1. Select non-hydro atoms of ligands
+   	# 2. Select protein atoms within 5A of selected atoms in last step
+   	# 3. Label alpha-c(ca) of selected residues with residue name and residue position
+   	# 4. Set label color back
+   	# 5. Set background white
+   	# 6. Hidden hydrogenes
+   select sele, indinavir & not hydro
+   select sele, byres (sele expand 5) & 1hsg
+   one_letter ={'VAL':'V', 'ILE':'I', 'LEU':'L', 'GLU':'E', 'GLN':'Q', \
+   'ASP':'D', 'ASN':'N', 'HIS':'H', 'TRP':'W', 'PHE':'F', 'TYR':'Y',    \
+   'ARG':'R', 'LYS':'K', 'SER':'S', 'THR':'T', 'MET':'M', 'ALA':'A',    \
+   'GLY':'G', 'PRO':'P', 'CYS':'C'}
+   label name ca & sele, "%s-%s" % (one_letter[resn],resi)
+   bg white
+   set label_color, black
+   hide (hydro)
+   
+   # The follwing 5 lines
+   	# 1. Comment out this line
+   	# 2. Create an object `surrounding_res` to represent selected protein atoms
+   	#    `create`: creates a new molecule object from a selection. It can also be used to create states in an   existing object. 
+   	#    `create name, (selection)`
+   	# 3. Display created surface
+   	# 4. Set color for surrounding_res
+   	# 5. Set transparency for surrounding_res
+   	#    Transparency is used to adjust the transparency of Surfaces and Slices.    
+   	#    `set transparency, F, selection`
+   #show surface, 1hsg
+   create surrounding_res, sele
+   show surface, surrounding_res
+   color grey80, surrounding_res
+   set transparency, 0.5, surrounding_res
+   ```
+
+   此外还可以使用如下脚本(`list_hbonds.py`)输出相互作用的原子及其位置。
+
+   ```
+
+   # Copyright (c) 2010 Robert L. Campbell
+   from pymol import cmd
+   
+   def list_hb(selection,selection2=None,cutoff=3.2,angle=55,mode=1,hb_list_name='hbonds'):
+       """
+       USAGE
+     
+       list_hb selection, [selection2 (default=None)], [cutoff (default=3.2)],
+                          [angle (default=55)], [mode (default=1)],
+                          [hb_list_name (default='hbonds')]
+     
+       The script automatically adds a requirement that atoms in the
+       selection (and selection2 if used) must be either of the elements N or
+       O.
+     
+       If mode is set to 0 instead of the default value 1, then no angle
+       cutoff is used, otherwise the angle cutoff is used and defaults to 55
+       degrees.
+     
+       e.g.
+       To get a list of all H-bonds within chain A of an object
+         list_hb 1abc & c. a &! r. hoh, cutoff=3.2, hb_list_name=abc-hbonds
+     
+       To get a list of H-bonds between chain B and everything else:
+         list_hb 1tl9 & c. b, 1tl9 &! c. b
+     
+       """
+       cutoff=float(cutoff)
+       angle=float(angle)
+       mode=float(mode)
+       # ensure only N and O atoms are in the selection
+       selection = selection + " & e. n+o"
+       if not selection2:
+           hb = cmd.find_pairs(selection,selection,mode=mode,cutoff=cutoff,angle=angle)
+       else:
+           selection2 = selection2 + " & e. n+o"
+           hb = cmd.find_pairs(selection,selection2,mode=mode,cutoff=cutoff,angle=angle)
+     
+       # sort the list for easier reading
+       hb.sort(lambda x,y:(cmp(x[0][1],y[0][1])))
+     
+       for pairs in hb:
+           cmd.iterate("%s and index %s" % (pairs[0][0],pairs[0][1]), 'print "%1s/%3s`%s/%-4s " % (chain,resn,resi,name),')
+           cmd.iterate("%s and index %s" % (pairs[1][0],pairs[1][1]), 'print "%1s/%3s`%s/%-4s " % (chain,resn,resi,name),')
+           print "%.2f" % cmd.distance(hb_list_name,"%s and index %s" % (pairs[0][0],pairs[0][1]),"%s and index %s" % (pairs[1][0],pairs[1][1]))
+   
+   #cmd.extend("list_hb",list_hb)
+   #if __name__ == "__main__":
+   cmd.load("E:/yunpan/docking/1hsg_prot.pdb", "1hsg")
+   cmd.h_add("(1hsg)")
+   cmd.load("E:/yunpan/docking/indinavir.pdbqt","indinavir")
+   cmd.h_add("(indinavir)")
+
+   h_donator  = "elem n,o & (neighbor hydro)"
+   h_acceptor = "elem o | (elem n & !(neighbor hydro))"
+   
+   lacc = "indinavir & (elem o | (elem n & !(neighbor hydro)))"
+   ldon = "indinavir & (elem n,o & (neighbor hydro))"
+   pacc = "1hsg & (elem o | (elem n & !(neighbor hydro)))"
+   pdon = "1hsg & (elem n,o & (neighbor hydro))"
+   
+   list_hb(ldon, pacc, hb_list_name="l2p_hbonds")
+   list_hb(lacc, pdon, hb_list_name="p2l_hbonds")
+   ```
+
+   
+   输出结果如下：
+   
+   ```
+   PyMOL>run E:/docking/list_hbonds.py
+   B/MK1`902/N4    B/GLY`27/O     3.03
+   B/MK1`902/O4    B/GLY`27/O     3.16
+   B/MK1`902/O2    A/ASP`25/OD1   2.77
+   B/MK1`902/O2    B/ASP`25/OD1   2.63
+   ```
+
+   看上去比显示的氢键少了三个，这是因为我们在第二个函数中使用了H-键角度限制，如果在调用时给定参数`list_hb(mode=1)`则会获得一致结果。
+
+   <figure class="half">
+   	<img src="{{ site.img_url }}/docking/after_run_hbond.pml.png" alt="after_run_hbond.pml.png">
+   	<img src="{{ site.img_url }}/docking/after_run_list_hbond.png" alt="after_run_list_hbond.png">
+   	<figcaption>H-bond结果展示。第一张图为运行`display.pml`后的结果，蓝色虚线为氢键；第二张图为运行`list_hbonds.py`后的结果, 黄色虚线为氢键（覆盖了之前的蓝色）。可以通过点选`LaccPdon`, `LdonPacc`, `l2p_hbonds`显示不同的氢键。</figcaption>
+   </figure>
+
+
 ### Docking非原生配体
 
 在前面的例子中，`AutoDock Vina`能把配体构象调整到几乎原生的构象，验证了这一预测方法的准确度。下面，我们尝试docking另外一个配体药物[`nelfinavir奈非那韦`](http://en.wikipedia.org/wiki/Nelfinavir)，来展示如何寻找小分子在蛋白内的结合位点。这个过程可以进一步地凝练和扩展作为“虚拟筛选(virtual screening)”的步骤。
@@ -340,7 +522,7 @@ PyMOL generated Hydrogens and termini`(这步操作是给PDB文件中的每个�
 加氢、局部电荷和计算原子半径;This adds hydrogens and assigns
 partial charges and atomic radii to each atom in the PDB file.)
 * `Configuration` - `Set grid`(点击后定义了一个保护蛋白的框，但并未显示
-，因此点击后看不到任何反应。This defines a grid that encloses the
+，因此点击后看不到框，但可以看到一系列的计算过程体现在展示界面。This defines a grid that encloses the
 protein, but Grid is not displayed on the screen) - `System
 Temperature = 300` - `on concentration (+1) and (-1) to 0.15`(相当于
 0.15摩尔的阳离子和阴离子, which is equivalent of 0.15M cations and anions) 
@@ -362,6 +544,14 @@ Surface - Show`
 	<img src="{{ site.img_url }}/docking/pymol_apbs_show.png" alt="">
 	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果展示</figcaption>
 </figure>
+
+静电等高线图(Electrostatic isocontours)
+
+PyMOL makes this step very easy: adjust the positive and negative “Contour” fields to the desired values (usually ±1,  ±5,  or ±10 kT/e) and hit the Positive Isosurface and Negative Isosurface and Show buttons.
+	
+±1 kT/e electrostatic potential isocontours of FAS2 in PyMOL
+
+If the colors are not as you expect,  you can change the colors of the objects `iso_neg` and `iso_pos` in the main menu. By convention (for electrostatics in chemistry),  `red` is `negative` (think oxygen atoms in carboxyl groups) and `blue` `positive` (think nitrogen atoms in amines).
 
 得到这个图之后，我们首先需要看配体是否落在受体的"口袋"里；然后检查配体与受体之间原子的化学匹配，如配体中的碳原子应该与受体的疏水原子结合, 氮原子和氧原子与其受体中相近原子结合；然后看有没有电荷互补；最后根据已有知识查看结合q区域有没有包括蛋白的活性位点, 以及活性位点怎么与受体相互作用的。
 
@@ -778,6 +968,7 @@ TORSDOF 14
 * AutoDock Vina <http://vina.scripps.edu/download.html>，下载双击安装
 * AutoDockTools <http://mgltools.scripps.edu/downloads>, 下载双击安装
 * PyMOL <http://www.pymol.org>，申请教育版，双击安装
+* 下载 <http://sourceforge.net/projects/openbabel/files/openbabel/2.4.1/OpenBabel-2.4.1.exe/download>，双击安装
 
 #### Linux下软件安装
 
@@ -806,7 +997,14 @@ sed -i '1 s/python/pythonsh/' ~/bin/prepare_receptor4.py
 
 #PyMOL
 尚未尝试编译
+
+#Babel
+yum install openbabel-2.2.3-1.el6.x86_64
 ```
+
+#### 其它可用的软件
+* Docking整合平台 <https://sourceforge.net/projects/pyrx/>
+
 
 ### 用到的文件列表
 
@@ -841,3 +1039,7 @@ sed -i '1 s/python/pythonsh/' ~/bin/prepare_receptor4.py
 * <http://blog.sina.com.cn/s/blog_602a741d01010yhk.html>
 * <http://people.pharmacy.purdue.edu/~mlill/software/pymol_plugins/tutorial.shtml>
 * <http://bioms.org/thread-58-1-1.html>
+* <http://www.docin.com/p-1324133758.html>
+* PyMOL script <https://pymolwiki.org/index.php/Displaying_Biochemical_Properties>
+* Hydrogen bonds <http://pldserver1.biochem.queensu.ca/~rlc/work/pymol/>
+* Hydrogen bonds <http://blog.sciencenet.cn/blog-950202-728312.html>
