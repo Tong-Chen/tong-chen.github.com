@@ -598,7 +598,7 @@ If the colors are not as you expect,  you can change the colors of the objects `
 
 2. 准备配体文件 `prepare_ligand4.py -l indinavir.pdb -o indinavir.auto.pdbqt -A bonds_hydrogens`。
 
-3. 还有关键一步是确定搜索空间，书写conf.txt文件。
+3. 还有关键一步是确定搜索空间，书写conf.txt文件。可以简单的以蛋白的中心为搜索空间的中心，蛋白各个维度坐标值的标准差、极差及其组合分别作为搜索空间的大小；在大范围搜索结束后，根据docking结果再重新选取Docking小分子的中心为搜索空间的中心，其各个维度坐标值的标准差、极差及其组合分别作为搜索空间的大小，再进行精细搜索。
 
 4. 执行Docking `vina --config conf.txt`
 
@@ -918,20 +918,10 @@ AutoDock中配体可以为柔性结构，使用`torsion tree`来代表配体中�
 支代表一个可以选择的键。在PDBQT文件中表示如下：
   
   * `ROOT`记录标记分子刚性部分的起始。
-  * 刚性root包含一个或多个PDBQT-格式的`ATOM`或`HETATM`记录。
-    这些记录与其在PDB文件中的含义类似, 只是在最后2列增加了电荷信息和
-	原子类型信息。【注：这个文件的解析请见参考资料中的英文文档，此中文
-	介绍只是为了方便理解】
-  * `ENDROOT`记录标记配体刚性部分的结束。`ROOT/ENDROOT`原子块一般出现
-    在PDBQT文件中的首部。如果我们想把配体的某部分作为刚性处理，则在其
-	前后加上`ROOT/ENDROOT`标签即可。
-  * 配体可选择部分包含于`BRANCH/ENDBRANCH`记录中间。
-    `BRANCH`和`ENDBRANCH`记录行包含两个空格分开的数字，代表可旋转的键
-	连接的第一个和第二个原子的编号。`BRANCH/ENDBRANCH`记录中间的记录旋转键中
-	间的`ATOM/HETATM`记录。另外`BRANCH/ENDBRANCH`记录可以嵌套。
-  * 配体PDBQT文件的最后一行为`TORSDOF`记录。这个记录包含一个整数，
-    代表配体自由扭转度，这一值不依赖于可旋转的键的数目，而是取决于前述
-	记录。【注:最后半句未理解，选择直译，请参照原文理解】
+  * 刚性root包含一个或多个PDBQT-格式的`ATOM`或`HETATM`记录。这些记录与其在PDB文件中的含义类似, 只是在最后2列增加了电荷信息和原子类型信息。【注：这个文件的解析请见参考资料中的英文文档，此中文介绍只是为了方便理解】
+  * `ENDROOT`记录标记配体刚性部分的结束。`ROOT/ENDROOT`原子块一般出现在PDBQT文件中的首部。如果我们想把配体的某部分作为刚性处理，则在其前后加上`ROOT/ENDROOT`标签即可。
+  * 配体可选择部分包含于`BRANCH/ENDBRANCH`记录中间。`BRANCH`和`ENDBRANCH`记录行包含两个空格分开的数字，代表可旋转的键连接的第一个和第二个原子的编号。`BRANCH/ENDBRANCH`记录中间的记录旋转键中间的`ATOM/HETATM`记录。另外`BRANCH/ENDBRANCH`记录可以嵌套。
+  * 配体PDBQT文件的最后一行为`TORSDOF`记录。这个记录包含一个整数，代表配体自由扭转度，这一值不依赖于可旋转的键的数目，而是取决于前述记录。【注:最后半句未理解，选择直译，请参照原文理解】
 
 ```
 REMARK  14 active torsions:
@@ -1031,6 +1021,7 @@ yum install openbabel-2.2.3-1.el6.x86_64
 ### 参考
 
 * Detailed tutorial <http://sbcb.bioch.ox.ac.uk/users/greg/teaching/docking-2012.html>
+* Detailed command line tutorial (not read yet) <http://sebastianraschka.com/Articles/2014_autodock_energycomps.html#1-preparing-a-protein>
 * 官方文档 <http://vina.scripps.edu>
 * PyMOL操作手册 <https://pymolwiki.org/index.php/Practical_Pymol_for_Beginners>
 * PyMOL APBS <https://pymolwiki.org/index.php/APBS>
