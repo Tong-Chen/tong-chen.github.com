@@ -33,6 +33,9 @@ tags:
 
 #### Local tools
 
+* 2-8 Venn Diagrams (proportional, nested, powerful)
+	* <https://github.com/linguoliang/VennPainter>
+
 * 2-6 Venn Diagrams (proportional)
 	* <http://sysbio.uni-ulm.de/?Software:VennMaster>
 
