@@ -100,6 +100,7 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: true
   hard_wrap: false
+  input: GFM
 
   coderay:
     coderay_line_numbers: nil
