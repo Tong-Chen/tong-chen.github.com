@@ -14,10 +14,7 @@ Docker的基本使用请参考 <{{ site.url }}/2016/07/docker/>。
 
 ### 基本使用
 
-官方未提供LAMP的镜像，搜索了下, 发现推荐使用
-[`tutum/lamp`](https://hub.docker.com/r/tutum/lamp/)的帖子最多，
-且在Docker hub上评分较高，故这里也用这个做为示例。运行`docker search
-lamp`获得其它LAMP相关镜像。
+官方未提供LAMP的镜像，搜索了下, 发现推荐使用[`tutum/lamp`](https://hub.docker.com/r/tutum/lamp/)的帖子最多，且在Docker hub上评分较高，故这里也用这个做为示例。运行`docker search lamp`获得其它LAMP相关镜像。
 
 运行`docker pull tutum/lamp`获取LAMP镜像。
 
@@ -28,9 +25,7 @@ lamp`获得其它LAMP相关镜像。
 
   * 因为作为测试用，所以加了`--rm`；若做daemon, 替换其为`-d`。
 
-在宿主机上再打开一个新的终端，运行`curl http://127.0.0.1:8080`就可以探
-测到LAMP镜像中运行的网页服务器了。如果有外网访问权限或设置了SSH tunnel，
-则可在浏览器中测试。
+在宿主机上再打开一个新的终端，运行`curl http://127.0.0.1:8080`就可以探测到LAMP镜像中运行的网页服务器了。如果有外网访问权限或设置了SSH tunnel，则可在浏览器中测试。
 
 ### 挂载自己的网站到LAMP镜像
 	
@@ -50,9 +45,7 @@ lamp`获得其它LAMP相关镜像。
   
   运行`docker build -t docker_hub_username/lamp-self .`创建新的映像。
 
-  注：在我们得到一个镜像后，可以使用`docker history --no-trunc=true
-  tutum/lamp`来查看这个镜像的生成历史，获得类似于Dockerfile的文件，
-  然后增加或者覆盖想要的操作。
+  注：在我们得到一个镜像后，可以使用`docker history --no-trunc=true tutum/lamp`来查看这个镜像的生成历史，获得类似于Dockerfile的文件，然后增加或者覆盖想要的操作。
 
   ```
   IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
