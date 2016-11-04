@@ -105,6 +105,7 @@ kramdown:
   coderay_bold_every: 10
   coderay_css: class
   hard_wrap: false
+  input: GFM
 
 # Octopress
 # Default extensions
