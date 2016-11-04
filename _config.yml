@@ -94,7 +94,7 @@ paginate: 5
 float_share: false
 
 kramdown:
-  auto_ids: false
+  auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
@@ -102,7 +102,7 @@ kramdown:
 
 
   coderay:
-    coderay_line_numbers: nil
+    coderay_line_numbers: ''
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
