@@ -1,11 +1,7 @@
 ---
-title: Basic LAMP usages
+title: Tips
 author: ct
-layout: post
-categories:
-  - Docker
-tags:
-  - Docker
+layout: page
 ---
 
 
@@ -32,5 +28,18 @@ A: lsof -Pnl +M -i4
 Q: R包安装的位置
 A: /usr/lib64/R/library
 
+Q: Markdown中给图片增加标题
+A: [如下代码]{http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll}
 
+```markdown
+![](path_to_image)
+*image_caption*
+```
+
+```html
+<p>
+    <img src="path_to_image" alt>
+	<em>image_caption</em>
+</p>
+```
 

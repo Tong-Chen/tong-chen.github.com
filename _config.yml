@@ -29,13 +29,13 @@ menu:
   - title: 'Cat.'
     url: '/categories'
 
-#  - title: 'Favorites'
-#    url: '#'
-#    submenu:
-#      - title: 'Code Highlighter'
-#        url: '/intro/code-highlighting-post/'
-#      - title: 'Sample Post'
-#        url: '/intro/sample-post/'
+  - title: 'Collections'
+    url: '#'
+    submenu:
+      - title: 'How to build this site'
+        url: '/collections/tutorial/'
+      - title: 'Tips'
+        url: '/collections/tips/'
 
 # Owner/author information
 owner:
