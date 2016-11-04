@@ -95,8 +95,22 @@ img {
 // Full width tables
 // -------------------------
 table {
-  width: 100%;
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: atuo;
 }
+
+table th {
+  font-weight: bold; 
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+table tr:last-child td {
+  border-bottom: 1px solid;
+}
+
 
 // Prevent max-width from affecting Google Maps
 #map_canvas img,
