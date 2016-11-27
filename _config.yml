@@ -22,8 +22,6 @@ menu:
     url: '/'
   - title: 'About'
     url: '/about'
-  - title: 'T'
-    url: '/tutorial'
   - title: 'Tags'
     url: '/tags'
   - title: 'Cat.'
@@ -34,8 +32,16 @@ menu:
     submenu:
       - title: 'How to build this site'
         url: '/collections/tutorial/'
-      - title: 'Tips'
-        url: '/collections/tips/'
+      - title: 'Linux_Tips'
+        url: '/collections/Linux_tips/'
+      - title: 'Markdown_Tips'
+        url: '/collections/Markdown_tips/'
+      - title: 'Py_Tips'
+        url: '/collections/py_tips/'
+      - title: 'R_Tips'
+        url: '/collections/R_tips/'
+      - title: 'Other_Tips'
+        url: '/collections/other_tips/'
 
 # Owner/author information
 owner:
