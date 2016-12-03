@@ -94,7 +94,7 @@ sass:
 permalink:   /:year/:month/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 1
 
 # if true, shows the floatting share buttons
 float_share: false
