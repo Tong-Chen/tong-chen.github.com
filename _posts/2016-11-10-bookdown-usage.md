@@ -38,7 +38,6 @@ The content of `_build.sh` is:
 
 ```
 #!/bin/sh
-
 Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 ```
 
@@ -54,11 +53,22 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 * 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。
 * 在第一个出现的`Rmd`文件中，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等
   
+  ~~~~
   ```
   title: "My book"
-  author: "CT"
+  author: 
+  - "CT"
+  - "CY"
+  - "chentong_biology@163.com"
   date: "`r Sys.Date()`"
   ```
+
+  ```{r setup,   include=FALSE}
+  knitr::opts_chunk$set(echo = FALSE, fig.align="center", out.width="95%", fig.pos='H')
+  # knitr::opts_chunk$set(cache = FALSE, autodep=TRUE)
+  set.seed(0304)
+  ```
+  ~~~~~~~~~~
 
 ##### 插入并引用图片(外部图片)
 
@@ -68,22 +78,18 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 
 多张图可以同时展示，图的名字以vector形式传给`include_graphics`，需要设置`out.width=1/number-pics` 和 `fig.show="hold"`。
 
-```
+~~~~
 Ref Figure \@ref(fig:fig-name).
-
 # Single pic
-
-\`\`\`{r fig-name,  fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
+```{r fig-name,  fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
 knitr::include_graphics("images/1.png")
-\`\`\`
+```
 
 # Multiple pics
-
-\`\`\`{r fig-name2,  out.width="49%", fig.show="hold", fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
+```{r fig-name2,  out.width="49%", fig.show="hold", fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
 knitr::include_graphics(c("images/1.png", "images/2.png"))
-\`\`\`
-
 ```
+~~~~~~~~~~~~~~~~~~~~
 
 ##### 插入并引用表格(外部表格)
 
