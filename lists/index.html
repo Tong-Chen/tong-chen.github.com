@@ -9,7 +9,7 @@ share: false
 <div class="entry-content">
 	<div id="toc" style="display: block;">
 		<ol class="lorem ipsum">
-			{% for post in paginator.posts %}
+			{% for post in site.posts %}
 				<li class="dolor sit amet">
 				<a href={{ site.url }}{{ post.url }}>{{ post.title }}</a>
 				</li>	
