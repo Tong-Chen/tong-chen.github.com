@@ -26,8 +26,9 @@ menu:
     url: '/tags'
   - title: 'Cat.'
     url: '/categories'
-
-  - title: 'Collections'
+  - title: 'Lists'
+    url: '/lists'  
+  - title: 'Tips'
     url: '#'
     submenu:
       - title: 'How to build this site'
@@ -42,6 +43,8 @@ menu:
         url: '/collections/R_tips/'
       - title: 'Other_Tips'
         url: '/collections/other_tips/'
+      - title: 'Links'
+        url: '/collections/Links/'
 
 # Owner/author information
 owner:
