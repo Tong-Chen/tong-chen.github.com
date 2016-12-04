@@ -39,6 +39,7 @@ The content of `_build.sh` is:
 ```
 #!/bin/sh
 Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 ```
 
 ### Customize our bookdown
@@ -50,7 +51,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 * 一个典型的`bookdown`文档包含多个章节，每个章节在一个`R Markdown`文件里面 (文件的语法可以是`pandoc`支持的`markdown`语法，但后缀必须为`Rmd`)。
 * 每一个章节都必须以`# Chapter title`开头。后面可以跟一段概括性语句，概述本章的内容，方便理解，同时也防止二级标题出现在这一页。默认系统会按照文件名的顺序合并`Rmd`文件。
 * 另外章节的顺序也可在`_bookdown.yml`文件中通过`rmd_files:["file1.Rmd", "file2.Rmd", ..]`指定。
-* 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。
+* 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。通常index.Rmd里面也需要有一章节，如果不需要对这一章节编号的话，可以写作`# Preface {-}`。
 * 在第一个出现的`Rmd`文件中，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等
   
   ~~~~
@@ -109,7 +110,35 @@ T8_2        37,106,941   5,566,034,285 138-150                              47 S
 ----------------------------------------------------------------------
 ```
 
+#### 准备YML配置文件
 
+##### _bookdown.yml
+
+```
+book_filename: "输出文件的名字" 
+language:
+  ui:
+      chapter_name: "" 
+```
+
+##### _output.yml
+
+```
+bookdown::pdf_book:
+  template: ehbio.tex #使用自己定制的pandoc latex模板
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: | #设置toc开头和结尾的链接
+          <li><a href="http://www.ehbio.com"><img src="ehbio_logo.png" width="100%"></a></li>
+      after: |
+          <li><a href="mailto:ct@ehbio.com" target="blank">ct@ehbio.com</a></li>
+```
 
 #### 其它定制
 
