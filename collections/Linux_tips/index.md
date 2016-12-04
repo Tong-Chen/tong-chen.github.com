@@ -87,3 +87,35 @@ layout: page
      
      Please refer [here](http://bbs.bestsdk.com/detail/762.html) to `SET GLOBAL validate_password_policy='LOW';`。
 
+6. centos安装pandoc，pandoc-citeproc
+
+   ```r
+   #make sure libgmp.so.10 in LD_LIBRARY_PATH
+   #locate libgmp.so.10
+   #Add path of libgmp.so.10 to file /etc/ld.so.conf
+   #ldconfig -v
+
+   # Install stack
+   curl -sSL https://get.haskellstack.org/ | sh
+   stack setup
+   # cable install cpphs
+   cabal install cpphs
+   
+   #Clone and install
+   mkdir pandoc-build
+   cd pandoc-build
+   git clone https://github.com/jgm/pandoc-types
+   git clone https://github.com/jgm/texmath
+   git clone https://github.com/jgm/pandoc-citeproc
+   git clone https://github.com/jgm/pandoc
+   git clone https://github.com/jgm/cmark-hs
+   git clone https://github.com/jgm/zip-archive
+   cd pandoc
+   git submodule update --init
+   stack install --test --install-ghc --stack-yaml stack.full.yaml
+   
+   # pandoc and pandoc-citeproc will be installed to /root/.local/bin
+   # add this directory to PATH 
+   ```
+
+   To pull in the latest changes,  after you’ve done this and there have been changes in the repositories: Visit `each repository` in `pandoc-build` (pandoc-types, texmath, pandoc-citeproc, pandoc, zip-archive, cmark-hs) and do `git pull`. In the pandoc repo,  also do `git submodule update` and `stack install --test --stack-yaml stack.full.yaml`.)
