@@ -14,15 +14,11 @@ Here lists the usage of [`bookdown`](https://bookdown.org/yihui/bookdown/get-sta
 
 #### Install required software
 
-##### EITHER-OR operation
+Rstudio或Pandc二选一, `bookdown`必须安装。
 
 * Install [`Rstudio (version>1.0.0)`](https://www.rstudio.com/products/rstudio/download/)
 
-OR 
-
 * Install [`Pandoc (version>1.17.0.2)`](www.pandoc.org)
-
-##### Main star
 
 * In R `install.packages("bookdown")`
 
@@ -205,6 +201,11 @@ bookdown::gitbook:
     html: ["file1.Rmd", "file2".Rmd]
 	latex: ["file1.Rmd", "file3".Rmd]
   ```
+
+### 预览生成的WEB文件
+
+如果没有安装Rstudio，可以在生成的book目录下(有`index.html`)的目录下运行`python -m SimpleHTTPServer 11521`(11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
+
 
 ### References
 
