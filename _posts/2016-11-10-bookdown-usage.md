@@ -52,16 +52,21 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 * 每一个章节都必须以`# Chapter title`开头。后面可以跟一段概括性语句，概述本章的内容，方便理解，同时也防止二级标题出现在这一页。默认系统会按照文件名的顺序合并`Rmd`文件。
 * 另外章节的顺序也可在`_bookdown.yml`文件中通过`rmd_files:["file1.Rmd", "file2.Rmd", ..]`指定。
 * 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。通常index.Rmd里面也需要有一章节，如果不需要对这一章节编号的话，可以写作`# Preface {-}`。
-* 在第一个出现的`Rmd`文件中，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等
+* 在第一个出现的`Rmd`文件中，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等(去掉#及其后的内容)。
   
   ~~~~
   ```
   title: "My book"
-  author: 
+  author: #可以写多行信息，都会被当做Author处理
   - "CT"
   - "CY"
   - "chentong_biology@163.com"
   date: "`r Sys.Date()`"
+  documentclass: article #可以为book或article
+  # 如果需要引用参考文献，则添加下面三行内容
+  bibliography: [database.bib]  #指定存储参考文献的bib文件，endote或zotero都可以导出这种引文格式
+  biblio-style: apalike  #设定参考文献显示类型
+  link-citations: yes
   ```
 
   ```{r setup,   include=FALSE}
@@ -75,7 +80,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
 插入图片最好使用`knitr::include_graphics`，可以同时适配HTML和PDF输出。另外当目录下同时存在`png`和`pdf`文件时，会自动选择在HTML展示`png`文件，在`PDF`输出中引入`pdf`格式的文件。
 
-图的题目为`fig-name`，在引用时需使用如下格式`\@ref(fig:<here is fig-name>)`。
+图的名字为`fig-name`，在引用时需使用如下格式`\@ref(fig:<here is fig-name>)`。名字中不能有下划线。
 
 多张图可以同时展示，图的名字以vector形式传给`include_graphics`，需要设置`out.width=1/number-pics` 和 `fig.show="hold"`。
 
@@ -94,7 +99,7 @@ knitr::include_graphics(c("images/1.png", "images/2.png"))
 
 ##### 插入并引用表格(外部表格)
 
-外部表格的名字中必须包含`tab:`, 后面跟着的是表格的实际名字，格式未`(\#tab:table-name)`; 引用时使用`Table \@ref(tab:table-name)`。 
+外部表格的名字中必须包含`tab:`, 后面跟着的是表格的实际名字，格式未`(\#tab:table-name)`; 引用时使用`Table \@ref(tab:table-name)`。 表格名字中不能有下划线。
 
 ```
 Check Table \@ref(tab:label) for detail.
@@ -110,12 +115,44 @@ T8_2        37,106,941   5,566,034,285 138-150                              47 S
 ----------------------------------------------------------------------
 ```
 
+##### 插入并引用表格(内部表格)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```{r table-id, include=FALSE}
+a <- as.data.frame(matrix(rnorm(20), nrow=4))
+knitr::kable(a, caption="Test table",  booktabs=TRUE)
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+##### 插入引文
+
+假如我们的`bib`文件中内容如下，如果我们要引用这个文章，只要写 `[@guo_transcriptome_2015]`就可以了。
+
+```
+
+@article{guo_transcriptome_2015,
+	title = {The {Transcriptome} and {DNA} {Methylome} {Landscapes} of {Human} {Primordial} {Germ} {Cells}},
+	volume = {161},
+	issn = {1097-4172},
+	doi = {10.1016/j.cell.2015.05.015},
+	language = {eng},
+	number = {6},
+	journal = {Cell},
+	author = {Guo, Fan and Yan, Liying and Guo, Hongshan and Li, Lin and Hu, Boqiang and Zhao, Yangyu and Yong, Jun and Hu, Yuqiong and Wang, Xiaoye and Wei, Yuan and Wang, Wei and Li, Rong and Yan, Jie and Zhi, Xu and Zhang, Yan and Jin, Hongyan and Zhang, Wenxin and Hou, Yu and Zhu, Ping and Li, Jingyun and Zhang, Ling and Liu, Sirui and Ren, Yixin and Zhu, Xiaohui and Wen, Lu and Gao, Yi Qin and Tang, Fuchou and Qiao, Jie},
+	month = jun,
+	year = {2015},
+	pmid = {26046443},
+	pages = {1437--1452}
+}
+```
+
 #### 准备YML配置文件
 
 ##### _bookdown.yml
 
 ```
 book_filename: "输出文件的名字" 
+output_dir: "输出目录的名字，默认_book"
 language:
   ui:
       chapter_name: "" 
