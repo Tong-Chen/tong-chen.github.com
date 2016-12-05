@@ -126,19 +126,38 @@ language:
 ```
 bookdown::pdf_book:
   template: ehbio.tex #使用自己定制的pandoc latex模板
+  includes: # or only customize part latex module
+    in_header: preamble.tex
+    before_body: latex/before_body.tex
+    after_body: latex/after_body.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
-bookdown::epub_book: default
+  pandoc_args: --chapters
+  toc_depth: 3
+  toc_unnumbered: no
+  toc_appendix: yes
+  quote_footer: ["\\VA{", "}{}"]
+bookdown::epub_book:
+  stylesheet: css/style.css
 bookdown::gitbook:
   css: style.css
+  split_by: section
   config:
     toc:
+      collapse: none
       before: | #设置toc开头和结尾的链接
           <li><a href="http://www.ehbio.com"><img src="ehbio_logo.png" width="100%"></a></li>
       after: |
           <li><a href="mailto:ct@ehbio.com" target="blank">ct@ehbio.com</a></li>
+    download: [pdf, epub, mobi]
+    edit: https://github.com/rstudio/bookdown/edit/master/inst/examples/%s
+    sharing:
+	  twitter: no
+      github: no
+      facebook: no
 ```
+
 
 #### 其它定制
 
