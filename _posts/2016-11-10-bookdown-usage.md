@@ -14,11 +14,11 @@ Here lists the usage of [`bookdown`](https://bookdown.org/yihui/bookdown/get-sta
 
 #### Install required software
 
-Rstudio或Pandc二选一, `bookdown`必须安装。
+`Rstudio`或`Pandoc`二选一, `bookdown`必须安装。
 
 * Install [`Rstudio (version>1.0.0)`](https://www.rstudio.com/products/rstudio/download/)
 
-* Install [`Pandoc (version>1.17.0.2)`](www.pandoc.org)
+* Install [`Pandoc (version>1.17.0.2)`](http://www.pandoc.org)或者参照[here]({{ site.url }}/collections/Linux_tips)
 
 * In R `install.packages("bookdown")`
 
@@ -197,9 +197,15 @@ bookdown::gitbook:
 * 不同的文件分别用于`html`和`pdf`输出
  
   ```
+  # in _bookdown.yml 
   rmd_files:
-    html: ["file1.Rmd", "file2".Rmd]
-	latex: ["file1.Rmd", "file3".Rmd]
+    html: ["index.Rmd", "file2.Rmd"]
+	latex: ["index_pdf.Rmd", "file3.Rmd"]
+  # Different render way
+
+  #!/bin/sh
+  Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+  Rscript -e "bookdown::render_book('index_pdf.Rmd', 'bookdown::pdf_book')"
   ```
 
 ### 预览生成的WEB文件
