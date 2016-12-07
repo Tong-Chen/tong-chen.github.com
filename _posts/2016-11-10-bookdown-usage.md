@@ -85,6 +85,9 @@ Ref Figure \@ref(fig:fig-name).
 # Single pic
 ```{r fig-name,  fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
 knitr::include_graphics("images/1.png")
+#fig1 = list.files("images", pattern="Fig1_.*", full.names=T)
+#knitr::include_graphics(fig1)
+
 ```
 
 # Multiple pics
@@ -119,6 +122,14 @@ a <- as.data.frame(matrix(rnorm(20), nrow=4))
 knitr::kable(a, caption="Test table",  booktabs=TRUE)
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+##### 插入脚注
+
+`text^[footnote]` is used to get the footnote.
+
+```
+where `type` may be `article`,  `book`,  `manual`,  and so on.^[The type name is case-insensitive,  so it does not matter if it is `manual`,  `Manual`,  or `MANUAL`.]
+```
 
 ##### 插入引文
 
@@ -208,6 +219,38 @@ bookdown::gitbook:
   Rscript -e "bookdown::render_book('index_pdf.Rmd', 'bookdown::pdf_book')"
   ```
 
+* 自适应`HTML`和`PDF`输出
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ```{r setup, include=FALSE}
+  library(knitr)
+  output <- opts_knit$get("rmarkdown.pandoc.to")
+  html = FALSE
+  latex = FALSE
+  opts_chunk$set(echo = FALSE, fig.align="center", fig.show="hold")
+  if (output=="html") {
+  	html = TRUE
+  }
+  if (output=="latex") {
+  	opts_chunk$set(out.width="95%", out.height='0.7\\textheight', out.extra='keepaspectratio', fig.pos='H')
+  	latex = FALSE
+  }
+  #knitr::opts_chunk$set(cache = FALSE,  autodep=TRUE)
+  set.seed(0304)
+  ```
+  
+  ```{asis, echo=html}
+  
+  # EHBIO Gene Technology {-}
+  
+  ```
+  
+  ```{r cover, eval=html, out.width="99%"}
+  knitr::include_graphics("ehbio/cover.png")
+  
+  ```
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ### 预览生成的WEB文件
 
 如果没有安装Rstudio，可以在生成的book目录下(有`index.html`)的目录下运行`python -m SimpleHTTPServer 11521`(11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
@@ -217,3 +260,7 @@ bookdown::gitbook:
 
 * <https://bookdown.org/yihui/bookdown/get-started.html>
 * <https://github.com/rstudio/bookdown/tree/master/inst/examples>
+* <http://stackoverflow.com/questions/25236850/how-to-set-different-global-options-in-knitr-and-rstudio-for-word-and-html>
+* Multiple output with different configs <https://github.com/yihui/knitr/issues/1145>
+* Multiple output with different configs <https://github.com/yihui/knitr/issues/114://github.com/rstudio/rmarkdown/issues/614>
+* Citation style <http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html>
