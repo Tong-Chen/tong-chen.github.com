@@ -47,7 +47,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 * 一个典型的`bookdown`文档包含多个章节，每个章节在一个`R Markdown`文件里面 (文件的语法可以是`pandoc`支持的`markdown`语法，但后缀必须为`Rmd`)。
 * 每一个章节都必须以`# Chapter title`开头。后面可以跟一段概括性语句，概述本章的内容，方便理解，同时也防止二级标题出现在这一页。默认系统会按照文件名的顺序合并`Rmd`文件。
 * 另外章节的顺序也可在`_bookdown.yml`文件中通过`rmd_files:["file1.Rmd", "file2.Rmd", ..]`指定。
-* 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。通常index.Rmd里面也需要有一章节，如果不需要对这一章节编号的话，可以写作`# Preface {-}`。
+* 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。通常index.Rmd里面也需要有一章节，如果不需要对这一章节编号的话，可以写作`# Preface {-}`, 关键是`{-}`。
 * 在第一个出现的`Rmd`文件中，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等(去掉#及其后的内容)。
   
   ~~~~
@@ -65,7 +65,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
   link-citations: yes
   ```
 
-  ```{r setup,   include=FALSE}
+  ```{r setup, include=FALSE}
   knitr::opts_chunk$set(echo = FALSE, fig.align="center", out.width="95%", fig.pos='H')
   # knitr::opts_chunk$set(cache = FALSE, autodep=TRUE)
   set.seed(0304)
@@ -74,23 +74,28 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
 ##### 插入并引用图片(外部图片)
 
-插入图片最好使用`knitr::include_graphics`，可以同时适配HTML和PDF输出。另外当目录下同时存在`png`和`pdf`文件时，会自动选择在HTML展示`png`文件，在`PDF`输出中引入`pdf`格式的文件。
+插入图片最好使用`knitr::include_graphics`，可以同时适配HTML和PDF输出。另外当目录下同时存在`name1.png`和`name1.pdf`文件时，会自动选择在HTML展示`name1.png`文件，在`PDF`输出中引入`name1.pdf`格式的文件。
 
-图的名字为`fig-name`，在引用时需使用如下格式`\@ref(fig:<here is fig-name>)`。名字中不能有下划线。
+图的标签为`fig-name`(不能有下划线)，在引用时需使用如下格式`\@ref(fig:fig-name)`，且`fig.cap`也要设置内容。
 
 多张图可以同时展示，图的名字以vector形式传给`include_graphics`，需要设置`out.width=1/number-pics` 和 `fig.show="hold"`。
 
 ~~~~
-Ref Figure \@ref(fig:fig-name).
-# Single pic
-```{r fig-name,  fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
-knitr::include_graphics("images/1.png")
-#fig1 = list.files("images", pattern="Fig1_.*", full.names=T)
-#knitr::include_graphics(fig1)
+Insert a single pic and refer as Figure \@ref(fig:fig-name). `echo=FALSE` will hide the code block and display the output of `r` command only. These options can be set globally as indicated below.
 
+```{r fig-name, fig.cap="Markdown supported string as caption", fig.align="center", echo=FALSE}
+knitr::include_graphics("images/1.png")
 ```
 
-# Multiple pics
+Suppose we have 3 pictures in `images` folder with names as `Fig1_a`, `Fig1_b`,  `Fig1_c`,  we can refer to them using Figure \@ref(fig:fig1).
+
+```{r fig1, fig.cap="3 sub-plots.", fig.align="center", out.width=33%, fig.show="hold"}
+fig1 = list.files("images", pattern="Fig1_.*", full.names=T)
+knitr::include_graphics(fig1)
+```
+
+Another way of including two pics.
+
 ```{r fig-name2,  out.width="49%", fig.show="hold", fig.cap="Markdown supported string as caption",  fig.align="center", echo=FALSE}
 knitr::include_graphics(c("images/1.png", "images/2.png"))
 ```
@@ -98,12 +103,12 @@ knitr::include_graphics(c("images/1.png", "images/2.png"))
 
 ##### 插入并引用表格(外部表格)
 
-外部表格的名字中必须包含`tab:`, 后面跟着的是表格的实际名字，格式未`(\#tab:table-name)`; 引用时使用`Table \@ref(tab:table-name)`。 表格名字中不能有下划线。
+外部表格的名字中必须包含`tab:`, 然后是表格的实际名字，格式为`(\#tab:table-name)`; 引用时使用`Table \@ref(tab:table-name)`。 表格名字中不能有下划线。
 
 ```
-Check Table \@ref(tab:label) for detail.
+Check Table \@ref(tab:seq-sum) for detail.
 
-Table: (\#tab:label) Summary of sequencing reads 测序量总结 (对于双端测序,  *\_1* 表示左端reads, *\_2* 表示右端reads) 
+Table: (\#tab:seq-sum) Summary of sequencing reads 测序量总结 (对于双端测序,  *\_1* 表示左端reads, *\_2* 表示右端reads) 
 
 ----------------------------------------------------------------------
 Sample     Total reads     Total bases Sequence length (nt)     GC content (%) Encoding               
@@ -116,7 +121,12 @@ T8_2        37,106,941   5,566,034,285 138-150                              47 S
 
 ##### 插入并引用表格(内部表格)
 
+插入表格推荐使用`knitr::kable`，只要提供数据矩阵，用`r`读取就可以了。
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Check Table \@ref(tab:table-id) for detail.
+
 ```{r table-id, include=FALSE}
 a <- as.data.frame(matrix(rnorm(20), nrow=4))
 knitr::kable(a, caption="Test table",  booktabs=TRUE)
@@ -157,6 +167,8 @@ where `type` may be `article`,  `book`,  `manual`,  and so on.^[The type name is
 
 ##### _bookdown.yml
 
+配置输入和输出文件参数。
+
 ```
 book_filename: "输出文件的名字" 
 output_dir: "输出目录的名字，默认_book"
@@ -166,6 +178,8 @@ language:
 ```
 
 ##### _output.yml
+
+配置产生输出文件的命令行参数。
 
 ```
 bookdown::pdf_book:
@@ -212,14 +226,14 @@ bookdown::gitbook:
   rmd_files:
     html: ["index.Rmd", "file2.Rmd"]
 	latex: ["index_pdf.Rmd", "file3.Rmd"]
-  # Different render way
 
+  # Different render way
   #!/bin/sh
   Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
   Rscript -e "bookdown::render_book('index_pdf.Rmd', 'bookdown::pdf_book')"
   ```
 
-* 自适应`HTML`和`PDF`输出
+* 配置全局变量自适应`HTML`和`PDF`输出
 
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   ```{r setup, include=FALSE}
@@ -233,28 +247,34 @@ bookdown::gitbook:
   }
   if (output=="latex") {
   	opts_chunk$set(out.width="95%", out.height='0.7\\textheight', out.extra='keepaspectratio', fig.pos='H')
-  	latex = FALSE
+  	latex = TRUE
   }
   #knitr::opts_chunk$set(cache = FALSE,  autodep=TRUE)
   set.seed(0304)
   ```
   
+  Below text will only appear in HTML output.
+
   ```{asis, echo=html}
   
   # EHBIO Gene Technology {-}
   
   ```
   
+  Below command will only be executed and displayed in HTML output.
+
   ```{r cover, eval=html, out.width="99%"}
   knitr::include_graphics("ehbio/cover.png")
-  
   ```
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### 预览生成的WEB文件
 
-如果没有安装Rstudio，可以在生成的book目录下(有`index.html`)的目录下运行`python -m SimpleHTTPServer 11521`(11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
+如果没有安装Rstudio，可以在生成的book目录(有`index.html`的目录)下运行`python -m SimpleHTTPServer 11521`(11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
 
+### A template Rmd
+
+Use [bookdown_init_general.py -o test -t '我的文档' -a " 作者1 - 北京;2 - 南京;1521082" -b a.bib](https://github.com/Tong-Chen/NGS/blob/master/bookdown_init_general.py) to generate a minimal template.
 
 ### References
 
