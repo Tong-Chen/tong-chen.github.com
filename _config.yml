@@ -41,6 +41,8 @@ menu:
         url: '/collections/py_tips/'
       - title: 'R_Tips'
         url: '/collections/R_tips/'
+      - title: 'CSS_Tips'
+        url: '/collections/css_tips/'
       - title: 'Other_Tips'
         url: '/collections/other_tips/'
       - title: 'Links'
