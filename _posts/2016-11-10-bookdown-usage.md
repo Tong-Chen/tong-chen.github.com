@@ -143,23 +143,25 @@ where `type` may be `article`,  `book`,  `manual`,  and so on.^[The type name is
 
 ##### 插入引文
 
-假如我们的`bib`文件中内容如下，如果我们要引用这个文章，只要写 `[@guo_transcriptome_2015]`就可以了。
+假如我们的`bib`文件中内容如下，如果我们要引用这个文章，只要写 `[@chen_m6a_2015]`就可以了。
 
 ```
 
-@article{guo_transcriptome_2015,
-	title = {The {Transcriptome} and {DNA} {Methylome} {Landscapes} of {Human} {Primordial} {Germ} {Cells}},
-	volume = {161},
-	issn = {1097-4172},
-	doi = {10.1016/j.cell.2015.05.015},
-	language = {eng},
-	number = {6},
-	journal = {Cell},
-	author = {Guo, Fan and Yan, Liying and Guo, Hongshan and Li, Lin and Hu, Boqiang and Zhao, Yangyu and Yong, Jun and Hu, Yuqiong and Wang, Xiaoye and Wei, Yuan and Wang, Wei and Li, Rong and Yan, Jie and Zhi, Xu and Zhang, Yan and Jin, Hongyan and Zhang, Wenxin and Hou, Yu and Zhu, Ping and Li, Jingyun and Zhang, Ling and Liu, Sirui and Ren, Yixin and Zhu, Xiaohui and Wen, Lu and Gao, Yi Qin and Tang, Fuchou and Qiao, Jie},
-	month = jun,
+@article{chen_m6a_2015,
+	title = {m6A {RNA} {Methylation} {Is} {Regulated} by {MicroRNAs} and {Promotes} {Reprogramming} to {Pluripotency}},
+	volume = {16},
+	issn = {1934-5909, 1875-9777},
+	url = {http://www.cell.com/cell-stem-cell/abstract/S1934-5909(15)00017-X},
+	doi = {10.1016/j.stem.2015.01.016},
+	language = {English},
+	number = {3},
+	urldate = {2016-12-08},
+	journal = {Cell Stem Cell},
+	author = {Chen, Tong and Hao, Ya-Juan and Zhang, Ying and Li, Miao-Miao and Wang, Meng and Han, Weifang and Wu, Yongsheng and Lv, Ying and Hao, Jie and Wang, Libin and Li, Ang and Yang, Ying and Jin, Kang-Xuan and Zhao, Xu and Li, Yuhuan and Ping, Xiao-Li and Lai, Wei-Yi and Wu, Li-Gang and Jiang, Guibin and Wang, Hai-Lin and Sang, Lisi and Wang, Xiu-Jie and Yang, Yun-Gui and Zhou, Qi},
+	month = mar,
 	year = {2015},
-	pmid = {26046443},
-	pages = {1437--1452}
+	pmid = {25683224},
+	pages = {289--301},
 }
 ```
 
