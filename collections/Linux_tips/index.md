@@ -7,7 +7,7 @@ layout: page
 
 ### 记录无法归类的小问题及解决方法
 
-1. Windows下转换的UTF-8文件通常为UTF-8 BOM, 文件的行首存在字符`<U+FEFF>`，怎么查看和去除？
+1. Windows下转换的UTF-8文件通常为UTF-8 BOM, 文件的行首存在字符G，怎么查看和去除？
 
    在vim中执行`:set nobomb` and `:wq` 或在终端执行 `perl -pi~ -CSD -e 's/^\x{fffe}//' file`
    
@@ -89,7 +89,7 @@ layout: page
 
 6. centos安装pandoc，pandoc-citeproc
 
-   ```r
+   ```bash
    #make sure libgmp.so.10 in LD_LIBRARY_PATH
    #locate libgmp.so.10
    #Add path of libgmp.so.10 to file /etc/ld.so.conf
@@ -119,3 +119,44 @@ layout: page
    ```
 
    To pull in the latest changes,  after you’ve done this and there have been changes in the repositories: Visit `each repository` in `pandoc-build` (pandoc-types, texmath, pandoc-citeproc, pandoc, zip-archive, cmark-hs) and do `git pull`. In the pandoc repo,  also do `git submodule update` and `stack install --test --stack-yaml stack.full.yaml`.)
+
+7. 添加用户并root权限
+
+   ```bash
+   adduser username
+   passwd username
+
+   赋予权限
+   # /etc/sudoers
+   # /etc/passwd
+   ```
+
+8. Apache配置权限
+
+   ```bash
+
+   # Modify config file to allow .htaccess
+   # /etc/httpd/conf/httpd.conf
+   <Directory "/var/www/html">
+   ------
+   #Add following line
+   AllowOverride AuthConfig
+   </Directory>
+   ```
+
+   Restart server `apachectl restart`
+
+   ```bash
+   # In the folder which accesss wanted to be controlled
+   # create .htaccess with following content
+   # make sre .htpasswd not in same dir as .htaccess 
+
+   AuthType Basic
+   AuthName "Please contact administrator for more information!!!"  
+   AuthUserFile /dir/.htpasswd
+   Require valid-user
+    
+   ```
+
+   Generate `.htpasswd` with command `htpasswd -cmb /dir/.htpasswd username userpasswd`.
+
