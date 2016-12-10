@@ -80,6 +80,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
 多张图可以同时展示，图的名字以vector形式传给`include_graphics`，需要设置`out.width=1/number-pics` 和 `fig.show="hold"`。
 
+
 ~~~~
 Insert a single pic and refer as Figure \@ref(fig:fig-name). `echo=FALSE` will hide the code block and display the output of `r` command only. These options can be set globally as indicated below.
 
@@ -100,6 +101,19 @@ Another way of including two pics.
 knitr::include_graphics(c("images/1.png", "images/2.png"))
 ```
 ~~~~~~~~~~~~~~~~~~~~
+
+如果图或表的标题中有Markdown语法，输出为HTML时是可以正确解析的，但是输出为PDF时却不可以。这时可以使用`Text Reference`。当图或表的标题太长时，也可以使用`Text Reference`引用一段话作为图和表的标题。
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Here is normal text.
+
+(ref:pic-label) This line can be referred in **fig.cap** and markdown syntax is supported for both `HTML` and `PDF` output.
+
+```r{pic-label, fig.cap="(ref:pic-label)"}
+knitr::include_graphics("images/1.png")
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ##### 插入并引用表格(外部表格)
 
