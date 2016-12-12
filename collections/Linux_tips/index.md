@@ -147,16 +147,17 @@ layout: page
    Restart server `apachectl restart`
 
    ```bash
-   # In the folder which accesss wanted to be controlled
+   # In the folder which access wanted to be controlled
    # create .htaccess with following content
-   # make sre .htpasswd not in same dir as .htaccess 
+   # make sure .htpasswd_label not in same dir as .htaccess 
+   # require: can specify username; valid-user meaning all users in .htpasswd can have access
 
    AuthType Basic
    AuthName "Please contact administrator for more information!!!"  
-   AuthUserFile /dir/.htpasswd
-   Require valid-user
-    
+   AuthUserFile /dir/.htpasswd_label  
+   require valid-user #
    ```
 
-   Generate `.htpasswd` with command `htpasswd -cmb /dir/.htpasswd username userpasswd`.
+   Generate `.htpasswd_label` with command `htpasswd -cmb /dir/.htpasswd_label username userpasswd`. Apache下以`.ht`开头的文件不会被外部读取，安全性比较高。
 
+   若出现500 EROOR，请查阅`/etc/httpd/logs/error_log`根据具体信息解决。
