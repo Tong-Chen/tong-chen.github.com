@@ -283,6 +283,10 @@ show sticks, indinavir
 set stick_radius, 0.15
 util.cbaw indinavir
 
+# The following 1 line:
+	# 1. Select metal ions
+select metals, symbol mg+ca+fe+zn
+
 # The following 2 lines:
 	# 1. Set hydrogen donator
 	# 2. Set hydrogen accrptor 
