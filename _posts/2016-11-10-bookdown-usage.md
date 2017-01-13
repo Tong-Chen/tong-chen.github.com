@@ -110,7 +110,7 @@ Here is normal text.
 
 (ref:pic-label) This line can be referred in **fig.cap** and markdown syntax is supported for both `HTML` and `PDF` output.
 
-```r{pic-label, fig.cap="(ref:pic-label)"}
+```{r pic-label, fig.cap="(ref:pic-label)"}
 knitr::include_graphics("images/1.png")
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -283,6 +283,15 @@ bookdown::gitbook:
   knitr::include_graphics("ehbio/cover.png")
   ```
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* 保留生成的markdown文件
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # add below lines to last Rmd file
+  ```{r, include=FALSE}
+  file.rename(from="bookdown_file_name.md",  to="bookdown_file_name.saved.md")
+  ```
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### 预览生成的WEB文件
 
