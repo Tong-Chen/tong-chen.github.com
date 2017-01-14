@@ -110,10 +110,10 @@ layout: page
 
 4. Sometimes when you found the lines reading by `read.table` smaller than real line number, please check it you have `"` or `'` in your file.
 
-  ```r
-  ### Always set no quote
-  a <- read.table(file, sep="\t",  header=T, row.names=1, quote="")
-  ```
+   ```r
+   ### Always set no quote
+   a <- read.table(file, sep="\t",  header=T, row.names=1, quote="")
+   ```
 
 5. Read in data from string rather than files
 
@@ -188,7 +188,7 @@ layout: page
     [7,] 7  7 7
     [8,] 8 13 2
     [9,] 9 14 5
-    ```
+   ```
 
 8. 每一列的数除以该列的总和 
 
