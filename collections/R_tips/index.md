@@ -222,4 +222,35 @@ layout: page
    [4,] 0.4 0.4 0.3571429
    ```
 
-9. 
+9. 取出共同的列 
+
+   ```r
+   > a <- data.frame('a'=1:5,'b'=2:6,'c'=round(runif(5,min=0, max=2)),'d'=sample(1:10,5))
+   > a
+     a b c d
+   1 1 2 2 6
+   2 2 3 2 8
+   3 3 4 1 1
+   4 4 5 1 2
+   5 5 6 2 4
+   > b = data.frame('b'=round(rnorm(5, mean=50, sd=10)),'e'=rep(1,5),'d'=round(runif(5,min=0, max=10)),'c'=sample(1:10,5, replace=T))
+   > b
+      b e d c
+   1 33 1 5 7
+   2 62 1 8 6
+   3 26 1 8 1
+   4 63 1 8 6
+   5 43 1 9 4
+   > ?match(x, y)
+   # Select elements existed in x for each in y and ordered as in x
+   # Remove elements only existed in y
+   > b[,na.omit(match(colnames(a),colnames(b)))]
+      b c d
+   1 33 7 5
+   2 62 6 8
+   3 26 1 8
+   4 63 6 8
+   5 43 4 9
+   ```
+
+
