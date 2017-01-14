@@ -108,7 +108,7 @@ layout: page
    ```
 
 
-4. Sometimes when you found the lines reading by `read.table` smaller than real line number, please check it you have `"` or `'` in your file.
+4. Sometimes when you found the lines reading by `read.table` smaller than real line number, please check it you have `""` or `''` in your file.
 
    ```r
    ### Always set no quote
@@ -127,7 +127,7 @@ layout: page
 
 6. 使用Aggregate进行分组计算
 
-   ```
+   ```r
    > ID <- c("a", "b", "c", "b", "c", "d", "e")
    > A <- c(1:7)
    > B <- c(3:9)
@@ -221,4 +221,5 @@ layout: page
    [3,] 0.3 0.3 0.2857143
    [4,] 0.4 0.4 0.3571429
    ```
+
 9. 
