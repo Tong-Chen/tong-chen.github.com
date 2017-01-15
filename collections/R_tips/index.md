@@ -253,4 +253,55 @@ layout: page
    5 43 4 9
    ```
 
+10. pairwise.t.test for a matrix
+
+   ```r
+   > data = data.frame(Group=c(rep('a',20),rep('b',20),rep('c',20)), A=runif(60, min=0, max=60), B=c(sample(1:10,20,replace=T), sample(20:30,20,replace=T), c(sample(1:30,20, replace=T))))
+   > data
+      Group          A  B
+   1      a  8.3522445  6
+   2      a 22.9813777  4
+   3      a 11.5574241  8
+   4      a 57.5316085  6
+   5      a 20.2775717  2
+   .	  . .           .
+   .	  . .           .
+   21     b 36.8333789 25
+   22     b 23.5413342 24
+   23     b 41.6235628 26
+   24     b 27.5968927 25
+   25     b 48.6045175 20
+   .	  . .           .
+   .	  . .           .
+   58     c 51.0684425 30
+   59     c  4.0294234 27
+   60     c 22.6168908 27
+   > my_function <- function(x) {
+   +     pvalue_m = pairwise.t.test(x, data$Group, pool.sd = F)$p.value
+   +     pvalue_m <- as.data.frame(pvalue_m)
+   +     pvalue_m$id <- rownames(pvalue_m)
+   +     pvalue_m <- melt(pvalue_m, id.vars=c('id'))
+   +     name_combine = paste(pvalue_m$id, pvalue_m$variable,sep='.vs.')
+   +     pvalue_m <- as.data.frame(pvalue_m$value)
+   +     rownames(pvalue_m) <- name_combine
+   +     pvalue_m
+   +     #colnames(pvalue_m)[colnames(pvalue_m)=="value"] = name_col
+   +     #x
+   + }
+   > p.value <- apply(X=data[,-1], 2,FUN=my_function)
+   > p.value <- do.call(cbind, p.value)
+   > colnames(p.value) <- colnames(data[,-1])
+   > t(p.value)
+           b.vs.a      c.vs.a b.vs.b       c.vs.b
+   A 8.670387e-01 0.454526764     NA 0.4545267642
+   B 3.111305e-22 0.008677007     NA 0.0001068359
+   ```
+
+11. t.test & pairwise.t.test [ref](http://stackoverflow.com/questions/11454521/r-t-test-and-pairwise-t-test-give-different-results)
+
+	The problem is not in the p-value correction,  but in the (declaration of the) variance assumptions. You have used var.equal=T in your t.test calls and pooled.sd=FALSE in your paired.t.test calls. However,  the argument for paired.t.test is pool.sd,  not pooled.sd. Changing this gives p-values equivalent to the individual calls to t.test
+
+	pairwise.t.test(df$freq,  df$class,  p.adjust.method="none" ,  
+							paired=FALSE,  pool.sd=FALSE)
+
 
