@@ -255,47 +255,47 @@ layout: page
 
 10. pairwise.t.test for a matrix
 
-   ```r
-   > data = data.frame(Group=c(rep('a',20),rep('b',20),rep('c',20)), A=runif(60, min=0, max=60), B=c(sample(1:10,20,replace=T), sample(20:30,20,replace=T), c(sample(1:30,20, replace=T))))
-   > data
-      Group          A  B
-   1      a  8.3522445  6
-   2      a 22.9813777  4
-   3      a 11.5574241  8
-   4      a 57.5316085  6
-   5      a 20.2775717  2
-   .	  . .           .
-   .	  . .           .
-   21     b 36.8333789 25
-   22     b 23.5413342 24
-   23     b 41.6235628 26
-   24     b 27.5968927 25
-   25     b 48.6045175 20
-   .	  . .           .
-   .	  . .           .
-   58     c 51.0684425 30
-   59     c  4.0294234 27
-   60     c 22.6168908 27
-   > my_function <- function(x) {
-   +     pvalue_m = pairwise.t.test(x, data$Group, pool.sd = F)$p.value
-   +     pvalue_m <- as.data.frame(pvalue_m)
-   +     pvalue_m$id <- rownames(pvalue_m)
-   +     pvalue_m <- melt(pvalue_m, id.vars=c('id'))
-   +     name_combine = paste(pvalue_m$id, pvalue_m$variable,sep='.vs.')
-   +     pvalue_m <- as.data.frame(pvalue_m$value)
-   +     rownames(pvalue_m) <- name_combine
-   +     pvalue_m
-   +     #colnames(pvalue_m)[colnames(pvalue_m)=="value"] = name_col
-   +     #x
-   + }
-   > p.value <- apply(X=data[,-1], 2,FUN=my_function)
-   > p.value <- do.call(cbind, p.value)
-   > colnames(p.value) <- colnames(data[,-1])
-   > t(p.value)
-           b.vs.a      c.vs.a b.vs.b       c.vs.b
-   A 8.670387e-01 0.454526764     NA 0.4545267642
-   B 3.111305e-22 0.008677007     NA 0.0001068359
-   ```
+    ```r
+    > data = data.frame(Group=c(rep('a',20),rep('b',20),rep('c',20)), A=runif(60, min=0, max=60), B=c(sample(1:10,20,replace=T), sample(20:30,20,replace=T), c(sample(1:30,20, replace=T))))
+    > data
+       Group          A  B
+    1      a  8.3522445  6
+    2      a 22.9813777  4
+    3      a 11.5574241  8
+    4      a 57.5316085  6
+    5      a 20.2775717  2
+    .	  . .           .
+    .	  . .           .
+    21     b 36.8333789 25
+    22     b 23.5413342 24
+    23     b 41.6235628 26
+    24     b 27.5968927 25
+    25     b 48.6045175 20
+    .	  . .           .
+    .	  . .           .
+    58     c 51.0684425 30
+    59     c  4.0294234 27
+    60     c 22.6168908 27
+    > my_function <- function(x) {
+    +     pvalue_m = pairwise.t.test(x, data$Group, pool.sd = F)$p.value
+    +     pvalue_m <- as.data.frame(pvalue_m)
+    +     pvalue_m$id <- rownames(pvalue_m)
+    +     pvalue_m <- melt(pvalue_m, id.vars=c('id'))
+    +     name_combine = paste(pvalue_m$id, pvalue_m$variable,sep='.vs.')
+    +     pvalue_m <- as.data.frame(pvalue_m$value)
+    +     rownames(pvalue_m) <- name_combine
+    +     pvalue_m
+    +     #colnames(pvalue_m)[colnames(pvalue_m)=="value"] = name_col
+    +     #x
+    + }
+    > p.value <- apply(X=data[,-1], 2,FUN=my_function)
+    > p.value <- do.call(cbind, p.value)
+    > colnames(p.value) <- colnames(data[,-1])
+    > t(p.value)
+            b.vs.a      c.vs.a b.vs.b       c.vs.b
+    A 8.670387e-01 0.454526764     NA 0.4545267642
+    B 3.111305e-22 0.008677007     NA 0.0001068359
+    ```
 
 11. t.test & pairwise.t.test [ref](http://stackoverflow.com/questions/11454521/r-t-test-and-pairwise-t-test-give-different-results)
 
@@ -304,4 +304,26 @@ layout: page
 	pairwise.t.test(df$freq,  df$class,  p.adjust.method="none" ,  
 							paired=FALSE,  pool.sd=FALSE)
 
+
+12. Several ggplot pic together
+
+    ```r
+    data <- c(1:6,6:1,6:1,1:6, (6:1)/10,(1:6)/10,(1:6)/10,(6:1)/10,2:7,7:2,6:1,1:6, 6:1,1:6,3:8,7:2)
+    data <- as.data.frame(matrix(data, ncol=12, byrow=T))
+    data$type <- c(rep("Gene Expression",2), rep("DNA methylation",2), rep("H3K4me3",2), rep("H3K27me3",2))
+    colnames(data) <- c("Zygote","2_cell","4_cell","8_cell","Morula","ICM","ESC","4 week PGC","7 week PGC","10 week PGC","17 week PGC", "OOcyte", "type")
+    data$ID <- rep(c("gene1","gene2"),4)
+    library(reshape2)
+    library(ggplot2)
+    data_m <- melt(data, id.vars=c("type","ID"))
+    data_m$type <- factor(data_m$type, levels=c("Gene Expression", "DNA methylation", "H3K4me3","H3K27me3"))
+
+    library(gridExtra)
+    out <- by(data=data_m, INDICES=data_m$type, FUN=function(m) {
+    m <- droplevels(m)
+    p <- ggplot(m, aes(x=variable,y=ID)) + xlab(NULL) + labs(title=levels(m$type))  + theme_bw()  + theme(panel.grid.major = element_blank()) + theme(legend.key=element_blank())  + theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + theme(legend.position="right") + geom_tile(aes(fill=value)) + scale_fill_gradient(low = "white", high = "red")
+    }
+    )
+    do.call(grid.arrange,c(out, ncol=1))
+    ```
 
