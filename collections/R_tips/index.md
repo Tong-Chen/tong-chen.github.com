@@ -307,7 +307,7 @@ layout: page
 
 12. Several ggplot pic together
 
-	![Several ggplot pic together]({{ site.img_url }}/heatmap-t-1-1.png "Several ggplot pic together"
+	![Several ggplot pic together]({{ site.img_url }}/heatmap-t-1-1.png "Several ggplot pic together")
 
     ```r
     data <- c(1:6,6:1,6:1,1:6, (6:1)/10,(1:6)/10,(1:6)/10,(6:1)/10,2:7,7:2,6:1,1:6, 6:1,1:6,3:8,7:2)
