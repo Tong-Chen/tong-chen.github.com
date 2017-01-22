@@ -329,8 +329,22 @@ layout: page
 			 theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + 
 			 theme(legend.position="right") + geom_tile(aes(fill=value)) + 
 			 scale_fill_gradient(low = "white", high = "red")
-    	}
+        }
     )
     do.call(grid.arrange,c(out, ncol=1))
     ```
-
+	
+	```r
+    grid_plot = function(m, hline){
+      ID = unique(m$Metabolites)
+      coords = hline[[ID]]$coord
+      text = hline[[ID]]$text
+      p <- ggplot(m, aes(x=Samples, y=Concentration, color=Year, group=Year))
+      p <- p + geom_line(size=1, alpha=0.6) + labs(title=ID) + theme(legend.position = "right") + expand_limits(y=0)+ theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + geom_hline(yintercept = coords, linetype="dotted", size=0.5) + annotate("text", y=coords, x=0, label=text, vjust=0, hjust=0)
+    }
+    
+    hline = list(H1=list(coord=c(5000), text=c(5000)), Glu=list(coord=c(50), text=c(50)), Arg..Arg.Orn.=list(coord=c(0.5), text=c(0.5)))
+    
+    out <- by(data=ctrl.m, INDICES=ctrl.m$Metabolites, FUN=grid_plot,hline)
+    do.call(grid.arrange,c(out, ncol=1))
+	```
