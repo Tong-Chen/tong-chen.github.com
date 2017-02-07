@@ -293,6 +293,28 @@ bookdown::gitbook:
   ```
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* 包含子文件 (subfile.txt)
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ```{r child="subfile.txt"}
+  ```
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+* cahce external file [ref](https://github.com/yihui/knitr/issues/238)
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ```{r mtime-func}
+  mtime <- function(files){
+    lapply(Sys.glob(files), function(x) file.info(x)$mtime)
+  }
+  ```
+
+  ```{r mtime-usage, cache=T, cache.extra=mtime("file1", "file2")}
+  data1 <- read.table("file1")
+  data2 <- read.table("file2")
+  ```
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ### 预览生成的WEB文件
 
 如果没有安装Rstudio，可以在生成的book目录(有`index.html`的目录)下运行`python -m SimpleHTTPServer 11521`(11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
@@ -309,3 +331,4 @@ Use [bookdown_init_general.py -o test -t '我的文档' -a " 作者1 - 北京;2 
 * Multiple output with different configs <https://github.com/yihui/knitr/issues/1145>
 * Multiple output with different configs <https://github.com/yihui/knitr/issues/114://github.com/rstudio/rmarkdown/issues/614>
 * Citation style <http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html>
+* Save markdown <http://stackoverflow.com/questions/19989325/knit-rmd-file-to-md-and-save-the-md-file-one-level-up-with-a-different-name>
