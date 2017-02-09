@@ -348,3 +348,39 @@ layout: page
     out <- by(data=ctrl.m, INDICES=ctrl.m$Metabolites, FUN=grid_plot,hline)
     do.call(grid.arrange,c(out, ncol=1))
 	```
+
+13. 查看R包的版本 `installed.packages()[c("SC3"), c("Package", "Version")]`
+    
+    移除安装包 `remove.packages(c('package_name'))`
+
+	去加载已经加载的包 `detach("package:package_name")`
+
+14. 判断一个变量是否存在
+
+    ```r
+    if(exists("debug")){
+      debug=FALSE
+    } else {
+      debug=TRUE
+    }
+	```
+
+15. stop and warn
+
+    ```r
+	warning("output a message after a function finishes")
+    stop("stops the execution of the function and outputs an error message")
+	```
+
+16. Extract all numeric columns
+ 
+    ```r
+	new_df <- df[sapply(df, is.numeric)]
+	```
+
+17.
+
+**Reference**
+
+* http://rfunction.com/archives/1377
+
