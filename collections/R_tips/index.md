@@ -12,7 +12,7 @@ layout: page
    * 如果是R的内部函数，直接输入函数名字，即可查看函数的代码
 
      ```r
-	 > colMeans
+     > colMeans
      function (x, na.rm = FALSE, dims = 1L) 
      {
          if (is.data.frame(x)) 
@@ -42,18 +42,18 @@ layout: page
      
      ```r
      > showMethods('MeanVarPlot')
-	 Function: MeanVarPlot (package Seurat)
-	 object="seurat"
-	
-	 > getMethod("MeanVarPlot", "seurat")
-	 Method Definition:
-	
-	 function (object, fxn.x = expMean, fxn.y = logVarDivMean, do.plot = TRUE, 
-			set.var.genes = TRUE, do.text = TRUE, x.low.cutoff = 0.1, 
-			x.high.cutoff = 8, y.cutoff = 1, y.high.cutoff = Inf, cex.use = 0.5, 
-			cex.text.use = 0.5, do.spike = FALSE, pch.use = 16, col.use = "black", 
-			spike.col.use = "red", plot.both = FALSE)
-	 ```
+     Function: MeanVarPlot (package Seurat)
+     object="seurat"
+    
+     > getMethod("MeanVarPlot", "seurat")
+     Method Definition:
+    
+     function (object, fxn.x = expMean, fxn.y = logVarDivMean, do.plot = TRUE, 
+    		set.var.genes = TRUE, do.text = TRUE, x.low.cutoff = 0.1, 
+    		x.high.cutoff = 8, y.cutoff = 1, y.high.cutoff = Inf, cex.use = 0.5, 
+    		cex.text.use = 0.5, do.spike = FALSE, pch.use = 16, col.use = "black", 
+    		spike.col.use = "red", plot.both = FALSE)
+     ```
 2. sapply usage
 
    ```r
@@ -102,8 +102,8 @@ layout: page
    ```r
    usePackage <- function(p) {
        if (!is.element(p, installed.packages()[,1]))
-	       install.packages(p, dep = TRUE)
-		   require(p, character.only = TRUE)
+           install.packages(p, dep = TRUE)
+    	   require(p, character.only = TRUE)
    }
    ```
 
@@ -299,15 +299,15 @@ layout: page
 
 11. t.test & pairwise.t.test [ref](http://stackoverflow.com/questions/11454521/r-t-test-and-pairwise-t-test-give-different-results)
 
-	The problem is not in the p-value correction,  but in the (declaration of the) variance assumptions. You have used var.equal=T in your t.test calls and pooled.sd=FALSE in your paired.t.test calls. However,  the argument for paired.t.test is pool.sd,  not pooled.sd. Changing this gives p-values equivalent to the individual calls to t.test
+    The problem is not in the p-value correction,  but in the (declaration of the) variance assumptions. You have used var.equal=T in your t.test calls and pooled.sd=FALSE in your paired.t.test calls. However,  the argument for paired.t.test is pool.sd,  not pooled.sd. Changing this gives p-values equivalent to the individual calls to t.test
     ```r
-	pairwise.t.test(df$freq,  df$class,  p.adjust.method="none" ,  
-							paired=FALSE,  pool.sd=FALSE)
+    pairwise.t.test(df$freq,  df$class,  p.adjust.method="none" ,  
+    						paired=FALSE,  pool.sd=FALSE)
     ```
 
 12. Several ggplot pic together
 
-	![Several ggplot pic together]({{ site.img_url }}/heatmap-t-1-1.png "Several ggplot pic together")
+    ![Several ggplot pic together]({{ site.img_url }}/heatmap-t-1-1.png "Several ggplot pic together")
 
     ```r
     data <- c(1:6,6:1,6:1,1:6, (6:1)/10,(1:6)/10,(1:6)/10,(6:1)/10,2:7,7:2,6:1,1:6, 6:1,1:6,3:8,7:2)
@@ -322,19 +322,19 @@ layout: page
 
     library(gridExtra)
     out <- by(data=data_m, INDICES=data_m$type, FUN=function(m) {
-		m <- droplevels(m)
-		p <- ggplot(m, aes(x=variable,y=ID)) + xlab(NULL) + 
-		     labs(title=levels(m$type))  + theme_bw()  + 
-			 theme(panel.grid.major = element_blank()) + theme(legend.key=element_blank()) + 
-			 theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + 
-			 theme(legend.position="right") + geom_tile(aes(fill=value)) + 
-			 scale_fill_gradient(low = "white", high = "red")
+    	m <- droplevels(m)
+    	p <- ggplot(m, aes(x=variable,y=ID)) + xlab(NULL) + 
+    	     labs(title=levels(m$type))  + theme_bw()  + 
+    		 theme(panel.grid.major = element_blank()) + theme(legend.key=element_blank()) + 
+    		 theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + 
+    		 theme(legend.position="right") + geom_tile(aes(fill=value)) + 
+    		 scale_fill_gradient(low = "white", high = "red")
         }
     )
     do.call(grid.arrange,c(out, ncol=1))
     ```
-	
-	```r
+    
+    ```r
     grid_plot = function(m, hline){
       ID = unique(m$Metabolites)
       coords = hline[[ID]]$coord
@@ -347,13 +347,13 @@ layout: page
     
     out <- by(data=ctrl.m, INDICES=ctrl.m$Metabolites, FUN=grid_plot,hline)
     do.call(grid.arrange,c(out, ncol=1))
-	```
+    ```
 
 13. 查看R包的版本 `installed.packages()[c("SC3"), c("Package", "Version")]`
     
     移除安装包 `remove.packages(c('package_name'))`
 
-	去加载已经加载的包 `detach("package:package_name")`
+    去加载已经加载的包 `detach("package:package_name")`
 
 14. 判断一个变量是否存在
 
@@ -363,20 +363,20 @@ layout: page
     } else {
       debug=TRUE
     }
-	```
+    ```
 
 15. stop and warn
 
     ```r
-	warning("output a message after a function finishes")
+    warning("output a message after a function finishes")
     stop("stops the execution of the function and outputs an error message")
-	```
+    ```
 
 16. Extract all numeric columns
  
     ```r
-	new_df <- df[sapply(df, is.numeric)]
-	```
+    new_df <- df[sapply(df, is.numeric)]
+    ```
 
 17.
 
