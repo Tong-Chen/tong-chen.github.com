@@ -45,3 +45,15 @@ comments: yes
 * China
   * [brainnetome](http://www.brainnetome.org/en/)
   *
+
+##### Bioliogy and disease
+
+* Gene-disease
+	
+	* https://civic.genome.wustl.edu/ (curated, maybe best)
+	* http://www.disgenet.org/web/DisGeNET/menu;jsessionid=8lztt2vozd7o8ey04ba9s0dk
+	* http://snpedia.com/index.php/Category:Is_a_snp (larger)
+	* http://www.cbioportal.org/ (https://www.biostars.org/p/179077/)
+
+* Pipeline
+	* https://github.com/ENCODE-DCC
