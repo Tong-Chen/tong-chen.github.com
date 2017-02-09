@@ -161,3 +161,21 @@ layout: page
    Generate `.htpasswd_label` with command `htpasswd -cmb /dir/.htpasswd_label username userpasswd`. Apache下以`.ht`开头的文件不会被外部读取，安全性比较高。
 
    若出现500 EROOR，请查阅`/etc/httpd/logs/error_log`根据具体信息解决。
+
+9. 权限问题
+
+   ```bash
+   chgrp -R user_grp dir
+   ```
+
+10. awk输出到文件
+ 
+    ```bash
+	awk 'BEGIN{OFS=FS="\t";file="output"}{print $1 >file; print $2;}' input >output2
+	```
+
+11. 去除文件最后2行
+
+    ```bash
+    head -n -2 file #notice -2
+	```
