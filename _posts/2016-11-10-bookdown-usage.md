@@ -309,7 +309,8 @@ bookdown::gitbook:
   }
   ```
 
-  ```{r mtime-usage, cache=T, cache.extra=mtime("file1", "file2")}
+  ```{r mtime-usage, cache=T, cache.extra=mtime(c("file1", "file2", file3))}
+  file3 <- paste0(dir, '/', name)
   data1 <- read.table("file1")
   data2 <- read.table("file2")
   ```
