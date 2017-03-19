@@ -1180,3 +1180,7 @@ yum install openbabel-2.2.3-1.el6.x86_64
 * PyMOL中文文档 <http://wenku.baidu.com/view/770dc281b52acfc788ebc949.html>
 * Hydrophobic surface <http://www.protein.osaka-u.ac.jp/rcsfp/supracryst/suzuki/jpxtal/Katsutani/en/hydrophobicity.php>
 * PyMOL scripts <http://rosettadesigngroup.com/blog/10/pymol-scripts/>
+
+### Needed to read
+* https://www.researchgate.net/post/Exact_procedure_for_autodock_result_analysis?_tpcectx=post_detail_recommendations
+* 
