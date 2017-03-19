@@ -42,7 +42,7 @@ layout: page
    * hard nproc 102400
    ```
 
-	修改完成后，重新登录服务器，运行`ulimit -a`查看。
+    修改完成后，重新登录服务器，运行`ulimit -a`查看。
 
 5. Centos6安装Mysql5.7 
 
@@ -72,9 +72,9 @@ layout: page
    * 启动错误InnoDB: The Auto-extending innodb_system data file './ibdata1' is of a different size 640 pages (rounded down to MB) than specified in the .cnf file: initial 768 pages,  max 0 (relevant if non-zero) pages!))''
      
      Add `innodb_data_file_path = ibdata1:10M:autoextend` to `/etc/my.cnf` `mysqld` block
-	 OR 
+     OR 
 
-	 Remove `id*` files in mysql datadir
+     Remove `id*` files in mysql datadir
 
 
    * Mysql datadir
@@ -171,11 +171,16 @@ layout: page
 10. awk输出到文件
  
     ```bash
-	awk 'BEGIN{OFS=FS="\t";file="output"}{print $1 >file; print $2;}' input >output2
-	```
+    awk 'BEGIN{OFS=FS="\t";file="output"}{print $1 >file; print $2;}' input >output2
+    ```
 
 11. 去除文件最后2行
 
     ```bash
     head -n -2 file #notice -2
-	```
+    ```
+12. Perl程序内设置环境变量
+
+   ```perl
+   $ENV{PATH} = "/MPATHB/soft/java8/jdk1.8.0_121/bin:$ENV{PATH}";
+   ```
