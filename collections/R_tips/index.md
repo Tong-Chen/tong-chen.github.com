@@ -127,6 +127,8 @@ layout: page
 
 6. 使用Aggregate进行分组计算
 
+   Aggregate by one column of dataframe.
+
    ```r
    > ID <- c("a", "b", "c", "b", "c", "d", "e")
    > A <- c(1:7)
@@ -150,6 +152,59 @@ layout: page
    3  c 4 6 6
    4  d 6 8 4
    5  e 7 9 3
+   ```
+   
+   Aggregate by an external variable
+
+   ```r
+   > a <- "ID;Grp
+   A.1;A
+   A.2;A
+   A.3;A
+   B.3;B
+   B.4;B
+   C.1;C
+   B.1;B
+   B.2;B
+   C.2;C"
+   > 
+   > b <- "ID;A.1;A.2;A.3;B.1;B.2;B.3;B.4;C.1;C.2
+   a;1;2;3;8;2;3;4;4;2
+   b;1;3;3;1;3;3;4;1;2
+   c;2;4;3;1;5;3;6;2;2"
+   > 
+   > sampFile <- read.table(text=a, sep=';', row.names=1, header=T)
+   > 
+   > mat <- read.table(text=b, sep=';', header=T,row.names=1)
+   > mat_t <- t(mat)
+   > mat_t
+       a b c
+   A.1 1 1 2
+   A.2 2 3 4
+   A.3 3 3 3
+   B.1 8 1 1
+   B.2 2 3 5
+   B.3 3 3 3
+   B.4 4 4 6
+   C.1 4 1 2
+   C.2 2 2 2
+   > 
+   > Grp <- sampFile[match(rownames(mat_t), rownames(sampFile)),1]
+   >
+   > #The variable given to `by` in `aggregate` must be a list 
+   > mat_mean <- aggregate(mat_t, by=list(Grp=Grp), FUN=mean)
+   > 
+   > mat_mean_grp <- mat_mean$Grp
+   > 
+   > mat_mean_final <- do.call(rbind, mat_mean)[-1,]
+   > 
+   > colnames(mat_mean_final) <- mat_mean_grp
+   > 
+   > mat_mean_final
+            A    B   C
+   a 2.000000 4.25 3.0
+   b 2.333333 2.75 1.5
+   c 3.000000 3.75 2.0
    ```
 
 7. 条件填充数据表
@@ -378,7 +433,155 @@ layout: page
     new_df <- df[sapply(df, is.numeric)]
     ```
 
-17.
+17. r-studio usages
+
+    ```r
+    rstudio-server start/stop/restart
+    ps -u user | grep 'rsession' # Kill this process when rstuido-server becomes unresponsive
+    ```
+
+18. merge dataframes
+
+    ```r
+    library(data.table)
+    merge(a, b, all.x=T)
+    ```
+
+    ```r
+    a <- "ID;Grp
+    A.1;A
+    A.2;A
+    A.3;A
+    B.3;B
+    B.4;B
+    C.1;C
+    B.1;B
+    B.2;B
+    C.2;C"
+    
+    b <- "ID;A.1;A.2;A.3;B.1;B.2;B.3;B.4;C.1;C.2
+    a;1;2;3;8;2;3;4;4;2
+    b;1;3;3;1;3;3;4;1;2
+    c;2;4;3;1;5;3;6;2;2"
+    
+    sampFile <- read.table(text=a, sep=';', row.names=1, header=T)
+    
+    mat <- read.table(text=b, sep=';', header=T,row.names=1)
+    mat_t <- t(mat)
+    mat_t
+    > c = merge(sampFile, mat_t, by=0)
+	> #c = merge(sampFile, mat_t, by="row.names")  #Both work
+    > c
+      Row.names Grp a b c
+    1       A.1   A 1 1 1
+    2       A.2   A 2 2 2
+    3       A.3   A 3 3 3
+    4       B.1   B 1 1 1
+    5       B.2   B 2 2 2
+    6       B.3   B 3 3 3
+    7       B.4   B 4 4 4
+    8       C.1   C 1 1 1
+    9       C.2   C 2 2 2
+    > c = dataframe(c[,-1], row.names=c[,1])
+    > c
+        Grp a b c
+    A.1   A 1 1 1
+    A.2   A 2 2 2
+    A.3   A 3 3 3
+    B.1   B 1 1 1
+    B.2   B 2 2 2
+    B.3   B 3 3 3
+    B.4   B 4 4 4
+    C.1   C 1 1 1
+    C.2   C 2 2 2
+    ```
+
+19. strsplit
+
+    ```r
+    sample <- c("a_samp1_1", "a_samp1_2", "a_samp1_3", "a_samp2_1", "a_samp2_2", "a_samp2_3")
+    # 把样品名字按 <_> 分割，取出其第二部分作为样品的组名
+    # lapply(X,  FUC) 对列表或向量中每个元素执行FUC操作，FUNC为自定义或R自带的函数
+    ## One better way to generate group
+    group <- unlist(lapply(strsplit(sample, "_" ), function(x) x[2]))
+    ```
+
+20. Multiple rows or columns legend
+
+    ```r
+    gg+guides(fill=guide_legend(nrow=2, byrow=TRUE))
+    gg+guides(fill=guide_legend(ncol=2))
+    ```
+
+21. Batch effects [ref](https://support.bioconductor.org/p/60581/)
+
+In a literal sense,  getting a matrix of batch corrected counts is not possible. Once the batch effects have been removed,  the values will no longer be counts.
+
+To batch correct, it is necessary to first transform the counts to a pseudo-continuous scale. Then you can use batch correction methods developed for microarrays. This is how we usually do it.
+
+First,put the counts in a DGEList object:
+
+```r
+library(edgeR)
+y <- DGEList(counts=counts)
+```
+    
+Filter non-expressed genes:
+
+```r
+A <- aveLogCPM(y)
+y2 <- y2[A>1,]
+```
+
+Then normalize and compute log2 counts-per-million with an offset:
+
+```r
+y2 <- calcNormFactors(y2)
+logCPM <- cpm(y2, log=TRUE, prior.count=5)
+```
+
+Then remove batch correct:
+
+```r
+logCPMc <- removeBatchEffect(y2, batch)
+```
+
+Here batch is a vector or factor taking a different value for each batch group. You can input two batch vectors.
+
+Now you can cluster the samples, for example by:
+
+```r
+plotMDS(logCPMc)
+```
+
+Variations on this would be use `rpkm()` instead of `cpm()`, or to give `removeBatchEffect()` a design matrix of known groups that are not batch effects.
+
+
+22. 条件替换数据表
+
+```r
+> a <- data.frame(a=1:4,b=1:4,c=1:4)
+> a
+  a b c
+1 1 1 1
+2 2 2 2
+3 3 3 3
+4 4 4 4
+> a[a$b<3,"b"] <- 3
+> a
+  a b c
+1 1 3 1
+2 2 3 2
+3 3 3 3
+4 4 4 4
+> a <- within(a, a[a<4] <- 2)
+> a
+  a b c
+1 2 3 1
+2 2 3 2
+3 2 3 3
+4 4 4 4
+```
 
 **Reference**
 
