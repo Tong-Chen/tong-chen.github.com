@@ -181,6 +181,6 @@ layout: page
     ```
 12. Perl程序内设置环境变量
 
-   ```perl
-   $ENV{PATH} = "/MPATHB/soft/java8/jdk1.8.0_121/bin:$ENV{PATH}";
-   ```
+    ```perl
+    $ENV{PATH} = "/MPATHB/soft/java8/jdk1.8.0_121/bin:$ENV{PATH}";
+    ```
