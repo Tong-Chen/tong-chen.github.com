@@ -47,6 +47,8 @@ menu:
         url: '/collections/other_tips/'
       - title: 'Links'
         url: '/collections/Links/'
+        title: 'Webservers'
+        url: '/collections/Webservers'
 
 # Owner/author information
 owner:
