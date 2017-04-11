@@ -513,75 +513,76 @@ layout: page
     gg+guides(fill=guide_legend(ncol=2))
     ```
 
-21. Batch effects [ref](https://support.bioconductor.org/p/60581/)
+21. 条件替换数据表
 
-In a literal sense,  getting a matrix of batch corrected counts is not possible. Once the batch effects have been removed,  the values will no longer be counts.
+    ```r
+    > a <- data.frame(a=1:4,b=1:4,c=1:4)
+    > a
+      a b c
+    1 1 1 1
+    2 2 2 2
+    3 3 3 3
+    4 4 4 4
+    > a[a$b<3,"b"] <- 3
+    > a
+      a b c
+    1 1 3 1
+    2 2 3 2
+    3 3 3 3
+    4 4 4 4
+    > a <- within(a, a[a<4] <- 2)
+    > a
+      a b c
+    1 2 3 1
+    2 2 3 2
+    3 2 3 3
+    4 4 4 4
+    ```
 
-To batch correct, it is necessary to first transform the counts to a pseudo-continuous scale. Then you can use batch correction methods developed for microarrays. This is how we usually do it.
+30. Batch effects [ref](https://support.bioconductor.org/p/60581/)
 
-First,put the counts in a DGEList object:
+    In a literal sense,  getting a matrix of batch corrected counts is not possible. Once the batch effects have been removed,  the values will no longer be counts.
 
-```r
-library(edgeR)
-y <- DGEList(counts=counts)
-```
+    To batch correct, it is necessary to first transform the counts to a pseudo-continuous scale. Then you can use batch correction methods developed for microarrays. This is how we usually do it.
     
-Filter non-expressed genes:
+    First,put the counts in a DGEList object:
+    
+    ```r
+    library(edgeR)
+    y <- DGEList(counts=counts)
+    ```
+        
+    Filter non-expressed genes:
+    
+    ```r
+    A <- aveLogCPM(y)
+    y2 <- y2[A>1,]
+    ```
+    
+    Then normalize and compute log2 counts-per-million with an offset:
+    
+    ```r
+    y2 <- calcNormFactors(y2)
+    logCPM <- cpm(y2, log=TRUE, prior.count=5)
+    ```
+    
+    Then remove batch correct:
+    
+    ```r
+    logCPMc <- removeBatchEffect(y2, batch)
+    ```
+    
+    Here batch is a vector or factor taking a different value for each batch group. You can input two batch vectors.
+    
+    Now you can cluster the samples, for example by:
+    
+    ```r
+    plotMDS(logCPMc)
+    ```
+    
+    Variations on this would be use `rpkm()` instead of `cpm()`, or to give `removeBatchEffect()` a design matrix of known groups that are not batch effects.
 
-```r
-A <- aveLogCPM(y)
-y2 <- y2[A>1,]
-```
 
-Then normalize and compute log2 counts-per-million with an offset:
-
-```r
-y2 <- calcNormFactors(y2)
-logCPM <- cpm(y2, log=TRUE, prior.count=5)
-```
-
-Then remove batch correct:
-
-```r
-logCPMc <- removeBatchEffect(y2, batch)
-```
-
-Here batch is a vector or factor taking a different value for each batch group. You can input two batch vectors.
-
-Now you can cluster the samples, for example by:
-
-```r
-plotMDS(logCPMc)
-```
-
-Variations on this would be use `rpkm()` instead of `cpm()`, or to give `removeBatchEffect()` a design matrix of known groups that are not batch effects.
-
-
-22. 条件替换数据表
-
-```r
-> a <- data.frame(a=1:4,b=1:4,c=1:4)
-> a
-  a b c
-1 1 1 1
-2 2 2 2
-3 3 3 3
-4 4 4 4
-> a[a$b<3,"b"] <- 3
-> a
-  a b c
-1 1 3 1
-2 2 3 2
-3 3 3 3
-4 4 4 4
-> a <- within(a, a[a<4] <- 2)
-> a
-  a b c
-1 2 3 1
-2 2 3 2
-3 2 3 3
-4 4 4 4
-```
 
 **Reference**
 
