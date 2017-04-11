@@ -86,6 +86,14 @@ layout: page
      PASSWORD needs containing uppercase leters, lowercase letters, numbers and special characters. 
      
      Please refer [here](http://bbs.bestsdk.com/detail/762.html) to `SET GLOBAL validate_password_policy='LOW';`。
+	
+   * DBD::mysql::st execute failed: The total number of locks exceeds the lock table size
+
+     Add "innodb_buffer_pool_size = 10G" to /etc/my.conf (default innodb buffer size is 128 M,  change to some number larger).
+
+	 Then restart mysqld service `/etc/init.d/mysqld restart`.
+
+	 Check the value of `innodb_buffer_pool_size` using `show  variables like 'innodb_buffer_pool_size';`.
 
 6. centos安装pandoc，pandoc-citeproc
 
@@ -179,8 +187,19 @@ layout: page
     ```bash
     head -n -2 file #notice -2
     ```
+
 12. Perl程序内设置环境变量
 
     ```perl
     $ENV{PATH} = "/MPATHB/soft/java8/jdk1.8.0_121/bin:$ENV{PATH}";
     ```
+
+13. awk循环输出
+
+    ```bash
+    awk '{for (i=1; i<=NF; i++) printf "%.3f %s", $$i, (i==NF?RS:FS)}' file
+	```
+
+
+
+
