@@ -48,7 +48,9 @@ menu:
       - title: 'Links'
         url: '/collections/Links/'
         title: 'Webservers'
-        url: '/collections/Webservers'
+        url: '/collections/Webservers/'
+        title: 'Makefile_tips'
+        url: '/collections/makefile_tips/'
 
 # Owner/author information
 owner:
