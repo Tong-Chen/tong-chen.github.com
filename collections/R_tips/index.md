@@ -539,6 +539,30 @@ layout: page
     4 4 4 4
     ```
 
+22. 移除特定的行
+
+    ```r
+    > a
+               [,1]       [,2]       [,3]        [,4]
+    [1,]  0.8248820 -1.3022177  0.6119348 -0.04987367
+    [2,] -1.0353643  0.7053093 -0.4677782  0.53749134
+    [3,]  0.3773115  0.6229525  1.4935924  1.50909417
+    [4,]  1.3755883 -0.2864933 -0.3077768 -0.12330547
+    [5,]  0.1286202 -0.9517153 -0.7522629 -0.13442884
+    > a[apply(a,1,function(x) {mad(x)>0.5}),]
+               [,1]       [,2]       [,3]        [,4]
+    [1,]  0.8248820 -1.3022177  0.6119348 -0.04987367
+    [2,] -1.0353643  0.7053093 -0.4677782  0.53749134
+    [3,]  0.3773115  0.6229525  1.4935924  1.50909417
+    [4,]  0.1286202 -0.9517153 -0.7522629 -0.13442884
+    > a[apply(a,1,function(x) {any(x<0)}),]
+               [,1]       [,2]       [,3]        [,4]
+    [1,]  0.8248820 -1.3022177  0.6119348 -0.04987367
+    [2,] -1.0353643  0.7053093 -0.4677782  0.53749134
+    [3,]  1.3755883 -0.2864933 -0.3077768 -0.12330547
+    [4,]  0.1286202 -0.9517153 -0.7522629 -0.13442884
+    ```
+
 30. Batch effects [ref](https://support.bioconductor.org/p/60581/)
 
     In a literal sense,  getting a matrix of batch corrected counts is not possible. Once the batch effects have been removed,  the values will no longer be counts.
@@ -582,6 +606,30 @@ layout: page
     
     Variations on this would be use `rpkm()` instead of `cpm()`, or to give `removeBatchEffect()` a design matrix of known groups that are not batch effects.
 
+31. Transfer number to date
+
+    ```r
+	> library(xlsx)
+    > Days <- read.xlsx2("Y.xlsx", sheetIndex = 1, header=T, stringsAsFactors=F)
+    > head(Days)
+      SampleID X.Datum.1.BE Date.of.1st.PD Date.of.death.last.follow.up
+    1   181_29        40294          40969                        41562
+    2   182_26        40281          40483                        41192
+    3   183_27        40287          40923                        41562
+    4   184_32        40297          41014                        41562
+    5   185_38        40323          40430                        40585
+    6   186_40        40324          40378                        41563
+    > Days$X.Datum.1.BE = as.Date(as.numeric(Days$X.Datum.1.BE), origin = "1899-12-30")
+    > Days$Date.of.1st.PD = as.Date(as.numeric(Days$Date.of.1st.PD), origin = "1899-12-30")
+    > head(Days)
+      SampleID X.Datum.1.BE Date.of.1st.PD Date.of.death.last.follow.up
+    1   181_29   2010-04-26     2012-03-01                   2013-10-15
+    2   182_26   2010-04-13     2010-11-01                   2012-10-10
+    3   183_27   2010-04-19     2012-01-15                   2013-10-15
+    4   184_32   2010-04-29     2012-04-15                   2013-10-15
+    5   185_38   2010-05-25     2010-09-09                   2011-02-11
+    6   186_40   2010-05-26     2010-07-19                   2013-10-16
+	```
 
 
 **Reference**
