@@ -28,6 +28,8 @@ menu:
     url: '/categories'
   - title: 'Lists'
     url: '/lists'  
+  - title: '招聘'
+    url: '/hire'
   - title: 'Tips'
     url: '#'
     submenu:
