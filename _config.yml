@@ -28,8 +28,6 @@ menu:
     url: '/categories'
   - title: 'Lists'
     url: '/lists'  
-  - title: '招聘'
-    url: '/hire'
   - title: 'Tips'
     url: '#'
     submenu:
@@ -53,6 +51,8 @@ menu:
         url: '/collections/Webservers/'
         title: 'Makefile_tips'
         url: '/collections/makefile_tips/'
+  - title: '招聘'
+    url: '/hire'
 
 # Owner/author information
 owner:
