@@ -563,6 +563,22 @@ layout: page
     [4,]  0.1286202 -0.9517153 -0.7522629 -0.13442884
     ```
 
+23. colorRampPalette: generate color vectors by given colors
+
+    ```
+    colfunc <- colorRampPalette(c("black",  "white"))
+	colfunc(10)
+    [1] "#000000" "#1C1C1C" "#383838" "#555555" "#717171" "#8D8D8D" "#AAAAAA"
+    [8] "#C6C6C6" "#E2E2E2" "#FFFFFF"
+	```
+
+24. Trace through columns [ref](http://stackoverflow.com/questions/11767167/trying-to-apply-formula-to-each-column-in-r-how-to-feed-data-to-formula)
+
+    ```r
+    apply(cities, 2, FUN=function(x) HoltWinters(x=x, gamma=FALSE))
+    apply(cities, 2, HoltWinters, gamma=FALSE)
+	```
+
 30. Batch effects [ref](https://support.bioconductor.org/p/60581/)
 
     In a literal sense,  getting a matrix of batch corrected counts is not possible. Once the batch effects have been removed,  the values will no longer be counts.
