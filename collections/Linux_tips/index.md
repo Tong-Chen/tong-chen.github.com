@@ -80,6 +80,40 @@ layout: page
    * Mysql datadir
 
      Defined in file `/etc/my.conf` with `datadir=/mysql`.
+
+	 ```
+     # stop mysqld service
+     service mysqld stop
+
+     # change mysql datadir
+
+     ## mkdir
+     mkdir -p /test2/mysql
+	 chown mysql:mysql /test2/mysql
+     /bin/cp /var/lib/mysql/* /test2/mysql/
+     
+     ## change /etc/my.cnf
+     # datadir=/var/lib/mysql
+     datadir=/test2/mysql
+     #socket=/var/lib/mysql/mysql.sock
+     socket=/test2/mysql/mysql.sock
+     
+     .
+     .
+     .
+     
+     [client]
+     port=3306
+     socket=/test2/mysql/mysql.sock
+
+
+     ## Change /etc/init.d/mysql
+	 #get_mysql_option datadir "/var/lib/mysql"  mysqld
+	 get_mysql_option datadir "/test2/mysql"  mysqld 
+     
+     # start mysqld service
+     service mysqld start
+	 ```
    
    * Your password does not satisfy the current policy requirements
      
@@ -136,6 +170,7 @@ layout: page
 
    赋予权限
    # /etc/sudoers
+   username   All=(ALL)   ALL
    # /etc/passwd
    ```
 
@@ -200,6 +235,17 @@ layout: page
     awk '{for (i=1; i<=NF; i++) printf "%.3f %s", $$i, (i==NF?RS:FS)}' file
 	```
 
+14. Mariadb status and stop
 
+    ```
+	systemctl status mariadb
+	systemctl stop mariadb
+	```
+
+15. 查看端口使用情况
+
+    ```
+	netstat -a | grep '8080'
+	```
 
 
