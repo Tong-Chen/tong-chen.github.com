@@ -248,4 +248,24 @@ layout: page
 	netstat -a | grep '8080'
 	```
 
+16. 给文件夹而非文件增加可执行属性
 
+	The important thing to note here is that uppercase `X` acts differently to lowercase `x`. In manual we can read:
+
+	The execute/search bits if the file is a directory or any of the execute/search bits are set in the original (unmodified) mode.
+	In other words, `chmod u+X` on a file won't set the execute bit; and `g+X` will only set it if it's already set for the user.
+
+    ```
+	chmod -R u+rwX,g+rwX,go-rwx path
+
+	or 
+
+	find /path/to/base/dir -type d -exec chmod 755 {} +
+	find /path/to/base/dir -type f -exec chmod 644 {} +
+	chmod 755 $(find /path/to/base/dir -type d)
+	chmod 644 $(find /path/to/base/dir -type f)
+	find /path/to/base/dir -type d -print0 | xargs -0 chmod 755 
+	find /path/to/base/dir -type f -print0 | xargs -0 chmod 644
+	```
+
+17. 
