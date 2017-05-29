@@ -1,4 +1,4 @@
-﻿---
+---
 title: 参考文献中杂志名字问题
 author: ct
 layout: post
