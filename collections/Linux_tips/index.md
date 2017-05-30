@@ -246,6 +246,7 @@ layout: page
 
     ```
 	netstat -a | grep '8080'
+	lsof -i:8080
 	```
 
 16. 给文件夹而非文件增加可执行属性
