@@ -12,11 +12,11 @@ tags:
 
 ## 功能富集泡泡图
 
-功能富集分析泡泡图用来反映基因的通路富集情况，实际就是散点图进行了一下排序处理，加了不同的属性。
+功能富集分析用来展示某一组基因(一般是单个样品上调或下调的基因)倾向参与哪些功能调控通路，对从整体理解变化了的基因的功能和潜在的调控意义具有指导作用，也是文章发表中一个有意义的美图。通常会用柱状图、泡泡图和热图进行展示。热图的画法之前已经介绍过，这次介绍下富集分析泡泡图, 其展示的信息是最为全面的，也是比较抓人眼球的。
 
 做基因功能富集分析、KEGG富集分析、GSEA分析首选`clusterProfiler` http://mp.weixin.qq.com/s/9M3lprc3rL6XII3ffpDHAw，Y叔的良心之作，数据集更新及时，结果准确，自带语义分析合并相似条目、出图漂亮。
 
-但有时出来的结果还需要进行一些筛选处理然后重新绘图，本文就介绍下如何根据`clusterProfiler`的输出结果绘制富集分析图。本问虽主推`clusterProfiler`, 但绘图方法适用于所有富集分析的输出结果。
+但有时出来的结果还需要进行一些筛选处理然后重新绘图，本文就介绍下如何根据`clusterProfiler`的输出结果绘制富集分析图。本文虽主推`clusterProfiler`, 但绘图方法适用于所有富集分析的输出结果。
 
 ### 一步绘制富集分析图
 
@@ -27,7 +27,7 @@ tags:
 * qvalue 表示对应通路富集的显著性程度，可以是log处理过的，也可以是原始的。
 * Count 为对应通路差异基因数目。 
 * Type 这个矩阵合并了EHBIO样品和Baodian样品中各自上调的基因富集的通路，用Type列做区分。如果只有一个样品可不要。
-* 考虑到屏幕能显示的字符有限，只保留了输出结果中用到的列，实际使用时，整个输出结果文件可以作为输入，不相关的列会忽略掉，不影响出图。
+* 考虑到手机屏幕小能显示的字符有限，只保留了输出结果中用到的列，实际使用时，整个输出结果文件可以作为输入，不相关的列会忽略掉，不影响出图。
 
 ```
 Description	GeneRatio	qvalue	Count	Type
@@ -61,7 +61,7 @@ neuron apoptotic process	10/342	0.040284925	10	Baodian_up
 
 示例矩阵中包含两个样品上调基因的富集通路，现在先取出一个样品绘制。
 
-* Linux命令不熟悉的去生信宝典
+* Linux命令不熟悉的去生信宝典文章集锦中查看Linux学习指南
 
 ```bash
 grep -v 'Baodian_up' GOenrichement.xls >GOenrichement.ehbio.xls
@@ -80,7 +80,7 @@ grep -v 'Baodian_up' GOenrichement.xls >GOenrichement.ehbio.xls
 sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o GeneRatio -T numeric -v Description -c qvalue -s Count -l qvalue -a 12 -x "GeneRatio" -y "GO description"
 ```
 
-![]({{ site.img_url }}/splot/boxplot_2.png)
+![]({{ site.img_url }}/splot/enrichment2.png)
 
 如果不想展示GeneRatio也可以。
 
@@ -90,7 +90,7 @@ sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o GeneRatio -T numeric -v Descr
 sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o Type -T string -v Description -c qvalue -s Count -l qvalue -a 12 -x "Sample" -y "GO description"
 ```
 
-![]({{ site.img_url }}/splot/boxplot_3.png)
+![]({{ site.img_url }}/splot/enrichment3.png)
 
 #### 多样品合并绘制
 
@@ -99,7 +99,9 @@ sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o Type -T string -v Description
 sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description -c qvalue -s Count -l qvalue -a 12 -x "GeneRatio" -y "GO description" -S Type
 ```
 
-![]({{ site.img_url }}/splot/boxplot_4.png)
+![]({{ site.img_url }}/splot/enrichment4.png)
+
+通过这张图解释下，富集分析的结果怎么解读。不同的形状代表了不同类型的基因，
 
 如果不想展示GeneRatio也可以。
 
@@ -109,7 +111,7 @@ sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description
 sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description -c qvalue -s Count -l qvalue -a 12 -x "GeneRatio" -y "GO description" -S Type
 ```
 
-![]({{ site.img_url }}/splot/boxplot_5.png)
+![]({{ site.img_url }}/splot/enrichment5.png)
 
 
 ## Reference
