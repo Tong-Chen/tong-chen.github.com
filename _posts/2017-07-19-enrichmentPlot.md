@@ -82,7 +82,7 @@ sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o GeneRatio -T numeric -v Descr
 
 ![]({{ site.img_url }}/splot/enrichment2.png)
 
-如果不想展示GeneRatio也可以。
+**如果不想展示GeneRatio也可以。**
 
 ```bash
 # -o: 指定横轴的变量，单个样品一般选择GeneRatio或样品名字
@@ -101,9 +101,9 @@ sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description
 
 ![]({{ site.img_url }}/splot/enrichment4.png)
 
-通过这张图解释下，富集分析的结果怎么解读。不同的形状代表了不同类型的基因，
+通过这张图解释下，富集分析的结果怎么解读。富集分析实际是查找哪些通路里面包含的差异基因占总差异基因的比例显著高于通路中总基因占所有已经注释的基因的比例。这一显著性通常用多重假设检验矫正过的`pvalue`(又称qvalue, FDR或p.adjust)来表示。在图中体现为点的颜色。从绿到红富集显著性逐渐增高。点的大小表示对应通路中包含的差异基因的数目。点的形状代表了不同类型的基因，如EHBIO中上调的基因和Baodian中上调的基因。横轴表示对应通路包含的差异基因占总的差异基因的比例, 本图中最高不过5%, 这个值越大说明通路被影响的越多。
 
-如果不想展示GeneRatio也可以。
+**如果不想展示GeneRatio也可以。**
 
 
 ```bash
@@ -112,6 +112,7 @@ sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description
 ```
 
 ![]({{ site.img_url }}/splot/enrichment5.png)
+
 
 
 ## Reference
