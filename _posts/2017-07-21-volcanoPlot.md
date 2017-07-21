@@ -105,7 +105,7 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10 -l l
 
 今天先到这，前天提到的富集分析图，今天的火山图都是散点图的一种，后续介绍散点图时再对用到的R代码进行解读。**需要绘图脚本的，还是请帮助转发下，谢谢。**
 
-
+数据文件链接 <http://pan.baidu.com/s/1i5LzDxr>.
 
 
 ## Reference
