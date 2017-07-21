@@ -110,5 +110,5 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10 -l l
 
 ## Reference
 
-* {{ site.url }}/2017/07/enrichmentPlot
+* {{ site.url }}/2017/07/volcanoPlot
 
