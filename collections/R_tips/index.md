@@ -579,6 +579,12 @@ layout: page
     apply(cities, 2, HoltWinters, gamma=FALSE)
 	```
 
+25. 从data.frame中取出一列，仍然维持是data.frame
+
+    ```r
+    data.frame[, 1, drop=F]
+	```
+
 30. Batch effects [ref](https://support.bioconductor.org/p/60581/)
 
     In a literal sense,  getting a matrix of batch corrected counts is not possible. Once the batch effects have been removed,  the values will no longer be counts.
@@ -645,6 +651,15 @@ layout: page
     4   184_32   2010-04-29     2012-04-15                   2013-10-15
     5   185_38   2010-05-25     2010-09-09                   2011-02-11
     6   186_40   2010-05-26     2010-07-19                   2013-10-16
+	```
+
+32. Rstudio set dynamic library and other environment variables
+
+    ```r
+	Sys.getenv()
+    # will list all environmental variables
+	Sys.getenv('LD_LIBRARY_PATH')
+	Sys.setenv(LD_LIBRARY_PATH=paste("/my_lib_dir", Sys.getenv('LD_LIBRARY_PATH'), sep=":"))
 	```
 
 

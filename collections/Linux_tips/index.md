@@ -15,11 +15,11 @@ layout: page
 
 2. vim配置文件位置？
 
-   /etc/vimrc or ~/.vimrc
+   `/etc/vimrc or ~/.vimrc`
 
 3. 查看端口对应的进程
   
-   lsof -Pnl +M -i4
+   `lsof -Pnl +M -i4`
 
 4. fork: retry: Resource temporarily unavailable
 
