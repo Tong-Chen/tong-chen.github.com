@@ -11,7 +11,7 @@ tags:
 
 ## 火山图
 
-火山图用于展示基因表达差异的分布，横轴为$Log2 Fold Change$，越偏离中心差异倍数越大；纵轴为$(-1)*Log10 P_adjust$，值越大差异越显著。一般横轴越偏离中心的点其纵轴值也会比较大，因此呈现火山喷发的形状。
+火山图用于展示基因表达差异的分布，横轴为`Log2 Fold Change`，越偏离中心差异倍数越大；纵轴为`(-1)*Log10 P_adjust`，值越大差异越显著。一般横轴越偏离中心的点其纵轴值也会比较大，因此呈现火山喷发的形状。
 
 ### 一步绘制火山图
 
@@ -61,17 +61,21 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -s significant -S "'EHBIO
 
 ![]({{ site.img_url }}/splot/volcano_1.png)
 
+这个图看上去还可以，没有太大的问题。但有部分点与最顶端的线重合了，这些点的pvalue为0，取负对数后为负无穷。另外在一些情况下，会存在部分基因的pvalue极小，使得整张图呈现一个压缩的趋势，大部分点偏安于图的下方，中间大段空白，最上面零星几个点。为了避免这种情况，程序设置了参数`-M`用于设定pvalue的最大的负对数，所有大于给定值的数，都会视为给定值。
+
 ```bash
 # -M 10: 指定P-value(也可能是p-adj);若小于10^(-10)，则为10^(-10)
 #        用于部分p-value存在异常值，导致整个图都被压缩在最底部
 p_volcano.sh -f volcano.txt -x log2FoldChange -y padj -s significant -S "'EHBIO_UP', 'Baodian_UP', 'Unchanged'" -P TRUE -L top -M 10
 ```
 
+注意看纵轴的变化，和最上面排成一条线的一堆点。
+
 ![]({{ site.img_url }}/splot/volcano_2.png)
 
 #### 自动计算significant列绘制火山图
 
-若不存在`significant`列，程序会根据`-F`指定的参数计算并标记差异基因。`-F`的默认值为`"0.05,1"`, 第一个数表示pvalue或padj，对应于<-y>列；第二个数表示对数转换的差异倍数，对应于<-x>列。
+若不存在`significant`列，程序会根据`-F`指定的参数计算并标记差异基因。`-F`的默认值为`"0.05,1"`(引号是必须的), 第一个数表示pvalue或padj，对应于<-y>列；第二个数表示对数转换的差异倍数，对应于<-x>列。
 
 ```bash
 # <-F "0.05,1">, 默认值，故命令行中未写，引号是必须的
@@ -87,12 +91,15 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10
 
 ![]({{ site.img_url }}/splot/volcano_4.png)
 
+#### 火山图中标记基因的名字
 
 ```bash
 # -l: label，在图中标记部分基因的名字；
 # label为含有待标记基因名字的列名，此列中非<->的非空字符都会视为基因名字
 sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10 -l label
 ```
+
+`label`列中非`-`的值都会标记在图上。
 
 ![]({{ site.img_url }}/splot/volcano_5.png)
 
