@@ -215,3 +215,7 @@ sp_scatterplot2.sh -f scatterplot.xls -X GC_quality -Y Base_quality -O "'WARN', 
 
 * {{ site.url }}/2017/07/scatterPlot
 
+## 生信宝典公众号, 几千人一起学生信
+
+<https://mp.weixin.qq.com/s/c2nwATMwyU_9FgLprqmQ5A>
+

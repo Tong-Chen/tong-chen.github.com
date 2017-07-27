@@ -112,3 +112,6 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10 -l l
 
 * {{ site.url }}/2017/07/volcanoPlot
 
+## 生信宝典公众号,  几千人一起学生信
+
+<http://mp.weixin.qq.com/s/dikXvlDhjmaPuZkCFyRXUg>

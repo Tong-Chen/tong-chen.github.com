@@ -161,3 +161,6 @@ sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description
 
 * {{ site.url }}/2017/07/enrichmentPlot
 
+## 关注生信宝典，一起学生信
+
+<http://mp.weixin.qq.com/s/i7GOr5UMRp6OYTO40lgR8g>
