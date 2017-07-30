@@ -75,7 +75,7 @@ p
 
 说好的火山图的例子，但怎么也看不出喷发的态势。
 
-![]({{ site.img_url }}/splot/scatterplot1.png)
+![](http://blog.genesino.com/images//splot/scatterplot1.png)
 
 对数据坐下预处理，差异大的基因`padj`小，先对其求取负对数，所谓负负得正，差异大的基因就会处于图的上方了。
 
@@ -97,7 +97,7 @@ p <- ggplot(volcanoData,  aes(x=log2FoldChange,  y=padj)) +
 p
 ```
 
-![]({{ site.img_url }}/splot/scatterplot2.png)
+![](http://blog.genesino.com/images//splot/scatterplot2.png)
 
 有点意思了，数据太少不明显，下一步加上颜色看看。
 
@@ -110,7 +110,7 @@ p
 
 利用现有的数据，基本上就是这个样子了。虽然还不太像，原理都已经都点到了。
 
-![]({{ site.img_url }}/splot/scatterplot3.png)
+![](http://blog.genesino.com/images//splot/scatterplot3.png)
 
 盗取火山图绘制一文中的图来显示个真正的火山图吧。这样一步步绘制很麻烦，去看一步法吧。
 
@@ -139,7 +139,7 @@ p <- ggplot(fastqc_data, aes(x=GC_quality, y=Base_quality)) + geom_point()
 p
 ```
 
-![]({{ site.img_url }}/splot/scatterplot4.png)
+![](http://blog.genesino.com/images//splot/scatterplot4.png)
 
 六个点少了只剩下了3个，重叠在一起了，而且也不知道哪个点代表什么样品。这时需要把点抖动下，用到一个包`ggbeeswarm`，抖动图的神器。
 
@@ -155,7 +155,7 @@ p <- p + geom_text(aes(label=ID), position=position_quasirandom(),hjust=0, check
 p
 ```
 
-![]({{ site.img_url }}/splot/scatterplot5.png)
+![](http://blog.genesino.com/images//splot/scatterplot5.png)
 
 
 ### 一网打进散点图绘制
@@ -187,7 +187,7 @@ g	2	1	grp3	5	WARN	PASS
 sp_scatterplot2.sh -f scatterplot.xls -X Gene1 -Y Gene2 -c Color -s Size -S GC_quality -L Samp -w 10 -u 10
 ```
 
-![]({{ site.img_url }}/splot/scatterplot6.png)
+![](http://blog.genesino.com/images//splot/scatterplot6.png)
 
 如果横纵轴为字符串，且有重复, 则需指定参数`-J TRUE`以错开重叠的点，具体如下
 
@@ -203,7 +203,7 @@ sp_scatterplot2.sh -f scatterplot.xls -X Gene1 -Y Gene2 -c Color -s Size -S GC_q
 sp_scatterplot2.sh -f scatterplot.xls -X GC_quality -Y Base_quality -O "'WARN', 'PASS'" -c Gene1 -w 10 -u 10 -J TRUE -L Samp -Z FALSE
 ```
 
-![]({{ site.img_url }}/splot/scatterplot7.png)
+![](http://blog.genesino.com/images//splot/scatterplot7.png)
 
 只有想不到，没有做不到，`sp_scatterplot2.sh`还可以完成更多你想做的散点图，而且只需调参数，无需改代码，简单可重用。
 
@@ -213,7 +213,7 @@ sp_scatterplot2.sh -f scatterplot.xls -X GC_quality -Y Base_quality -O "'WARN', 
 
 ## Reference
 
-* {{ site.url }}/2017/07/scatterPlot
+* http://blog.genesino.com//2017/07/scatterPlot
 
 ## 生信宝典公众号, 几千人一起学生信
 

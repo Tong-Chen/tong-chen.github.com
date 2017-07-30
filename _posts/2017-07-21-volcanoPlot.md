@@ -59,7 +59,7 @@ E00047	-0.610941	5.51696648645932e-57	Unchanged	-
 sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -s significant -S "'EHBIO_UP', 'Baodian_UP', 'Unchanged'" -P TRUE -L top
 ```
 
-![]({{ site.img_url }}/splot/volcano_1.png)
+![](http://blog.genesino.com/images//splot/volcano_1.png)
 
 这个图看上去还可以，没有太大的问题。但有部分点与最顶端的线重合了，这些点的pvalue为0，取负对数后为负无穷。另外在一些情况下，会存在部分基因的pvalue极小，使得整张图呈现一个压缩的趋势，大部分点偏安于图的下方，中间大段空白，最上面零星几个点。为了避免这种情况，程序设置了参数`-M`用于设定pvalue的最大的负对数，所有大于给定值的数，都会视为给定值。
 
@@ -71,7 +71,7 @@ p_volcano.sh -f volcano.txt -x log2FoldChange -y padj -s significant -S "'EHBIO_
 
 注意看纵轴的变化，和最上面排成一条线的一堆点。
 
-![]({{ site.img_url }}/splot/volcano_2.png)
+![](http://blog.genesino.com/images//splot/volcano_2.png)
 
 #### 自动计算significant列绘制火山图
 
@@ -82,14 +82,14 @@ p_volcano.sh -f volcano.txt -x log2FoldChange -y padj -s significant -S "'EHBIO_
 sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top
 ```
 
-![]({{ site.img_url }}/splot/volcano_3.png)
+![](http://blog.genesino.com/images//splot/volcano_3.png)
 
 ```bash
 # -M 10: 与之前相同
 sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10
 ```
 
-![]({{ site.img_url }}/splot/volcano_4.png)
+![](http://blog.genesino.com/images//splot/volcano_4.png)
 
 #### 火山图中标记基因的名字
 
@@ -101,7 +101,7 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10 -l l
 
 `label`列中非`-`的值都会标记在图上。
 
-![]({{ site.img_url }}/splot/volcano_5.png)
+![](http://blog.genesino.com/images//splot/volcano_5.png)
 
 今天先到这，前天提到的富集分析图，今天的火山图都是散点图的一种，后续介绍散点图时再对用到的R代码进行解读。**需要绘图脚本的，还是请帮助转发下，谢谢。**
 
@@ -110,7 +110,7 @@ sp_volcano.sh -f volcano.txt -x log2FoldChange -y padj -P TRUE -L top -M 10 -l l
 
 ## Reference
 
-* {{ site.url }}/2017/07/volcanoPlot
+* http://blog.genesino.com//2017/07/volcanoPlot
 
 ## 生信宝典公众号,  几千人一起学生信
 

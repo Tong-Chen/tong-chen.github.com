@@ -80,7 +80,7 @@ grep -v 'Baodian_up' GOenrichement.xls >GOenrichement.ehbio.xls
 sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o GeneRatio -T numeric -v Description -c qvalue -s Count -l qvalue -a 12 -x "GeneRatio" -y "GO description"
 ```
 
-![]({{ site.img_url }}/splot/enrichment2.png)
+![](http://blog.genesino.com/images//splot/enrichment2.png)
 
 **如果不想展示GeneRatio也可以。**
 
@@ -90,7 +90,7 @@ sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o GeneRatio -T numeric -v Descr
 sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o Type -T string -v Description -c qvalue -s Count -l qvalue -a 12 -x "Sample" -y "GO description"
 ```
 
-![]({{ site.img_url }}/splot/enrichment3.png)
+![](http://blog.genesino.com/images//splot/enrichment3.png)
 
 #### 多样品合并绘制
 
@@ -99,7 +99,7 @@ sp_enrichmentPlot.sh -f GOenrichement.ehbio.xls -o Type -T string -v Description
 sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description -c qvalue -s Count -l qvalue -a 12 -x "GeneRatio" -y "GO description" -S Type
 ```
 
-![]({{ site.img_url }}/splot/enrichment4.png)
+![](http://blog.genesino.com/images//splot/enrichment4.png)
 
 通过这张图解释下，富集分析的结果怎么解读。富集分析实际是查找哪些通路里面包含的差异基因占总差异基因的比例显著高于通路中总基因占所有已经注释的基因的比例。这一显著性通常用多重假设检验矫正过的`pvalue`(又称qvalue, FDR或p.adjust)来表示。在图中体现为点的颜色。从绿到红富集显著性逐渐增高。点的大小表示对应通路中包含的差异基因的数目。点的形状代表了不同类型的基因，如EHBIO中上调的基因和Baodian中上调的基因。横轴表示对应通路包含的差异基因占总的差异基因的比例, 本图中最高不过5%, 这个值越大说明通路被影响的越多。
 
@@ -111,7 +111,7 @@ sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description
 sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description -c qvalue -s Count -l qvalue -a 12 -x "GeneRatio" -y "GO description" -S Type
 ```
 
-![]({{ site.img_url }}/splot/enrichment5.png)
+![](http://blog.genesino.com/images//splot/enrichment5.png)
 
 
 今天先到这，明天再对用到的R代码进行解读。需要绘图脚本的，还是请帮助转发下，谢谢。
@@ -159,7 +159,7 @@ sp_enrichmentPlot.sh -f GOenrichement.xls -o GeneRatio -T numeric -v Description
 
 ## Reference
 
-* {{ site.url }}/2017/07/enrichmentPlot
+* http://blog.genesino.com//2017/07/enrichmentPlot
 
 ## 关注生信宝典，一起学生信
 

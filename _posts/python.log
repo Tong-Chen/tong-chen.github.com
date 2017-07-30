@@ -1,0 +1,26 @@
+/MPATHB/self/NGS/wordcloud.py -i 2016-06-27-GEO-upload.md -w Upoad High Throughput Sequencing Data To NCBI GEO:30
+	Run time : 2017-05-12 08:42:34 - 2017-05-12 08:42:37 
+/MPATHB/self/NGS/wordcloud.py -i 2016-06-27-GEO-upload.md -w Upload High Throughput Sequencing Data To NCBI GEO:60
+	Run time : 2017-05-12 08:43:22 - 2017-05-12 08:43:24 
+/MPATHB/self/NGS/wordcloud.py -i 2016-06-27-GEO-upload.md -w Upload High Throughput Sequencing Data To NCBI GEO:60;GEO:30;Sequencing-data:20
+	Run time : 2017-05-12 08:44:39 - 2017-05-12 08:44:41 
+/MPATHB/self/NGS/wordcloud.py -i 2016-11-27-pandas.md -w pandas:100
+	Run time : 2017-05-12 16:21:37 - 2017-05-12 16:21:39 
+/MPATHB/self/NGS/wordcloud.py -i 2015-10-10-molecular-docking.md -p md.png -w molecular docking:300
+	Run time : 2017-05-15 18:00:57 - 2017-05-15 18:01:00 
+/MPATHB/self/NGS/wordcloud.py -i 2015-10-10-molecular-docking.md -p md.png -w molecular docking:300;PyMOL:300;AutoDock:300
+	Run time : 2017-05-15 18:01:49 - 2017-05-15 18:01:52 
+/MPATHB/self/NGS/wordcloud.py -i 2012-02-02-ssh-login-without-passwd.md -w ssh no pawwword:40
+	Run time : 2017-05-29 09:50:47 - 2017-05-29 09:50:47 
+/MPATHB/self/NGS/wordcloud.py -i 2012-02-02-ssh-login-without-passwd.md -w ssh no pawwword:40
+	Run time : 2017-05-29 09:51:22 - 2017-05-29 09:51:23 
+/MPATHB/self/NGS/wordcloud_self.py -i 2012-02-02-ssh-login-without-passwd.md -w ssh no pawwword:40
+	Run time : 2017-05-29 09:55:55 - 2017-05-29 09:55:57 
+/MPATHB/self/NGS/wordcloud_self.py -i 2017-06-08-bash1.md -w file:20;directory:20
+	Run time : 2017-06-08 23:12:59 - 2017-06-08 23:13:07 
+/MPATHB/self/NGS/wordcloud_self.py -i 2017-06-08-bash1.md -w file:20;directory:20;cd:10;mkdir:20;ls:30;head:20;tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file:20;rev file:30
+	Run time : 2017-06-08 23:18:00 - 2017-06-08 23:18:12 
+/MPATHB/self/NGS/wordcloud_self.py -i 2017-06-08-bash1.md -w file:20;directory:20;cd:10;mkdir:20;ls:30;head:20;tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file:20;rev file:30;change dir:10;make directory:10;list:10;concatenate:10;less:20;more:30;fasta:20;awk:10;sed:20;bash:10;grep:10;tr:20
+	Run time : 2017-06-08 23:24:12 - 2017-06-08 23:24:24 
+/MPATHB/self/NGS/wordcloud_self.py -i 2017-06-08-bash1.md -w file:10;directory:10;cd:10;mkdir:10;ls:10;head:10;tail:10;ls -l:10;ls -a:10;mkdir -p:10;head -n 2 file:10;tail -n +2 file:10;tac file:10;rev file:10;change dir:10;make directory:10;list:10;concatenate:10;less:10;more:10;fasta:10;awk:10;sed:10;bash:10;grep:10;tr:10
+	Run time : 2017-06-08 23:25:44 - 2017-06-08 23:25:50 

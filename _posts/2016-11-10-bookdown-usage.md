@@ -18,7 +18,7 @@ Here lists the usage of [`bookdown`](https://bookdown.org/yihui/bookdown/get-sta
 
 * Install [`Rstudio (version>1.0.0)`](https://www.rstudio.com/products/rstudio/download/)
 
-* Install [`Pandoc (version>1.17.0.2)`](http://www.pandoc.org)或者参照[here]({{ site.url }}/collections/Linux_tips)
+* Install [`Pandoc (version>1.17.0.2)`](http://www.pandoc.org)或者参照[here](http://blog.genesino.com//collections/Linux_tips)
 
 * In R `install.packages("bookdown")`
 

@@ -36,7 +36,7 @@ Here I will introduce a script [`boxplot.sh`](https://github.com/Tong-Chen/Plot/
 
 Two types of input files are supported. The first type is the table file with the first column as ID and other columns as data values, just as what you think in the mind. It is suitable when all boxes share same IDs. If each box contains different set of IDs, you may use the sceond format. 
 
-#### Matrix data table like `diamonds` as described in [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/).
+#### Matrix data table like `diamonds` as described in [Basic things you should know to use s-plot](http://blog.genesino.com//2013/01/test-data-sets/).
 
   The first column is the ID variable, normally the values in this column should be unqiue. The other columns are data columns and you can have any number of columns if you want. 
   {% highlight r %}
@@ -98,11 +98,11 @@ A practical example, if one want to compare the expression level of all genes in
 
 #### Simply, running `boxplot.sh -f diamond.extract.matrix` or `boxplot.sh -f diamond.extract.matrix.melt -m TRUE` will get the following boxplot.
 
-  ![diamond.extract.matrix.boxplot-simple1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot-simple1.png)
+  ![diamond.extract.matrix.boxplot-simple1](http://blog.genesino.com/images//tutorial/diamond.extract.matrix.boxplot-simple1.png)
 
 #### Also want to get the violin plot, `boxplot.sh -f diamond.extract.matrix -V TRUE`. If you do not want to plot the inner-boxplot, please give `FALSE` to `-W`.
 
-  ![diamond.extract.matrix.boxplot.violin1]({{ site.img_url }}/tutorial/diamond.extract.matrix.boxplot.violin1.png)
+  ![diamond.extract.matrix.boxplot.violin1](http://blog.genesino.com/images//tutorial/diamond.extract.matrix.boxplot.violin1.png)
 
 #### Plot the distribution of `carat` and `price` in each given category.
 
@@ -163,7 +163,7 @@ A practical example, if one want to compare the expression level of all genes in
   ![diamond.extract.matrix.boxplot.price_carat_num]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_num.png)
   ![diamond.extract.matrix.boxplot.price_carat_interval]({{ site.img_url}}/tutorial/diamond.extract.matrix.boxplot.price_carat_interval.png)
 
-#### Please see [Basic things you should know to use s-plot]({{ site.url }}/2013/01/test-data-sets/) to modify other formats like the *position of legend*, *width*, *height*, *resolution* and *output type* of pictures, *install required module* or *generating R scripts only*.
+#### Please see [Basic things you should know to use s-plot](http://blog.genesino.com//2013/01/test-data-sets/) to modify other formats like the *position of legend*, *width*, *height*, *resolution* and *output type* of pictures, *install required module* or *generating R scripts only*.
 
 ## Ref
 

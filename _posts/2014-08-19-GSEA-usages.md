@@ -13,7 +13,7 @@ Gene set enrichment analysis ([gsea](http://www.broadinstitute.org/gsea/index.js
 significant, concordant differences between two biological states 
 (e.g. phenotypes). 
 
-![gsea main pic]({{ site.img_url }}/GSEA.gif)
+![gsea main pic](http://blog.genesino.com/images//GSEA.gif)
 
 #### Input files preparation
 
@@ -79,7 +79,7 @@ Now, we have got all required files for GSEA analysis.
 
 * gct fileformat
 
-![gct format]({{ site.img_url }}/gct.gif)
+![gct format](http://blog.genesino.com/images//gct.gif)
 
     * The first line should always be `#1.2`.
 	* The second line contains tow columns, `(# of genes)<tab>(# of samples)`.
@@ -87,7 +87,7 @@ Now, we have got all required files for GSEA analysis.
 
 * cls format
     
-![cls format]({{ site.img_url }}/cls.png)
+![cls format](http://blog.genesino.com/images//cls.png)
 
 	* The first line contains `(# of damples)<space>(# of classes)<space>1`.
 	* The second line contains `#<space>(class 0 name)<space>(class 1 name)...`.
@@ -97,7 +97,7 @@ Now, we have got all required files for GSEA analysis.
 
 The `GMT` file format is a tab delimited file format that describes gene sets. In the GMT format, each row represents a `gene set`; in the GMX format, each column represents a gene set. The GMT file format is organized as follows:
 
-![gmt format]({{ site.img_url }}/gmt.gif)
+![gmt format](http://blog.genesino.com/images//gmt.gif)
 
 Each gene set is described by a `name`, a `description`, and `the genes in the gene set`. GSEA uses the description field to determine what hyperlink to provide in the report for the gene set description: if the description is "na", GSEA provides a link to the named gene set in MSigDB; if the description is a URL, GSEA provides a link to that URL.
 
@@ -137,7 +137,7 @@ Below steps are borrowed from [http://www.baderlab.org/Software/EnrichmentMap/Tu
 * Click on Run in the bottom right corner.
 * Wait untial the `status` in left panel is `success`. The output will be saved in input folder.
 
-![GSEA run]({{ site.img_url }}/GSEA_tutorial.png)
+![GSEA run](http://blog.genesino.com/images//GSEA_tutorial.png)
 
 #### GSEA result interpretation
 
@@ -145,7 +145,7 @@ The primary result of the gene set enrichment analysis is the **enrichment score
 
 In the analysis results, the enrichment plot provides a graphical view of the enrichment score for a gene set:
 
-![GSEA result]({{ site.img_url }}/gsea_result.gif)
+![GSEA result](http://blog.genesino.com/images//gsea_result.gif)
 
 The red fonts are "MUT(positively correlated)" and blue fonts are "WT(negatively correlated)". The picture indicates enrichment of "P53_DOWN_KANNAN" in `MUT` versus `WT` cells.
 

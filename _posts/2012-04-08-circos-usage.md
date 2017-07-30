@@ -11,6 +11,7 @@ tags:
 #### Install circos
 
 * Download circos from http://circos.ca/software/download/circos/ and run following command:
+
 ```
 tar xvzf circos-0.67.tgz
 ln -s `pwd`/circos-0.67/bin ~/bin #make sure ~/bin is in $PATH
@@ -28,5 +29,6 @@ ln -s `pwd`/circos-0.67/bin ~/bin #make sure ~/bin is in $PATH
 		* Install needed modules by typing `cpanm YAML Clone Config::General Font::TTF::Font GD GD::Polyline List::MoreUtils Math::Bezier Math::Round Math::VecStat Params::Validate Readonly Regexp::Common SVG Set::IntSpan Statistics::Basic Text::Format` in `terminal`.
 		* Install `libgd` from http://libgd.bitbucket.org if `GD` can not be installed. Make sure `gdlib-config` is $PATH.
 
+	
 
 

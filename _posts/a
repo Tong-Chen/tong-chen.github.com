@@ -34,15 +34,15 @@ AutoDock Vina是The Scripp Research Institute的Olson科研小组开发的分子
 
 2. 启动PyMOL，依次点选`File`-`Open`-`1hsg.pdb`导入PDB文件，会看到如下界面
 
-   ![file_open_visual.png](http://blog.genesino.com/images//docking/file_open_visual.png)
+   ![file_open_visual.png](http://blog.genesino.com//docking/file_open_visual.png)
 
 3. 首先在右侧的对象控制面板，依次点选`行all`的`H列`-`Hide: everything`(如左图所示)，然后浩瀚无际的没有月亮的夜空出现在我们面前。
 
 4. 在右侧的对象控制面板，依次点选`行1hsg`的`S列`-`Show: cartoon`，然后点选`C列`-`By chain`显色，这时可以看到如右图所示的同源二聚体。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/all_hide_everything.png" alt="all_hide_everything.png">
-   	<img src="http://blog.genesino.com/images//docking/1hsg_cartoon_chain.png" alt="1hsg_cartoon_chain.png">
+   	<img src="http://blog.genesino.com//docking/all_hide_everything.png" alt="all_hide_everything.png">
+   	<img src="http://blog.genesino.com//docking/1hsg_cartoon_chain.png" alt="1hsg_cartoon_chain.png">
    	<figcaption>左图展示对象控制面板，右图展示蛋白同源二聚体。</figcaption>
    </figure>
 
@@ -50,14 +50,14 @@ AutoDock Vina是The Scripp Research Institute的Olson科研小组开发的分子
 
 1. 从蛋白结构的PDB文件(PDB文件格式解析见后面)或PDB官网的信息(如下图所示)可以看到，`1hsg`结构中包含配体药物`indinavir`，其残基的名字为`MK1`。
 
-   ![ligand_indinavir_mk1.png](http://blog.genesino.com/images//docking/ligand_indinavir_mk1.png)
+   ![ligand_indinavir_mk1.png](http://blog.genesino.com//docking/ligand_indinavir_mk1.png)
 
 2. 在PyMOL的命令行处输入`PyMOL> select indinavir, resn MK1`，回车，会看到
 如下画面变化。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/get_ligand_using_select.png" alt="get_ligand_using_select.png">
-   	<img src="http://blog.genesino.com/images//docking/ligand_indinavir_mk1_show_1.png" alt="ligand_indinavir_mk1_show_1.png">
+   	<img src="http://blog.genesino.com//docking/get_ligand_using_select.png" alt="get_ligand_using_select.png">
+   	<img src="http://blog.genesino.com//docking/ligand_indinavir_mk1_show_1.png" alt="ligand_indinavir_mk1_show_1.png">
    	<figcaption>左图展示输入的命令和输入命令前的结构图，右图展示输入命令后的结构图，药物分子的结构呈被选定状态(红色空心块)。</figcaption>
    </figure>
 
@@ -66,8 +66,8 @@ AutoDock Vina是The Scripp Research Institute的Olson科研小组开发的分子
 4. 显示水分子。水分子的残基名字为`HOH`，运行命令`PyMOL> select H2O, resn HOH`调出水分子。然后点选`S`-`Show spheres`, `C`-`red`。再运行`PyMOL> set sphere_scale, 0.2`设置水球的大小。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/lgand_show.png" alt="lgand_show.png">
-   	<img src="http://blog.genesino.com/images//docking/1hsg.png" alt="1hsg.png">
+   	<img src="http://blog.genesino.com//docking/lgand_show.png" alt="lgand_show.png">
+   	<img src="http://blog.genesino.com//docking/1hsg.png" alt="1hsg.png">
    	<figcaption>左图小分子的结构图及其与蛋白的结合位点，右图展示蛋白、小分子、水分子(红色圆球)的空间构象。</figcaption>
    </figure>
 
@@ -101,8 +101,8 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 5. 加氢：晶体结构中通常缺少氢原子的坐标 (因为氢原子电子少，且质子核对电子吸引能力弱，因此很难定位，具体见<http://www.uh.edu/~chembi/ChemSocRev_Jones_critical.pdf>)。但是在docking过程中，氢原子尤其是极性氢原子对计算静电作用是必须的。因此我们需要给蛋白加上氢原子，依次点选`Edit`-`Hydrogen`-`Add`-`Polar only`-`OK`(之所以选择`Polar only`是因为`vina`的官方视频里面是这么选择的，后面我们会做一个测试，最终会证明这个地方是不是选极性氢对最终结果没有影响)。这时氢原子会以白色短线形式出现。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/1hsg_prot_no_H.png" alt="1hsg_prot_no_H.png">
-   	<img src="http://blog.genesino.com/images//docking/1hsg_prot_with_H.png" alt="1hsg_prot_with_H.png">
+   	<img src="http://blog.genesino.com//docking/1hsg_prot_no_H.png" alt="1hsg_prot_no_H.png">
+   	<img src="http://blog.genesino.com//docking/1hsg_prot_with_H.png" alt="1hsg_prot_with_H.png">
    	<figcaption>增加氢原子前(左)和后(右)蛋白结构显示</figcaption>
    </figure>
 
@@ -143,8 +143,8 @@ Docking algorithms require each atom to have a charge and an atom type that desc
 4. 晶体结构中通常缺少氢原子 (因为氢原子电子少，且质子核对电子吸引能力弱，因此很难定位，具体见<http://www.uh.edu/~chembi/ChemSocRev_Jones_critical.pdf>)。但是在docking过程中，氢原子，尤其是极性氢原子对计算静电作用是必须的。因此我们需要给配体加上氢原子，`Edit`-`Hydrogen`-`Add`-`Polar only`-`OK`(之所以选择`Polar only`是因为`vina`的官方视频里面是这么选择的)。这时氢原子会以白色短线形式出现。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/indinavir_no_H.png" alt="1hsg_prot_no_H.png">
-   	<img src="http://blog.genesino.com/images//docking/indinavir_with_H.png" alt="1hsg_prot_with_H.png">
+   	<img src="http://blog.genesino.com//docking/indinavir_no_H.png" alt="1hsg_prot_no_H.png">
+   	<img src="http://blog.genesino.com//docking/indinavir_with_H.png" alt="1hsg_prot_with_H.png">
    	<figcaption>增加氢原子前(左)和后(右)化合物结构显示</figcaption>
    </figure>
 
@@ -240,9 +240,9 @@ seed = 2009
 * original_tutorial_result.pdbqt：原教程中的docking结果
 
 <figure class="third">
-	<img src="http://blog.genesino.com/images//docking/docking_result_all.png" alt="docking_result_all.png">
-	<img src="http://blog.genesino.com/images//docking/our_ligand_gold_standard.png" alt="our_ligand_gold_standard.png">
-	<img src="http://blog.genesino.com/images//docking/our_ligand_original_ligand.png" alt="our_ligand_original_ligand.png">
+	<img src="http://blog.genesino.com//docking/docking_result_all.png" alt="docking_result_all.png">
+	<img src="http://blog.genesino.com//docking/our_ligand_gold_standard.png" alt="our_ligand_gold_standard.png">
+	<img src="http://blog.genesino.com//docking/our_ligand_original_ligand.png" alt="our_ligand_original_ligand.png">
 	<figcaption>Docking结果展示。左图为蛋白与全部小分子的构象展示;中图为本教程预测的小分子构象(蓝色)与标准构象(白色)的吻合程度，红色框起来的区域为预测不准确区域。右图为本教程预测的小分子构象(蓝色)与原教程预测的小分子构象(粉色)的比较。白色化合物为原PDB晶体结构中配体的构象，视为金标准。蓝色为本教程的只加极性氢的预测结果。粉红色为原教程结果。黄色为本教程加所有氢的结果 (与蓝色构象完全一致，因此显示不出。可在实际操作时尝试隐藏和显示不同的分子观看效果)。</figcaption>
 </figure>
 
@@ -427,8 +427,8 @@ B/MK1`902/O2    B/ASP`25/OD1   2.63
 看上去比显示的氢键少了三个，这是因为我们在第二个函数中使用了H-键角度限制，如果在调用时给定参数`list_hb(mode=0)`则会获得一致结果。
 
 <figure class="half">
-	<img src="http://blog.genesino.com/images//docking/after_run_hbond.pml.png" alt="after_run_hbond.pml.png">
-	<img src="http://blog.genesino.com/images//docking/after_run_list_hbond.png" alt="after_run_list_hbond.png">
+	<img src="http://blog.genesino.com//docking/after_run_hbond.pml.png" alt="after_run_hbond.pml.png">
+	<img src="http://blog.genesino.com//docking/after_run_list_hbond.png" alt="after_run_list_hbond.png">
 	<figcaption>H-bond结果展示。第一张图为运行`display.pml`后的结果，蓝色虚线为氢键；第二张图为运行`list_hbonds.py`后的结果, 黄色虚线为氢键（覆盖了之前的蓝色）。可以通过点选`LaccPdon`, `LdonPacc`, `l2p_hbonds`显示不同的氢键。</figcaption>
 </figure>
 
@@ -614,16 +614,16 @@ cmd.extend('color_h2',color_h2)
    You may have observed that moving the structure around the window is a bit difficult since the origin of the view has been altered when you loaded 1OHR.pdb. To reset it, try:`PyMOL> reset`，运行之后没有看到变化。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/1OHR_1HSG_unalign.png" alt="1OHR_1HSG_unalign.png">
-   	<img src="http://blog.genesino.com/images//docking/1OHR_1HSG_align.png" alt="1OHR_1HSG_align.png">
+   	<img src="http://blog.genesino.com//docking/1OHR_1HSG_unalign.png" alt="1OHR_1HSG_unalign.png">
+   	<img src="http://blog.genesino.com//docking/1OHR_1HSG_align.png" alt="1OHR_1HSG_align.png">
    	<figcaption>Docking结果展示。第一张图表示2个晶体结构align前的展示；第二张图表示2个晶体align后重合在了一起。白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的结果(只加极性氢)。</figcaption>
    </figure>
 
 3. 展示PDB文件中的蛋白结合的化合物提取`1OHR`中的`nelfinavir (残基为1UN)`，运行`PyMOL> select nelfinavir, 1OHR and resn 1UN`；在对象面板更改其展示方式，依次点选`S`-`Show sticks`-`C`-`white`。通过与金标准比对，判断哪个构象是预测的最佳模式。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/nelfinavir_first_with_gold_standard.png" alt="nelfinavir_first_with_gold_standard.png">
-	<img src="http://blog.genesino.com/images//docking/nelfinavir_second_with_gold_standard.png" alt="nelfinavir_second_with_gold_standard.png">
+   	<img src="http://blog.genesino.com//docking/nelfinavir_first_with_gold_standard.png" alt="nelfinavir_first_with_gold_standard.png">
+	<img src="http://blog.genesino.com//docking/nelfinavir_second_with_gold_standard.png" alt="nelfinavir_second_with_gold_standard.png">
 	<figcaption>Docking第一张图表示AutoDock Vina输出结果的Best Mode与金标准的比对情况；第二张图表示AutoDock Vina输出结果的Second Best Mode与金标准的比对情况；白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的结果(只加极性氢)。</figcaption>
    </figure>
 
@@ -632,8 +632,8 @@ cmd.extend('color_h2',color_h2)
    那么还有一个问题，1SHG的chainA与1OHR的chainA是不是一个呢？我们比对1OHR的chainA与1HSG的chainB，`PyMOL> align 1OHR and chain A, 1hsg_prot and chain B`。
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/1OHR_1HSG_chainA_align.png" alt="1OHR_1HSG_chainA_align.png">
-   	<img src="http://blog.genesino.com/images//docking/1OHR_1HSG_chainAB_align.png" alt="1OHR_1HSG_chainAB_align.png">
+   	<img src="http://blog.genesino.com//docking/1OHR_1HSG_chainA_align.png" alt="1OHR_1HSG_chainA_align.png">
+   	<img src="http://blog.genesino.com//docking/1OHR_1HSG_chainAB_align.png" alt="1OHR_1HSG_chainAB_align.png">
    	<figcaption>Docking结果展示。第一张图表示2个晶体结构align后重合在了一起。第二张图表示1OHR的chainA与1HSG的chainB比对的结果。白色化合物为1OHR PDB晶体结构中配体nelfinavir的构象，视为金标准。红色为本教程的预测的second best mode结果(只加极性氢)。</figcaption>
    </figure>
 
@@ -650,7 +650,7 @@ cmd.extend('color_h2',color_h2)
 
   设置环境变量：`我的电脑`-`属性`-`高级系统设置`-`高级`-`环境变量`-`系统变量中选中PATH`-`编辑`-`新建`-`加入安装路径(如下图所示)`
 
-  ![windows_PATH.png](http://blog.genesino.com/images//docking/windows_PATH.png)
+  ![windows_PATH.png](http://blog.genesino.com//docking/windows_PATH.png)
 
   安装完成之后，启动PyMOL，会在`Plugin`下看到`APBS Tools`。
 
@@ -675,16 +675,16 @@ C:\Users\ct\AppData\Local\Temp\pymol-generated.dx`) - `Molecular
 Surface - Show`
 
 <figure class="third">
-	<img src="http://blog.genesino.com/images//docking/pymol_apbs_config_1.png" alt="">
-	<img src="http://blog.genesino.com/images//docking/pymol_apbs_config_2.png" alt="">
-	<img src="http://blog.genesino.com/images//docking/pymol_apbs_config_location.png" alt="">
+	<img src="http://blog.genesino.com//docking/pymol_apbs_config_1.png" alt="">
+	<img src="http://blog.genesino.com//docking/pymol_apbs_config_2.png" alt="">
+	<img src="http://blog.genesino.com//docking/pymol_apbs_config_location.png" alt="">
 	<figcaption>左图为配置加氢的参数；中图是设置GRID；右图为设置可执行文件的路径</figcaption>
 </figure>
 
 <figure class="third">
-	<img src="http://blog.genesino.com/images//docking/pymol_apbs_config_3.png" alt="">
-	<img src="http://blog.genesino.com/images//docking/pymol_apbs_config_4.png" alt="">
-	<img src="http://blog.genesino.com/images//docking/pymol_apbs_show.png" alt="">
+	<img src="http://blog.genesino.com//docking/pymol_apbs_config_3.png" alt="">
+	<img src="http://blog.genesino.com//docking/pymol_apbs_config_4.png" alt="">
+	<img src="http://blog.genesino.com//docking/pymol_apbs_show.png" alt="">
 	<figcaption>左图是展示APBS计算结果；中图为计算结果路径；右图为结果展示</figcaption>
 </figure>
 
@@ -706,8 +706,8 @@ If the colors are not as you expect,  you can change the colors of the objects `
 
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/adt_visual_vina_result.png" alt="">
-   	<img src="http://blog.genesino.com/images//docking/adt_visual_protein.png" alt="">
+   	<img src="http://blog.genesino.com//docking/adt_visual_vina_result.png" alt="">
+   	<img src="http://blog.genesino.com//docking/adt_visual_protein.png" alt="">
    	<figcaption>左图是Vina结果展示；右图为蛋白结果展示</figcaption>
    </figure>
 
@@ -726,8 +726,8 @@ If the colors are not as you expect,  you can change the colors of the objects `
    python shell.
 
    <figure class="half">
-   	<img src="http://blog.genesino.com/images//docking/adt_visual_vina_interaction.png" alt="">
-   	<img src="http://blog.genesino.com/images//docking/adt_visual_vina_interaction2.png" alt="">
+   	<img src="http://blog.genesino.com//docking/adt_visual_vina_interaction.png" alt="">
+   	<img src="http://blog.genesino.com//docking/adt_visual_vina_interaction2.png" alt="">
    	<figcaption>配体与受体作用展示, 使用方向键切换不同的配体构象</figcaption>
    </figure>
 
@@ -1143,20 +1143,20 @@ yum install openbabel-2.2.3-1.el6.x86_64
 
 原始文件
 	
-  * [1hsg.pdb 蛋白小分子晶体结构](http://blog.genesino.com/images//docking/1hsg.pdb)
-  * [1OHR.pdb 蛋白小分子晶体结构](http://blog.genesino.com/images//docking/1OHR.pdb)
+  * [1hsg.pdb 蛋白小分子晶体结构](http://blog.genesino.com//docking/1hsg.pdb)
+  * [1OHR.pdb 蛋白小分子晶体结构](http://blog.genesino.com//docking/1OHR.pdb)
 
 处理后文件
 
-  * [1hsg_prot.pdb 提取的蛋白结构](http://blog.genesino.com/images//docking/1hsg_prot.pdb)
-  * [indinavir.pdb 提取的小分子结构](http://blog.genesino.com/images//docking/indinavir.pdb)
-  * [1hsg_prot.pdbqt 转换后的蛋白结构](http://blog.genesino.com/images//docking/1hsg_prot.pdbqt)
-  * [indinavir.pdbqt 转换后的小分子结构](http://blog.genesino.com/images//docking/indinavir.pdbqt)
-  * [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果](http://blog.genesino.com/images//docking/1hsg_indinavir_dockingResult.pdbqt)
-  * [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)](http://blog.genesino.com/images//docking/1hsg_prot_all_h.pdbqt)
-  * [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)](http://blog.genesino.com/images//docking/1hsg_prot_all_h.pdbqt)
-  * [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果](http://blog.genesino.com/images//docking/1hsg_indinavir_dockingResultAllH.pdbqt)
-  * [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果](http://blog.genesino.com/images//docking/1hsg_indinavir_original_tutorial_result.pdbqt)
+  * [1hsg_prot.pdb 提取的蛋白结构](http://blog.genesino.com//docking/1hsg_prot.pdb)
+  * [indinavir.pdb 提取的小分子结构](http://blog.genesino.com//docking/indinavir.pdb)
+  * [1hsg_prot.pdbqt 转换后的蛋白结构](http://blog.genesino.com//docking/1hsg_prot.pdbqt)
+  * [indinavir.pdbqt 转换后的小分子结构](http://blog.genesino.com//docking/indinavir.pdbqt)
+  * [1hsg_indinavir_dockingResult.pdbqt 上面两个分子的docking结果](http://blog.genesino.com//docking/1hsg_indinavir_dockingResult.pdbqt)
+  * [1hsg_prot_all_h.pdbqt 转换后的蛋白结构(加所有的氢)](http://blog.genesino.com//docking/1hsg_prot_all_h.pdbqt)
+  * [1hsg_prot_all_h.pdbqt 转换后的小分子结构(加所有的氢)](http://blog.genesino.com//docking/1hsg_prot_all_h.pdbqt)
+  * [1hsg_indinavir_dockingResultAllH.pdbqt 上面两个分子的docking结果](http://blog.genesino.com//docking/1hsg_indinavir_dockingResultAllH.pdbqt)
+  * [1hsg_indinavir_original_tutorial_result.pdbqt 原始教程中docking结果](http://blog.genesino.com//docking/1hsg_indinavir_original_tutorial_result.pdbqt)
 	
 
 ### 参考

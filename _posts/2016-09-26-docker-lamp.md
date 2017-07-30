@@ -9,7 +9,7 @@ tags:
 ---
 
 这部分介绍下，如何利用Docker搭建一个便携的LAMP网络服务器。
-Docker的基本使用请参考 <{{ site.url }}/2016/07/docker/>。
+Docker的基本使用请参考 <http://blog.genesino.com//2016/07/docker/>。
 
 
 ### 基本使用

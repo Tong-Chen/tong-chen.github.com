@@ -15,9 +15,9 @@ Here lists how to use UCSC tablebrowser to get various gene annotation informati
 ##### Get gene annotation file in GTF or bed format
 Open [UCSC table browser](http://genome.ucsc.edu/cgi-bin/hgTables) and fill the following information and hit `get output`.
 
-![Gene annotation file in GTF format]({{ site.img_url }}/UCSC-refgene.jpg "Get gene annotation file in GTF format")
-![Gene annotation file in Bed format]({{ site.img_url }}/UCSC-refgene-bed-1.jpg "Get Gene annotation file in Bed format")
-![Sub-gene annotation file in Bed format]({{ site.img_url }}/UCSC-refgene-bed-1.jpg "Get sub-gene annotation file in Bed format")
+![Gene annotation file in GTF format](http://blog.genesino.com/images//UCSC-refgene.jpg "Get gene annotation file in GTF format")
+![Gene annotation file in Bed format](http://blog.genesino.com/images//UCSC-refgene-bed-1.jpg "Get Gene annotation file in Bed format")
+![Sub-gene annotation file in Bed format](http://blog.genesino.com/images//UCSC-refgene-bed-1.jpg "Get sub-gene annotation file in Bed format")
 
 ##### Get chromosome size file or genome size file
 {% highlight bash %}
@@ -88,7 +88,7 @@ Open [UCSC table browser](http://genome.ucsc.edu/cgi-bin/hgTables) and chose `al
 
 * UCSC table browser --- mammal -- mouse --- mm9 - variation and repeats -- repeatmarsker --- rmsk -- selected fields from primary and related tables
 
-![repeat masker file in GTF format]({{ site.img_url }}/rmsk.jpg "Get repeat elements file in GTF format")
+![repeat masker file in GTF format](http://blog.genesino.com/images//rmsk.jpg "Get repeat elements file in GTF format")
 
 ##### Get and use Phastcon conservation value  
 * Get PhastCons scores from UCSC:

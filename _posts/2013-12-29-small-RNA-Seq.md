@@ -62,7 +62,7 @@ fastx_clipper -a TCGTATGCCGT -l 17 -v -i GSM416732.fa -o GSM416732.clipped.fa -Q
 
 Here I used [`Mega`](http://www.megasoftware.net/) result as an example. The left colorfull letters show the MSA result of 25 reads and black-boxed 11 letters were selected as adaptor sequence. The length of adaptor sequence normally should be larger than 10. The right txt shows the adaptor-clipping result connected by thin-lines.
 
-![MSA and adaptor clipping]({{ site.img_url }}/smRNA-seq-1.jpg)
+![MSA and adaptor clipping](http://blog.genesino.com/images//smRNA-seq-1.jpg)
 
 #### Quantify miRNA expression
 
