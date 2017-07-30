@@ -269,4 +269,9 @@ layout: page
 	find /path/to/base/dir -type f -print0 | xargs -0 chmod 644
 	```
 
-17. 
+17. awk中执行系统命令 (注意引号的使用)
+
+    ```bash
+    awk 'BEGIN{OFS=FS="\t"}{system("mv "$1".fq "$2".fq");}' 1
+	```
+
