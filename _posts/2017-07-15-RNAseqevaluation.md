@@ -23,6 +23,18 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 ![](http://blog.genesino.com/images/ngs/RNAseq_general_workflow.png)
 
+通过综合分析`RNA-seq`分析流程中不同步骤的工具性能发现不同的分析工具和方法对分析结果的准确度和分析时间影响巨大。
+
+`HISAT2`表现出最快的速度和最准确的拼接比对，但是没有`STAR`的敏感度高。`StringTie`在速度和准确度上都优于`Cufflinks`。
+
+长读段方法如`IDP`和`Iso-Seq`会识别许多短读段技术没有识别到的多外显子转录本，但是会丢失一些单外显子转录本。
+
+不经过比对的工具如`Salmon-SMEM`和`kallisto`获得了最好的一致性和最高准确度，因此，如果目标不是发现新的转录本，如`Salmon-SMEM`和`kallisto`可以作为准确而快速的解决方案。
+
+`DESeq2`和`edgeR`与不经过比对的工具联用可以获得高准确度的差异表达分析结果。
+
+通常情况下，整体最好的分析流程对于特定的数据集特定的研究目的来说可能是次优的。比如，对于比对和转录组构建，`HISAT2-StringTie`组合具有更高的准确度和更快的速度。但是对于`MCF7-300`样品来讲，`STAR`- `StringTie`组合具有更高的灵敏度。
+
 ## 序列比对质量大比拼
 
 `STAR`具有最高比例的在基因组上有唯一比对位置的reads，尤其是对读长为300 nt的MCF7样品也有最高的比对率。
@@ -53,7 +65,7 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 对于三代测序数据，PacBio的流程中默认使用软件`Iso-Seq`。
 
-二代和三代测序数据杂交拼装，使用的是`IDP (Isoform Detection and Prediction)`。(比对软件GMAP、`STAR`long)
+二代和三代测序数据杂交拼装，使用的是`IDP (Isoform Detection and Prediction)`。(比对软件`GMAP`、`STAR long`)
 
 转录本拼装质量评估的依据是GENCODE v19的参考转录组注释，不存在于这个集合的转录本视为假阳性。
 
@@ -63,7 +75,7 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_fig3a_exon_distrib.png)
 
-堆积柱状图的画法将会后续推出。
+<mark>堆积柱状图的画法将会后续推出。</mark>
 
 对于基因水平的组装，IDP的的准确性和灵敏性都是最好的。`Cufflinks`比`StringTie`更为准确和灵敏。对于MCF3-300样品来讲，含有`STAR`的组合拼装出更多的转录本，但拼装准确性和灵敏性都略低于基于`TopHat`和`HISAT2`的结果。IDP和`StringTie`拼装出更多的多转录本基因。(下图左)
 
@@ -121,7 +133,11 @@ SEQC样品 (SEQC-A vs SEQC-B, SEQC-C vs SEQC-D)中1001个有qRT-PCR定量过的�
 以上三个图都是散点图，第一个`Spearman rank correlation`相关性越高越好，第二个RMSD类似于均方差(与对照相比得分偏差的平方和先求均值再开方), 第三个`AUC-30`表示在假阳性率为30%时ROC曲线下的面积，面积越大表示结果越准确 (纵轴是True positive rate)。
 
 
+## 加入生信宝典，一起换个角度学生信
 
+<http://mp.weixin.qq.com/s/NUEi6oRFL7B3f1FpCD4Xug>
+
+<http://mp.weixin.qq.com/s/xAaj-d5LRRj0SSMFJ7Yo9Q>
 
 
 
