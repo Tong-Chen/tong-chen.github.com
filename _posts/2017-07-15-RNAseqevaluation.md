@@ -140,26 +140,13 @@ SEQC样品 (SEQC-A vs SEQC-B, SEQC-C vs SEQC-D)中1001个有qRT-PCR定量过的�
 <http://mp.weixin.qq.com/s/xAaj-d5LRRj0SSMFJ7Yo9Q>
 
 
+## 联系我们
+
+![](http://blog.genesino.com/images/ehbio/ehbio_RNAseq.jpg)
 
 
+![](http://blog.genesino.com/images/ehbio/EHBIO_hire_bioinfo1.jpg)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](http://blog.genesino.com/images/ehbio/shengxinbaodian_gognzhonghao.jpg)
 
