@@ -47,6 +47,7 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_fig1b_map.png)
 
+<mark>(后续会推出柱状图的一步画法)</mark>
 
 ## Exon-exon junction位点评估
 
@@ -56,6 +57,7 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 `HISAT2`在所有样品中拥有最高的剪接点验证率 (80%-91%)，`TopHat`其次 (54%-74%)，`STAR`最低 (42%-54%)。但是`HISAT2`预测的剪接点的数量最少，约为`TopHat`的60%和`STAR`的50%。
 
+韦恩图绘制看 [R语言学习 - 韦恩图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484076&idx=1&sn=fa5af19a2a4db4b0c5c7f145bf93ca57&chksm=ec0dc726db7a4e30fe7a0492ed9ea8eb5fa1c34641b1442a2da003efde0546b30c48fde3f118#rd)  [轻松绘制各种Venn图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484076&idx=2&sn=839b4819d7d142c08c900a355c4bb1b7&chksm=ec0dc726db7a4e301fd4694305c684ef0dd244186974745adcb024654c677a022ce37cf075ad&scene=21#wechat_redirect)
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_fig1a_junction.png)
 
@@ -83,6 +85,8 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 另外`StringTie`的速度是`Cufflinks`的50倍，IDP的60倍。
 
+散点图绘制 [R语言学习 - 散点图绘制](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484056&idx=1&sn=f9b2b4f7495b432e9294b7cbf42eaf33&chksm=ec0dc712db7a4e04769d322558364b4b401b0a8153097c7252e83170e9201a31c2a7abbaf101&scene=21#wechat_redirect)
+
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_fig3b_transcript_score.png)
 
 ## 表达定量
@@ -91,21 +95,22 @@ Nature Communication上一篇文章 `Gaining comprehensive biological insight in
 
 现在基于转录本的定量还有一种方式是不经过比对直接判断read来源于哪个转录本，这比拼接比对定量需要更少的计算资源。`Sailfish`、`Salmon`、`quasi-mapping`和`kallisto`四种工具是这一计算方式的代表。
 
-对样品NA12878采用不同方法定量得到的基因表达谱进行log转换后的Spearman秩和相关性分析表明采用相似方法的定量工具获得的表达图谱更相近。`Cufflinks`的定量结果与其他工具相关性最差，不足0.4. 不需要比对直接定量的工具与`StringTie`计算的结果更相近 (相关系数0.6-0.8)。`Salmon-SMEM`与基于转录组比对的工具e`Xpress`和`Salmon-Aln`聚在一起，但`Salmon-SMEM`运行速度更快。
+对样品NA12878采用不同方法定量得到的基因表达谱进行log转换后的Spearman秩和相关性分析表明采用相似方法的定量工具获得的表达图谱更相近。`Cufflinks`的定量结果与其他工具相关性最差，不足0.4. 不需要比对直接定量的工具与`StringTie`计算的结果更相近 (相关系数0.6-0.8)。`Salmon-SMEM`与基于转录组比对的工具`eXpress`和`Salmon-Aln`聚在一起，但`Salmon-SMEM`运行速度更快。
+
+[R语言学习 - 热图简化](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483921&idx=1&sn=8326bc566e945386cad27250a33a1bf6&chksm=ec0dc79bdb7a4e8d28bb909994432dab9bf09346b6f64a35ec1e657cbb298f10ca20c6838ca7&scene=21#wechat_redirect) [R语言学习 - 热图美化](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483901&idx=1&sn=5770a863352acd8f8aec3e157131bef8&chksm=ec0dc477db7a4d61e5ee49323529d5b406941f0b2ebb63a8a8e7f35b28b97ada059692671c5b&scene=21#wechat_redirect) [R语言学习 - 热图绘制 (heatmap)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483889&idx=1&sn=9c9970cb120ac1e976713aca558ac9bf&chksm=ec0dc47bdb7a4d6d6441e36055aa075b03d5592862eae01c05761e5972b39a62cf2228b19787&scene=21#wechat_redirect)
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_expression_correlation.png)
 
-热图绘制
 
 对于同一个样品不同测序读长的数据 (MCF7-100和MCF7-300)的比较分析可以反应比对工具定量的稳定性。两个不依赖于比对的定量工具`kallisto`和`Salmon-SMEM`具有最一致的定量结果。`Cufflinks-TopHat`组合的结果在基于比对的定量工具组合中表现最优。整体看，基于`STAR`的比对结果，定量稳定性低于基于`HISAT2`的比对。
 
 综上，不基于比对的定量结果效率和稳定性最高。`StringTie`与`HISAT2`的组合是基于比对的定量工具中性能最好的, 但也要比不基于比对的工具慢一个数量级。
 
-此图为小提琴图，箱线图的一个变种，展示了数据分布的密度，越胖的地方数据越集中。纵向表示两个样品基因表达变化的幅度，横向表示变化幅度的集中度，数据越集中于`y=0`，定量一致性越好。
+此图为小提琴图 ([R语言学习 - 箱线图（小提琴图、抖动图、区域散点图）](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484034&idx=3&sn=630768e8ab5640d61540c01ff6454ad6&chksm=ec0dc708db7a4e1e9da8d63620c22e3a5b56b35a04b278e1b6dabab8045a6b7beb835daef90f&scene=21#wechat_redirect) [R语言学习 - 箱线图一步法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484047&idx=2&sn=99ccfdb597d7ac2c18a98c8532ac3668&chksm=ec0dc705db7a4e13350d96deccb1a6e51d8e3953e2f0be8a9cce6c8cd6162cf126c9af2b7692&scene=21#wechat_redirect))，展示了数据分布的密度，越胖的地方数据越集中。纵向表示两个样品基因表达变化的幅度，横向表示变化幅度的集中度，数据越集中于`y=0`，定量一致性越好。
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_expression_consistency.png)
 
-此图为线图，展示的是逐步移除最低表达的部分转录本后定量的一致性。线越接近X轴表明一致性越好。
+此图为线图 ([R语言学习 - 线图一步法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483947&idx=1&sn=7cf0252efff5433447507b977fcaff97&chksm=ec0dc7a1db7a4eb77a269709bdf2c8ab51bcad89aa780ec0be171a333e1cb8f3cc27eff277a1&scene=21#wechat_redirect) [R语言学习 - 线图绘制](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483937&idx=1&sn=8368c9346ccce10121c8a7b574c12f88&chksm=ec0dc7abdb7a4ebd859713b8740b53f148e3ebb5047776e9cf42f2306ab082b6b968568f2f23&scene=21#wechat_redirect))，展示的是逐步移除最低表达的部分转录本后定量的一致性。线越接近X轴表明一致性越好。
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_expression_consistency2.png)
 
@@ -130,7 +135,7 @@ SEQC样品 (SEQC-A vs SEQC-B, SEQC-C vs SEQC-D)中1001个有qRT-PCR定量过的�
 
 ![](http://blog.genesino.com/images/ngs/rna_evaluate_de_AUC.png)
 
-以上三个图都是散点图，第一个`Spearman rank correlation`相关性越高越好，第二个RMSD类似于均方差(与对照相比得分偏差的平方和先求均值再开方), 第三个`AUC-30`表示在假阳性率为30%时ROC曲线下的面积，面积越大表示结果越准确 (纵轴是True positive rate)。
+以上三个图都是[散点图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484056&idx=1&sn=f9b2b4f7495b432e9294b7cbf42eaf33&chksm=ec0dc712db7a4e04769d322558364b4b401b0a8153097c7252e83170e9201a31c2a7abbaf101&scene=21#wechat_redirect)，第一个`Spearman rank correlation`相关性越高越好，第二个RMSD类似于均方差(与对照相比得分偏差的平方和先求均值再开方), 第三个`AUC-30`表示在假阳性率为30%时ROC曲线下的面积，面积越大表示结果越准确 (纵轴是True positive rate)。
 
 
 ## 加入生信宝典，一起换个角度学生信
