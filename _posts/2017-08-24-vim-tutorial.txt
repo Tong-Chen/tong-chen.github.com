@@ -1,5 +1,5 @@
 ---
-title: 不同Linux也可以的强大文本处理方法
+title: 不用Linux也可以的强大文本处理方法
 author: ct
 layout: post
 categories:
