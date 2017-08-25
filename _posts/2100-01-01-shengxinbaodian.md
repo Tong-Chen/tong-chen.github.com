@@ -47,11 +47,16 @@ tags:
 * [一文看懂PCA主成分分析](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484036&amp;idx=1&amp;sn=22ee356d0c9680d56dada1b777985ed2&amp;chksm=ec0dc70edb7a4e182a21475e9ddcde35b907c291549cc8c2e767be260af445ff5455aa358b04#rd)
 * [富集分析DotPlot，可以服](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484063&amp;idx=1&amp;sn=f4e93d428e4910b4abbee9c0430cd170&amp;chksm=ec0dc715db7a4e0318b388ba2ab3d51677741421c42ada474a0ac6046a0699283014eae84b6f#rd)
 * [R语言学习 - 韦恩图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484076&idx=1&sn=fa5af19a2a4db4b0c5c7f145bf93ca57&chksm=ec0dc726db7a4e30fe7a0492ed9ea8eb5fa1c34641b1442a2da003efde0546b30c48fde3f118#rd)
+* [R语言学习 - 柱状图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484134&amp;idx=1&amp;sn=ffb41298eae74834af2f5dad05d37921&amp;chksm=ec0dc76cdb7a4e7a852ac0670532c12c690399f140a2335f640eaf01f7da26bc5480941686a9#rd)
 
 ### NGS基础
 
 * [NGS基础 - FASTQ格式解释和质量评估](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484047&amp;idx=1&amp;sn=3e2a79d9f56040a57ac2e16cf1923b54&amp;chksm=ec0dc705db7a4e133e6e91de9ac11a6c0690f03d7b3b760b358e9b0d1a2d57974599419d9fff#rd)
 * [NGS基础 - 高通量测序原理](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484034&amp;idx=1&amp;sn=e7680ee935f8603214227b37eeb2c567&amp;chksm=ec0dc708db7a4e1eca4e38845381f328c49c84a90ad6580c3ba3761511772636e5ec0f185931#rd)
+* [NGS基础 - 参考基因组和基因注释文件](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484148&amp;idx=1&amp;sn=525233898721a9c3ebdf275babf14944&amp;chksm=ec0dc77edb7a4e686440e0cbe5fbf39f554c4183dc30e7870ab7584e285f4e018dd94b680f79#rd)
+* [NGS基础 - GTF/GFF文件格式解读和转换](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484166&amp;idx=1&amp;sn=417e155672bd718def86003b16bf0078&amp;chksm=ec0dc68cdb7a4f9a6bcb62c18797a69040173e2b0af20f1cf87d3e0d75e3adee03c7ff524dc5#rd)
+
+* [本地安装UCSC基因组浏览器](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484167&amp;idx=1&amp;sn=ef9699899164d23013d92b61331c6562&amp;chksm=ec0dc68ddb7a4f9bfb83b9942196622f8b8f52b041d3f4a12786e6464752fbeaf64c9a640e39#rd)
 * [测序数据可视化 (一)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483946&amp;idx=1&amp;sn=3f95769229f28a91ed8bf5889e2181be&amp;chksm=ec0dc7a0db7a4eb64d08c7799cfe698a1662e6d0d935a8b91c6c969aae86900df4decc469a0d#rd)
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483843&amp;idx=1&amp;sn=43770d21f6c2da2393c31cd55fdbe31e&amp;chksm=ec0dc449db7a4d5f723842286bf7feab7830eba5d9778d351569810a069e5ace76040f94a6bd#rd)
 * [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
@@ -73,10 +78,14 @@ tags:
 * [Rfam 12.0+本地使用 （最新版教程）](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483831&amp;idx=1&amp;sn=718242148bb1cfe03140f4d8c3c3005f&amp;chksm=ec0dc43ddb7a4d2bb6e3c5c9169dbd9883fc4b68d9f68e4931e6b8a709f5265ad0ddeab68e04#rd)
 * [轻松绘制各种Venn图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483853&amp;idx=1&amp;sn=b3350a1c2e2f3ea66f2891d3521a90aa&amp;chksm=ec0dc447db7a4d516eb1255d09ce53cfa1f1dcda9de610193ea900c2f39b882e595d2e0f10e7#rd)
 * [ETE构建、绘制进化树](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483988&amp;idx=1&amp;sn=d87d8f70ee4098a1f8340a753c8cbb56&amp;chksm=ec0dc7dedb7a4ec8da9143e0ef8e8c11d44ad54e7fb145e60f65fa09a431a26ec1971916af06#rd)
+* [psRobot：植物小RNA分析系统](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484159&amp;idx=1&amp;sn=81dc70116b26b363ea2efeb7d6034dff&amp;chksm=ec0dc775db7a4e6330ae462efe39f174257dae34e76fec91715da3b8a09bc694abbab9c3f5c8#rd)
+* [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484235&amp;idx=1&amp;sn=1afa3b9b954e9f8bb99d954a5305681c&amp;chksm=ec0dc6c1db7a4fd7098a872b887f8e077aa2d1fcf101614df050524d945eceda54150ecebc72#rd)
 
 ### Cytoscape网络图
 
 * [Cytoscape教程1](http://mp.weixin.qq.com/s/m9uJm8GwSXb3xaRxtod08Q)
+* [Cytoscape之操作界面介绍](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484184&amp;idx=1&amp;sn=2384ba8a6a6ea3ed7dac1b42217c710a&amp;chksm=ec0dc692db7a4f84a03feb4de092aa0712b1bca2975f1cee8fac8342d0a65f836f5f94e9d877#rd)
+* [新出炉的Cytoscape视频教程](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484194&amp;idx=1&amp;sn=61bcbe1c48e195c5c830396865789723&amp;chksm=ec0dc6a8db7a4fbeaa9cdd7245127edd382f3e4d13a61636c2cbc52062b32d7565bf282fca5e#rd)
 
 ### 分子对接
 
