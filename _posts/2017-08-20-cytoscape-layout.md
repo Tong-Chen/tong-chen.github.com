@@ -22,7 +22,7 @@ Cytoscape已成为网络图绘制的核心工具，基因表达调控网络、�
 网络文件和节点属性文件都是正常矩阵格式，若有中文需使用UTF-8编码；若非EXCEL文件，不能有xls后缀。
 
 {::nomarkdown}
-<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=z0541oby69q&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=p0541x250n9&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 {:/nomarkdown}
 
 
@@ -90,4 +90,6 @@ Cytoscape可用于绘制基因共表达网络，这儿选取miRNA-gene调控网�
 2. [早期录制的Cytoscape视频教程, 含安装和基本使用](http://mp.weixin.qq.com/s/Q30mdC26UqffBcbtFxpnXg)
 3. [http://blog.genesino.com/2012/04/cytoscape-basic-usage/](http://blog.genesino.com/2012/04/cytoscape-basic-usage/)
 4. [http://manual.cytoscape.org/en/stable/Navigation_and_Layout.html](http://manual.cytoscape.org/en/stable/Navigation_and_Layout.html)
+5. [https://www.slideshare.net/keiono/introduction-to-biological-network-analysis-and-visualization-with-cytoscape-part1](https://www.slideshare.net/keiono/introduction-to-biological-network-analysis-and-visualization-with-cytoscape-part1)
+6. [新出炉的Cytoscape视频教程](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484194&idx=1&sn=61bcbe1c48e195c5c830396865789723&chksm=ec0dc6a8db7a4fbeaa9cdd7245127edd382f3e4d13a61636c2cbc52062b32d7565bf282fca5e#rd)
 
