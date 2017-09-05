@@ -275,3 +275,26 @@ layout: page
     awk 'BEGIN{OFS=FS="\t"}{system("mv "$1".fq "$2".fq");}' 1
 	```
 
+18. 定义全局函数
+
+    ```bash
+    # write in ~/.bash_profile
+    abcdefg() {
+		echo 'CT'
+	}
+
+	export -f abcdefg
+	
+    # source ~/.bash_profile
+    # use in another program
+	#!/bin/bash
+
+	#set -x
+	set -e
+	set -u
+
+	abcdefg
+	```
+
+
+
