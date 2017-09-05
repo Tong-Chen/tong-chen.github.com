@@ -1,3 +1,597 @@
 196613  2016-04-25 18:11:46 cd _posts/
 196614  2016-04-25 18:11:47 ls
 196615  2016-04-25 18:11:54 vim 2013-04-04-install-ucsc-locally.md 
+ 6546  2016-10-06 18:56:07 cd _posts/
+ 6547  2016-10-06 18:56:09 ls
+ 6548  2016-10-06 18:56:44 cp 2016-09-20-lamp.md 2016-09-01-computer-usage.md
+ 6549  2016-10-06 18:56:51 vim 2016-09-01-computer-usage.md 
+ 6640  2016-10-14 08:38:05 cd _posts/
+ 6641  2016-10-14 08:38:12 mv docking.md 2016-10-13-molecular-docking.md
+ 6642  2016-10-14 08:38:16 vim 2016-10-13-molecular-docking.md
+ 6643  2016-10-14 08:39:15 gitUpdate.sh 2016-10-13-molecular-docking.md 'molecular docking'
+ 6644  2016-10-14 08:44:20 vim 2016-10-13-molecular-docking.md
+ 6645  2016-10-14 08:45:23 gitUpdate.sh 2016-10-13-molecular-docking.md 'molecular docking'
+ 6646  2016-10-14 08:46:22 vim 2016-10-13-molecular-docking.md
+ 6646  2016-10-14 08:46:22 vim 2016-10-13-molecular-docking.md
+ 6647  2016-10-14 08:50:52 cat 2016-10-13-molecular-docking.md >tmp
+ 6648  2016-10-14 08:50:55 vim tmp 
+ 6649  2016-10-14 08:51:08 mv tmp 2016-10-13-molecular-docking.md
+ 6650  2016-10-14 08:51:13 vim 2016-10-13-molecular-docking.md
+ 6651  2016-10-14 08:53:08 vim 2016-09-16-bayes.md 
+ 6652  2016-10-14 08:53:23 less ../_config.yml 
+ 6653  2016-10-14 08:53:40 vim 2016-10-13-molecular-docking.md
+ 6654  2016-10-14 08:53:57 less ../_config.yml 
+ 6655  2016-10-14 08:54:05 vim 2016-10-13-molecular-docking.md
+ 6656  2016-10-14 08:54:41 gitUpdate.sh 2016-10-13-molecular-docking.md 'img_url'
+ 6812  2016-10-18 14:46:21 cd _posts/
+ 6813  2016-10-18 14:46:22 ls
+ 6814  2016-10-18 14:46:52 vim 2016-10-18-I-Tasser-learn.md
+[/home/ct/blog/tong-chen.github.com/_posts]  7986  [2016-11-20 20:01:01][ct][120.52.94.100]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts]  7987  [2016-11-20 20:01:19][ct][120.52.94.100]vim 2016-11-20-pandas.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8512  [2016-11-28 07:41:27][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts]  8513  [2016-11-28 07:41:28][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts]  8514  [2016-11-28 07:41:53][ct][59.108.50.194]#git mv 2016-11-25-PCA.md 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8515  [2016-11-28 07:41:57][ct][59.108.50.194]less 2016-10-30-pca.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8516  [2016-11-28 07:42:06][ct][59.108.50.194]rm -f 2016-10-30-pca.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8517  [2016-11-28 07:42:10][ct][59.108.50.194]git mv 2016-11-25-PCA.md 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8518  [2016-11-28 07:42:14][ct][59.108.50.194]vim 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8512  [2016-11-28 07:45:50][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts]  8513  [2016-11-28 07:45:50][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts]  8519  [2016-11-28 07:47:36][ct][59.108.50.194]cp 2016-10-30-PCA.md 2016-10-30-PCA.md.bak
+[/home/ct/blog/tong-chen.github.com/_posts]  8514  [2016-11-28 07:45:55][ct][59.108.50.194]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8520  [2016-11-28 07:47:39][ct][59.108.50.194]vim 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8521  [2016-11-28 08:00:47][ct][59.108.50.194]tail 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8522  [2016-11-28 08:00:55][ct][59.108.50.194]vim 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8523  [2016-11-28 08:01:15][ct][59.108.50.194]gitUpdate.sh 2016-10-30-PCA.md 'PCA'
+[/home/ct/blog/tong-chen.github.com/_posts]  8514  [2016-11-28 07:45:55][ct][59.108.50.194]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8515  [2016-11-28 08:09:10][ct][59.108.50.194]vim 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts]  8563  [2016-11-29 18:53:41][ct][103.77.56.159]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts]  8564  [2016-11-29 18:53:50][ct][103.77.56.159]vim 2016-11-20-pandas.md 
+[/home/ct/blog/tong-chen.github.com/_posts]  8565  [2016-11-29 18:54:00][ct][103.77.56.159]vim 2016-11-27-pandas.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 10106  [2016-12-25 13:26:09][ct][124.166.233.13]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 10107  [2016-12-25 13:26:26][ct][124.166.233.13]vim 2016-07-13-docker.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 10108  [2016-12-25 13:32:08][ct][124.166.233.13]vim 2016-09-26-docker-lamp.md
+[/home/ct/blog/tong-chen.github.com/_posts] 17412  [2017-04-10 08:50:54][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 17413  [2017-04-10 08:50:55][ct][59.108.50.194]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 17414  [2017-04-10 08:51:30][ct][59.108.50.194]cp 2016-09-20-lamp.md 2017-04-10-ftp-user-upload.md
+[/home/ct/blog/tong-chen.github.com/_posts] 17415  [2017-04-10 08:51:35][ct][59.108.50.194]vim 2017-04-10-ftp-user-upload.md
+[/home/ct/blog/tong-chen.github.com/_posts] 17425  [2017-04-11 16:35:57][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 17426  [2017-04-11 16:35:58][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 18715  [2017-04-29 14:18:36][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 18716  [2017-04-29 14:18:47][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 18717  [2017-04-29 14:19:17][ct][218.241.208.209]cp 2016-07-13-docker.md 2016-07-13-splider.md
+[/home/ct/blog/tong-chen.github.com/_posts] 18718  [2017-04-29 14:19:22][ct][218.241.208.209]vim 2016-07-13-splider.md
+[/home/ct/blog/tong-chen.github.com/_posts] 18719  [2017-04-29 14:45:14][ct][218.241.208.209]grep -i 'fisher' *
+[/home/ct/blog/tong-chen.github.com/_posts] 18720  [2017-04-29 14:45:21][ct][218.241.208.209]grep -i 'test' *
+[/home/ct/blog/tong-chen.github.com/_posts] 18721  [2017-04-29 14:45:30][ct][218.241.208.209]grep -i 'test' ../_draft/*
+[/home/ct/blog/tong-chen.github.com/_posts] 18722  [2017-04-29 14:45:47][ct][218.241.208.209]less ../_draft/2013-12-11-statistical-test.md
+[/home/ct/blog/tong-chen.github.com/_posts] 18722  [2017-04-29 14:45:47][ct][218.241.208.209]less ../_draft/2013-12-11-statistical-test.md
+[/home/ct/blog/tong-chen.github.com/_posts] 18723  [2017-04-29 14:57:25][ct][218.241.208.209]vim 2016-07-13-splider.md
+[/home/ct/blog/tong-chen.github.com/_posts] 18811  [2017-05-05 10:43:37][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 18812  [2017-05-05 10:43:38][ct][59.108.50.194]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 19053  [2017-05-09 21:44:25][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19054  [2017-05-09 21:44:26][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19055  [2017-05-09 21:44:32][ct][218.241.208.209]cat 2016-07-13-docker.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19049  [2017-05-10 08:18:45][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19050  [2017-05-10 08:18:58][ct][59.108.50.194]cat 2016-07-13-docker.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 19051  [2017-05-10 08:22:37][ct][59.108.50.194]less `which bookdown_init.py`
+[/home/ct/blog/tong-chen.github.com/_posts] 19051  [2017-05-10 11:00:03][ct][114.242.249.245]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19052  [2017-05-10 11:00:03][ct][114.242.249.245]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19053  [2017-05-10 11:00:28][ct][114.242.249.245]cat 2016-07-13-docker.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 19075  [2017-05-11 07:57:32][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19076  [2017-05-11 07:57:34][ct][59.108.50.194]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19077  [2017-05-11 07:57:51][ct][59.108.50.194]ls | grep -i 'airflow'
+[/home/ct/blog/tong-chen.github.com/_posts] 19074  [2017-05-11 11:20:05][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19075  [2017-05-11 11:20:06][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19076  [2017-05-11 11:20:18][ct][59.108.50.194]less 2017-04-10-ftp-user-upload.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19077  [2017-05-11 11:23:12][ct][59.108.50.194]less ../about/index.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 19078  [2017-05-11 14:12:35][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19079  [2017-05-11 14:13:45][ct][59.108.50.194]less 2016-06-27-GEO-upload.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19079  [2017-05-11 14:13:45][ct][59.108.50.194]less 2016-06-27-GEO-upload.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19080  [2017-05-11 14:17:25][ct][59.108.50.194]cat 2016-06-27-GEO-upload.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19081  [2017-05-11 14:26:46][ct][59.108.50.194]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 19082  [2017-05-11 15:09:02][ct][59.108.50.194]wordcloud_cli.py -h
+[/home/ct/blog/tong-chen.github.com/_posts] 19083  [2017-05-11 15:11:37][ct][59.108.50.194]#wordcloud_cli.py --test 2016-06-27-GEO-upload.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 19084  [2017-05-11 15:11:42][ct][59.108.50.194]vim stopwords
+[/home/ct/blog/tong-chen.github.com/_posts] 19085  [2017-05-11 15:12:51][ct][59.108.50.194]#wordcloud_cli.py --test 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --colormask dragon.jpg --width 900 --height 500
+[/home/ct/blog/tong-chen.github.com/_posts] 19086  [2017-05-11 15:12:53][ct][59.108.50.194]wordcloud_cli.py --test 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --colormask dragon.jpg --width 900 --height 500
+[/home/ct/blog/tong-chen.github.com/_posts] 19087  [2017-05-11 15:13:07][ct][59.108.50.194]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --colormask dragon.jpg --width 900 --height 500
+[/home/ct/blog/tong-chen.github.com/_posts] 19088  [2017-05-11 15:13:54][ct][59.108.50.194]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask dragon.jpg --colormask dragon.jpg --width 900 --height 500
+[/home/ct/blog/tong-chen.github.com/_posts] 19089  [2017-05-11 15:15:08][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19118  [2017-05-11 20:08:05][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19119  [2017-05-11 20:08:06][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19120  [2017-05-11 20:08:11][ct][218.241.208.209]tail .history 
+[/home/ct/blog/tong-chen.github.com/_posts] 19121  [2017-05-11 20:20:39][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19122  [2017-05-11 20:20:43][ct][218.241.208.209]tail .history 
+[/home/ct/blog/tong-chen.github.com/_posts] 19123  [2017-05-11 20:21:09][ct][218.241.208.209]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask logo_mode.png --colormask logo_mode.png --width 900 --height 500
+[/home/ct/blog/tong-chen.github.com/_posts] 19124  [2017-05-11 20:21:43][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19125  [2017-05-11 20:21:54][ct][218.241.208.209]ls -shtr
+[/home/ct/blog/tong-chen.github.com/_posts] 19126  [2017-05-11 20:23:16][ct][218.241.208.209]vim stopwords 
+[/home/ct/blog/tong-chen.github.com/_posts] 19127  [2017-05-11 20:27:25][ct][218.241.208.209]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask logo_mode.png --colormask logo_mode.png 
+[/home/ct/blog/tong-chen.github.com/_posts] 19127  [2017-05-11 20:27:25][ct][218.241.208.209]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask logo_mode.png --colormask logo_mode.png 
+[/home/ct/blog/tong-chen.github.com/_posts] 19128  [2017-05-11 20:32:29][ct][218.241.208.209]wordcloud_cli.py -h
+[/home/ct/blog/tong-chen.github.com/_posts] 19129  [2017-05-11 20:32:41][ct][218.241.208.209]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask logo_mode.png --colormask logo_mode.png --background white
+[/home/ct/blog/tong-chen.github.com/_posts] 19130  [2017-05-11 20:35:01][ct][218.241.208.209]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask logo_mode.png --colormask logo_mode.png --relative_scaling 0.6
+[/home/ct/blog/tong-chen.github.com/_posts] 19131  [2017-05-11 20:35:43][ct][218.241.208.209]wordcloud_cli.py --text 2016-06-27-GEO-upload.md --stopwords stopwords --imagefile 2016-06-27-GEO-upload.png --mask logo_mode.png --colormask logo_mode.png
+[/home/ct/blog/tong-chen.github.com/_posts] 19132  [2017-05-11 20:36:38][ct][218.241.208.209]wordcloud_cli.py --test 2016-07-13-docker.md --imagefile 2016-07-13-docker.png --stopwords stopwords --mask logo_mode.png --colormask logo_mode.png
+[/home/ct/blog/tong-chen.github.com/_posts] 19133  [2017-05-11 20:36:52][ct][218.241.208.209]wordcloud_cli.py --text 2016-07-13-docker.md --imagefile 2016-07-13-docker.png --stopwords stopwords --mask logo_mode.png --colormask logo_mode.png
+[/home/ct/blog/tong-chen.github.com/_posts] 19134  [2017-05-11 20:42:37][ct][218.241.208.209]wordcloud_cli.py --text 2016-07-13-docker.md --imagefile 2016-07-13-docker.png --stopwords stopwords --mask logo_mode-01.png --colormask logo_mode-01.png
+[/home/ct/blog/tong-chen.github.com/_posts] 19149  [2017-05-12 08:16:11][ct][114.242.250.243]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19150  [2017-05-12 08:16:13][ct][114.242.250.243]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19151  [2017-05-12 08:28:29][ct][114.242.250.243]tail .history 
+[/home/ct/blog/tong-chen.github.com/_posts] 19152  [2017-05-12 08:35:46][ct][114.242.250.243]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 19153  [2017-05-12 08:42:08][ct][114.242.250.243]wordcloud.py -i 2016-06-27-GEO-upload.md -w "Upoad High Throughput Sequencing Data To NCBI GEO:30"
+[/home/ct/blog/tong-chen.github.com/_posts] 19153  [2017-05-12 08:42:08][ct][114.242.250.243]wordcloud.py -i 2016-06-27-GEO-upload.md -w "Upoad High Throughput Sequencing Data To NCBI GEO:30"
+[/home/ct/blog/tong-chen.github.com/_posts] 19154  [2017-05-12 08:43:22][ct][114.242.250.243]wordcloud.py -i 2016-06-27-GEO-upload.md -w "Upload High Throughput Sequencing Data To NCBI GEO:60"
+[/home/ct/blog/tong-chen.github.com/_posts] 19155  [2017-05-12 08:44:32][ct][114.242.250.243]wordcloud.py -i 2016-06-27-GEO-upload.md -w "Upload High Throughput Sequencing Data To NCBI GEO:60;GEO:30:Sequencing-data:20"
+[/home/ct/blog/tong-chen.github.com/_posts] 19156  [2017-05-12 08:44:39][ct][114.242.250.243]wordcloud.py -i 2016-06-27-GEO-upload.md -w "Upload High Throughput Sequencing Data To NCBI GEO:60;GEO:30;Sequencing-data:20"
+[/home/ct/blog/tong-chen.github.com/_posts] 19157  [2017-05-12 08:52:38][ct][114.242.250.243]ls -shtr
+[/home/ct/blog/tong-chen.github.com/_posts] 19158  [2017-05-12 11:25:14][ct][114.242.250.243]less 2012-04-08-cytoscape-basic-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19159  [2017-05-12 13:18:09][ct][114.242.250.243]cat 2012-04-08-cytoscape-basic-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19160  [2017-05-12 16:15:44][ct][114.242.250.243]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19161  [2017-05-12 16:15:51][ct][114.242.250.243]less 2016-11-27-pandas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19162  [2017-05-12 16:15:59][ct][114.242.250.243]cat 2016-11-27-pandas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19163  [2017-05-12 16:20:58][ct][114.242.250.243]#cat 2016-11-27-pandas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19164  [2017-05-12 16:21:03][ct][114.242.250.243]wordcloud.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 19165  [2017-05-12 16:21:37][ct][114.242.250.243]wordcloud.py -i 2016-11-27-pandas.md -w 'pandas:100'
+[/home/ct/blog/tong-chen.github.com/_posts] 19207  [2017-05-12 19:10:07][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19208  [2017-05-12 19:10:07][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19209  [2017-05-12 19:11:08][ct][218.241.208.209]less 2016-11-27-pandas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19608  [2017-05-15 15:58:37][ct][114.242.249.26]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19609  [2017-05-15 15:58:38][ct][114.242.249.26]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19610  [2017-05-15 15:58:48][ct][114.242.249.26]less 2015-10-10-molecular-docking.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19610  [2017-05-15 15:58:48][ct][114.242.249.26]less 2015-10-10-molecular-docking.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19611  [2017-05-15 15:59:14][ct][114.242.249.26]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19612  [2017-05-15 15:59:46][ct][114.242.249.26]less 2016-07-12-ete.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19613  [2017-05-15 16:00:25][ct][114.242.249.26]less 2016-04-01-vennDiagram.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19614  [2017-05-15 16:02:06][ct][114.242.249.26]less 2010-11-03-string-compare-KMP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19615  [2017-05-15 16:03:56][ct][114.242.249.26]less 2014-02-20-backup-data-with-rdiff_backup.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19616  [2017-05-15 16:13:58][ct][114.242.249.26]less 2015-10-10-molecular-docking.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19617  [2017-05-15 16:14:50][ct][114.242.249.26]cat 2015-10-10-molecular-docking.md | sed 's#{{ site.img_url }}#http://blog.genesino.com/#' >a
+[/home/ct/blog/tong-chen.github.com/_posts] 19636  [2017-05-15 17:58:57][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19637  [2017-05-15 17:58:58][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19638  [2017-05-15 17:59:07][ct][218.241.208.209]wordcloud.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 19639  [2017-05-15 18:00:57][ct][218.241.208.209]wordcloud.py -i 2015-10-10-molecular-docking.md -p md.png -w "molecular docking:300"
+[/home/ct/blog/tong-chen.github.com/_posts] 19640  [2017-05-15 18:01:49][ct][218.241.208.209]wordcloud.py -i 2015-10-10-molecular-docking.md -p md.png -w "molecular docking:300;PyMOL:300;AutoDock:300"
+[/home/ct/blog/tong-chen.github.com/_posts] 19643  [2017-05-17 10:48:42][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19644  [2017-05-17 10:48:43][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19645  [2017-05-17 11:27:12][ct][59.108.50.194]s-plot density2d
+[/home/ct/blog/tong-chen.github.com/_posts] 19715  [2017-05-20 08:26:01][ct][124.16.162.40]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19716  [2017-05-20 08:26:03][ct][124.16.162.40]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19717  [2017-05-20 08:27:54][ct][124.16.162.40]ls ../images/
+[/home/ct/blog/tong-chen.github.com/_posts] 19720  [2017-05-20 23:10:55][ct][219.143.154.93]cd ../_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19721  [2017-05-20 23:10:56][ct][219.143.154.93]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19722  [2017-05-20 23:11:16][ct][219.143.154.93]less 2010-10-13-bash-string-process.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19723  [2017-05-20 23:19:32][ct][219.143.154.93]less 2012-05-08-awk-function-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19724  [2017-05-20 23:27:12][ct][219.143.154.93]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19722  [2017-05-22 22:55:39][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19723  [2017-05-22 22:55:41][ct][219.143.154.93]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19724  [2017-05-22 23:06:35][ct][219.143.154.93]less 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19725  [2017-05-22 23:07:53][ct][219.143.154.93]cat 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19867  [2017-05-26 07:56:35][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19868  [2017-05-26 07:56:36][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19869  [2017-05-26 07:57:13][ct][59.108.50.194]vim 2016-07-12-ete.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19865  [2017-05-26 08:11:06][ct][61.148.243.214]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 19866  [2017-05-26 08:14:25][ct][61.148.243.214]ls ../images/
+[/home/ct/blog/tong-chen.github.com/_posts] 19979  [2017-05-27 08:46:38][ct][61.148.243.157]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19980  [2017-05-27 08:46:39][ct][61.148.243.157]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19980  [2017-05-27 08:46:39][ct][61.148.243.157]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19981  [2017-05-27 08:47:07][ct][61.148.243.157]vim 2016-07-12-ete.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19982  [2017-05-27 08:47:29][ct][61.148.243.157]vim 2017-05-27-reference-name.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20001  [2017-05-27 09:47:04][ct][61.148.243.157]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20002  [2017-05-27 09:47:05][ct][61.148.243.157]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20003  [2017-05-27 09:48:38][ct][61.148.243.157]vim 2017-05-27-reference-name.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20004  [2017-05-27 09:48:58][ct][61.148.243.157]cat 2017-05-27-reference-name.md >2017-05-01-reference-name.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20005  [2017-05-27 09:49:03][ct][61.148.243.157]vim 2017-05-01-reference-name.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20006  [2017-05-27 09:51:14][ct][61.148.243.157]rm -f 2017-05-01-reference-name.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20007  [2017-05-27 09:51:19][ct][61.148.243.157]vim 2017-05-27-reference-name.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19972  [2017-05-28 08:14:29][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 19973  [2017-05-28 08:14:31][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19974  [2017-05-28 08:16:27][ct][218.241.208.209]less 2013-03-15-igv-and-igvtools-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19975  [2017-05-28 08:22:27][ct][218.241.208.209]bedtools
+[/home/ct/blog/tong-chen.github.com/_posts] 19976  [2017-05-28 08:22:31][ct][218.241.208.209]bedtools igv
+[/home/ct/blog/tong-chen.github.com/_posts] 19977  [2017-05-28 08:22:41][ct][218.241.208.209]bedtools igv -h
+[/home/ct/blog/tong-chen.github.com/_posts] 19978  [2017-05-28 09:39:54][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19979  [2017-05-28 09:40:02][ct][218.241.208.209]less 2013-03-15-igv-and-igvtools-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19980  [2017-05-28 09:40:14][ct][218.241.208.209]cat 2013-03-15-igv-and-igvtools-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19981  [2017-05-28 10:24:17][ct][218.241.208.209]less ~/trash/anno/new/mm10.anno.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 19982  [2017-05-28 10:25:20][ct][218.241.208.209]grep 'RP23-88K14.5' ~/trash/anno/new/*
+[/home/ct/blog/tong-chen.github.com/_posts] 19983  [2017-05-28 11:07:06][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19984  [2017-05-28 11:14:22][ct][218.241.208.209]less 2012-07-31-python-classicial-tips.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19985  [2017-05-28 11:14:33][ct][218.241.208.209]less 2016-11-10-ipython-notebook-usage-record.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19986  [2017-05-28 11:14:42][ct][218.241.208.209]less 2016-09-16-bayes.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19987  [2017-05-28 11:15:10][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 19988  [2017-05-28 14:05:52][ct][218.241.208.209]less ../collections/css_tips/
+[/home/ct/blog/tong-chen.github.com/_posts] 19989  [2017-05-28 14:05:55][ct][218.241.208.209]less ../collections/css_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 19990  [2017-05-28 14:06:20][ct][218.241.208.209]less ../collections/Linux_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 19991  [2017-05-28 14:44:31][ct][218.241.208.209]less 2016-07-08-orthoMCL.md
+[/home/ct/blog/tong-chen.github.com/_posts] 19992  [2017-05-28 14:45:07][ct][218.241.208.209]less 2010-09-19-bash-swap-two-lines.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20002  [2017-05-29 09:06:49][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20003  [2017-05-29 09:06:49][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20004  [2017-05-29 09:06:54][ct][218.241.208.209]ls | grep 'ssh'
+[/home/ct/blog/tong-chen.github.com/_posts] 20005  [2017-05-29 09:06:59][ct][218.241.208.209]vim 2012-02-02-ssh-login-without-passwd.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 20006  [2017-05-29 09:20:42][ct][218.241.208.209]ls -l ~/.ssh
+[/home/ct/blog/tong-chen.github.com/_posts] 20007  [2017-05-29 09:20:50][ct][218.241.208.209]ls -la ~/
+[/home/ct/blog/tong-chen.github.com/_posts] 20008  [2017-05-29 09:21:00][ct][218.241.208.209]ls -l ~/.ssh
+[/home/ct/blog/tong-chen.github.com/_posts] 20009  [2017-05-29 09:21:19][ct][218.241.208.209]vim 2012-02-02-ssh-login-without-passwd.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 20046  [2017-05-29 09:50:39][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20047  [2017-05-29 09:50:47][ct][218.241.208.209]wordcloud.py -i 2012-02-02-ssh-login-without-passwd.md -w 'ssh no pawwword:40'
+[/home/ct/blog/tong-chen.github.com/_posts] 20047  [2017-05-29 09:50:47][ct][218.241.208.209]wordcloud.py -i 2012-02-02-ssh-login-without-passwd.md -w 'ssh no pawwword:40'
+[/home/ct/blog/tong-chen.github.com/_posts] 20048  [2017-05-29 09:54:11][ct][218.241.208.209]ipython
+[/home/ct/blog/tong-chen.github.com/_posts] 20049  [2017-05-29 09:55:49][ct][218.241.208.209]wordcloud.py -i 2012-02-02-ssh-login-without-passwd.md -w 'ssh no pawwword:40'
+[/home/ct/blog/tong-chen.github.com/_posts] 20050  [2017-05-29 09:55:55][ct][218.241.208.209]wordcloud_self.py -i 2012-02-02-ssh-login-without-passwd.md -w 'ssh no pawwword:40'
+[/home/ct/blog/tong-chen.github.com/_posts] 20051  [2017-05-29 09:56:54][ct][218.241.208.209]vim 2012-02-02-ssh-login-without-passwd.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20052  [2017-05-29 09:57:22][ct][218.241.208.209]gitUpdate.sh 2012-02-02-ssh-login-without-passwd.md 'ssh'
+[/home/ct/blog/tong-chen.github.com/_posts] 20036  [2017-05-30 21:37:09][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20037  [2017-05-30 21:48:04][ct][219.143.154.93]ls 
+[/home/ct/blog/tong-chen.github.com/_posts] 20038  [2017-05-30 21:49:55][ct][219.143.154.93]less 2012-06-07-r-record-pic.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20039  [2017-05-30 21:50:07][ct][219.143.154.93]less 2016-07-08-orthoMCL.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20273  [2017-06-02 21:58:47][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20274  [2017-06-02 22:49:48][ct][219.143.154.93]crontab
+[/home/ct/blog/tong-chen.github.com/_posts] 20275  [2017-06-02 22:49:52][ct][219.143.154.93]crontab -e
+[/home/ct/blog/tong-chen.github.com/_posts] 20609  [2017-06-08 08:18:57][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20610  [2017-06-08 08:18:58][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20611  [2017-06-08 08:19:19][ct][59.108.50.194]cp 2016-05-14-airflow.md 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20612  [2017-06-08 08:19:23][ct][59.108.50.194]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20612  [2017-06-08 08:19:23][ct][59.108.50.194]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20612  [2017-06-08 08:19:23][ct][59.108.50.194]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20612  [2017-06-08 08:19:23][ct][59.108.50.194]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20651  [2017-06-08 23:11:53][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20652  [2017-06-08 23:11:58][ct][219.143.154.93]wordcloud_self.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 20653  [2017-06-08 23:12:06][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20654  [2017-06-08 23:12:48][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md -w '文件:20;目录:20;directory:20'
+[/home/ct/blog/tong-chen.github.com/_posts] 20655  [2017-06-08 23:12:59][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:20;directory:20'
+[/home/ct/blog/tong-chen.github.com/_posts] 20656  [2017-06-08 23:13:51][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20657  [2017-06-08 23:16:37][ct][219.143.154.93]#wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:20;directory:20;cd:10;mkdir:20;ls:30;head:20:tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file'
+[/home/ct/blog/tong-chen.github.com/_posts] 20658  [2017-06-08 23:16:42][ct][219.143.154.93]cat <<END | tac
+asds
+sdsd
+
+END
+[/home/ct/blog/tong-chen.github.com/_posts] 20659  [2017-06-08 23:16:56][ct][219.143.154.93]cat <<END | rev
+asds
+sdsd
+
+END
+[/home/ct/blog/tong-chen.github.com/_posts] 20659  [2017-06-08 23:16:56][ct][219.143.154.93]cat <<END | rev
+asds
+sdsd
+
+END
+[/home/ct/blog/tong-chen.github.com/_posts] 20660  [2017-06-08 23:17:13][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:20;directory:20;cd:10;mkdir:20;ls:30;head:20:tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file:20;rev file:30'
+[/home/ct/blog/tong-chen.github.com/_posts] 20661  [2017-06-08 23:18:00][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:20;directory:20;cd:10;mkdir:20;ls:30;head:20;tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file:20;rev file:30'
+[/home/ct/blog/tong-chen.github.com/_posts] 20662  [2017-06-08 23:24:12][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:20;directory:20;cd:10;mkdir:20;ls:30;head:20;tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file:20;rev file:30;change dir:10;make directory:10;list:10;concatenate:10;less:20;more:30;fasta:20;awk:10;sed:20;bash:10;grep:10;tr:20'
+[/home/ct/blog/tong-chen.github.com/_posts] 20663  [2017-06-08 23:25:18][ct][219.143.154.93]#wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:20;directory:20;cd:10;mkdir:20;ls:30;head:20;tail:30;ls -l:20;ls -a:10;mkdir -p:20;head -n 2 file:20;tail -n +2 file:30;tac file:20;rev file:30;change dir:10;make directory:10;list:10;concatenate:10;less:20;more:30;fasta:20;awk:10;sed:20;bash:10;grep:10;tr:20'
+[/home/ct/blog/tong-chen.github.com/_posts] 20664  [2017-06-08 23:25:28][ct][219.143.154.93]#wordcloud_self.py -i 1017-06-08-bash1.md -w 'file:10;directory:10;cd:10;mkdir:10;ls:30;head:10;tail:30;ls -l:10;ls -a:10;mkdir -p:10;head -n 2 file:10;tail -n +2 file:30;tac file:10;rev file:30;change dir:10;make directory:10;list:10;concatenate:10;less:10;more:30;fasta:10;awk:10;sed:10;bash:10;grep:10;tr:10'
+[/home/ct/blog/tong-chen.github.com/_posts] 20665  [2017-06-08 23:25:35][ct][219.143.154.93]#wordcloud_self.py -i 1017-06-08-bash1.md -w 'file:10;directory:10;cd:10;mkdir:10;ls:10;head:10;tail:10;ls -l:10;ls -a:10;mkdir -p:10;head -n 2 file:10;tail -n +2 file:10;tac file:10;rev file:10;change dir:10;make directory:10;list:10;concatenate:10;less:10;more:10;fasta:10;awk:10;sed:10;bash:10;grep:10;tr:10'
+[/home/ct/blog/tong-chen.github.com/_posts] 20666  [2017-06-08 23:25:37][ct][219.143.154.93]wordcloud_self.py -i 1017-06-08-bash1.md -w 'file:10;directory:10;cd:10;mkdir:10;ls:10;head:10;tail:10;ls -l:10;ls -a:10;mkdir -p:10;head -n 2 file:10;tail -n +2 file:10;tac file:10;rev file:10;change dir:10;make directory:10;list:10;concatenate:10;less:10;more:10;fasta:10;awk:10;sed:10;bash:10;grep:10;tr:10'
+[/home/ct/blog/tong-chen.github.com/_posts] 20667  [2017-06-08 23:25:44][ct][219.143.154.93]wordcloud_self.py -i 2017-06-08-bash1.md -w 'file:10;directory:10;cd:10;mkdir:10;ls:10;head:10;tail:10;ls -l:10;ls -a:10;mkdir -p:10;head -n 2 file:10;tail -n +2 file:10;tac file:10;rev file:10;change dir:10;make directory:10;list:10;concatenate:10;less:10;more:10;fasta:10;awk:10;sed:10;bash:10;grep:10;tr:10'
+[/home/ct/blog/tong-chen.github.com/_posts] 20668  [2017-06-08 23:29:16][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20669  [2017-06-08 23:30:12][ct][219.143.154.93]nano 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20669  [2017-06-08 23:30:12][ct][219.143.154.93]nano 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20669  [2017-06-08 23:30:12][ct][219.143.154.93]nano 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20669  [2017-06-08 23:30:12][ct][219.143.154.93]nano 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20670  [2017-06-08 23:35:58][ct][219.143.154.93]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 20670  [2017-06-08 23:35:58][ct][219.143.154.93]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 20671  [2017-06-08 23:36:20][ct][219.143.154.93]less swap
+[/home/ct/blog/tong-chen.github.com/_posts] 20672  [2017-06-08 23:40:24][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20672  [2017-06-08 23:40:24][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20672  [2017-06-08 23:40:24][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20649  [2017-06-09 20:34:28][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20650  [2017-06-09 20:34:29][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20651  [2017-06-09 20:40:17][ct][218.241.208.209]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20652  [2017-06-09 20:40:41][ct][218.241.208.209]gitUpdate.sh _posts/2017-06-08-bash1.md 'add more'
+[/home/ct/blog/tong-chen.github.com/_posts] 20679  [2017-06-10 15:00:42][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20680  [2017-06-10 15:00:43][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20681  [2017-06-10 15:00:51][ct][218.241.208.209]ls | grep 'pandas'
+[/home/ct/blog/tong-chen.github.com/_posts] 20682  [2017-06-10 15:00:57][ct][218.241.208.209]cat 2016-11-27-pandas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20683  [2017-06-10 15:07:31][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20684  [2017-06-10 15:07:36][ct][218.241.208.209]cat 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20685  [2017-06-10 15:09:44][ct][218.241.208.209]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 20710  [2017-06-12 16:00:39][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20711  [2017-06-12 16:00:41][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20712  [2017-06-12 16:01:03][ct][59.108.50.194]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20709  [2017-06-12 20:28:42][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20710  [2017-06-12 20:28:44][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20786  [2017-06-14 22:42:43][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20787  [2017-06-14 22:42:45][ct][219.143.154.93]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20784  [2017-06-14 22:50:39][ct][219.143.154.93]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 20785  [2017-06-14 22:50:44][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20785  [2017-06-14 22:50:44][ct][219.143.154.93]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20784  [2017-06-14 22:56:27][ct][61.148.242.48]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 20785  [2017-06-14 22:56:28][ct][61.148.242.48]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20786  [2017-06-14 22:56:32][ct][61.148.242.48]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20787  [2017-06-14 23:36:32][ct][61.148.242.48]gitUpdate.sh 2017-06-08-bash1.md 'PATH'
+[/home/ct/blog/tong-chen.github.com/_posts] 20823  [2017-06-15 22:18:45][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20824  [2017-06-15 22:18:46][ct][219.143.154.93]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20825  [2017-06-15 22:19:05][ct][219.143.154.93]less 2016-11-1-docker-rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20836  [2017-06-17 08:36:14][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20837  [2017-06-17 08:36:15][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 20838  [2017-06-17 08:36:18][ct][218.241.208.209]vim 2017-06-16-Rfam.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20839  [2017-06-17 09:24:08][ct][218.241.208.209]nano 2017-06-16-Rfam.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20840  [2017-06-17 09:24:37][ct][218.241.208.209]vim 2017-06-16-Rfam.md
+[/home/ct/blog/tong-chen.github.com/_posts] 20841  [2017-06-17 13:51:01][ct][218.241.208.209]gitUpdate.sh 2017-06-16-Rfam.md 'Rfam usage'
+[/home/ct/blog/tong-chen.github.com/_posts] 20842  [2017-06-17 16:05:48][ct][218.241.208.209]ls /
+[/home/ct/blog/tong-chen.github.com/_posts] 20843  [2017-06-17 19:09:35][ct][218.241.208.209]python
+[/home/ct/blog/tong-chen.github.com/_posts] 20870  [2017-06-18 19:01:35][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 20871  [2017-06-18 20:10:33][ct][218.241.208.209]anova.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 20872  [2017-06-18 21:16:12][ct][218.241.208.209]ssh ct@aliyun500 
+[/home/ct/blog/tong-chen.github.com/_posts] 20872  [2017-06-18 21:16:12][ct][218.241.208.209]ssh ct@aliyun500 
+[/home/ct/blog/tong-chen.github.com/_posts] 20873  [2017-06-18 21:16:16][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 20874  [2017-06-18 21:16:21][ct][218.241.208.209]df -u
+[/home/ct/blog/tong-chen.github.com/_posts] 20875  [2017-06-18 21:16:22][ct][218.241.208.209]df -h
+[/home/ct/blog/tong-chen.github.com/_posts] 21217  [2017-06-30 23:03:29][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21218  [2017-06-30 23:03:30][ct][219.143.154.93]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21219  [2017-06-30 23:03:52][ct][219.143.154.93]cp 2017-06-27-R-Rstudio.md 2017-06-30-s-plot-heatmaps.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21220  [2017-06-30 23:03:56][ct][219.143.154.93]vim 2017-06-30-s-plot-heatmaps.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21221  [2017-06-30 23:21:54][ct][219.143.154.93]#vim 2017-06-30-s-plot-heatmaps.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21249  [2017-07-01 21:36:17][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21250  [2017-07-01 21:36:18][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21251  [2017-07-01 21:36:23][ct][218.241.208.209]vim 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21261  [2017-07-02 21:34:27][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21262  [2017-07-02 21:34:29][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21259  [2017-07-02 22:34:26][ct][219.143.154.93]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21260  [2017-07-02 22:34:27][ct][219.143.154.93]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21305  [2017-07-05 18:34:31][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21306  [2017-07-05 18:34:32][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21306  [2017-07-06 08:27:59][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21354  [2017-07-07 21:08:17][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21355  [2017-07-07 21:08:18][ct][218.241.208.209]lr
+[/home/ct/blog/tong-chen.github.com/_posts] 21355  [2017-07-07 21:08:18][ct][218.241.208.209]lr
+[/home/ct/blog/tong-chen.github.com/_posts] 21356  [2017-07-07 21:08:21][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21357  [2017-07-07 21:08:26][ct][218.241.208.209]vim 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21358  [2017-07-07 22:44:31][ct][211.100.46.70]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21359  [2017-07-07 22:44:32][ct][211.100.46.70]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21360  [2017-07-07 22:57:15][ct][211.100.46.70]less `which sp_lines.sh`
+[/home/ct/blog/tong-chen.github.com/_posts] 21360  [2017-07-07 22:57:15][ct][211.100.46.70]less `which sp_lines.sh`
+[/home/ct/blog/tong-chen.github.com/_posts] 21357  [2017-07-08 09:18:00][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21358  [2017-07-08 09:18:01][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21359  [2017-07-08 09:20:05][ct][218.241.208.209]#gitUpdate.sh 2017-06-27-R-Rstudio.md 'lineplot'
+[/home/ct/blog/tong-chen.github.com/_posts] 21384  [2017-07-09 09:24:12][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21385  [2017-07-09 09:24:13][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21389  [2017-07-09 09:24:38][ct][218.241.208.209]cd ../../_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21390  [2017-07-09 09:24:40][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21391  [2017-07-09 09:24:44][ct][218.241.208.209]vim 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21395  [2017-07-09 09:51:45][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21396  [2017-07-09 09:51:46][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21397  [2017-07-09 09:52:04][ct][218.241.208.209]cp 2017-06-27-R-Rstudio.md 2017-07-09-R-lines.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21398  [2017-07-09 09:52:08][ct][218.241.208.209]vim 2017-07-09-R-lines.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21385  [2017-07-09 20:34:33][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21386  [2017-07-09 20:34:33][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21438  [2017-07-13 08:00:19][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21439  [2017-07-13 08:00:20][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21436  [2017-07-13 08:05:35][ct][114.242.248.130]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 21437  [2017-07-13 08:05:44][ct][114.242.248.130]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21436  [2017-07-13 09:30:45][ct][114.242.248.130]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 21437  [2017-07-13 09:30:46][ct][114.242.248.130]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21443  [2017-07-13 15:00:31][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21444  [2017-07-13 15:00:32][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21445  [2017-07-13 15:00:46][ct][59.108.50.194]ls | grep 'boxplot'
+[/home/ct/blog/tong-chen.github.com/_posts] 21446  [2017-07-13 15:01:12][ct][59.108.50.194]cp 2013-01-04-boxplot-tutorial.md 2017-07-13-boxplot-tutorial.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21447  [2017-07-13 15:01:16][ct][59.108.50.194]vim 2017-07-13-boxplot-tutorial.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21448  [2017-07-13 17:06:04][ct][59.108.50.194]cd ~/tra
+[/home/ct/blog/tong-chen.github.com/_posts] 21459  [2017-07-13 20:25:19][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21460  [2017-07-13 20:25:20][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21451  [2017-07-13 20:26:09][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21452  [2017-07-13 20:26:09][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21453  [2017-07-13 20:26:14][ct][218.241.208.209]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21454  [2017-07-13 21:44:05][ct][218.241.208.209]cat 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21461  [2017-07-13 20:25:29][ct][218.241.208.209]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21465  [2017-07-14 13:52:49][ct][114.242.249.172]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21466  [2017-07-14 13:52:50][ct][114.242.249.172]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21467  [2017-07-14 13:53:09][ct][114.242.249.172]cp 2017-07-09-R-lines.md 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21468  [2017-07-14 13:53:15][ct][114.242.249.172]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21469  [2017-07-14 13:57:37][ct][114.242.249.172]vim 2013-01-04-boxplot-tutorial.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21470  [2017-07-14 15:30:18][ct][114.242.249.172]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21472  [2017-07-14 16:39:47][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21473  [2017-07-14 16:39:48][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21473  [2017-07-14 20:00:05][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21474  [2017-07-14 20:00:06][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21475  [2017-07-14 20:00:10][ct][218.241.208.209]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21479  [2017-07-15 20:41:09][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21480  [2017-07-15 20:41:10][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21479  [2017-07-15 22:15:42][ct][211.100.46.70]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21480  [2017-07-15 22:15:43][ct][211.100.46.70]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21481  [2017-07-15 22:57:00][ct][211.100.46.70]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21481  [2017-07-15 22:57:00][ct][211.100.46.70]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21482  [2017-07-15 22:58:15][ct][211.100.46.70]#cd # 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21807  [2017-07-19 22:45:21][ct][211.100.46.70]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21808  [2017-07-19 22:45:22][ct][211.100.46.70]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21809  [2017-07-19 22:45:52][ct][211.100.46.70]cp 2017-07-09-R-boxplot.md 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21810  [2017-07-19 22:45:57][ct][211.100.46.70]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21808  [2017-07-20 07:50:33][ct][114.242.249.49]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21809  [2017-07-20 07:50:34][ct][114.242.249.49]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21810  [2017-07-20 07:50:38][ct][114.242.249.49]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21811  [2017-07-20 07:53:00][ct][114.242.249.49]#gitUpdate.sh 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21820  [2017-07-20 09:34:00][ct][114.242.249.49]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21821  [2017-07-20 09:34:01][ct][114.242.249.49]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21822  [2017-07-20 10:05:14][ct][114.242.249.49]vim _posts/2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21823  [2017-07-20 10:05:23][ct][114.242.249.49]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21809  [2017-07-20 21:09:21][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21810  [2017-07-20 21:09:21][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21811  [2017-07-20 21:09:40][ct][218.241.208.209]cp 2017-07-19-enrichmentPlot.md 2017-07-21-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21812  [2017-07-20 21:09:51][ct][218.241.208.209]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21813  [2017-07-20 21:10:50][ct][218.241.208.209]less 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21814  [2017-07-20 21:13:07][ct][218.241.208.209]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21812  [2017-07-21 19:57:31][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21813  [2017-07-21 19:57:32][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21814  [2017-07-21 19:57:37][ct][218.241.208.209]vim 2017-07-21-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21815  [2017-07-21 19:57:52][ct][218.241.208.209]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21815  [2017-07-21 19:57:52][ct][218.241.208.209]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21816  [2017-07-21 19:58:30][ct][218.241.208.209]mv 2017-07-19-enrichmentPlot.md 2017-07-21-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21817  [2017-07-21 19:58:46][ct][218.241.208.209]mv 2017-07-21-volcanoPlot.md 2017-07-19-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21818  [2017-07-21 19:58:47][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21819  [2017-07-21 19:58:56][ct][218.241.208.209]vim 2017-07-21-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21820  [2017-07-21 20:37:05][ct][218.241.208.209]vim 2017-07-19-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21821  [2017-07-21 20:37:27][ct][218.241.208.209]vim 2017-07-21-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21822  [2017-07-21 20:37:31][ct][218.241.208.209]vim 2017-07-19-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21823  [2017-07-21 20:37:37][ct][218.241.208.209]vim 2017-07-21-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21824  [2017-07-21 20:37:58][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21825  [2017-07-21 20:38:16][ct][218.241.208.209]mv 2017-07-21-enrichmentPlot.md 2017-07-21-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21826  [2017-07-21 20:38:28][ct][218.241.208.209]mv 2017-07-19-volcanoPlot.md 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21827  [2017-07-21 20:38:33][ct][218.241.208.209]vim 2017-07-21-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21828  [2017-07-21 20:39:30][ct][218.241.208.209]# 2017-07-21-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21819  [2017-07-23 14:33:25][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21820  [2017-07-23 14:33:26][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21996  [2017-07-27 20:48:29][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21997  [2017-07-27 20:48:30][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21998  [2017-07-27 21:00:34][ct][218.241.208.209]vim 2017-07-27-scatterPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21999  [2017-07-27 21:02:35][ct][218.241.208.209]vim 2017-07-21-volcanoPlot.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 22000  [2017-07-27 21:03:24][ct][218.241.208.209]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22001  [2017-07-27 21:04:06][ct][218.241.208.209]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 21996  [2017-07-28 09:01:57][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 21997  [2017-07-28 09:01:59][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21998  [2017-07-28 09:24:17][ct][59.108.50.194]sp_enrichmentPlot.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 21995  [2017-07-28 11:02:03][ct][59.108.50.194]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 21996  [2017-07-28 11:02:04][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21997  [2017-07-28 11:02:06][ct][59.108.50.194]less enrichGO.tsv 
+[/home/ct/blog/tong-chen.github.com/_posts] 21998  [2017-07-28 11:02:26][ct][59.108.50.194]cut -f 3 enrichGO.tsv | less
+[/home/ct/blog/tong-chen.github.com/_posts] 21999  [2017-07-28 11:03:49][ct][59.108.50.194]cut -f 3 enrichGO.tsv | wc -l
+[/home/ct/blog/tong-chen.github.com/_posts] 21999  [2017-07-28 11:03:49][ct][59.108.50.194]cut -f 3 enrichGO.tsv | wc -l
+[/home/ct/blog/tong-chen.github.com/_posts] 22000  [2017-07-28 11:04:05][ct][59.108.50.194]cut -f 3 enrichGO.tsv | less
+[/home/ct/blog/tong-chen.github.com/_posts] 22000  [2017-07-28 11:04:05][ct][59.108.50.194]cut -f 3 enrichGO.tsv | less
+[/home/ct/blog/tong-chen.github.com/_posts] 22001  [2017-07-28 11:25:56][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 21997  [2017-07-28 16:54:30][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22014  [2017-07-28 17:00:49][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22015  [2017-07-28 17:00:50][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22016  [2017-07-28 17:00:57][ct][59.108.50.194]less 2017-07-29-enrichmentPlot2Y.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 22016  [2017-07-28 17:34:48][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22017  [2017-07-28 17:34:49][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22018  [2017-07-28 17:53:39][ct][218.241.208.209]sp_enrichmentPlot.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 22019  [2017-07-28 18:35:17][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22020  [2017-07-28 18:35:27][ct][218.241.208.209]less 2017-07-29-enrichmentPlot2Y.txt 
+[/home/ct/blog/tong-chen.github.com/_posts] 22021  [2017-07-28 18:36:03][ct][218.241.208.209]cp 2017-07-27-scatterPlot.md 2017-07-29-enrichmentPlot2Y.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22022  [2017-07-28 18:36:10][ct][218.241.208.209]nano 2017-07-29-enrichmentPlot2Y.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22023  [2017-07-28 18:36:35][ct][218.241.208.209]vim 2017-07-29-enrichmentPlot2Y.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22017  [2017-07-30 12:51:03][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22018  [2017-07-30 12:51:04][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22019  [2017-07-30 12:51:41][ct][218.241.208.209]sed -i 's#{{ site.img_url }}#http://blog.genesino.com/images/#' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22020  [2017-07-30 12:51:54][ct][218.241.208.209]sed -i 's#{{ site.url }}#http://blog.genesino.com/#' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22021  [2017-07-30 12:51:57][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22022  [2017-07-30 12:52:01][ct][218.241.208.209]vim 2017-07-29-enrichmentPlot2Y.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22023  [2017-07-30 12:52:51][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22024  [2017-07-30 12:53:03][ct][218.241.208.209]cp 2017-07-29-enrichmentPlot2Y.md 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22025  [2017-07-30 12:53:08][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22026  [2017-07-30 13:20:18][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22027  [2017-07-30 13:21:00][ct][218.241.208.209]vim 2017-07-29-enrichmentPlot2Y.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22028  [2017-07-30 13:21:07][ct][218.241.208.209]vim 2017-07-21-volcanoPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22029  [2017-07-30 13:21:13][ct][218.241.208.209]vim 2017-07-27-scatterPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22030  [2017-07-30 13:21:20][ct][218.241.208.209]vim 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22031  [2017-07-30 13:21:30][ct][218.241.208.209]vim 2017-07-13-boxplot-tutorial.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22032  [2017-07-30 13:21:37][ct][218.241.208.209]vim 2017-07-09-R-lines.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22033  [2017-07-30 13:22:43][ct][218.241.208.209]vim 2017-07-09-R-boxplot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22034  [2017-07-30 13:22:53][ct][218.241.208.209]vim 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22035  [2017-07-30 13:23:29][ct][218.241.208.209]vim 2017-06-16-Rfam.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22036  [2017-07-30 13:24:04][ct][218.241.208.209]vim 2017-06-23-NGS-file-type-transfer.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22037  [2017-07-30 13:24:10][ct][218.241.208.209]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22038  [2017-07-30 13:24:20][ct][218.241.208.209]vim 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22038  [2017-07-30 13:24:20][ct][218.241.208.209]vim 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22039  [2017-07-30 13:29:25][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22040  [2017-07-30 13:29:30][ct][218.241.208.209]vim 2017-06-27-heatmap-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22041  [2017-07-30 13:30:59][ct][218.241.208.209]vim 2017-06-27-heatmap-beautiful.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22042  [2017-07-30 13:31:37][ct][218.241.208.209]vim 2017-06-27-heatmap-simple.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22043  [2017-07-30 13:32:28][ct][218.241.208.209]vim 2017-06-27-R-basic.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22044  [2017-07-30 13:33:11][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22048  [2017-07-30 13:34:22][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22049  [2017-07-30 13:34:24][ct][218.241.208.209]git rm swap *.png *.jpg *.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 22050  [2017-07-30 13:34:40][ct][218.241.208.209]git rm 1017-06-08-bash1.md.tmp_wordcloud_747474 
+[/home/ct/blog/tong-chen.github.com/_posts] 22051  [2017-07-30 13:34:42][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22051  [2017-07-30 13:34:42][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22052  [2017-07-30 13:36:32][ct][218.241.208.209]ls | grep -v 'md$'
+[/home/ct/blog/tong-chen.github.com/_posts] 22053  [2017-07-30 13:36:43][ct][218.241.208.209]git rm a enrichGO.tsv python.log stopwords
+[/home/ct/blog/tong-chen.github.com/_posts] 22034  [2017-08-01 08:12:05][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22035  [2017-08-01 08:12:06][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22167  [2017-08-01 22:35:08][ct][211.100.51.75]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22168  [2017-08-01 22:39:02][ct][211.100.51.75]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22193  [2017-08-02 06:56:09][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22194  [2017-08-02 06:56:10][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22195  [2017-08-02 06:58:26][ct][59.108.50.194]git mv 2017-07-09-Venn.md 2017-08-01-Venn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22196  [2017-08-02 06:58:31][ct][59.108.50.194]vim 2017-08-01-Venn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22197  [2017-08-02 06:59:41][ct][59.108.50.194]#cvim 2017-08-01-Venn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22268  [2017-08-02 20:00:07][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22269  [2017-08-02 20:00:08][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22273  [2017-08-04 08:30:01][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22274  [2017-08-04 08:30:01][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22275  [2017-08-04 08:30:21][ct][59.108.50.194]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22276  [2017-08-04 08:30:41][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22277  [2017-08-04 08:31:12][ct][59.108.50.194]mv RNAseq_evaluation_ct.Rmd 2017-07-15-Venn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22278  [2017-08-04 08:31:16][ct][59.108.50.194]#mv RNAseq_evaluation_ct.Rmd 2017-07-15-Venn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22279  [2017-08-04 08:31:35][ct][59.108.50.194]mv 2017-07-15-Venn.md 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22280  [2017-08-04 08:31:39][ct][59.108.50.194]vim 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22292  [2017-08-05 09:15:55][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22293  [2017-08-05 09:15:56][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22294  [2017-08-05 09:34:11][ct][218.241.208.209]vim footer
+[/home/ct/blog/tong-chen.github.com/_posts] 22295  [2017-08-05 09:36:01][ct][218.241.208.209]vim 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22296  [2017-08-05 09:36:20][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22297  [2017-08-05 09:39:17][ct][218.241.208.209]vim 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22298  [2017-08-05 09:39:24][ct][218.241.208.209]tail 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22299  [2017-08-05 09:39:27][ct][218.241.208.209]vim 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22300  [2017-08-05 09:39:34][ct][218.241.208.209]tail 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22408  [2017-08-09 06:02:16][ct][1.180.233.198]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22409  [2017-08-09 06:02:17][ct][1.180.233.198]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22410  [2017-08-09 06:14:44][ct][1.180.233.198]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22411  [2017-08-09 06:15:10][ct][1.180.233.198]cat 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22440  [2017-08-12 15:38:30][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22441  [2017-08-12 15:38:31][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22442  [2017-08-12 15:38:50][ct][218.241.208.209]cp 2017-06-27-heatmap-simple.md 2017-06-27-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22443  [2017-08-12 15:38:56][ct][218.241.208.209]#vim 2017-06-27-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22444  [2017-08-12 15:39:07][ct][218.241.208.209]mv 2017-06-27-barplot-r.md 2017-08-12-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22445  [2017-08-12 15:39:12][ct][218.241.208.209]vim 2017-08-12-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22446  [2017-08-12 16:00:00][ct][218.241.208.209]less 2017-08-12-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22441  [2017-08-13 11:56:55][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22442  [2017-08-13 11:56:56][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22452  [2017-08-14 14:56:03][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22453  [2017-08-14 14:56:03][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22454  [2017-08-14 14:56:11][ct][59.108.50.194]vim 2017-08-12-barplot-r.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 22455  [2017-08-14 15:14:59][ct][59.108.50.194]man grep
+[/home/ct/blog/tong-chen.github.com/_posts] 22499  [2017-08-14 21:03:34][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22500  [2017-08-14 21:03:35][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22501  [2017-08-14 21:04:41][ct][218.241.208.209]vim 2017-06-16-Rfam.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22503  [2017-08-16 20:31:14][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22504  [2017-08-16 20:31:15][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22505  [2017-08-16 20:40:59][ct][218.241.208.209]ls | grep 'ucsc'
+[/home/ct/blog/tong-chen.github.com/_posts] 22506  [2017-08-16 20:41:05][ct][218.241.208.209]vim 2013-04-04-install-ucsc-locally.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22557  [2017-08-19 11:54:01][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22558  [2017-08-19 11:54:02][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22558  [2017-08-20 09:32:33][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22559  [2017-08-20 09:32:38][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22560  [2017-08-20 09:33:05][ct][218.241.208.209]less 2013-10-20-notes-for-computing-for-data-analysis-coursera-course.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22561  [2017-08-20 09:34:49][ct][218.241.208.209]less 2012-04-08-cytoscape-basic-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22826  [2017-08-23 16:01:41][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22827  [2017-08-23 16:01:42][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22828  [2017-08-23 16:01:53][ct][218.241.208.209]#cp 2017-08-20-cytoscape-layout.md 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22829  [2017-08-23 16:01:57][ct][218.241.208.209]vim 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22830  [2017-08-23 16:11:43][ct][218.241.208.209]ls | grep -i 'cytoscape'
+[/home/ct/blog/tong-chen.github.com/_posts] 22831  [2017-08-23 16:11:51][ct][218.241.208.209]less 2012-04-08-cytoscape-basic-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22832  [2017-08-23 16:12:59][ct][218.241.208.209]vim 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22833  [2017-08-23 16:13:30][ct][218.241.208.209]less 2012-04-08-cytoscape-basic-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22834  [2017-08-23 16:13:44][ct][218.241.208.209]vim 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22835  [2017-08-23 17:29:10][ct][218.241.208.209]cat 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22833  [2017-08-24 19:16:04][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22834  [2017-08-24 19:16:05][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22835  [2017-08-24 19:16:10][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22836  [2017-08-24 22:03:46][ct][218.241.208.209]less ~/.bash_profile 
+[/home/ct/blog/tong-chen.github.com/_posts] 22837  [2017-08-24 22:03:55][ct][218.241.208.209]less ~/.bashrc 
+[/home/ct/blog/tong-chen.github.com/_posts] 22838  [2017-08-24 22:04:09][ct][218.241.208.209]less ~/.bash_aliases
+[/home/ct/blog/tong-chen.github.com/_posts] 22833  [2017-08-25 08:15:28][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22834  [2017-08-25 08:15:29][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22835  [2017-08-25 08:23:41][ct][59.108.50.194]vim 2017-08-24-vim-tutorial.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 22858  [2017-08-26 17:17:18][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22859  [2017-08-26 17:17:18][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22860  [2017-08-26 17:17:20][ct][218.241.208.209]less swap 
+[/home/ct/blog/tong-chen.github.com/_posts] 22861  [2017-08-26 17:17:41][ct][218.241.208.209]less 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22862  [2017-08-26 17:19:42][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22863  [2017-08-26 17:19:49][ct][218.241.208.209]gitUpdate.sh 2017-08-26-test.md 'test'
+[/home/ct/blog/tong-chen.github.com/_posts] 22864  [2017-08-26 17:27:57][ct][218.241.208.209]git rm 2017-08-26-test.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22865  [2017-08-26 17:28:26][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22866  [2017-08-26 17:28:30][ct][218.241.208.209]vim 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22857  [2017-08-26 20:47:54][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22858  [2017-08-26 20:47:54][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22859  [2017-08-26 20:48:08][ct][218.241.208.209]vim 2017-08-26-psiblast-json.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22860  [2017-08-26 21:45:53][ct][218.241.208.209]less 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22861  [2017-08-26 21:45:59][ct][218.241.208.209]vim 2017-08-26-psiblast-json.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22861  [2017-08-26 21:45:59][ct][218.241.208.209]vim 2017-08-26-psiblast-json.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22855  [2017-08-26 22:55:14][ct][36.102.216.14]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 22856  [2017-08-26 22:55:16][ct][36.102.216.14]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 22857  [2017-08-26 22:55:22][ct][36.102.216.14]vm 2017-08-26-psiblast-json.md
+[/home/ct/blog/tong-chen.github.com/_posts] 22858  [2017-08-26 22:55:31][ct][36.102.216.14]vim 2017-08-26-psiblast-json.md

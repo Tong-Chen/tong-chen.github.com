@@ -4,3 +4,5 @@
 196595  2016-04-25 17:58:20 mv assets/* .
 196596  2016-04-25 17:58:29 rm -rf assets/ images/
 196597  2016-04-25 17:58:29 ls
+[/home/ct/blog/tong-chen.github.com/assets] 21153  [2017-06-27 12:57:47][ct][61.148.242.52]cd assets/
+[/home/ct/blog/tong-chen.github.com/assets] 21154  [2017-06-27 12:57:48][ct][61.148.242.52]ltr

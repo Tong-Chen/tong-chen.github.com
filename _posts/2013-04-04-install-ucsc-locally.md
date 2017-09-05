@@ -17,26 +17,26 @@ description: UCSC基因组浏览器在大规模高通量数据的可视化和比
 
 ### 1. 安装mysql+apache
 
-{% highlight bash %}
+```bash
 #For Ubuntu user
 sudo apt-get install tasksel
 sudo apt-get install lamp-server
 
 #For readhat or centos user
 yum install httpd mariadb-server mariadb
-{% endhighlight %}
+```
 
 ### 2. 新建mysql用户
 
-{% highlight bash %}
+```bash
 # 用户名：gw
 # 密码  ：qazplm_gw
 create user 'gw'@'localhost' identified by 'qazplm_gw';
-{% endhighlight %}
+```
 
 ### 3. 同步UCSC所需html文件和运行程序
 
-{% highlight bash %}
+```bash
 # 设置UCSC的安装目录为 /var/www/gw
 mkdir /var/www/gw
 
@@ -55,11 +55,11 @@ rsync -avzP rsync://hgdownload.cse.ucsc.edu/cgi-bin-i386/ /var/www/gw/cgi-bin/  
 # 更改cgi-bin目录的所有者
 chown -R www-data.www-data /var/www/gw/cgi-bin/
 
-{% endhighlight %}
+```
 
 ### 4. 把以下内容写入`/etc/apahce2/httpd.conf`
 
-{% highlight bash %}
+```bash
 /etc/apache2$ cat httpd.conf
 # XBitHack on 是必须的
 # 其它参数的意思参见apache文档
@@ -84,20 +84,20 @@ ScriptAlias /gw/cgi-bin /var/www/gw/cgi-bin
 
 </Directory>
 
-{% endhighlight %}
+```
 
 ### 5. 设置Apache解析有执行权限的文件中的SSI指令，然后重启apache
 
-{% highlight bash %}
+```bash
 ln -s /etc/apache2/mods-available/include.load /etc/apache2/mods-enabled/
 /etc/init.d/apache2 restart
-{% endhighlight %}
+```
 
 ### 6. 设置数据库配置文件
 
 进入`/var/www/gw/cgi-bin/`目录，建立`hg.conf`文件并写入下列内容
 
-{% highlight bash %}
+```bash
 db.host=localhost
 db.user=gw
 db.password=qazplm_gw
@@ -115,7 +115,7 @@ backupcentral.user=gw
 backupcentral.password=qazplm_gw
 backupcentral.domain=
 
-{% endhighlight %}
+```
 
 同时运行如下命令`sudo chown www-data /var/www/gw/cgi-bin/hg.conf`更改文件的所有权。 
 
@@ -124,21 +124,21 @@ backupcentral.domain=
 
 ### 7. 建立缓存文件夹
 
-{% highlight bash %}
+```bash
 rm /var/www/gw/trash
 mkdir /var/www/gw/trash
 chown www-data.www-data /var/www/gw/trash
 
-{% endhighlight %}
+```
 
 ### 8. 提供Javascript文件
 
-{% highlight bash %}
+```bash
 mkdir -p /usr/local/apache/htdocs/
 ln -s /var/www/gw/js/ /usr/local/apache/htdocs/js
 ln -s /var/www/gw/style/ /usr/local/apache/htdocs/style
 # 每次重启服务器后，可能要重复上述操作。
-{% endhighlight %}
+```
 
 ### 9. 这时就应该能够访问了，成功的标志就是访问[http://localhost/gw](http://localhost/gw)会看到UCSC常见的页面。
 
@@ -148,7 +148,7 @@ ln -s /var/www/gw/style/ /usr/local/apache/htdocs/style
 
 ### 1. 安装`hgcentral`数据库内容
 
-{% highlight bash %}
+```bash
 wget http://hgdownload.cse.ucsc.edu/admin/hgcentral.sql
 mysql -uroot -proot_passwd -e 'create database hgcentral'
 mysql -uroot -proot_passwd -e 'grant all privileges on hgcentral.* to 'gw'@'localhost''
@@ -156,11 +156,11 @@ mysql -uroot -proot_passwd -e 'grant all privileges on hgcentral.* to 'gw'@'loca
 mysql -ugw -p qazplm_gw hgcentral <hgcentral.sql
 mysql -uroot -proot_passwd -e 'create database hgFixed'
 mysql -uroot -proot_passwd -e 'grant select on hgFixed.* to 'gw'@'localhost'
-{% endhighlight %}
+```
 
 * 出现错误/var/www/gw/cgi-bin/hgGateway: error while loading shared libraries: libssl.so.6: cannot open shared object file: No such file or directory时的解决方案：
 
-	{% highlight bash %}
+	```bash
 	#如果不存在就安装，如果存在就直接建立软连接
 	sudo apt-get install libssl0.9.8  
 	# Use `locate libssl.so.0.9.8` to find the path of this file.
@@ -169,11 +169,11 @@ mysql -uroot -proot_passwd -e 'grant select on hgFixed.* to 'gw'@'localhost'
 	sudo ln -s /lib/i386-linux-gnu/libssl.so.0.9.8 /usr/lib/libssl.so.6
 	sudo ln -s /lib/i386-linux-gnu/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.6
 
-	{% endhighlight %}
+	```
 
 ### 2. 获取相关物种信息数据库
 
-{% highlight bash %}
+```bash
 # 鉴于物种信息数据库比较大，可以在数据盘新建目录用于存储
 #change datadir to /home/mysql
 /etc/init.d/mysql stop
@@ -199,7 +199,7 @@ rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/trackDb.frm /home/mysql/m
 ##赋予权限
 chown -R mysql.mysql /home/mysql/mm9
 
-{% endhighlight %}
+```
 
 * 错误解决
 		
@@ -216,7 +216,7 @@ chown -R mysql.mysql /home/mysql/mm9
 
 ### 3. 下载gbdb数据
 
-{% highlight bash %}
+```bash
 #bbi 为encode数据
 mkdir -p /home/user/gbdb/mm9
 rsync -avzP --delete --max-delete=20 --exclude=bbi \
@@ -224,7 +224,7 @@ rsync -avzP --delete --max-delete=20 --exclude=bbi \
 #---mappability data---------------
 rsync -avzp rsync://hgdownload.cse.ucsc.edu/gbdb/mm9/bbi/*.bw ~/gbdb/mm9/bbi
 ln -s /home/user/gbdb /gbdb
-{% endhighlight %}
+```
 
 ### 4. 访问链接[http://localhost/gw/cgi-bin/hgGateway?db=mm9](http://localhost/gw/cgi-bin/hgGateway?db=mm9)
 
@@ -240,7 +240,7 @@ ln -s /home/user/gbdb /gbdb
 
 ### 1. 构建UCSC hub track
 
-{% highlight bash %}
+```bash
 #首先看目录结构
 /var/www/hub$ tree
 .
@@ -335,7 +335,7 @@ parent Two
 type bigWig
 color 136,102,255
 
-{% endhighlight %}
+```
 
 *****
 
@@ -343,7 +343,7 @@ color 136,102,255
 
 ### 1. mm9相关数据表
 
-{% highlight bash %}
+```bash
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/all_bacends.frm /home/mysql/mm9/
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/all_bacends.MYD /home/mysql/mm9/
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/all_bacends.MYI /home/mysql/mm9/
@@ -543,22 +543,23 @@ rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/chr*_rmsk.frm /home/mysql
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/chr*_rmsk.MYD /home/mysql/mm9/
 rsync -avzP  rsync://hgdownload.cse.ucsc.edu/mysql/mm9/chr*_rmsk.MYI /home/mysql/mm9/
 
-{% endhighlight %}
+```
 
 ### 2. 定时清理
 
-{% highlight bash %}
+```bash
 #!/bin/bash
 #10080 means 10080 minutes which is 14 days.
 find /var/www/gw/trash/ \! \( -regex "/var/www/gw/trash/ct/.*" -or \
 	-regex "/var/www/gw/trash/hgSs/.*" \) -type f -amin +10080 -exec rm -f {} \;
 
-{% endhighlight %}
+```
 
 ### 3. 其它基因组浏览器  
 
 * [Trackster](http://www.nature.com/nbt/journal/v30/n11/full/nbt.2404.html?WT.ec_id=NBT-201211)
-[http://epigenomegateway.wustl.edu/browser/](http://epigenomegateway.wustl.edu/browser/)
+
+* [http://epigenomegateway.wustl.edu/browser/](http://epigenomegateway.wustl.edu/browser/)
 
 * [IGV](http://www.broadinstitute.org/igv/)
 
