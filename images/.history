@@ -1,0 +1,33 @@
+197456  2016-05-01 23:28:12 cd blog/tong-chen.github.com/images/
+197457  2016-05-01 23:28:13 ltr
+ 6983  2016-10-22 17:36:44 cd images/
+ 6984  2016-10-22 17:36:45 ls
+ 6985  2016-10-22 17:36:48 mkdir cancer
+ 6988  2016-10-22 17:37:20 cd ../
+ 6989  2016-10-22 17:37:21 ls
+[/home/ct/blog/tong-chen.github.com/images]  8306  [2016-11-26 06:09:15][ct][103.77.56.158]cd images/
+[/home/ct/blog/tong-chen.github.com/images]  8307  [2016-11-26 06:09:16][ct][103.77.56.158]l
+[/home/ct/blog/tong-chen.github.com/images]  8308  [2016-11-26 06:09:22][ct][103.77.56.158]rm ETE/ETE.md 
+[/home/ct/blog/tong-chen.github.com/images]  8481  [2016-11-27 20:51:24][ct][103.77.56.158]cd images/
+[/home/ct/blog/tong-chen.github.com/images]  8482  [2016-11-27 20:51:24][ct][103.77.56.158]ls
+[/home/ct/blog/tong-chen.github.com/images]  8483  [2016-11-27 20:51:27][ct][103.77.56.158]mkdir pandas
+[/home/ct/blog/tong-chen.github.com/images] 21159  [2017-06-27 12:58:07][ct][61.148.242.52]cd images/
+[/home/ct/blog/tong-chen.github.com/images] 21160  [2017-06-27 12:58:29][ct][61.148.242.52]#gitUpdate.sh ""
+[/home/ct/blog/tong-chen.github.com/images] 21161  [2017-06-27 12:58:30][ct][61.148.242.52]ltr
+[/home/ct/blog/tong-chen.github.com/images] 21162  [2017-06-27 12:58:47][ct][61.148.242.52]#gitUpdate.sh "Rstudio_IDE.png Rstudio_version.png Rstudio.gif" Rstudio
+[/home/ct/blog/tong-chen.github.com/images] 21163  [2017-06-27 12:58:52][ct][61.148.242.52]gitUpdate.sh "Rstudio_IDE.png Rstudio_version.png Rstudio.gif" Rstudio
+[/home/ct/blog/tong-chen.github.com/images] 21172  [2017-06-27 21:34:27][ct][218.241.208.209]cd blog/tong-chen.github.com/images/
+[/home/ct/blog/tong-chen.github.com/images] 21173  [2017-06-27 21:34:27][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/images] 21174  [2017-06-27 21:38:47][ct][218.241.208.209]gitUpdate.sh Rstudio.gif 'rstudio'
+[/home/ct/blog/tong-chen.github.com/images] 21386  [2017-07-09 09:24:17][ct][218.241.208.209]cd ../images/
+[/home/ct/blog/tong-chen.github.com/images] 21844  [2017-07-19 21:34:49][ct][218.241.208.209]cd blog/tong-chen.github.com/images/
+[/home/ct/blog/tong-chen.github.com/images] 21845  [2017-07-19 21:34:49][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/images] 21845  [2017-07-19 21:34:49][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/images] 22270  [2017-08-03 07:50:08][ct][59.108.50.194]cd images/
+[/home/ct/blog/tong-chen.github.com/images] 22271  [2017-08-03 07:50:09][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/images] 22272  [2017-08-03 07:50:12][ct][59.108.50.194]mkdi rngs
+[/home/ct/blog/tong-chen.github.com/images] 22273  [2017-08-03 07:50:17][ct][59.108.50.194]mkdir ngs
+[/home/ct/blog/tong-chen.github.com/images] 22306  [2017-08-05 09:57:20][ct][218.241.208.209]cd images/
+[/home/ct/blog/tong-chen.github.com/images] 22307  [2017-08-05 09:57:20][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/images] 22831  [2017-08-25 08:24:29][ct][59.108.50.194]cd ~/blog/tong-chen.github.com/images/
+[/home/ct/blog/tong-chen.github.com/images] 22832  [2017-08-25 08:24:31][ct][59.108.50.194]ltr

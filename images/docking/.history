@@ -1,0 +1,8 @@
+ 6636  2016-10-14 09:40:40 cd images/docking/
+ 6637  2016-10-14 09:40:40 ls
+ 6638  2016-10-14 09:40:45 rm *.log
+ 6639  2016-10-14 09:41:24 ls -ltr
+ 6639  2016-10-14 09:41:24 ls -ltr
+ 6640  2016-10-14 09:48:09 mv original_tutorial_result.pdbqt 1hsg_indinavir_original_tutorial_result.pdbqt
+ 6641  2016-10-14 09:49:03 rename 'docking' '1hsg_indinavir_docking' docking*
+ 6642  2016-10-14 09:49:06 ls -ltr

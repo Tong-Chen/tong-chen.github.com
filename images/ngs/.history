@@ -1,0 +1,16 @@
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22274  [2017-08-03 07:50:19][ct][59.108.50.194]cd ngs/
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22275  [2017-08-03 09:56:21][ct][59.108.50.194]ls
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22276  [2017-08-03 10:13:03][ct][59.108.50.194]grep -i 'SOX4' /MPATHB/resource/Genome/DNA/Rnor6/Rnor6.id_map 
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22277  [2017-08-03 10:13:14][ct][59.108.50.194]grep -i 'myc' /MPATHB/resource/Genome/DNA/Rnor6/Rnor6.id_map 
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22278  [2017-08-03 10:23:08][ct][59.108.50.194]grep -i '364712' /MPATHB/resource/Genome/DNA/Rnor6/Rnor6.id_map 
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22279  [2017-08-03 10:33:44][ct][59.108.50.194]grep -i 'nes' /MPATHB/resource/Genome/DNA/Rnor6/Rnor6.id_map 
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22280  [2017-08-03 10:33:50][ct][59.108.50.194]grep -i 'sox' /MPATHB/resource/Genome/DNA/Rnor6/Rnor6.id_map 
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22268  [2017-08-03 15:50:44][ct][59.108.50.194]cd ~/blog/tong-chen.github.com/images/ngs
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22269  [2017-08-03 15:50:45][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22270  [2017-08-03 16:08:21][ct][59.108.50.194]less ~/.bash_aliases
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22271  [2017-08-03 16:08:49][ct][59.108.50.194]less ~/.bash_profile 
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22272  [2017-08-03 16:09:03][ct][59.108.50.194]less ~/.bash_aliases
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22270  [2017-08-03 23:30:33][ct][1.180.233.198]cd images/ngs/
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22271  [2017-08-03 23:30:34][ct][1.180.233.198]ltr
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22270  [2017-08-04 08:04:27][ct][59.108.50.194]cd images/ngs/
+[/home/ct/blog/tong-chen.github.com/images/ngs] 22271  [2017-08-04 08:04:28][ct][59.108.50.194]ltr
