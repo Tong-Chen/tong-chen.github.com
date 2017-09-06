@@ -55,6 +55,7 @@ layout: page
    yum install -y mysql-community-client mysql-community-server
    # Start mysql service
    service mysqld start 
+   /etc/init.d/mysqld start
 
    # 在日子/var/log/mysqld.log中会有root的密码信息
    #  temporary password is generated for root@localhost: gaB1wd
@@ -74,8 +75,11 @@ layout: page
      Add `innodb_data_file_path = ibdata1:10M:autoextend` to `/etc/my.cnf` `mysqld` block
      OR 
 
-     Remove `id*` files in mysql datadir
+     Remove `ib*` files in mysql datadir
 
+   * 启动错误 Fatal error: mysql.user table is damaged. Please run mysql_upgrade.
+
+     First,  start your mysql without reading the user table: `/etc/init.d/mysqld start --skip-grant-tables`; Then run `mysql_upgrade` which should now run smoothly; Next stop mysqld: `killall mysqld`. Now you should be able to start up your mysql service normally again. [ref](https://stackoverflow.com/questions/36156475/mysqld-doesnt-start-after-brew-upgrade-from-5-6-to-5-7)
 
    * Mysql datadir
 
