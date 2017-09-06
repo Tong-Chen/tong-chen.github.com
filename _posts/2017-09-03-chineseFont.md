@@ -131,3 +131,6 @@ ggsave(p, filename="example-SXBD.pdf", width = 7, height = 4)  ## PDF device
 * 改变字体类型 [https://github.com/yixuan/showtext](https://github.com/yixuan/showtext)
 * 获取文件名 [https://stackoverflow.com/questions/29113973/getting-filename-without-extension-in-r](https://stackoverflow.com/questions/29113973/getting-filename-without-extension-in-r)
 
+### 生信宝典，换个角度学生信
+
+* [R语言学习 - 图形设置中英字体](http://mp.weixin.qq.com/s/NAwyvtTS7t5rRU7KKBwHTA)

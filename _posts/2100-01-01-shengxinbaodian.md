@@ -29,6 +29,7 @@ tags:
 * [用了Docker，妈妈再也不担心我的软件安装了 - 基础篇](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483840&amp;idx=1&amp;sn=f87f6dd703cd8c109f6dc5b8d12ffb7c&amp;chksm=ec0dc44adb7a4d5c9ff2422c730b1d7bb18dcb6947c0e7449f1678aee492c3193302174930b4#rd)
 * [Linux服务器数据定期同步和备份方式](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483950&amp;idx=1&amp;sn=6f4dbc46a064638d7c95b9f99cb1de70&amp;chksm=ec0dc7a4db7a4eb20751dd6567b1c97be7d536671af07707eb57bb1ea7865cbde17a0226a6e0#rd)
 * [不用Linux也可以的强大文本处理方法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484250&amp;idx=1&amp;sn=d4759dc05a55643549646c77318c4f96&amp;chksm=ec0dc6d0db7a4fc64791896914547b5ce818e8bd3cca98f0fb7bf6ebd9029fe6fd08a4d55255#rd)
+* [Linux学习 - 又双叒叕一个软件安装方法](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)
 
 ### R统计和作图
 
@@ -49,6 +50,7 @@ tags:
 * [富集分析DotPlot，可以服](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484063&amp;idx=1&amp;sn=f4e93d428e4910b4abbee9c0430cd170&amp;chksm=ec0dc715db7a4e0318b388ba2ab3d51677741421c42ada474a0ac6046a0699283014eae84b6f#rd)
 * [R语言学习 - 韦恩图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484076&idx=1&sn=fa5af19a2a4db4b0c5c7f145bf93ca57&chksm=ec0dc726db7a4e30fe7a0492ed9ea8eb5fa1c34641b1442a2da003efde0546b30c48fde3f118#rd)
 * [R语言学习 - 柱状图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484134&amp;idx=1&amp;sn=ffb41298eae74834af2f5dad05d37921&amp;chksm=ec0dc76cdb7a4e7a852ac0670532c12c690399f140a2335f640eaf01f7da26bc5480941686a9#rd)
+* [R语言学习 - 图形设置中英字体](http://mp.weixin.qq.com/s/NAwyvtTS7t5rRU7KKBwHTA)
 
 ### NGS基础
 
@@ -59,8 +61,12 @@ tags:
 * [本地安装UCSC基因组浏览器](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484167&amp;idx=1&amp;sn=ef9699899164d23013d92b61331c6562&amp;chksm=ec0dc68ddb7a4f9bfb83b9942196622f8b8f52b041d3f4a12786e6464752fbeaf64c9a640e39#rd)
 * [测序数据可视化 (一)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483946&amp;idx=1&amp;sn=3f95769229f28a91ed8bf5889e2181be&amp;chksm=ec0dc7a0db7a4eb64d08c7799cfe698a1662e6d0d935a8b91c6c969aae86900df4decc469a0d#rd)
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483843&amp;idx=1&amp;sn=43770d21f6c2da2393c31cd55fdbe31e&amp;chksm=ec0dc449db7a4d5f723842286bf7feab7830eba5d9778d351569810a069e5ace76040f94a6bd#rd)
+
+### NGS分析工具评估
+
 * [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
 * [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=2&sn=a09fa127d625c4072ae0343795346c56&chksm=ec0dc740db7a4e56821f32f60700027c85db46e81089721d1bbe23ceefa86160d9661c2f2d4c#rd)
+* [无参转录组分析工具评估和流程展示](http://mp.weixin.qq.com/s/4HANWJY4oL7jGziroHfEpQ)
 
 ### 癌症数据库
 
