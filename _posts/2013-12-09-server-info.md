@@ -1,5 +1,5 @@
 ---
-title: ÏÔÊ¾·şÎñÆ÷ÅäÖÃĞÅÏ¢
+title: æ˜¾ç¤ºæœåŠ¡å™¨é…ç½®ä¿¡æ¯
 author: ct
 layout: post
 categories:
@@ -9,7 +9,7 @@ tags:
   - Bioinfo
 ---
 
-Ñ§Ï°LinuxÃüÁî£¬ÎÒÃÇĞèÒªÓĞÒ»Ì¨Linux·şÎñÆ÷¡£ÓĞÁË·şÎñÆ÷£¬¾ÍÏë¿´¿´ËüµÄĞÔÄÜÔõÑù¡£·­³ö×Ô¼º½ÏÔçÇ°Ğ´µÄÒ»¸ö½Å±¾£¬Ò»¼ü²é¿´ÏµÍ³´ó²¿·Ö²ÎÊı¡£
+å­¦ä¹ Linuxå‘½ä»¤ï¼Œæˆ‘ä»¬éœ€è¦æœ‰ä¸€å°LinuxæœåŠ¡å™¨ã€‚æœ‰äº†æœåŠ¡å™¨ï¼Œå°±æƒ³çœ‹çœ‹å®ƒçš„æ€§èƒ½æ€æ ·ã€‚ç¿»å‡ºè‡ªå·±è¾ƒæ—©å‰å†™çš„ä¸€ä¸ªè„šæœ¬ï¼Œä¸€é”®æŸ¥çœ‹ç³»ç»Ÿå¤§éƒ¨åˆ†å‚æ•°ã€‚
 
 This is an old script used to display the hardware information of a server. Generated infos include hostname, IP, Bits-of-OS, CPU, memory, disk .etc.
 
@@ -17,29 +17,29 @@ This is an old script used to display the hardware information of a server. Gene
 #!/bin/bash
 # -*- coding: UTF-8 -*-
 
-#ÆÁÄ»Êä³ö
+#å±å¹•è¾“å‡º
 echo "This lists the information of this computer."
 
-#Êä³ö¿ÕĞĞ
+#è¾“å‡ºç©ºè¡Œ
 echo
 
-##tput setaf [0-7] ¨CÊ¹ÓÃANSI×ªÒåÉèÖÃÇ°¾°É«
+##tput setaf [0-7] â€“ä½¿ç”¨ANSIè½¬ä¹‰è®¾ç½®å‰æ™¯è‰²
 #Color Code for tput:  
-#0 ¨C Black  
-#1 ¨C Red  
-#2 ¨C Green  
-#3 ¨C Yellow  
-#4 ¨C Blue  
-#5 ¨C Magenta  
-#6 ¨C Cyan  
-#7 ¨C White  
-##tput sgr0 ¨C Turn off all attributes 
+#0 â€“ Black  
+#1 â€“ Red  
+#2 â€“ Green  
+#3 â€“ Yellow  
+#4 â€“ Blue  
+#5 â€“ Magenta  
+#6 â€“ Cyan  
+#7 â€“ White  
+##tput sgr0 â€“ Turn off all attributes 
 
-##`hostname` ·µ»ØÖ÷»úÃû
-#`/sbin/ifconfig` ifconfigÊÇlinuxÖĞÓÃÓÚÏÔÊ¾»òÅäÖÃÍøÂçÉè±¸£¨ÍøÂç½Ó¿Ú¿¨£©µÄÃüÁî
-# sed -n '2p' ÏÔÊ¾ÎÄ¼şµÄµÚ2ĞĞ
-# cutÊÇÒ»¸öÑ¡È¡ÃüÁî£¬¾ÍÊÇ½«Ò»¶ÎÊı¾İ¾­¹ı·ÖÎö£¬È¡³öÎÒÃÇÏëÒªµÄÄÚÈİ
-# -d £º×Ô¶¨Òå·Ö¸ô·û£¬Ä¬ÈÏÎªÖÆ±í·û¡£-f £ºÓë-dÒ»ÆğÊ¹ÓÃ£¬Ö¸¶¨ÏÔÊ¾ÄÄ¸öÇøÓò¡£
+##`hostname` è¿”å›ä¸»æœºå
+#`/sbin/ifconfig` ifconfigæ˜¯linuxä¸­ç”¨äºæ˜¾ç¤ºæˆ–é…ç½®ç½‘ç»œè®¾å¤‡ï¼ˆç½‘ç»œæ¥å£å¡ï¼‰çš„å‘½ä»¤
+# sed -n '2p' æ˜¾ç¤ºæ–‡ä»¶çš„ç¬¬2è¡Œ
+# cutæ˜¯ä¸€ä¸ªé€‰å–å‘½ä»¤ï¼Œå°±æ˜¯å°†ä¸€æ®µæ•°æ®ç»è¿‡åˆ†æï¼Œå–å‡ºæˆ‘ä»¬æƒ³è¦çš„å†…å®¹
+# -d ï¼šè‡ªå®šä¹‰åˆ†éš”ç¬¦ï¼Œé»˜è®¤ä¸ºåˆ¶è¡¨ç¬¦ã€‚-f ï¼šä¸-dä¸€èµ·ä½¿ç”¨ï¼ŒæŒ‡å®šæ˜¾ç¤ºå“ªä¸ªåŒºåŸŸã€‚
 
 echo "Hostname is $(tput setaf 3)`hostname`$(tput sgr0),\
 Ip address is $(tput setaf 3)\
@@ -47,31 +47,31 @@ Ip address is $(tput setaf 3)\
 $(tput sgr0)"
 #---------------------------------------------------------------------------
 
-#uname -a £ºÏÔÊ¾ÏµÍ³Ãû¡¢½ÚµãÃû³Æ¡¢²Ù×÷ÏµÍ³µÄ·¢ĞĞ°æºÅ¡¢²Ù×÷ÏµÍ³°æ±¾¡¢ÔËĞĞÏµÍ³µÄ»úÆ÷ ID ºÅ¡£
+#uname -a ï¼šæ˜¾ç¤ºç³»ç»Ÿåã€èŠ‚ç‚¹åç§°ã€æ“ä½œç³»ç»Ÿçš„å‘è¡Œç‰ˆå·ã€æ“ä½œç³»ç»Ÿç‰ˆæœ¬ã€è¿è¡Œç³»ç»Ÿçš„æœºå™¨ ID å·ã€‚
 # Linux ehbio 2.6.32-642.4.2.el6.x86_64 #1 SMP Tue Aug 23 19:58:13 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
 #
 nuclear=`uname -a | cut -d ' ' -f 3`
 bitInfo=`uname -a | cut -d ' ' -f 12`
 
-# ifÓï¾ä£¬ÅĞ¶ÏÏµÍ³ÊÇ64Î»»¹ÊÇ32Î»
+# ifè¯­å¥ï¼Œåˆ¤æ–­ç³»ç»Ÿæ˜¯64ä½è¿˜æ˜¯32ä½
 if test $bitInfo == "x86_64"; then
     bit=64
 else
     bit=32
 fi
-#tput bold ¨C Set bold mode 
-#head -n	´òÓ¡Ã¿¸öÎÄ¼şµÄÇ°nĞĞ£¬¶ø²»ÊÇ´òÓ¡Ä¬ÈÏµÄÇ°10ĞĞ
-# /etc/issue ²é¿´ÏµÍ³µÇÂ½ĞÅÏ¢¡¢·¢ĞĞ°æ±¾ĞÅÏ¢
+#tput bold â€“ Set bold mode 
+#head -n	æ‰“å°æ¯ä¸ªæ–‡ä»¶çš„å‰nè¡Œï¼Œè€Œä¸æ˜¯æ‰“å°é»˜è®¤çš„å‰10è¡Œ
+# /etc/issue æŸ¥çœ‹ç³»ç»Ÿç™»é™†ä¿¡æ¯ã€å‘è¡Œç‰ˆæœ¬ä¿¡æ¯
 #
 echo "The $(tput bold)${bit}$(tput sgr0) bt operating \
 system is $(tput bold) `head -n 1 /etc/issue`\
 $(tput sgr0), Nuclear info is $(tput setaf 1)\
 ${nuclear}$(tput sgr0)."
-#´òÓ¡¿ÕĞĞ
+#æ‰“å°ç©ºè¡Œ
 
 echo
-# `sed -n '5p' /proc/cpuinfo µÃµ½ÈçÏÂ½á¹ûmodel name	: Intel(R) Xeon(R) CPU G7-4809 v2 @ 4.90GHz
-#sed 's/[ ] */ /g'Ã²ËÆÊ²Ã´Ò²Ã»×ö°¡£¬ÕâÊÇ²»¶ÔµÄ£¬Õâ¾ä»°ÊÇ°Ñ¶à¸öÏàÁ¬¿Õ¸ñ±äÎªµ¥¸ö¿Õ¸ñ
+# `sed -n '5p' /proc/cpuinfo å¾—åˆ°å¦‚ä¸‹ç»“æœmodel name	: Intel(R) Xeon(R) CPU G7-4809 v2 @ 4.90GHz
+#sed 's/[ ] */ /g'è²Œä¼¼ä»€ä¹ˆä¹Ÿæ²¡åšå•Šï¼Œè¿™æ˜¯ä¸å¯¹çš„ï¼Œè¿™å¥è¯æ˜¯æŠŠå¤šä¸ªç›¸è¿ç©ºæ ¼å˜ä¸ºå•ä¸ªç©ºæ ¼
 
 
 echo "The CPU is$(tput setaf 4)`sed -n '5p' /proc/cpuinfo \
@@ -93,11 +93,11 @@ echo
 echo "There are $(tput setaf 5)\
 `cat /proc/cpuinfo | grep "cpu cores" | wc -l`$(tput sgr0) logical cpu."
 
-# sedÔª×Ö·û¼¯ ^ Æ¥ÅäĞĞ¿ªÊ¼£¬Èç£º/^sed/Æ¥ÅäËùÓĞÒÔsed¿ªÍ·µÄĞĞ¡£* Æ¥Åä0¸ö»ò¶à¸ö×Ö·û£¬Èç£º/ *sed/Æ¥ÅäËùÓĞÄ£°åÊÇÒ»¸ö»ò¶à¸ö¿Õ¸ñºó½ô¸úsedµÄĞĞ¡£
-#sed 's/^ *//g' É¾³ı¿ªÍ·µÄ¿Õ¸ñ
+# sedå…ƒå­—ç¬¦é›† ^ åŒ¹é…è¡Œå¼€å§‹ï¼Œå¦‚ï¼š/^sed/åŒ¹é…æ‰€æœ‰ä»¥sedå¼€å¤´çš„è¡Œã€‚* åŒ¹é…0ä¸ªæˆ–å¤šä¸ªå­—ç¬¦ï¼Œå¦‚ï¼š/ *sed/åŒ¹é…æ‰€æœ‰æ¨¡æ¿æ˜¯ä¸€ä¸ªæˆ–å¤šä¸ªç©ºæ ¼åç´§è·Ÿsedçš„è¡Œã€‚
+#sed 's/^ *//g' åˆ é™¤å¼€å¤´çš„ç©ºæ ¼
 
 
-#bcÃüÁîÊÇÒ»ÖÖÖ§³ÖÈÎÒâ¾«¶ÈµÄ½»»¥Ö´ĞĞµÄ¼ÆËãÆ÷ÓïÑÔ bc -l ¶¨ÒåÊ¹ÓÃµÄ±ê×¼ÊıÑ§¿â
+#bcå‘½ä»¤æ˜¯ä¸€ç§æ”¯æŒä»»æ„ç²¾åº¦çš„äº¤äº’æ‰§è¡Œçš„è®¡ç®—å™¨è¯­è¨€ bc -l å®šä¹‰ä½¿ç”¨çš„æ ‡å‡†æ•°å­¦åº“
 
 
 mem=`head -n 1 /proc/meminfo | cut -d ':' -f 2 | sed 's/^ *//g' | cut -d ' ' -f 1`
@@ -111,8 +111,8 @@ echo
 
 echo "The disk information is :"
 
-#linuxÖĞdfÃüÁîµÄ¹¦ÄÜÊÇÓÃÀ´¼ì²élinux·şÎñÆ÷µÄÎÄ¼şÏµÍ³µÄ´ÅÅÌ¿Õ¼äÕ¼ÓÃÇé¿ö¡£¿ÉÒÔÀûÓÃ¸ÃÃüÁîÀ´»ñÈ¡Ó²ÅÌ±»Õ¼ÓÃÁË¶àÉÙ¿Õ¼ä£¬Ä¿Ç°»¹Ê£ÏÂ¶àÉÙ¿Õ¼äµÈĞÅÏ¢¡£
-#-h ·½±ãÔÄ¶Á·½Ê½ÏÔÊ¾
+#linuxä¸­dfå‘½ä»¤çš„åŠŸèƒ½æ˜¯ç”¨æ¥æ£€æŸ¥linuxæœåŠ¡å™¨çš„æ–‡ä»¶ç³»ç»Ÿçš„ç£ç›˜ç©ºé—´å ç”¨æƒ…å†µã€‚å¯ä»¥åˆ©ç”¨è¯¥å‘½ä»¤æ¥è·å–ç¡¬ç›˜è¢«å ç”¨äº†å¤šå°‘ç©ºé—´ï¼Œç›®å‰è¿˜å‰©ä¸‹å¤šå°‘ç©ºé—´ç­‰ä¿¡æ¯ã€‚
+#-h æ–¹ä¾¿é˜…è¯»æ–¹å¼æ˜¾ç¤º
 
 echo "`df -h`"
 ```
