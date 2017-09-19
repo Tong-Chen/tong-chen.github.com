@@ -132,3 +132,8 @@ ggsurvplot(fit, conf.int=T,risk.table=T, risk.table.col="strata", pval=T)
 
 测试数据下载; [ADDICTS.txt](http://blog.genesino.com/images/ADDICTS.txt.zip)
 
+### 参考资料
+
+* <http://rpubs.com/xuefliang/153247>
+* <http://www.sthda.com/english/wiki/survminer-r-package-survival-data-analysis-and-visualization>
+
