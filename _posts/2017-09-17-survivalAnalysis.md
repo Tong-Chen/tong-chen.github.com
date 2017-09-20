@@ -150,6 +150,17 @@ ggsurvplot(fit, conf.int=F,risk.table=T, risk.table.col="strata", pval=T)
 
 ![](http://blog.genesino.com/images/surv_km_all_clinic.png)
 
+简化`Stage`信息，先只查看大的阶段
+
+```
+BRCA_PAM50$pathologic_stage <- gsub('(i+v*).*', "\\1", BRCA_PAM50$pathologic_stage)
+BRCA_PAM50$pathologic_stage <- as.factor(BRCA_PAM50$pathologic_stage)
+colnames(BRCA_PAM50)[colnames(BRCA_PAM50)=="pathologic_stage"] <- 'PS'
+fit <- survfit(Surv(Days.survival, vital_status)~PS, data=BRCA_PAM50)
+# 绘制曲线
+ggsurvplot(fit, conf.int=F,risk.table=T, risk.table.col="strata", pval=T)
+```
+
 
 ### 参考资料
 
