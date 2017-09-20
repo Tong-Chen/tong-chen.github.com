@@ -46,6 +46,7 @@ R中做生存分析需要用到包`survival`和`survminer`。输入数据至少�
 library(survival)
 BRCA <- read.table('BRCA.tsv', sep="\t", header=T)
 head(BRCA)
+```
 
 ```
                ID SampleType PAM50Call_RNAseq Days.survival pathologic_stage
