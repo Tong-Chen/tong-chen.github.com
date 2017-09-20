@@ -13,6 +13,7 @@ tags:
 
 * [生物信息之程序学习](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483927&amp;idx=1&amp;sn=23adf2b9d13400f2081f790e674e2cba&amp;chksm=ec0dc79ddb7a4e8b5bb7a413744319a90f425371b30e2c85224b7c183cc4ad4bbd5d9749bb7b#rd"})
 * [如何优雅的提问](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483955&amp;idx=1&amp;sn=946438376f94af6e8861b2b42701914e&amp;chksm=ec0dc7b9db7a4eafbef28fac1fb260f6f876f0ba674828784ac827dd23f9317f5a2d59d38bc0#rd)
+* [生信宝典视频教程](http://mp.weixin.qq.com/s/C4EBufEtFF6bhBKrH8NXng)
 
 
 ### Linux 学习
@@ -52,6 +53,7 @@ tags:
 * [R语言学习 - 柱状图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484134&amp;idx=1&amp;sn=ffb41298eae74834af2f5dad05d37921&amp;chksm=ec0dc76cdb7a4e7a852ac0670532c12c690399f140a2335f640eaf01f7da26bc5480941686a9#rd)
 * [R语言学习 - 图形设置中英字体](http://mp.weixin.qq.com/s/NAwyvtTS7t5rRU7KKBwHTA)
 * [教师节献礼 - 文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
+* [R语言学习 - 非参数法生存分析](http://mp.weixin.qq.com/s/_Dy9Yn8fc8I0rASGxH5x9A)
 
 ### NGS基础
 
@@ -93,6 +95,7 @@ tags:
 * [ETE构建、绘制进化树](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483988&amp;idx=1&amp;sn=d87d8f70ee4098a1f8340a753c8cbb56&amp;chksm=ec0dc7dedb7a4ec8da9143e0ef8e8c11d44ad54e7fb145e60f65fa09a431a26ec1971916af06#rd)
 * [psRobot：植物小RNA分析系统](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484159&amp;idx=1&amp;sn=81dc70116b26b363ea2efeb7d6034dff&amp;chksm=ec0dc775db7a4e6330ae462efe39f174257dae34e76fec91715da3b8a09bc694abbab9c3f5c8#rd)
 * [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484235&amp;idx=1&amp;sn=1afa3b9b954e9f8bb99d954a5305681c&amp;chksm=ec0dc6c1db7a4fd7098a872b887f8e077aa2d1fcf101614df050524d945eceda54150ecebc72#rd)
+* [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
 
 ### Cytoscape网络图
 
