@@ -142,7 +142,7 @@ tags:
 
 ### 友情链接流程
 
-#### 宏基因组 - 扩增至分析流程
+#### 宏基因组 - 扩增子分析流程
 
 * [质控,实验设计,双端序列合并](https://mp.weixin.qq.com/s/lrHTX_zn3aNC8HMiV5yaZQ) 查看原始数据的质量，编写合格的实验设计用于分析，双端序列合并为单端的扩增子序列；
 * [提取barcode,质控及样品拆分,切除扩增引物](https://mp.weixin.qq.com/s/S5_BmKlbVhKL-qZf6V69Xw) 将Barcode序列从序列中拆除，筛选高质量的测序结果并标记文库中每条序列中的样品来源，最后切除扩增时使用的引物；
@@ -154,9 +154,9 @@ tags:
 
 #### 生信媛 - Biostar handbook
 
-* [手把手教你入门生信——The Biostar Handbook](http://mp.weixin.qq.com/s/_1gIvdnxRSzYoQaGOiIVMA)
-* [课程1、2-Linux中生信分析常用命令入门](http://mp.weixin.qq.com/s/e0pskjQvzytpdBSrIwEwfA)
-* [课程3、4-NCBI的Entrez Direct和SRA toolkit的安装及使用](http://mp.weixin.qq.com/s/pwHDf16rU-eMiS5RWT5X3A)
+* [手把手教你入门生信——The Biostar Handbook](http://mp.weixin.qq.com/s/zFencLyJmcg9eWdImSTH-A)
+* [课程1、2-Linux中生信分析常用命令入门](http://mp.weixin.qq.com/s/1A6Pu1Odd2lvBjzKT971kQ)
+* [课程3、4-NCBI的Entrez Direct和SRA toolkit的安装及使用](https://mp.weixin.qq.com/s/0vKvSkn_Yjj6GZIjt_IVPA)
 * [课程5、6-编写可重复使用的脚本](https://mp.weixin.qq.com/s/eeWtoNGqqBiBZsak0gpnnQ)
 * [课程7、8-二代测序质控：fastqc、prinseq、trimmomatic、seqtk](http://mp.weixin.qq.com/s/_1nCjk3ACJyy1MLiISwuCg)
 * [课程9、10-测序文件的质控&在线序列比对](http://mp.weixin.qq.com/s/OVd-2T_6_4EgmjPe3oxZCg)
@@ -171,7 +171,7 @@ tags:
 * [课程27、28-RNAseq分析](http://mp.weixin.qq.com/s/4gN24W5Ngomzffxb3u6sLA)
 * [课程29、30（大结局）-差异表达分析以及用ErmineJ做GO](http://mp.weixin.qq.com/s/QMIfwPNPo6uCebvf1EOyIQ)
 
-### Biobabble - ChIP-seq
+#### Biobabble - ChIP-seq
 
 + [CS0: ChIPseq从入门到放弃](https://mp.weixin.qq.com/s?__biz=MzI5NjUyNzkxMg==&mid=2247483886&idx=1&sn=cb76891dff5787025f6b99cdcc723d86&chksm=ec43b0a9db3439bfcec1c9ac3c0d00e6190cf4d3d02d9d3dc767007e0ff68b4fbd8064bb0f77#rd)
 + [CS1: ChIPseq简介](https://mp.weixin.qq.com/s?__biz=MzI5NjUyNzkxMg==&mid=2247483980&idx=1&sn=4106c9341d0a048a9fb8042c7ac328d5&chksm=ec43b30bdb343a1ddc6ed772ed25e82362595a11d82f2fb20f85106722bca381ba328ea4bb60#rd)
