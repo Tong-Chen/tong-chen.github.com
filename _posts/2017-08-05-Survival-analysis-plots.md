@@ -4,7 +4,6 @@ title: Survival analysis
 author: CY
 tags: [Survival_analysis]
 categories: 
-	- Plots
     - Statistics
 share: false
 image:
