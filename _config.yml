@@ -91,9 +91,9 @@ bing_verify:
 timezone:    Asia/Hong_Kong
 locale:      en_US
 future:      true
-highlighter: solarized
+#highlighter: solarized
 #highlighter: rouge
-#highlighter: pygments
+highlighter: pygments
 markdown:    kramdown
 #markdown:    redcarpet
 gems:
