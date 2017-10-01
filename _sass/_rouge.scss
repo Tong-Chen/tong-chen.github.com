@@ -1,9 +1,9 @@
 .highlight {
 	margin-bottom: 0.5em;
 	@include font(12);
-	color: #d0d0d0;
+	color: #dd8338;
 	border: 1px solid darken($body-color, 5);
-	background-color: #6D2C4E;
+	background-color: #f8f8f2;
 	@include rounded(3px);
 	pre {
 		position: relative;
