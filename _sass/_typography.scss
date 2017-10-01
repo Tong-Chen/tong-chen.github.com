@@ -107,6 +107,7 @@ li {
 		border: 1px solid lighten($black, 90);
 		background-color: lighten($black, 95);
 		@include rounded(3px);
+		color: #d92142;
 	}
 }
 pre {
@@ -136,6 +137,7 @@ li {
 			border: 0px;
 			background-color: transparent;
 			@include rounded(3px);
+			color: #d92142;
 		}
 	}
 }
