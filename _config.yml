@@ -92,8 +92,8 @@ timezone:    Asia/Hong_Kong
 locale:      en_US
 future:      true
 #highlighter: solarized
-#highlighter: rouge
-highlighter: pygments
+highlighter: rouge
+#highlighter: pygments
 markdown:    kramdown
 #markdown:    redcarpet
 gems:
