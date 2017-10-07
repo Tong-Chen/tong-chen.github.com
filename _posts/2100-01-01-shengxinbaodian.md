@@ -14,7 +14,19 @@ tags:
 * [生物信息之程序学习](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483927&amp;idx=1&amp;sn=23adf2b9d13400f2081f790e674e2cba&amp;chksm=ec0dc79ddb7a4e8b5bb7a413744319a90f425371b30e2c85224b7c183cc4ad4bbd5d9749bb7b#rd"})
 * [如何优雅的提问](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483955&amp;idx=1&amp;sn=946438376f94af6e8861b2b42701914e&amp;chksm=ec0dc7b9db7a4eafbef28fac1fb260f6f876f0ba674828784ac827dd23f9317f5a2d59d38bc0#rd)
 * [生信宝典视频教程](http://mp.weixin.qq.com/s/C4EBufEtFF6bhBKrH8NXng)
+* [好色之旅-画图三字经](https://mp.weixin.qq.com/s/bsvB1k17Izom2ldgdwXrdg)
+* [学习生信的系列教程](http://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg)
+* [学习生信的系列书籍](http://mp.weixin.qq.com/s/IiehgNu3JGVTDa079ll1SQ)
 
+### NGS分析工具评估
+
+* [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
+* [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=2&sn=a09fa127d625c4072ae0343795346c56&chksm=ec0dc740db7a4e56821f32f60700027c85db46e81089721d1bbe23ceefa86160d9661c2f2d4c#rd)
+* [无参转录组分析工具评估和流程展示](http://mp.weixin.qq.com/s/4HANWJY4oL7jGziroHfEpQ)
+
+### 文献精读
+
+* [一场大病引起的诺贝尔2017年生理学奖角逐](http://mp.weixin.qq.com/s/T9Q6CUCt-wBoUCEwSBZALg)
 
 ### Linux 学习
 
@@ -65,12 +77,6 @@ tags:
 * [测序数据可视化 (一)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483946&amp;idx=1&amp;sn=3f95769229f28a91ed8bf5889e2181be&amp;chksm=ec0dc7a0db7a4eb64d08c7799cfe698a1662e6d0d935a8b91c6c969aae86900df4decc469a0d#rd)
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483843&amp;idx=1&amp;sn=43770d21f6c2da2393c31cd55fdbe31e&amp;chksm=ec0dc449db7a4d5f723842286bf7feab7830eba5d9778d351569810a069e5ace76040f94a6bd#rd)
 
-### NGS分析工具评估
-
-* [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
-* [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=2&sn=a09fa127d625c4072ae0343795346c56&chksm=ec0dc740db7a4e56821f32f60700027c85db46e81089721d1bbe23ceefa86160d9661c2f2d4c#rd)
-* [无参转录组分析工具评估和流程展示](http://mp.weixin.qq.com/s/4HANWJY4oL7jGziroHfEpQ)
-
 ### 癌症数据库
 
 * [UCSC XENA - 集大成者(TCGA, ICGC)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484383&amp;idx=1&amp;sn=09c58de206f409fa375fb7af94d0084c&amp;chksm=ec0dc655db7a4f438cb7e53f281cb5c6bf2484619b3c72d7eafe064ea6a342f69587353531af#rd)
@@ -113,7 +119,7 @@ tags:
 ### 生信宝典之傻瓜式
 
 * [生信宝典之傻瓜式 (一) 如何提取指定位置的基因组序列](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484030&amp;idx=1&amp;sn=0d369c99fd49ebafefe60c00efe647b1&amp;chksm=ec0dc7f4db7a4ee241beb0fb8a3e5d8bf7e9ac69899db9b6b6522093bda21e5a2202ddf1edda#rd)
-* [生信宝典之傻瓜式 (二) 如何快速查找指定基因的调控网络](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483852&amp;idx=1&amp;sn=d419fa404b987b4d70f789eb2de8478c&amp;chksm=ec0dc446db7a4d50e4700d88f42d3991ea622a058f1529586b533648dcee994e08f742133abe#rd"})
+* [生信宝典之傻瓜式 (二) 如何快速查找指定基因的调控网络](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483852&amp;idx=1&amp;sn=d419fa404b987b4d70f789eb2de8478c&amp;chksm=ec0dc446db7a4d50e4700d88f42d3991ea622a058f1529586b533648dcee994e08f742133abe#rd)
 * [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483864&amp;idx=1&amp;sn=c1df1a797a4c2e4cf5f0e0524664bebd&amp;chksm=ec0dc452db7a4d44a97031725ae4630bdbec7e37076144d60dfd83e17d04cd8a7003f039ecc0#rd)
 
 ### 生信人写程序
