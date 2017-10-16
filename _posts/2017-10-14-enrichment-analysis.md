@@ -8,7 +8,9 @@ tags:
   - Bioinfo
 ---
 
-富集分析是生物信息分析中快速了解目标基因或目标区域功能倾向性的最重要方法之一。其中代表性的计算方式有两种，一是基于筛选的差异基因，领用超几何检验判断上调或下调基因在哪些GO或KEGG或其它定义的通路富集。假设背景基因数目为`m`，背景基因中某一通路`pathway`中注释的基因有`n`个；上调基因有`k`个，上调基因中落于通路`pathway`的数目为`l`。简单来讲就是比较`l/k`是否显著高于`n/m`，即上调基因中落在通路`pathway`的比例是否高于背景基因在这一通路的比例。(实际计算时，是算的`odds ratio`的差异，`l/(k-l)` vs `(n-l)/(m-k-n+l)`)。这就是常说的GO富集分析或KEGG富集分析，可以做的工具很多，[GOEAST](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)是其中一个最好用的在线功能富集分析工具，数据库更新实时，操作简单，并且可以直接用之前介绍的方法绘制[DotPlot](http://mp.weixin.qq.com/s/x7IX38yPG_cbs1vdHLQcGA)。
+富集分析是生物信息分析中快速了解目标基因或目标区域功能倾向性的最重要方法之一。其中代表性的计算方式有两种：
+
+一是基于筛选的差异基因，采用超几何检验判断上调或下调基因在哪些GO或KEGG或其它定义的通路富集。假设背景基因数目为`m`，背景基因中某一通路`pathway`中注释的基因有`n`个；上调基因有`k`个，上调基因中落于通路`pathway`的数目为`l`。简单来讲就是比较`l/k`是否显著高于`n/m`，即上调基因中落在通路`pathway`的比例是否高于背景基因在这一通路的比例。(实际计算时，是算的`odds ratio`的差异，`l/(k-l)` vs `(n-l)/(m-k-n+l)`)。这就是常说的GO富集分析或KEGG富集分析，可以做的工具很多，[GOEAST](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)是其中一个最好用的在线功能富集分析工具，数据库更新实时，操作简单，并且可以直接用之前介绍的方法绘制[DotPlot](http://mp.weixin.qq.com/s/x7IX38yPG_cbs1vdHLQcGA)。
 
 另一种方式是不硬筛选差异基因，而是对其根据表达量或与表型的相关度排序，然后判断对应的基因集是否倾向于落在有序列表的顶部或底部，从而判断基因集合对表型差异的影响和筛选有影响的基因子集。这叫GSEA富集分析，注释信息可以是GO，KEGG，也可以是其它任何符合格式的信息。[GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)详细讲述了GSEA分析的原理、可视化操作和结果解读。
 
@@ -16,11 +18,11 @@ tags:
 
 这么强大的工具，学习起来的路子却不是一帆风顺，最开始的拦路虎是软件的安装，系统较老配合上软件包更新较快，导致经常安装的是旧版本，用起来会遇到不少坑。直到有了[conda](https://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)，安装再也不是问题。解决了动态库依赖后，可以在Github安装最新的修改。
 
-另外一个是文档较少，在R终端，直接使用`help`命令查看到的使用提示信息较少，寥寥几句，看过总觉得不踏实。~~~在线文档页内容少、更新慢~~~。这是最开始学习时遇到的问题，这次秉着负责的精神，又重新读了文档页，发觉不需要再写一遍了，内容挺全的，主要是这一页http://guangchuangyu.github.io/2016/01/go-analysis-using-clusterprofiler/)。自己对着文档页核对了下之前写的程序，补充几点。
+另外一个是文档较少，在R终端，直接使用`help`命令查看到的使用提示信息较少，寥寥几句，看过总觉得不踏实。~~~在线文档页内容少、更新慢~~~。这是最开始学习时遇到的问题，这次秉着负责的精神，又重新读了文档页，发觉不需要再写一遍了，内容挺全的，主要是这一页http://guangchuangyu.github.io/2016/01/go-analysis-using-clusterprofiler/)，但有几个地方需要更新下。自己对着文档页核对了下之前写的程序，再补充几点。
 
 ### GO富集分析
 
-首先还是列一个完整的例子。输入最好是用`ENTREZ ID`，值比较固定，不建议GeneSymbol，容易匹配出问题。
+首先还是列一个完整的例子。输入最好是用`ENTREZ ID`，值比较固定，不建议使用GeneSymbol，容易匹配出问题。
 
 ```r
 entrezID_text <- "4312
@@ -49,9 +51,7 @@ head(entrezID)
 ```
 
 ```
-V1
-<int>
-			
+V1			
 1	4312			
 2	8318			
 3	10874			
@@ -116,7 +116,7 @@ dotplot(result, showCategory = 10)
 enrichMap(result, vertex.label.cex=1.2, layout=igraph::layout.kamada.kawai)
 ```
 
-另外一种网络图由`cnetplot`函数获得，可以映射基因的表达量。自己尝试了下，需要调整字体和显示的条目多少。盗图展示如下。基因与其被注释的条目连线，点的颜色代表表达变化，圈的大小代表对应注释内基因数目多少。
+另外一种网络图由`cnetplot`函数获得，可以映射基因的表达量。
 
 ```r
 # geneList为一个vector，每个元素的名字为基因名，值为FoldChange，用于可视化点。
@@ -127,9 +127,11 @@ enrichMap(result, vertex.label.cex=1.2, layout=igraph::layout.kamada.kawai)
 cnetplot(result, foldChange=geneList)
 ```
 
+自己尝试了下，展示的有些乱，需要调整字体和显示的条目多少。故**盗图**展示如下便于解释，基因与其被注释的条目连线，点的颜色代表表达变化，圈的大小代表对应注释内基因数目多少。
+
 ![](http://guangchuangyu.github.io/blog_images/Bioconductor/clusterProfiler/2016_GO_analysis_using_clusterProfiler_files/figure-markdown_strict/unnamed-chunk-7-3.png)
 
-如果想自己调整图的布局，还是建议把输出结果转换为Cytoscape可以识别的两列表格形式(如下)，再赋值不同的属性就可以了。
+如果想自己调整图的布局，还是建议把输出结果转换为[Cytoscape](http://mp.weixin.qq.com/s/sKEy_Pn9qnWw4W-aXraA5g)可以识别的两列表格形式(如下)，再赋值不同的属性就可以了。
 
 ```bash
 awk 'BEGIN{OFS=FS="\t"}{if(FNR==1) print "Gene\tTerm"; else {split($8,geneL,"/"); for(i in geneL) print geneL[i],$2}}' MF | head
@@ -176,7 +178,29 @@ enrichKEGG(a$kegg, organism="hsa", keyType="kegg", pvalueCutoff=0.05, pAdjustMet
 setReadable(kk, org.Hs.eg.db)
 
 #  Error in EXTID2NAME(OrgDb, genes, keytype) : keytype is not supported...
+
 ```
+
+经过多次尝试发现，可以这么解决
+
+```r
+setReadable(kk,  org.Hs.eg.db, keytype="ENTREZID")
+```
+
+为什么会有这个问题呢？`setReadable`中自动判断`keytype`的语句是
+
+```
+if (keytype == "auto") {
+    keytype <- x@keytype
+    if (keytype == "UNKNOWN") {
+        stop("can't determine keytype automatically; need to set 'keytype' explicitly...")
+        }
+}
+```
+
+根据富集结果中定义的`keytype`，也就是`enrichKEGG`函数中设定的`keyType`的值来定的。而`setReadable`不支持默认的`keyType=kegg`。
+
+没有测试小鼠，可能需要设置不同的`keytype`值。
 
 对拟南芥来说，分析之前需要先把Entrez ID转换为kegg再用上述命令做富集分析
 
@@ -184,7 +208,7 @@ setReadable(kk, org.Hs.eg.db)
 entrezID <- bitr_kegg(entrezID, fromType='ncbi-geneid', toType='kegg', organism="ath")
 kk <- enrichKEGG(entrezID$kegg, organism="ath", pvalueCutoff=0.05, pAdjustMethod="BH", 
                  qvalueCutoff=0.1)
-# 这个setreadble是可以转换成功的
+# 这个setreadble是可以转换成功的，这里的keytype是TAIR
 result <- setReadable(kk, "org.At.tair.db", keytype="TAIR")				 
 ```
 
@@ -256,8 +280,10 @@ colnames(self_anno) <- c("ont", "gene")
 
 geneL <- c("gene1", "gene2", "gene4")
 
+# self_enrich与之前enrichGO的输出结果格式一致
 self_enrich <- enricher(geneL, TERM2GENE=self_anno)
 
+# self_gsea与之前gseGO的输出结果格式一致
 self_gsea <- GSEA(geneL, TERM2GENE=self_anno, verbose=F)
 ```
 
