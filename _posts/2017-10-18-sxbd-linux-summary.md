@@ -42,5 +42,5 @@ tags:
 
 ![](http://www.ehbio.com/ehbio_resource/YSX_transcriptome.png)
 
-考虑到前期报名要截止了，最新报名信息还请去报名网站查询 (长按二维码)。
+考虑到前期报名要截止了，最新报名信息还请去报名网站查询 (<mark>长按二维码或点击阅读原文</mark>)。
 
