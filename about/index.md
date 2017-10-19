@@ -88,8 +88,3 @@ Datun Road, Chaoyang District, Beijing, 100101, China
 
 3. Wu Hua-Jun\*, Ma Ying-Ke\*, **Chen Tong**, Wang Meng and Wang Xiu-Jie. (2012) PsRobot: a web-based plant small RNA meta-analysis toolbox. **Nucleic Acids Research** 40:W22-W28.
 
-### One page CV
-
-![CV](/images/CV.jpg)
-
-
