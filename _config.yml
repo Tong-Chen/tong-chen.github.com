@@ -53,6 +53,8 @@ menu:
         url: '/collections/makefile_tips/'
   - title: '招聘'
     url: '/hire'
+  - title: '培训'
+    url: '/train'
 
 # Owner/author information
 owner:
