@@ -216,11 +216,11 @@ fill      = yes
 
 `data`: 目录下有一个文件夹`karyotype`，里面收录了几个物种染色体信息文件。
 
-> karyotype.chimp.txt karyotype.arabidopsis.tair10.txt
->
-> karyotype.human.hg38.txt karyotype.human.hg19.txt
->
-> karyotype.mouse.mm10.txt karyotype.yeast.txt karyotype.zeamays.txt
+```
+karyotype.chimp.txt karyotype.arabidopsis.tair10.txt
+karyotype.human.hg38.txt karyotype.human.hg19.txt
+karyotype.mouse.mm10.txt karyotype.yeast.txt karyotype.zeamays.txt
+```
 
 这个是绘制CIRCOS图所必须的一个文件 (文件的内容虽然通常是染色体的信息，但不局限于染色体信息，其它的区域信息、时间序列信息都可以使用)
 
@@ -253,9 +253,10 @@ chr - hs9 9 0 138394717 chr9
 
 `image.conf`内容如下
 
-> <<include image.generic.conf>>
->
-> <<include background.white.conf>>
+```
+<<include image.generic.conf>>
+<<include background.white.conf>>
+```
 
 `image.generic.conf`内容如下，定义了输出的图形的名字、格式、大小等，这些都可以在自定义配置文件，即前面提到的`ehbio.conf`中覆盖。
 
@@ -282,23 +283,17 @@ auto_alpha_steps  = 5
 
 `colors_fonts_patterns.conf`引用了颜色、字体、预定义的图形文件信息的配置
 
-> <colors>
->
-> <<include etc/colors.conf>>
->
-> </colors>
->
-> <fonts>
->
-> <<include etc/fonts.conf>>
->
-> </fonts>
->
-> <patterns>
->
-> <<include etc/patterns.conf>>
->
-> </patterns>
+```
+<colors>
+<<include etc/colors.conf>>
+</colors>
+<fonts>
+<<include etc/fonts.conf>>
+</fonts>
+<patterns>
+<<include etc/patterns.conf>>
+</patterns>
+```
 
 `colors.conf`及其引用文件内容摘录如下，利用RGB组合设置了颜色变量、系列颜色和染色体的颜色。(染色体的名字全部使用小写)
 
