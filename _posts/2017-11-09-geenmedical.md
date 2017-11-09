@@ -12,7 +12,7 @@ tags:
 
 ### 文献查询
 
-![](images/GeenMedical_search.png)
+![](http://blog.genesino.com/images/GeenMedical_search.png)
 
 刚上线时，其主打的功能是访问速度比`PubMed`更快，数据库比`PubMed`更全，提供了更多的筛选功能，更容易获取**全文**。
 
@@ -24,7 +24,7 @@ tags:
 
 在上面的图中输入关键字之后，就可以进入下面这个筛选界面了，具体什么标准，就看自己了。
 
-![](images/GeenMedical_filter.png)
+![](http://blog.genesino.com/images/GeenMedical_filter.png)
 
 目前引文排序只支持最多**1000**篇，也就是搜索结果的前1000篇文章，最新的文章引用次数却比较少，所以在使用引文排序时，最好限定下发表时间和影响因子，先选上最近几年的，比如**2013-2017**，再选几个影响因子比较高的`10-100`，然后再排序，这样获得的都应该是统计上比较上乘的文章。
 
@@ -40,7 +40,7 @@ tags:
 
 图上很清楚了，不需解释。
 
-![](images/GeenMedical_mangine.png)
+![](http://blog.genesino.com/images/GeenMedical_mangine.png)
 
 ## 访问地址
 
