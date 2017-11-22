@@ -9,6 +9,14 @@ tags:
   - Bioinfo
 ---
 
+### 培训
+
+* [生物信息作图系列R、Cytoscape及图形排版和Python编程培训研讨班开课了](http://mp.weixin.qq.com/s/x-DInL34BbKUR-2UD2Ec3g)
+* [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
+* [维密摔倒不可怕，关键时有人搀一把，坚持走下去](http://mp.weixin.qq.com/s/4mWms-r5kg8kN7kJ60zZDQ)
+* [生物信息作图系列 - R、网络图及文章图形排版](http://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)
+* [易生信转录组培训总结和优惠分享](http://mp.weixin.qq.com/s/TLxzWyKImJhMINkNxLk6Yg)
+
 ### 程序学习心得
 
 * [生物信息之程序学习](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483927&amp;idx=1&amp;sn=23adf2b9d13400f2081f790e674e2cba&amp;chksm=ec0dc79ddb7a4e8b5bb7a413744319a90f425371b30e2c85224b7c183cc4ad4bbd5d9749bb7b#rd"})
@@ -19,6 +27,7 @@ tags:
 * [学习生信的系列教程](https://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg)
 * [学习生信的系列书籍](http://mp.weixin.qq.com/s/IiehgNu3JGVTDa079ll1SQ)
 * [教师节献礼 - 文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
+* [简单强大的在线绘图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484624&idx=1&sn=7f97f3cd03d6891f71ac3bb778ad84bb&chksm=ec0dc15adb7a484c0c1a3cfe25892c22d3ffc21276d7ac8ed5794f020b99003a86b3c6d5bc31#rd)
 
 ### NGS分析工具评估
 
@@ -29,9 +38,14 @@ tags:
 ### 文献精读
 
 * [一场大病引起的诺贝尔2017年生理学奖角逐](http://mp.weixin.qq.com/s/T9Q6CUCt-wBoUCEwSBZALg)
+* [Science搞反狗脑 - 人脑和狗脑一样？](https://mp.weixin.qq.com/s/zymhxusKNDZ9XynNGAlRcA)
+* [一篇压根不存在的文献被引用400次？！揭开" 幽灵文献" 的真面目](http://mp.weixin.qq.com/s/OgAhb_UGUp7tZvQARbmLLg)
+* [基于人工智能的文献检索，导师查找，更聪明](http://mp.weixin.qq.com/s/ikU0mVyX6BQNgljD1jCrRA)
+* [GeenMedical：文献查询、筛选、引用排序、相似文献、全文下载、杂志分区、影响因子、结果导出、杂志评述、直接投稿，一站服务](http://mp.weixin.qq.com/s/hc8g64aHN7qv8YhVfrsuvQ)
 
 ### Linux 学习
 
+* [Linux学习-总目录](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484606&idx=1&sn=c5f2654e3ede87f534bc352f286a6357&chksm=ec0dc134db7a48228044e720eff4cc39ea2b9258db7d20faafbcae29a47ef7de334678fad35a#rd)
 * [Linux学习-文件和目录](http://mp.weixin.qq.com/s/yKP1Kboji9N4p2Sl1Ovj0Q)
 * [Linux学习-文件操作](http://mp.weixin.qq.com/s/4bYMzJclf_xHpqdrlbvAdA)
 * [Linux文件内容操作](http://mp.weixin.qq.com/s/QFgINAYcQA9kYYSA28wK-Q)
@@ -49,8 +63,16 @@ tags:
 * [Linux学习 - SED操作，awk的姊妹篇](http://mp.weixin.qq.com/s/cywkIeRbhkYTZvkwTeIVSA)
 * [Linux学习 - 常用和不太常用的实用awk命令](http://mp.weixin.qq.com/s/8wD14FXt7fLDo1BjJyT0ew)
 
+
+### CIRCOS系列
+
+* [CIRCOS圈图绘制 - circos安装](http://mp.weixin.qq.com/s/OEBJU3BiQdQOeN_tD2o7sA)
+* [CIRCOS圈图绘制 - 最简单绘图和解释](http://mp.weixin.qq.com/s/2E1Y5-cEdptkQGVm0bxKbQ)
+* [CIRCOS圈图绘制 - 染色体信息展示和调整](https://mp.weixin.qq.com/s/o_3DyYdSubWCh5FfoVKBOg)
+
 ### R统计和作图
 
+* [在R中赞扬下努力工作的你，奖励一份CheetShet](http://mp.weixin.qq.com/s/x3tWrQPriLRFXO8ZaD93EQ)
 * [R语言学习 - 入门环境Rstudio](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483882&amp;idx=1&amp;sn=e16903b4b745a1ef51855be3824149f6&amp;chksm=ec0dc460db7a4d76a70bd4ca2d250f147225252ee963d3e577affaebeeb81dea1ff639d5e9aa#rd)
 * [R语言学习 - 热图绘制 (heatmap)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483889&amp;idx=1&amp;sn=9c9970cb120ac1e976713aca558ac9bf&amp;chksm=ec0dc47bdb7a4d6d6441e36055aa075b03d5592862eae01c05761e5972b39a62cf2228b19787#rd)
 * [R语言学习 - 基础概念和矩阵操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483891&amp;idx=1&amp;sn=40daf6435398c4d9a41f332e9bba4915&amp;chksm=ec0dc479db7a4d6fec413bfb90a4660eb035b440d2bbee998114f7af29e3b3338a8adf62540a#rd)
