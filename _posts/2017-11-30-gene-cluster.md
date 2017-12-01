@@ -196,7 +196,7 @@ fit_cluster <- fit_pam$pamobject$clustering
 
 以`pam`的输出结果为例 (上面两种方法的输出结果都已处理为了同一格式，后面的代码通用)。
 
-1. 获取每类数值的平均值，利用[线图一步画图法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483947&idx=1&sn=7cf0252efff5433447507b977fcaff97&chksm=ec0dc7a1db7a4eb77a269709bdf2c8ab51bcad89aa780ec0be171a333e1cb8f3cc27eff277a1#rd)获得各个类的趋势特征。
+1.获取每类数值的平均值，利用[线图一步画图法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483947&idx=1&sn=7cf0252efff5433447507b977fcaff97&chksm=ec0dc7a1db7a4eb77a269709bdf2c8ab51bcad89aa780ec0be171a333e1cb8f3cc27eff277a1#rd)获得各个类的趋势特征。
 
 ```r
 cluster_mean <- aggregate(data, by=list(fit_cluster), FUN=mean)
@@ -205,7 +205,7 @@ write.table(t(cluster_mean), file="ehbio.pam.cluster.mean.xls", sep='\t',col.nam
 
 ![](http://blog.genesino.com/images/coExprMeanPlot.png)
 
-2. 获取按照分类排序的数据，绘制[热图 (点击查看)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483921&idx=1&sn=8326bc566e945386cad27250a33a1bf6&chksm=ec0dc79bdb7a4e8d28bb909994432dab9bf09346b6f64a35ec1e657cbb298f10ca20c6838ca7#rd)。
+2.获取按照分类排序的数据，绘制[热图 (点击查看)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247483921&idx=1&sn=8326bc566e945386cad27250a33a1bf6&chksm=ec0dc79bdb7a4e8d28bb909994432dab9bf09346b6f64a35ec1e657cbb298f10ca20c6838ca7#rd)。
 
 ```r
 dataWithClu <- cbind(ID=rownames(data), data, fit_cluster)
@@ -217,7 +217,7 @@ write.table(dataWithClu, file="ehbio.pam.cluster.xls",
 
 ![](http://blog.genesino.com/images/coExprHeatmap.png)
 
-3. 获取每类数据，绘制多线图和密度图
+3.获取每类数据，绘制多线图和密度图
 
 
 ```r
