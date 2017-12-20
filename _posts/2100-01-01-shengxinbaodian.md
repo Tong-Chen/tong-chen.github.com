@@ -9,15 +9,7 @@ tags:
   - Bioinfo
 ---
 
-### 培训
-
-* [生物信息作图系列R、Cytoscape及图形排版和Python编程培训研讨班开课了](http://mp.weixin.qq.com/s/x-DInL34BbKUR-2UD2Ec3g)
-* [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
-* [维密摔倒不可怕，关键时有人搀一把，坚持走下去](http://mp.weixin.qq.com/s/4mWms-r5kg8kN7kJ60zZDQ)
-* [生物信息作图系列 - R、网络图及文章图形排版](http://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)
-* [易生信转录组培训总结和优惠分享](http://mp.weixin.qq.com/s/TLxzWyKImJhMINkNxLk6Yg)
-
-### 程序学习心得
+### 系列教程
 
 * [生物信息之程序学习](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483927&amp;idx=1&amp;sn=23adf2b9d13400f2081f790e674e2cba&amp;chksm=ec0dc79ddb7a4e8b5bb7a413744319a90f425371b30e2c85224b7c183cc4ad4bbd5d9749bb7b#rd"})
 * [如何优雅的提问](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483955&amp;idx=1&amp;sn=946438376f94af6e8861b2b42701914e&amp;chksm=ec0dc7b9db7a4eafbef28fac1fb260f6f876f0ba674828784ac827dd23f9317f5a2d59d38bc0#rd)
@@ -28,12 +20,36 @@ tags:
 * [学习生信的系列书籍](http://mp.weixin.qq.com/s/IiehgNu3JGVTDa079ll1SQ)
 * [教师节献礼 - 文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
 * [简单强大的在线绘图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484624&idx=1&sn=7f97f3cd03d6891f71ac3bb778ad84bb&chksm=ec0dc15adb7a484c0c1a3cfe25892c22d3ffc21276d7ac8ed5794f020b99003a86b3c6d5bc31#rd)
+* [简单强大的在线绘图-升级版](http://mp.weixin.qq.com/s/pTHHqxuf0y1MCCCBaZjt9A)
+* [论文图表基本规范](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
+
 
 ### NGS分析工具评估
 
 * [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
 * [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=2&sn=a09fa127d625c4072ae0343795346c56&chksm=ec0dc740db7a4e56821f32f60700027c85db46e81089721d1bbe23ceefa86160d9661c2f2d4c#rd)
 * [无参转录组分析工具评估和流程展示](http://mp.weixin.qq.com/s/4HANWJY4oL7jGziroHfEpQ)
+
+### 宏基因组教程
+
+* [微生物组入门必读+宏基因组实操课程](http://mp.weixin.qq.com/s/sQyl5EctXFB95Oxg8YIasg)
+* [扩增子图表解读-理解文章思路](http://mp.weixin.qq.com/s/oiVHO2S1JgYrKXPDU6fH2g)
+* [扩增子分析流程-把握分析细节](http://mp.weixin.qq.com/s/KrYyy3jjzAL0rQzVfV6h4A)
+* [扩增子统计绘图-冲击高分文章](http://mp.weixin.qq.com/s/6tNePiaDsPPzEBZjiCXIRg)
+* [宏基因组分析教程](http://mp.weixin.qq.com/s/bcyvhFrNr6niqD13rQfZeg)
+* [4500元的微生物组培训资料](http://mp.weixin.qq.com/s/li7SdZVaCEyFQF8h6MMh2A)
+* [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
+
+### 培训
+
+* [生物信息作图系列R、Cytoscape及图形排版和Python编程培训研讨班开课了](http://mp.weixin.qq.com/s/x-DInL34BbKUR-2UD2Ec3g)
+* [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
+* [维密摔倒不可怕，关键时有人搀一把，坚持走下去](http://mp.weixin.qq.com/s/4mWms-r5kg8kN7kJ60zZDQ)
+* [生物信息作图系列 - R、网络图及文章图形排版](http://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)
+* [易生信转录组培训总结和优惠分享](http://mp.weixin.qq.com/s/TLxzWyKImJhMINkNxLk6Yg)
+* [生物信息9天速成班 — 你也可以成为团队不可或缺的人](http://mp.weixin.qq.com/s/aRuaX-qXlHkF2vme9QqWag)
+* [Python学习没有捷径，但可以加速，零基础九天你也可以会编程](http://mp.weixin.qq.com/s/vDAHTitasAUphWsrS2Uzlg)
+* [小学生都学Python了，你还不知道怎么开始-资源帖](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)
 
 ### 文献精读
 
@@ -62,7 +78,7 @@ tags:
 * [查看服务器配置信息](http://mp.weixin.qq.com/s/xq0JfkHJJeHQk1acjOAJUQ)
 * [Linux学习 - SED操作，awk的姊妹篇](http://mp.weixin.qq.com/s/cywkIeRbhkYTZvkwTeIVSA)
 * [Linux学习 - 常用和不太常用的实用awk命令](http://mp.weixin.qq.com/s/8wD14FXt7fLDo1BjJyT0ew)
-
+* [Bash概论 - Linux系列教程补充篇](http://mp.weixin.qq.com/s/lWNp_6W_jLiogmtlk9nO2A)
 
 ### CIRCOS系列
 
@@ -92,6 +108,30 @@ tags:
 * [R语言学习 - 图形设置中英字体](http://mp.weixin.qq.com/s/NAwyvtTS7t5rRU7KKBwHTA)
 * [教师节献礼 - 文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
 * [R语言学习 - 非参数法生存分析](http://mp.weixin.qq.com/s/_Dy9Yn8fc8I0rASGxH5x9A)
+* [基因共表达聚类分析和可视化](http://mp.weixin.qq.com/s/ST2SAmfKOptpJOHS8podmQ)
+* [R中1010个热图绘制方法](http://mp.weixin.qq.com/s/N7oLvJ1oPIImgybJVVSxXg)
+
+### 扩增子学习三步曲
+
+* [1图表解读-理解文章思路](http://mp.weixin.qq.com/s/oiVHO2S1JgYrKXPDU6fH2g)  
+* [2分析流程-把握分析细节](http://mp.weixin.qq.com/s/KrYyy3jjzAL0rQzVfV6h4A)  
+* [扩展1：视频教程-夯实分析思路](http://mp.weixin.qq.com/s/SxWl0qBJgg8ziZUFDmKvpQ)  
+* [扩展2：QIIME2教程-了解分析趋势](http://mp.weixin.qq.com/s/wkn-91BVOSWZLRvlcaaEgg)  
+* [3统计绘图-冲击高分文章](http://mp.weixin.qq.com/s/6tNePiaDsPPzEBZjiCXIRg)  
+
+### 宏基因组分析专题
+
+* [1背景知识-Shell入门与本地blast实战](http://mp.weixin.qq.com/s/jASOBPzpwYCL-fWNUJJp8g)
+* [2数据质控fastqc,  Trimmomatic,  MultiQC,  khmer](http://mp.weixin.qq.com/s/3O01eNMe79J_kUTaJjP6ag)
+* [3组装拼接MEGAHIT和评估quast](http://mp.weixin.qq.com/s/NMKX0iDuR_qOzmLXxC8MEQ)
+* [4基因注释Prokka](http://mp.weixin.qq.com/s/1TM61IrzrpVb5KhZ5A0kZQ)
+* [5基于Kmer比较数据集sourmash](https://mp.weixin.qq.com/s/Rmx-z1zxj7GF9ivJGWVvLg)
+* [6不比对快速估计基因丰度Salmon](http://mp.weixin.qq.com/s/2fwEtnEsBi5cJ65xyeoXxw)
+* [7bwa序列比对,  samtools查看,  bedtools丰度统计](http://mp.weixin.qq.com/s/rdTFTFg0rZOIa2_tuFEOUA)
+* [8分箱宏基因组binning,  MaxBin,  MetaBin,  VizBin](http://mp.weixin.qq.com/s/rZitcvykAlxnsNEzsW5JRg)
+* [9组装assembly和分箱bin结果可视化—Anvi'o](http://mp.weixin.qq.com/s/FesH_mCunpZLpKC2pIg1UQ)
+* [10绘制圈图-Circos安装与使用](http://mp.weixin.qq.com/s/FJlKY3kU5Fm6bYkjtwRkEw)
+* [MetaPhlAn2分析有参宏基因组](http://mp.weixin.qq.com/s/xSjFGwcr1XIAZKdByJAWmQ)
 
 ### NGS基础
 
@@ -123,6 +163,7 @@ tags:
 * [Python解析psiBlast输出的JSON文件结果](http://mp.weixin.qq.com/s/BN6u2aJkoMzffPv7rvbm8g)
 * [为啥我的Python这么慢 - 项查找 (二)](http://mp.weixin.qq.com/s/-0UTgmdRQbF7I4fib62ooA)
 * [为啥我的Python这么慢 (一)](https://mp.weixin.qq.com/s/n5kkZfC8FGlzeBODarLHcw)
+* [Python学习资源](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)
 
 ### NGS软件
 
