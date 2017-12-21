@@ -1,6 +1,6 @@
 如何一个月学会使用Python
 
-文章翻译自Quora上的回帖，略有改动。原文链接：https://www.quora.com/What-are-the-best-tips-for-learning-Python-within-one-month
+文章翻译自Quora上的回帖，略有改动。原文链接：<https://www.quora.com/What-are-the-best-tips-for-learning-Python-within-one-month>
 
 第1周
 
