@@ -8,7 +8,7 @@
 
 如果不想搜索，我们在[小学生都学Python了，你还不知道怎么开始](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)提供了不少教程。而且还有自写的[Python系列简明教程](https://mp.weixin.qq.com/s/9BNrq8Lu7hjtO2BAKOIXOA)，精简版。可以作为小册子读用。
 
-语法查找的话有Python cookbook,这里有中文翻译版本http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html (书中的所有源代码也可在此书的前言页面获取)。
+语法查找的话有Python cookbook,这里有中文翻译版本<http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html> (书中的所有源代码也可在此书的前言页面获取)。
 
 
 第2、3、3.5 周
@@ -61,7 +61,7 @@
 
 回复中推荐的网络资源比较多，这就不列出来了。因为大部分我也没看过，打开浏览了几个，不是面对生信分析的，适不适合初学也不好评价。
 
-今天收到**Coursera**的邮件，列出了**2017年最高评分的系列课程**，计算机系列有三个，都跟Python有关：**Fundamentals of Computing** (编程语言使用Python，前两部分都是关于Python交互式编程), **Algorithms** (Python作为一个必修语言), **Python for Everybody**, 有时间的可以去看看 (https://www.coursera.org)。
+今天收到**Coursera**的邮件，列出了**2017年最高评分的系列课程**，计算机系列有三个，都跟Python有关：**Fundamentals of Computing** (编程语言使用Python，前两部分都是关于Python交互式编程), **Algorithms** (Python作为一个必修语言), **Python for Everybody**, 有时间的可以去看看 (<https://www.coursera.org>)。
 
 搜索资料的过程中，不小心发现了这么一个神奇的Github库，里面包含了很多免费，大部分优质的书籍，部分相关的列举如下 (可点击的都是生信宝典之前发过的文章)，读过的付一点心得体会。可直接访问最后的网址跳到原网页，或点击阅读原文，每个链接都可点。
 
@@ -344,6 +344,6 @@ n=40daf6435398c4d9a41f332e9bba4915&amp;chksm=ec0dc479db7a4d6fec413bfb90a4660eb03
 * [Think Complexity](http://greenteapress.com/complexity/) (PDF)
 
 
-免费书地址：https://github.com/EbookFoundation/free-programming-books
+免费书地址：<https://github.com/EbookFoundation/free-programming-books>
 
 
