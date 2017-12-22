@@ -78,7 +78,7 @@ tags:
 
 学习的过程大部分是程序写作和调试，想不想有个后盾呢？
 
-<www.ehbio.com/Training>
+<http://www.ehbio.com/Training>
 
 回复中推荐的网络资源比较多，这就不列出来了。因为大部分我也没看过，适不适合初学也不好评价。
 
