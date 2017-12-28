@@ -37,6 +37,82 @@ tags:
 
 ![](http://www.dirmor.top/)
 
+### 如果你有服务器
+
+如果你有国外服务器的账户，可以使用`SSH tunnel`，不只可以享受外网，还能对信息加密，使用更安全。如果你单位有服务器，又有权限下载文章，那么不在单位时也可以使用`SSH Tunnel`，潜入单位**下载文献或者访问内网**。
+
+
+以`XShell`和火狐的插件`FoxyProxy`为例，其它工具类似。
+
+1. 在XShell设置中，SSH的Tunnel (隧道)选项中，选择Dynamic项, 自定义一个Source port(12345)。
+
+   ![](www.blog.genesino.com/images/xshell_tunnel.png)
+
+2. 连接到服务器，输入用户名和密码，此时就在本地和服务器之间建立了一个SSH隧道，使用SOCKS代理。
+
+3. 在Firefox的插件FoxyProxy中，按如下操作添加SOCKS代理，IP设为127.0.0.1，端口号设为刚才在XShell中设置的端口号(12345)。
+
+   ![](www.blog.genesino.com/images/Foxyproxy_addserver.png)
+
+4. 如果我们只想对**部分URL**使用这个代理，或想根据不同的URL选择**不同的代理**，可以给每个代理设置支持的URL模式。
+
+   ![](www.blog.genesino.com/images/FoxyProxy_pattern.png)
+
+5. 这样通过Firefox发出的符合特定模式的网页请求都通过主机与服务器之间的SSH隧道传输，相当于使用远程服务器的网络，比如访问内网，利用研究所的数据库下载文献，利用研究所的VPN访问外网等。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### 生信宝典，一起学生信
 
