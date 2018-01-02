@@ -8,7 +8,7 @@ tags:
   - Bioinfo
 ---
 
-对于我们做数据分析的人来说，需要关注很多数字，如[软件安装](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)时[系统是64位还是32位](http://mp.weixin.qq.com/s/xq0JfkHJJeHQk1acjOAJUQ)，[程序的运行时间多久，运行内存需求多大](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483954&amp;idx=1&amp;sn=11247591a6ef98a4d25404278d577ed0&amp;chksm=ec0dc7b8db7a4eaeb7ae3fd2fa2fbfa7bfd13f5e90d7a42d405f6f8e8783761de048f7ccbc58#rd)，[测序原始文件多大](ttp://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484047&amp;idx=1&amp;sn=3e2a79d9f56040a57ac2e16cf1923b54&amp;chksm=ec0dc705db7a4e133e6e91de9ac11a6c0690f03d7b3b760b358e9b0d1a2d57974599419d9fff#rd)，[比对完之后的BAM文件多大，多少基因被检测到了，有多少是差异表达的](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)等。
+对于我们做数据分析的人来说，需要关注很多数字，如[软件安装](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)时[系统是64位还是32位](http://mp.weixin.qq.com/s/xq0JfkHJJeHQk1acjOAJUQ)，[程序的运行时间多久，运行内存需求多大](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483954&amp;idx=1&amp;sn=11247591a6ef98a4d25404278d577ed0&amp;chksm=ec0dc7b8db7a4eaeb7ae3fd2fa2fbfa7bfd13f5e90d7a42d405f6f8e8783761de048f7ccbc58#rd)，[测序原始文件多大](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484047&amp;idx=1&amp;sn=3e2a79d9f56040a57ac2e16cf1923b54&amp;chksm=ec0dc705db7a4e133e6e91de9ac11a6c0690f03d7b3b760b358e9b0d1a2d57974599419d9fff#rd)，[比对完之后的BAM文件多大，多少基因被检测到了，有多少是差异表达的](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)等。
 
 生物体内也存在一些数据，对我们直观地了解生物体的大小、理解生物体内部的组织方式和调节方式有重要启发作用。
 
@@ -22,11 +22,11 @@ tags:
 
 2. 5 ml的细菌培养液中有多少突变？
 
-   大肠杆菌复制错误率为**10^(-9)/bp**，基因组大小为**10^7** (双链)，每次基因组复制产生的平均突变为**0.02**个。在5 ml饱和的大肠杆菌培养液中，有**10^9~10^10**个细胞。如果只是考虑最后一次复制，从**10^9**个细胞到**10^10**个就会产生**10^7**个单碱基突变 (等同于基因组大小)。如果是从一个菌繁殖而来的，那么理论上每一个非致死性突变都会存在于培养液的菌中。
+   大肠杆菌复制错误率为**10<sup>-9</sup>/bp**，基因组大小为**10<sup>7</sup>** (双链)，每次基因组复制产生的平均突变为**0.02**个。在5 ml饱和的大肠杆菌培养液中，有**10<sup>9</sup>~10<sup>10</sup>**个细胞。如果只是考虑最后一次复制，从**10<sup>9</sup>**个细胞到**10<sup>10</sup>**个就会产生**10<sup>7</sup>**个单碱基突变 (等同于基因组大小)。如果是从一个菌繁殖而来的，那么理论上每一个非致死性突变都会存在于培养液的菌中。
 
 3. 饱和的大肠杆菌培养液的密度怎样？
 
-   饱和的大肠杆菌培养液中大约有**10^9** cells/ml。每个细胞重量为**10^(-12)**克，悬液的菌浓度是 1 mg/ml。细胞之间的平均距离是**10 um**, 这个密度只有白蚁肠道中菌的密度的**1/10**。可见肠道菌群的丰富。
+   饱和的大肠杆菌培养液中大约有**10<sup>9</sup>** cells/ml。每个细胞重量为**10<sup>-12</sup>**克，悬液的菌浓度是 1 mg/ml。细胞之间的平均距离是**10 um**, 这个密度只有白蚁肠道中菌的密度的**1/10**。可见肠道菌群的丰富。
 
 4. 大分子扩散的距离有多大？
 
