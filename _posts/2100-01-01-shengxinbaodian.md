@@ -23,7 +23,6 @@ tags:
 * [简单强大的在线绘图-升级版](http://mp.weixin.qq.com/s/pTHHqxuf0y1MCCCBaZjt9A)
 * [论文图表基本规范](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
 
-
 ### NGS分析工具评估
 
 * [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
@@ -40,7 +39,7 @@ tags:
 * [4500元的微生物组培训资料](http://mp.weixin.qq.com/s/li7SdZVaCEyFQF8h6MMh2A)
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 
-### 培训
+### 系列宣传
 
 * [生物信息作图系列R、Cytoscape及图形排版和Python编程培训研讨班开课了](http://mp.weixin.qq.com/s/x-DInL34BbKUR-2UD2Ec3g)
 * [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
@@ -50,6 +49,11 @@ tags:
 * [生物信息9天速成班 — 你也可以成为团队不可或缺的人](http://mp.weixin.qq.com/s/aRuaX-qXlHkF2vme9QqWag)
 * [Python学习没有捷径，但可以加速，零基础九天你也可以会编程](http://mp.weixin.qq.com/s/vDAHTitasAUphWsrS2Uzlg)
 * [小学生都学Python了，你还不知道怎么开始-资源帖](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)
+* [一个月学会Python的Quora指南和资料放送](http://mp.weixin.qq.com/s/VTVVfpNSGgOJLNxeIqmFiw)
+
+### 生信生物知识
+
+* [生物研究中不可缺少的数字概念，多少，多大，多快](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
 
 ### 文献精读
 
@@ -58,6 +62,8 @@ tags:
 * [一篇压根不存在的文献被引用400次？！揭开" 幽灵文献" 的真面目](http://mp.weixin.qq.com/s/OgAhb_UGUp7tZvQARbmLLg)
 * [基于人工智能的文献检索，导师查找，更聪明](http://mp.weixin.qq.com/s/ikU0mVyX6BQNgljD1jCrRA)
 * [GeenMedical：文献查询、筛选、引用排序、相似文献、全文下载、杂志分区、影响因子、结果导出、杂志评述、直接投稿，一站服务](http://mp.weixin.qq.com/s/hc8g64aHN7qv8YhVfrsuvQ)
+* [YANDEX搜索，不翻墙稳定使用近谷歌搜索](http://mp.weixin.qq.com/s/fZ2Nm7Wck5mZLiESHcPusA)
+* [Nature | 我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
 
 ### Linux 学习
 
@@ -74,7 +80,7 @@ tags:
 * [用了Docker，妈妈再也不担心我的软件安装了 - 基础篇](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483840&amp;idx=1&amp;sn=f87f6dd703cd8c109f6dc5b8d12ffb7c&amp;chksm=ec0dc44adb7a4d5c9ff2422c730b1d7bb18dcb6947c0e7449f1678aee492c3193302174930b4#rd)
 * [Linux服务器数据定期同步和备份方式](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483950&amp;idx=1&amp;sn=6f4dbc46a064638d7c95b9f99cb1de70&amp;chksm=ec0dc7a4db7a4eb20751dd6567b1c97be7d536671af07707eb57bb1ea7865cbde17a0226a6e0#rd)
 * [不用Linux也可以的强大文本处理方法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484250&amp;idx=1&amp;sn=d4759dc05a55643549646c77318c4f96&amp;chksm=ec0dc6d0db7a4fc64791896914547b5ce818e8bd3cca98f0fb7bf6ebd9029fe6fd08a4d55255#rd)
-* [Linux学习 - 又双叒叕一个软件安装方法](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)
+* [Linux学习 - Conda软件安装方法](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)
 * [查看服务器配置信息](http://mp.weixin.qq.com/s/xq0JfkHJJeHQk1acjOAJUQ)
 * [Linux学习 - SED操作，awk的姊妹篇](http://mp.weixin.qq.com/s/cywkIeRbhkYTZvkwTeIVSA)
 * [Linux学习 - 常用和不太常用的实用awk命令](http://mp.weixin.qq.com/s/8wD14FXt7fLDo1BjJyT0ew)
@@ -88,13 +94,13 @@ tags:
 
 ### R统计和作图
 
-* [在R中赞扬下努力工作的你，奖励一份CheetShet](http://mp.weixin.qq.com/s/x3tWrQPriLRFXO8ZaD93EQ)
+* [在R中赞扬下努力工作的你，奖励一份CheatShet](http://mp.weixin.qq.com/s/x3tWrQPriLRFXO8ZaD93EQ)
 * [R语言学习 - 入门环境Rstudio](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483882&amp;idx=1&amp;sn=e16903b4b745a1ef51855be3824149f6&amp;chksm=ec0dc460db7a4d76a70bd4ca2d250f147225252ee963d3e577affaebeeb81dea1ff639d5e9aa#rd)
-* [R语言学习 - 热图绘制 (heatmap)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483889&amp;idx=1&amp;sn=9c9970cb120ac1e976713aca558ac9bf&amp;chksm=ec0dc47bdb7a4d6d6441e36055aa075b03d5592862eae01c05761e5972b39a62cf2228b19787#rd)
+* [R语言学习 - 热图绘制 (heatmap)](http://mp.weixin.qq.com/s/mNSkf1rjWTCtE1pIOuI2rA)
 * [R语言学习 - 基础概念和矩阵操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483891&amp;idx=1&amp;sn=40daf6435398c4d9a41f332e9bba4915&amp;chksm=ec0dc479db7a4d6fec413bfb90a4660eb035b440d2bbee998114f7af29e3b3338a8adf62540a#rd)
-* [R语言学习 - 热图简化](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483921&amp;idx=1&amp;sn=8326bc566e945386cad27250a33a1bf6&amp;chksm=ec0dc79bdb7a4e8d28bb909994432dab9bf09346b6f64a35ec1e657cbb298f10ca20c6838ca7#rd)
-* [R语言学习 - 热图美化](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483901&amp;idx=1&amp;sn=5770a863352acd8f8aec3e157131bef8&amp;chksm=ec0dc477db7a4d61e5ee49323529d5b406941f0b2ebb63a8a8e7f35b28b97ada059692671c5b#rd)
-* [R语言学习 - 线图绘制](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483937&amp;idx=1&amp;sn=8368c9346ccce10121c8a7b574c12f88&amp;chksm=ec0dc7abdb7a4ebd859713b8740b53f148e3ebb5047776e9cf42f2306ab082b6b968568f2f23#rd)
+* [R语言学习 - 热图简化](https://mp.weixin.qq.com/s/_9LKs6t6rcjzokF_0gneSA)
+* [R语言学习 - 热图美化](http://mp.weixin.qq.com/s/lKrhvYrwn93esC6MA3bHWw)
+* [R语言学习 - 线图绘制](http://mp.weixin.qq.com/s/YB-9tE4ut9RN0yfS8qBhtQ)
 * [R语言学习 - 线图一步法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483947&amp;idx=1&amp;sn=7cf0252efff5433447507b977fcaff97&amp;chksm=ec0dc7a1db7a4eb77a269709bdf2c8ab51bcad89aa780ec0be171a333e1cb8f3cc27eff277a1#rd)
 * [R语言学习 - 箱线图（小提琴图、抖动图、区域散点图）](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483964&amp;idx=1&amp;sn=ee52ac37fb9a919f5c75c0abe2a49ad4&amp;chksm=ec0dc7b6db7a4ea0a51306347fc43265c41fda3eeaf4764ddc3795546371327579676cd74a38#rd)
 * [R语言学习 - 箱线图一步法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483971&amp;idx=1&amp;sn=1b40a1137ccb8b2fa1ab3eb1d0f05de9&amp;chksm=ec0dc7c9db7a4edf16ea4966b9acb7f23cd23bd6a2e59450ae11bdac899fa2fceb124264dcf4#rd)
@@ -164,6 +170,7 @@ tags:
 * [为啥我的Python这么慢 - 项查找 (二)](http://mp.weixin.qq.com/s/-0UTgmdRQbF7I4fib62ooA)
 * [为啥我的Python这么慢 (一)](https://mp.weixin.qq.com/s/n5kkZfC8FGlzeBODarLHcw)
 * [Python学习资源](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)
+* [关于Python中的__main__和编程模板](http://mp.weixin.qq.com/s/JHDvdqq3Z-7uDmsyroblNQ)
 
 ### NGS软件
 
@@ -177,21 +184,22 @@ tags:
 ### Cytoscape网络图
 
 * [Cytoscape教程1](http://mp.weixin.qq.com/s/m9uJm8GwSXb3xaRxtod08Q)
-* [Cytoscape之操作界面介绍](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484184&amp;idx=1&amp;sn=2384ba8a6a6ea3ed7dac1b42217c710a&amp;chksm=ec0dc692db7a4f84a03feb4de092aa0712b1bca2975f1cee8fac8342d0a65f836f5f94e9d877#rd)
-* [新出炉的Cytoscape视频教程](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484194&amp;idx=1&amp;sn=61bcbe1c48e195c5c830396865789723&amp;chksm=ec0dc6a8db7a4fbeaa9cdd7245127edd382f3e4d13a61636c2cbc52062b32d7565bf282fca5e#rd)
+* [Cytoscape之操作界面介绍](http://mp.weixin.qq.com/s/ZSoW7-qWs3BuSB7bkDnfmA)
+* [新出炉的Cytoscape视频教程](http://mp.weixin.qq.com/s/sKEy_Pn9qnWw4W-aXraA5g)
 
 ### 分子对接
 
-* [来一场蛋白和小分子的风花雪月](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483842&amp;idx=1&amp;sn=653e97fb32eaa73ce9f26b22306cc369&amp;chksm=ec0dc448db7a4d5ef15d62d62df9e3a243a7e304c816c2a6ac3f878b07ede52010900e7c9136#rd)
-* [不是原配也可以-对接非原生配体](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483842&amp;idx=3&amp;sn=caa5bb8ab6c868b8644c5f532b12adf2&amp;chksm=ec0dc448db7a4d5e9827d5419b08a8930b27c53d80d21c207f15be3a27eedc6fa1088de709f7#rd)
-* [简单可视化-送你一双发现美的眼睛](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483842&amp;idx=2&amp;sn=c3c3f80b2e24ee5287678e4a853fb657&amp;chksm=ec0dc448db7a4d5e3a023a2067552d29ee5fca143192771d8d8570f9c9c8f65b13829360f487#rd)
-* [你需要知道的那些前奏](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483842&amp;idx=4&amp;sn=8b7918a98e5e34f78263f248620d8311&amp;chksm=ec0dc448db7a4d5ec2a83703149caed48fa5afbe4822e855785448008e34a9991d9f428d8fec#rd)
+* [来一场蛋白和小分子的风花雪月](http://mp.weixin.qq.com/s/asAJDttAvsCLGd3PPU2agQ)
+* [不是原配也可以-对接非原生配体](http://mp.weixin.qq.com/s/VDN1qAZGIMol6prwQW4umw)
+* [简单可视化-送你一双发现美的眼睛](http://mp.weixin.qq.com/s/P62sjqhSTxmWVicrEAk-RQ)
+* [你需要知道的那些前奏](http://mp.weixin.qq.com/s/5a5-6pXHfvyDc2Kfp4xDeQ)
 
 ### 生信宝典之傻瓜式
 
-* [生信宝典之傻瓜式 (一) 如何提取指定位置的基因组序列](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484030&amp;idx=1&amp;sn=0d369c99fd49ebafefe60c00efe647b1&amp;chksm=ec0dc7f4db7a4ee241beb0fb8a3e5d8bf7e9ac69899db9b6b6522093bda21e5a2202ddf1edda#rd)
-* [生信宝典之傻瓜式 (二) 如何快速查找指定基因的调控网络](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483852&amp;idx=1&amp;sn=d419fa404b987b4d70f789eb2de8478c&amp;chksm=ec0dc446db7a4d50e4700d88f42d3991ea622a058f1529586b533648dcee994e08f742133abe#rd)
-* [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483864&amp;idx=1&amp;sn=c1df1a797a4c2e4cf5f0e0524664bebd&amp;chksm=ec0dc452db7a4d44a97031725ae4630bdbec7e37076144d60dfd83e17d04cd8a7003f039ecc0#rd)
+* [生信宝典之傻瓜式 (一) 如何提取指定位置的基因组序列](http://mp.weixin.qq.com/s/5bNdHkl3QDFmCNmrht3VWA)
+* [生信宝典之傻瓜式 (二) 如何快速查找指定基因的调控网络](http://mp.weixin.qq.com/s/LPWaxbKuS-XlvzkSE-MupQ)
+* [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s/0Yvhn5Tlb-zvOXM0cU16Zg)
+* [生信宝典之傻瓜式 (四) 蛋白蛋白互作网络在线搜索](http://mp.weixin.qq.com/s/JO1J66BtzuY-9a20x0XQcg)
 
 ### 生信人写程序
 
