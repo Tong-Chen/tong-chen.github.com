@@ -138,7 +138,10 @@ tabs <- GET(url)
 df3 <- readHTMLTable(rawToChar(tabs$content), as.data.frame = T, stringsAsFactors = F)
 ```
 
-### References 
 
+### 便捷链接 
+
+* [R语言学习 - 基础概念和矩阵操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483891&amp;idx=1&amp;sn=40daf6435398c4d9a41f332e9bba4915&amp;chksm=ec0dc479db7a4d6fec413bfb90a4660eb035b440d2bbee998114f7af29e3b3338a8adf62540a#rd)
+* [VIM正则表达式获取生信宝典公众号的文章列表](https://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484250&idx=1&sn=d4759dc05a55643549646c77318c4f96&chksm=ec0dc6d0db7a4fc64791896914547b5ce818e8bd3cca98f0fb7bf6ebd9029fe6fd08a4d55255#rd)
 * [R Error using readHTMLTable](https://stackoverflow.com/questions/17045107/r-error-using-readhtmltable) 
 * [Extract web pages](http://chenyuan.date/2017/10/Extract-data-from-webpage/)
