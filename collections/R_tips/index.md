@@ -539,6 +539,53 @@ layout: page
     4 4 4 4
     ```
 
+	```r
+    > a = matrix(1:20, nrow=4)
+    > a
+         [,1] [,2] [,3] [,4] [,5]
+    [1,]    1    5    9   13   17
+    [2,]    2    6   10   14   18
+    [3,]    3    7   11   15   19
+    [4,]    4    8   12   16   20
+    > a <- as.data.frame(a)
+    > a$a = letters[1:4]
+    > a
+      V1 V2 V3 V4 V5 a
+    1  1  5  9 13 17 a
+    2  2  6 10 14 18 b
+    3  3  7 11 15 19 c
+    4  4  8 12 16 20 d
+    > a[,1:4][a[,1:4]>4] <- 0
+    > a
+      V1 V2 V3 V4 V5 a
+    1  1  0  0  0 17 a
+    2  2  0  0  0 18 b
+    3  3  0  0  0 19 c
+    4  4  0  0  0 20 d
+    > a[,-6][a[,-6]>4] <- 0
+    > a
+      V1 V2 V3 V4 V5 a
+    1  1  0  0  0  0 a
+    2  2  0  0  0  0 b
+    3  3  0  0  0  0 c
+    4  4  0  0  0  0 d
+    > a[,-6][a[,-6]!=0] <- 1
+    > a
+      V1 V2 V3 V4 V5 a
+    1  1  0  0  0  0 a
+    2  1  0  0  0  0 b
+    3  1  0  0  0  0 c
+    4  1  0  0  0  0 d
+    > a[c("V1","V2")][a[c("V1","V2")]==0] <- 2
+    > a
+      V1 V2 V3 V4 V5 a
+    1  1  2  0  0  0 a
+    2  1  2  0  0  0 b
+    3  1  2  0  0  0 c
+    4  1  2  0  0  0 d
+    ```
+
+
 22. 移除特定的行
 
     ```r
@@ -662,6 +709,12 @@ layout: page
 	Sys.setenv(LD_LIBRARY_PATH=paste("/my_lib_dir", Sys.getenv('LD_LIBRARY_PATH'), sep=":"))
 	```
 
+33. maximal number of DLLs reached
+
+    ```r
+    # /miniconda2/envs/r/lib/R/etc/Renviron
+	R_MAX_NUM_DLLS=1000
+	```
 
 **Reference**
 
