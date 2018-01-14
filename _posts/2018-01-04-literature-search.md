@@ -1,5 +1,5 @@
 ---
-title: 生信宝典之傻瓜式(四)文献挖掘查找指定基因调控网络
+title: 生信宝典之傻瓜式(五) 文献挖掘查找指定基因调控网络
 author: ct
 layout: post
 categories:
