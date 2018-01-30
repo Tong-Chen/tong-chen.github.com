@@ -1,5 +1,5 @@
 ---
-title: Bookdown usage
+title: Bookdown平台分享了哪些书籍，如何使用Bookdown分享书籍
 author: ct
 layout: post
 description:
@@ -8,7 +8,14 @@ categories: [Bioinformatics]
 tags: [bookdown]
 ---
 
-[`bookdown`](https://bookdown.org/yihui/bookdown/get-started.html)支持采用`Rmarkdown` (R代码可以运行)或普通`markdown`编写文档，然后编译成`HTML`, `WORD`, `PDF`, `Epub`等格式。样式清新，使用简单，值得拥有。
+
+[`bookdown`](https://bookdown.org/yihui/bookdown/get-started.html)是著名R包作者[谢益辉](http://yihui.name)开发的，支持采用`Rmarkdown` (R代码可以运行)或普通`markdown`编写文档，然后编译成`HTML`, `WORD`, `PDF`, `Epub`等格式。样式清新，使用简单，值得拥有。
+
+在Bookdown的官网，有很多免费的用`bookdown`写的R书籍，如Hadley Wickham等撰写的《[R for Data Science](http://r4ds.had.co.nz/)》，Roger D. Peng撰写的《[R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)》, 陈总的《[液体活检口袋书](https://bookdown.org/youcai/Liquid_biopsy_PocketBook/)》，益辉的《[R语言忍者秘笈](https://bookdown.org/yihui/r-ninja/)》，《单细胞数据整体分析流程》https://hemberg-lab.github.io/scRNA.seq.course/index.html (初学单细胞分析可以完全照着这个，在学习过程中改进)。
+
+还有很多基于Bookdown的教程，一时也想不起来，欢迎大家补充。我们前面[转录组](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)和[R培训](https://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)的教案也是用bookdown写作的，后续再调整下格式，出一批电子书和纸质书，有意向和需求的欢迎联系。
+
+下面分2步讲述，自己如何构建一个Bookdown书籍，第一部分是通过bookdown示例了解其基本功能和使用，第二部分是个人在使用过程中碰到的问题和解决方式。
 
 ### 基本使用
 
