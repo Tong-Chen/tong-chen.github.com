@@ -8,35 +8,38 @@ categories: [Bioinformatics]
 tags: [bookdown]
 ---
 
-Here lists the usage of [`bookdown`](https://bookdown.org/yihui/bookdown/get-started.html) for writing documents.
+[`bookdown`](https://bookdown.org/yihui/bookdown/get-started.html)支持采用`Rmarkdown` (R代码可以运行)或普通`markdown`编写文档，然后编译成`HTML`, `WORD`, `PDF`, `Epub`等格式。样式清新，使用简单，值得拥有。
 
-### Get required information
+### 基本使用
 
-#### Install required software
+#### 安装必须软件
 
 `Rstudio`或`Pandoc`二选一, `bookdown`必须安装。
 
-* Install [`Rstudio (version>1.0.0)`](https://www.rstudio.com/products/rstudio/download/)
+* Install [`Rstudio (version>1.0.0)`](https://www.rstudio.com/products/rstudio/download/) (安装和使用见[Rstudio](http://mp.weixin.qq.com/s/A1QIY8KkZaW1q12la4Uc8w))
 
-* Install [`Pandoc (version>1.17.0.2)`](http://www.pandoc.org)或者参照[here](http://blog.genesino.com//collections/Linux_tips)
+* Install [`Pandoc (version>1.17.0.2)`](http://www.pandoc.org)或者参照[here](http://blog.genesino.com//collections/Linux_tips)。如果系统新，可以直接使用系统自带的`yum`或`apt-get`；如果没有权限或系统比较老，Pandoc的安装可以使用conda，具体配置见[Conda配置](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)，配置好运行`conda install -c conda-forge pandoc`即可安装。
 
 * In R `install.packages("bookdown")`
 
-#### Get a demo example
+#### Demo示例
 
-Clone or download en example from <https://github.com/rstudio/bookdown-demo>.
+克隆或下载<https://github.com/rstudio/bookdown-demo>示例文件，编译成功后，依葫芦画葫芦修改.
 
-#### Build the book
+#### 编译成书
 
-run `bash _build.sh` in the downloaded demo example, then the books will be in `_book` dir.
+运行下载的示例中的`bash _build.sh`，`_book`目录下就是成书.
 
 The content of `_build.sh` is:
 
 ```
 #!/bin/sh
 Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+# 生成pdf需要安装好latex，如果不需要可以注释掉
 Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 ```
+
+<mark>在前面的内容运转起来后，再看后面的内容。</mark>
 
 ### Customize our bookdown
 
@@ -48,7 +51,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 * 每一个章节都必须以`# Chapter title`开头。后面可以跟一段概括性语句，概述本章的内容，方便理解，同时也防止二级标题出现在这一页。默认系统会按照文件名的顺序合并`Rmd`文件。
 * 另外章节的顺序也可在`_bookdown.yml`文件中通过`rmd_files:["file1.Rmd", "file2.Rmd", ..]`指定。
 * 如果有`index.Rmd`，`index.Rmd`总是出现在第一个位置。通常index.Rmd里面也需要有一章节，如果不需要对这一章节编号的话，可以写作`# Preface {-}`, 关键是`{-}`。
-* 在第一个出现的`Rmd`文件中，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等(去掉#及其后的内容)。
+* 在第一个出现的`Rmd`文件中 (通常是`index.Rmd`)，可以定义`Pandoc`相关的`YAML metadata`, 比如标题、作者、日期等 (*去掉#及其后的内容*)。
   
   ~~~~
   ```
@@ -67,7 +70,7 @@ Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
   ```{r setup, include=FALSE}
   knitr::opts_chunk$set(echo = FALSE, fig.align="center", out.width="95%", fig.pos='H')
-  # knitr::opts_chunk$set(cache = FALSE, autodep=TRUE)
+  knitr::opts_chunk$set(cache = FALSE, autodep=TRUE)
   set.seed(0304)
   ```
   ~~~~~~~~~~
@@ -114,6 +117,17 @@ Here is normal text.
 knitr::include_graphics("images/1.png")
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+输出PDF时不支持使用在线图片，可以加一个判断。
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```{r fig-name, fig.cap="Markdown supported string as caption", fig.align="center", echo=FALSE}
+if (!file.exists(cover_file <- 'cover.jpg')){
+  download.file(url,  cover_file,  mode = 'wb')
+}
+knitr::include_graphics(if (identical(knitr:::pandoc_to(),  'html')) url else cover_file)
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ##### 插入并引用表格(外部表格)
 
@@ -318,11 +332,7 @@ bookdown::gitbook:
 
 ### 预览生成的WEB文件
 
-如果没有安装Rstudio，可以在生成的book目录(有`index.html`的目录)下运行`python -m SimpleHTTPServer 11521`(11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
-
-### A template Rmd
-
-Use [bookdown_init_general.py -o test -t '我的文档' -a " 作者1 - 北京;2 - 南京;1521082" -b a.bib](https://github.com/Tong-Chen/NGS/blob/master/bookdown_init_general.py) to generate a minimal template.
+如果没有安装Rstudio，可以在生成的book目录(有`index.html`的目录)下运行`python -m SimpleHTTPServer 11521` (11521为端口号，一般选较大值避免冲突), 然后就可以在浏览器输入网址`http://server-ip:11521`来访问了。
 
 ### References
 
@@ -333,3 +343,4 @@ Use [bookdown_init_general.py -o test -t '我的文档' -a " 作者1 - 北京;2 
 * Multiple output with different configs <https://github.com/yihui/knitr/issues/114://github.com/rstudio/rmarkdown/issues/614>
 * Citation style <http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html>
 * Save markdown <http://stackoverflow.com/questions/19989325/knit-rmd-file-to-md-and-save-the-md-file-one-level-up-with-a-different-name>
+* PDF online pic <http://www.pzhao.org/zh/post/bookdown-tips/>
