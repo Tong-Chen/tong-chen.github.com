@@ -24,7 +24,7 @@ networkD3是基于D3JS的R包交互式绘图工具，用于转换R语言生成�
 
 如果需要用自己的数据，也只需替换数据部分，其它部分都是写好的通用脚本。
 
-![](www.ehbio.com/ehbio_resource/network_train.png)
+![](http://www.ehbio.com/ehbio_resource/network_train.png)
 
 ```r
 #install.packages("networkD3")
@@ -131,5 +131,6 @@ forceNetwork(Links = network, Nodes = attribute,
 * [文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
 
 点击**阅读原文**，了解更多培训信息。
+
 
 
