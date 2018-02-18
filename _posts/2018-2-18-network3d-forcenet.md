@@ -1,5 +1,5 @@
 ---
-title: network3D: 交互式网络生成
+title: network3D 交互式网络生成
 author: ct
 layout: post
 description:
