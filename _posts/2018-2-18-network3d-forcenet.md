@@ -85,7 +85,7 @@ attribute <- read.table(text=attribute, sep=";", header=T, row.names=NULL, quote
 attribute <- attribute[match(factor_list, attribute$name),]
 ```
 
-```{r}
+```
 forceNetwork(Links = network, Nodes = attribute,
              width = 600, height=400,
             Source = "Src", Target = "Target",
@@ -95,7 +95,156 @@ forceNetwork(Links = network, Nodes = attribute,
             bounded = T, opacityNoHover = 1, fontSize = 15)
 ```
 
+桑基图
 
+桑基图（Sankey diagram），即桑基能量分流图，也叫桑基能量平衡图。它是一种特定类型的流程图，图中延伸的分支的宽度对应数据流量的大小，通常应用于能源、材料成分、金融等数据的可视化分析。
+
+也可以视为一种层级网络图，比如展示[上一篇文章中的生物信息课程网络图](http://mp.weixin.qq.com/s/rK5SolI0xGisvBCIcb448A)；也可以展示菌群随时间变化的趋势，如[3分和30分文章差距在哪里](https://mp.weixin.qq.com/s/USyg5hsmaimuEvkpPGx-kQ)文章所示哈扎人肠道菌群的季节变化规律。
+
+下面将用2个例子，展示如何用常见网络图数据绘制桑基图。
+
+*最简单桑基图*
+
+第一列为`上游`，第二列为`下游`，第三列为联通值，值越大线越粗。如果您自己有数据，只需要替换输入部分，后面数据格式转换代码是通用的。
+
+```
+network <- "Src;Target;Value
+Bioinfo;Biology;20
+Bioinfo;Math;20
+Bioinfo;Program;20
+Bioinfo;NGS;20
+Program;Linux;8
+Program;Python;8
+Program;R;6
+NGS;RNAseq;1
+NGS;ChIPseq;1
+NGS;m16Sseq;1
+NGS;Metagenome;1
+NGS;SingeCellSeq;1
+NGS;DNAmethylseq;1
+NGS;lncRNA;1
+NGS;Exomeseq;1
+NGS;TCGA;1
+"
+
+network <- read.table(text=network, sep=";", header=T, row.names=NULL, quote="", comment="")
+
+network <- network[,1:3]
+colnames(network) <- c("Src", "Target", "Value")
+
+# 转换原始数据点为0起始的一系列整数表示
+factor_list <- sort(unique(c(levels(network$Src), levels(network$Target))))
+num_list <- 0:(length(factor_list)-1)
+levels(network$Src) <- num_list[factor_list %in% levels(network$Src)]
+levels(network$Target) <- num_list[factor_list %in% levels(network$Target)]
+
+network$Src <- as.numeric(as.character(network$Src))
+network$Target <- as.numeric(as.character(network$Target))
+
+attribute <- data.frame(name=c(factor_list))
+```
+
+**network**
+
+> Src Target Value
+> 1   1      2    20
+> 2   1      8    20
+> 3   1     11    20
+> 4   1     10    20
+> 5  11      6     8
+> 6  11     12     8
+
+**attribute**
+
+> head(attribute[, 1])
+> [1] 16Sseq       Bioinfo      Biology      ChIPseq      DNAmethylseq
+> [6] Exomeseq
+
+```
+sankeyNetwork(Links = network, Nodes = attribute,
+ Source = "Src", Target = "Target",
+ Value = "Value", NodeID = "name",
+ fontSize= 12, nodeWidth = 30)
+```
+
+![](http://www.ehbio.com/ehbio_resource/Sanky_train1.png)
+
+
+*点线分组桑基图*
+
+网络数据比上一步的桑基图多一列，指示线的属性；再提供一个节点分组信息文件，获得层次更鲜明的桑基图。
+
+只需要修改对应的数据，后面格式转换的代码通用。
+
+```
+network <- "Src;Target;Value;Link_Grp
+Bioinfo;Biology;20;Main
+Bioinfo;Math;20;Main
+Bioinfo;Program;20;Main
+Bioinfo;NGS;20;Main
+Program;Linux;8;Sub
+Program;Python;8;Sub
+Program;R;6;Sub
+NGS;RNAseq;1;Sub
+NGS;ChIPseq;1;Sub
+NGS;16Sseq;1;Sub
+NGS;Metagenome;1;Sub
+NGS;SingeCellSeq;1;Sub
+NGS;DNAmethylseq;1;Sub
+NGS;lncRNA;1;Sub
+NGS;Exomeseq;1;Sub
+NGS;TCGA;1;Sub
+"
+
+
+network <- read.table(text=network, sep=";", header=T, row.names=NULL, quote="", comment="")
+
+network <- network[,1:4]
+colnames(network) <- c("Src", "Target", "Value", "Link_Grp")
+
+factor_list <- sort(unique(c(levels(network$Src), levels(network$Target))))
+num_list <- 0:(length(factor_list)-1)
+levels(network$Src) <- num_list[factor_list %in% levels(network$Src)]
+levels(network$Target) <- num_list[factor_list %in% levels(network$Target)]
+
+network$Src <- as.numeric(as.character(network$Src))
+network$Target <- as.numeric(as.character(network$Target))
+
+# 只需要前两列
+attribute <- "name;group;size
+Bioinfo;Class;4
+Biology;Class;4
+Math;Class;4
+Program;Class;4
+NGS;Class;4
+Linux;On;2
+Python;Off;2
+R;Off;2
+RNAseq;Off;1
+ChIPseq;On;1
+16Sseq;On;1
+Metagenome;On;1
+SingeCellSeq;InPrepare;1
+DNAmethylseq;InPrepare;1
+lncRNA;InPrepare;1
+Exomeseq;InPrepare;1
+TCGA;InPrepare;1"
+
+attribute <- read.table(text=attribute, sep=";", header=T, row.names=NULL, quote="", comment="")
+attribute <- attribute[,1:2]
+colnames(attribute) <- c("name", "group")
+attribute <- attribute[match(factor_list, attribute$name),]
+
+sankeyNetwork(Links = network, Nodes = attribute,
+ Source = "Src", Target = "Target",
+ Value = "Value", NodeID = "name",
+ NodeGroup = "group", LinkGroup = "Link_Grp",
+ fontSize= 14, nodeWidth = 30)
+```
+
+![](http://www.ehbio.com/ehbio_resource/Sanky_train2.png)
+
+桑基图还有类似的称为冲击图 (alluvial diagram)的展示，具体可见[ggalluvial：冲击图展示组间变化、时间序列和复杂多属性alluvial diagram](http://mp.weixin.qq.com/s/dgxgi_3PdjW5g-fOPlAe4Q)。
 
 说到交互式可视化，还有之前推出的：
 
