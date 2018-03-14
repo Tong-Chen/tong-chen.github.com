@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 你该知道的杂志分区和影响因子
+title: 你该知道的杂志分区和影响因子及最新表格下载
 author: CY
 tags: [Study]
 categories: [Study]
@@ -80,19 +80,15 @@ British Medical Journal (BMJ, 20.785, 英国医学杂志)
 
 ### 期刊搜索
 
-[google scholar](https://scholar.google.com/)
+[google scholar](https://scholar.google.com/): 经典，访问见文后的SCI-HUB镜像。
 
-[semantic scholar](https://www.semanticscholar.org/)
+[semantic scholar](https://www.semanticscholar.org/): 一个基于人工智能的学术搜索引擎, 精准性较高。具体使用和描述见[基于人工智能的文献检索，导师查找，更聪明](http://mp.weixin.qq.com/s/ikU0mVyX6BQNgljD1jCrRA)。
 
-一个基于人工智能的学术搜索引擎。精准性较高
+[research gate](https://www.researchgate.net/): 经常在用的。个人经常用它来提醒你关注的科学家或者课题。谁发文章了，会立刻通知你，让你享受被虐的酸爽。
 
-[research gate](https://www.researchgate.net/) 
+[Scopus](https://www.elsevier.com/solutions/scopus): 目前全球规模最大的文摘和引文数据库。包含期刊、丛书、会议录、专利及网页，并且还包括中文文献 。每年评选的高引科学家就是根据这个数据库计算的，它支持*作者检索和分析*功能（涵盖了全球3000多万学者信息，每位作者在Scopus赋予了一个作者编码Author ID）；针对每位作者，统计了其文献信息（总发文量，总被引次数）、h指数、引文概览（可选择排自引，或排共同作者引用）、作者的个人文献输出分析图表（一键生成）。支持*机构检索和分析*功能（涵盖了高校、政府机构、科研机构、企业R&D等等，每个独立机构在Scopus中赋予了一个机构编码Affiliation ID）；针对每个机构，统计了各机构的文献信息（总发文量，总被引次数）、主要作者、各领域发文占比、期刊源、专利信息等等。还支持*交叉检索专利*，涵盖五大专利局（美国专利局、欧洲专利局、日本专利局、世界知识产权组织，英国知识产权局）多达2520万项专利信息。             
 
-经常在用的。个人经常用它来提醒你关注的科学家或者课题。谁发文章了，会立刻通知你，让你享受被虐的酸爽。
-
-[Scopus](https://www.elsevier.com/solutions/scopus)                               
-
-目前全球规模最大的文摘和引文数据库。包含期刊、丛书、会议录、专利及网页，并且还包括中文文献 。每年评选的高引科学家就是根据这个数据库计算的，它支持*作者检索和分析*功能（涵盖了全球3000多万学者信息，每位作者在Scopus赋予了一个作者编码Author ID）；针对每位作者，统计了其文献信息（总发文量，总被引次数）、h指数、引文概览（可选择排自引，或排共同作者引用）、作者的个人文献输出分析图表（一键生成）。支持*机构检索和分析*功能（涵盖了高校、政府机构、科研机构、企业R&D等等，每个独立机构在Scopus中赋予了一个机构编码Affiliation ID）；针对每个机构，统计了各机构的文献信息（总发文量，总被引次数）、主要作者、各领域发文占比、期刊源、专利信息等等。还支持*交叉检索专利*，涵盖五大专利局（美国专利局、欧洲专利局、日本专利局、世界知识产权组织，英国知识产权局）多达2520万项专利信息。             
+前段时间发布的国内引用最高的学者名单分析数据就来自于`Scopus`数据库，进入高引名单学者整体学术水平高，但也不乏投机者；未进入高引名单的学者整体学术水平低，但也有领域的领军人物和学术翘楚。
 
 #### [Clarivate Analytics](https://clarivate.com/)           
 
