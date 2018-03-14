@@ -121,26 +121,23 @@ H指数的计算基于其研究者的论文数量及其论文被引用的次数�
 
 科学研究也需要贯穿奥运体育精神：更快(发文快)、更高(影响高)、更强(实力强)的风格。祝大家科研更上一层楼。
 
-* [CRISPR-CAS9发展历程小记](http://mp.weixin.qq.com/s/brx-i-Bbgp-XYwn5SkQLwA)
-* [一场大病引起的诺贝尔2017年生理学奖角逐](http://mp.weixin.qq.com/s/T9Q6CUCt-wBoUCEwSBZALg)
-* [一篇压根不存在的文献被引用400次？！揭开"  幽灵文献"  的真面目](http://mp.weixin.qq.com/s/OgAhb_UGUp7tZvQARbmLLg)
-* [基于人工智能的文献检索，导师查找，更聪明](http://mp.weixin.qq.com/s/ikU0mVyX6BQNgljD1jCrRA)
-* [GeenMedical：文献查询、筛选、引用排序、相似文献、全文下载、杂志分区、影响因子、结果导出、杂志评述、
-直接投稿，一站服务](http://mp.weixin.qq.com/s/hc8g64aHN7qv8YhVfrsuvQ)
-* [YANDEX搜索，不翻墙稳定使用近谷歌搜索](http://mp.weixin.qq.com/s/fZ2Nm7Wck5mZLiESHcPusA)
-* [Nature我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
-* [SCI-HUB镜像,   SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
+* [SCI-HUB镜像, SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
 * [文章用图的修改和排版 (1)](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
 * [文章用图的修改和排版 (2)](http://mp.weixin.qq.com/s/HTsufk71U3wf14OOWSKEeQ)
-* [简单强大的在线绘图](http://mp.weixin.qq.com/s/Ld2dNcaWR-jIzolHw_tkHA)
 * [简单强大的在线绘图-升级版](http://mp.weixin.qq.com/s/pTHHqxuf0y1MCCCBaZjt9A)
 * [论文图表基本规范](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
+
 * [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
 * [为了速成生物学，一位程序员探索了" 爆款" 基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
 * [TCGA数据库在线使用](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484304&amp;idx=1&amp;sn=6ad44dafdc7613e33e13aac48edb32aa&amp;chksm=ec0dc61adb7a4f0c504f3aeb207132aef479572ea756ce15868cbc57f88e9ea25102752b646a#rd)
 * [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
 * [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
 * [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
+* [CRISPR-CAS9发展历程小记](http://mp.weixin.qq.com/s/brx-i-Bbgp-XYwn5SkQLwA)
+* [一场大病引起的诺贝尔2017年生理学奖角逐](http://mp.weixin.qq.com/s/T9Q6CUCt-wBoUCEwSBZALg)
+* [一篇压根不存在的文献被引用400次？！揭开"  幽灵文献"  的真面目](http://mp.weixin.qq.com/s/OgAhb_UGUp7tZvQARbmLLg)
+* [YANDEX搜索，不翻墙稳定使用近谷歌搜索](http://mp.weixin.qq.com/s/fZ2Nm7Wck5mZLiESHcPusA)
+* [Nature我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
 
