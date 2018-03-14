@@ -38,6 +38,7 @@ tags:
 * [论文图表基本规范](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
+* [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
 
 ### NGS分析工具评估
 
@@ -83,22 +84,23 @@ tags:
 * [YANDEX搜索，不翻墙稳定使用近谷歌搜索](http://mp.weixin.qq.com/s/fZ2Nm7Wck5mZLiESHcPusA)
 * [Nature我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
 * [SCI-HUB镜像,  SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
+* [为了速成生物学，一位程序员探索了"爆款"基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
 
 ### Linux 
 
-* [Linux-总目录](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484606&idx=1&sn=c5f2654e3ede87f534bc352f286a6357&chksm=ec0dc134db7a48228044e720eff4cc39ea2b9258db7d20faafbcae29a47ef7de334678fad35a#rd)
+* [Linux-总目录](http://mp.weixin.qq.com/s/hEYU80fPf1eD5OWL3fO4Bg)
 * [Linux-文件和目录](http://mp.weixin.qq.com/s/yKP1Kboji9N4p2Sl1Ovj0Q)
 * [Linux-文件操作](http://mp.weixin.qq.com/s/4bYMzJclf_xHpqdrlbvAdA)
 * [Linux文件内容操作](http://mp.weixin.qq.com/s/QFgINAYcQA9kYYSA28wK-Q)
-* [Linux-环境变量和可执行属性](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483872&amp;idx=1&amp;sn=7fb7e57b3ff5c06ebaff344370c8b4c8&amp;chksm=ec0dc46adb7a4d7cc125ab3cf8361bf3e3fcf858edca7d7987d52bce3e9e3aa0b7d8f8f2adfa#rd)
-* [Linux - 管道、标准输入输出](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483923&amp;idx=1&amp;sn=eb764e59cfc12b98e3eb4240ac350330&amp;chksm=ec0dc799db7a4e8f9dc3a64760253a554d3241446005040ad721070bafb237f405b173c11ef4#rd)
-* [Linux - 命令运行监测和软件安装](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483954&amp;idx=1&amp;sn=11247591a6ef98a4d25404278d577ed0&amp;chksm=ec0dc7b8db7a4eaeb7ae3fd2fa2fbfa7bfd13f5e90d7a42d405f6f8e8783761de048f7ccbc58#rd)
-* [Linux-常见错误和快捷操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483873&amp;idx=1&amp;sn=6e2b9ddb6ba61c49d834bcfba6703c5c&amp;chksm=ec0dc46bdb7a4d7d6d1232390f6f8843607b37ecca7938d19c20404dff0cf01aebfff77a0cdd#rd)
-* [Linux-文件列太多，很难识别想要的信息在哪列；别焦急，看这里。](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483952&amp;idx=1&amp;sn=5312e0bab13182b118376018cb69674b&amp;chksm=ec0dc7badb7a4eacb5d96d971df6ccd940435b7525962963e625736efd2a413ae76844c3ee48#rd)
-* [Linux-文件排序和FASTA文件操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483823&amp;idx=1&amp;sn=ac62450f0475dc9513e75009f0670f45&amp;chksm=ec0dc425db7a4d3300f547caeaee709425dd0a41c86be18aab44d41619a4d18944289b0deaf8#rd)
-* [用了Docker，妈妈再也不担心我的软件安装了 - 基础篇](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483840&amp;idx=1&amp;sn=f87f6dd703cd8c109f6dc5b8d12ffb7c&amp;chksm=ec0dc44adb7a4d5c9ff2422c730b1d7bb18dcb6947c0e7449f1678aee492c3193302174930b4#rd)
-* [Linux服务器数据定期同步和备份方式](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483950&amp;idx=1&amp;sn=6f4dbc46a064638d7c95b9f99cb1de70&amp;chksm=ec0dc7a4db7a4eb20751dd6567b1c97be7d536671af07707eb57bb1ea7865cbde17a0226a6e0#rd)
-* [不用Linux也可以的强大文本处理方法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484250&amp;idx=1&amp;sn=d4759dc05a55643549646c77318c4f96&amp;chksm=ec0dc6d0db7a4fc64791896914547b5ce818e8bd3cca98f0fb7bf6ebd9029fe6fd08a4d55255#rd)
+* [Linux-环境变量和可执行属性](http://mp.weixin.qq.com/s/poFpNHQgHDr0qr2wqfVNdw)
+* [Linux - 管道、标准输入输出](http://mp.weixin.qq.com/s/zL9Mw_2ig48gHrIjKM0CMw)
+* [Linux - 命令运行监测和软件安装](http://mp.weixin.qq.com/s/TNU7X2mhfVVffaJ7NRBuNA)
+* [Linux-常见错误和快捷操作](http://mp.weixin.qq.com/s/cDIN4_R4nETEB5irmIGFAQ)
+* [Linux-文件列太多，很难识别想要的信息在哪列；别焦急，看这里。](http://mp.weixin.qq.com/s/1QaroFE7AH1pREuq-k2YAw)
+* [Linux-文件排序和FASTA文件操作](http://mp.weixin.qq.com/s/R1OHRhZoDJuAdyVdJr2xHg)
+* [Linux-应用Docker安装软件](http://mp.weixin.qq.com/s/HLHiWMLaWtB7SOJe_jP3mA)
+* [Linux服务器数据定期同步和备份方式](http://mp.weixin.qq.com/s/c2cspK5b4sQScWYMBtG63g)
+* [VIM的强大文本处理方法](https://mp.weixin.qq.com/s/4lUiZ60-aXLilRk9--iQhA)
 * [Linux - Conda软件安装方法](http://mp.weixin.qq.com/s/A4_j8ZbyprMr1TT_wgisQQ)
 * [查看服务器配置信息](http://mp.weixin.qq.com/s/xq0JfkHJJeHQk1acjOAJUQ)
 * [Linux - SED操作，awk的姊妹篇](http://mp.weixin.qq.com/s/cywkIeRbhkYTZvkwTeIVSA)
@@ -173,6 +175,8 @@ tags:
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483843&amp;idx=1&amp;sn=43770d21f6c2da2393c31cd55fdbe31e&amp;chksm=ec0dc449db7a4d5f723842286bf7feab7830eba5d9778d351569810a069e5ace76040f94a6bd#rd)
 * [GO、GSEA富集分析一网打进](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
 * [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
+* [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
+* [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
 
 ### 癌症数据库
 
@@ -198,11 +202,11 @@ tags:
 
 ### NGS软件
 
-* [Rfam 12.0+本地使用 （最新版教程）](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483831&amp;idx=1&amp;sn=718242148bb1cfe03140f4d8c3c3005f&amp;chksm=ec0dc43ddb7a4d2bb6e3c5c9169dbd9883fc4b68d9f68e4931e6b8a709f5265ad0ddeab68e04#rd)
-* [轻松绘制各种Venn图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483853&amp;idx=1&amp;sn=b3350a1c2e2f3ea66f2891d3521a90aa&amp;chksm=ec0dc447db7a4d516eb1255d09ce53cfa1f1dcda9de610193ea900c2f39b882e595d2e0f10e7#rd)
-* [ETE构建、绘制进化树](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483988&amp;idx=1&amp;sn=d87d8f70ee4098a1f8340a753c8cbb56&amp;chksm=ec0dc7dedb7a4ec8da9143e0ef8e8c11d44ad54e7fb145e60f65fa09a431a26ec1971916af06#rd)
-* [psRobot：植物小RNA分析系统](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484159&amp;idx=1&amp;sn=81dc70116b26b363ea2efeb7d6034dff&amp;chksm=ec0dc775db7a4e6330ae462efe39f174257dae34e76fec91715da3b8a09bc694abbab9c3f5c8#rd)
-* [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484235&amp;idx=1&amp;sn=1afa3b9b954e9f8bb99d954a5305681c&amp;chksm=ec0dc6c1db7a4fd7098a872b887f8e077aa2d1fcf101614df050524d945eceda54150ecebc72#rd)
+* [Rfam 12.0+本地使用 （最新版教程）](http://mp.weixin.qq.com/s/5OIRHA22ZLr5Z8bEhDiBqg)
+* [轻松绘制各种Venn图](http://mp.weixin.qq.com/s/zn654JqG9OeO71rJUTDr2Q)
+* [ETE构建、绘制进化树](http://mp.weixin.qq.com/s/DD1nZnx5mYxWGrohNgdPvQ)
+* [psRobot：植物小RNA分析系统](http://mp.weixin.qq.com/s/kWkEQOX-6SKMAUQmAuc86w)
+* [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
 * [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
 
 ### Cytoscape网络图
