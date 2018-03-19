@@ -39,6 +39,8 @@ Linux课程是我们最早应该开的课程，但考虑到两点：
 
 课程开始于2018年**3月24日**，25日到4月1日，三段式培训，2天线下，5天自由练习，再2天线上下同时开始。地点是**北京鼓楼**。费用也是历史最低**2399元**。具体可点击**阅读原文**了解更多。
 
+![](http://www.ehbio.com/Training/Public/images/linux1.png)
+
 距离开课也没有几天了，如果大家能把本文发到朋友圈，来上课时凭现场截图可以获赠**R或Python**的视频课一份。相信您经历过我们的线下课，再看视频，收获会更多。
 
 http://www.ehbio.com/Training/index.php/Home/Index/course_details.html?id=1
