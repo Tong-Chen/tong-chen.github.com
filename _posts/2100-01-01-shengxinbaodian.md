@@ -39,6 +39,7 @@ tags:
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
 * [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
+* [你该知道的杂志分区和影响因子及最新表格下载](https://mp.weixin.qq.com/s/Fv-jTOgH5xD87RRoQtuXhw)
 
 ### NGS分析工具评估
 
@@ -55,8 +56,14 @@ tags:
 * [宏基因组分析教程](http://mp.weixin.qq.com/s/bcyvhFrNr6niqD13rQfZeg)
 * [4500元的微生物组培训资料](http://mp.weixin.qq.com/s/li7SdZVaCEyFQF8h6MMh2A)
 
+### ChIP-seq专题
+
+* [ChIP-seq基本分析流程](http://mp.weixin.qq.com/s/nldZ1_wiCmCtLO3MWJuQ8Q)
+
+
 ### 系列宣传
 
+* [转录组分析的正确姿势](http://mp.weixin.qq.com/s/Kx0gaU2x4pWjBq2I2Ffe6Q)
 * [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
 * [生物信息作图系列R、Cytoscape及图形排版和Python编程培训研讨班开课了](http://mp.weixin.qq.com/s/x-DInL34BbKUR-2UD2Ec3g)
 * [维密摔倒不可怕，关键时有人搀一把，坚持走下去](http://mp.weixin.qq.com/s/4mWms-r5kg8kN7kJ60zZDQ)
@@ -68,6 +75,9 @@ tags:
 * [一个月学会Python的Quora指南和资料放送](http://mp.weixin.qq.com/s/VTVVfpNSGgOJLNxeIqmFiw)
 * [扩增子分析基本流程和结果解读](http://mp.weixin.qq.com/s/cCW7HKjU8IetBgMoiYUeCQ)
 * [微生物组——扩增子分析专题实战开课啦](http://mp.weixin.qq.com/s/y_KFJZlKSCJFmbuvNJQyAw)
+* [如何入门生信Linux](http://mp.weixin.qq.com/s/V7vmnOv9rwKMoHtlPMo5nQ)
+* [3分和30分文章差距在哪里？](https://mp.weixin.qq.com/s/kD-x7K4hI5KMgGXikyLt0Q)
+* [生信必备Linux培训，助您扎好根基](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
 
 ### 生信生物知识
 
@@ -85,6 +95,7 @@ tags:
 * [Nature我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
 * [SCI-HUB镜像,  SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
 * [为了速成生物学，一位程序员探索了"爆款"基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
+* [Nature邀请6位专家为您支招如何写出一流论文？](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
 
 ### Linux 
 
@@ -106,6 +117,7 @@ tags:
 * [Linux - SED操作，awk的姊妹篇](http://mp.weixin.qq.com/s/cywkIeRbhkYTZvkwTeIVSA)
 * [Linux - 常用和不太常用的实用awk命令](http://mp.weixin.qq.com/s/8wD14FXt7fLDo1BjJyT0ew)
 * [Bash概论 - Linux系列教程补充篇](http://mp.weixin.qq.com/s/lWNp_6W_jLiogmtlk9nO2A)
+* [一网打进Linux下那些查找命令](http://mp.weixin.qq.com/s/xWwj04h4W6yEqQLOfuQ8qA)
 
 ### CIRCOS系列
 
@@ -141,6 +153,8 @@ tags:
 * [还在用PCA降维？快学学大牛最爱的t-SNE算法吧, 附Python/R代码](http://mp.weixin.qq.com/s/alBfj3Y08qCnZoz5JwVdaw)
 * [一个函数抓取代谢组学权威数据库HMDB的所有表格数据](http://mp.weixin.qq.com/s/rYjcsfHrbcAhaFpQI5Yc6g)
 * [文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
+* [network3D: 交互式桑基图](http://mp.weixin.qq.com/s/3okqP0viU3EVML9p1bkQlw)
+* [network3D 交互式网络生成](https://mp.weixin.qq.com/s/rK5SolI0xGisvBCIcb448A)
 
 ### 扩增子三步曲
 
@@ -180,9 +194,9 @@ tags:
 
 ### 癌症数据库
 
-* [UCSC XENA - 集大成者(TCGA, ICGC)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484383&amp;idx=1&amp;sn=09c58de206f409fa375fb7af94d0084c&amp;chksm=ec0dc655db7a4f438cb7e53f281cb5c6bf2484619b3c72d7eafe064ea6a342f69587353531af#rd)
-* [ICGC数据库使用](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484378&amp;idx=1&amp;sn=eb6a0f890326898b2fb0867c58f0cf90&amp;chksm=ec0dc650db7a4f46a0a265ec96b73f367d45f86318087507eef7dde117a369cb7ad427bebb1e#rd)
-* [TCGA数据库在线使用](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484304&amp;idx=1&amp;sn=6ad44dafdc7613e33e13aac48edb32aa&amp;chksm=ec0dc61adb7a4f0c504f3aeb207132aef479572ea756ce15868cbc57f88e9ea25102752b646a#rd)
+* [UCSC XENA - 集大成者(TCGA, ICGC)](https://mp.weixin.qq.com/s/we3raL4XowZp4vQ9zPqfYQ)
+* [ICGC数据库使用](http://mp.weixin.qq.com/s/UTlEtyDITPx9ZQOpJFczBw)
+* [TCGA数据库在线使用](https://mp.weixin.qq.com/s/etg52j9F9uvcGY-qEcAvFQ)
 	
 ### Python
 
