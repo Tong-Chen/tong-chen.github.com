@@ -57,3 +57,7 @@ comments: yes
 
 * Pipeline
 	* https://github.com/ENCODE-DCC
+
+* 国内博客
+
+  * <http://www.bioinfo-scrounger.com/>  <gukai1212@163.com>
