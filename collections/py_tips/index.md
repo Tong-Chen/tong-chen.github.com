@@ -66,6 +66,13 @@ layout: page
    [[1, 2, 4, 6], [1, 2, 5, 6], [1, 3, 4, 6], [1, 3, 5, 6]]
    ```
 
+4. Check if system command runs successfully
+
+   ```
+   if os.system(cmd):
+	   print >>sys.stderr, cmd + ' failed'
+	   sys.exit(1)
+   ```
 
 
 
