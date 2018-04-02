@@ -21,6 +21,10 @@ layout: page
   
    `lsof -Pnl +M -i4`
 
+4. 查看端口是否通
+
+   `telnet server_ip 25` (25为端口号)
+
 4. fork: retry: Resource temporarily unavailable
 
    修改最大允许的进程数和打开文件数
@@ -85,7 +89,7 @@ layout: page
 
      Defined in file `/etc/my.conf` with `datadir=/mysql`.
 
-	 ```
+     ```
      # stop mysqld service
      service mysqld stop
 
@@ -117,7 +121,7 @@ layout: page
      
      # start mysqld service
      service mysqld start
-	 ```
+     ```
    
    * Your password does not satisfy the current policy requirements
      
@@ -165,6 +169,7 @@ layout: page
    ```
 
    To pull in the latest changes,  after you’ve done this and there have been changes in the repositories: Visit `each repository` in `pandoc-build` (pandoc-types, texmath, pandoc-citeproc, pandoc, zip-archive, cmark-hs) and do `git pull`. In the pandoc repo,  also do `git submodule update` and `stack install --test --stack-yaml stack.full.yaml`.)
+
 
 7. 添加用户并root权限
 
@@ -237,21 +242,21 @@ layout: page
 
     ```bash
     awk '{for (i=1; i<=NF; i++) printf "%.3f %s", $$i, (i==NF?RS:FS)}' file
-	```
+    ```
 
 14. Mariadb status and stop
 
     ```
-	systemctl status mariadb
-	systemctl stop mariadb
-	```
+    systemctl status mariadb
+    systemctl stop mariadb
+    ```
 
 15. 查看端口使用情况
 
     ```
-	netstat -a | grep '8080'
-	lsof -i:8080
-	```
+    netstat -a | grep '8080'
+    lsof -i:8080
+    ```
 
 16. 给文件夹而非文件增加可执行属性
 
@@ -261,23 +266,23 @@ layout: page
 	In other words, `chmod u+X` on a file won't set the execute bit; and `g+X` will only set it if it's already set for the user.
 
     ```
-	chmod -R u+rwX,g+rwX,go-rwx path
+    chmod -R u+rwX,g+rwX,go-rwx path
 
-	or 
+    or 
 
-	find /path/to/base/dir -type d -exec chmod 755 {} +
-	find /path/to/base/dir -type f -exec chmod 644 {} +
-	chmod 755 $(find /path/to/base/dir -type d)
-	chmod 644 $(find /path/to/base/dir -type f)
-	find /path/to/base/dir -type d -print0 | xargs -0 chmod 755 
-	find /path/to/base/dir -type f -print0 | xargs -0 chmod 644
-	```
+    find /path/to/base/dir -type d -exec chmod 755 {} +
+    find /path/to/base/dir -type f -exec chmod 644 {} +
+    chmod 755 $(find /path/to/base/dir -type d)
+    chmod 644 $(find /path/to/base/dir -type f)
+    find /path/to/base/dir -type d -print0 | xargs -0 chmod 755 
+    find /path/to/base/dir -type f -print0 | xargs -0 chmod 644
+    ```
 
 17. awk中执行系统命令 (注意引号的使用)
 
     ```bash
     awk 'BEGIN{OFS=FS="\t"}{system("mv "$1".fq "$2".fq");}' 1
-	```
+    ```
 
 18. 定义全局函数
 
@@ -298,7 +303,29 @@ layout: page
 	set -u
 
 	abcdefg
+    ```
+
+19. 输出到标准错误
+
+   ```
+   (>&2 echo "I willbe output to STDERR")
+   ```
+
+20. scp 和 rsync 非默认端口
+
+   ```
+   scp -P remote_port_number local remote
+   rsync -av -e 'ssh -p remote_port_number' local remote
+   ```
+
+21. find 使用
+
+    ```
+	find . -name *.log -newer pca/2018-02-10.txt -size +0
 	```
+
+
+
 
 
 
