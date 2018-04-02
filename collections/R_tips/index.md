@@ -49,10 +49,10 @@ layout: page
      Method Definition:
     
      function (object, fxn.x = expMean, fxn.y = logVarDivMean, do.plot = TRUE, 
-    		set.var.genes = TRUE, do.text = TRUE, x.low.cutoff = 0.1, 
-    		x.high.cutoff = 8, y.cutoff = 1, y.high.cutoff = Inf, cex.use = 0.5, 
-    		cex.text.use = 0.5, do.spike = FALSE, pch.use = 16, col.use = "black", 
-    		spike.col.use = "red", plot.both = FALSE)
+            set.var.genes = TRUE, do.text = TRUE, x.low.cutoff = 0.1, 
+            x.high.cutoff = 8, y.cutoff = 1, y.high.cutoff = Inf, cex.use = 0.5, 
+            cex.text.use = 0.5, do.spike = FALSE, pch.use = 16, col.use = "black", 
+            spike.col.use = "red", plot.both = FALSE)
      ```
 2. sapply usage
 
@@ -103,7 +103,7 @@ layout: page
    usePackage <- function(p) {
        if (!is.element(p, installed.packages()[,1]))
            install.packages(p, dep = TRUE)
-    	   require(p, character.only = TRUE)
+           require(p, character.only = TRUE)
    }
    ```
 
@@ -319,15 +319,15 @@ layout: page
     3      a 11.5574241  8
     4      a 57.5316085  6
     5      a 20.2775717  2
-    .	  . .           .
-    .	  . .           .
+    .      . .           .
+    .      . .           .
     21     b 36.8333789 25
     22     b 23.5413342 24
     23     b 41.6235628 26
     24     b 27.5968927 25
     25     b 48.6045175 20
-    .	  . .           .
-    .	  . .           .
+    .      . .           .
+    .      . .           .
     58     c 51.0684425 30
     59     c  4.0294234 27
     60     c 22.6168908 27
@@ -357,7 +357,7 @@ layout: page
     The problem is not in the p-value correction,  but in the (declaration of the) variance assumptions. You have used var.equal=T in your t.test calls and pooled.sd=FALSE in your paired.t.test calls. However,  the argument for paired.t.test is pool.sd,  not pooled.sd. Changing this gives p-values equivalent to the individual calls to t.test
     ```r
     pairwise.t.test(df$freq,  df$class,  p.adjust.method="none" ,  
-    						paired=FALSE,  pool.sd=FALSE)
+                            paired=FALSE,  pool.sd=FALSE)
     ```
 
 12. Several ggplot pic together
@@ -377,13 +377,13 @@ layout: page
 
     library(gridExtra)
     out <- by(data=data_m, INDICES=data_m$type, FUN=function(m) {
-    	m <- droplevels(m)
-    	p <- ggplot(m, aes(x=variable,y=ID)) + xlab(NULL) + 
-    	     labs(title=levels(m$type))  + theme_bw()  + 
-    		 theme(panel.grid.major = element_blank()) + theme(legend.key=element_blank()) + 
-    		 theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + 
-    		 theme(legend.position="right") + geom_tile(aes(fill=value)) + 
-    		 scale_fill_gradient(low = "white", high = "red")
+        m <- droplevels(m)
+        p <- ggplot(m, aes(x=variable,y=ID)) + xlab(NULL) + 
+             labs(title=levels(m$type))  + theme_bw()  + 
+             theme(panel.grid.major = element_blank()) + theme(legend.key=element_blank()) + 
+             theme(axis.text.x=element_text(angle=45,hjust=1, vjust=1)) + 
+             theme(legend.position="right") + geom_tile(aes(fill=value)) + 
+             scale_fill_gradient(low = "white", high = "red")
         }
     )
     do.call(grid.arrange,c(out, ncol=1))
@@ -470,7 +470,7 @@ layout: page
     mat_t <- t(mat)
     mat_t
     > c = merge(sampFile, mat_t, by=0)
-	> #c = merge(sampFile, mat_t, by="row.names")  #Both work
+    > #c = merge(sampFile, mat_t, by="row.names")  #Both work
     > c
       Row.names Grp a b c
     1       A.1   A 1 1 1
@@ -539,7 +539,7 @@ layout: page
     4 4 4 4
     ```
 
-	```r
+    ```r
     > a = matrix(1:20, nrow=4)
     > a
          [,1] [,2] [,3] [,4] [,5]
@@ -614,23 +614,23 @@ layout: page
 
     ```
     colfunc <- colorRampPalette(c("black",  "white"))
-	colfunc(10)
+    colfunc(10)
     [1] "#000000" "#1C1C1C" "#383838" "#555555" "#717171" "#8D8D8D" "#AAAAAA"
     [8] "#C6C6C6" "#E2E2E2" "#FFFFFF"
-	```
+    ```
 
 24. Trace through columns [ref](http://stackoverflow.com/questions/11767167/trying-to-apply-formula-to-each-column-in-r-how-to-feed-data-to-formula)
 
     ```r
     apply(cities, 2, FUN=function(x) HoltWinters(x=x, gamma=FALSE))
     apply(cities, 2, HoltWinters, gamma=FALSE)
-	```
+    ```
 
 25. 从data.frame中取出一列，仍然维持是data.frame
 
     ```r
     data.frame[, 1, drop=F]
-	```
+    ```
 
 30. Batch effects [ref](https://support.bioconductor.org/p/60581/)
 
@@ -678,7 +678,7 @@ layout: page
 31. Transfer number to date
 
     ```r
-	> library(xlsx)
+    > library(xlsx)
     > Days <- read.xlsx2("Y.xlsx", sheetIndex = 1, header=T, stringsAsFactors=F)
     > head(Days)
       SampleID X.Datum.1.BE Date.of.1st.PD Date.of.death.last.follow.up
@@ -698,22 +698,40 @@ layout: page
     4   184_32   2010-04-29     2012-04-15                   2013-10-15
     5   185_38   2010-05-25     2010-09-09                   2011-02-11
     6   186_40   2010-05-26     2010-07-19                   2013-10-16
-	```
+    ```
 
 32. Rstudio set dynamic library and other environment variables
 
     ```r
-	Sys.getenv()
+    Sys.getenv()
     # will list all environmental variables
-	Sys.getenv('LD_LIBRARY_PATH')
-	Sys.setenv(LD_LIBRARY_PATH=paste("/my_lib_dir", Sys.getenv('LD_LIBRARY_PATH'), sep=":"))
-	```
+    Sys.getenv('LD_LIBRARY_PATH')
+    Sys.setenv(LD_LIBRARY_PATH=paste("/my_lib_dir", Sys.getenv('LD_LIBRARY_PATH'), sep=":"))
+    ```
 
 33. maximal number of DLLs reached
 
     ```r
     # /miniconda2/envs/r/lib/R/etc/Renviron
-	R_MAX_NUM_DLLS=1000
+    R_MAX_NUM_DLLS=1000
+    ```
+
+34. Remove one value from vector
+
+    ```
+    a[!a==4]
+    ```
+
+35. Do not transfer numbers to scientific format
+
+    ```
+	options(scigen=999)
+	```
+
+36. Rmarkdown to markdown
+
+    ```
+	rmarkdown::render("05.biotools.Rmd", output_format = "md_document",output_file = "test.md")
 	```
 
 **Reference**
