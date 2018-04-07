@@ -40,6 +40,7 @@ tags:
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
 * [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
 * [你该知道的杂志分区和影响因子及最新表格下载](https://mp.weixin.qq.com/s/Fv-jTOgH5xD87RRoQtuXhw)
+* [你和PPT高手之间，就只差一个iSlide](http://mp.weixin.qq.com/s/gKPs7k5JqFBlYJPv7h_-hA)
 
 ### NGS分析工具评估
 
@@ -78,6 +79,7 @@ tags:
 * [如何入门生信Linux](http://mp.weixin.qq.com/s/V7vmnOv9rwKMoHtlPMo5nQ)
 * [3分和30分文章差距在哪里？](https://mp.weixin.qq.com/s/kD-x7K4hI5KMgGXikyLt0Q)
 * [生信必备Linux培训，助您扎好根基](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
+* [表观调控高通量测序分析培训开课啦](http://mp.weixin.qq.com/s/vE94T2gkwjLFpf3sFE4w2Q)
 
 ### 生信生物知识
 
@@ -214,6 +216,7 @@ tags:
 * [为啥我的Python这么慢 (一)](https://mp.weixin.qq.com/s/n5kkZfC8FGlzeBODarLHcw)
 * [Python资源](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)
 * [关于Python中的__main__和编程模板](http://mp.weixin.qq.com/s/JHDvdqq3Z-7uDmsyroblNQ)
+* [莫烦Python机器学习](https://mp.weixin.qq.com/s/pXiV_cRZD8iu4jLAFMYPew)
 
 ### NGS软件
 
