@@ -5,8 +5,10 @@ layout: post
 categories:
   - R
 tags:
-  - R
+  - 生物信息
   - Bioinfo
+  - 生信资料
+  - 生信培训
 ---
 
 
@@ -41,6 +43,7 @@ tags:
 * [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
 * [你该知道的杂志分区和影响因子及最新表格下载](https://mp.weixin.qq.com/s/Fv-jTOgH5xD87RRoQtuXhw)
 * [你和PPT高手之间，就只差一个iSlide](http://mp.weixin.qq.com/s/gKPs7k5JqFBlYJPv7h_-hA)
+* [史上最全的图表色彩运用原理](https://mp.weixin.qq.com/s/vSVA3lfN1nsig6fv1Xt7xA)
 
 ### NGS分析工具评估
 
@@ -80,6 +83,9 @@ tags:
 * [3分和30分文章差距在哪里？](https://mp.weixin.qq.com/s/kD-x7K4hI5KMgGXikyLt0Q)
 * [生信必备Linux培训，助您扎好根基](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
 * [表观调控高通量测序分析培训开课啦](http://mp.weixin.qq.com/s/vE94T2gkwjLFpf3sFE4w2Q)
+* [让你学了一次还想参加后续课程的实战班是什么样？](https://mp.weixin.qq.com/s/7JPyPOLj8nqqx__J1isZrA)
+* [二代三代转录组测序分析实战班](https://mp.weixin.qq.com/s/Pf8oVwPCDrlaT8KMxWu7xg)
+* [谈谈数次生信线下活动的收获和体会](https://mp.weixin.qq.com/s/u8AmzvO0-PIS33ficKOrUQ)
 
 ### 生信生物知识
 
@@ -98,6 +104,7 @@ tags:
 * [SCI-HUB镜像,  SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
 * [为了速成生物学，一位程序员探索了"爆款"基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
 * [Nature邀请6位专家为您支招如何写出一流论文？](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
+* [Cell：荧光标记out了，AI不用“侵入”也能识别细胞死活和类型](https://mp.weixin.qq.com/s/gwVmKE4STwTxoWkJjHCu6w)
 
 ### Linux 
 
@@ -130,6 +137,7 @@ tags:
 
 ### R统计和作图
 
+* [WGCNA分析，简单全面的最新教程](https://mp.weixin.qq.com/s/PMb2xwADvnMwaipyFXdtzQ)
 * [在R中赞扬下努力工作的你，奖励一份CheatShet](http://mp.weixin.qq.com/s/x3tWrQPriLRFXO8ZaD93EQ)
 * [别人的电子书，你的电子书，都在bookdown](http://mp.weixin.qq.com/s/u8WfC4xQ562Uekhs4WVBoQ)
 * [R语言 - 入门环境Rstudio](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483882&amp;idx=1&amp;sn=e16903b4b745a1ef51855be3824149f6&amp;chksm=ec0dc460db7a4d76a70bd4ca2d250f147225252ee963d3e577affaebeeb81dea1ff639d5e9aa#rd)
@@ -194,6 +202,7 @@ tags:
 * [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
 * [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
 * [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
+* [Bedtools使用简介](https://mp.weixin.qq.com/s/bIXom5bSDov-4sPqsTRc6A)
 
 ### 癌症数据库
 
@@ -247,6 +256,7 @@ tags:
 * [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s/0Yvhn5Tlb-zvOXM0cU16Zg)
 * [生信宝典之傻瓜式 (四) 蛋白蛋白互作网络在线搜索](http://mp.weixin.qq.com/s/JO1J66BtzuY-9a20x0XQcg)
 * [生信宝典之傻瓜式 (五) 文献挖掘查找指定基因调控网络](http://mp.weixin.qq.com/s/DQ4fjCL777D2iEcPTnd-rA)
+* [生信宝典之傻瓜式(六)查找转录因子的靶基因](https://mp.weixin.qq.com/s/1LNae0pG0w_Q-rRxhI96Pg)
 
 ### 生信人写程序
 
@@ -257,9 +267,14 @@ tags:
 
 * [参考文献中杂志名字格式混乱问题一次解决](http://mp.weixin.qq.com/s/Diwevx-TVe0Vq_rdgzIkrw)
 
+### 永久链接
+
+* [http://blog.genesino.com/](http://blog.genesino.com/)
+
 ### 招聘
 
 * [易汉博欢迎您加入](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484036&amp;idx=5&amp;sn=bb1007d2c3d60e7a2bcf2d6fc7a9a2bb&amp;chksm=ec0dc70edb7a4e185bafd0f49440bf1a032915c7e8d8fc2cb37c70a81ce3446a4ae990df89a5#rd)
+
 
 
 ## 联系我们
