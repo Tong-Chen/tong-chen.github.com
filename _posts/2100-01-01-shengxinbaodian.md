@@ -44,8 +44,8 @@ tags:
 
 ### NGS分析工具评估
 
-* [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=1&sn=687a0def51f6ea91a335754eb3dc9ca9&chksm=ec0dc740db7a4e564e5b1e93a36e5d9447581e262eec9c2983d1d4e76788d673c9c07dec8f8e#rd)
-* [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247484106&idx=2&sn=a09fa127d625c4072ae0343795346c56&chksm=ec0dc740db7a4e56821f32f60700027c85db46e81089721d1bbe23ceefa86160d9661c2f2d4c#rd)
+* [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s/NUEi6oRFL7B3f1FpCD4Xug)
+* [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s/xAaj-d5LRRj0SSMFJ7Yo9Q)
 * [无参转录组分析工具评估和流程展示](http://mp.weixin.qq.com/s/4HANWJY4oL7jGziroHfEpQ)
 
 ### 宏基因组教程
