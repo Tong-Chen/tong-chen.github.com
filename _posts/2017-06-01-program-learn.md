@@ -1,12 +1,14 @@
 ---
-title: 生信宝典文章集锦
+title: 生物信息之程序学习
 author: ct
 layout: post
 categories:
-  - R
+  - Program
 tags:
   - R
+  - Python
   - Bioinfo
+  - 生物信息
 ---
 
 作为本科学生物，后来转行生物信息的人，经常会被人问起，为啥学习生物信息了呢？这背后通常会带着一些困惑，生物信息分析好不好学？
