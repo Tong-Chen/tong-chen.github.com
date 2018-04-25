@@ -54,6 +54,8 @@ tags:
 
 ![](http://www.ehbio.com/ehbio_resource/RA2010_2.jpg)
 
+![](http://www.ehbio.com/ehbio_resource/RA2010_3.jpg)
+
 当然关于cMyc的研究却没结束，2012年有一篇cell，发现cMyc可以引起肿瘤细胞中**整体**转录水平升高。(**注意**：cMyc肿瘤中绝大部分活性基因的增量表达，做肿瘤转录组时，严格一些记得要加**spike-in**，不然相对定量就容易把差异抹去了)
 
 还是2010年，发现Mediator和cohesin可以通过介导染色体结构调节基因表达。**Mediator**很关键，也是后面发现超级增强子的一个功臣。
