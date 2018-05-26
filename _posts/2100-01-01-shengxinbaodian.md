@@ -30,7 +30,7 @@ tags:
 * [如何优雅的提问](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483955&amp;idx=1&amp;sn=946438376f94af6e8861b2b42701914e&amp;chksm=ec0dc7b9db7a4eafbef28fac1fb260f6f876f0ba674828784ac827dd23f9317f5a2d59d38bc0#rd)
 * [生信宝典视频教程](http://mp.weixin.qq.com/s/C4EBufEtFF6bhBKrH8NXng)
 * [好色之旅-画图三字经](https://mp.weixin.qq.com/s/bsvB1k17Izom2ldgdwXrdg)
-* [转录组分析的正确姿势](http://mp.weixin.qq.com/s/Kx0gaU2x4pWjBq2I2Ffe6Q)
+* [转录组分析的正确姿势](https://mp.weixin.qq.com/s/h3wEMUoRNKMFVLDLDFXNoA)
 * [生信的系列教程](https://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg)
 * [生信的系列书籍](http://mp.weixin.qq.com/s/IiehgNu3JGVTDa079ll1SQ)
 * [文章用图的修改和排版 (1)](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
@@ -50,6 +50,9 @@ tags:
 * [39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s/NUEi6oRFL7B3f1FpCD4Xug)
 * [39个转录组分析工具，120种组合评估(转录组分析工具大比拼 （完整翻译版）)](http://mp.weixin.qq.com/s/xAaj-d5LRRj0SSMFJ7Yo9Q)
 * [无参转录组分析工具评估和流程展示](http://mp.weixin.qq.com/s/4HANWJY4oL7jGziroHfEpQ)
+* [120分的转录组试题 （第一份答案）](https://mp.weixin.qq.com/s/lsaubsJofGRbCVnrhmTygw)
+* [120分的转录组试题（第二份答案）](https://mp.weixin.qq.com/s/Vh2c-JegoaMr0Ws2gDuFhA)
+* [120分的转录组试题（第三份答案）](https://mp.weixin.qq.com/s/BadU3ZVPAlxBn0_QehVnXQ)
 
 ### 宏基因组教程
 
@@ -59,11 +62,12 @@ tags:
 * [扩增子统计绘图-冲击高分文章](http://mp.weixin.qq.com/s/6tNePiaDsPPzEBZjiCXIRg)
 * [宏基因组分析教程](http://mp.weixin.qq.com/s/bcyvhFrNr6niqD13rQfZeg)
 * [4500元的微生物组培训资料](http://mp.weixin.qq.com/s/li7SdZVaCEyFQF8h6MMh2A)
+* [宏基因组分析教程合集](https://mp.weixin.qq.com/s/nzpU3JzxGE23FotB3sxcmw)
 
 ### ChIP-seq专题
 
 * [ChIP-seq基本分析流程](http://mp.weixin.qq.com/s/nldZ1_wiCmCtLO3MWJuQ8Q)
-
+* [从Richard Young教授的系列研究看超级增强子发现背后的故事 (附超级增强子鉴定代码)](https://mp.weixin.qq.com/s/2wSNDuz9CtC1ym1QvWHcPg)
 
 ### 系列宣传
 
@@ -86,10 +90,15 @@ tags:
 * [让你学了一次还想参加后续课程的实战班是什么样？](https://mp.weixin.qq.com/s/7JPyPOLj8nqqx__J1isZrA)
 * [二代三代转录组测序分析实战班](https://mp.weixin.qq.com/s/Pf8oVwPCDrlaT8KMxWu7xg)
 * [谈谈数次生信线下活动的收获和体会](https://mp.weixin.qq.com/s/u8AmzvO0-PIS33ficKOrUQ)
+* [转录组课程以旧换新](https://mp.weixin.qq.com/s/dinHYC3gJkoFkUoLGaJ5vw)
+* [4天你也可以自己处理二代三代转录组测序数据 （可只报名二代或三代）](https://mp.weixin.qq.com/s/AOeGnfuEbsPMWFeej66gqw)
 
 ### 生信生物知识
 
 * [生物研究中不可缺少的数字概念，多少，多大，多快](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
+* [测序发展史：150年的风雨历程](https://mp.weixin.qq.com/s/GReWY8yq7O_xVnajknrHZQ)
+* [生信宝典一周年福利第一波 - 电子书赠送](https://mp.weixin.qq.com/s/l-Zr4w2dd-lxw0iw1GyNiw)
+* [生信宝典一周年福利第二波 - 视频五折](https://mp.weixin.qq.com/s/9yJQL8C_zsRa_RcBZn76NQ)
 
 ### 文献精读
 
@@ -105,6 +114,7 @@ tags:
 * [为了速成生物学，一位程序员探索了"爆款"基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
 * [Nature邀请6位专家为您支招如何写出一流论文？](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
 * [Cell：荧光标记out了，AI不用“侵入”也能识别细胞死活和类型](https://mp.weixin.qq.com/s/gwVmKE4STwTxoWkJjHCu6w)
+* [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
 
 ### Linux 
 
@@ -226,6 +236,7 @@ tags:
 * [Python资源](http://mp.weixin.qq.com/s/1JlAROpOCBwaG574EwvkVw)
 * [关于Python中的__main__和编程模板](http://mp.weixin.qq.com/s/JHDvdqq3Z-7uDmsyroblNQ)
 * [莫烦Python机器学习](https://mp.weixin.qq.com/s/pXiV_cRZD8iu4jLAFMYPew)
+* [编程新手入门踩过的25个“坑”，你犯过其中哪些错误？](https://mp.weixin.qq.com/s/C19yj-p67FsDDe2LvApdHQ)
 
 ### NGS软件
 
