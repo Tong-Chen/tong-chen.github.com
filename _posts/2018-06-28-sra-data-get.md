@@ -9,7 +9,9 @@ tags:
   - Bioinfo
 ---
 
-生物或医学中涉及高通量测序的论文，一般会将原始测序数据上传到公开的数据库，上传方式见[测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)；并在文章末尾标明数据存储位置和登录号,如 *The data from this study was deposited in NCBI Sequence Read Archive under accession SRA: SRP114962.*。NCBI的SRA (Sequence Read Archive) 数据库(http://www.ncbi.nlm.nih.gov/sra/) 是最常用的存储测序数据的数据库。目前SRA数据的组织方式分为下面4个层次：
+生物或医学中涉及高通量测序的论文，一般会将原始测序数据上传到公开的数据库，上传方式见[测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)；并在文章末尾标明数据存储位置和登录号,如 *The data from this study was deposited in NCBI Sequence Read Archive under accession SRA: SRP114962.*。
+
+NCBI的SRA (Sequence Read Archive) 数据库(http://www.ncbi.nlm.nih.gov/sra/) 是最常用的存储测序数据的数据库。目前SRA数据的组织方式分为下面4个层次：
 
 1. Studies--研究课题；
 2. Experiments--实验设计；
@@ -17,11 +19,11 @@ tags:
 4. Samples--样品信息。
 
 
-进入SRA官网：https://www.ncbi.nlm.nih.gov/sra, Search框中输入SRA编号（SRP114962），获得如下图的界面：
+进入SRA官网：https://www.ncbi.nlm.nih.gov/sra, Search框中输入SRA编号（`SRP114962`），获得如下图的界面：
 
 ![](http://www.ehbio.com/ehbio_resource/SRP114962.png)
 
-点击一个样品进入，即可查看其详细信息。
+点击第一个样品即可查看其详细信息。
 
 ![](http://www.ehbio.com/ehbio_resource/SRR5906250.png)
 
