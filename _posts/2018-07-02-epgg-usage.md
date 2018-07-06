@@ -79,7 +79,7 @@ EPGG支持的物种有人、小鼠、大鼠、猴子、猪、狗、猩猩、鸡�
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_file_upload.png)
 
-Track多了，分组就是问题。epgg提供右侧的*Metadata colormap*，用不同的颜色块区分样品和测序类型等，鼠标悬浮会有文字提示，是很方便的功能。
+Track多了，分组就是问题。EPGG提供右侧的*Metadata colormap*，用不同的颜色块区分样品和测序类型等，鼠标悬浮会有文字提示，是很方便的功能。
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_metadata.png)
 
@@ -103,7 +103,7 @@ EPGG还提供了很多实用的分析功能，如下图：
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_splitpanel.png)
 
-只展示基因区，移除间区，更方便浏览。
+只展示基因区，移除基因间区，更方便浏览。
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_juxtaposition.png)
 
@@ -111,7 +111,7 @@ EPGG还提供了很多实用的分析功能，如下图：
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_genomesnapshot.png)
 
-同源基因、同源区域展示
+同源基因、同源区域展示，两物种共线性基因组联动。
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_ortholog.png)
 
@@ -123,7 +123,7 @@ TSS上下游区域H3K4me1, H3K27me3等修饰或TF结合图谱绘制
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_geneplot.png)
 
-Roadmap数据专用展示
+Roadmap数据专用展示。
 
 ![](http://www.ehbio.com/ehbio_resource/epgg_roadmap.png)
 
