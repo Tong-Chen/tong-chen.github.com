@@ -1,5 +1,5 @@
 ---
-title: ÉúÎïAI²åÍ¼Ãâ·ÑÁìÈ¡
+title: ç”Ÿç‰©AIæ’å›¾å…è´¹é¢†å–
 author: ct
 layout: post
 categories:
@@ -10,43 +10,43 @@ tags:
 ---
 
 
-ÈË¿¿ÒÂ×°£¬·ð¿¿½ð×°£¬¿ÆÑÐ³É¹û¿¿Í¼×°¡£Èç½ñ×ö¿ÆÑÐ²»½öÖ»ÐèÒª»á×öÊµÑé£¬ÈçºÎ½«³É¹ûÃÀÃÀµØÕ¹Ê¾³öÀ´Ò²ÊÇÒ»ÃÅÐèÒªÅàÑøµÄ¼¼ÄÜ¡£¿ÆÑÐº£±¨¡¢ÏîÄ¿PPT¡¢ÂÛÎÄ²åÍ¼¡¢Í¨Â·Í¼¡­¡­ÕâÐ©Ö±½Ó´Ì¼¤ÈË¸Ð¹ÙµÄÕ¹Ê¾¶¼¿ÉÒÔ°ïÖúÉý»ªÎÒÃÇµÄ¿ÆÑÐÄÚÈÝ¡£
+äººé è¡£è£…ï¼Œä½›é é‡‘è£…ï¼Œç§‘ç ”æˆæžœé å›¾è£…ã€‚å¦‚ä»Šåšç§‘ç ”ä¸ä»…åªéœ€è¦ä¼šåšå®žéªŒï¼Œå¦‚ä½•å°†æˆæžœç¾Žç¾Žåœ°å±•ç¤ºå‡ºæ¥ä¹Ÿæ˜¯ä¸€é—¨éœ€è¦åŸ¹å…»çš„æŠ€èƒ½ã€‚ç§‘ç ”æµ·æŠ¥ã€é¡¹ç›®PPTã€è®ºæ–‡æ’å›¾ã€é€šè·¯å›¾â€¦â€¦è¿™äº›ç›´æŽ¥åˆºæ¿€äººæ„Ÿå®˜çš„å±•ç¤ºéƒ½å¯ä»¥å¸®åŠ©å‡åŽæˆ‘ä»¬çš„ç§‘ç ”å†…å®¹ã€‚
 
-Ö®Ç°ÎÒÃÇ½éÉÜ¹ýÈçºÎÓÃAdobe Illustrator¶ÔÍ¼ÐÎ½øÐÐ±à¼­¡¢Æ´ºÏ¡¢ÅÅ°æ¡¢¼òµ¥Ä£Ê½Í¼»æÖÆ£¬²¢Â¼ÖÆÁËÊÓÆµ£¬·ÅÔÚÁËÌÚÑ¶¿ÎÌÃ£¬http://bioinfo.ke.qq.com£¬¿ÉÃâ·Ñ¹Û¿´¡£
+ä¹‹å‰æˆ‘ä»¬ä»‹ç»è¿‡å¦‚ä½•ç”¨Adobe Illustratorå¯¹å›¾å½¢è¿›è¡Œç¼–è¾‘ã€æ‹¼åˆã€æŽ’ç‰ˆã€ç®€å•æ¨¡å¼å›¾ç»˜åˆ¶ï¼Œå¹¶å½•åˆ¶äº†è§†é¢‘ï¼Œæ”¾åœ¨äº†è…¾è®¯è¯¾å ‚ï¼Œhttp://bioinfo.ke.qq.comï¼Œå¯å…è´¹è§‚çœ‹ã€‚
 
-ÆäËüÏà¹ØÍÆÎÄÈçÏÂ£º
+å…¶å®ƒç›¸å…³æŽ¨æ–‡å¦‚ä¸‹ï¼š
 
-* [ÎÄÕÂÓÃÍ¼µÄÐÞ¸ÄºÍÅÅ°æ (1)](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
-* [ÎÄÕÂÓÃÍ¼µÄÐÞ¸ÄºÍÅÅ°æ (2)](http://mp.weixin.qq.com/s/HTsufk71U3wf14OOWSKEeQ)
-* [¸ßÑÕÖµ¼òµ¥Ç¿´óµÄÃâ·ÑÔÚÏß»æÍ¼-Éý¼¶°æ](http://mp.weixin.qq.com/s/pTHHqxuf0y1MCCCBaZjt9A)
-* [ÂÛÎÄÍ¼±í»ù±¾¹æ·¶](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
-* [Ñ§ÊõÍ¼±íµÄ»ù±¾ÅäÉ«·½·¨](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
+* [æ–‡ç« ç”¨å›¾çš„ä¿®æ”¹å’ŒæŽ’ç‰ˆ (1)](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
+* [æ–‡ç« ç”¨å›¾çš„ä¿®æ”¹å’ŒæŽ’ç‰ˆ (2)](http://mp.weixin.qq.com/s/HTsufk71U3wf14OOWSKEeQ)
+* [é«˜é¢œå€¼ç®€å•å¼ºå¤§çš„å…è´¹åœ¨çº¿ç»˜å›¾-å‡çº§ç‰ˆ](http://mp.weixin.qq.com/s/pTHHqxuf0y1MCCCBaZjt9A)
+* [è®ºæ–‡å›¾è¡¨åŸºæœ¬è§„èŒƒ](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
+* [å­¦æœ¯å›¾è¡¨çš„åŸºæœ¬é…è‰²æ–¹æ³•](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 
-´¿ÊÖ¹¤´ÓÁã´òÔìÍ¨Â·Í¼¡¢Ä£Ê½Í¼»¹ÊÇÓÐÐ©ÄÑ¶È¡£Èç¹ûÄÜÓÐÒ»Ð©**ÏÖ³ÉÃâ·ÑµÄÄ£°å**¿É¹©Ê¹ÓÃ£¬×öÆðÀ´»áÊÂ°ë¹¦±¶¡£
+çº¯æ‰‹å·¥ä»Žé›¶æ‰“é€ é€šè·¯å›¾ã€æ¨¡å¼å›¾è¿˜æ˜¯æœ‰äº›éš¾åº¦ã€‚å¦‚æžœèƒ½æœ‰ä¸€äº›**çŽ°æˆå…è´¹çš„æ¨¡æ¿**å¯ä¾›ä½¿ç”¨ï¼Œåšèµ·æ¥ä¼šäº‹åŠåŠŸå€ã€‚
 
-½ñÌìÎª´ó¼ÒÍÆ¼öµÄÈý¸öÍøÕ¾°üº¬ÁËÉúÎïÁìÓò¸÷ÀàÐÍµÄÍ¼Æ¬£¬´ó²¿·ÖËØ²Ä¶¼¿ÉÒÔÃâ·ÑÏÂÔØ£¬ÖÖÀà¶à£¬Ö§³ÖPNG¡¢SVG¡¢PSD¡¢AIµÈ¶àÖÖ¸ñÊ½£¬ÊÊºÏÉúÎï¡¢Ò½Ñ§ÁìÓòµÄÅóÓÑÊ¹ÓÃ¡£
+ä»Šå¤©ä¸ºå¤§å®¶æŽ¨èçš„ä¸‰ä¸ªç½‘ç«™åŒ…å«äº†ç”Ÿç‰©é¢†åŸŸå„ç±»åž‹çš„å›¾ç‰‡ï¼Œå¤§éƒ¨åˆ†ç´ æéƒ½å¯ä»¥å…è´¹ä¸‹è½½ï¼Œç§ç±»å¤šï¼Œæ”¯æŒPNGã€SVGã€PSDã€AIç­‰å¤šç§æ ¼å¼ï¼Œé€‚åˆç”Ÿç‰©ã€åŒ»å­¦é¢†åŸŸçš„æœ‹å‹ä½¿ç”¨ã€‚
 
-ÏÖÔÚÎÒÃÇ¾ÍÀ´¼òµ¥ä¯ÀÀÒ»ÏÂ£¬ÔÚÕâÀïÕÒµ½×öÍ¼Áé¸Ð¡£
+çŽ°åœ¨æˆ‘ä»¬å°±æ¥ç®€å•æµè§ˆä¸€ä¸‹ï¼Œåœ¨è¿™é‡Œæ‰¾åˆ°åšå›¾çµæ„Ÿã€‚
 
-## ¶àÁìÓòËØ²ÄÍøÕ¾ Vecteezy & Freepik  
+## å¤šé¢†åŸŸç´ æç½‘ç«™ Vecteezy & Freepik  
 
-Vecteezy£º<https://www.vecteezy.com/>
+Vecteezyï¼š<https://www.vecteezy.com/>
 
-Freepik£º<http://www.freepik.com/>
+Freepikï¼š<http://www.freepik.com/>
 
-**½éÉÜ£º**
+**ä»‹ç»ï¼š**
 
-Èç¹ûÄãÐèÒªÖÆ×÷ÊµÑéÄ£Ê½Í¼¡¢Ò½Ñ§Ä£Ê½Í¼¡¢Í¨Â·Í¼£¬»òÕßÊµÑéÊÒÍøÒ³¡¢Êý¾Ý¿â½¨Éè (*ÎÒÃÇÒ²³Ð½ÓÊý¾Ý¿âºÍÍøÕ¾½¨Éè*)£¬»òÕßÊÇÉè¼ÆÒ»Ð©×¨Ìâ½²×ùº£±¨£¬²»·ÁÉÏÕâÁ½¸öÍøÕ¾ÕÒÕÒËØ²Ä£¬ÈÃÄã»ñµÃ¸ü¶àÁé¸Ð¡£VecteezyºÍFreepik ÍøÕ¾ÏÂÔØËØ²ÄµÄ·½Ê½´óÍ¬Ð¡Òì£¬ÎÒÃÇÒÔVecteezyÎªÀý£¬Õ¹Ê¾Ñ¡ÔñËØ²Ä¼°ÆäÏÂÔØ·½Ê½¡£
+å¦‚æžœä½ éœ€è¦åˆ¶ä½œå®žéªŒæ¨¡å¼å›¾ã€åŒ»å­¦æ¨¡å¼å›¾ã€é€šè·¯å›¾ï¼Œæˆ–è€…å®žéªŒå®¤ç½‘é¡µã€æ•°æ®åº“å»ºè®¾ (*æˆ‘ä»¬ä¹Ÿæ‰¿æŽ¥æ•°æ®åº“å’Œç½‘ç«™å»ºè®¾*)ï¼Œæˆ–è€…æ˜¯è®¾è®¡ä¸€äº›ä¸“é¢˜è®²åº§æµ·æŠ¥ï¼Œä¸å¦¨ä¸Šè¿™ä¸¤ä¸ªç½‘ç«™æ‰¾æ‰¾ç´ æï¼Œè®©ä½ èŽ·å¾—æ›´å¤šçµæ„Ÿã€‚Vecteezyå’ŒFreepik ç½‘ç«™ä¸‹è½½ç´ æçš„æ–¹å¼å¤§åŒå°å¼‚ï¼Œæˆ‘ä»¬ä»¥Vecteezyä¸ºä¾‹ï¼Œå±•ç¤ºé€‰æ‹©ç´ æåŠå…¶ä¸‹è½½æ–¹å¼ã€‚
 
-VecteezyÊ×Ò³Í¼Õ¹Ê¾¡£
+Vecteezyé¦–é¡µå›¾å±•ç¤ºã€‚
 
-![VecteezyÊ×Ò³](http://www.ehbio.com/ehbio_resource/Vecteezy_1.png)
+![Vecteezyé¦–é¡µ](http://www.ehbio.com/ehbio_resource/Vecteezy_1.png)
 
-½øÈëVecteezyÍøÕ¾ºó£¬ÊäÈë**Biology**¡££¨µ±È»ÄãÒ²¿ÉÒÔËÑË÷ÆäËüÐèÒªµÄÍ¼Æ¬£©
+è¿›å…¥Vecteezyç½‘ç«™åŽï¼Œè¾“å…¥**Biology**ã€‚ï¼ˆå½“ç„¶ä½ ä¹Ÿå¯ä»¥æœç´¢å…¶å®ƒéœ€è¦çš„å›¾ç‰‡ï¼‰
 
-![VecteezyÊ×Ò³](http://www.ehbio.com/ehbio_resource/skills12.png)
+![Vecteezyé¦–é¡µ](http://www.ehbio.com/ehbio_resource/skills12.png)
 
-Äã»á·¢ÏÖ²¢²»ÊÇËùÓÐµÄÍ¼Æ¬¶¼ÊÇÃâ·ÑµÄ£¬ÎÒÃÇ¿ÉÒÔÔÚ×ó±ßÑ¡¿òLicense TypeÀïÑ¡Ôñ`Standard`ºÍ`Creative Commons`£¬É¸Ñ¡³öÃâ·ÑËØ²Ä¡£Óöµ½ºÃµÄ£¬³öÇ®¹ºÂòÏÂÒ²ÊÇ²»´íµÄÑ¡Ôñ£¬»áÊ¡ºÜ¶àÊ±¼äÄØ¡£
+ä½ ä¼šå‘çŽ°å¹¶ä¸æ˜¯æ‰€æœ‰çš„å›¾ç‰‡éƒ½æ˜¯å…è´¹çš„ï¼Œæˆ‘ä»¬å¯ä»¥åœ¨å·¦è¾¹é€‰æ¡†License Typeé‡Œé€‰æ‹©`Standard`å’Œ`Creative Commons`ï¼Œç­›é€‰å‡ºå…è´¹ç´ æã€‚é‡åˆ°å¥½çš„ï¼Œå‡ºé’±è´­ä¹°ä¸‹ä¹Ÿæ˜¯ä¸é”™çš„é€‰æ‹©ï¼Œä¼šçœå¾ˆå¤šæ—¶é—´å‘¢ã€‚
 
 ![Vecteezy](http://www.ehbio.com/ehbio_resource/vecteezy_biology1.png)
 
@@ -56,27 +56,27 @@ VecteezyÊ×Ò³Í¼Õ¹Ê¾¡£
 
 ![Vecteezy](http://www.ehbio.com/ehbio_resource/vecteezy_biology4.png)
 
-Ëæ±ãÑ¡ÔñÒ»ÕÅÏëÒªµÄËØ²Ä£¬µã»÷Free Download¡£
+éšä¾¿é€‰æ‹©ä¸€å¼ æƒ³è¦çš„ç´ æï¼Œç‚¹å‡»Free Downloadã€‚
 
 ![Vecteezy](http://www.ehbio.com/ehbio_resource/skills14.png)
 
-È»ºóÑ¡ÔñStandard License¼´¿É»ñµÃÍ¼Æ¬¡£
+ç„¶åŽé€‰æ‹©Standard Licenseå³å¯èŽ·å¾—å›¾ç‰‡ã€‚
 
 ![Vecteezy](http://www.ehbio.com/ehbio_resource/skills15.png)
 
-## Í¨Â·Êý¾Ý¿âReactome
+## é€šè·¯æ•°æ®åº“Reactome
 
-ReactomeÊÇÒ»¸ö¿ªÔ´µÄÉúÎïÍ¨Â·Êý¾Ý¿â (<http://www.reactome.org/>)£¬Ãâ·Ñ£¬¸üÐÂ¼°Ê±£¬¹¦ÄÜÇ¿´ó£¬Õâ¸öËæºó»á×¨³Ì½éÉÜ¡£
-
-
-ÓëÎÒÃÇÊìÖªµÄÆäËüÊý¾Ý¿âÈçKEGGÏà±È£¬ReactomeÍÅ¶ÓÖÂÁ¦ÓÚÒ»ÖÖÐÂÓ±µÄÕ¹ÏÖÐÎÊ½£¬Éè¼ÆÁËÉúÎïÁìÓò¸÷ÀàÄ£ÐÍÍ¼£¬²»½öÃÀ¹Û£¬¶øÇÒ**×¨Òµ**£¬¸»ÓÐÁ¢Ìå¸Ð¡£
+Reactomeæ˜¯ä¸€ä¸ªå¼€æºçš„ç”Ÿç‰©é€šè·¯æ•°æ®åº“ (<http://www.reactome.org/>)ï¼Œå…è´¹ï¼Œæ›´æ–°åŠæ—¶ï¼ŒåŠŸèƒ½å¼ºå¤§ï¼Œè¿™ä¸ªéšåŽä¼šä¸“ç¨‹ä»‹ç»ã€‚
 
 
-½øÈëÍøÕ¾Ê×Ò³£¬¿ÉÏÈÔ¤ÀÀ×îÉÏÃæÍøÕ¾µ¼º½µÄ¸÷¸ö¹¤¾ß°´Å¥£¬ÁË½âÒ»ÏÂ±¾Êý¾Ý¿âµÄ¿ò¼Ü¡£
+ä¸Žæˆ‘ä»¬ç†ŸçŸ¥çš„å…¶å®ƒæ•°æ®åº“å¦‚KEGGç›¸æ¯”ï¼ŒReactomeå›¢é˜Ÿè‡´åŠ›äºŽä¸€ç§æ–°é¢–çš„å±•çŽ°å½¢å¼ï¼Œè®¾è®¡äº†ç”Ÿç‰©é¢†åŸŸå„ç±»æ¨¡åž‹å›¾ï¼Œä¸ä»…ç¾Žè§‚ï¼Œè€Œä¸”**ä¸“ä¸š**ï¼Œå¯Œæœ‰ç«‹ä½“æ„Ÿã€‚
+
+
+è¿›å…¥ç½‘ç«™é¦–é¡µï¼Œå¯å…ˆé¢„è§ˆæœ€ä¸Šé¢ç½‘ç«™å¯¼èˆªçš„å„ä¸ªå·¥å…·æŒ‰é’®ï¼Œäº†è§£ä¸€ä¸‹æœ¬æ•°æ®åº“çš„æ¡†æž¶ã€‚
 
 ![reactome](http://www.ehbio.com/ehbio_resource/skills17.png)
 
-ÎÒÃÇÒªÌ½Ë÷µÄÍ¼¿â±¦²Ø¾Í²ØÔÚ**Community**ÏÂµÄ**Icon library**£¬ÕâÀï´æ´¢ÁË·á¸»ÓÖ¼°Æä×¨ÒµµÄÉúÎïÄ£ÐÍÍ¼¡£²»Í¬ÀàÐÍµÄÄ£ÐÍÍ¼·ÅÔÚÁËÒÑ¾­¹éÀàºÃµÄÎÄ¼þ¼ÐÏÂ£¬µã»÷²»Í¬µÄÎÄ¼þ¼Ð¼´¿É»ñµÃÄãÐèÒªµÄÍ¼Æ¬ËØ²Ä¡£
+æˆ‘ä»¬è¦æŽ¢ç´¢çš„å›¾åº“å®è—å°±è—åœ¨**Community**ä¸‹çš„**Icon library**ï¼Œè¿™é‡Œå­˜å‚¨äº†ä¸°å¯ŒåˆåŠå…¶ä¸“ä¸šçš„ç”Ÿç‰©æ¨¡åž‹å›¾ã€‚ä¸åŒç±»åž‹çš„æ¨¡åž‹å›¾æ”¾åœ¨äº†å·²ç»å½’ç±»å¥½çš„æ–‡ä»¶å¤¹ä¸‹ï¼Œç‚¹å‡»ä¸åŒçš„æ–‡ä»¶å¤¹å³å¯èŽ·å¾—ä½ éœ€è¦çš„å›¾ç‰‡ç´ æã€‚
 
 ![reactome](http://www.ehbio.com/ehbio_resource/skills18.png)
 
@@ -90,148 +90,86 @@ ReactomeÊÇÒ»¸ö¿ªÔ´µÄÉúÎïÍ¨Â·Êý¾Ý¿â (<http://www.reactome.org/>)£¬Ãâ·Ñ£¬¸üÐÂ¼°Ê±£
 
 ![reactome](http://www.ehbio.com/ehbio_resource/Reactome_cellelement.png)
 
-<center>¡­¡­»ªÀöµÄ·Ö¸îÏß¡­¡­</center>
+<center>â€¦â€¦åŽä¸½çš„åˆ†å‰²çº¿â€¦â€¦</center>
 
 
-ºóÌ¨»Ø¸´**ÉúÎï²åÍ¼**£¬¼´¿É»ñµÃÐ¡±àÎªÄúÏÂÔØºÃµÄÉúÎïÄ£ÐÍËØ²ÄÍ¼£¬¸Ï½ôÀ´ÁìÈ¡°É£¡
+åŽå°å›žå¤**ç”Ÿç‰©æ’å›¾**ï¼Œå³å¯èŽ·å¾—å°ç¼–ä¸ºæ‚¨ä¸‹è½½å¥½çš„ç”Ÿç‰©æ¨¡åž‹ç´ æå›¾ï¼Œèµ¶ç´§æ¥é¢†å–å§ï¼
 
-¿´ÁËÕâÃ´¶à´óÉñ¼¶±ðµÄÉúÎïËØ²Ä£¬Èç¹û×Ô¼ºÔÙ»áÒ»Ð©ÕûºÏ´´×÷£¬»æÖÆ³ö·ûºÏÑÐ¾¿ÐèÇóµÄ²åÍ¼Ò²¾ÍÊÇ·Ö·ÖÖÓµÄÊÂÁË¡£
+çœ‹äº†è¿™ä¹ˆå¤šå¤§ç¥žçº§åˆ«çš„ç”Ÿç‰©ç´ æï¼Œå¦‚æžœè‡ªå·±å†ä¼šä¸€äº›æ•´åˆåˆ›ä½œï¼Œç»˜åˆ¶å‡ºç¬¦åˆç ”ç©¶éœ€æ±‚çš„æ’å›¾ä¹Ÿå°±æ˜¯åˆ†åˆ†é’Ÿçš„äº‹äº†ã€‚
 
-ËùÎ½*ÊÚÖ®ÒÔÓã£¬Ò²ÊÚÖ®ÒÔÓæ*£¬ÓÐÁËÎÒÃÇÌá¹©µÄËØ²Ä£¬ÔÙÀ´**²Î¼Ó8ÔÂ4ÈÕÖÁ7ÈÕµÄ**¡¶[Ñ§ÊõÂÛÎÄÍ³¼ÆÍ¼²åÍ¼»æÖÆ](https://mp.weixin.qq.com/s/VIo90e7I_DerTBb0WzpFOw)¡·¿Î³Ì£¬¾Í¿ÉÒÔ»æÖÆÈçÏÂµÄÍ¨Â·Í¼ÁË¡£
+æ‰€è°“*æŽˆä¹‹ä»¥é±¼ï¼Œä¹ŸæŽˆä¹‹ä»¥æ¸”*ï¼Œæœ‰äº†æˆ‘ä»¬æä¾›çš„ç´ æï¼Œå†æ¥**å‚åŠ 8æœˆ4æ—¥è‡³7æ—¥çš„**ã€Š[å­¦æœ¯è®ºæ–‡ç»Ÿè®¡å›¾æ’å›¾ç»˜åˆ¶](https://mp.weixin.qq.com/s/VIo90e7I_DerTBb0WzpFOw)ã€‹è¯¾ç¨‹ï¼Œå°±å¯ä»¥ç»˜åˆ¶å¦‚ä¸‹çš„é€šè·¯å›¾äº†ã€‚
 
 ![reactome](http://www.ehbio.com/ehbio_resource/skills27.png)
 
-#### Ñ§ÊõÂÛÎÄÍ³¼ÆÍ¼±í»æÖÆ
+#### å­¦æœ¯è®ºæ–‡ç»Ÿè®¡å›¾è¡¨ç»˜åˆ¶
 
-Í³¼ÆÍ¼±íÊÇÂÛÎÄ²åÍ¼µÄÖØÒª×é³É²¿·Ö£¬ÕâÃÅ¿Î³ÌÖ÷Òª½²ÊÚÈçºÎÊ¹ÓÃGraphpad Prism¡¢Origin¡¢SigmaplotÕâÈýÖÖ×î³£ÓÃµÄÍ³¼Æ»æÍ¼Èí¼þÖÆ×÷³öÂÛÎÄÀïµÄ¸÷ÖÖÍ³¼ÆÍ¼±í¡£¸ßÇ¿¶ÈÑµÁ·£¬²ÉÓÃ°¸ÀýÊ½½ÌÑ§£¬Ñ§Ô±×Ô´øµçÄÔÈ«³Ì¸úËæ½²½â½øÐÐ²Ù×÷£¬Ñ§Íêºó½«ÄÜ¹»¶ÀÁ¢ÖÆ×÷³ö¾ø´ó²¿·ÖÂÛÎÄÀïµÄÍ¼±í¡£
+ç»Ÿè®¡å›¾è¡¨æ˜¯è®ºæ–‡æ’å›¾çš„é‡è¦ç»„æˆéƒ¨åˆ†ï¼Œè¿™é—¨è¯¾ç¨‹ä¸»è¦è®²æŽˆå¦‚ä½•ä½¿ç”¨Graphpad Prismã€Originã€Sigmaplotè¿™ä¸‰ç§æœ€å¸¸ç”¨çš„ç»Ÿè®¡ç»˜å›¾è½¯ä»¶åˆ¶ä½œå‡ºè®ºæ–‡é‡Œçš„å„ç§ç»Ÿè®¡å›¾è¡¨ã€‚é«˜å¼ºåº¦è®­ç»ƒï¼Œé‡‡ç”¨æ¡ˆä¾‹å¼æ•™å­¦ï¼Œå­¦å‘˜è‡ªå¸¦ç”µè„‘å…¨ç¨‹è·Ÿéšè®²è§£è¿›è¡Œæ“ä½œï¼Œå­¦å®ŒåŽå°†èƒ½å¤Ÿç‹¬ç«‹åˆ¶ä½œå‡ºç»å¤§éƒ¨åˆ†è®ºæ–‡é‡Œçš„å›¾è¡¨ã€‚
 
-<mark>2018.08.04-2018.08.05 ¿Î³ÌÄÚÈÝ</mark>
+<mark>2018.08.04-2018.08.05 è¯¾ç¨‹å†…å®¹</mark>
 
-**ExcelÈí¼þ²¿·Ö**
+**Excelè½¯ä»¶éƒ¨åˆ†**
 
-* ÈçºÎÊ¹ÓÃExcel½øÐÐ¹æ·¶µÄÊý¾ÝÂ¼
-* ³£ÓÃµÄExcel¹¦ÄÜ
-* ³£ÓÃµÄExcelº¯Êý£¨±£ÁôÐ¡ÊýÎ»Êýº¯Êý¡¢Á¬½Óº¯Êý¡¢Ê±¼äº¯Êý¡¢Ëæ»úº¯Êý¡¢indexº¯Êý¡¢vlookupº¯ÊýµÈ£©
-* ExcelµÄÈý±íÀíÄî
-* Ò»Î¬±íÓë¶þÎ¬±í¼°¸ñÊ½×ª»»
-* Êý¾ÝÍ¸ÊÓ±í
+* å¦‚ä½•ä½¿ç”¨Excelè¿›è¡Œè§„èŒƒçš„æ•°æ®å½•
+* å¸¸ç”¨çš„ExcelåŠŸèƒ½
+* å¸¸ç”¨çš„Excelå‡½æ•°ï¼ˆä¿ç•™å°æ•°ä½æ•°å‡½æ•°ã€è¿žæŽ¥å‡½æ•°ã€æ—¶é—´å‡½æ•°ã€éšæœºå‡½æ•°ã€indexå‡½æ•°ã€vlookupå‡½æ•°ç­‰ï¼‰
+* Excelçš„ä¸‰è¡¨ç†å¿µ
+* ä¸€ç»´è¡¨ä¸ŽäºŒç»´è¡¨åŠæ ¼å¼è½¬æ¢
+* æ•°æ®é€è§†è¡¨
 
-**Graphpad Prism¡¢Origin¡¢Sigmaplot**
-
-
-* Ö±·½Í¼µÄÖÆ×÷
-* ÌõÐÎÍ¼£¨µ¥Ê½ÌõÐÎÍ¼¡¢¸´Ê½ÌõÐÎÍ¼¡¢·Ö¶ÎÌõÍ¼µÈ£©µÄÖÆ×÷
-* ÏäÍ¼µÄÖÆ×÷
-* É¢µãÍ¼£¨·Ö×éÉ¢µãÍ¼¡¢XYÉ¢µãÍ¼µÈ£©µÄÖÆ×÷
-* ÏßÍ¼£¨ÕÛÏßÍ¼¡¢Ê±¼äÐòÁÐÍ¼¡¢°ë¶ÔÊýÍ¼µÈ£©µÄÖÆ×÷
-* ±ýÍ¼µÄÖÆ×÷
-* º¯ÊýÍ¼¡¢¶Ï²ãÍ¼¡¢Ë«YÖáÍ¼¡¢µ¹Á¢ÖùÐÎÍ¼µÈ¸´ÔÓÍ¼±íµÄÖÆ×÷
-* t¼ìÑé£¨µ¥Ñù±¾t¼ìÑé¡¢Á½¶ÀÁ¢Ñù±¾t¼ìÑé¡¢Åä¶ÔÑù±¾t¼ìÑé£©
-* ·½²î·ÖÎö£¨µ¥ÒòËØ·½²î·ÖÎö¡¢µ¥ÒòËØÖØ²â·½²î·ÖÎö¡¢Ë«ÒòËØ·½²î·ÖÎö¡¢Ë«ÒòËØÖØ²â·½²î·ÖÎö¡¢ÎöÒòÉè¼Æ·½²î·ÖÎö£©
-* ¿¨·½¼ìÑé£¨ËÄÁª±í×ÊÁÏµÄ¿¨·½¼ìÑé¡¢ÐÐ¡ÁÁÐÁª±í×ÊÁÏµÄ¿¨·½¼ìÑé£©
-* ÖÈºÍ¼ìÑé£¨Åä¶ÔÉè¼ÆµÄ·ûºÅÖÈºÍ¼ìÑé¡¢Á½×é¶ÀÁ¢Ñù±¾ÖÈºÍ¼ìÑé¡¢¶à×é¶ÀÁ¢Ñù±¾ÖÈºÍ¼ìÑé£©
-* »Ø¹é·ÖÎöÓëÇúÏßÄâºÏ£¨ÏßÐÔÄâºÏ¡¢·ÇÏßÐÔÄâºÏ£©
-
-**Adobe illustratorÈí¼þ²¿·Ö**
-
-* ÈçºÎÊ¹ÓÃAdobe illustrator¶ÔÍ¼±í½øÐÐÐÞ¸ÄºÍÅÅ°æ
-
-#### Ñ§ÊõÂÛÎÄ²åÍ¼»æÖÆ
-
-Ò»·ù»æÖÆ¾«ÃÀµÄ²åÍ¼¶ÔÑ§ÊõÂÛÎÄµÄÖØÒªÐÔ²»ÑÔ¶øÓ÷¡£¡°¾ÆÏãÒ²ÅÂÏï×ÓÉî¡±£¬Î°´óµÄË¼ÏëºÍ×¿Ô½µÄ¿ÆÑÐ³É¹ûÍ¬ÑùÐèÒªÍ¨¹ýÃÀµÄ·½Ê½À´±í´ïºÍ´«²¥¡£¿Î³ÌÓÉ¾ßÓÐ¶àÄê²åÍ¼»æÖÆ¾­ÑéµÄÒ»Ïß¿ÆÑÐÈËÔ±½²ÊÚ£¬Ñ§Ô±×Ô´øµçÄÔÈ«³Ì¸úËæ½²½â½øÐÐ²Ù×÷£¬¸ßÇ¿¶ÈÑµÁ·£¬ÈÃÁã»ù´¡µÄÄã´Ó´Ë±äÉí²åÍ¼»æÖÆ´óÉñ£¡
-
-<mark>2018.08.06-2018.08.07 ¿Î³ÌÄÚÈÝ</mark>
-
-* Ñ§ÊõÂÛÎÄÖÐ²åÍ¼µÄÌØµã
-* Adobe IllustratorºÍAdobe Photoshop»æÍ¼µÄÇø±ð
-* Ê²Ã´ÊÇÊ¸Á¿Í¼ºÍÎ»Í¼
-* Ê²Ã´ÊÇRGBÑÕÉ«Ä£Ê½ºÍCMYKÑÕÉ«Ä£Ê½
-* Ê²Ã´ÊÇ·Ö±æÂÊ¡¢ÏñËØ¡¢DPI¡¢PPI
-* ÔÓÖ¾Éç¶ÔÍ¶¸åÂÛÎÄ²åÍ¼µÄÒªÇó
-* Ñ§ÊõÂÛÎÄÖÐ³£¼û²åÍ¼µÄ³ß´ç
-* ÈçºÎÈ·¶¨ÐèÒª»æÖÆµÄ²åÍ¼µÄ³ß´ç
-* ÈçºÎ»æÖÆ¸÷ÖÖÖ±ÏßºÍÇúÏß
-* ÈçºÎ»æÖÆ¼òµ¥µÄ¼¸ºÎÍ¼ÐÎ
-* ÈçºÎ»æÖÆ²»¹æÔòµÄÐÎ×´
-* ÈçºÎÊµÏÖÓÉÏßµ½ÐÎ×´µÄ×ª±ä
-* ÈçºÎÊµÏÖ¶ÔÐÎ×´µÄ·Ö¸î¡¢×éºÏµÈ
-* ÈçºÎ¸øÐÎ×´Ôö¼ÓÁ¢ÌåÐ§¹û
-* ÈçºÎ¸øÐÎ×´Ôö¼ÓÍ¶Ó°
-* ÈçºÎµ÷ÕûÐÎ×´µÄÍ¸Ã÷¶È
-* ÈçºÎ±íÏÖ¹ÜµÀ¡¢¿×¶´¡¢ÁÑºÛ¡¢ÆÊÃæµÈ¸÷ÖÖÐ§¹û
-* ÈçºÎ»æÖÆ¸´ÔÓµÄÐÎ×´
-* ÈçºÎÀûÓÃAIÖÆ×÷¼òµ¥µÄ3DÍ¼ÐÎ
-* ÈçºÎ»æÖÆ²åÍ¼
-* ÈçºÎ½øÐÐÅäÉ«
-* ÈçºÎµ¼³ö·ûºÏÍ¶¸åÒªÇóµÄ²åÍ¼
-* »æÖÆ¸´ÔÓ²åÍ¼µÄ·½·¨
-* ÈçºÎÀûÓÃÎÄÏ×ºÍÍøÂç×ÊÔ´°ïÖú»æÍ¼
-
-### ¿ÎÇ°×¼±¸
-
-¿ª¿ÎÇ°Ðè¸ø×Ô¼ºµçÄÔ×°ÉÏÊÊºÏ×Ô¼ºµçÄÔÏµÍ³£¨32Î»Windows/64Î»Windows/MacµÈ£©µÄÈí¼þ£¬Èí¼þ»ñÈ¡Í¾¾¶£º[»æÍ¼Èí¼þ](https://mp.weixin.qq.com/s/i71OMaUu6QtcY0pt1njHQA)»ñÈ¡Èí¼þÏÂÔØµØÖ·¡£
+**Graphpad Prismã€Originã€Sigmaplot**
 
 
-### ÍùÆÚ»Ø¹Ë
+* ç›´æ–¹å›¾çš„åˆ¶ä½œ
+* æ¡å½¢å›¾ï¼ˆå•å¼æ¡å½¢å›¾ã€å¤å¼æ¡å½¢å›¾ã€åˆ†æ®µæ¡å›¾ç­‰ï¼‰çš„åˆ¶ä½œ
+* ç®±å›¾çš„åˆ¶ä½œ
+* æ•£ç‚¹å›¾ï¼ˆåˆ†ç»„æ•£ç‚¹å›¾ã€XYæ•£ç‚¹å›¾ç­‰ï¼‰çš„åˆ¶ä½œ
+* çº¿å›¾ï¼ˆæŠ˜çº¿å›¾ã€æ—¶é—´åºåˆ—å›¾ã€åŠå¯¹æ•°å›¾ç­‰ï¼‰çš„åˆ¶ä½œ
+* é¥¼å›¾çš„åˆ¶ä½œ
+* å‡½æ•°å›¾ã€æ–­å±‚å›¾ã€åŒYè½´å›¾ã€å€’ç«‹æŸ±å½¢å›¾ç­‰å¤æ‚å›¾è¡¨çš„åˆ¶ä½œ
+* tæ£€éªŒï¼ˆå•æ ·æœ¬tæ£€éªŒã€ä¸¤ç‹¬ç«‹æ ·æœ¬tæ£€éªŒã€é…å¯¹æ ·æœ¬tæ£€éªŒï¼‰
+* æ–¹å·®åˆ†æžï¼ˆå•å› ç´ æ–¹å·®åˆ†æžã€å•å› ç´ é‡æµ‹æ–¹å·®åˆ†æžã€åŒå› ç´ æ–¹å·®åˆ†æžã€åŒå› ç´ é‡æµ‹æ–¹å·®åˆ†æžã€æžå› è®¾è®¡æ–¹å·®åˆ†æžï¼‰
+* å¡æ–¹æ£€éªŒï¼ˆå››è”è¡¨èµ„æ–™çš„å¡æ–¹æ£€éªŒã€è¡ŒÃ—åˆ—è”è¡¨èµ„æ–™çš„å¡æ–¹æ£€éªŒï¼‰
+* ç§©å’Œæ£€éªŒï¼ˆé…å¯¹è®¾è®¡çš„ç¬¦å·ç§©å’Œæ£€éªŒã€ä¸¤ç»„ç‹¬ç«‹æ ·æœ¬ç§©å’Œæ£€éªŒã€å¤šç»„ç‹¬ç«‹æ ·æœ¬ç§©å’Œæ£€éªŒï¼‰
+* å›žå½’åˆ†æžä¸Žæ›²çº¿æ‹Ÿåˆï¼ˆçº¿æ€§æ‹Ÿåˆã€éžçº¿æ€§æ‹Ÿåˆï¼‰
 
-ÔÚÇ°ÆÚµÄ¿Î³ÌÖÐ£¬À´×Ô**ÖÐ¿ÆÔºÎ¢ÉúÎïËù¡¢¶¯ÎïËù¡¢ÒÅ´«·¢ÓýËù**¡¢ÉúÎïÎïÀíËù¡¢ÉúÌ¬»·¾³ÑÐ¾¿ÖÐÐÄ£¬±±¾©ÉúÃü¿ÆÑ§ÑÐ¾¿Ëù¡¢ÖÐ¹úÒ½Ñ§¿ÆÑ§ÔºÒ©ÎïÑÐ¾¿Ëù¡¢¹ú¼ÒÈË¿Ú¼ÆÉúÎ¯¿ÆÑ§¼¼ÊõÑÐ¾¿Ëù¡¢¹ú¼Òµ°°×ÖÊ¿ÆÑ§ÖÐÐÄ¡¢°²»ÕÊ¡Å©Òµ¿ÆÑ§ÔºÑÌ²ÝÑÐ¾¿Ëù¡¢ÖÐ¹úÅ©Òµ¿ÆÑ§ÔºÉúÎï¼¼ÊõÑÐ¾¿Ëù¡¢Çå»ª´óÑ§¡¢±±¾©´óÑ§¡¢ÖÐ¹úÅ©Òµ´óÑ§¡¢±±¾©ÖÐÒ½Ò©´óÑ§¡¢»ª±±µçÁ¦´óÑ§¡¢ÖÐ¹úÈËÃñ½â·Å¾ü62040²¿¶Ó¡¢Ê×¶¼Ò½¿Æ´óÑ§¸½Êô±±¾©¸¾²úÒ½Ôº¡¢±±´óÒ½Ñ§²¿¡¢±±Ò½ÈýÔº¡¢±±¾©´óÑ§µÚÒ»Ò½Ôº¡¢º½ÌìÒ½Ôº¡¢±±¾©Ò½Ôº¡¢Î÷Ô·Ò½ÔºµÈµ¥Î»µÄ½ü200ÃûÑ§Ô±²Î¼ÓÁËÅàÑµ£¬²¢¶Ô¿Î³Ì¸ø³öÒ»ÖÂÇ¿ÁÒºÃÆÀ¡£
+**Adobe illustratorè½¯ä»¶éƒ¨åˆ†**
 
-![Ò×ÉúÐÅ»æÍ¼¿Î](http://www.ehbio.com/ehbio_resource/huitu_1.jpg)
+* å¦‚ä½•ä½¿ç”¨Adobe illustratorå¯¹å›¾è¡¨è¿›è¡Œä¿®æ”¹å’ŒæŽ’ç‰ˆ
 
-![Ò×ÉúÐÅ»æÍ¼¿Î](http://www.ehbio.com/ehbio_resource/huitu_2.jpg)
+#### å­¦æœ¯è®ºæ–‡æ’å›¾ç»˜åˆ¶
 
-![Ò×ÉúÐÅ»æÍ¼¿Î](http://www.ehbio.com/ehbio_resource/huitu_3.jpg)
+ä¸€å¹…ç»˜åˆ¶ç²¾ç¾Žçš„æ’å›¾å¯¹å­¦æœ¯è®ºæ–‡çš„é‡è¦æ€§ä¸è¨€è€Œå–»ã€‚â€œé…’é¦™ä¹Ÿæ€•å··å­æ·±â€ï¼Œä¼Ÿå¤§çš„æ€æƒ³å’Œå“è¶Šçš„ç§‘ç ”æˆæžœåŒæ ·éœ€è¦é€šè¿‡ç¾Žçš„æ–¹å¼æ¥è¡¨è¾¾å’Œä¼ æ’­ã€‚è¯¾ç¨‹ç”±å…·æœ‰å¤šå¹´æ’å›¾ç»˜åˆ¶ç»éªŒçš„ä¸€çº¿ç§‘ç ”äººå‘˜è®²æŽˆï¼Œå­¦å‘˜è‡ªå¸¦ç”µè„‘å…¨ç¨‹è·Ÿéšè®²è§£è¿›è¡Œæ“ä½œï¼Œé«˜å¼ºåº¦è®­ç»ƒï¼Œè®©é›¶åŸºç¡€çš„ä½ ä»Žæ­¤å˜èº«æ’å›¾ç»˜åˆ¶å¤§ç¥žï¼
 
-![Ò×ÉúÐÅ»æÍ¼¿Î](http://www.ehbio.com/ehbio_resource/huitu_4.jpg)
+<mark>2018.08.06-2018.08.07 è¯¾ç¨‹å†…å®¹</mark>
 
-![Ò×ÉúÐÅÑ§Ô±ÆÀ¼Û](http://www.ehbio.com/ehbio_resource/huitu_pingjia1.jpg)
+* å­¦æœ¯è®ºæ–‡ä¸­æ’å›¾çš„ç‰¹ç‚¹
+* Adobe Illustratorå’ŒAdobe Photoshopç»˜å›¾çš„åŒºåˆ«
+* ä»€ä¹ˆæ˜¯çŸ¢é‡å›¾å’Œä½å›¾
+* ä»€ä¹ˆæ˜¯RGBé¢œè‰²æ¨¡å¼å’ŒCMYKé¢œè‰²æ¨¡å¼
+* ä»€ä¹ˆæ˜¯åˆ†è¾¨çŽ‡ã€åƒç´ ã€DPIã€PPI
+* æ‚å¿—ç¤¾å¯¹æŠ•ç¨¿è®ºæ–‡æ’å›¾çš„è¦æ±‚
+* å­¦æœ¯è®ºæ–‡ä¸­å¸¸è§æ’å›¾çš„å°ºå¯¸
+* å¦‚ä½•ç¡®å®šéœ€è¦ç»˜åˆ¶çš„æ’å›¾çš„å°ºå¯¸
+* å¦‚ä½•ç»˜åˆ¶å„ç§ç›´çº¿å’Œæ›²çº¿
+* å¦‚ä½•ç»˜åˆ¶ç®€å•çš„å‡ ä½•å›¾å½¢
+* å¦‚ä½•ç»˜åˆ¶ä¸è§„åˆ™çš„å½¢çŠ¶
+* å¦‚ä½•å®žçŽ°ç”±çº¿åˆ°å½¢çŠ¶çš„è½¬å˜
+* å¦‚ä½•å®žçŽ°å¯¹å½¢çŠ¶çš„åˆ†å‰²ã€ç»„åˆç­‰
+* å¦‚ä½•ç»™å½¢çŠ¶å¢žåŠ ç«‹ä½“æ•ˆæžœ
+* å¦‚ä½•ç»™å½¢çŠ¶å¢žåŠ æŠ•å½±
+* å¦‚ä½•è°ƒæ•´å½¢çŠ¶çš„é€æ˜Žåº¦
+* å¦‚ä½•è¡¨çŽ°ç®¡é“ã€å­”æ´žã€è£‚ç—•ã€å‰–é¢ç­‰å„ç§æ•ˆæžœ
+* å¦‚ä½•ç»˜åˆ¶å¤æ‚çš„å½¢çŠ¶
+* å¦‚ä½•åˆ©ç”¨AIåˆ¶ä½œç®€å•çš„3Då›¾å½¢
+* å¦‚ä½•ç»˜åˆ¶æ’å›¾
+* å¦‚ä½•è¿›è¡Œé…è‰²
+* å¦‚ä½•å¯¼å‡ºç¬¦åˆæŠ•ç¨¿è¦æ±‚çš„æ’å›¾
+* ç»˜åˆ¶å¤æ‚æ’å›¾çš„æ–¹æ³•
+* å¦‚ä½•åˆ©ç”¨æ–‡çŒ®å’Œç½‘ç»œèµ„æºå¸®åŠ©ç»˜å›¾
 
-![Ò×ÉúÐÅÑ§Ô±ÆÀ¼Û](http://www.ehbio.com/ehbio_resource/huitu_pingjia2.jpg)
+### è¯¾å‰å‡†å¤‡
 
-![Ò×ÉúÐÅÑ§Ô±ÆÀ¼Û](http://www.ehbio.com/ehbio_resource/huitu_pingjia3.jpg)
-
-![Ò×ÉúÐÅÑ§Ô±ÆÀ¼Û](http://www.ehbio.com/ehbio_resource/huitu_pingjia4.jpg)
-
-
-### ¿Î³Ì¼Û¸ñ
-
-1. Ñ§ÊõÂÛÎÄÍ³¼ÆÍ¼±í»æÖÆ+Ñ§ÊõÂÛÎÄ²åÍ¼»æÖÆ£¬**ËÄÌì2ÃÅ¿Î³Ì3000Ôª/ÈË**£»ÈÎÑ¡Ò»ÃÅ1800Ôª/ÈË£¨×¡ËÞ×ÔÐÐ½â¾ö£¬Ìá¹©ÅàÑµÆÚ¼äÎç²Í)
-2. Ãû¶îÓÐÏÞ£¬Ã¿´Î¿Î³Ì±¨ÃûÂú60ÈËºó×Ô¶¯¹Ø±Õ±¨ÃûÍ¨µÀ
-3. Ìá¹©Ò×ºº²©»ùÒò¿Æ¼¼ÊµÏ°»ú»á»ò¹¤×÷»ú»á
-
-±¨ÃûÍøÕ¾ <http://www.ehbio.com/Training>
-
-ÓÅ»ÝÕþ²ß
-
-1. ±¨Ãû³É¹¦ºó£¬½«´ËÍÆÎÄ×ª·¢µ½ÅóÓÑÈ¦£¬²»ÆÁ±ÎÈÎºÎÈË±£ÁôÖÁÉÙÁ½Ììºó½ØÍ¼·¢ËÍÖÁÓÊÏätrain@ehbio.com£¬¿É¼õÃâ100Ôª
-2. ÈôÍ¬Ê±±¨ÃûÒ×ÉúÐÅÊîÆÚ¿Î£¬´Ë¿Î³Ì¼Û¸ñÔÙÓÅ»Ý200Ôª £¨±¨ÃûÊ±ÔÚ±¸×¢ÖÐ×¢Ã÷¼´¿É£©
-3. Ç°Á½ÏîÓÅ»Ý¿Éµþ¼Ó£¬×î¶à¼õÃâ300Ôª
-
-
-### Ê±¼äµØµã
-
-ÅàÑµÊ±¼ä
-
-2018-08-04µ½2018-08-05£¨Ñ§ÊõÂÛÎÄÍ³¼ÆÍ¼±í»æÖÆ£©
-
-2018-08-06µ½2018-08-07£¨Ñ§ÊõÂÛÎÄ²åÍ¼»æÖÆ£©
-
-Ã¿ÌìÔç9µãµ½Íí7µã£¬°ë·â±ÕÊ½½ÌÑ§
-
-±¨µ½Ê±¼ä£º¿ª¿Îµ±Ìì
-
-ÊÚ¿ÎµØµã
-
-±±¾©ÊÐÎ÷³ÇÇø¹ÄÂ¥Ã÷µÂ´óÏÃ 
-
-(±±¾©ÊÐ¾É¹ÄÂ¥´ó½Ö47ºÅÔº2ºÅ)
-	
-
-µã»÷**ÔÄ¶ÁÔ­ÎÄ**£¬¼´¿É±¨Ãû¿Î³Ì¡£
-
-
-
-71OMaUu6QtcY0pt1njHQA)èŽ·å–è½¯ä»¶ä¸‹è½½åœ°å€ã€‚
+å¼€è¯¾å‰éœ€ç»™è‡ªå·±ç”µè„‘è£…ä¸Šé€‚åˆè‡ªå·±ç”µè„‘ç³»ç»Ÿï¼ˆ32ä½Windows/64ä½Windows/Macç­‰ï¼‰çš„è½¯ä»¶ï¼Œè½¯ä»¶èŽ·å–é€”å¾„ï¼š[ç»˜å›¾è½¯ä»¶](https://mp.weixin.qq.com/s/i71OMaUu6QtcY0pt1njHQA)èŽ·å–è½¯ä»¶ä¸‹è½½åœ°å€ã€‚
 
 
 ### å¾€æœŸå›žé¡¾
@@ -290,6 +228,7 @@ ReactomeÊÇÒ»¸ö¿ªÔ´µÄÉúÎïÍ¨Â·Êý¾Ý¿â (<http://www.reactome.org/>)£¬Ãâ·Ñ£¬¸üÐÂ¼°Ê±£
 	
 
 ç‚¹å‡»**é˜…è¯»åŽŸæ–‡**ï¼Œå³å¯æŠ¥åè¯¾ç¨‹ã€‚
+
 
 
 
