@@ -25,6 +25,29 @@ tags:
 通过大量的生信例子、关键的注释和浓缩的语句形成下面的一系列学习教程。每一篇内容都不多，可以当做小说阅读，也可以跟着去练，反复几遍，每读一次都会有不同的收获和体会。
 
 ### 系列教程
+### 蛋白质组学研究
+### 转录组研究
+### 扩增子三步曲
+### 宏基因组教程
+### 宏基因组分析专题
+### ChIP-seq专题
+### 文献精读
+### Linux 
+### CIRCOS系列
+### R统计和作图
+### NGS基础和软件应用
+### 癌症数据库
+### Python
+### NGS软件
+### Cytoscape网络图
+### 分子对接
+### 生信宝典之傻瓜式
+### 生信人写程序
+### 小技巧系列
+### 系列培训
+
+
+### 系列教程
 
 * [生物信息之程序](http://mp.weixin.qq.com/s/xoLBg0pI9seEksa0hMXi0A)
 * [如何优雅的提问](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483955&amp;idx=1&amp;sn=946438376f94af6e8861b2b42701914e&amp;chksm=ec0dc7b9db7a4eafbef28fac1fb260f6f876f0ba674828784ac827dd23f9317f5a2d59d38bc0#rd)
@@ -50,7 +73,7 @@ tags:
 
 ### 蛋白质组学研究
 
-* [蛋白质组学研究概述](https://mp.weixin.qq.com/s/2S9DmxvIUFRlDlC13JZ2Rw)
+* [蛋白质组学研究概述](https://mp.weixin.qq.com/s/ayGZ0GCQlJjEViRIDYmQkw)
 
 ### 转录组研究
 
@@ -119,6 +142,8 @@ tags:
 * [Cell：荧光标记out了，AI不用“侵入”也能识别细胞死活和类型](https://mp.weixin.qq.com/s/gwVmKE4STwTxoWkJjHCu6w)
 * [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
 * [生物研究中不可缺少的数字概念，多少，多大，多快](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
+* [王秀杰研究组合作发现m6A修饰在小脑发育中的新功能 （附2018上半年m6A研究文章和点评）](https://mp.weixin.qq.com/s/yVgkbWfLfUJTJNKtqIWxjw)
+* [把人类宝宝和黑猩猩幼崽一起养大，会发生什么有趣的事情呢？结局可能是有些出乎意料的～～](https://mp.weixin.qq.com/s/qcxQ_2h8Qgfs05Jz9sJntg)
 
 ### Linux 
 
@@ -141,6 +166,7 @@ tags:
 * [Linux - 常用和不太常用的实用awk命令](http://mp.weixin.qq.com/s/8wD14FXt7fLDo1BjJyT0ew)
 * [Bash概论 - Linux系列教程补充篇](http://mp.weixin.qq.com/s/lWNp_6W_jLiogmtlk9nO2A)
 * [一网打进Linux下那些查找命令](http://mp.weixin.qq.com/s/xWwj04h4W6yEqQLOfuQ8qA)
+* [原来你是这样的软连接](https://mp.weixin.qq.com/s/q3ic5WSfLdAnqIhFQX-bUQ)
 
 ### CIRCOS系列
 
@@ -163,7 +189,7 @@ tags:
 * [R语言 - 线图一步法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483947&amp;idx=1&amp;sn=7cf0252efff5433447507b977fcaff97&amp;chksm=ec0dc7a1db7a4eb77a269709bdf2c8ab51bcad89aa780ec0be171a333e1cb8f3cc27eff277a1#rd)
 * [R语言 - 箱线图（小提琴图、抖动图、区域散点图）](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483964&amp;idx=1&amp;sn=ee52ac37fb9a919f5c75c0abe2a49ad4&amp;chksm=ec0dc7b6db7a4ea0a51306347fc43265c41fda3eeaf4764ddc3795546371327579676cd74a38#rd)
 * [R语言 - 箱线图一步法](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483971&amp;idx=1&amp;sn=1b40a1137ccb8b2fa1ab3eb1d0f05de9&amp;chksm=ec0dc7c9db7a4edf16ea4966b9acb7f23cd23bd6a2e59450ae11bdac899fa2fceb124264dcf4#rd)
-* [R语言 - 火山图](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483996&amp;idx=1&amp;sn=9a29d52e78e9acffeb0a78077a14f9f2&amp;chksm=ec0dc7d6db7a4ec0163259e81e4ded54875a5dd8adaafbc6975a86c71223d863627ba37801e5#rd)
+* [R语言 - 火山图](https://mp.weixin.qq.com/s/dikXvlDhjmaPuZkCFyRXUg)
 * [R语言 - 富集分析泡泡图 （文末有彩蛋）](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483978&amp;idx=1&amp;sn=e0c158c0e92375553036cc37f4987e40&amp;chksm=ec0dc7c0db7a4ed6ac593493b7d8b52f11f2feb92d24fa00d19527fbb6f95b24f7e313ef9440#rd)
 * [R语言 - 散点图绘制](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484056&amp;idx=1&amp;sn=f9b2b4f7495b432e9294b7cbf42eaf33&amp;chksm=ec0dc712db7a4e04769d322558364b4b401b0a8153097c7252e83170e9201a31c2a7abbaf101#rd)
 * [一文看懂PCA主成分分析](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484036&amp;idx=1&amp;sn=22ee356d0c9680d56dada1b777985ed2&amp;chksm=ec0dc70edb7a4e182a21475e9ddcde35b907c291549cc8c2e767be260af445ff5455aa358b04#rd)
@@ -187,9 +213,12 @@ tags:
 * [NGS基础 - 高通量测序原理](https://mp.weixin.qq.com/s/SS9YBSpgUoU9gI86u-0ATg)
 * [NGS基础 - 参考基因组和基因注释文件](http://mp.weixin.qq.com/s/2OoXy4f1t0hE8OUqsAt1kw)
 * [NGS基础 - GTF/GFF文件格式解读和转换](http://mp.weixin.qq.com/s/rZ26i19hiS5ZOqIoqkL1Wg)
+* [NGS基础 - 测序原始数据下载](https://mp.weixin.qq.com/s/6oJYGxuBE850PyjMhRi3xg)
 * [本地安装UCSC基因组浏览器](http://mp.weixin.qq.com/s/b7Cppdm-vMTgZfFVC3Q1lQ)
 * [测序数据可视化 (一)](http://mp.weixin.qq.com/s/8EqULhLCyNttijO9bUm0BQ)
 * [IGV基因组浏览器可视化高通量测序数据](http://mp.weixin.qq.com/s/vWQUNgVujCTdZgZZ2_AZfQ)
+* [高通量数据分析必备|基因组浏览器使用介绍 - 1](https://mp.weixin.qq.com/s/_5zoRvjku5pb9qtwrvlWYw)
+* [高通量数据分析必备|基因组浏览器使用介绍 - 2](https://mp.weixin.qq.com/s/uzyccMorR6XWqjMsMd3Oaw)
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)
 * [GO、GSEA富集分析一网打进](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
 * [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
@@ -251,7 +280,7 @@ tags:
 * [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s/0Yvhn5Tlb-zvOXM0cU16Zg)
 * [生信宝典之傻瓜式 (四) 蛋白蛋白互作网络在线搜索](http://mp.weixin.qq.com/s/JO1J66BtzuY-9a20x0XQcg)
 * [生信宝典之傻瓜式 (五) 文献挖掘查找指定基因调控网络](http://mp.weixin.qq.com/s/DQ4fjCL777D2iEcPTnd-rA)
-* [生信宝典之傻瓜式(六)查找转录因子的靶基因](https://mp.weixin.qq.com/s/1LNae0pG0w_Q-rRxhI96Pg)
+* [生信宝典之傻瓜式 (六) 查找转录因子的靶基因](https://mp.weixin.qq.com/s/1LNae0pG0w_Q-rRxhI96Pg)
 
 ### 生信人写程序
 
@@ -261,6 +290,7 @@ tags:
 ### 小技巧系列
 
 * [参考文献中杂志名字格式混乱问题一次解决](http://mp.weixin.qq.com/s/Diwevx-TVe0Vq_rdgzIkrw)
+* [实用网站和在线工具推荐](https://mp.weixin.qq.com/s/n8q5fPIa3eJRAwhKvP8L_w)
 
 ### 系列宣传
 
@@ -286,6 +316,8 @@ tags:
 * [转录组课程以旧换新](https://mp.weixin.qq.com/s/dinHYC3gJkoFkUoLGaJ5vw)
 * [4天你也可以自己处理二代三代转录组测序数据 （可只报名二代或三代）](https://mp.weixin.qq.com/s/AOeGnfuEbsPMWFeej66gqw)
 * [芒种“忙种”，不负光阴](https://mp.weixin.qq.com/s/WN1kT3_uZw21VxItbgd8dA)
+* [发乎于情止乎于怕 - 怎么才能拥有他？](https://mp.weixin.qq.com/s/fAphWlMnefcSW8J6qBnJqw)
+* [易生信暑期黑马集训营 -- 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
 
 
 ### 永久链接
