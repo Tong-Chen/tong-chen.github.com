@@ -324,8 +324,31 @@ layout: page
 	find . -name *.log -newer pca/2018-02-10.txt -size +0
 	```
 
+22. zip -j file.zip file # 不包含路径
 
+23. 用户操作
 
+```
+# 批量修改密码
+cat <<END >user_pass
+user1:pass1
+user2:pass2
+END
+chpasswd <user_pass
+
+# 用户增加组
+usermod -a -G ehbio ct
+
+# 新建用户
+cat <<END >/tmp/${user}.create
+${user}:${password}::${group}::/disk/${user}:/bin/bash
+END
+
+newusers </tmp/${user}.create
+
+# 删除用户
+userdel -r ${user}
+```
 
 
 
