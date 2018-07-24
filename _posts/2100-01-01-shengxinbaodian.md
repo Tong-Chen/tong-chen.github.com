@@ -62,6 +62,7 @@ tags:
 * [简单强大的在线绘图-升级版](http://mp.weixin.qq.com/s/pTHHqxuf0y1MCCCBaZjt9A)
 * [论文图表基本规范](http://mp.weixin.qq.com/s/SCT4oso_vI0UNIJZTaG95g)
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
+* [数据可视化基本套路总结](https://mp.weixin.qq.com/s/ZgaxWKkTrE1eBQtYacKeoQ)
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
 * [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
 * [你该知道的杂志分区和影响因子及最新表格下载](https://mp.weixin.qq.com/s/Fv-jTOgH5xD87RRoQtuXhw)
@@ -70,6 +71,7 @@ tags:
 * [史上最全的图表色彩运用原理](https://mp.weixin.qq.com/s/vSVA3lfN1nsig6fv1Xt7xA)
 * [生信宝典一周年福利第一波 - 电子书赠送](https://mp.weixin.qq.com/s/l-Zr4w2dd-lxw0iw1GyNiw)
 * [测序发展史：150年的风雨历程](https://mp.weixin.qq.com/s/GReWY8yq7O_xVnajknrHZQ)
+* [生信老司机以中心法则为主线讲解组学技术的应用和生信分析心得](https://mp.weixin.qq.com/s/mlBLxXLabSU6FflOFXrzrw)
 
 ### 蛋白质组学研究
 
@@ -205,6 +207,8 @@ tags:
 * [文章用图的修改和排版](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
 * [network3D: 交互式桑基图](http://mp.weixin.qq.com/s/3okqP0viU3EVML9p1bkQlw)
 * [network3D 交互式网络生成](https://mp.weixin.qq.com/s/rK5SolI0xGisvBCIcb448A)
+* [R包ggseqlogo 绘制seq logo图](https://mp.weixin.qq.com/s/W346MWTZv6N_iuSPzBZn6w)
+* [生物AI插图素材获取和拼装指导](https://mp.weixin.qq.com/s/bNrWaK-Rd7I7M0In07_XWg)
 
 
 ### NGS基础和软件应用
@@ -219,6 +223,7 @@ tags:
 * [IGV基因组浏览器可视化高通量测序数据](http://mp.weixin.qq.com/s/vWQUNgVujCTdZgZZ2_AZfQ)
 * [高通量数据分析必备|基因组浏览器使用介绍 - 1](https://mp.weixin.qq.com/s/_5zoRvjku5pb9qtwrvlWYw)
 * [高通量数据分析必备|基因组浏览器使用介绍 - 2](https://mp.weixin.qq.com/s/uzyccMorR6XWqjMsMd3Oaw)
+* [高通量数据分析必备|基因组浏览器使用介绍 - 3](https://mp.weixin.qq.com/s/qdKxBAU__nbq8Ua0rLCEow)
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)
 * [GO、GSEA富集分析一网打进](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
 * [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
