@@ -12,7 +12,7 @@ tags:
 ---
 
 
-生信的作用越来越大，想学的人越来越多，不管是为了以后发展，还是为了解决眼下的问题。但生信学习不是一朝一夕就可以完成的事情，也许你可以很短时间学会一个交互式软件的操作，却不能看完程序教学视频后就直接写程序。也许你可以跟着一个测序分析流程完成操作，但不懂得背后的原理，不知道什么参数需要修改，结果可以出来，却把我不住对还是错。
+生信的作用越来越大，想学的人越来越多，不管是为了以后发展，还是为了解决眼下的问题。但生信学习不是一朝一夕就可以完成的事情，也许你可以很短时间学会一个交互式软件的操作，却不能看完程序教学视频后就直接写程序。也许你可以跟着一个测序分析流程完成操作，但不懂得背后的原理，不知道什么参数需要修改，结果可以出来，却把握不住对还是错。
 
 学习生信从来就不是一个简单的事，需要做好持久战的心理准备。
 
@@ -24,10 +24,17 @@ tags:
 
 通过大量的生信例子、关键的注释和浓缩的语句形成下面的一系列学习教程。每一篇内容都不多，可以当做小说阅读，也可以跟着去练，反复几遍，每读一次都会有不同的收获和体会。
 
+### 教程合集
+
+* [生信宝典-Linux教程.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8-Linux%E6%95%99%E7%A8%8B.pdf)
+* [生信宝典Py3_course.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8Py3_course.pdf)
+* [生信宝典-R学习教程.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8-R%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B.pdf)
 
 ### 系列教程
 
-* [生物信息之程序](http://mp.weixin.qq.com/s/xoLBg0pI9seEksa0hMXi0A)
+* [生物信息之程序学习](http://mp.weixin.qq.com/s/xoLBg0pI9seEksa0hMXi0A)
+* [关于编程学习的一些思考](https://mp.weixin.qq.com/s/QPesQBExnmaR6uLDTITdgQ)
+* [该如何自学入门生物信息学](https://mp.weixin.qq.com/s/Y89T47NRWrCclh04dmyrKg)
 * [如何优雅的提问](https://mp.weixin.qq.com/s/xCif04bqZB14Z4OvesK0SQ)
 * [生信宝典视频教程](http://mp.weixin.qq.com/s/C4EBufEtFF6bhBKrH8NXng)
 * [好色之旅-画图三字经](https://mp.weixin.qq.com/s/bsvB1k17Izom2ldgdwXrdg)
@@ -42,7 +49,7 @@ tags:
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 * [数据可视化基本套路总结](https://mp.weixin.qq.com/s/ZgaxWKkTrE1eBQtYacKeoQ)
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
-* [教育部推出首批490门“国家精品在线开放课程](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
+* [教育部推出首批490门"国家精品在线开放课程"](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
 * [你该知道的杂志分区和影响因子及最新表格下载](https://mp.weixin.qq.com/s/Fv-jTOgH5xD87RRoQtuXhw)
 * [你和PPT高手之间，就只差一个iSlide](http://mp.weixin.qq.com/s/gKPs7k5JqFBlYJPv7h_-hA)
 * [推荐 3 个超赞的 EXCEL 插件，让你 5 分钟从小白变大神](https://mp.weixin.qq.com/s/NTQLwZviroOfQG6b2hI7lg)
@@ -72,6 +79,8 @@ tags:
 * [扩展1：视频教程-夯实分析思路](http://mp.weixin.qq.com/s/SxWl0qBJgg8ziZUFDmKvpQ)  
 * [扩展2：QIIME2教程-了解分析趋势](http://mp.weixin.qq.com/s/wkn-91BVOSWZLRvlcaaEgg)  
 * [3统计绘图-冲击高分文章](http://mp.weixin.qq.com/s/6tNePiaDsPPzEBZjiCXIRg)  
+* [易生信-扩增子教程01-基本概念](https://mp.weixin.qq.com/s/PG_WQx3e_jegRgvVjtk9OA)
+* [易生信-扩增子教程02-真菌引物选择](https://mp.weixin.qq.com/s/ouPqSH1kS8nX8QY0HsCj7g)
 
 ### 宏基因组教程
 
@@ -124,9 +133,13 @@ tags:
 * [生物研究中不可缺少的数字概念，多少，多大，多快](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
 * [王秀杰研究组合作发现m6A修饰在小脑发育中的新功能 （附2018上半年m6A研究文章和点评）](https://mp.weixin.qq.com/s/yVgkbWfLfUJTJNKtqIWxjw)
 * [把人类宝宝和黑猩猩幼崽一起养大，会发生什么有趣的事情呢？结局可能是有些出乎意料的～～](https://mp.weixin.qq.com/s/qcxQ_2h8Qgfs05Jz9sJntg)
+* [你体内的细胞“成精了”？居然还互相看对了眼？](https://mp.weixin.qq.com/s/MhQ34l0pgqCxJnEu1ozcwg)
+* [父爱无言！科学家首次发现来自爸爸的基因，可以通过胎儿来控制妈妈对宝宝的爱](https://mp.weixin.qq.com/s/wYjegqeeY_alzEc7OCTdyg)
+* [饿死癌细胞？还是先看看肿瘤中的异常代谢的特征分析和背后的遗传与环境互作吧！](https://mp.weixin.qq.com/s/pIVBQTxOQc2iygD8YtpfzQ)
 
 ### Linux 
 
+* [免费Linux系统和生信宝典原创学习教程](https://mp.weixin.qq.com/s/rXjQfyEX2FnuW9HTM_Uc8Q)
 * [Linux - 总目录](http://mp.weixin.qq.com/s/hEYU80fPf1eD5OWL3fO4Bg)
 * [Linux - 文件和目录](http://mp.weixin.qq.com/s/yKP1Kboji9N4p2Sl1Ovj0Q)
 * [Linux - 文件操作](http://mp.weixin.qq.com/s/4bYMzJclf_xHpqdrlbvAdA)
@@ -188,6 +201,9 @@ tags:
 * [network3D 交互式网络生成](https://mp.weixin.qq.com/s/rK5SolI0xGisvBCIcb448A)
 * [Seq logo 在线绘制工具——Weblogo](https://mp.weixin.qq.com/s/PTaA1IR5yhIpK9EFAk5iVQ)
 * [生物AI插图素材获取和拼装指导](https://mp.weixin.qq.com/s/bNrWaK-Rd7I7M0In07_XWg)
+* [ggplot2高效实用指南 (可视化脚本、工具、套路、配色)](https://mp.weixin.qq.com/s/EZ8R4v4f_jU3aaUP-1p1MQ)
+* [图像处理R包magick学习笔记](https://mp.weixin.qq.com/s/jPUC_lvy0JV3H66eeLhUMg)
+* [SOM基因表达聚类分析初探](https://mp.weixin.qq.com/s/fTSYs_vS_ofi71b-jNpbGA)
 
 ### NGS基础和软件应用
 
@@ -205,8 +221,6 @@ tags:
 * [测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)
 * [GO、GSEA富集分析一网打进](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
 * [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
-* [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
-* [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
 * [Bedtools使用简介](https://mp.weixin.qq.com/s/bIXom5bSDov-4sPqsTRc6A)
 * [OrthoMCL鉴定物种同源基因 （安装+使用）](https://mp.weixin.qq.com/s/lC1KiRygr5RefMZLVPREdQ)
 * [Rfam 12.0+本地使用 （最新版教程）](http://mp.weixin.qq.com/s/5OIRHA22ZLr5Z8bEhDiBqg)
@@ -215,6 +229,8 @@ tags:
 * [psRobot：植物小RNA分析系统](http://mp.weixin.qq.com/s/kWkEQOX-6SKMAUQmAuc86w)
 * [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
 * [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
+* [2018 升级版Motif数据库Jaspar](https://mp.weixin.qq.com/s/S1SlhNfPvcXOwRQZvrm6GQ)
+* [一文教会你查找基因的启动子、UTR、TSS等区域以及预测转录因子结合位点](https://mp.weixin.qq.com/s/vFO7uAtI6nh-zTW7RHCixA)
 
 ### 癌症数据库
 
@@ -239,8 +255,6 @@ tags:
 * [关于Python中的__main__和编程模板](http://mp.weixin.qq.com/s/JHDvdqq3Z-7uDmsyroblNQ)
 * [莫烦Python机器学习](https://mp.weixin.qq.com/s/pXiV_cRZD8iu4jLAFMYPew)
 * [编程新手入门踩过的25个“坑”，你犯过其中哪些错误？](https://mp.weixin.qq.com/s/C19yj-p67FsDDe2LvApdHQ)
-
-### NGS软件
 
 
 ### Cytoscape网络图
@@ -274,6 +288,7 @@ tags:
 
 * [参考文献中杂志名字格式混乱问题一次解决](http://mp.weixin.qq.com/s/Diwevx-TVe0Vq_rdgzIkrw)
 * [实用网站和在线工具推荐](https://mp.weixin.qq.com/s/n8q5fPIa3eJRAwhKvP8L_w)
+* [在线浏览器，在线PS，在线AI，在线编程 ...](https://mp.weixin.qq.com/s/0IfurkWazDj_gXVItSly6w)
 
 ### 系列宣传
 
@@ -301,6 +316,7 @@ tags:
 * [芒种“忙种”，不负光阴](https://mp.weixin.qq.com/s/WN1kT3_uZw21VxItbgd8dA)
 * [发乎于情止乎于怕 - 怎么才能拥有他？](https://mp.weixin.qq.com/s/fAphWlMnefcSW8J6qBnJqw)
 * [易生信暑期黑马集训营 -- 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
+* [助力CNS-学术论文统计图插图绘制](https://mp.weixin.qq.com/s/y3YfpslAMo73ogY2dKZ4hA)
 
 
 ### 永久链接
