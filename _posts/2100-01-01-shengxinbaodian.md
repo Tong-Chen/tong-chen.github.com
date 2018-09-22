@@ -81,6 +81,7 @@ tags:
 * [3统计绘图-冲击高分文章](http://mp.weixin.qq.com/s/6tNePiaDsPPzEBZjiCXIRg)  
 * [易生信-扩增子教程01-基本概念](https://mp.weixin.qq.com/s/PG_WQx3e_jegRgvVjtk9OA)
 * [易生信-扩增子教程02-真菌引物选择](https://mp.weixin.qq.com/s/ouPqSH1kS8nX8QY0HsCj7g)
+* [收藏|手把手带你重现菌群封面文章全部结果图表](https://mp.weixin.qq.com/s/J5vQB2e3LaXL88pO7vqSwg)
 
 ### 宏基因组教程
 
@@ -91,6 +92,7 @@ tags:
 * [宏基因组分析教程](http://mp.weixin.qq.com/s/bcyvhFrNr6niqD13rQfZeg)
 * [4500元的微生物组培训资料](http://mp.weixin.qq.com/s/li7SdZVaCEyFQF8h6MMh2A)
 * [宏基因组分析教程合集](https://mp.weixin.qq.com/s/nzpU3JzxGE23FotB3sxcmw)
+* [宏基因组分析教程合集和往期课程PPT分享](https://mp.weixin.qq.com/s/F-c92FxvZA2CAX66nR5IFQ)
 
 ### 宏基因组分析专题
 
@@ -160,6 +162,7 @@ tags:
 * [Linux - 那些查找命令](http://mp.weixin.qq.com/s/xWwj04h4W6yEqQLOfuQ8qA)
 * [Linux - 原来你是这样的软连接](https://mp.weixin.qq.com/s/q3ic5WSfLdAnqIhFQX-bUQ)
 * [Bash概论 - Linux系列教程补充篇](http://mp.weixin.qq.com/s/lWNp_6W_jLiogmtlk9nO2A)
+* [Nature Method：Bioconda解决生物软件安装的烦恼](https://mp.weixin.qq.com/s/VeexRyguwozqrMaOeeMF7Q)
 
 ### CIRCOS系列
 
@@ -231,6 +234,9 @@ tags:
 * [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
 * [2018 升级版Motif数据库Jaspar](https://mp.weixin.qq.com/s/S1SlhNfPvcXOwRQZvrm6GQ)
 * [一文教会你查找基因的启动子、UTR、TSS等区域以及预测转录因子结合位点](https://mp.weixin.qq.com/s/vFO7uAtI6nh-zTW7RHCixA)
+* [拿到基因两眼一抹黑？没关系，先做个基因富集分析吧！](https://mp.weixin.qq.com/s/pzcZacJkeM-71-FPJwJL2g)
+* [科研小萌新，掌握这些技巧，轻松玩转各个基因！](https://mp.weixin.qq.com/s/_ZkOaUwE1AjBjghuNbAH8A)
+* [引起相变的无序结构域（IDRs）怎么预测？跟踪热点，提升文章档次！](https://mp.weixin.qq.com/s/amI-66u9DnIZITKHgO0UgQ)
 
 ### 癌症数据库
 
@@ -255,6 +261,7 @@ tags:
 * [关于Python中的__main__和编程模板](http://mp.weixin.qq.com/s/JHDvdqq3Z-7uDmsyroblNQ)
 * [莫烦Python机器学习](https://mp.weixin.qq.com/s/pXiV_cRZD8iu4jLAFMYPew)
 * [编程新手入门踩过的25个“坑”，你犯过其中哪些错误？](https://mp.weixin.qq.com/s/C19yj-p67FsDDe2LvApdHQ)
+* [Python文学化编程 - Jupyter notebook使用和插件拓展](https://mp.weixin.qq.com/s/mbJWNZr7rrJqQYCg2Wx_WA)
 
 
 ### Cytoscape网络图
@@ -317,6 +324,7 @@ tags:
 * [发乎于情止乎于怕 - 怎么才能拥有他？](https://mp.weixin.qq.com/s/fAphWlMnefcSW8J6qBnJqw)
 * [易生信暑期黑马集训营 -- 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
 * [助力CNS-学术论文统计图插图绘制](https://mp.weixin.qq.com/s/y3YfpslAMo73ogY2dKZ4hA)
+* [微生物组——宏基因组分析专题培训开课啦！](https://mp.weixin.qq.com/s/LCwi2QW_tXtG_Ol2h3eKhw)
 
 
 ### 永久链接
