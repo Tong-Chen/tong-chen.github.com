@@ -138,6 +138,10 @@ tags:
 * [你体内的细胞“成精了”？居然还互相看对了眼？](https://mp.weixin.qq.com/s/MhQ34l0pgqCxJnEu1ozcwg)
 * [父爱无言！科学家首次发现来自爸爸的基因，可以通过胎儿来控制妈妈对宝宝的爱](https://mp.weixin.qq.com/s/wYjegqeeY_alzEc7OCTdyg)
 * [饿死癌细胞？还是先看看肿瘤中的异常代谢的特征分析和背后的遗传与环境互作吧！](https://mp.weixin.qq.com/s/pIVBQTxOQc2iygD8YtpfzQ)
+* [2018Cell系列最好的调控方式-相变，最强综述，未来以来，你在哪](https://mp.weixin.qq.com/s/32bCVOkYwKqDufdpmFp0pg)
+* [2018“不务正业”的化学奖又发给了生物](https://mp.weixin.qq.com/s/K1ZvvNMy5Gb9FpkwNuDVmg)
+* [2018美日科学家因免疫治疗得诺贝尔生理医学奖|动图展示历年生理学奖](https://mp.weixin.qq.com/s/MjmfuKAlNvG8Z2vkxe2ouw)
+* [Nature综述|整合组学分析护航健康，推动精准医学时代的到来！](https://mp.weixin.qq.com/s/0amUXFwB2SkLUgTqhuWm6Q)
 
 ### Linux 
 
@@ -237,6 +241,8 @@ tags:
 * [拿到基因两眼一抹黑？没关系，先做个基因富集分析吧！](https://mp.weixin.qq.com/s/pzcZacJkeM-71-FPJwJL2g)
 * [科研小萌新，掌握这些技巧，轻松玩转各个基因！](https://mp.weixin.qq.com/s/_ZkOaUwE1AjBjghuNbAH8A)
 * [引起相变的无序结构域（IDRs）怎么预测？跟踪热点，提升文章档次！](https://mp.weixin.qq.com/s/amI-66u9DnIZITKHgO0UgQ)
+* [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
+* [没钱买KEGG怎么办？REACTOME开源通路更强大](https://mp.weixin.qq.com/s/jI6Gz1JKxnGB9jDRSFjd0g)
 
 ### 癌症数据库
 
