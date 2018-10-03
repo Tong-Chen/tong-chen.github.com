@@ -734,6 +734,16 @@ layout: page
 	rmarkdown::render("05.biotools.Rmd", output_format = "md_document",output_file = "test.md")
 	```
 
+37. curl not work
+
+    ```
+	git clone github_package
+	R CMD build github_package
+	R CMD install github_package
+
+	install.packages("github_url", repos=NULL, type="source")
+	```
+
 **Reference**
 
 * http://rfunction.com/archives/1377
