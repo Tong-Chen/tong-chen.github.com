@@ -19,6 +19,8 @@ tags:
 
 ## 18个不能做
 
+![](http://www.ehbio.com/ehbio_resource/Bingo_game_ppt2.png)
+
 1. Everyone always says lead with a joke. Instead of that, **spend the first few minutes of your talk fiddling around with the computer**, loading up the right presentation, etc. Don’t bother checking all that ahead of time — awkward silence is a good ice-breaker.
 2. If you do want to start on a light note, **include a time-wasting — and completely unfunny — anecdote**.
 3. Provide a **long-winded introduction** that includes stock art and unnecessary explanations. Talking about geochemical engineering? Why not start with the Industrial Revolution, and work your way to the present?
