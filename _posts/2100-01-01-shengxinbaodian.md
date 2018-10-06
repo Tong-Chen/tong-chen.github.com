@@ -81,7 +81,7 @@ tags:
 * [3统计绘图-冲击高分文章](http://mp.weixin.qq.com/s/6tNePiaDsPPzEBZjiCXIRg)  
 * [易生信-扩增子教程01-基本概念](https://mp.weixin.qq.com/s/PG_WQx3e_jegRgvVjtk9OA)
 * [易生信-扩增子教程02-真菌引物选择](https://mp.weixin.qq.com/s/ouPqSH1kS8nX8QY0HsCj7g)
-* [收藏|手把手带你重现菌群封面文章全部结果图表](https://mp.weixin.qq.com/s/J5vQB2e3LaXL88pO7vqSwg)
+* [收藏-手把手带你重现菌群封面文章全部结果图表](https://mp.weixin.qq.com/s/J5vQB2e3LaXL88pO7vqSwg)
 
 ### 宏基因组教程
 
@@ -140,8 +140,8 @@ tags:
 * [饿死癌细胞？还是先看看肿瘤中的异常代谢的特征分析和背后的遗传与环境互作吧！](https://mp.weixin.qq.com/s/pIVBQTxOQc2iygD8YtpfzQ)
 * [2018Cell系列最好的调控方式-相变，最强综述，未来以来，你在哪](https://mp.weixin.qq.com/s/32bCVOkYwKqDufdpmFp0pg)
 * [2018“不务正业”的化学奖又发给了生物](https://mp.weixin.qq.com/s/K1ZvvNMy5Gb9FpkwNuDVmg)
-* [2018美日科学家因免疫治疗得诺贝尔生理医学奖|动图展示历年生理学奖](https://mp.weixin.qq.com/s/MjmfuKAlNvG8Z2vkxe2ouw)
-* [Nature综述|整合组学分析护航健康，推动精准医学时代的到来！](https://mp.weixin.qq.com/s/0amUXFwB2SkLUgTqhuWm6Q)
+* [2018美日科学家因免疫治疗得诺贝尔生理医学奖-动图展示历年生理学奖](https://mp.weixin.qq.com/s/MjmfuKAlNvG8Z2vkxe2ouw)
+* [Nature综述-整合组学分析护航健康，推动精准医学时代的到来！](https://mp.weixin.qq.com/s/0amUXFwB2SkLUgTqhuWm6Q)
 
 ### Linux 
 
@@ -211,6 +211,7 @@ tags:
 * [ggplot2高效实用指南 (可视化脚本、工具、套路、配色)](https://mp.weixin.qq.com/s/EZ8R4v4f_jU3aaUP-1p1MQ)
 * [图像处理R包magick学习笔记](https://mp.weixin.qq.com/s/jPUC_lvy0JV3H66eeLhUMg)
 * [SOM基因表达聚类分析初探](https://mp.weixin.qq.com/s/fTSYs_vS_ofi71b-jNpbGA)
+* [利用gganimate可视化全球范围R-Ladies（R社区性别多样性组织）发展情况](https://mp.weixin.qq.com/s/GKmjRq_c4UIZLBjVmRUDbw)
 
 ### NGS基础和软件应用
 
