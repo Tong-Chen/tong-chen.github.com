@@ -74,11 +74,29 @@ layout: page
 	   sys.exit(1)
    ```
 
+5. 获取软连接的绝对路径
 
+```
+os.path.realpath("link_file")
+```
 
+6. 获得文件大小
 
+```
+os.path.exists(file)
+os.stat(file).st_size
+```
 
+7. 调用系统命令，并指导timeout
 
+```
+from subprocess32 import call, TimeoutExpired
+cmd = ['cmd', '-p1', 'p1value', '-p2', 'p2value']
+try:
+	call(cmd, timeout=5)
+except TimeoutExpired:
+	print >>sys.stderr, "Time out"
+```
 
 
 
