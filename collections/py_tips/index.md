@@ -98,8 +98,32 @@ except TimeoutExpired:
 	print >>sys.stderr, "Time out"
 ```
 
+8. Python mail
+
+```
+msg = MIMEMultipart()  
+msg['From'] = "%s<%s>" % (Header("易生信培训", "utf-8"), "train@ehbio.com")
+msg['To'] = '1@ehbio.com, 2@ehbio.com'
+msg['Cc'] = '3@ehbio.com'
+
+mailServer.sendmail(gmailUser, ['1@ehbio.com', '2@ehbio.com', '3@ehbio.com'],  msg.as_string()) 
+
+```
+
+9. multiple thread
+
+```
+from multiprocessing.dummy import Pool
+from functools import partial
+from subprocess import call
+pool = Pool(10) # 10 threads
+# pool.map(func, iteratable)
+pool.map(partial(call,  shell=True),  cmdL)
+pool.close()
+pool.join
 
 
+```
 
 
 
