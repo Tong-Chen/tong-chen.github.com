@@ -93,6 +93,7 @@ tags:
 * [4500元的微生物组培训资料](http://mp.weixin.qq.com/s/li7SdZVaCEyFQF8h6MMh2A)
 * [宏基因组分析教程合集](https://mp.weixin.qq.com/s/nzpU3JzxGE23FotB3sxcmw)
 * [宏基因组分析教程合集和往期课程PPT分享](https://mp.weixin.qq.com/s/F-c92FxvZA2CAX66nR5IFQ)
+* [人类微生物组计划 - 宏基因组/16S分析流程 bioBakery](https://mp.weixin.qq.com/s/M-nI6bpT6tmbOzRj3SsSvg)
 
 ### 宏基因组分析专题
 
@@ -107,6 +108,7 @@ tags:
 * [9 组装assembly和分箱bin结果可视化—Anvio](http://mp.weixin.qq.com/s/FesH_mCunpZLpKC2pIg1UQ)
 * [10 绘制圈图-Circos安装与使用](http://mp.weixin.qq.com/s/FJlKY3kU5Fm6bYkjtwRkEw)
 * [MetaPhlAn2分析有参宏基因组](http://mp.weixin.qq.com/s/xSjFGwcr1XIAZKdByJAWmQ)
+
 
 ### ChIP-seq专题
 
@@ -142,6 +144,7 @@ tags:
 * [2018“不务正业”的化学奖又发给了生物](https://mp.weixin.qq.com/s/K1ZvvNMy5Gb9FpkwNuDVmg)
 * [2018美日科学家因免疫治疗得诺贝尔生理医学奖-动图展示历年生理学奖](https://mp.weixin.qq.com/s/MjmfuKAlNvG8Z2vkxe2ouw)
 * [Nature综述-整合组学分析护航健康，推动精准医学时代的到来！](https://mp.weixin.qq.com/s/0amUXFwB2SkLUgTqhuWm6Q)
+* [勤能补拙，过目不忘，提高m6A助力好记性？中科院王秀杰/杨运桂合作最新成果](https://mp.weixin.qq.com/s/2mTNgh1qD8TQrNWJc0IfgA)
 
 ### Linux 
 
@@ -212,6 +215,7 @@ tags:
 * [图像处理R包magick学习笔记](https://mp.weixin.qq.com/s/jPUC_lvy0JV3H66eeLhUMg)
 * [SOM基因表达聚类分析初探](https://mp.weixin.qq.com/s/fTSYs_vS_ofi71b-jNpbGA)
 * [利用gganimate可视化全球范围R-Ladies（R社区性别多样性组织）发展情况](https://mp.weixin.qq.com/s/GKmjRq_c4UIZLBjVmRUDbw)
+* [一分钟绘制磷脂双分子层：AI零基础入门和基本图形绘制](https://mp.weixin.qq.com/s/JnrKXelzrGKNGQA63C88oA)
 
 ### NGS基础和软件应用
 
@@ -276,6 +280,7 @@ tags:
 * [Cytoscape教程1](http://mp.weixin.qq.com/s/m9uJm8GwSXb3xaRxtod08Q)
 * [Cytoscape之操作界面介绍](http://mp.weixin.qq.com/s/ZSoW7-qWs3BuSB7bkDnfmA)
 * [新出炉的Cytoscape视频教程](http://mp.weixin.qq.com/s/sKEy_Pn9qnWw4W-aXraA5g)
+* [https://mp.weixin.qq.com/s/AzCxP1AP04hsvKT7j_SpTw](https://mp.weixin.qq.com/s/AzCxP1AP04hsvKT7j_SpTw)
 
 ### 分子对接
 
@@ -332,7 +337,8 @@ tags:
 * [易生信暑期黑马集训营 -- 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
 * [助力CNS-学术论文统计图插图绘制](https://mp.weixin.qq.com/s/y3YfpslAMo73ogY2dKZ4hA)
 * [微生物组——宏基因组分析专题培训开课啦！](https://mp.weixin.qq.com/s/LCwi2QW_tXtG_Ol2h3eKhw)
-
+* [学术论文统计图插图绘制第二期，开始报名啦！](https://mp.weixin.qq.com/s/EjpVLN2kZn53hUIB7F6PXw)
+* [易生信 - 转录组专题分析第4期开课啦](https://mp.weixin.qq.com/s/w6FWHrYvo5o7eZI9wUhWrw)
 
 ### 永久链接
 
