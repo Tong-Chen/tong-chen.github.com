@@ -14,7 +14,7 @@ tags:
 
 分子生物学的中心法则自1958年由Francis Crick提出到今年正好60周年，它描述了“DNA制造RNA，RNA制造蛋白质”的遗传信息的标准流程 [1]。十年前，第二代RNA测序技术(RNA-seq)的诞生及其迅速发展使得研究者可以在对RNA序列没有任何先验信息的情况下高通量地对全转录组进行测序 [2]。现如今第二代RNA测序技术已经成为了研究基因和RNA表达最常用的手段之一，它的广泛应用极大地促进了生物和医学领域的各类研究，包括对基因表达与调控，RNA可变剪切以及蛋白质翻译等多项生物过程的了解 [3]。具体见[生信老司机以中心法则为主线讲解组学技术的应用和生信分析心得](https://mp.weixin.qq.com/s/mlBLxXLabSU6FflOFXrzrw)。
 
-为了回答各种生物问题，十年来不同领域的研究者已为第二代RNA-seq数据分析提出了超过2000种计算与分析方法 ([39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s/NUEi6oRFL7B3f1FpCD4Xug))。近日，加州大学洛杉矶分校（UCLA）的李婧翌（Jingyi Jessica Li）教授和她的学生李维（Wei Vivian Li）第一次从统计建模与分析的角度对第二代RNA测序数据的计算方法进行了总结和讨论，发表在最新一期的**Quantitative Biology**期刊中（Modeling and analysis of RNA-seq data：a review from a statistical perspective）[4](点击文末“阅读原文”下载英文版全文)。该综述文章从四个层面（样本，基因，转录本，和外显子选择）对RNA-seq数据的分析方法进行了总结，旨在归纳看似不同的方法背后共通的统计假设和模型。生信宝典之前的总结在 [转录组分析的正确姿势](https://mp.weixin.qq.com/s/h3wEMUoRNKMFVLDLDFXNoA)
+为了回答各种生物问题，十年来不同领域的研究者已为第二代RNA-seq数据分析提出了超过2000种计算与分析方法 ([39个转录组分析工具，120种组合评估(转录组分析工具哪家强-导读版)](http://mp.weixin.qq.com/s/NUEi6oRFL7B3f1FpCD4Xug))。近日，加州大学洛杉矶分校（UCLA）的李婧翌（Jingyi Jessica Li）教授和她的学生李维（Wei Vivian Li）第一次从统计建模与分析的角度对第二代RNA测序数据的计算方法进行了总结和讨论，发表在最新一期的**Quantitative Biology**期刊中（Modeling and analysis of RNA-seq data：a review from a statistical perspective）[4](点击文末“阅读原文”下载英文版全文)。该综述文章从四个层面（样本，基因，转录本，和外显子选择）对RNA-seq数据的分析方法进行了总结，旨在归纳看似不同的方法背后共通的统计假设和模型。生信宝典之前的总结在 [转录组分析的正确姿势](https://mp.weixin.qq.com/s/h3wEMUoRNKMFVLDLDFXNoA)。
 
 
 
@@ -56,6 +56,12 @@ tags:
 
 **基因共表达网络分析**: 建立基因的共表达关系，推测未知基因的功能。常用的有WGCNA，检测共表达基因簇和模块。具体见[WGCNA分析，简单全面的最新教程](https://mp.weixin.qq.com/s/PMb2xwADvnMwaipyFXdtzQ)。
 
+配合Cytoscape使用更佳：
+
+* [Cytoscape教程1](http://mp.weixin.qq.com/s/m9uJm8GwSXb3xaRxtod08Q)
+* [Cytoscape之操作界面介绍](http://mp.weixin.qq.com/s/ZSoW7-qWs3BuSB7bkDnfmA)
+* [新出炉的Cytoscape视频教程](http://mp.weixin.qq.com/s/sKEy_Pn9qnWw4W-aXraA5g)
+* [Cytoscape制作带bar图和pie图节点的网络图](https://mp.weixin.qq.com/s/AzCxP1AP04hsvKT7j_SpTw)
 
 ### 转录本分析层面： 重构和量化全长转录本
 
@@ -74,23 +80,19 @@ tags:
 
 文章的最后作者对RNA-seq统计建模过程中仍然存在的难点进行了总结，并简要讨论了RNA-seq在RNA编辑和非编码RNA等相关问题中的应用。近年来兴起的单细胞RNA测序技术将转录组研究提高到单细胞精度，也给新数据的统计建模带来了新的机遇和挑战，可以参考`The Human Cell Atlas White Paper`了解更多。
 
+<mark>本文主要是帮助师姐推荐QB杂志，如对这篇文章原文有任何疑问欢迎联系QB微信号：13269084698，或直接在文末留言，QB将邀请作者为您解答。</mark>
+
 ### 附上两个完整的分析流程
 
 ![](http://www.ehbio.com/ehbio_resource/ref_salmon.png)
 
 ![](http://www.ehbio.com/ehbio_resource/ref_map1.png)
 
-
-本文主要是帮助师姐推荐QB杂志，如对这篇文章原文有任何疑问欢迎联系QB微信号：13269084698，或直接在文末留言，QB将邀请作者为您解答。） 
-
+### 转录组分析培训班第4期
 
 在广大粉丝的期待下，《生信宝典》联合《宏基因组》在**2018年11月16-18日北京鼓楼**推出《**转录组数据分析**》专题培训第四期，为大家提供一条走进生信大门的捷径、为同行提供一个转录组实战分析学习和交流的机会、助力学员真正理解分析原理和完成实战分析，独创四段式教学(3天集中授课+自行练习2周+再集中讲解答疑+上课视频回看反复练习)，**"教—练—答—用"四个环节统一协调，真正实现独立分析大数据**。
 
 关于学习生物信息学分析的重要性，请阅读[《生物信息9天速成班—成为团队中不可或缺的人》](http://mp.weixin.qq.com/s/1nf7vwyvC3oemkTq_pu87A)。
-
-## 课程简介
-
-**请详细阅读课程简介，如果以下内容您全精通，不必参加此培训。**
 
 本课程一共3天，每天6节课，共18节课，全部课程均理论与实战结合(只要课上讲的都是可以带你自己实现的分析)。从分析平台搭建、Linux和R基础、图表解读和实战、转录组设计、分析标准流程、差异基因分析、功能富集分析、及各类高级分析(差异剪接、WGCNA分析、通路图绘制等)，和CNS级图片修改排版。3天时间，老司机带您完成自学需要3个月甚至是1年的崎岖之路，助力您真正玩转转录组分析。
 
