@@ -1,6 +1,6 @@
 ---
 title: Linux下文件夹时间戳和权限问题
-author: ct
+author: ysx
 layout: post
 categories:
   - R
@@ -14,17 +14,17 @@ tags:
 比如，起始状态：
 
 ```
-ct@localhost:~/trash/ehbio$ ls -ltr
+ysx@localhost:~/trash/ehbio$ ls -ltr
 total 0
-drwxr-xr-x. 2 ct ehbio 6 Jan  7 10:48 webserver
-drwxr-xr-x. 2 ct ehbio 6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio 6 Jan  7 10:48 bioinfoservice
+drwxr-xr-x. 2 ysx ehbio 6 Jan  7 10:48 webserver
+drwxr-xr-x. 2 ysx ehbio 6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio 6 Jan  7 10:48 bioinfoservice
 ```
 
 在`webserver`文件夹下，增加一个文件，`record.md`
 
 ```
-ct@localhost:~/trash/ehbio$ cat <<END >webserver/record.md
+ysx@localhost:~/trash/ehbio$ cat <<END >webserver/record.md
 1. 完成9个生物在线数据存储、查询和分析网站的建设。
 END
 ```
@@ -32,19 +32,19 @@ END
 再查看下文件夹日期有没有变化, 发生变化了，为我们新增文件的日期。
 
 ```
-ct@localhost:~/trash/ehbio$ ls -ltr webserver/record.md
--rw-r--r--. 1 ct ehbio 74 Jan  7 10:49 webserver/record.md
-ct@localhost:~/trash/ehbio$ ls -ltr
+ysx@localhost:~/trash/ehbio$ ls -ltr webserver/record.md
+-rw-r--r--. 1 ysx ehbio 74 Jan  7 10:49 webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -ltr
 total 0
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 bioinfoservice
-drwxr-xr-x. 2 ct ehbio 22 Jan  7 10:49 webserver
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 bioinfoservice
+drwxr-xr-x. 2 ysx ehbio 22 Jan  7 10:49 webserver
 ```
 
 那么再继续追加内容，还是使用`cat` (不同写入方式也有影响，后面会提到)。
 
 ```
-ct@localhost:~/trash/ehbio$ cat <<END >>webserver/record.md 
+ysx@localhost:~/trash/ehbio$ cat <<END >>webserver/record.md 
 2. 一个网站发表于NAR数据库专刊，3个网站正在投稿中。
 END
 ```
@@ -52,13 +52,13 @@ END
 这时再看文件夹日期，发现与文件不同步了。文件日期`更新`了，文件夹日期却`没变`。
 
 ```
-ct@localhost:~/trash/ehbio$ ls -ltr webserver/record.md
--rw-r--r--. 1 ct ehbio 148 Jan  7 10:52 webserver/record.md
-ct@localhost:~/trash/ehbio$ ls -ltr
+ysx@localhost:~/trash/ehbio$ ls -ltr webserver/record.md
+-rw-r--r--. 1 ysx ehbio 148 Jan  7 10:52 webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -ltr
 total 0
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 bioinfoservice
-drwxr-xr-x. 2 ct ehbio 22 Jan  7 10:49 webserver
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 bioinfoservice
+drwxr-xr-x. 2 ysx ehbio 22 Jan  7 10:49 webserver
 ```
 
 我们有每天必须做工作记录的习惯，查看工作记录有无更新时，根据文件夹日期来判断文件夹内的文件内容有没有更新就不合适了。
@@ -69,11 +69,11 @@ drwxr-xr-x. 2 ct ehbio 22 Jan  7 10:49 webserver
 
 
 ```
-ct@localhost:~/trash/ehbio$ less webserver/
+ysx@localhost:~/trash/ehbio$ less webserver/
 total 4
-drwxr-xr-x. 2 ct ehbio  22 Jan  7 10:49 ./
-drwxr-xr-x. 5 ct ehbio  70 Jan  7 10:48 ../
--rw-r--r--. 1 ct ehbio 148 Jan  7 10:52 record.md
+drwxr-xr-x. 2 ysx ehbio  22 Jan  7 10:49 ./
+drwxr-xr-x. 5 ysx ehbio  70 Jan  7 10:48 ../
+-rw-r--r--. 1 ysx ehbio 148 Jan  7 10:52 record.md
 ```
 
 而实际上确实是类似文本文件的方式存储的，文件夹可以看做`文件inode:文件名`组成的文本文件。只要文件夹内未发生文件的新增、删除、软链或文件夹内文件的`inode` (也称为索引节点)未改变，文件夹的时间戳就不会发生变化。
@@ -82,12 +82,12 @@ drwxr-xr-x. 5 ct ehbio  70 Jan  7 10:48 ../
 
 ```
 # -i可查看文件的inode
-ct@localhost:~/trash/ehbio$ ls -ai webserver/
+ysx@localhost:~/trash/ehbio$ ls -ai webserver/
 2763934 .  2764125 ..   104480 record.md
-ct@localhost:~/trash/ehbio$ cat <<END >>webserver/record.md 
+ysx@localhost:~/trash/ehbio$ cat <<END >>webserver/record.md 
 > 3. 继续为大数据的再次利用和更方便利用而努力
 > END
-ct@localhost:~/trash/ehbio$ ls -ai webserver/
+ysx@localhost:~/trash/ehbio$ ls -ai webserver/
 2763934 .  2764125 ..   104480 record.md
 ```
 
@@ -98,28 +98,28 @@ ct@localhost:~/trash/ehbio$ ls -ai webserver/
 
 大家注意这里面`webserver`日期与`webserver/record.md`日期的变化和`ls -i`的输出结果的变化。
 ```
-ct@localhost:~/trash/ehbio$ ls -ltr 
+ysx@localhost:~/trash/ehbio$ ls -ltr 
 total 0
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 bioinfoservice
-drwxr-xr-x. 2 ct ehbio 22 Jan  7 10:49 webserver
-ct@localhost:~/trash/ehbio$ ls -ltr webserver/record.md 
--rw-r--r--. 1 ct ehbio 212 Jan  7 11:03 webserver/record.md
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 bioinfoservice
+drwxr-xr-x. 2 ysx ehbio 22 Jan  7 10:49 webserver
+ysx@localhost:~/trash/ehbio$ ls -ltr webserver/record.md 
+-rw-r--r--. 1 ysx ehbio 212 Jan  7 11:03 webserver/record.md
 
 # -i可查看文件的inode
-ct@localhost:~/trash/ehbio$ ls -i webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -i webserver/record.md
 104480 webserver/record.md
-ct@localhost:~/trash/ehbio$ vim webserver/record.md
-ct@localhost:~/trash/ehbio$ ls -ltr webserver/record.md 
--rw-r--r--. 1 ct ehbio 215 Jan  7 11:06 webserver/record.md
-ct@localhost:~/trash/ehbio$ ls -ltr
+ysx@localhost:~/trash/ehbio$ vim webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -ltr webserver/record.md 
+-rw-r--r--. 1 ysx ehbio 215 Jan  7 11:06 webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -ltr
 total 0
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 bioinfoservice
-drwxr-xr-x. 2 ct ehbio 22 Jan  7 11:06 webserver
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 bioinfoservice
+drwxr-xr-x. 2 ysx ehbio 22 Jan  7 11:06 webserver
 
 # -i可查看文件的inode
-ct@localhost:~/trash/ehbio$ ls -i webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -i webserver/record.md
 2465326 webserver/record.md
 ```
 
@@ -128,28 +128,28 @@ ct@localhost:~/trash/ehbio$ ls -i webserver/record.md
 在另外一个情况下，如果我们对文件夹**无**可写权限，但对该文件夹内的文件**有可写权限**时，`vim`自动调用另外一个方式修改文件，先把文件做个备份，然后原位修改。
 
 ```
-ct@localhost:~/trash/ehbio$ chmod a-w webserver/
-ct@localhost:~/trash/ehbio$ ls -ltr
+ysx@localhost:~/trash/ehbio$ chmod a-w webserver/
+ysx@localhost:~/trash/ehbio$ ls -ltr
 total 0
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 bioinfoservice
-dr-xr-xr-x. 2 ct ehbio 22 Jan  7 11:06 webserver
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 bioinfoservice
+dr-xr-xr-x. 2 ysx ehbio 22 Jan  7 11:06 webserver
 # 写不进去
-ct@localhost:~/trash/ehbio$ vim webserver/a
+ysx@localhost:~/trash/ehbio$ vim webserver/a
 
 # 可以修改
-ct@localhost:~/trash/ehbio$ vim webserver/record.md 
-ct@localhost:~/trash/ehbio$ ls -ltr webserver/record.md
--rw-r--r--. 1 ct ehbio 249 Jan  7 11:15 webserver/record.md
+ysx@localhost:~/trash/ehbio$ vim webserver/record.md 
+ysx@localhost:~/trash/ehbio$ ls -ltr webserver/record.md
+-rw-r--r--. 1 ysx ehbio 249 Jan  7 11:15 webserver/record.md
 # 文件夹时间戳未变
-ct@localhost:~/trash/ehbio$ ls -ltr
+ysx@localhost:~/trash/ehbio$ ls -ltr
 total 0
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 train
-drwxr-xr-x. 2 ct ehbio  6 Jan  7 10:48 bioinfoservice
-dr-xr-xr-x. 2 ct ehbio 22 Jan  7 11:06 webserver
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 train
+drwxr-xr-x. 2 ysx ehbio  6 Jan  7 10:48 bioinfoservice
+dr-xr-xr-x. 2 ysx ehbio 22 Jan  7 11:06 webserver
 
 # 文件inode也未变
-ct@localhost:~/trash/ehbio$ ls -i webserver/record.md
+ysx@localhost:~/trash/ehbio$ ls -i webserver/record.md
 2465326 webserver/record.md
 ```
 
