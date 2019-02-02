@@ -32,7 +32,7 @@ tags:
 
 ### 加拿大生信课程
 
-* [国外生信教程免费领 | 加拿大生信开源学习资源Bioinformatics.ca](https://mp.weixin.qq.com/s/hQRPqZzXCJc6-O9WAt7qIQ)
+* [国外生信教程免费领 加拿大生信开源学习资源Bioinformatics.ca](https://mp.weixin.qq.com/s/hQRPqZzXCJc6-O9WAt7qIQ)
 * [Bioinformatics_for_Cancer_Genomics](http://www.ehbio.com/ehbio_resource/canada/1.Bioinformatics_for_Cancer_Genomics.zip)
 * [Informatics_on_High-Throughput_Sequencing_Data](http://www.ehbio.com/ehbio_resource/canada/2.Informatics_on_High-Throughput_Sequencing_Data.zip)
 * [Informatics_for_RNA-Seq_Analysis](http://www.ehbio.com/ehbio_resource/canada/3.Informatics_for_RNA-Seq_Analysis.zip)
@@ -145,7 +145,7 @@ tags:
 * [2018年生信宝典阅读最高文章Top10](https://mp.weixin.qq.com/s/sXdstWOI6NayOlgBcJcI6A)
 * [这些基因的名字太有才了，研究一下都可以发10分文章](https://mp.weixin.qq.com/s/UiUc3ctUnMsFqhNk00mijw)
 * [人类多能性干细胞研究20周年：起始于5个细胞系，我们未来20年的进步将取决于我们现在做的](https://mp.weixin.qq.com/s/aqbS4g_zfjVrNZpqII0YDw)
-* [许多癌症的发生只是概率问题 | 专访约翰·霍普金斯大学病理系主任拉尔夫·赫鲁班](https://mp.weixin.qq.com/s/hFk3gSBtMfjzp6U7jw4sxw)
+* [许多癌症的发生只是概率问题 专访约翰·霍普金斯大学病理系主任拉尔夫·赫鲁班](https://mp.weixin.qq.com/s/hFk3gSBtMfjzp6U7jw4sxw)
 * [肿瘤化疗无效是对预先存在的突变的选择还是诱发新突变，Cell给你答案](https://mp.weixin.qq.com/s/HhGotXHxd_9maKwrjiBEFA)
 * [“人鸡胚胎”破解生命起源奥秘，百年来首次证实“组织者”存在于人体 ｜《Nature》发表重磅论文](https://mp.weixin.qq.com/s/jUZvUlpN9I4GTLW8F-0pOQ)
 * [被高中生物骗了这么多年，原来人体内细胞的DNA是有不同的？](https://mp.weixin.qq.com/s/ELpachAsALTwJMPFjM1rrA)
@@ -186,7 +186,7 @@ tags:
 * [文献检索新姿势，教你如何直搜文中的科研图片！](https://mp.weixin.qq.com/s/-AKcDtiUTVg-CnVWlTNYUA)
 * [颠覆！垃圾DNA不是垃圾！活细胞成像实时演绎基因调控全过程！](https://mp.weixin.qq.com/s/rYf6RplVKelRx2bLwM-hmg)
 
-### Linux 
+### Linux 全介绍
 
 * [免费Linux系统和生信宝典原创学习教程](https://mp.weixin.qq.com/s/rXjQfyEX2FnuW9HTM_Uc8Q)
 * [Linux - 总目录](http://mp.weixin.qq.com/s/hEYU80fPf1eD5OWL3fO4Bg)
@@ -266,9 +266,57 @@ tags:
 * [ggplot2学习笔记之图形排列](https://mp.weixin.qq.com/s/6Ww-4VAkkT0faKMt03E8eQ)
 * [R包reshape2，轻松实现长、宽数据表格转换](https://mp.weixin.qq.com/s/BCHrp0s9QKSRpFbDm8BiXw)
 * [用R在地图上绘制网络图的三种方法](https://mp.weixin.qq.com/s/xI26K6Rgej3ncwPWyotpRA)
-* [PCA主成分分析实战和可视化 | 附R代码和测试数据](https://mp.weixin.qq.com/s/4R14xJkQVPtaufaoXOcPIw)
+* [PCA主成分分析实战和可视化 附R代码和测试数据](https://mp.weixin.qq.com/s/4R14xJkQVPtaufaoXOcPIw)
 * [iTOL快速绘制颜值最高的进化树！](https://mp.weixin.qq.com/s/0we4lhw0MNcedSmFel0eeA)
 * [12个ggplot2扩展包帮你实现更强大的可视化](https://mp.weixin.qq.com/s/gVgjzw5mGwvSIimkMtlFqQ)
+* [编程模板-R语言脚本写作：最简单的统计与绘图，包安装、命令行参数解析、文件读取、表格和矢量图输出](https://mp.weixin.qq.com/s/G1B_cDHRzufgppu6S6_aQg)
+* [R语言统计入门课程推荐——生物科学中的数据分析Data Analysis for the Life Sciences](https://mp.weixin.qq.com/s/6t2tyHMHzBBuk5AJN0NdJw)
+* [数据可视化基本套路总结](https://mp.weixin.qq.com/s/Qeb9iGbJ8h0UpUTMKP7ilw)
+* [你知道R中的赋值符号箭头`<-`和等号`=`的区别吗？](http://mp.weixin.qq.com/s/rWny8Pxs_plkRML-SvMbrw)
+* [使用dplyr进行数据操作30例](https://mp.weixin.qq.com/s/Pqu1HbRYt2hHfrQtntNaoQ)
+* [交集intersect、并集union、找不同setdiff](https://mp.weixin.qq.com/s/S8vz5gkgt2sN7qSec0QjZQ)
+* [R包reshape2，轻松实现长、宽数据表格转换](https://mp.weixin.qq.com/s/anXyVV611jQDSzqxHEOyNg)
+* [1数据类型（向量、数组、矩阵、 列表和数据框）](http://mp.weixin.qq.com/s/cfJ_fDTPyzdODuGrOAqkyA)
+* [2读写数据所需的主要函数、与外部环境交互](http://mp.weixin.qq.com/s/zruyejusS_ElQvmVJI75uw)
+* [3数据筛选——提取对象的子集](https://mp.weixin.qq.com/s/iBDthC43KRvu1pnR-2fZoA)
+* [4向量、矩阵的数学运算](http://mp.weixin.qq.com/s/9HRnpis1QORzeM84dNy30A)
+* [5控制结构](http://mp.weixin.qq.com/s/EJTBI72DF5B6GmfX-qweFw)
+* [6函数及作用域](http://mp.weixin.qq.com/s/EZgNDejzWxdOqcll67wLKQ)
+* [7认识循环函数lapply和sapply](https://mp.weixin.qq.com/s/K8oJLRQEfKq2XAeXpnyS7w)
+* [8分解数据框split和查看对象str](https://mp.weixin.qq.com/s/MO220s7m9y8ixWBmRN6fBg)
+* [9模拟—随机数、抽样、线性模型](https://mp.weixin.qq.com/s/6VrRjH4tx6VSqNIJ8qw7Kg)
+* [1初识ggplot2绘制几何对象](http://mp.weixin.qq.com/s/mY3GTSH8gGUymCfIlw-3Pw)
+* [2图层的使用—基础、加标签、注释](https://mp.weixin.qq.com/s/X3rn8w1DGPoVrAdInYHgpw)
+* [3工具箱—误差线、加权数、展示数据分布](http://mp.weixin.qq.com/s/lGVgCsm1sMRdVOUJWiJQTg)
+* [4语法基础](https://mp.weixin.qq.com/s/TPFLeasq8Ij2iqgXbx1cpA)
+* [5通过图层构建图像](http://mp.weixin.qq.com/s/lh37uz8XwmAbtOVrZX4BJw)
+* [6标度、轴和图例](https://mp.weixin.qq.com/s/Za0Eoc5eN_N-VhjhI47Pgg)
+* [7定位-分面和坐标系](https://mp.weixin.qq.com/s/Ez_eyu6nPUMolrJ_S4JExQ)
+* [8主题设置、存储导出](https://mp.weixin.qq.com/s/xg7cggq45tBI0EQUSxPKFw)
+* [9绘图需要的数据整理技术](https://mp.weixin.qq.com/s/7eXMJldxZC2BmKKvkGPIPQ)
+* [创建属于自己的调色板](https://mp.weixin.qq.com/s/4deLanbRsaikG1H_FNoISw)
+* [28个实用绘图包，总有几个适合你](https://mp.weixin.qq.com/s/tUQlQIo9PpgBSwjx8yuM1A)
+* [热图绘制](https://mp.weixin.qq.com/s/uNh_BaoY07nn7VWnWp9ikg)
+* [R做线性回归](https://mp.weixin.qq.com/s/7KvVn18MFLlh1WdnTlEoeg)
+* [绘图相关系数矩阵corrplot](http://mp.weixin.qq.com/s/H4_2_vb2w_njxPziDzV4HQ)
+* [相关矩阵可视化ggcorrplot](http://mp.weixin.qq.com/s/AEfPqWO3S0mRnDZ_Ws9fnw)
+* [绘制交互式图形recharts](http://mp.weixin.qq.com/s/XOZD4ftYLPZjM2IVLYgUpA)
+* [交互式可视化CanvasXpress](http://mp.weixin.qq.com/s/EQ7-T66YlAYvqa33Y8z7YA)
+* [聚类分析factoextra](https://mp.weixin.qq.com/s/9EChqbVmFrNWi_Siu4hdqQ)
+* [LDA分析、作图及添加置信-ggord](https://mp.weixin.qq.com/s/F9c_ISpOpjHyiCNahoYTqQ)
+* [解决散点图样品标签重叠ggrepel](http://mp.weixin.qq.com/s/hxBAlnK_1ZSGJQg1mwsssw)
+* [添加P值或显著性标记ggpubr](http://mp.weixin.qq.com/s/cge7KLG6XMkSr2XkAPzzDQ)
+* [Alpha多样性稀释曲线rarefraction curve](http://mp.weixin.qq.com/s/pQluUR7MYSZCheqVvAaNWA)
+* [堆叠柱状图各成分连线画法：突出组间变化](https://mp.weixin.qq.com/s/FZWinr14RTs6YSUE_juaug)
+* [冲击图展示组间时间序列变化ggalluvial](http://mp.weixin.qq.com/s/dgxgi_3PdjW5g-fOPlAe4Q)
+* [桑基图riverplot](http://mp.weixin.qq.com/s/-Hvp6To39v3hB68yoZoUiA) 
+* [微生物环境因子分析ggvegan](http://mp.weixin.qq.com/s/9FVUz0KxG56q7rxrEUa4JQ)
+* [五彩进化树与热图更配ggtree](http://mp.weixin.qq.com/s/yWzFAS8Nk6fpTuAJzbG6nA)
+* [多元回归树分析mvpart](http://mp.weixin.qq.com/s/LQyX-RBAuZ-7i7kjvbxDsw)
+* 随机森林randomForest [分类Classification](https://mp.weixin.qq.com/s/gR9p315RfvJyyv5soB2CmQ) [回归Regression](https://mp.weixin.qq.com/s/IjkeAA_fhb_B5XmrWrzAbw)
+* [加权基因共表达网络分析WGCNA](https://mp.weixin.qq.com/s/BkM9vtX_gbehUFmuXfshUw)
+* [circlize包绘制circos-plot](https://mp.weixin.qq.com/s/-bRF7OXaj091Ob1dwprMWQ)
+* [R语言搭建炫酷的线上博客系统](https://mp.weixin.qq.com/s/QOCUQIk3Qs5aVRX2PKQ6dA)
 
 ### Graphpad
 
@@ -310,7 +358,7 @@ tags:
 * [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
 * [没钱买KEGG怎么办？REACTOME开源通路更强大](https://mp.weixin.qq.com/s/jI6Gz1JKxnGB9jDRSFjd0g)
 * [表观遗传小白逆袭之道：从这 19 个视频开始吧！](https://mp.weixin.qq.com/s/Pn1f8oHgt4Mg5_R5-UbaKw)
-* [AnimalTFDB 3.0 | 动物转录因子注释和预测的综合资源库](https://mp.weixin.qq.com/s/6lCpNhPkgsCI-bWW1Ip4cg)
+* [AnimalTFDB 3.0 动物转录因子注释和预测的综合资源库](https://mp.weixin.qq.com/s/6lCpNhPkgsCI-bWW1Ip4cg)
 
 ### 癌症数据库
 
@@ -465,7 +513,7 @@ tags:
 * [**QIIME2中文教程-把握分析趋势**](http://mp.weixin.qq.com/s/wkn-91BVOSWZLRvlcaaEgg) 
 * **16S功能预测** [0概述](http://mp.weixin.qq.com/s/sztbvfdf9wa-3HJXc_m8TQ)   [1KO通路PICRUSt](https://mp.weixin.qq.com/s/LWtiwBbUCAadMZPaKKDMag)  [2元素循环FAPROTAX](http://mp.weixin.qq.com/s/J8EwJD_PTDhqRaD7kXlK1A)  [3表型bugbase](https://mp.weixin.qq.com/s/1WdysPZWo0H6NSYiNpcMUQ) [4KO通路Tax4Fun](http://mp.weixin.qq.com/s/dzsh44ue93xnAs7gTde7wg)  
 * [水稻微生物组时间序列分析](http://mp.weixin.qq.com/s/qxDBa-opLPecfISPi7qI3g) [1模式图与PCoA](https://mp.weixin.qq.com/s/6l6lC-DlwSlsivlD5eI4Qg)  [2a相关分析](https://mp.weixin.qq.com/s/31GlVfOXpq_Z07MLnWgtow) [2b散点图拟合](https://mp.weixin.qq.com/s/WUtV6XnzA4a6PNiROjrWEQ) [3冲击图](https://mp.weixin.qq.com/s/mJLtkLxbXklrRtFgRNodMA) [4随机森林回归](https://mp.weixin.qq.com/s/pyIoUs_YGuzLyc2gAet6BA)
-* [9个模块＋40余款软件＋老司机辣评 | 16S信息分析流程软件和数据库合集](https://mp.weixin.qq.com/s/7r8SFoP4tIy6A1xXTMe4KA)
+* [9个模块＋40余款软件＋老司机辣评 16S信息分析流程软件和数据库合集](https://mp.weixin.qq.com/s/7r8SFoP4tIy6A1xXTMe4KA)
 * [Nature Method ：Rob Knight发布Striped UniFrac算法轻松分析微生物组大数据](https://mp.weixin.qq.com/s/EoIoW-dS883_GHo_nr1TNQ)
 * [01-背景介绍](https://mp.weixin.qq.com/s/NNc4t0htSwE2IQPxWCHbwA)
 * [02-真菌引物选择](https://mp.weixin.qq.com/s/qesgLtXY3xP-1W-uMP-KmQ)
@@ -496,19 +544,12 @@ tags:
 * [斯坦福大学统计系教授带你玩转微生物组分析](https://mp.weixin.qq.com/s/Zcjhi6fnXQHIqPodDSPBnw)
 * [一文读懂宏基因组binning](https://mp.weixin.qq.com/s/BHCs2Y97jXL-2kInlu49UA)
 * 30余款宏基因组分析软件经验总结[上](https://mp.weixin.qq.com/s/kwq9XSCid2QXD_Ajar3PAw) [中](https://mp.weixin.qq.com/s/vlM2Z2wJjjKSAb4edk9tXQ) [下](https://mp.weixin.qq.com/s/PdIFSPgiUaM9NfT4LoqI4g)
-* [微生物组学数据分析工具综述 | 16S+宏基因组＋宏病毒组＋宏转录组](https://mp.weixin.qq.com/s/xsL9GuLs7b3nRF8VeRtinQ)
+* [微生物组学数据分析工具综述 16S+宏基因组＋宏病毒组＋宏转录组](https://mp.weixin.qq.com/s/xsL9GuLs7b3nRF8VeRtinQ)
 * [Nature Protocols：整合宏基因组、代谢组和表型分析的的计算框架](https://mp.weixin.qq.com/s/hvlSQ-HI7JOdZ8_m2PKo5A)
-
-**有参分析**
-
 * [MetaPhlAn2一条命令获得宏基因组物种组成](https://mp.weixin.qq.com/s/hpJtU8I8OTPmwOeFh7R2VQ)
 * [Nature Method：HUMAnN2实现宏基因组和宏转录组种水平功能组成分析](https://mp.weixin.qq.com/s/A7sPhiUWHc1Jph_yySKMQg)
 * [HUMAnN2：人类微生物组统一代谢网络分析2](https://mp.weixin.qq.com/s/Ee72jnZR4bXLjd8jEYYSFQ)
 * [宏基因组有参流程Metagenomics Tutorial (HUMAnN2)](https://mp.weixin.qq.com/s/XkfT5MAo96KgyyVaN_Fl7g)
-
- 
-**De novo**
-
 * [1背景知识-Shell入门与本地blast实战](http://mp.weixin.qq.com/s/jASOBPzpwYCL-fWNUJJp8g)
 * [2数据质控fastqc, Trimmomatic, MultiQC, khmer](http://mp.weixin.qq.com/s/3O01eNMe79J_kUTaJjP6ag)
 * [3组装拼接MEGAHIT和评估quast](http://mp.weixin.qq.com/s/NMKX0iDuR_qOzmLXxC8MEQ)
@@ -519,20 +560,11 @@ tags:
 * [8分箱宏基因组binning, MaxBin, MetaBin, VizBin](http://mp.weixin.qq.com/s/rZitcvykAlxnsNEzsW5JRg)
 * [9组装assembly和分箱bin结果可视化—Anvi'o](http://mp.weixin.qq.com/s/FesH_mCunpZLpKC2pIg1UQ)
 * [10绘制圈图-Circos安装与使用](http://mp.weixin.qq.com/s/FJlKY3kU5Fm6bYkjtwRkEw)
-
-**功能注释数据库**
-
 * [KEGG在线数据库使用攻略](http://mp.weixin.qq.com/s/C6uetbAv_Cj8s0jMgSfW7Q)
 * [NAR-2018-dbCAN2鉴定宏基因组CAZYome碳水化合物相关基因](https://mp.weixin.qq.com/s/iyt6NOSHRHLOIPyoc7r_Gw)
 * [EggNOG功能注释数据库在线和本地使用](https://mp.weixin.qq.com/s/UQ1xL9LBSKHFSygmu4oDPQ)
 * [antiSMASH：微生物次生代谢物基因簇预测](http://mp.weixin.qq.com/s/0MkmAw7f8uVQihrbUA2Z9Q)  
-
-**分箱专题**
-
 * Microbiome：宏基因组分箱流程MetaWRAP [简介](https://mp.weixin.qq.com/s/_bqIPb_N3uFW9ppZeNtdKg) [安装和数据库部署](https://mp.weixin.qq.com/s/WrbKYybTCKab3AUcSzUWqg)  [实战和结果解读](https://mp.weixin.qq.com/s/Ecn4DOrhfUhz1HynbgQtnw)
-
-**统计分析及可视化**
-
 * [Krona绘制物种或功能组成圈图](https://mp.weixin.qq.com/s/62CXHcz9ZisVsRgbUjTK8A)
 * [microbiomeViz：绘制lefse结果中Cladogram](https://mp.weixin.qq.com/s/psGD9-AxgcCfclGhOKR1mQ)
 * [MMinte：预测微生物群体内代谢物互作](https://mp.weixin.qq.com/s/1CXMxVlMq8HpvMtTNALKkQ)
@@ -550,64 +582,6 @@ tags:
 
 ### R统计绘图
 
-**R语言基础系列：**
-
-* [编程模板-R语言脚本写作：最简单的统计与绘图，包安装、命令行参数解析、文件读取、表格和矢量图输出](https://mp.weixin.qq.com/s/G1B_cDHRzufgppu6S6_aQg)
-* [R语言统计入门课程推荐——生物科学中的数据分析Data Analysis for the Life Sciences](https://mp.weixin.qq.com/s/6t2tyHMHzBBuk5AJN0NdJw)
-* [数据可视化基本套路总结](https://mp.weixin.qq.com/s/Qeb9iGbJ8h0UpUTMKP7ilw)
-* [你知道R中的赋值符号箭头`<-`和等号`=`的区别吗？](http://mp.weixin.qq.com/s/rWny8Pxs_plkRML-SvMbrw)
-* [使用dplyr进行数据操作30例](https://mp.weixin.qq.com/s/Pqu1HbRYt2hHfrQtntNaoQ)
-* [交集intersect、并集union、找不同setdiff](https://mp.weixin.qq.com/s/S8vz5gkgt2sN7qSec0QjZQ)
-* [R包reshape2，轻松实现长、宽数据表格转换](https://mp.weixin.qq.com/s/anXyVV611jQDSzqxHEOyNg)
-* [1数据类型（向量、数组、矩阵、 列表和数据框）](http://mp.weixin.qq.com/s/cfJ_fDTPyzdODuGrOAqkyA)
-* [2读写数据所需的主要函数、与外部环境交互](http://mp.weixin.qq.com/s/zruyejusS_ElQvmVJI75uw)
-* [3数据筛选——提取对象的子集](https://mp.weixin.qq.com/s/iBDthC43KRvu1pnR-2fZoA)
-* [4向量、矩阵的数学运算](http://mp.weixin.qq.com/s/9HRnpis1QORzeM84dNy30A)
-* [5控制结构](http://mp.weixin.qq.com/s/EJTBI72DF5B6GmfX-qweFw)
-* [6函数及作用域](http://mp.weixin.qq.com/s/EZgNDejzWxdOqcll67wLKQ)
-* [7认识循环函数lapply和sapply](https://mp.weixin.qq.com/s/K8oJLRQEfKq2XAeXpnyS7w)
-* [8分解数据框split和查看对象str](https://mp.weixin.qq.com/s/MO220s7m9y8ixWBmRN6fBg)
-* [9模拟—随机数、抽样、线性模型](https://mp.weixin.qq.com/s/6VrRjH4tx6VSqNIJ8qw7Kg)
-
-
-**ggplot2绘图基础系列：**
-
-* [1初识ggplot2绘制几何对象](http://mp.weixin.qq.com/s/mY3GTSH8gGUymCfIlw-3Pw)
-* [2图层的使用—基础、加标签、注释](https://mp.weixin.qq.com/s/X3rn8w1DGPoVrAdInYHgpw)
-* [3工具箱—误差线、加权数、展示数据分布](http://mp.weixin.qq.com/s/lGVgCsm1sMRdVOUJWiJQTg)
-* [4语法基础](https://mp.weixin.qq.com/s/TPFLeasq8Ij2iqgXbx1cpA)
-* [5通过图层构建图像](http://mp.weixin.qq.com/s/lh37uz8XwmAbtOVrZX4BJw)
-* [6标度、轴和图例](https://mp.weixin.qq.com/s/Za0Eoc5eN_N-VhjhI47Pgg)
-* [7定位-分面和坐标系](https://mp.weixin.qq.com/s/Ez_eyu6nPUMolrJ_S4JExQ)
-* [8主题设置、存储导出](https://mp.weixin.qq.com/s/xg7cggq45tBI0EQUSxPKFw)
-* [9绘图需要的数据整理技术](https://mp.weixin.qq.com/s/7eXMJldxZC2BmKKvkGPIPQ)
-* [创建属于自己的调色板](https://mp.weixin.qq.com/s/4deLanbRsaikG1H_FNoISw)
-
-
-**高级统计绘图：**
-
-* [28个实用绘图包，总有几个适合你](https://mp.weixin.qq.com/s/tUQlQIo9PpgBSwjx8yuM1A)
-* [热图绘制](https://mp.weixin.qq.com/s/uNh_BaoY07nn7VWnWp9ikg)
-* [R做线性回归](https://mp.weixin.qq.com/s/7KvVn18MFLlh1WdnTlEoeg)
-* [绘图相关系数矩阵corrplot](http://mp.weixin.qq.com/s/H4_2_vb2w_njxPziDzV4HQ)
-* [相关矩阵可视化ggcorrplot](http://mp.weixin.qq.com/s/AEfPqWO3S0mRnDZ_Ws9fnw)
-* [绘制交互式图形recharts](http://mp.weixin.qq.com/s/XOZD4ftYLPZjM2IVLYgUpA)
-* [交互式可视化CanvasXpress](http://mp.weixin.qq.com/s/EQ7-T66YlAYvqa33Y8z7YA)
-* [聚类分析factoextra](https://mp.weixin.qq.com/s/9EChqbVmFrNWi_Siu4hdqQ)
-* [LDA分析、作图及添加置信-ggord](https://mp.weixin.qq.com/s/F9c_ISpOpjHyiCNahoYTqQ)
-* [解决散点图样品标签重叠ggrepel](http://mp.weixin.qq.com/s/hxBAlnK_1ZSGJQg1mwsssw)
-* [添加P值或显著性标记ggpubr](http://mp.weixin.qq.com/s/cge7KLG6XMkSr2XkAPzzDQ)
-* [Alpha多样性稀释曲线rarefraction curve](http://mp.weixin.qq.com/s/pQluUR7MYSZCheqVvAaNWA)
-* [堆叠柱状图各成分连线画法：突出组间变化](https://mp.weixin.qq.com/s/FZWinr14RTs6YSUE_juaug)
-* [冲击图展示组间时间序列变化ggalluvial](http://mp.weixin.qq.com/s/dgxgi_3PdjW5g-fOPlAe4Q)
-* [桑基图riverplot](http://mp.weixin.qq.com/s/-Hvp6To39v3hB68yoZoUiA) 
-* [微生物环境因子分析ggvegan](http://mp.weixin.qq.com/s/9FVUz0KxG56q7rxrEUa4JQ)
-* [五彩进化树与热图更配ggtree](http://mp.weixin.qq.com/s/yWzFAS8Nk6fpTuAJzbG6nA)
-* [多元回归树分析mvpart](http://mp.weixin.qq.com/s/LQyX-RBAuZ-7i7kjvbxDsw)
-* 随机森林randomForest [分类Classification](https://mp.weixin.qq.com/s/gR9p315RfvJyyv5soB2CmQ) [回归Regression](https://mp.weixin.qq.com/s/IjkeAA_fhb_B5XmrWrzAbw)
-* [加权基因共表达网络分析WGCNA](https://mp.weixin.qq.com/s/BkM9vtX_gbehUFmuXfshUw)
-* [circlize包绘制circos-plot](https://mp.weixin.qq.com/s/-bRF7OXaj091Ob1dwprMWQ)
-* [R语言搭建炫酷的线上博客系统](https://mp.weixin.qq.com/s/QOCUQIk3Qs5aVRX2PKQ6dA)
 
 
 ### 实验设计与技术
@@ -624,10 +598,6 @@ tags:
 * [两种土壤细菌群落结构高通量绝对定量方法](http://mp.weixin.qq.com/s/0SQVdR4RwxEApC6EdBP3Eg)
 * [MiBioGen联盟倡议：综合分析人类基因组与菌群关系研究](https://mp.weixin.qq.com/s/4y_97kfCNek4Jh6WXTnZdA)
 * [Microbiome：16S扩增子测序研究中定量变异和生物量影响](https://mp.weixin.qq.com/s/q5AOdB2-Xun_pddhgKQutQ   )
- 
-
-### 基础知识
-
 * [有声专栏-宏基因组专业词汇—001宏基因组](http://mp.weixin.qq.com/s/Vsm6BJgqsSvxEenIBrGVLw)
 * [Microbiota, metagenome, microbiome傻傻分不清](http://mp.weixin.qq.com/s/kBbWD6ircc4UHE-ma-6a1Q)
 * [16S测序，不知道OTU你就out了！](http://mp.weixin.qq.com/s/yDmUgRzgJDtxdiJqwpGM1A)
@@ -651,9 +621,8 @@ tags:
 * 学习全基因组测序数据分析 [1测序技术](https://mp.weixin.qq.com/s/UVMb8478xVGcX5sjjie72g) [2fasta&fastq](https://mp.weixin.qq.com/s/mbNryd7D51OZVnbLgXQssQ)
 
 
-### 一作解读
+### 文献精读
 
-一作解读专栏，由论文第一，或共同第一作者，来亲自讲述文章结果和背后的故事。
 * [Microbiome：中国科学家完成鸡肠道微生物宏基因集的构建(张和平、魏泓、秦楠点评)](https://mp.weixin.qq.com/s/VikfQJ9qDdJtroO_PaLOCA)
 * [Gut：人体最初的微生物起源与生殖健康](https://mp.weixin.qq.com/s/dTAnYr6y9AXdadP9pGJExQ) [孕期健康对孩子至关重要](https://mp.weixin.qq.com/s/vCDamM9KcaWjdtm7iUv0fQ)
 * [Microbiome：土壤微生物驱动退耕还林系统土壤剖面的养分循环](https://mp.weixin.qq.com/s/iSv86ywwa9Le6wh1ao4X6w)
@@ -664,12 +633,6 @@ tags:
 * [中国微生物组计划—农作物微生物组](https://mp.weixin.qq.com/s/Ssy1Rq8bWrBzymWI-Xslmw)  
 * [应用生态学报：东北黑土区不同纬度农田土壤真菌分子生态网络的比较](https://mp.weixin.qq.com/s/KE9H61Rt4zYYGKE_G2ZYyw)
 * [Sciences：用膳食纤维"钓"出15株缓解糖尿病的细菌！](https://mp.weixin.qq.com/s/HOlZF2lrHV_B6yLN3pRY_Q)
-
-
-### 文献精读
-
-精读主要是指全文翻译，一字不落的阅读，通常字数过万
-
 * [Nature: 来自细菌的通告——群体感知效应](http://mp.weixin.qq.com/s/8ltHVYeYksKLCs70FUctpg)
 * [Nature：皮肤微生物群-宿主相互作用](https://mp.weixin.qq.com/s/4EN60krGP2yMoIF6t4BamQ)
 * [Nature综述：人类微生物培养及培养组学culturomics](https://mp.weixin.qq.com/s/6xayEgL5Rg2fV73_Q3x4Ag)
@@ -683,9 +646,6 @@ tags:
 * [NAR：MicrobiomeAnalyst微生物组分析师——统计、可视化和元分析微生物组数据的网页工具](https://mp.weixin.qq.com/s/6gB57h6uLISSAbLUhMoFhw)
 * [Nature综述：微生物的社交网络 - 营养缺陷型如何塑造复杂群落](https://mp.weixin.qq.com/s/qIy_kZSch0j_EkhKc7eD2Q)
 * [Cell综述：人类肠道菌群-从关联到调控](https://mp.weixin.qq.com/s/KY9IdA3DXBtBDhgC29NK8A)
-
-### 综述泛读
-
 * [Cell: 宏基因组学成为病毒分类新方法](https://mp.weixin.qq.com/s/HSZ0vtNwSjsuVD3wg42ttg)
 * [Nat Rev Microbiol：呼吸道菌群—呼吸道健康的守门人](http://mp.weixin.qq.com/s/DBYuQh4Pz2ZNpFXW71dD_Q)
 * [Nat. Plant: 可持续农业生态系统中的核心微生物组](https://mp.weixin.qq.com/s/a4AvKxMhkwzKmIj8tIvl8w)
@@ -698,15 +658,11 @@ tags:
 * [组学重建真菌现有分类系统](https://mp.weixin.qq.com/s/qpK28hjqvtPSCKKB9lWtYg)  
 * [FEMS: 森林微生物组多样性，复杂性和动态变化](https://mp.weixin.qq.com/s/uF-ihAuYz5IJuLytvOc6MQ)
 * [Nature Microbiology: 微生物数据的系统发育分析方法](https://mp.weixin.qq.com/s/K_rtf7AMzLBKO_cVKrBGKQ)
-* [Protein&Cell|解析宿主基因组和微生物的复杂互作](https://mp.weixin.qq.com/s/YT1mVkJ9h97rJgjMmlzCeg)
-* [Microbiome|植物内部微生物的相互作用](https://mp.weixin.qq.com/s/CePXRzsV6Np3ZchHXTDkpQ)
+* [Protein&Cell解析宿主基因组和微生物的复杂互作](https://mp.weixin.qq.com/s/YT1mVkJ9h97rJgjMmlzCeg)
+* [Microbiome植物内部微生物的相互作用](https://mp.weixin.qq.com/s/CePXRzsV6Np3ZchHXTDkpQ)
 * [微生物组学研究的可再现性、可重现性、稳定性与普适性](https://mp.weixin.qq.com/s/lQ_2A8nADxFznecgmGykug)
 * [TPS：植物相关微生物群在传统草药中的作用](https://mp.weixin.qq.com/s/S0RcTh6vWATn0LO3rn-32Q)
 * [Nature Microbiology：微生物与海洋全球变化](https://mp.weixin.qq.com/s/GhpG5fjsgTTAA1vGSmYraw)
-
-  
-### 高分文章套路解读
-
 * [NBT：根际微生物组抗番茄枯萎病](https://mp.weixin.qq.com/s/OAOy0aSS89hOWXasWUCW9A)
 * [Nature：益生菌清除致病菌的机制](https://mp.weixin.qq.com/s/jqyhW_ONjzokARwj2XTFbA) [科普：原来益生菌是这么搞定致病菌的](https://mp.weixin.qq.com/s/sBBwEqGp57wfkEJN6LTCwA)
 * [Nature: 高通量细菌分离培养鉴定](http://mp.weixin.qq.com/s/_xaxicmV5cyKfnYoKHQQbg)
@@ -763,7 +719,7 @@ tags:
 * [PNAS-2018-玉米根际的大规模田间重复研究确定可遗传的微生物](https://mp.weixin.qq.com/s/zn51oQYLhLy-GcihoXnL-g) [方法解读](https://mp.weixin.qq.com/s/_UKAnM6d09M59ToGaNNuIw)
 * [PNAS-2017-人工构建玉米极简微生物组](https://mp.weixin.qq.com/s/W4vsWC636tnXqFnB3Rtg-Q)
 * [PNAS: 儿童生长发育迟缓 = 长期饥饿？](https://mp.weixin.qq.com/s/sZz_NmaJ3RN51RHzK787yA)
-* [ISME|宏转录组揭示参与深海碳氮循环的微生物](https://mp.weixin.qq.com/s/SAJxWKBdIbhDxc9sRe5nug)
+* [ISME宏转录组揭示参与深海碳氮循环的微生物](https://mp.weixin.qq.com/s/SAJxWKBdIbhDxc9sRe5nug)
 * [PLOS Biology: 发现一种固氮玉米](https://mp.weixin.qq.com/s/hLFHUryPyHiO1JaOuHf0hA)
 * [PBio-2018：如何设计可预测植物表型的微生物组](https://mp.weixin.qq.com/s/USBc4DohTWd_Sjfk1vS3qw)
 * [npjsba-2018-用肠道微生物模型指导个性化膳食缓解局部性肠炎](https://mp.weixin.qq.com/s/lpYCxiKee23irqipKfjLEg)
@@ -783,16 +739,9 @@ tags:
 * [BBC人体奥秘Inside.the.Human.Body](https://mp.weixin.qq.com/s/xlCdN8il1hcutkYK-42fAQ)
 * [NGC人体内旅行Inside.the.Living.Body](http://mp.weixin.qq.com/s/xqgolgPlRDYQDkDiWu8zOA)
 * [NGC子宫日记Womb](http://mp.weixin.qq.com/s/XZ5yNW56Bf4NFkcbuxgQYw)  
-
-
-### 科普图文
-
-**原创**
 * [原来益生菌是这么搞定致病菌的](https://mp.weixin.qq.com/s/sBBwEqGp57wfkEJN6LTCwA)
 * [CNS接连发文背书，原来生姜这么神奇](https://mp.weixin.qq.com/s/ZVX0TDjrFUi8OxdYJ_Dtcw)
 * [漱口水增加糖尿病，高血压风险](http://mp.weixin.qq.com/s/NxNcDljhyvubbYzVgggHfw)
-
-**SME科学故事**
 * [一顿寄生虫大餐，或能治好干净引来的免疫病](https://mp.weixin.qq.com/s/hX0K9TOLPnrZ6f8lUoSYag)
 * [致命病毒为何疯狂袭击人类？](http://mp.weixin.qq.com/s/CAh-hYRCfvQbyDeh6xlyYA)
 * [马铃薯晚疫病：引发百万人死亡和逃难](http://mp.weixin.qq.com/s/jv2ZKWqDTB_IyLeMImHvDw)
@@ -814,116 +763,20 @@ tags:
 * [谁说被吃是鸡的宿命？这只鸡长了个价值三个诺奖的肿瘤](https://mp.weixin.qq.com/s/0l9Tfs21Fho_6FOa-S6QOA)
 * [3个月近30万上海人被感染，真相是潜伏已久的“吃祸”](https://mp.weixin.qq.com/s/ZzPVER7Zp3k7uKJi4Bqo1A)
 * [大肠杆菌O157:H7——仅次于霍乱的致命腹泻，正跟着“吃草”潮流全球“开花”](https://mp.weixin.qq.com/s/nvwY8L7m9vZ3TVoPpTYGEQ)
-
-**态昌基因**
 * [皮肤共生菌可以促进伤口愈合](http://mp.weixin.qq.com/s/0m8QyujMgJWuHgGmKyaQ5w)
 * [轻断食是一种科学的减肥方法吗？](https://mp.weixin.qq.com/s/bWWWDo_c9pkS8qN5v8K4xA)
 * [脂肪肝，应该拿你怎么办](https://mp.weixin.qq.com/s/cnWTvP45KMDX-3PVjsuGYg)
-
-**热心肠先生说**
 * [想更易怀孕，生更多娃？男人去打猎，女人靠蛔虫？！](https://mp.weixin.qq.com/s/-cC1LAs9RRpcZCmREhteIg)
 * [吃寄生虫能治病？又来涨知识吧！](https://mp.weixin.qq.com/s/gPaTJzJNT4cxyfjeGIMjbw)
 * [减肥难？别急，精准调控细菌的方法已横空出世！](https://mp.weixin.qq.com/s/SwTh0_IPDDJG3UU4z6dtxw)
 * [想知道自己能不能长命百岁？窝个粑粑测个菌？](https://mp.weixin.qq.com/s/PT31-hL4StOqa69K0MUo5A)
 * [饮食、生物钟、肠道菌群的“三角恋”](https://mp.weixin.qq.com/s/DTjnMDMuZBF7-Cua-2F-9g)
-
-**漫画科普**
-
 * [艾滋病交响诗](https://mp.weixin.qq.com/s/t5J9GAVwIy4jRfmarqzheg)
 * [被传染艾滋](https://mp.weixin.qq.com/s/eLukMDIlrEykLKO0EhsLlA)
 * [梅毒狂想曲](http://mp.weixin.qq.com/s/XfeuKLLg3ruXUCFnFAisog)
 * [厌氧君和好氧君谁是明日之子](http://mp.weixin.qq.com/s/AkQ3i7dUKF4RVC6xeEM15w)
-
-**其它**
 * [Nature: 你的肠道菌群是遗传自你父母还是后天](https://mp.weixin.qq.com/s/-BLMA1YQNDZTl1kE9Dnv3A)
 * [Cell: 为了PK抗生素而服用益生菌？后果竟然如此严重](https://mp.weixin.qq.com/s/3rXiGZDEx2w-O6JMdH5Wtg)
-
-
-## 写在后面
-
-为鼓励读者交流、快速解决科研困难，我们建立了“宏基因组”专业讨论群，目前己有国内外2600+科研人员加入。参与讨论，获得专业指导、问题解答，欢迎分享此文至朋友圈，并扫码带你入群，务必备注“姓名*单位-研究方向-职务/年级”。技术问题寻求帮助，首先阅读[《如何优雅的提问》](http://mp.weixin.qq.com/s/H9gkepap0hy3NNskOkO44w)学习解决问题思路，仍末解决群内讨论，问题不私聊，帮助同行。
-![image](http://bailab.genetics.ac.cn/markdown/life/yongxinliu.jpg)
-
-学习16S扩增子、宏基因组科研思路和分析实战，关注“宏基因组”
-![image](http://bailab.genetics.ac.cn/markdown/life/metagenome.jpg)
-
-![image](http://bailab.genetics.ac.cn/markdown/train/1809/201807.jpg)
-
-[点我阅读原文，跳转最新文章目录阅读](https://mp.weixin.qq.com/s/5jQspEvH5_4Xmart22gjMA)
-
-
-
-### 旧文删除
-
-* [Microbiome: 16S rRNA基因拷贝数应该被校正吗？](https://mp.weixin.qq.com/s/fZz5C4jMUo3oFV8TjUTuDw)
-* [怎样写出一流的论文](https://mp.weixin.qq.com/s/1MXN8o6FXNxf6dYXQ0YuCA)
-* [综述 | 现在是蛋白质组学数据共享和再分析的黄金时间？](https://mp.weixin.qq.com/s/s4XiP6CYMijL1yR0Kg38fg)
-* [Gut: 妊娠期糖尿病与孕妇及其新生儿微生物菌群失调有关（赵方庆作品）](https://mp.weixin.qq.com/s/gWqZWJyFdBarX-0qlnLC4g)
-* [小学生都学Python了，你还不知道怎么开始](http://mp.weixin.qq.com/s/RaxOgjq4hyr-RNGSB-RGzg)
-* [微生物组——扩增子分析专题培训开课啦！！！](http://mp.weixin.qq.com/s/xxBC2VMpB7uz_rJFBSb5mQ)
-* [3月10-19日，北京，微生物组——扩增子分析专题培训](http://mp.weixin.qq.com/s/xxBC2VMpB7uz_rJFBSb5mQ)
-* [2017年发展简史和十大热文盘点](https://mp.weixin.qq.com/s/9sUOcZTsfOXBjj03OHGy6Q)
-* [3月24-31日，北京，如何入门生信Linux](http://mp.weixin.qq.com/s/OS19XmfM_jB8dMYK4E3CJQ)
-* [中国农业大学周欣实验室招聘科研助理、技术员启事](http://mp.weixin.qq.com/s/GAp9g_wdCcS_2WpYJz9GxQ)
-* [中科院遗传发育所王秀杰组招聘博后、技术员](http://mp.weixin.qq.com/s/zJO678PcxB4TvVd7_kqQvw)
-* [中科院遗传发育所田志喜组博士后招聘启事](http://mp.weixin.qq.com/s/wnCjuW6fo6jSwYWRAld29w)
-* [生物信息9天速成班—成为团队不可或缺的人](http://mp.weixin.qq.com/s/1nf7vwyvC3oemkTq_pu87A)
-* [2分钟视频回顾植物学家钟扬的贡献](http://mp.weixin.qq.com/s/qul0uhcLY3xS4Dyxbd7GaA)
-* [转录组分析的正确姿势](http://mp.weixin.qq.com/s/sTzluM0EMNYLnwYa5JaKLg)
-* [整个世界都是你的已知条件](http://mp.weixin.qq.com/s/9Sj5tI8RRa3uv2BgNarhxw)
-* [扩增子分析基础视频教程-夯实分析思路](http://mp.weixin.qq.com/s/SxWl0qBJgg8ziZUFDmKvpQ)
-* [一文读懂代谢组学](https://mp.weixin.qq.com/s/h4niqyy3yaKR_-jbljdGzw)
-* [人体对微生物的管控](https://mp.weixin.qq.com/s/DYykdQ8DtBRIG7rzEK9Xug)
-* [简单读懂微生物基因组的泛基因组学](http://mp.weixin.qq.com/s/p7PMqo2Ld0Kbm8_3IgRuuQ)
-* [微生物应用|农业废弃物资源化利用](http://mp.weixin.qq.com/s/zCk85qBaY5u5IHHHr99NNQ)  
-* 宏基因组学入门[1初识](http://mp.weixin.qq.com/s/xVJtplV6LLofrt5DKqA9vA)  [2进一步](http://mp.weixin.qq.com/s/Otz6Kk_g4N_pu5vHWaJCfA)  [3拼接](http://mp.weixin.qq.com/s/a1b-4bdjushFn1PqJ6NU2Q)  
-* [肠道微生物与人类密切相关的方方面面](http://mp.weixin.qq.com/s/KposoZo9X1TYxRCHYlLbtw)
-* [Nature: 测序技术的前世今生](http://mp.weixin.qq.com/s/H-LF6dax0uYeJ-H1gDwycQ)
-* [Nature Reviews：全新的益生元定义和范围](http://mp.weixin.qq.com/s/hMImkvaugXD6Jkv9i0SvTQ)
-* [原核转录组非编码RNA研究](http://mp.weixin.qq.com/s/MwEHXbPdpkKO5tuNKjqI8Q)
-* [SR: 真菌培养组学同揭示人类肠道真菌群落结构](https://mp.weixin.qq.com/s/_DjxjlXH3URKpZN50zPqWQ)
-* [NC：自体免疫水泡皮肤病中鉴定基因与微生物组互作](https://mp.weixin.qq.com/s/kZ-_TsNcsrLJPaxqUex0Cg)  
-* [ME：网络分析揭示微生物群落应对环境扰动的稳定性机制](http://mp.weixin.qq.com/s/649mjxr62v9RHp3AGWLzpg)
-* [SR: 土壤细菌定量方法结合相对丰度分析揭示种群的真实变化](http://mp.weixin.qq.com/s/ipBhAagpEPn1EIKXDUlGRw)
-* [豆瓣8.9，惹哭亿万中国人的纪录片-本草中华](http://mp.weixin.qq.com/s/nR2EiQYcEYH3VeR3RDlT5w)
-* [非洲诸国人人都在嚼的“小草”，还没毒死人民却将毁掉整个国家](http://mp.weixin.qq.com/s/nJG_9_a5_8WqFEn6BIhVpw)
-* [它是本草纲目里的名药，也是如今让上千万人疯狂迷恋的夺命零食](http://mp.weixin.qq.com/s/u6z3RlCT1op6cAqF2Z0yjA)
-* [苏联“学术神棍”的冒牌祖师，活着打脸孟德尔，死后一统苏联生物学界](http://mp.weixin.qq.com/s/WUxdAZar4VOcU5Qx-sF7kQ)
-* [翻开干细胞新篇章的非凡女科学家，曾两夺央视音乐大奖演绎科学艺术双螺旋](https://mp.weixin.qq.com/s/laXsHEyxy5ShdoutlxgMYQ)
-* [全城悬赏的怪虫的确可怕，但传播“新艾滋”的宣传太夸张](https://mp.weixin.qq.com/s/u-MDjAy57Uv3JCh9oLU3vw)
-* [MetaPhlAn2分析有参宏基因组](http://mp.weixin.qq.com/s/xSjFGwcr1XIAZKdByJAWmQ)
-* [4月14-22日，北京，表观调控高通量测序分析培训开课啦](http://mp.weixin.qq.com/s/lmnn91DcTB3gtnZU7YGjxA)
-* [5月12-20日，北京，二代三代转录组测序分析实战班](https://mp.weixin.qq.com/s/zmNOwF_hSTcgaaYpN42GmA)
-* [5月11-13日，北京，中国肠道大会](http://mp.weixin.qq.com/s/b_ron-vL6n-0CDJW87l2rQ)
-* [5月19-20日，北京，数学、计算机和生物青年学者论坛](http://mp.weixin.qq.com/s/DXm2zgyCo25N5FFxjlrMig)
-* [7月14-22日，北京，微生物组——宏基因组分析专题培训开课啦！](https://mp.weixin.qq.com/s/RZOfBYc47VMe_fFPLJuYpw)
-* [11月16-18日，北京，转录组分析培训](https://mp.weixin.qq.com/s/9ataZBG_CTtI0ES3pnUhsA)
-* [11月1-4日，北京，学术论文统计图插图绘制](https://mp.weixin.qq.com/s/rr6hNmMujbRafybk6P-Qzw)
-* [梅西，你球踢得再好，也不如“发表了6篇SCI的国足武磊”](https://mp.weixin.qq.com/s/G5ugX_KtB31tYmChkq3Ong)
-* [8月3-6日，北京，助力CNS-学术论文统计图插图绘制](https://mp.weixin.qq.com/s/7Nr7Fx3JvZotAparaSmD_Q)
-* [8月8-12日，北京，Linux，R，Python，转组录组暑期黑马集训 -- 低至2500每人](https://mp.weixin.qq.com/s/NXghtuJJagX7lM56Jx2kEQ)
-* [代谢组学/脂组学：短链脂肪酸分析服务](https://mp.weixin.qq.com/s/eSYvhG1INKUnQRT9xg7vAQ)
-* [菌群采样神器，随时免费申领](https://mp.weixin.qq.com/s/baxTIjQ5AUdutBwPzCuWLA) 
-* [2018基因组学技术与研究应用大会-8月7日-北京遗传发育所](https://mp.weixin.qq.com/s/3-MJPBjVKbizBRxzJPXQ-g)
-* [招募生物、医学、生信、计算机朋友加盟](https://mp.weixin.qq.com/s/Bdun-MY53rqx8rLLGByxDQ)
-* [宏基因组学习交流5群成立](https://mp.weixin.qq.com/s/i2JQEMQJHCy3xDXLNHW1Ow)
-* [中国农大植保学院周欣组招收2019博士研究生](https://mp.weixin.qq.com/s/gwyCG-0nfQFUYdpAVl7vAQ)
-* [中山大学环境微生物组中心招聘博后与研究员](https://mp.weixin.qq.com/s/Vmb_mEurKuxtvh_yd981aA)
-* [SCI期刊数据可视化—折线图](https://mp.weixin.qq.com/s/2UjsTycoJYw6kEQFcbtKFw)
-* [Cell：22篇微生物文章为微生物组打Call](https://mp.weixin.qq.com/s/fN0gpD3bZJDXSp8x4ck-3Q)
-* [重磅！肠道菌群再次爆发！3篇齐聚Nature正刊！](https://mp.weixin.qq.com/s/JEryhA4aE7h5ulIY6uIOGg)
-* [只要11天，浓度1000倍的抗生素也无效](http://mp.weixin.qq.com/s/SXmXlu7XFnO9fIgejSWdtA)
-* [SR: 栖息地环境影响了鸿雁的肠道微生物](https://mp.weixin.qq.com/s/_x7zxBr7UEBNbOK7NI4atg)
-* [ISME：宏基因组探究美洲河狸粪便微生物](https://mp.weixin.qq.com/s/ZIIDypKdbljtcAxmtlGe3A)
-* [Nat. Micro.: 研究微生物，只靠多组学根本不够](http://mp.weixin.qq.com/s/OuK8frQaXPUoeFqXazkEgw)  
-* [SCLS: 中国科学7月微生物组专刊：赵立平、秦楠、东秀珠领衔](https://mp.weixin.qq.com/s/EQmnw26tBnT4OWmOVuSUQQ)
-* [微生物生态精选30篇](http://mp.weixin.qq.com/s/3JneRMctghZ5wxWsq01ovA)——本领域最早的中文干货
-* [学习生信的系列教程](https://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg)——纯生信一作发IF>20的大神
-* [生信媛公众号文章目录](http://mp.weixin.qq.com/s/oo73T4Ym0M6pjVM9mQoT_w)——美女就是受欢迎
-* [ggbiplot-最好看的PCA图](http://mp.weixin.qq.com/s/GGCPxQEe_DXefdp-veQtag)
-
-
-
 
 ### 系列宣传
 
