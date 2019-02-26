@@ -61,6 +61,7 @@ python lgc-1.0.py input.fasta output.txt
 
 结果文件各列的意义
 
+!----------|-------------------------------------------------------------|
 |Sequence Name|序列名称|
 |ORF Length	|开放阅读框长度|
 |GC Content	|GC含量|
