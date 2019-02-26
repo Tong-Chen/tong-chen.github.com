@@ -65,7 +65,7 @@ python lgc-1.0.py input.fasta output.txt
 |Sequence Name|序列名称|
 |ORF Length	|开放阅读框长度|
 |GC Content	|GC含量|
-|Conding Potential Score	|编码潜在评分：编码转录物的潜在评分，如果大于0，则为蛋白质编码RNA;如果小于0，则为ncRNA。“0”表示mRNA与lncRNA概率相同|
+|Coding Potential Score	|编码潜在评分：编码转录物的潜在评分，如果大于0，则为蛋白质编码RNA;如果小于0，则为ncRNA。“0”表示mRNA与lncRNA概率相同|
 |Coding Label	|编码类别|
 |pc	|编码序列的概率|
 |pnc	|非编码序列的概率|
