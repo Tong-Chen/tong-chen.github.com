@@ -27,16 +27,15 @@ LGC提供了在线服务器版和Linix/Unix本地版 (*如果您也开发了软�
 	
 (http://bigd.big.ac.cn/lgc/calculator)
 
-![](http://www.ehbio.com/ehbio_resource/LGC_online1.png)
+![](http://www.ehbio.com/ehbio_resource/LGC_webgui.png)
 
 漂亮简洁的应用页面，只需要`fasta`（无参有参数据都可用）序列就可以进行`lncRNA`鉴定（可以直接粘贴自己感兴趣的序列或上传fasta文件（文件小于100MB）进行批量鉴定）。另外对人类，果蝇，小鼠，斑马鱼四个物种可以通过上传BED（小于3MB）或GTF(小于3MB)格式文件进行lncRNA挖掘。[生信分析过程中这些常见文件的格式以及查看方式你都知道吗？](https://mp.weixin.qq.com/s/ziVuUJ_y9drKJN12WXnPfg)
                      
-![有参鉴定界面](http://www.ehbio.com/ehbio_resource/LGC_online2.png)
+![有参鉴定界面](http://www.ehbio.com/ehbio_resource/LGC_online1.png)
 
-![Webserver运行](http://www.ehbio.com/ehbio_resource/LGC_online4.png)
+![Webserver运行](http://www.ehbio.com/ehbio_resource/LGC_online3.png)
 
-
-![获取序列分析结果表，并下载](http://www.ehbio.com/ehbio_resource/LGC_online5.png)
+![获取序列分析结果表，并下载](http://www.ehbio.com/ehbio_resource/LGC_online4.png)
  
 ## 本地运行
 
@@ -58,7 +57,7 @@ python lgc-1.0.py input.fasta output.txt
 
 ![运行程序](http://www.ehbio.com/ehbio_resource/LGC_commang1.png)
 
-![结果文件](http://www.ehbio.com/ehbio_resource/LGC_commang2.png)
+![结果文件](http://www.ehbio.com/ehbio_resource/LGC_command2.png)
 
 结果文件各列的意义
 
