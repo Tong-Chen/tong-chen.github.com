@@ -83,11 +83,10 @@ python lgc-1.0.py input.fasta output.txt
 * [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
 
 参考资料：
-Wang G, Yin H, Li B, et al. Characterization and identification of long non-coding RNAs based on feature relationship[J]. bioRxiv, 2018: 327882.
-生信宝典: [Nature Method：Bioconda解决生物软件安装的烦恼](
-https://mp.weixin.qq.com/s/VeexRyguwozqrMaOeeMF7)
-生信宝典[Linux学习-环境变量和可执行属性](
-https://mp.weixin.qq.com/s/poFpNHQgHDr0qr2wqfVNdw?)
+
+* Wang G, Yin H, Li B, et al. Characterization and identification of long non-coding RNAs based on feature relationship[J]. bioRxiv, 2018: 327882.
+* 生信宝典: [Nature Method：Bioconda解决生物软件安装的烦恼](https://mp.weixin.qq.com/s/VeexRyguwozqrMaOeeMF7)
+* 生信宝典: [Linux学习-环境变量和可执行属性](https://mp.weixin.qq.com/s/poFpNHQgHDr0qr2wqfVNdw?)
 
 
 
