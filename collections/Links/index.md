@@ -17,6 +17,24 @@ comments: yes
 9. <https://v.qq.com/x/page/w0159pm9ihy.html>
 10. <https://www.researchgate.net/post/How_can_we_merge_different_Microarray_datasets_from_GEO_for_DEGs_Analysis>
 11. <https://f1000research.com/articles/5-1384/v2>
+12. 跨平台分析 <https://www.researchgate.net/post/What_software_is_best_for_cross-platform_microarray_results_comparison>
+13. <https://bioinformatics.mdanderson.org/MicroarrayCourse/Lectures09/ma14b.pdf>
+
+### 准备TCGA课程教程参考
+
+1. <https://bioconductor.org/packages/release/workflows/html/TCGAWorkflow.html>
+2. <https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html>
+3. <https://f1000research.com/articles/5-1542/v2>
+4. <http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/77-facilitating-exploratory-data-visualization-application-to-tcga-genomic-data/> 很不错的可视化帖子
+5. <https://bioinformaticsfmrp.github.io/Bioc2017.TCGAbiolinks.ELMER/index.html>
+6. <https://github.com/greenelab/pancancer>
+7. <https://github.com/inab/TCGA_visualizer>
+8. <http://rtcga.github.io/RTCGA/articles/Visualizations.html>
+9. <http://www.pathwaymapper.org/#>
+10. <https://github.com/averissimo/tcga.data>
+11. <http://www.liuzlab.org/TCGA2STAT/>
+12. <http://r-addict.com/2016/11/21/Optimal-Cutpoint-maxstat.html>
+13. <http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/78-perfect-scatter-plots-with-correlation-and-marginal-histograms>
 
 ##### Most frequently visited sites
 * [Tumblr](http://www.tumblr.com/dashboard)
