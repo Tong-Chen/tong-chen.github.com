@@ -19,6 +19,12 @@ comments: yes
 11. <https://f1000research.com/articles/5-1384/v2>
 12. 跨平台分析 <https://www.researchgate.net/post/What_software_is_best_for_cross-platform_microarray_results_comparison>
 13. <https://bioinformatics.mdanderson.org/MicroarrayCourse/Lectures09/ma14b.pdf>
+14. <https://wiki.bits.vib.be/index.php/Analyze_your_own_microarray_data_in_R/Bioconductor#Normalization_using_RMA>
+15. <https://biochem.wisc.edu/sites/default/files/facilities/bcrf/tutorials/R/R_Bioconductor/CH25/from_cel_files_to_gene_list.html>
+16. <http://math.usu.edu/jrstevens/stat5570/1.4.Preprocess_4up.pdf>
+17. <https://bioconductor.org/help/course-materials/2009/SeattleApr09/AffyAtoZ/AffymetrixAtoZSlides.pdf>
+18. <https://bioconductor.org/packages/devel/workflows/vignettes/maEndToEnd/inst/doc/MA-Workflow.html#9_rma_calibration_of_the_data>
+
 
 ### 准备TCGA课程教程参考
 
@@ -35,6 +41,19 @@ comments: yes
 11. <http://www.liuzlab.org/TCGA2STAT/>
 12. <http://r-addict.com/2016/11/21/Optimal-Cutpoint-maxstat.html>
 13. <http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/78-perfect-scatter-plots-with-correlation-and-marginal-histograms>
+14. <https://blog.csdn.net/qq_29300341/article/details/74128979>
+15. <https://blog.csdn.net/hzs106/article/details/12009915>
+17. <http://paper.dxy.cn/article/511878> 一些概念可参考
+16. <https://www.jianshu.com/p/54042789b0d5>
+17. <https://blog.csdn.net/shmilyringpull/article/details/17529637>
+18. <https://www.bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops4/Buros/applied-survival-model.html>
+19. <http://bioinfostar.com/2017/12/07/Battlefield_TCGA-level3-RNAseq-data-01-zh_CN/>
+
+### 待介绍的TCGA网站
+
+1. <http://ualcan.path.uab.edu/index.html>
+2. <https://cancer.sanger.ac.uk/cosmic/signatures>
+2. TCGA文章合集
 
 ##### Most frequently visited sites
 * [Tumblr](http://www.tumblr.com/dashboard)
