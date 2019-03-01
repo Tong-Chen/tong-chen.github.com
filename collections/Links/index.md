@@ -48,12 +48,24 @@ comments: yes
 17. <https://blog.csdn.net/shmilyringpull/article/details/17529637>
 18. <https://www.bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops4/Buros/applied-survival-model.html>
 19. <http://bioinfostar.com/2017/12/07/Battlefield_TCGA-level3-RNAseq-data-01-zh_CN/>
+20. <https://www.bioconductor.org/packages/release/bioc/vignettes/ComplexHeatmap/inst/doc/s8.oncoprint.html> Oncoprint
+21. <https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html> Maftools
+22. <https://bioc.ism.ac.jp/packages/3.4/bioc/vignettes/GenVisR/inst/doc/GenVisR_intro.html> GenVisR
+23. <https://rpkgs.datanovia.com/survminer/reference/ggforest.html>
+23. <https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html>
+
 
 ### 待介绍的TCGA网站
 
 1. <http://ualcan.path.uab.edu/index.html>
 2. <https://cancer.sanger.ac.uk/cosmic/signatures>
 2. TCGA文章合集
+3. <http://www.oncolnc.org/>
+
+### 公众号普及工具
+
+1. <https://labworm.com/>
+2. 
 
 ##### Most frequently visited sites
 * [Tumblr](http://www.tumblr.com/dashboard)
