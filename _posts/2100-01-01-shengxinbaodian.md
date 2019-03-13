@@ -221,6 +221,12 @@ tags:
 * [Linux下文件内容更新了文件夹时间戳却没变？](https://mp.weixin.qq.com/s/Qqmliz5E_cXBF8y8CUyPeQ)
 * [如何获取目标基因的转录因子（上）——Biomart下载基因和motif位置信息](https://mp.weixin.qq.com/s/ZUlVq6IVEqZb0KTPCFCkiw)
 * [如何获取目标基因的转录因子（下）——Linux命令获取目标基因TF](https://mp.weixin.qq.com/s/XjefeIpMHJCN0Crh-GfVDQ)
+* [生信人写程序1. Perl语言模板及配置](https://mp.weixin.qq.com/s/SlTnNQ1K1EEIIif0FmWj8w)
+* [生信人写程序2. Editplus添加Perl, Shell, R, markdown模板和语法高亮](https://mp.weixin.qq.com/s/8Dibze-qvEmKjgnLfjKTeg)
+* [手把手教你生信分析平台搭建](https://mp.weixin.qq.com/s/6BPvNOw854pkdJCklelGWQ)
+* [Windows轻松实现linux shell环境：gitforwindows](https://mp.weixin.qq.com/s/KtM4c4o4iLfD4ZkEnMi1pg)
+* [开启win10内置Linux子程序](http://mp.weixin.qq.com/s/d8V6P74-wDM864wbvp1tNw)
+* [Docker的基本使用-Ubuntu18.04](https://mp.weixin.qq.com/s/GFukUTZNj2Ym4aPh4ZvC7Q)
 
 ### CIRCOS系列
 
@@ -349,6 +355,9 @@ tags:
 * [Endnote X8云同步：家里单位实时同步文献笔记，有网随时读文献](https://mp.weixin.qq.com/s/f9kzgpiuOjn1YsMJxElZ8A)
 * [还在慌？Endnote的个性化文献引用助毕业论文一臂之力](https://mp.weixin.qq.com/s/fM7KDrsB76ErMAgUC_hRPA)
 * [参考文献中杂志名字格式混乱问题一次解决 - 修改style是没用的](https://mp.weixin.qq.com/s/urq1rV2tCT2g_jA7UJIb5g)
+* [参考文献中杂志名字格式混乱问题一次解决](http://mp.weixin.qq.com/s/Diwevx-TVe0Vq_rdgzIkrw)
+* [实用网站和在线工具推荐](https://mp.weixin.qq.com/s/n8q5fPIa3eJRAwhKvP8L_w)
+* [在线浏览器，在线PS，在线AI，在线编程 ...](https://mp.weixin.qq.com/s/0IfurkWazDj_gXVItSly6w)
 
 ### 生信宝典之傻瓜式
 
@@ -449,16 +458,7 @@ tags:
 * [当细胞生物学遇上计算机思维，会产生什么样的火花？](https://mp.weixin.qq.com/s/NPojxD1o8qmuduhosTfhxg)
 * [整天泡实验室已经out了，会写代码才是不被淘汰的关键](https://mp.weixin.qq.com/s/KUDe-7OUvcmFI3pHw_aSBA)
 
-### 生信人写程序
 
-* [生信人写程序1. Perl语言模板及配置](https://mp.weixin.qq.com/s/SlTnNQ1K1EEIIif0FmWj8w)
-* [生信人写程序2. Editplus添加Perl, Shell, R, markdown模板和语法高亮](https://mp.weixin.qq.com/s/8Dibze-qvEmKjgnLfjKTeg)
-
-### 小技巧系列
-
-* [参考文献中杂志名字格式混乱问题一次解决](http://mp.weixin.qq.com/s/Diwevx-TVe0Vq_rdgzIkrw)
-* [实用网站和在线工具推荐](https://mp.weixin.qq.com/s/n8q5fPIa3eJRAwhKvP8L_w)
-* [在线浏览器，在线PS，在线AI，在线编程 ...](https://mp.weixin.qq.com/s/0IfurkWazDj_gXVItSly6w)
 
 ### 精选文章推荐
 
@@ -607,18 +607,6 @@ tags:
 * [microbiomeViz：绘制lefse结果中Cladogram](https://mp.weixin.qq.com/s/psGD9-AxgcCfclGhOKR1mQ)
 * [MMinte：预测微生物群体内代谢物互作](https://mp.weixin.qq.com/s/1CXMxVlMq8HpvMtTNALKkQ)
 
-
-### Linux与Shell
-
-* [生信人值得拥有的编程模板-Shell](https://mp.weixin.qq.com/s/Qf3UeAEaFDivJOD19YsSaw)
-* [生信人值得拥有的编程模板-Perl](https://mp.weixin.qq.com/s/_nZ4Tua8FoulqrT9gbpuIg) 
-* [手把手教你生信分析平台搭建](https://mp.weixin.qq.com/s/6BPvNOw854pkdJCklelGWQ)
-* [Windows轻松实现linux shell环境：gitforwindows](https://mp.weixin.qq.com/s/KtM4c4o4iLfD4ZkEnMi1pg)
-* [开启win10内置Linux子程序](http://mp.weixin.qq.com/s/d8V6P74-wDM864wbvp1tNw)
-* [Docker的基本使用-Ubuntu18.04](https://mp.weixin.qq.com/s/GFukUTZNj2Ym4aPh4ZvC7Q)
-
-
-### R统计绘图
 
 
 
@@ -821,7 +809,7 @@ tags:
 * [转录组分析的正确姿势](http://mp.weixin.qq.com/s/Kx0gaU2x4pWjBq2I2Ffe6Q)
 * [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
 * [维密摔倒不可怕，关键时有人搀一把，坚持走下去](http://mp.weixin.qq.com/s/4mWms*r5kg8kN7kJ60zZDQ)
-* [生物信息作图系列 * R、网络图及文章图形排版](http://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)
+* [生物信息作图系列 R、网络图及文章图形排版](http://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)
 * [易生信转录组培训总结和优惠分享](http://mp.weixin.qq.com/s/TLxzWyKImJhMINkNxLk6Yg)
 * [生物信息9天速成班 — 你也可以成为团队不可或缺的人](http://mp.weixin.qq.com/s/aRuaX*qXlHkF2vme9QqWag)
 * [Python没有捷径，但可以加速，零基础九天你也可以会编程](http://mp.weixin.qq.com/s/vDAHTitasAUphWsrS2Uzlg)
@@ -841,7 +829,7 @@ tags:
 * [芒种“忙种”，不负光阴](https://mp.weixin.qq.com/s/WN1kT3_uZw21VxItbgd8dA)
 * [发乎于情止乎于怕 怎么才能拥有他？](https://mp.weixin.qq.com/s/fAphWlMnefcSW8J6qBnJqw)
 * [易生信暑期黑马集训营 - 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
-* [助力CNS*学术论文统计图插图绘制](https://mp.weixin.qq.com/s/y3YfpslAMo73ogY2dKZ4hA)
+* [助力CNS 学术论文统计图插图绘制](https://mp.weixin.qq.com/s/y3YfpslAMo73ogY2dKZ4hA)
 * [微生物组——宏基因组分析专题培训开课啦！](https://mp.weixin.qq.com/s/LCwi2QW_tXtG_Ol2h3eKhw)
 * [学术论文统计图插图绘制第二期，开始报名啦！](https://mp.weixin.qq.com/s/EjpVLN2kZn53hUIB7F6PXw)
 * [易生信 转录组专题分析第4期开课啦](https://mp.weixin.qq.com/s/w6FWHrYvo5o7eZI9wUhWrw)
