@@ -24,9 +24,16 @@ tags:
 
 通过大量的生信例子、关键的注释和浓缩的语句形成下面的一系列学习教程。每一篇内容都不多，可以当做小说阅读，也可以跟着去练，反复几遍，每读一次都会有不同的收获和体会。
 
+
+生物信息学包含生物数据分析、数据可视化、重复工作程序化，是生物、医学科研必备的技能之一。生信宝典精心组织生信学习系列教程、生信工具精品教程，通过大量的生信例子、关键的注释、浓缩的语句和录制的视频帮助快速掌握生信知识。
+
+**征稿**：诚邀广大同行分享学习经验、心得体会、成果文章解读，即有利于交流和宣传，又提高自身的影响和文章的引用推广；欢迎本领域科研院所和高校的团队在本平台免费发布招聘广告。([诚招培训招生主管、招生助理、公众号编辑](https://mp.weixin.qq.com/s/grjheMoeaWBuLdYucDUeIw))
+
+*注：下面为往期文章目录集合，所有蓝字均为文章链接，点击阅读原文*
+
 ### 教程合集
 
-* [生信宝典-Linux教程.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8-Linux%E6%95%99%E7%A8%8B.pdf)
+* [生信宝典-Linux教程.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8-Linux%E6%95%99%E7%A8%8B.pdf) (微信公众号后台回复 **生信宝典福利第一波**)
 * [生信宝典Py3_course.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8Py3_course.pdf)
 * [生信宝典-R学习教程.pdf](http://www.ehbio.com/tutorial/%E7%94%9F%E4%BF%A1%E5%AE%9D%E5%85%B8-R%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B.pdf)
 
@@ -45,6 +52,7 @@ tags:
 
 ### Illumina测序应用手册
 
+* [Illumina测序仪比较和各种测序应用模式图，助力了解高通量测序](https://mp.weixin.qq.com/s/Ty5SPJSQ6I3icHDlcZTnMQ)
 * [RNA层面](http://www.ehbio.com/ehbio_resource/for-all-you-seq-rna.pdf)
 * [DNA层面](http://www.ehbio.com/ehbio_resource/for-all-you-seq-dna.pdf)
 * [单细胞层面](http://www.ehbio.com/ehbio_resource/for-all-you-seq-single-cell.pdf)
@@ -57,8 +65,9 @@ tags:
 * [如何优雅的提问](https://mp.weixin.qq.com/s/xCif04bqZB14Z4OvesK0SQ)
 * [生信宝典视频教程](http://mp.weixin.qq.com/s/C4EBufEtFF6bhBKrH8NXng)
 * [好色之旅-画图三字经](https://mp.weixin.qq.com/s/bsvB1k17Izom2ldgdwXrdg)
-* [转录组分析的正确姿势](https://mp.weixin.qq.com/s/cE8qjx5hBu8S26dQDI7raQ)
+* [转录组分析的正确姿势](https://mp.weixin.qq.com/s/qDy5kpM9Y_wBrk7QXZMFvA)
 * [生信的系列教程](https://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg)
+* [收藏 你想要的生信学习系列教程-宝典在手，生信无忧](https://mp.weixin.qq.com/s/9M3LfOhpmo-YF2R3HnQK2A)
 * [生信的系列书籍](http://mp.weixin.qq.com/s/IiehgNu3JGVTDa079ll1SQ)
 * [文章用图的修改和排版 (1)](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
 * [文章用图的修改和排版 (2)](http://mp.weixin.qq.com/s/HTsufk71U3wf14OOWSKEeQ)
@@ -69,13 +78,13 @@ tags:
 * [学术图表的基本配色方法](http://mp.weixin.qq.com/s/hq5p8Lqzn9Km2qVRLW2dVQ)
 * [数据可视化基本套路总结](https://mp.weixin.qq.com/s/ZgaxWKkTrE1eBQtYacKeoQ)
 * [英语写作常见错误总结和学习视频](https://mp.weixin.qq.com/s/37dMnfA6RTSybzkzKnambw)
-* [教育部推出首批490门"国家精品在线开放课程"](http://mp.weixin.qq.com/s/JKn4kRiXYz6RKzQbTMVYlg)
+* [教育部推出首批490门"国家精品在线开放课程"](https://mp.weixin.qq.com/s/x93QcaTv460vKH0HVN_1dA)
 * [你该知道的杂志分区和影响因子及最新表格下载](https://mp.weixin.qq.com/s/Fv-jTOgH5xD87RRoQtuXhw)
 * [你和PPT高手之间，就只差一个iSlide](http://mp.weixin.qq.com/s/gKPs7k5JqFBlYJPv7h_-hA)
 * [推荐 3 个超赞的 EXCEL 插件，让你 5 分钟从小白变大神](https://mp.weixin.qq.com/s/NTQLwZviroOfQG6b2hI7lg)
 * [史上最全的图表色彩运用原理](https://mp.weixin.qq.com/s/vSVA3lfN1nsig6fv1Xt7xA)
 * [生信宝典一周年福利第一波 - 电子书赠送](https://mp.weixin.qq.com/s/l-Zr4w2dd-lxw0iw1GyNiw)
-* [测序发展史：150年的风雨历程](https://mp.weixin.qq.com/s/GReWY8yq7O_xVnajknrHZQ)
+* [测序发展史：150年的风雨历程](https://mp.weixin.qq.com/s/4H3ZIfnTq760l5Frqt0z7w)
 * [生信老司机以中心法则为主线讲解组学技术的应用和生信分析心得](https://mp.weixin.qq.com/s/mlBLxXLabSU6FflOFXrzrw)
 * [别再让投稿信耽误你发稿啦！（附cover letter模板）](https://mp.weixin.qq.com/s/Mb5vgbmQ-yku8t75Kb9-Ag)
 * [生物信息学数据库分类概览 (第一版)](https://mp.weixin.qq.com/s/kER1JSbT20cejzvPqDcNBg)
@@ -96,6 +105,42 @@ tags:
 * [DESeq2差异基因分析和批次效应移除](https://mp.weixin.qq.com/s/Vmhx_TGxNkQzkekf93Xl4w)
 * [美女教授带你从统计学视角看转录组分析](https://mp.weixin.qq.com/s/NOSc1AFDODYhGbmYJ_LvIg)
 * [整合QC质控结果的利器——MultiQC](https://mp.weixin.qq.com/s/q3niuFGH7h03UbzztvVdHg)
+* [自从用了这个神器，大规模RNA-seq数据挖掘我也可以](https://mp.weixin.qq.com/s/Mej_9pDVd-uCN3r9GIlAWA)
+* [NGS基础 - FASTQ格式解释和质量评估](http://mp.weixin.qq.com/s/tDMih7ISLJcL4F4sWBq3Vw)
+* [NGS基础 - 高通量测序原理](https://mp.weixin.qq.com/s/SS9YBSpgUoU9gI86u-0ATg)
+* [NGS基础 - 参考基因组和基因注释文件](http://mp.weixin.qq.com/s/2OoXy4f1t0hE8OUqsAt1kw)
+* [NGS基础 - GTF/GFF文件格式解读和转换](http://mp.weixin.qq.com/s/rZ26i19hiS5ZOqIoqkL1Wg)
+* [NGS基础 - 测序原始数据下载](https://mp.weixin.qq.com/s/6oJYGxuBE850PyjMhRi3xg)
+* [Illumina测序仪比较和各种测序应用模式图，助力了解高通量测序](https://mp.weixin.qq.com/s/Ty5SPJSQ6I3icHDlcZTnMQ)
+* [生信分析过程中这些常见文件的格式以及查看方式你都知道吗？](https://mp.weixin.qq.com/s/ziVuUJ_y9drKJN12WXnPfg)
+* [本地安装UCSC基因组浏览器](http://mp.weixin.qq.com/s/b7Cppdm-vMTgZfFVC3Q1lQ)
+* [测序数据可视化 (一)](http://mp.weixin.qq.com/s/8EqULhLCyNttijO9bUm0BQ)
+* [IGV基因组浏览器可视化高通量测序数据](http://mp.weixin.qq.com/s/vWQUNgVujCTdZgZZ2_AZfQ)
+* [高通量数据分析必备-基因组浏览器使用介绍 - 1](https://mp.weixin.qq.com/s/_5zoRvjku5pb9qtwrvlWYw)
+* [高通量数据分析必备-基因组浏览器使用介绍 - 2](https://mp.weixin.qq.com/s/uzyccMorR6XWqjMsMd3Oaw)
+* [高通量数据分析必备-基因组浏览器使用介绍 - 3](https://mp.weixin.qq.com/s/qdKxBAU__nbq8Ua0rLCEow)
+* [测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)
+* [GO、GSEA富集分析一网打进](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+* [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
+* [无需写代码的高颜值富集分析神器](https://mp.weixin.qq.com/s/GidnT_ivj3o3asn3327JpQ)
+* [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
+* [没钱买KEGG怎么办？REACTOME开源通路更强大](https://mp.weixin.qq.com/s/jI6Gz1JKxnGB9jDRSFjd0g)
+* [超简便的国产lncRNA预测工具LGC](https://mp.weixin.qq.com/s/rQchjvvmGsFyvpNnkjh8wg)
+* [我想做信号通路分析，但我就是不想学编程](https://mp.weixin.qq.com/s/FyHnm1VAdh9jRXlM509ODA)
+
+### 单细胞
+
+* [收藏 北大生信平台" 单细胞分析、染色质分析" 视频和PPT分享](https://mp.weixin.qq.com/s/3FGXQlfx2UfbVtpW9kW11w)
+* [10X单细胞测序分析软件:Cell ranger，从拆库到定量](https://mp.weixin.qq.com/s/qLqIA7Y3J9xf_tXlQj0FAw)
+* [Hemberg-lab单细胞转录组数据分析（一）- 引言](https://mp.weixin.qq.com/s/18baLo2ecG-XiS5igmgV3g)
+* [Hemberg-lab单细胞转录组数据分析（二）- 实验平台](https://mp.weixin.qq.com/s/2hN2LENp3bAeq4G8Lf4Ehw)
+* [Hemberg-lab单细胞转录组数据分析（三）- 原始数据质控](https://mp.weixin.qq.com/s/uhhyYAjC4gxiQ2s_v_XGGA)
+* [Hemberg-lab单细胞转录组数据分析（四）- 文库拆分和细胞鉴定](https://mp.weixin.qq.com/s/k2ZP6sDR0L7ZSDnimerQog)
+* [Hemberg-lab单细胞转录组数据分析（五）- STAR, Kallisto定量](https://mp.weixin.qq.com/s/5B1GuPeRtRlYdke7CGtETg)
+* [Hemberg-lab单细胞转录组数据分析（六）- 构建表达矩阵，UMI介绍](https://mp.weixin.qq.com/s/tlhCM1A7DmceluIkExgT1A)
+* [Hemberg-lab单细胞转录组数据分析（七）- 导入10X和SmartSeq2数据Tabula Muris](https://mp.weixin.qq.com/s/oDji6BkV4ia9xViWRGoY5g)
+* [Hemberg-lab单细胞转录组数据分析（八）- Scater包输入导入和存储](https://mp.weixin.qq.com/s/LpHqvdxR9C5kE-58BmKg7g)
+* [Hemberg-lab单细胞转录组数据分析（九）- Scater包单细胞过滤](https://mp.weixin.qq.com/s/pGu2qZ9usy1kVqunX_x0-g)
 
 ### 扩增子三步曲
 
@@ -107,6 +152,7 @@ tags:
 * [易生信-扩增子教程01-基本概念](https://mp.weixin.qq.com/s/PG_WQx3e_jegRgvVjtk9OA)
 * [易生信-扩增子教程02-真菌引物选择](https://mp.weixin.qq.com/s/ouPqSH1kS8nX8QY0HsCj7g)
 * [收藏-手把手带你重现菌群封面文章全部结果图表](https://mp.weixin.qq.com/s/J5vQB2e3LaXL88pO7vqSwg)
+* [如何简化美化LEfSe分析结果中的Cladogram图](https://mp.weixin.qq.com/s/TAIpaCzlXx-5IUTBfM3gBQ)
 
 ### 宏基因组教程
 
@@ -139,52 +185,14 @@ tags:
 
 * [ChIP-seq基本分析流程](http://mp.weixin.qq.com/s/nldZ1_wiCmCtLO3MWJuQ8Q)
 * [从Richard Young教授的系列研究看超级增强子发现背后的故事 (附超级增强子鉴定代码)](https://mp.weixin.qq.com/s/2wSNDuz9CtC1ym1QvWHcPg)
+* [表观遗传小白逆袭之道：从这 19 个视频开始吧！](https://mp.weixin.qq.com/s/Pn1f8oHgt4Mg5_R5-UbaKw)
+* [Bedtools使用简介](https://mp.weixin.qq.com/s/bIXom5bSDov-4sPqsTRc6A)
+* [2018 升级版Motif数据库Jaspar](https://mp.weixin.qq.com/s/S1SlhNfPvcXOwRQZvrm6GQ)
+* [MotifStack：多motif序列比较和可视化](https://mp.weixin.qq.com/s/t-UMt3pYnWyh8DXpvcjq3w)
+* [一文教会你查找基因的启动子、UTR、TSS等区域以及预测转录因子结合位点](https://mp.weixin.qq.com/s/vFO7uAtI6nh-zTW7RHCixA)
+* [AnimalTFDB 3.0 动物转录因子注释和预测的综合资源库](https://mp.weixin.qq.com/s/6lCpNhPkgsCI-bWW1Ip4cg)
+* [Cell重磅综述：关于人类转录因子，你想知道的都在这](https://mp.weixin.qq.com/s/EE89t6l7xmLfZvtWTZJFog)
 
-### 文献精读
-
-* [2018年生信宝典阅读最高文章Top10](https://mp.weixin.qq.com/s/sXdstWOI6NayOlgBcJcI6A)
-* [这些基因的名字太有才了，研究一下都可以发10分文章](https://mp.weixin.qq.com/s/UiUc3ctUnMsFqhNk00mijw)
-* [人类多能性干细胞研究20周年：起始于5个细胞系，我们未来20年的进步将取决于我们现在做的](https://mp.weixin.qq.com/s/aqbS4g_zfjVrNZpqII0YDw)
-* [许多癌症的发生只是概率问题 专访约翰·霍普金斯大学病理系主任拉尔夫·赫鲁班](https://mp.weixin.qq.com/s/hFk3gSBtMfjzp6U7jw4sxw)
-* [肿瘤化疗无效是对预先存在的突变的选择还是诱发新突变，Cell给你答案](https://mp.weixin.qq.com/s/HhGotXHxd_9maKwrjiBEFA)
-* [“人鸡胚胎”破解生命起源奥秘，百年来首次证实“组织者”存在于人体 ｜《Nature》发表重磅论文](https://mp.weixin.qq.com/s/jUZvUlpN9I4GTLW8F-0pOQ)
-* [被高中生物骗了这么多年，原来人体内细胞的DNA是有不同的？](https://mp.weixin.qq.com/s/ELpachAsALTwJMPFjM1rrA)
-* [周琪院士正面回应：60万一针有用吗？（干细胞治疗）](https://mp.weixin.qq.com/s/EW5muLLRSKAJ-iOiw44LRA)
-* [CRISPR-CAS9发展历程小记](http://mp.weixin.qq.com/s/brx-i-Bbgp-XYwn5SkQLwA)
-* [一场大病引起的诺贝尔2017年生理学奖角逐](http://mp.weixin.qq.com/s/T9Q6CUCt-wBoUCEwSBZALg)
-* [Science搞反狗脑 - 人脑和狗脑一样？](https://mp.weixin.qq.com/s/zymhxusKNDZ9XynNGAlRcA)
-* [一篇压根不存在的文献被引用400次？！揭开" 幽灵文献" 的真面目](http://mp.weixin.qq.com/s/OgAhb_UGUp7tZvQARbmLLg)
-* [基于人工智能的文献检索，导师查找，更聪明](http://mp.weixin.qq.com/s/ikU0mVyX6BQNgljD1jCrRA)
-* [GeenMedical：文献查询、筛选、引用排序、相似文献、全文下载、杂志分区、影响因子、结果导出、杂志评述、直接投稿，一站服务](http://mp.weixin.qq.com/s/hc8g64aHN7qv8YhVfrsuvQ)
-* [如何快准狠地找到相关领域的经典文献？](https://mp.weixin.qq.com/s/qJQpFOiPCUitAiiDQLMn_A)
-* [YANDEX搜索，不翻墙稳定使用近谷歌搜索](http://mp.weixin.qq.com/s/fZ2Nm7Wck5mZLiESHcPusA)
-* [Nature我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
-* [SCI-HUB镜像,  SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
-* [为了速成生物学，一位程序员探索了"爆款"基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
-* [Nature邀请6位专家为您支招如何写出一流论文？](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
-* [Cell：荧光标记out了，AI不用“侵入”也能识别细胞死活和类型](https://mp.weixin.qq.com/s/gwVmKE4STwTxoWkJjHCu6w)
-* [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
-* [生物研究中不可缺少的数字概念，多少，多大，多快](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
-* [王秀杰研究组合作发现m6A修饰在小脑发育中的新功能 （附2018上半年m6A研究文章和点评）](https://mp.weixin.qq.com/s/yVgkbWfLfUJTJNKtqIWxjw)
-* [把人类宝宝和黑猩猩幼崽一起养大，会发生什么有趣的事情呢？结局可能是有些出乎意料的～～](https://mp.weixin.qq.com/s/qcxQ_2h8Qgfs05Jz9sJntg)
-* [你体内的细胞“成精了”？居然还互相看对了眼？](https://mp.weixin.qq.com/s/MhQ34l0pgqCxJnEu1ozcwg)
-* [父爱无言！科学家首次发现来自爸爸的基因，可以通过胎儿来控制妈妈对宝宝的爱](https://mp.weixin.qq.com/s/wYjegqeeY_alzEc7OCTdyg)
-* [饿死癌细胞？还是先看看肿瘤中的异常代谢的特征分析和背后的遗传与环境互作吧！](https://mp.weixin.qq.com/s/pIVBQTxOQc2iygD8YtpfzQ)
-* [2018Cell系列最好的调控方式-相变，最强综述，未来以来，你在哪](https://mp.weixin.qq.com/s/32bCVOkYwKqDufdpmFp0pg)
-* [2018“不务正业”的化学奖又发给了生物](https://mp.weixin.qq.com/s/K1ZvvNMy5Gb9FpkwNuDVmg)
-* [2018美日科学家因免疫治疗得诺贝尔生理医学奖-动图展示历年生理学奖](https://mp.weixin.qq.com/s/MjmfuKAlNvG8Z2vkxe2ouw)
-* [Nature综述-整合组学分析护航健康，推动精准医学时代的到来！](https://mp.weixin.qq.com/s/0amUXFwB2SkLUgTqhuWm6Q)
-* [勤能补拙，过目不忘，提高m6A助力好记性？中科院王秀杰/杨运桂合作最新成果](https://mp.weixin.qq.com/s/2mTNgh1qD8TQrNWJc0IfgA)
-* [如何快准狠地找到相关领域的经典文献？](https://mp.weixin.qq.com/s/qJQpFOiPCUitAiiDQLMn_A)
-* [Excel改变了你的基因名，30% 相关Nature文章受影响，NCBI也受波及](https://mp.weixin.qq.com/s/eVCGmlUvB36Pehpv_tompg)
-* [综述：变温动物的适应性免疫](https://mp.weixin.qq.com/s/8-QmwrU-ySeiXG9WY7EMfw)
-* [你的DNA都会玩摇滚了，你却还是个音痴](https://mp.weixin.qq.com/s/hdIp1dbKS0Y8hWD5vyEQyQ)
-* [“乱搞”的动物可能只是脸盲？新研究发现24个基因决定动物“忠诚度”](https://mp.weixin.qq.com/s/6zlMrmU38pTPVoJILUZ6vg)
-* [经常喜欢熬夜？也许你天生就是“夜型人”基因！](https://mp.weixin.qq.com/s/Dacag5v1aHorEORp4b0ySw)
-* [基因编辑婴儿违规，预防艾滋还是了解下啪啪啪为何会传染（视频）](https://mp.weixin.qq.com/s/iE9vhmZCOVhjbnw5A9pslw)
-* [读趣味漫画了解生物技术的发展与应用](https://mp.weixin.qq.com/s/ez9PxybhcHJ8wLa9_8IOKA)
-* [文献检索新姿势，教你如何直搜文中的科研图片！](https://mp.weixin.qq.com/s/-AKcDtiUTVg-CnVWlTNYUA)
-* [颠覆！垃圾DNA不是垃圾！活细胞成像实时演绎基因调控全过程！](https://mp.weixin.qq.com/s/rYf6RplVKelRx2bLwM-hmg)
 
 ### Linux 全介绍
 
@@ -223,6 +231,7 @@ tags:
 
 ### R统计和作图
 
+* [Graphpad，经典绘图工具初学初探](https://mp.weixin.qq.com/s/0uweufCnSSnyG867oasUCQ)
 * [在R中赞扬下努力工作的你，奖励一份CheatShet](http://mp.weixin.qq.com/s/x3tWrQPriLRFXO8ZaD93EQ)
 * [别人的电子书，你的电子书，都在bookdown](http://mp.weixin.qq.com/s/u8WfC4xQ562Uekhs4WVBoQ)
 * [R语言 - 入门环境Rstudio](https://mp.weixin.qq.com/s/A1QIY8KkZaW1q12la4Uc8w)
@@ -318,53 +327,46 @@ tags:
 * [circlize包绘制circos-plot](https://mp.weixin.qq.com/s/-bRF7OXaj091Ob1dwprMWQ)
 * [R语言搭建炫酷的线上博客系统](https://mp.weixin.qq.com/s/QOCUQIk3Qs5aVRX2PKQ6dA)
 
-### Graphpad
-
-* [Graphpad，经典绘图工具初学初探](https://mp.weixin.qq.com/s/0uweufCnSSnyG867oasUCQ)
-
 ### NGS基础和软件应用
 
-* [NGS基础 - FASTQ格式解释和质量评估](http://mp.weixin.qq.com/s/tDMih7ISLJcL4F4sWBq3Vw)
-* [NGS基础 - 高通量测序原理](https://mp.weixin.qq.com/s/SS9YBSpgUoU9gI86u-0ATg)
-* [NGS基础 - 参考基因组和基因注释文件](http://mp.weixin.qq.com/s/2OoXy4f1t0hE8OUqsAt1kw)
-* [NGS基础 - GTF/GFF文件格式解读和转换](http://mp.weixin.qq.com/s/rZ26i19hiS5ZOqIoqkL1Wg)
-* [NGS基础 - 测序原始数据下载](https://mp.weixin.qq.com/s/6oJYGxuBE850PyjMhRi3xg)
-* [Illumina测序仪比较和各种测序应用模式图，助力了解高通量测序](https://mp.weixin.qq.com/s/Ty5SPJSQ6I3icHDlcZTnMQ)
-* [生信分析过程中这些常见文件的格式以及查看方式你都知道吗？](https://mp.weixin.qq.com/s/ziVuUJ_y9drKJN12WXnPfg)
-* [本地安装UCSC基因组浏览器](http://mp.weixin.qq.com/s/b7Cppdm-vMTgZfFVC3Q1lQ)
-* [测序数据可视化 (一)](http://mp.weixin.qq.com/s/8EqULhLCyNttijO9bUm0BQ)
-* [IGV基因组浏览器可视化高通量测序数据](http://mp.weixin.qq.com/s/vWQUNgVujCTdZgZZ2_AZfQ)
-* [高通量数据分析必备-基因组浏览器使用介绍 - 1](https://mp.weixin.qq.com/s/_5zoRvjku5pb9qtwrvlWYw)
-* [高通量数据分析必备-基因组浏览器使用介绍 - 2](https://mp.weixin.qq.com/s/uzyccMorR6XWqjMsMd3Oaw)
-* [高通量数据分析必备-基因组浏览器使用介绍 - 3](https://mp.weixin.qq.com/s/qdKxBAU__nbq8Ua0rLCEow)
-* [测序文章数据上传找哪里](http://mp.weixin.qq.com/s/aDINq43Xwas_l4-AdY7xXg)
-* [GO、GSEA富集分析一网打进](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
-* [GSEA富集分析 - 界面操作](http://mp.weixin.qq.com/s/3Nd3urhfRGkw-F0LGZrlZQ)
-* [无需写代码的高颜值富集分析神器](https://mp.weixin.qq.com/s/GidnT_ivj3o3asn3327JpQ)
-* [Bedtools使用简介](https://mp.weixin.qq.com/s/bIXom5bSDov-4sPqsTRc6A)
 * [OrthoMCL鉴定物种同源基因 （安装+使用）](https://mp.weixin.qq.com/s/lC1KiRygr5RefMZLVPREdQ)
 * [Rfam 12.0+本地使用 （最新版教程）](http://mp.weixin.qq.com/s/5OIRHA22ZLr5Z8bEhDiBqg)
 * [轻松绘制各种Venn图](http://mp.weixin.qq.com/s/zn654JqG9OeO71rJUTDr2Q)
 * [ETE构建、绘制进化树](http://mp.weixin.qq.com/s/DD1nZnx5mYxWGrohNgdPvQ)
 * [psRobot：植物小RNA分析系统](http://mp.weixin.qq.com/s/kWkEQOX-6SKMAUQmAuc86w)
 * [生信软件系列 - NCBI使用](http://mp.weixin.qq.com/s/4a5U8GdBoNFXkykL6m2EeA)
-* [去东方，最好用的在线GO富集分析工具](https://mp.weixin.qq.com/s/l6j2encDfEQkt2UeNCMFhg)
-* [2018 升级版Motif数据库Jaspar](https://mp.weixin.qq.com/s/S1SlhNfPvcXOwRQZvrm6GQ)
-* [MotifStack：多motif序列比较和可视化](https://mp.weixin.qq.com/s/t-UMt3pYnWyh8DXpvcjq3w)
-* [一文教会你查找基因的启动子、UTR、TSS等区域以及预测转录因子结合位点](https://mp.weixin.qq.com/s/vFO7uAtI6nh-zTW7RHCixA)
+* [掌握这个网站，万方、维普、CNKI等众多数据库文献统统可以免费下载！](https://mp.weixin.qq.com/s/D23NlHTupcvRvBTHub9G9A)
 * [拿到基因两眼一抹黑？没关系，先做个基因富集分析吧！](https://mp.weixin.qq.com/s/pzcZacJkeM-71-FPJwJL2g)
 * [科研小萌新，掌握这些技巧，轻松玩转各个基因！](https://mp.weixin.qq.com/s/_ZkOaUwE1AjBjghuNbAH8A)
 * [引起相变的无序结构域（IDRs）怎么预测？跟踪热点，提升文章档次！](https://mp.weixin.qq.com/s/amI-66u9DnIZITKHgO0UgQ)
 * [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
-* [没钱买KEGG怎么办？REACTOME开源通路更强大](https://mp.weixin.qq.com/s/jI6Gz1JKxnGB9jDRSFjd0g)
-* [表观遗传小白逆袭之道：从这 19 个视频开始吧！](https://mp.weixin.qq.com/s/Pn1f8oHgt4Mg5_R5-UbaKw)
-* [AnimalTFDB 3.0 动物转录因子注释和预测的综合资源库](https://mp.weixin.qq.com/s/6lCpNhPkgsCI-bWW1Ip4cg)
+* [基于人工智能的文献检索，导师查找，更聪明](http://mp.weixin.qq.com/s/ikU0mVyX6BQNgljD1jCrRA)
+* [GeenMedical：文献查询、筛选、引用排序、相似文献、全文下载、杂志分区、影响因子、结果导出、杂志评述、直接投稿，一站服务](http://mp.weixin.qq.com/s/hc8g64aHN7qv8YhVfrsuvQ)
+* [如何快准狠地找到相关领域的经典文献？](https://mp.weixin.qq.com/s/qJQpFOiPCUitAiiDQLMn_A)
+* [Excel改变了你的基因名，30% 相关Nature文章受影响，NCBI也受波及](https://mp.weixin.qq.com/s/eVCGmlUvB36Pehpv_tompg)
+* [这些基因的名字太有才了，研究一下都可以发10分文章](https://mp.weixin.qq.com/s/UiUc3ctUnMsFqhNk00mijw)
+* [文献检索新姿势，教你如何直搜文中的科研图片！](https://mp.weixin.qq.com/s/-AKcDtiUTVg-CnVWlTNYUA)
+* [Endnote X8云同步：家里单位实时同步文献笔记，有网随时读文献](https://mp.weixin.qq.com/s/f9kzgpiuOjn1YsMJxElZ8A)
+* [还在慌？Endnote的个性化文献引用助毕业论文一臂之力](https://mp.weixin.qq.com/s/fM7KDrsB76ErMAgUC_hRPA)
+* [参考文献中杂志名字格式混乱问题一次解决 - 修改style是没用的](https://mp.weixin.qq.com/s/urq1rV2tCT2g_jA7UJIb5g)
+
+### 生信宝典之傻瓜式
+
+* [生信宝典之傻瓜式 (一) 如何提取指定位置的基因组序列](http://mp.weixin.qq.com/s/5bNdHkl3QDFmCNmrht3VWA)
+* [生信宝典之傻瓜式 (二) 如何快速查找指定基因的调控网络](http://mp.weixin.qq.com/s/LPWaxbKuS-XlvzkSE-MupQ)
+* [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s/0Yvhn5Tlb-zvOXM0cU16Zg)
+* [生信宝典之傻瓜式 (四) 蛋白蛋白互作网络在线搜索](http://mp.weixin.qq.com/s/JO1J66BtzuY-9a20x0XQcg)
+* [生信宝典之傻瓜式 (五) 文献挖掘查找指定基因调控网络](http://mp.weixin.qq.com/s/DQ4fjCL777D2iEcPTnd-rA)
+* [生信宝典之傻瓜式 (六) 查找转录因子的靶基因](https://mp.weixin.qq.com/s/1LNae0pG0w_Q-rRxhI96Pg)
 
 ### 癌症数据库
 
 * [UCSC XENA - 集大成者(TCGA, ICGC)](https://mp.weixin.qq.com/s/we3raL4XowZp4vQ9zPqfYQ)
 * [ICGC数据库使用](http://mp.weixin.qq.com/s/UTlEtyDITPx9ZQOpJFczBw)
 * [TCGA数据库在线使用](https://mp.weixin.qq.com/s/etg52j9F9uvcGY-qEcAvFQ)
+* [BROAD开发的TCGA分析平台，强大的下载功能](https://mp.weixin.qq.com/s/cOF4MEqW2KIT__pvm_-nug)
+* [cBioPortal功能强大的TCGA再分析平台](https://mp.weixin.qq.com/s/8IWKQGV4rFFCDsKLUD6VVw)
+* [这是数据更新最实时的TCGA网站，功能强大](https://mp.weixin.qq.com/s/G7xEvahDljNQceFsPLNO3A)
 	
 ### Python
 
@@ -384,8 +386,10 @@ tags:
 * [莫烦Python机器学习](https://mp.weixin.qq.com/s/pXiV_cRZD8iu4jLAFMYPew)
 * [编程新手入门踩过的25个“坑”，你犯过其中哪些错误？](https://mp.weixin.qq.com/s/C19yj-p67FsDDe2LvApdHQ)
 * [Python文学化编程 - Jupyter notebook使用和插件拓展](https://mp.weixin.qq.com/s/mbJWNZr7rrJqQYCg2Wx_WA)
+* [Python3中正则表达式使用方法](https://mp.weixin.qq.com/s/3r0geQASuWI2e0Jj3WwxpQ)
 * [Python3中BeautifulSoup的使用方法](https://mp.weixin.qq.com/s/qZCQAuSM5mZbUyfam-2T0w)
-
+* [我用Python开发了个SCI-HUB本地版](https://mp.weixin.qq.com/s/TtW44gSRR5aDdAy1lARMjw)
+* [手把手 哇！用R也可以跑Python了](https://mp.weixin.qq.com/s/UIpGD7YF8kAaqluBoe8iWA)
 
 ### Cytoscape网络图
 
@@ -402,14 +406,48 @@ tags:
 * [简单可视化-送你一双发现美的眼睛](http://mp.weixin.qq.com/s/P62sjqhSTxmWVicrEAk-RQ)
 * [你需要知道的那些前奏](http://mp.weixin.qq.com/s/5a5-6pXHfvyDc2Kfp4xDeQ)
 
-### 生信宝典之傻瓜式
+### 文献精读
 
-* [生信宝典之傻瓜式 (一) 如何提取指定位置的基因组序列](http://mp.weixin.qq.com/s/5bNdHkl3QDFmCNmrht3VWA)
-* [生信宝典之傻瓜式 (二) 如何快速查找指定基因的调控网络](http://mp.weixin.qq.com/s/LPWaxbKuS-XlvzkSE-MupQ)
-* [生信宝典之傻瓜式 (三) 我的基因在哪里发光 - 如何查找基因在发表研究中的表达](http://mp.weixin.qq.com/s/0Yvhn5Tlb-zvOXM0cU16Zg)
-* [生信宝典之傻瓜式 (四) 蛋白蛋白互作网络在线搜索](http://mp.weixin.qq.com/s/JO1J66BtzuY-9a20x0XQcg)
-* [生信宝典之傻瓜式 (五) 文献挖掘查找指定基因调控网络](http://mp.weixin.qq.com/s/DQ4fjCL777D2iEcPTnd-rA)
-* [生信宝典之傻瓜式 (六) 查找转录因子的靶基因](https://mp.weixin.qq.com/s/1LNae0pG0w_Q-rRxhI96Pg)
+* [2018年生信宝典阅读最高文章Top10](https://mp.weixin.qq.com/s/sXdstWOI6NayOlgBcJcI6A)
+* [这些基因的名字太有才了，研究一下都可以发10分文章](https://mp.weixin.qq.com/s/UiUc3ctUnMsFqhNk00mijw)
+* [人类多能性干细胞研究20周年：起始于5个细胞系，我们未来20年的进步将取决于我们现在做的](https://mp.weixin.qq.com/s/aqbS4g_zfjVrNZpqII0YDw)
+* [许多癌症的发生只是概率问题 专访约翰·霍普金斯大学病理系主任拉尔夫·赫鲁班](https://mp.weixin.qq.com/s/hFk3gSBtMfjzp6U7jw4sxw)
+* [肿瘤化疗无效是对预先存在的突变的选择还是诱发新突变，Cell给你答案](https://mp.weixin.qq.com/s/HhGotXHxd_9maKwrjiBEFA)
+* [“人鸡胚胎”破解生命起源奥秘，百年来首次证实“组织者”存在于人体 ｜《Nature》发表重磅论文](https://mp.weixin.qq.com/s/jUZvUlpN9I4GTLW8F-0pOQ)
+* [被高中生物骗了这么多年，原来人体内细胞的DNA是有不同的？](https://mp.weixin.qq.com/s/ELpachAsALTwJMPFjM1rrA)
+* [周琪院士正面回应：60万一针有用吗？（干细胞治疗）](https://mp.weixin.qq.com/s/EW5muLLRSKAJ-iOiw44LRA)
+* [CRISPR-CAS9发展历程小记](http://mp.weixin.qq.com/s/brx-i-Bbgp-XYwn5SkQLwA)
+* [一场大病引起的诺贝尔2017年生理学奖角逐](http://mp.weixin.qq.com/s/T9Q6CUCt-wBoUCEwSBZALg)
+* [Science搞反狗脑 - 人脑和狗脑一样？](https://mp.weixin.qq.com/s/zymhxusKNDZ9XynNGAlRcA)
+* [一篇压根不存在的文献被引用400次？！揭开" 幽灵文献" 的真面目](http://mp.weixin.qq.com/s/OgAhb_UGUp7tZvQARbmLLg)
+* [YANDEX搜索，不翻墙稳定使用近谷歌搜索](http://mp.weixin.qq.com/s/fZ2Nm7Wck5mZLiESHcPusA)
+* [Nature我的研究对后人毫无用途：21%的学术论文自发布后从未被引用](http://mp.weixin.qq.com/s/NMpqbKfXy002eMz9b9y1zg)
+* [SCI-HUB镜像,  SSH隧道访问学校内网](https://mp.weixin.qq.com/s/NGsFlVb0fN1O37ecaYwxsA)
+* [为了速成生物学，一位程序员探索了"爆款"基因背后的秘密](http://mp.weixin.qq.com/s/fFO6MX6Ttijx0bfYS5eQ-Q)
+* [Nature邀请6位专家为您支招如何写出一流论文？](https://mp.weixin.qq.com/s/l01bhdIHW2NMrfl0lJOn6Q)
+* [Cell：荧光标记out了，AI不用“侵入”也能识别细胞死活和类型](https://mp.weixin.qq.com/s/gwVmKE4STwTxoWkJjHCu6w)
+* [如果你经常用PubMed，那么这个插件将非常好用！](https://mp.weixin.qq.com/s/v45sZXXCMNZGzzHE1gd-gw)
+* [生物研究中不可缺少的数字概念，多少，多大，多快](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
+* [王秀杰研究组合作发现m6A修饰在小脑发育中的新功能 （附2018上半年m6A研究文章和点评）](https://mp.weixin.qq.com/s/yVgkbWfLfUJTJNKtqIWxjw)
+* [把人类宝宝和黑猩猩幼崽一起养大，会发生什么有趣的事情呢？结局可能是有些出乎意料的～～](https://mp.weixin.qq.com/s/qcxQ_2h8Qgfs05Jz9sJntg)
+* [你体内的细胞“成精了”？居然还互相看对了眼？](https://mp.weixin.qq.com/s/MhQ34l0pgqCxJnEu1ozcwg)
+* [父爱无言！科学家首次发现来自爸爸的基因，可以通过胎儿来控制妈妈对宝宝的爱](https://mp.weixin.qq.com/s/wYjegqeeY_alzEc7OCTdyg)
+* [饿死癌细胞？还是先看看肿瘤中的异常代谢的特征分析和背后的遗传与环境互作吧！](https://mp.weixin.qq.com/s/pIVBQTxOQc2iygD8YtpfzQ)
+* [2018Cell系列最好的调控方式-相变，最强综述，未来以来，你在哪](https://mp.weixin.qq.com/s/32bCVOkYwKqDufdpmFp0pg)
+* [2018“不务正业”的化学奖又发给了生物](https://mp.weixin.qq.com/s/K1ZvvNMy5Gb9FpkwNuDVmg)
+* [2018美日科学家因免疫治疗得诺贝尔生理医学奖-动图展示历年生理学奖](https://mp.weixin.qq.com/s/MjmfuKAlNvG8Z2vkxe2ouw)
+* [Nature综述-整合组学分析护航健康，推动精准医学时代的到来！](https://mp.weixin.qq.com/s/0amUXFwB2SkLUgTqhuWm6Q)
+* [勤能补拙，过目不忘，提高m6A助力好记性？中科院王秀杰/杨运桂合作最新成果](https://mp.weixin.qq.com/s/2mTNgh1qD8TQrNWJc0IfgA)
+* [综述：变温动物的适应性免疫](https://mp.weixin.qq.com/s/8-QmwrU-ySeiXG9WY7EMfw)
+* [你的DNA都会玩摇滚了，你却还是个音痴](https://mp.weixin.qq.com/s/hdIp1dbKS0Y8hWD5vyEQyQ)
+* [“乱搞”的动物可能只是脸盲？新研究发现24个基因决定动物“忠诚度”](https://mp.weixin.qq.com/s/6zlMrmU38pTPVoJILUZ6vg)
+* [经常喜欢熬夜？也许你天生就是“夜型人”基因！](https://mp.weixin.qq.com/s/Dacag5v1aHorEORp4b0ySw)
+* [基因编辑婴儿违规，预防艾滋还是了解下啪啪啪为何会传染（视频）](https://mp.weixin.qq.com/s/iE9vhmZCOVhjbnw5A9pslw)
+* [读趣味漫画了解生物技术的发展与应用](https://mp.weixin.qq.com/s/ez9PxybhcHJ8wLa9_8IOKA)
+* [颠覆！垃圾DNA不是垃圾！活细胞成像实时演绎基因调控全过程！](https://mp.weixin.qq.com/s/rYf6RplVKelRx2bLwM-hmg)
+* [Nature重磅！肥胖有救了：分析了362499个人，发现了98个与肥胖相关的遗传信号，其中29个是第一次发现](https://mp.weixin.qq.com/s/-Wjcus26bplsYlBmCG06rA)
+* [当细胞生物学遇上计算机思维，会产生什么样的火花？](https://mp.weixin.qq.com/s/NPojxD1o8qmuduhosTfhxg)
+* [整天泡实验室已经out了，会写代码才是不被淘汰的关键](https://mp.weixin.qq.com/s/KUDe-7OUvcmFI3pHw_aSBA)
 
 ### 生信人写程序
 
@@ -782,7 +820,6 @@ tags:
 
 * [转录组分析的正确姿势](http://mp.weixin.qq.com/s/Kx0gaU2x4pWjBq2I2Ffe6Q)
 * [120分的转录组考题，你能得多少](http://mp.weixin.qq.com/s/BmtIOcIzIutufFilbJIgEA)
-* [生物信息作图系列R、Cytoscape及图形排版和Python编程培训研讨班开课了](http://mp.weixin.qq.com/s/x*DInL34BbKUR-2UD2Ec3g)
 * [维密摔倒不可怕，关键时有人搀一把，坚持走下去](http://mp.weixin.qq.com/s/4mWms*r5kg8kN7kJ60zZDQ)
 * [生物信息作图系列 * R、网络图及文章图形排版](http://mp.weixin.qq.com/s/IS3uVvulYsCbyuV64bcdLg)
 * [易生信转录组培训总结和优惠分享](http://mp.weixin.qq.com/s/TLxzWyKImJhMINkNxLk6Yg)
@@ -802,13 +839,15 @@ tags:
 * [转录组课程以旧换新](https://mp.weixin.qq.com/s/dinHYC3gJkoFkUoLGaJ5vw)
 * [4天你也可以自己处理二代三代转录组测序数据 （可只报名二代或三代）](https://mp.weixin.qq.com/s/AOeGnfuEbsPMWFeej66gqw)
 * [芒种“忙种”，不负光阴](https://mp.weixin.qq.com/s/WN1kT3_uZw21VxItbgd8dA)
-* [发乎于情止乎于怕 * 怎么才能拥有他？](https://mp.weixin.qq.com/s/fAphWlMnefcSW8J6qBnJqw)
-* [易生信暑期黑马集训营 *- 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
+* [发乎于情止乎于怕 怎么才能拥有他？](https://mp.weixin.qq.com/s/fAphWlMnefcSW8J6qBnJqw)
+* [易生信暑期黑马集训营 - 收获一“夏”](https://mp.weixin.qq.com/s/7KXY3s_e2ceQDf3S8r2UKA)
 * [助力CNS*学术论文统计图插图绘制](https://mp.weixin.qq.com/s/y3YfpslAMo73ogY2dKZ4hA)
 * [微生物组——宏基因组分析专题培训开课啦！](https://mp.weixin.qq.com/s/LCwi2QW_tXtG_Ol2h3eKhw)
 * [学术论文统计图插图绘制第二期，开始报名啦！](https://mp.weixin.qq.com/s/EjpVLN2kZn53hUIB7F6PXw)
-* [易生信 * 转录组专题分析第4期开课啦](https://mp.weixin.qq.com/s/w6FWHrYvo5o7eZI9wUhWrw)
+* [易生信 转录组专题分析第4期开课啦](https://mp.weixin.qq.com/s/w6FWHrYvo5o7eZI9wUhWrw)
 * [生信分析Linux基础和R绘图——玩转公司反馈的测序报告和数据表！](https://mp.weixin.qq.com/s/*U4pnGDCujEZka3_ccMZMg)
+* [从Nature,  Science文章看易生信培训的重要性](https://mp.weixin.qq.com/s/3BB8GO1Bzo3FmerNiWqkqQ)
+* [啥是佩奇？](https://mp.weixin.qq.com/s/rH6F5mwhWa3J7UBbveDEwQ)
 
 ### 永久链接
 
