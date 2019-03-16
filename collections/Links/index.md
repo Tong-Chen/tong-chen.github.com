@@ -13,6 +13,7 @@ comments: yes
 5. <http://bioinformatics.knowledgeblog.org/2011/06/20/analysing-microarray-data-in-bioconductor/>
 6. <http://bioinformatics.knowledgeblog.org/2011/06/21/volcano-plots-of-microarray-data/>
 7. <https://wiki.bits.vib.be/index.php/Hands-on_Analysis_of_public_microarray_datasets>
+8. <https://wiki.bits.vib.be/index.php/Analyze_your_own_microarray_data_in_R/Bioconductor>
 8. <https://mp.weixin.qq.com/s?__biz=MzIyMzA2MTcwMg==&mid=2650732330&idx=1&sn=35751c91d8cbd62cf988679701f9da8e&chksm=f029a483c75e2d951591f06cfb923f8d92a5c30e2bb2e962f01a582aa159ad0a60520a208d9e&mpshare=1&scene=1&srcid=1201aeqQJfsBSaN71KyB8Dh9#rd>
 9. <https://v.qq.com/x/page/w0159pm9ihy.html>
 10. <https://www.researchgate.net/post/How_can_we_merge_different_Microarray_datasets_from_GEO_for_DEGs_Analysis>
@@ -24,6 +25,11 @@ comments: yes
 16. <http://math.usu.edu/jrstevens/stat5570/1.4.Preprocess_4up.pdf>
 17. <https://bioconductor.org/help/course-materials/2009/SeattleApr09/AffyAtoZ/AffymetrixAtoZSlides.pdf>
 18. <https://bioconductor.org/packages/devel/workflows/vignettes/maEndToEnd/inst/doc/MA-Workflow.html#9_rma_calibration_of_the_data>
+19. <https://github.com/lelimat/GEO_microarray_meta_analysis/blob/master/GEO_meta_pipeline.R>
+20. <https://github.com/Bioconductor/BiocWorkshops/blob/master/103_Waldron_PublicData.Rmd>
+21. <https://github.com/STAT540-UBC/STAT540-UBC.github.io/blob/master/seminars/seminars_winter_2017/seminar7/sm07_methylation.md>
+22. <https://newonlinecourses.science.psu.edu/stat555/node/7/> 挺好的课程
+23. <http://varianceexplained.org/statistics/interpreting-pvalue-histogram/> 如何解释p-value
 
 
 ### 准备TCGA课程教程参考
