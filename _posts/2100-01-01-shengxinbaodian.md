@@ -62,11 +62,8 @@ tags:
 * [生物信息之程序学习](http://mp.weixin.qq.com/s/xoLBg0pI9seEksa0hMXi0A)
 * [关于编程学习的一些思考](https://mp.weixin.qq.com/s/QPesQBExnmaR6uLDTITdgQ)
 * [该如何自学入门生物信息学](https://mp.weixin.qq.com/s/Y89T47NRWrCclh04dmyrKg)
-* [如何优雅的提问](https://mp.weixin.qq.com/s/xCif04bqZB14Z4OvesK0SQ)
 * [生信宝典视频教程](http://mp.weixin.qq.com/s/C4EBufEtFF6bhBKrH8NXng)
-* [好色之旅-画图三字经](https://mp.weixin.qq.com/s/bsvB1k17Izom2ldgdwXrdg)
 * [转录组分析的正确姿势](https://mp.weixin.qq.com/s/qDy5kpM9Y_wBrk7QXZMFvA)
-* [生信的系列教程](https://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg)
 * [收藏 你想要的生信学习系列教程-宝典在手，生信无忧](https://mp.weixin.qq.com/s/9M3LfOhpmo-YF2R3HnQK2A)
 * [生信的系列书籍](http://mp.weixin.qq.com/s/IiehgNu3JGVTDa079ll1SQ)
 * [文章用图的修改和排版 (1)](https://mp.weixin.qq.com/s/IJNyhinakY0lSXgCN7b9ug)
@@ -131,6 +128,7 @@ tags:
 ### 单细胞
 
 * [收藏 北大生信平台" 单细胞分析、染色质分析" 视频和PPT分享](https://mp.weixin.qq.com/s/3FGXQlfx2UfbVtpW9kW11w)
+* [Science: 小鼠肾脏单细胞转录组+突变分析揭示肾病潜在的细胞靶标](https://mp.weixin.qq.com/s/Qj1SUelmA8mAqmJ5DrlyFA)
 * [10X单细胞测序分析软件:Cell ranger，从拆库到定量](https://mp.weixin.qq.com/s/qLqIA7Y3J9xf_tXlQj0FAw)
 * [Hemberg-lab单细胞转录组数据分析（一）- 引言](https://mp.weixin.qq.com/s/18baLo2ecG-XiS5igmgV3g)
 * [Hemberg-lab单细胞转录组数据分析（二）- 实验平台](https://mp.weixin.qq.com/s/2hN2LENp3bAeq4G8Lf4Ehw)
@@ -141,6 +139,20 @@ tags:
 * [Hemberg-lab单细胞转录组数据分析（七）- 导入10X和SmartSeq2数据Tabula Muris](https://mp.weixin.qq.com/s/oDji6BkV4ia9xViWRGoY5g)
 * [Hemberg-lab单细胞转录组数据分析（八）- Scater包输入导入和存储](https://mp.weixin.qq.com/s/LpHqvdxR9C5kE-58BmKg7g)
 * [Hemberg-lab单细胞转录组数据分析（九）- Scater包单细胞过滤](https://mp.weixin.qq.com/s/pGu2qZ9usy1kVqunX_x0-g)
+* [Hemberg-lab单细胞转录组数据分析（十）- Scater基因评估和过滤](https://mp.weixin.qq.com/s/HHIFUqCUi1BNZk6SHxATig)
+* [Hemberg-lab单细胞转录组数据分析（十一）- Scater单细胞表达谱PCA可视化](https://mp.weixin.qq.com/s/tDGbWN5GHcLrpVwQVkV-Dg)
+
+### GEO/TCGA数据
+
+* [UCSC XENA - 集大成者(TCGA, ICGC)](https://mp.weixin.qq.com/s/we3raL4XowZp4vQ9zPqfYQ)
+* [ICGC数据库使用](http://mp.weixin.qq.com/s/UTlEtyDITPx9ZQOpJFczBw)
+* [TCGA数据库在线使用](https://mp.weixin.qq.com/s/etg52j9F9uvcGY-qEcAvFQ)
+* [BROAD开发的TCGA分析平台，强大的下载功能](https://mp.weixin.qq.com/s/cOF4MEqW2KIT__pvm_-nug)
+* [cBioPortal功能强大的TCGA再分析平台](https://mp.weixin.qq.com/s/8IWKQGV4rFFCDsKLUD6VVw)
+* [这是数据更新最实时的TCGA网站，功能强大](https://mp.weixin.qq.com/s/G7xEvahDljNQceFsPLNO3A)
+* [不懂R，如何进行GEO数据库表达谱的差异分析、富集分析、蛋白互作、可视化？](https://mp.weixin.qq.com/s/-RxvJCGBjjOSFTxwNGd2kA)
+* [典型医学设计实验GEO数据分析 (step-by-step) - Limma差异分析、火山图、功能富集](https://mp.weixin.qq.com/s/PswNqmQ8mDleVE4yHtCvAQ)
+* [典型医学设计实验GEO数据分析 (step-by-step) - 数据获取到标准化](https://mp.weixin.qq.com/s/CVMCbxvGuFfWJWYVtlYz1A)
 
 ### 扩增子三步曲
 
@@ -258,6 +270,8 @@ tags:
 * [R语言 - 非参数法生存分析](http://mp.weixin.qq.com/s/_Dy9Yn8fc8I0rASGxH5x9A)
 * [R语言 - 绘制seq logo图](https://mp.weixin.qq.com/s/W346MWTZv6N_iuSPzBZn6w)
 * [WGCNA分析，简单全面的最新教程](https://mp.weixin.qq.com/s/PMb2xwADvnMwaipyFXdtzQ)
+* [psych +igraph：共表达网络构建](https://mp.weixin.qq.com/s/uUHEzg2awvIxpioBu30rkg)
+* [一文学会网络分析——Co-occurrence网络图在R中的实现](https://mp.weixin.qq.com/s/wb7w3NdvgsAsZJtZLIrkhg)
 * [一文看懂PCA主成分分析](https://mp.weixin.qq.com/s/ZKvQieq_6KX6l6LZyUz7jA)
 * [富集分析DotPlot，可以服](https://mp.weixin.qq.com/s/x7IX38yPG_cbs1vdHLQcGA)
 * [基因共表达聚类分析和可视化](http://mp.weixin.qq.com/s/ST2SAmfKOptpJOHS8podmQ)
@@ -368,14 +382,6 @@ tags:
 * [生信宝典之傻瓜式 (五) 文献挖掘查找指定基因调控网络](http://mp.weixin.qq.com/s/DQ4fjCL777D2iEcPTnd-rA)
 * [生信宝典之傻瓜式 (六) 查找转录因子的靶基因](https://mp.weixin.qq.com/s/1LNae0pG0w_Q-rRxhI96Pg)
 
-### 癌症数据库
-
-* [UCSC XENA - 集大成者(TCGA, ICGC)](https://mp.weixin.qq.com/s/we3raL4XowZp4vQ9zPqfYQ)
-* [ICGC数据库使用](http://mp.weixin.qq.com/s/UTlEtyDITPx9ZQOpJFczBw)
-* [TCGA数据库在线使用](https://mp.weixin.qq.com/s/etg52j9F9uvcGY-qEcAvFQ)
-* [BROAD开发的TCGA分析平台，强大的下载功能](https://mp.weixin.qq.com/s/cOF4MEqW2KIT__pvm_-nug)
-* [cBioPortal功能强大的TCGA再分析平台](https://mp.weixin.qq.com/s/8IWKQGV4rFFCDsKLUD6VVw)
-* [这是数据更新最实时的TCGA网站，功能强大](https://mp.weixin.qq.com/s/G7xEvahDljNQceFsPLNO3A)
 	
 ### Python
 
@@ -457,6 +463,8 @@ tags:
 * [Nature重磅！肥胖有救了：分析了362499个人，发现了98个与肥胖相关的遗传信号，其中29个是第一次发现](https://mp.weixin.qq.com/s/-Wjcus26bplsYlBmCG06rA)
 * [当细胞生物学遇上计算机思维，会产生什么样的火花？](https://mp.weixin.qq.com/s/NPojxD1o8qmuduhosTfhxg)
 * [整天泡实验室已经out了，会写代码才是不被淘汰的关键](https://mp.weixin.qq.com/s/KUDe-7OUvcmFI3pHw_aSBA)
+* [Science文章背靠背揭示癌症中细胞感应氧气的新机制](https://mp.weixin.qq.com/s/e3zAo9iNwenUFUABeB4q-Q)
+* [跟随美国博导12年，我学到最深刻的不是科研，而是这个。。。](https://mp.weixin.qq.com/s/8fqtfUiFymeDvF5o7yrLzA)
 
 
 
