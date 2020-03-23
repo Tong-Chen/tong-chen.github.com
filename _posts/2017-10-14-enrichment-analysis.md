@@ -300,8 +300,17 @@ self_gsea <- GSEA(geneL, TERM2GENE=self_anno, verbose=F)
 
 ### Reference
 
-1. <https://guangchuangyu.github.io/clusterProfiler/>
-2. <http://guangchuangyu.github.io/2016/01/go-analysis-using-clusterprofiler/>
-3. <http://igraph.org/c/doc/igraph-Layout.html>
+1. [http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+2. <https://guangchuangyu.github.io/clusterProfiler/>
+3. <http://guangchuangyu.github.io/2016/01/go-analysis-using-clusterprofiler/>
+4. <http://igraph.org/c/doc/igraph-Layout.html>
 
 
+
+## 生信宝典，生物信息学习系列教程，转录组，宏基因组，外显子组，R作图，Python学习，Cytoscape视频教程
+
+[http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+
+## 生信宝典，最好的生物信息培训课程，培训课程资料
+
+[www.ehbio.com/Training](www.ehbio.com/Training)

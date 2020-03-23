@@ -1,0 +1,65 @@
+196791  2016-04-26 05:51:08 cd _sass/
+196791  2016-04-26 05:51:08 cd _sass/
+196792  2016-04-26 05:51:09 ls
+196793  2016-04-26 05:54:22 vim _page.scss 
+196794  2016-04-26 05:56:10 vim _elements.scss 
+196795  2016-04-26 05:56:37 vim _dl-menu.scss 
+196796  2016-04-26 05:56:55 grep 'list' *
+196797  2016-04-26 05:58:09 ltr
+196798  2016-04-26 05:58:15 ls vendor/
+196805  2016-04-26 06:00:31 cd _sass/
+196806  2016-04-26 06:00:33 ltr
+196807  2016-04-26 06:02:28 mv ../media/ ../../
+196808  2016-04-26 06:02:53 mv ../../media/ ../
+196809  2016-04-26 06:03:04 git mv ../media/ ../../
+196810  2016-04-26 06:03:22 git rm ../media/
+196811  2016-04-26 06:03:31 git rm -rf ../media/
+196811  2016-04-26 06:03:31 git rm -rf ../media/
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196732  2016-04-26 06:05:02 cd ~/blog/tong-chen.github.com/_sass
+196733  2016-04-26 06:05:03 ltr
+196734  2016-04-26 06:05:25 grep 'list' -r *
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196812  2016-04-26 06:04:26 ls
+196823  2016-04-26 06:11:17 cd _sass/
+196824  2016-04-26 06:11:18 ls
+196825  2016-04-26 06:11:24 vim _page.scss 
+196826  2016-04-26 06:20:07 vim _site.scss 
+196827  2016-04-26 06:20:33 vim _elements.scss 
+197165  2016-04-27 20:08:11 cd _sass/
+197166  2016-04-27 20:08:12 ltr
+197167  2016-04-27 20:08:17 vim _variables.scss 
+197168  2016-04-27 20:08:42 vim _page.scss 
+197169  2016-04-27 20:09:42 grep 'link-color' *
+197170  2016-04-27 20:10:17 vim _variables.scss
+197171  2016-04-27 20:11:20 vim _page.scss 
+ 7259  2016-11-04 11:08:42 cd _sass/
+ 7260  2016-11-04 11:08:44 ls
+ 7261  2016-11-04 11:08:50 grep 'table' *
+ 7262  2016-11-04 11:09:03 vim _reset.scss
+ 7263  2016-11-04 11:18:29 gitUpdate.sh _reset.scss 'Table css'
+ 7264  2016-11-04 11:26:56 vim ../_posts/2016-09-01-computer-usage.md 
+ 7264  2016-11-04 11:26:56 vim ../_posts/2016-09-01-computer-usage.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27222  [2017-10-01 19:19:08][ct][61.148.242.131]cd ../_sass/
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27223  [2017-10-01 19:19:10][ct][61.148.242.131]ls -ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27224  [2017-10-01 19:20:15][ct][61.148.242.131]grep 'highlight' *
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27225  [2017-10-01 19:20:21][ct][61.148.242.131]vim _rouge.scss 
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27225  [2017-10-01 19:20:21][ct][61.148.242.131]vim _rouge.scss 
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27226  [2017-10-01 19:32:19][ct][61.148.242.131]grep 'f2f2f2' *
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27227  [2017-10-01 19:32:26][ct][61.148.242.131]grep 'f2f2f2' -R *
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27257  [2017-10-01 20:05:23][ct][61.148.242.131]cd _sass/
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27258  [2017-10-01 20:05:26][ct][61.148.242.131]wget https://raw.githubusercontent.com/illarionvk/pygments-solarized-scss/master/solarized.scss
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27259  [2017-10-01 20:05:37][ct][61.148.242.131]mv solarized.scss _solarized.scss 
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27267  [2017-10-01 20:09:56][ct][61.148.242.131]cd _sass/
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27268  [2017-10-01 20:09:57][ct][61.148.242.131]ls
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27269  [2017-10-01 20:10:06][ct][61.148.242.131]mv _rouge.scss _rouge.scss.bak
+[/MPATHB/ct/blog/tong-chen.github.com/_sass] 27270  [2017-10-01 20:10:14][ct][61.148.242.131]mv _solarized.scss _rouge.scss
+[/home/ct/blog/tong-chen.github.com/_sass] 58817  [2018-09-26 16:28:15][ct][123.123.157.187]cd _sass/
+[/home/ct/blog/tong-chen.github.com/_sass] 58818  [2018-09-26 16:28:19][ct][123.123.157.187]grep 'a' *
+[/home/ct/blog/tong-chen.github.com/_sass] 58819  [2018-09-26 16:28:30][ct][123.123.157.187]vim _variables.scss

@@ -11,7 +11,7 @@ tags:
 
 上一篇[为啥我的Python这么慢, 字符串的加和和join](https://mp.weixin.qq.com/s/n5kkZfC8FGlzeBODarLHcw)被陈群主分享到`biopython-生信`QQ群时，乐平指出字典的写法存在问题，并给了一篇知乎的链接<https://zhuanlan.zhihu.com/p/28738634>指导如何高效字典操作。
 
-根据那篇文章改了两处写法，如下：
+根据那篇文章改了两处写法，如下 (存储于readFaJoin2.py文件中)：
 
 ```python
 from collections import defaultdict
@@ -30,16 +30,16 @@ for key, value in aDict.iteritems():
 
 比之前提速接近`2s`。一个是使用了`defaultdict`初始化字典，另外一个是用`iteritems`遍历字典，节省近一半的内存。
 
-`defaultdict`用在这效果不太明显，之前处理全基因组每个位点数据的频繁存取时，`defaultdict`在程序无论速度还是写法上都有很大提升。
-
 ```bash
 time python readFaJoin2.py
 
 real	0m49.114s
 user	0m38.442s
 sys	0m10.565s
-
 ```
+
+`defaultdict`用在这效果不太明显，之前处理全基因组每个位点数据的频繁存取时，`defaultdict`在程序无论速度还是写法上都有很大提升。
+
 
 字典本身还有更多高效用法，可以去参考知乎的那篇文章。这儿介绍的是妙用字典的哈希属性快速查找项。
 
@@ -103,3 +103,16 @@ Ref:
 * [速度测试例子 https://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table](https://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table)
 * [python各数据结构时间复杂度 https://wiki.python.org/moin/TimeComplexity](https://wiki.python.org/moin/TimeComplexity)
 
+## 生信宝典 [http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+
+
+	
+
+
+## 生信宝典，生物信息学习系列教程，转录组，宏基因组，外显子组，R作图，Python学习，Cytoscape视频教程
+
+[http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+
+## 生信宝典，最好的生物信息培训课程，培训课程资料
+
+[www.ehbio.com/Training](www.ehbio.com/Training)

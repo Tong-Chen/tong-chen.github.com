@@ -744,6 +744,89 @@ layout: page
 	install.packages("github_url", repos=NULL, type="source")
 	```
 
+38. Add a column to dataframe as the first column 
+
+    ```
+    df <- data.frame(b = c(1, 1, 1), c = c(2, 2, 2), d = c(3, 3, 3))
+    df
+    ##   b c d
+    ## 1 1 2 3
+    ## 2 1 2 3
+    ## 3 1 2 3
+    
+    df <- data.frame(a = c(0, 0, 0), df)
+    df
+    ##   a b c d
+    ## 1 0 1 2 3
+    ## 2 0 1 2 3
+    ## 3 0 1 2 3
+    ```
+
+39. Change R error messages to english,  adding `language = EN` to `RConsole` file in R's `\etc` directory (`C:\Program Files\R\R-x.x.x\etc\` by default).
+
+40. "inivisible(x) is oftent used with return as "return(invisible(x))",  and as the last statement,  the "return" can be left out. The intention is to make the function to return an object,  but not to print it when the function it jsut typed on commant-line.
+
+41. `read.table` windows下读入 `UTF-8`格式文件，使用`fileEncoding="UTF-8"为参数`
+
+41. Rstuidio更新R版本
+
+```
+conda create -n r-environment r-essentials r-base
+/anaconda2/bin/conda create -n r-environment r-essentials r-base
+
+/etc/rstudio/rserver.conf
+rsession-which-r=/MPATHB/soft/anaconda2/envs/mro_env/bin/R
+rsession-ld-library-path=/MPATHB/soft/anaconda2/lib:/MPATHB/soft/anaconda2/envs/mro_env/lib:/MPATHB/soft/anaconda2/envs/mro_env/lib/R/lib
+/etc/rstudio/rserver.conf
+```
+
+
+```
+site= "https://mirrors.tuna.tsinghua.edu.cn/CRAN"
+
+cran <- c("RColorBrewer", "gplots", "agricolae","optparse", "plotrix","igraph", "psych","sqldf","amap", "igraph", "randomForest", "gridExtra", "reshape2", "ggplot2", "ggrepel", "pheatmap","ggbeeswarm","cowplot","plyr","stringr","grid","VennDiagram", "UpSetR","dplyr","showtext", "vegan", "knitr", "psych", "scatterplot3d", "ggfortify", "gridExtra", "survival", "survminer", "RColorBrewer", "readr", "data.table", "WGCNA","Seurat", "devtools", "bookdown", "statmod", "mvoutlier", "mclust",  "penalized", "cluster", "KernSmooth", "mgcv", "ROCR", "googleVis", "tidyverse", "ggthemes", "corrplot","BiocManager", "Rtsne","factoextra","roxygen2", "ggpubr")
+
+a = rownames(installed.packages())
+
+for(i in cran) {if(! i %in% a) install.packages(i, repos=site)}
+
+#options(BioC_mirror="https://mirrors.tuna.tsinghua.edu.cn/bioconductor/")
+
+a = rownames(installed.packages())
+
+install_bioc <- c("DESeq2","BiocParallel", "tximport","clusterProfiler","org.Hs.eg.db","AnnotationDbi", "impute","GO.db", "preprocessCore", "pcaMethods", "limma", "SingleCellExperiment", "Rhdf5lib", "beachmat", "scater", "scran", "RUVSeq", "sva", "SC3", "TSCAN", "monocle", "destiny", "edgeR", "MAST", "scfind", "scmap", "MultiAssayExperiment", "SummarizedExperiment", "affy", "oligo")
+
+for(i in install_bioc) {if(! i %in% a) BiocManager::install(i, update=F)}
+
+a = rownames(installed.packages())
+
+install_dev <- c("hemberg-lab/scRNA.seq.funcs", "Vivianstats/scImpute", "theislab/kBET", "JustinaZ/pcaReduce", "tallulandrews/M3Drop", "jw156605/SLICER", "kieranrcampbell/ouija")
+
+library(stringr)
+for(i in install_dev) {j=str_split(i,"/", simplify = T)[,2]; if(! j %in% a) devtools::install_github(i)}
+
+#site= "https://mirrors.tuna.tsinghua.edu.cn/CRAN"
+#install2 <- c("RColorBrewer", "gplots", "amap", "reshape2", "ggplot2", "ggrepel", "pheatmap","ggbeeswarm","cowplot","plyr","stringr","grid","VennDiagram", "UpSetR","dplyr","showtext", "knitr", "psych", "scatterplot3d", "ggfortify", "gridExtra", "survival", "survminer", "RColorBrewer", "readr", "data.table", "WGCNA","Seurat")
+#
+## VennDiagram, showtextdb, showtext, WGCNA, Seurat
+#
+#a = rownames(installed.packages())
+#
+#for(i in install2) {if(! i %in% a) install.packages(i, repos=site)}
+#
+#if (!requireNamespace("BiocManager"))
+#    install.packages("BiocManager")
+#options(BioC_mirror="http://mirrors.ustc.edu.cn/bioc/")
+#
+#a = rownames(installed.packages())
+#
+#install_bioc <- c("DESeq2","BiocParallel", "tximport","clusterProfiler","org.Hs.eg.db","org.Mm.eg.db","org.At.eg.db","org.Rn.eg.db","AnnotationDbi", "impute","GO.db", "preprocessCore")
+#
+#for(i in install_bioc) {if(! i %in% a) BiocManager::install(i)}
+#
+##for(i in install_bioc) {if(! i %in% a) BiocManager::install(i, site_repository="http://mirrors.ustc.edu.cn/bioc/")}
+```
+
 **Reference**
 
 * http://rfunction.com/archives/1377

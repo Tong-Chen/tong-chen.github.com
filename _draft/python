@@ -1,0 +1,2 @@
+import string
+"abaababb".translate(string.maketrans("ab", "ba"))

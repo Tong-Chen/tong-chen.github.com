@@ -15,7 +15,7 @@ tags:
 * [Linux学习 - 文件和目录](http://mp.weixin.qq.com/s/yKP1Kboji9N4p2Sl1Ovj0Q)
 * [Linux学习 - 文件操作](http://mp.weixin.qq.com/s/4bYMzJclf_xHpqdrlbvAdA)
 * [Linux学习 - 文件内容操作](http://mp.weixin.qq.com/s/QFgINAYcQA9kYYSA28wK-Q)
-* [Linux学习-环境变量和可执行属性](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483872&amp;idx=1&amp;sn=7fb7e57b3ff5c06ebaff344370c8b4c8&amp;chksm=ec0dc46adb7a4d7cc125ab3cf8361bf3e3fcf858edca7d7987d52bce3e9e3aa0b7d8f8f2adfa#rd)
+* [Linux学习 - 环境变量和可执行属性](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483872&amp;idx=1&amp;sn=7fb7e57b3ff5c06ebaff344370c8b4c8&amp;chksm=ec0dc46adb7a4d7cc125ab3cf8361bf3e3fcf858edca7d7987d52bce3e9e3aa0b7d8f8f2adfa#rd)
 * [Linux学习 - 管道、标准输入输出](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483923&amp;idx=1&amp;sn=eb764e59cfc12b98e3eb4240ac350330&amp;chksm=ec0dc799db7a4e8f9dc3a64760253a554d3241446005040ad721070bafb237f405b173c11ef4#rd)
 * [Linux学习 - 命令运行监测和软件安装](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483954&amp;idx=1&amp;sn=11247591a6ef98a4d25404278d577ed0&amp;chksm=ec0dc7b8db7a4eaeb7ae3fd2fa2fbfa7bfd13f5e90d7a42d405f6f8e8783761de048f7ccbc58#rd)
 * [Linux学习 - 常见错误和快捷操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247483873&amp;idx=1&amp;sn=6e2b9ddb6ba61c49d834bcfba6703c5c&amp;chksm=ec0dc46bdb7a4d7d6d1232390f6f8843607b37ecca7938d19c20404dff0cf01aebfff77a0cdd#rd)
@@ -44,3 +44,12 @@ tags:
 
 考虑到前期报名要截止了，最新报名信息还请去报名网站查询 (<mark>长按二维码或点击阅读原文</mark>)。
 
+
+
+## 生信宝典，生物信息学习系列教程，转录组，宏基因组，外显子组，R作图，Python学习，Cytoscape视频教程
+
+[http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+
+## 生信宝典，最好的生物信息培训课程，培训课程资料
+
+[www.ehbio.com/Training](www.ehbio.com/Training)

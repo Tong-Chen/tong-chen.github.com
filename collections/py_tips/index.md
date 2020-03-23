@@ -98,6 +98,14 @@ except TimeoutExpired:
 	print >>sys.stderr, "Time out"
 ```
 
+8. 调用系统指令并获得输出
+
+```
+from subprocess32 import check_output
+output = check_output(' '.join(cmd), shell=True)
+output
+```
+
 8. Python mail
 
 ```
@@ -122,11 +130,25 @@ pool.map(partial(call,  shell=True),  cmdL)
 pool.close()
 pool.join
 
-
 ```
 
+10. 获取文件名和目录名
 
+```
+head,  tail = os.path.split(" /tmp/d/a.dat" )
+print(tail)
+a.dat
+print(head)
+/tmp/d
+```
 
+11. 列表死循环
 
+```
+for i in lineL:
+	lineL.append(i)
 
+for i in lineL[:]:
+	lineL.append(i)
+```
 

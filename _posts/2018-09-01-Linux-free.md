@@ -84,4 +84,6 @@ linuxzoo优点是有**根用户**权限，缺点是**不能**连接外网，但�
 * [Linux - 原来你是这样的软连接](https://mp.weixin.qq.com/s/q3ic5WSfLdAnqIhFQX-bUQ)
 * [Bash概论 - Linux系列教程补充篇](http://mp.weixin.qq.com/s/lWNp_6W_jLiogmtlk9nO2A)
 
+如果需要学习视频，我们的[生信程序基础课](https://ke.qq.com/course/289264)和[生信Linux学习视频](https://ke.qq.com/course/288048?tuin=20cd7788)正在团购中，欢迎观看。点击**阅读原文** (免费视频)可访问在线视频。
+
 

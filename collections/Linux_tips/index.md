@@ -21,6 +21,40 @@ layout: page
   
    `lsof -Pnl +M -i4`
 
+4. 网站不能访问或没有权限 （关闭防火墙）
+
+   ```
+   #启动： 
+   systemctl start firewalld
+   #关闭： 
+   systemctl stop firewalld
+   #查看状态： 
+   systemctl status firewalld 
+   #开机禁用  ： 
+   systemctl disable firewalld
+   #开机启用  ： 
+   systemctl enable firewalld
+   firewall-cmd --zone=public --add-port=80/tcp --permanent    （--permanent永久生效，没有此参数重启后失效）
+   #重新载入
+   firewall-cmd --reload
+   #查看
+   firewall-cmd --zone= public --query-port=80/tcp
+   #删除
+   firewall-cmd --zone= public --remove-port=80/tcp --permanent
+   ```
+
+5. 关闭SELINUX
+
+   ```
+   setenforce 0  # 临时
+
+   # 永久
+   vim /etc/sysconfig/selinux
+
+   SELINUX=enforcing 改为 SELINUX=disabled
+
+   重启服务reboot
+   ```
 4. 查看端口是否通
 
    `telnet server_ip 25` (25为端口号)
@@ -70,6 +104,10 @@ layout: page
 
    # 配置mysql
    mysql_secure_installation 
+
+  # /tmp/mysql.sock
+  # 获取 mysql.sock的位置
+  netstat -ln | grep mysql   
    ```
 
    * [install ref](https://segmentfault.com/a/1190000005820034)
@@ -350,5 +388,23 @@ newusers </tmp/${user}.create
 userdel -r ${user}
 ```
 
+24. csplit
 
+```
+csplit --elide-empty-files --prefix=test  test.fa '/^>/' "{*}"
+```
 
+25. 取出文件倒数第二行
+
+```
+rev file | cut -f 2 | rev 
+# 扔掉倒数第二行
+rev file | cut -f 2 --complement | rev 
+awk '{a=NF-1; print $a}' file
+```
+
+26. 合并pdf
+
+```
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default -dNOPAUSE -dQUIET -dBATCH -dDetectDuplicateImages -dCompressFonts=true -r150 -sOutputFile=output.pdf input.pdf
+```

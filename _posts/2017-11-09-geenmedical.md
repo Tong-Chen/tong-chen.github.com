@@ -36,6 +36,10 @@ tags:
 * 发文机构出现次数：看看有没有你们学校、研究所，做**博后**
 * **全文**下载链接：不解释
 
+## 全文获取
+
+除了有**文献义助**版块，每篇文献也都有全文链接，点击不能下载的，可以像根哥免费求助。
+
 ## 文章投稿
 
 图上很清楚了，不需解释。
@@ -46,4 +50,16 @@ tags:
 
 注意是**geen**，不是**gene**。点击阅读原文，可以直接点链接。<http://www.geenmedical.com>
 
+## 生信宝典，一起学生信
 
+[http://mp.weixin.qq.com/s/i71OMaUu6QtcY0pt1njHQA](http://mp.weixin.qq.com/s/i71OMaUu6QtcY0pt1njHQA)
+
+
+
+## 生信宝典，生物信息学习系列教程，转录组，宏基因组，外显子组，R作图，Python学习，Cytoscape视频教程
+
+[http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+
+## 生信宝典，最好的生物信息培训课程，培训课程资料
+
+[www.ehbio.com/Training](www.ehbio.com/Training)

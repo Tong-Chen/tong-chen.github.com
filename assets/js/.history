@@ -1,0 +1,4 @@
+ 6730  2016-10-16 19:04:53 cd assets/js/
+ 6731  2016-10-16 19:04:54 ls
+ 6732  2016-10-16 19:04:59 wget https://raw.githubusercontent.com/ghiculescu/jekyll-table-of-contents/master/toc.js
+ 6733  2016-10-16 19:05:03 ls

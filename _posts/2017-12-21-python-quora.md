@@ -119,7 +119,7 @@ tags:
 
 ### Vim
 
-* [不用Linux也可以的强大文本处理方法-vimc操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484250&amp;idx=1&am
+* [不用Linux也可以的强大文本处理方法-vim操作](http://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&amp;mid=2247484250&amp;idx=1&am
 p;sn=d4759dc05a55643549646c77318c4f96&amp;chksm=ec0dc6d0db7a4fc64791896914547b5ce818e8bd3cca98f0fb7bf6ebd9029fe6fd08a4
 d55255#rd)
 * [Vim Manual(中文版)](http://man.chinaunix.net/newsoft/vi/doc/help.html)
@@ -365,6 +365,6 @@ n=40daf6435398c4d9a41f332e9bba4915&amp;chksm=ec0dc479db7a4d6fec413bfb90a4660eb03
 * [Think Complexity](http://greenteapress.com/complexity/) (PDF)
 
 
-免费书地址：<https://github.com/EbookFoundation/free-programming-books>
+更多的没有列出，免费书地址或点击阅读原文：<https://github.com/EbookFoundation/free-programming-books>
 
 

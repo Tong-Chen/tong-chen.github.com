@@ -1,0 +1,7 @@
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64432  [2019-04-25 19:03:07][ct][10.0.0.5]cd gsea
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64433  [2019-04-25 19:03:08][ct][10.0.0.5]ls
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64434  [2019-04-25 19:03:35][ct][10.0.0.5]cp ../GSEA.gif .
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64435  [2019-04-25 19:03:41][ct][10.0.0.5]cp ../GSEA_tutorial.png .
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64436  [2019-04-25 19:04:11][ct][10.0.0.5]scp * ct@aliyun500:/var/www/html/ehbio_resource/
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64437  [2019-04-25 19:04:23][ct][10.0.0.5]vim ~/.ssh/known_hosts 
+[/home/ct/blog/tong-chen.github.com/images/gsea] 64438  [2019-04-25 19:04:37][ct][10.0.0.5]scp * ct@aliyun500:/var/www/html/ehbio_resource/

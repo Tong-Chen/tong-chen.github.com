@@ -595,3 +595,1575 @@ END
 [/home/ct/blog/tong-chen.github.com/_posts] 22856  [2017-08-26 22:55:16][ct][36.102.216.14]ltr
 [/home/ct/blog/tong-chen.github.com/_posts] 22857  [2017-08-26 22:55:22][ct][36.102.216.14]vm 2017-08-26-psiblast-json.md
 [/home/ct/blog/tong-chen.github.com/_posts] 22858  [2017-08-26 22:55:31][ct][36.102.216.14]vim 2017-08-26-psiblast-json.md
+[/home/ct/blog/tong-chen.github.com/_posts] 23311  [2017-09-06 14:32:00][ct][114.242.250.102]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 23312  [2017-09-06 14:32:15][ct][114.242.250.102]grep -i InnoDB *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 23669  [2017-09-07 22:00:50][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 23670  [2017-09-07 22:00:51][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 23671  [2017-09-07 22:02:19][ct][218.241.208.209]ls | grep -i 'server'
+[/home/ct/blog/tong-chen.github.com/_posts] 23783  [2017-09-08 08:42:51][ct][61.148.242.142]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 23784  [2017-09-08 08:42:52][ct][61.148.242.142]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 23918  [2017-09-08 16:25:05][ct][61.148.242.142]cd ../_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 23919  [2017-09-08 16:25:07][ct][61.148.242.142]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 23920  [2017-09-08 16:31:09][ct][61.148.242.142]grep 'Endote' *
+[/home/ct/blog/tong-chen.github.com/_posts] 23921  [2017-09-08 16:31:18][ct][61.148.242.142]vim 2013-08-27-tips-for-endote-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 24134  [2017-09-10 11:53:28][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 24135  [2017-09-10 11:53:29][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 24136  [2017-09-10 11:53:39][ct][218.241.208.209]less 2013-12-09-refname.md
+[/home/ct/blog/tong-chen.github.com/_posts] 24137  [2017-09-10 13:51:51][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 24138  [2017-09-10 13:51:55][ct][218.241.208.209]vim 2017-09-10-AI1.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 24139  [2017-09-10 13:52:28][ct][218.241.208.209]less 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 24140  [2017-09-10 13:52:34][ct][218.241.208.209]vim 2017-09-10-AI1.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 24141  [2017-09-10 13:52:53][ct][218.241.208.209]less 2017-08-20-cytoscape-layout.md
+[/home/ct/blog/tong-chen.github.com/_posts] 24142  [2017-09-10 13:52:57][ct][218.241.208.209]vim 2017-09-10-AI1.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 24143  [2017-09-10 13:53:34][ct][218.241.208.209]#vim 2017-09-10-AI1.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 24159  [2017-09-10 19:49:15][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 24160  [2017-09-10 19:49:16][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 24161  [2017-09-10 20:12:54][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 24162  [2017-09-10 20:13:57][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 24162  [2017-09-10 20:13:57][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 24162  [2017-09-10 20:13:57][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 24880  [2017-09-14 22:36:36][ct][36.102.216.14]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 24881  [2017-09-14 22:36:36][ct][36.102.216.14]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 24882  [2017-09-14 22:36:43][ct][36.102.216.14]vim 2017-09-17-goeast.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25384  [2017-09-19 15:45:45][ct][61.148.243.177]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25385  [2017-09-19 15:45:46][ct][61.148.243.177]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25386  [2017-09-19 15:45:50][ct][61.148.243.177]vim 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25387  [2017-09-19 15:46:58][ct][61.148.243.177]cd ima
+[/home/ct/blog/tong-chen.github.com/_posts] 25395  [2017-09-19 15:56:38][ct][61.148.243.177]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25396  [2017-09-19 15:56:39][ct][61.148.243.177]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25397  [2017-09-19 15:56:43][ct][61.148.243.177]vim 2017-09-18-articlePic2nd.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25556  [2017-09-19 19:54:52][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25557  [2017-09-19 19:54:53][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25640  [2017-09-20 08:09:15][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25641  [2017-09-20 08:09:17][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25642  [2017-09-20 08:09:30][ct][59.108.50.194]less 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25643  [2017-09-20 08:10:12][ct][59.108.50.194]vim 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25644  [2017-09-20 08:11:53][ct][59.108.50.194]nano 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25645  [2017-09-20 08:55:07][ct][59.108.50.194]vim 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25632  [2017-09-20 14:39:48][ct][114.242.248.70]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25633  [2017-09-20 14:39:48][ct][114.242.248.70]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25634  [2017-09-20 14:40:00][ct][114.242.248.70]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25868  [2017-09-22 10:01:52][ct][114.242.248.80]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25869  [2017-09-22 10:01:53][ct][114.242.248.80]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25870  [2017-09-22 10:02:54][ct][114.242.248.80]ls | grep 'heatmap'
+[/home/ct/blog/tong-chen.github.com/_posts] 25871  [2017-09-22 10:02:59][ct][114.242.248.80]vim 2017-06-27-heatmap-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25917  [2017-09-22 12:24:27][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 25918  [2017-09-22 12:24:28][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 25919  [2017-09-22 12:24:58][ct][59.108.50.194]vim 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25920  [2017-09-22 12:27:03][ct][59.108.50.194]less 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25920  [2017-09-22 12:27:03][ct][59.108.50.194]less 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 25921  [2017-09-22 12:31:35][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26062  [2017-09-24 21:57:59][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26063  [2017-09-24 21:57:59][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26064  [2017-09-24 21:58:43][ct][1.180.233.211]less 2012-05-08-awk-function-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26065  [2017-09-24 22:17:59][ct][1.180.233.211]top
+[/home/ct/blog/tong-chen.github.com/_posts] 26066  [2017-09-24 22:18:05][ct][1.180.233.211]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26067  [2017-09-24 22:36:19][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26068  [2017-09-24 22:36:31][ct][1.180.233.211]vim 2017-09-24-linux-awk.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26069  [2017-09-24 23:05:45][ct][1.180.233.211]nano 2017-09-24-linux-awk.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26070  [2017-09-24 23:06:36][ct][1.180.233.211]vim 2017-09-24-linux-awk.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26210  [2017-09-25 21:51:37][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26211  [2017-09-25 21:51:39][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26212  [2017-09-25 21:51:50][ct][1.180.233.211]cp 2017-09-24-linux-awk.md 2017-09-24-linux-sed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26279  [2017-09-26 08:37:44][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26280  [2017-09-26 08:37:44][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26277  [2017-09-26 11:14:17][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26278  [2017-09-26 11:14:18][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26279  [2017-09-26 11:14:53][ct][59.108.50.194]vim 2017-09-24-linux-sed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26281  [2017-09-26 08:37:55][ct][59.108.50.194]vim 2017-09-26-rad.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26487  [2017-09-28 07:47:43][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26488  [2017-09-28 07:47:44][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26489  [2017-09-28 07:48:04][ct][59.108.50.194]vim 2017-09-28-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26490  [2017-09-28 08:25:10][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26491  [2017-09-28 08:25:32][ct][59.108.50.194]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26492  [2017-09-28 08:25:50][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26493  [2017-09-28 08:26:01][ct][59.108.50.194]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26494  [2017-09-28 08:26:09][ct][59.108.50.194]vim 2017-09-28-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26495  [2017-09-28 08:48:41][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26487  [2017-09-28 16:01:56][ct][61.148.242.216]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26488  [2017-09-28 16:01:56][ct][61.148.242.216]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26489  [2017-09-28 16:02:03][ct][61.148.242.216]less -S 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26490  [2017-09-28 16:04:11][ct][61.148.242.216]less ../_config.yml 
+[/home/ct/blog/tong-chen.github.com/_posts] 26491  [2017-09-28 16:04:52][ct][61.148.242.216]#s -S 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26492  [2017-09-28 16:04:56][ct][61.148.242.216]vim ../_config.yml
+[/home/ct/blog/tong-chen.github.com/_posts] 26599  [2017-09-28 20:14:07][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26600  [2017-09-28 20:14:08][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26601  [2017-09-28 20:14:12][ct][218.241.208.209]vim 2017-09-28-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26607  [2017-09-28 21:59:23][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26608  [2017-09-28 21:59:23][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26609  [2017-09-28 21:59:28][ct][1.180.233.211]vim 2017-09-28-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26614  [2017-09-29 07:53:56][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26615  [2017-09-29 07:53:57][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26616  [2017-09-29 07:54:01][ct][59.108.50.194]vim 2017-09-28-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26617  [2017-09-29 07:56:22][ct][59.108.50.194]cp 2017-09-28-R-plot.md 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26618  [2017-09-29 07:56:27][ct][59.108.50.194]vim 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26618  [2017-09-29 07:56:27][ct][59.108.50.194]vim 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26614  [2017-09-29 11:17:36][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26615  [2017-09-29 11:17:38][ct][59.108.50.194]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26795  [2017-09-29 20:21:13][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26796  [2017-09-29 20:21:14][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26797  [2017-09-29 20:21:18][ct][218.241.208.209]vim 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26798  [2017-09-29 20:32:42][ct][218.241.208.209]vim 2017-09-28-R-plot.md
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26761  [2017-09-29 20:40:59][ct][218.241.208.209]cd /MPATHB/ct/blog/tong-chen.github.com/_posts
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26762  [2017-09-29 20:41:00][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26799  [2017-09-29 20:32:50][ct][218.241.208.209]vim 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 26800  [2017-09-29 20:59:20][ct][218.241.208.209]ls -ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26763  [2017-09-29 20:41:02][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 21:49:35][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 26808  [2017-09-29 21:49:36][ct][1.180.233.211]ls -ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26805  [2017-09-29 22:11:37][ct][1.180.233.211]cd /MPATHB/ct/blog/tong-chen.github.com/_posts
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26806  [2017-09-29 22:11:38][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 26809  [2017-09-29 21:49:41][ct][1.180.233.211]vim 2017-09-29-R-plot.md
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:11:40][ct][1.180.233.211]less 2100-01-01-shengxinbaodian.md 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26808  [2017-09-29 22:41:17][ct][1.180.233.211]ls -ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26809  [2017-09-29 22:41:58][ct][1.180.233.211]vim 2017-09-29-R-plot.md
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26805  [2017-09-29 22:46:18][ct][61.148.242.97]cd /MPATHB/ct/blog/tong-chen.github.com/_posts/
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26806  [2017-09-29 22:46:20][ct][61.148.242.97]ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 26807  [2017-09-29 22:46:42][ct][61.148.242.97]vim 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27175  [2017-10-01 12:00:06][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27176  [2017-10-01 12:00:06][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27177  [2017-10-01 12:00:10][ct][1.180.233.211]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 27177  [2017-10-01 12:00:10][ct][1.180.233.211]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 27175  [2017-10-01 14:35:48][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27176  [2017-10-01 14:35:50][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27176  [2017-10-01 14:35:50][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27206  [2017-10-01 18:43:58][ct][61.148.242.131]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27207  [2017-10-01 18:43:59][ct][61.148.242.131]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27208  [2017-10-01 18:44:05][ct][61.148.242.131]ls | grep 'pca'
+[/home/ct/blog/tong-chen.github.com/_posts] 27209  [2017-10-01 18:47:04][ct][61.148.242.131]ls | grep -i 'pca'
+[/home/ct/blog/tong-chen.github.com/_posts] 27210  [2017-10-01 18:47:16][ct][61.148.242.131]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27210  [2017-10-01 18:47:16][ct][61.148.242.131]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27353  [2017-10-02 12:41:21][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27354  [2017-10-02 12:41:22][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27355  [2017-10-02 12:41:28][ct][121.69.255.229]vim  2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27356  [2017-10-02 12:41:53][ct][121.69.255.229]vim 2017-09-11-video-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27364  [2017-10-03 22:31:45][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27365  [2017-10-03 22:32:14][ct][121.69.255.229]mv Nobel.md 2017-09-03-nobel.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27366  [2017-10-03 22:32:19][ct][121.69.255.229]vim 2017-09-03-nobel.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27507  [2017-10-07 21:09:14][ct][1.180.233.211]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27508  [2017-10-07 21:09:15][ct][1.180.233.211]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27509  [2017-10-07 21:09:21][ct][1.180.233.211]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27810  [2017-10-09 08:39:20][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27811  [2017-10-09 08:39:21][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27811  [2017-10-09 08:39:21][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27812  [2017-10-09 08:39:40][ct][59.108.50.194]vim 2017-10-09-python-seq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27815  [2017-10-09 15:16:06][ct][114.242.248.63]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27816  [2017-10-09 15:16:07][ct][114.242.248.63]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27817  [2017-10-09 15:16:35][ct][114.242.248.63]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27818  [2017-10-09 15:16:54][ct][114.242.248.63]less 2017-10-09-python-seq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27819  [2017-10-09 15:17:06][ct][114.242.248.63]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27820  [2017-10-09 15:17:37][ct][114.242.248.63]vim swap 
+[/home/ct/blog/tong-chen.github.com/_posts] 27820  [2017-10-09 15:17:37][ct][114.242.248.63]vim swap 
+[/home/ct/blog/tong-chen.github.com/_posts] 27883  [2017-10-10 08:33:55][ct][114.242.250.72]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27884  [2017-10-10 08:33:57][ct][114.242.250.72]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27885  [2017-10-10 13:57:15][ct][114.242.250.72]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27886  [2017-10-10 13:57:16][ct][114.242.250.72]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27887  [2017-10-10 13:57:27][ct][114.242.250.72]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27888  [2017-10-10 13:57:57][ct][114.242.250.72]vim 2017-10-09-python-seq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27889  [2017-10-10 13:58:28][ct][114.242.250.72]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27890  [2017-10-10 14:04:49][ct][114.242.250.72]nano 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27891  [2017-10-10 14:07:49][ct][114.242.250.72]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27892  [2017-10-10 15:06:23][ct][114.242.250.72]nano 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27893  [2017-10-10 15:07:14][ct][114.242.250.72]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27885  [2017-10-10 15:53:48][ct][114.242.250.72]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 27886  [2017-10-10 15:55:49][ct][114.242.250.72]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 27887  [2017-10-10 15:56:10][ct][114.242.250.72]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 27888  [2017-10-10 16:22:41][ct][114.242.250.72]vim 2017-10-09-python-seq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 27974  [2017-10-11 13:58:46][ct][61.148.242.66]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 27975  [2017-10-11 13:58:48][ct][61.148.242.66]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 27976  [2017-10-11 13:59:04][ct][61.148.242.66]vim 2017-10-11-reproductive-databse.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28130  [2017-10-12 10:02:16][ct][114.242.249.57]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28131  [2017-10-12 10:02:17][ct][114.242.249.57]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28132  [2017-10-12 10:02:43][ct][114.242.249.57]vim 2017-10-11-12-go-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28289  [2017-10-13 17:03:11][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28290  [2017-10-13 17:03:12][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28362  [2017-10-14 08:34:21][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28363  [2017-10-14 08:34:23][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28363  [2017-10-14 08:34:23][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28364  [2017-10-14 11:06:21][ct][218.241.208.209]vim 2017-10-14-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28376  [2017-10-14 20:14:33][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28377  [2017-10-14 20:14:34][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28441  [2017-10-15 23:05:05][ct][121.69.255.229]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28442  [2017-10-15 23:05:06][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28463  [2017-10-16 07:02:16][ct][121.69.255.229]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28466  [2017-10-16 10:08:32][ct][61.148.244.82]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28467  [2017-10-16 10:08:33][ct][61.148.244.82]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28468  [2017-10-16 10:32:05][ct][61.148.244.82]vim 2017-10-14-enrichment-analysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28510  [2017-10-16 18:11:57][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28511  [2017-10-16 18:11:58][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28512  [2017-10-16 18:12:01][ct][218.241.208.209]cd ../tra
+[/home/ct/blog/tong-chen.github.com/_posts] 28510  [2017-10-16 20:47:54][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28511  [2017-10-16 20:47:54][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28512  [2017-10-16 20:48:01][ct][218.241.208.209]vim 2017-10-2-SXBD-books.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28513  [2017-10-16 20:49:00][ct][218.241.208.209]vim 2017-10-01-SCBD-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28526  [2017-10-17 14:45:22][ct][61.148.242.116]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28527  [2017-10-17 14:45:23][ct][61.148.242.116]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28528  [2017-10-17 14:45:28][ct][61.148.242.116]vim 2017-10-01-SCBD-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28532  [2017-10-17 14:58:51][ct][61.148.242.116]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28533  [2017-10-17 14:58:52][ct][61.148.242.116]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28534  [2017-10-17 14:58:54][ct][61.148.242.116]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 28535  [2017-10-17 14:59:18][ct][61.148.242.116]diff 2017-10-01-SCBD-summary.md 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28585  [2017-10-17 20:41:21][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28586  [2017-10-17 20:41:22][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28587  [2017-10-17 20:59:45][ct][218.241.208.209]cp 2017-10-01-SCBD-summary.md 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28588  [2017-10-17 21:01:05][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 28592  [2017-10-17 21:58:34][ct][121.69.255.230]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28593  [2017-10-17 21:58:35][ct][121.69.255.230]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28594  [2017-10-17 22:00:15][ct][121.69.255.230]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28594  [2017-10-17 22:00:15][ct][121.69.255.230]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28595  [2017-10-17 23:08:35][ct][121.69.255.230]mkdir ../images/imageGP
+[/home/ct/blog/tong-chen.github.com/_posts] 28600  [2017-10-18 09:08:48][ct][114.242.249.133]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28601  [2017-10-18 09:08:49][ct][114.242.249.133]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28602  [2017-10-18 09:45:06][ct][114.242.249.133]man sort
+[/home/ct/blog/tong-chen.github.com/_posts] 28603  [2017-10-18 15:59:17][ct][114.242.249.133]cegma -v
+[/home/ct/blog/tong-chen.github.com/_posts] 28604  [2017-10-18 15:59:20][ct][114.242.249.133]cegma -h
+[/home/ct/blog/tong-chen.github.com/_posts] 28605  [2017-10-18 16:00:33][ct][114.242.249.133]blat
+[/home/ct/blog/tong-chen.github.com/_posts] 28606  [2017-10-18 16:01:32][ct][114.242.249.133]Trinity -v
+[/home/ct/blog/tong-chen.github.com/_posts] 28607  [2017-10-18 16:01:37][ct][114.242.249.133]Trinity --version
+[/home/ct/blog/tong-chen.github.com/_posts] 28619  [2017-10-18 20:57:52][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28620  [2017-10-18 20:57:53][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28621  [2017-10-18 20:58:51][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28627  [2017-10-18 22:04:59][ct][121.69.255.230]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28628  [2017-10-18 22:04:59][ct][121.69.255.230]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28629  [2017-10-18 22:05:04][ct][121.69.255.230]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28634  [2017-10-19 08:50:28][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28635  [2017-10-19 08:50:29][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28636  [2017-10-19 08:50:35][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28640  [2017-10-19 11:17:06][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28641  [2017-10-19 11:17:07][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28642  [2017-10-19 11:17:29][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-18-sxbd-linux-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28643  [2017-10-19 11:17:34][ct][218.241.208.209]vim 2100-01-18-sxbd-linux-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28644  [2017-10-19 11:34:29][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28645  [2017-10-19 11:34:43][ct][218.241.208.209]vim 2100-01-18-sxbd-linux-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28648  [2017-10-19 11:43:56][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28649  [2017-10-19 11:43:56][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28650  [2017-10-19 11:44:20][ct][218.241.208.209]git mv 2100-01-18-sxbd-linux-summary.md 2017-10-18-sxbd-linux-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28662  [2017-10-19 11:55:49][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28663  [2017-10-19 11:55:50][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 28664  [2017-10-19 14:51:37][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28664  [2017-10-19 14:51:37][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28664  [2017-10-19 14:51:37][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 28789  [2017-10-22 12:38:55][ct][223.255.127.3]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 28790  [2017-10-22 12:39:06][ct][223.255.127.3]ls | grep -i 'batch'
+[/home/ct/blog/tong-chen.github.com/_posts] 28791  [2017-10-22 12:39:13][ct][223.255.127.3]less 2017-01-19-batchEffect.md
+[/home/ct/blog/tong-chen.github.com/_posts] 29224  [2017-10-25 17:46:59][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 29225  [2017-10-25 17:47:00][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 29226  [2017-10-25 17:47:24][ct][218.241.208.209]mv 2017-10-25.md 2017-10-25-transcriptome-free.md
+[/home/ct/blog/tong-chen.github.com/_posts] 29227  [2017-10-25 17:47:28][ct][218.241.208.209]vim 2017-10-25-transcriptome-free.md
+[/home/ct/blog/tong-chen.github.com/_posts] 29228  [2017-10-25 17:51:09][ct][218.241.208.209]cp 2017-10-25-transcriptome-free.md 2017-10-25-transcriptome-free.md.bak
+[/home/ct/blog/tong-chen.github.com/_posts] 29229  [2017-10-25 17:51:10][ct][218.241.208.209]vim 2017-10-25-transcriptome-free.md
+[/home/ct/blog/tong-chen.github.com/_posts] 29256  [2017-10-26 08:43:10][ct][114.242.248.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 29257  [2017-10-26 08:43:10][ct][114.242.248.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 29258  [2017-10-26 08:43:15][ct][114.242.248.194]vim 2017-10-25-transcriptome-free.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30130  [2017-11-02 10:31:37][ct][114.242.248.175]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30131  [2017-11-02 10:31:38][ct][114.242.248.175]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30132  [2017-11-02 10:31:52][ct][114.242.248.175]ls | grep 'bash'
+[/home/ct/blog/tong-chen.github.com/_posts] 30133  [2017-11-02 10:31:58][ct][114.242.248.175]less 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30134  [2017-11-02 10:36:21][ct][114.242.248.175]vim 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30135  [2017-11-02 10:36:34][ct][114.242.248.175]less 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30135  [2017-11-02 10:36:34][ct][114.242.248.175]less 2017-06-08-bash1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30308  [2017-11-03 18:49:36][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30309  [2017-11-03 18:49:36][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30375  [2017-11-06 11:19:34][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30376  [2017-11-06 11:19:35][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30377  [2017-11-06 11:19:37][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 30378  [2017-11-06 11:20:07][ct][218.241.208.209]scp 2100-01-01-shengxinbaodian.md root@aliyun500:/var/www/html/ehbio_doc/Transcriptome/
+[/home/ct/blog/tong-chen.github.com/_posts] 30394  [2017-11-06 22:45:59][ct][116.117.135.242]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30395  [2017-11-06 22:46:00][ct][116.117.135.242]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30396  [2017-11-06 22:46:08][ct][116.117.135.242]ls | grep -i 'circos'
+[/home/ct/blog/tong-chen.github.com/_posts] 30397  [2017-11-06 22:46:17][ct][116.117.135.242]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30398  [2017-11-06 23:06:34][ct][116.117.135.242]cat 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30408  [2017-11-07 15:23:00][ct][61.148.243.21]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30409  [2017-11-07 15:23:00][ct][61.148.243.21]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30410  [2017-11-07 15:23:05][ct][61.148.243.21]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30399  [2017-11-07 16:02:52][ct][59.108.50.194]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 30400  [2017-11-07 16:02:57][ct][59.108.50.194]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30401  [2017-11-07 16:05:35][ct][59.108.50.194]nano 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30402  [2017-11-07 16:08:08][ct][59.108.50.194]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30453  [2017-11-07 20:45:50][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30454  [2017-11-07 20:45:51][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30455  [2017-11-07 20:47:27][ct][218.241.208.209]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30474  [2017-11-08 09:51:37][ct][114.242.248.204]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30475  [2017-11-08 09:51:38][ct][114.242.248.204]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30476  [2017-11-08 09:51:41][ct][114.242.248.204]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30477  [2017-11-08 14:50:33][ct][114.242.248.204]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 30667  [2017-11-09 09:22:09][ct][61.148.242.236]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30668  [2017-11-09 09:22:10][ct][61.148.242.236]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30669  [2017-11-09 09:22:20][ct][61.148.242.236]vim 2017-11-09-geenmedical.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30766  [2017-11-10 11:31:53][ct][61.148.242.239]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30767  [2017-11-10 11:31:53][ct][61.148.242.239]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30795  [2017-11-10 19:12:58][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30796  [2017-11-10 19:12:59][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30797  [2017-11-10 19:13:05][ct][218.241.208.209]less 2017-10-14-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30798  [2017-11-10 19:13:54][ct][218.241.208.209]scp 2017-10-14-gsea.md root@aliyun500:/var/www/html/ehbio_doc/Transcriptome/
+[/home/ct/blog/tong-chen.github.com/_posts] 30822  [2017-11-11 09:00:26][ct][218.241.208.209]cd ../../tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30823  [2017-11-11 09:00:27][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30824  [2017-11-11 09:00:46][ct][218.241.208.209]less 2017-10-11-12-go-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 30912  [2017-11-12 19:19:25][ct][218.241.208.209]cd ../../tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 30913  [2017-11-12 19:19:25][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 30914  [2017-11-12 19:19:32][ct][218.241.208.209]ls | grep 'ques'
+[/home/ct/blog/tong-chen.github.com/_posts] 31007  [2017-11-13 11:02:49][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31008  [2017-11-13 11:02:50][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31009  [2017-11-13 11:02:57][ct][59.108.50.194]vim 2017-11-10-semanticscholar.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31010  [2017-11-13 11:04:25][ct][59.108.50.194]vim 2017-11-09-geenmedical.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31011  [2017-11-13 11:04:57][ct][59.108.50.194]vim 2012-04-08-circos-usage.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31012  [2017-11-13 11:05:36][ct][59.108.50.194]vim 2017-10-17-ImageGP.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31013  [2017-11-13 11:10:20][ct][59.108.50.194]less 2017-10-14-enrichment-analysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31014  [2017-11-13 11:10:30][ct][59.108.50.194]less 2017-10-11-12-go-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31015  [2017-11-13 11:10:35][ct][59.108.50.194]git rm -f 2017-10-11-12-go-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31016  [2017-11-13 11:10:39][ct][59.108.50.194]rm -f 2017-10-11-12-go-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31017  [2017-11-13 11:10:46][ct][59.108.50.194]vim 2017-10-14-enrichment-analysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31018  [2017-11-13 11:11:35][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31019  [2017-11-13 11:11:43][ct][59.108.50.194]vim 2017-10-01-SCBD-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31020  [2017-11-13 11:11:53][ct][59.108.50.194]vim 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31021  [2017-11-13 11:12:36][ct][59.108.50.194]vim 2017-10-14-gsea.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31022  [2017-11-13 11:13:14][ct][59.108.50.194]vim 2017-10-10-list-dict-set-speed.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31023  [2017-11-13 11:13:38][ct][59.108.50.194]vim 2017-10-09-python-seq.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31024  [2017-11-13 11:26:17][ct][59.108.50.194]less 2017-08-05-Survival-analysis-plots.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31025  [2017-11-13 11:26:29][ct][59.108.50.194]vim 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31026  [2017-11-13 11:26:47][ct][59.108.50.194]vim 2017-09-18-articlePic2nd.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31027  [2017-11-13 11:27:04][ct][59.108.50.194]vim 2017-09-17-goeast.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31028  [2017-11-13 11:27:28][ct][59.108.50.194]vim 2017-09-10-AI1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31029  [2017-11-13 11:27:46][ct][59.108.50.194]vim 2017-09-03-bioconda.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31030  [2017-11-13 11:28:02][ct][59.108.50.194]vim 2017-09-29-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31031  [2017-11-13 11:28:19][ct][59.108.50.194]vim 2017-09-24-linux-awk.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31032  [2017-11-13 11:28:30][ct][59.108.50.194]vim 2017-09-24-linux-sed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31033  [2017-11-13 11:28:44][ct][59.108.50.194]vim 2017-10-14-enrichment-analysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31034  [2017-11-13 11:28:55][ct][59.108.50.194]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31035  [2017-11-13 11:29:08][ct][59.108.50.194]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31036  [2017-11-13 11:29:21][ct][59.108.50.194]vim 2017-11-09-geenmedical.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31037  [2017-11-13 11:29:30][ct][59.108.50.194]vim 2017-11-10-semanticscholar.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31038  [2017-11-13 11:29:51][ct][59.108.50.194]vim 2017-10-18-sxbd-linux-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31039  [2017-11-13 11:30:05][ct][59.108.50.194]vim 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31040  [2017-11-13 11:30:16][ct][59.108.50.194]vim 2017-10-14-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31041  [2017-11-13 11:30:28][ct][59.108.50.194]vim 2017-10-13-rnaseq-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31042  [2017-11-13 11:30:33][ct][59.108.50.194]rm -f 2017-10-13-rnaseq-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31043  [2017-11-13 11:30:42][ct][59.108.50.194]#vim 2017-10-11-reproductive-databse.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31044  [2017-11-13 11:30:46][ct][59.108.50.194]vim 2017-10-10-list-dict-set-speed.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31045  [2017-11-13 11:31:03][ct][59.108.50.194]vim 2017-10-09-python-seq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31046  [2017-11-13 11:31:16][ct][59.108.50.194]vim 2017-09-03-nobel.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31047  [2017-11-13 11:31:29][ct][59.108.50.194]vim 2017-09-11-video-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31048  [2017-11-13 11:31:44][ct][59.108.50.194]vim 2017-10-2-SXBD-books.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31049  [2017-11-13 11:32:14][ct][59.108.50.194]vim 2017-09-03-chineseFont.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31050  [2017-11-13 11:32:29][ct][59.108.50.194]vim 2017-08-31-non-reference-transcriptome.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31051  [2017-11-13 11:32:48][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31052  [2017-11-13 11:33:09][ct][59.108.50.194]vim 2017-09-28-R-plot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31053  [2017-11-13 11:33:17][ct][59.108.50.194]vim 2013-12-09-refname.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31054  [2017-11-13 11:33:27][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31055  [2017-11-13 11:34:42][ct][59.108.50.194]zip csdn_jians.zip `find . -newer footer` 2017-10-01-SCBD-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31056  [2017-11-13 11:34:54][ct][59.108.50.194]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 31083  [2017-11-14 10:46:21][ct][116.117.135.241]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31084  [2017-11-14 10:46:22][ct][116.117.135.241]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31085  [2017-11-14 10:46:39][ct][116.117.135.241]rm -f csdn_jians.zip 
+[/home/ct/blog/tong-chen.github.com/_posts] 31086  [2017-11-14 11:05:22][ct][116.117.135.241]zip bak.zip *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31087  [2017-11-14 11:05:24][ct][116.117.135.241]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 31088  [2017-11-14 11:05:58][ct][116.117.135.241]find . -older footer 
+[/home/ct/blog/tong-chen.github.com/_posts] 31089  [2017-11-14 11:06:02][ct][116.117.135.241]find . --older footer 
+[/home/ct/blog/tong-chen.github.com/_posts] 31090  [2017-11-14 11:06:07][ct][116.117.135.241]man find
+[/home/ct/blog/tong-chen.github.com/_posts] 31091  [2017-11-14 11:07:42][ct][116.117.135.241]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31092  [2017-11-14 11:14:30][ct][116.117.135.241]cat footer 
+[/home/ct/blog/tong-chen.github.com/_posts] 31093  [2017-11-14 11:19:28][ct][116.117.135.241]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 31094  [2017-11-14 11:23:16][ct][116.117.135.241]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 31095  [2017-11-14 11:31:04][ct][116.117.135.241]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31261  [2017-11-15 19:06:58][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31262  [2017-11-15 19:07:00][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31263  [2017-11-15 19:07:48][ct][218.241.208.209]cp 2017-08-31-non-reference-transcriptome.md 2017-08-31-transcriptome-training-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31264  [2017-11-15 19:07:54][ct][218.241.208.209]vim 2017-08-31-transcriptome-training-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31284  [2017-11-16 09:02:50][ct][61.148.242.202]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31285  [2017-11-16 09:02:51][ct][61.148.242.202]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31286  [2017-11-16 09:02:58][ct][61.148.242.202]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31286  [2017-11-16 09:02:58][ct][61.148.242.202]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31286  [2017-11-16 09:02:58][ct][61.148.242.202]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31287  [2017-11-16 09:42:31][ct][61.148.242.202]less 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31288  [2017-11-16 09:55:49][ct][61.148.242.202]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31288  [2017-11-16 09:55:49][ct][61.148.242.202]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31489  [2017-11-16 17:34:37][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31490  [2017-11-16 17:34:38][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31491  [2017-11-16 17:43:19][ct][218.241.208.209]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31505  [2017-11-16 23:20:04][ct][121.69.255.228]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31506  [2017-11-16 23:20:05][ct][121.69.255.228]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31507  [2017-11-16 23:20:13][ct][121.69.255.228]less 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31507  [2017-11-16 23:20:13][ct][121.69.255.228]less 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31507  [2017-11-16 23:20:13][ct][121.69.255.228]less 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31508  [2017-11-16 23:22:34][ct][121.69.255.228]# 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31509  [2017-11-16 23:22:50][ct][121.69.255.228]vim text.py
+[/home/ct/blog/tong-chen.github.com/_posts] 31510  [2017-11-16 23:23:14][ct][121.69.255.228]head 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31511  [2017-11-16 23:23:20][ct][121.69.255.228]head -n 20 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31512  [2017-11-16 23:23:32][ct][121.69.255.228]vim text.py
+[/home/ct/blog/tong-chen.github.com/_posts] 31513  [2017-11-16 23:31:35][ct][121.69.255.228]python text.py
+[/home/ct/blog/tong-chen.github.com/_posts] 31514  [2017-11-16 23:31:54][ct][121.69.255.228]python text.py -i "ls *.md" >all.xls
+[/home/ct/blog/tong-chen.github.com/_posts] 31515  [2017-11-16 23:32:04][ct][121.69.255.228]python text.py -i "`ls *.md`" >all.xls
+[/home/ct/blog/tong-chen.github.com/_posts] 31516  [2017-11-16 23:32:28][ct][121.69.255.228]#python text.py -i "`ls *.md | tr '\n' ' '`" >all.xls
+[/home/ct/blog/tong-chen.github.com/_posts] 31517  [2017-11-16 23:32:31][ct][121.69.255.228]vim text.py
+[/home/ct/blog/tong-chen.github.com/_posts] 31518  [2017-11-16 23:32:53][ct][121.69.255.228]python text.py -i "`ls *.md | tr '\n' ' '`" >all.xls
+[/home/ct/blog/tong-chen.github.com/_posts] 31519  [2017-11-16 23:33:01][ct][121.69.255.228]vim text.py
+[/home/ct/blog/tong-chen.github.com/_posts] 31520  [2017-11-16 23:33:12][ct][121.69.255.228]python text.py -i "`ls *.md | tr '\n' ' '`" >all.xls
+[/home/ct/blog/tong-chen.github.com/_posts] 31521  [2017-11-16 23:33:22][ct][121.69.255.228]less 2017-01-19-batchEffect.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31522  [2017-11-16 23:33:27][ct][121.69.255.228]less all.xls 
+[/home/ct/blog/tong-chen.github.com/_posts] 31523  [2017-11-16 23:33:37][ct][121.69.255.228]less -S all.xls 
+[/home/ct/blog/tong-chen.github.com/_posts] 31524  [2017-11-16 23:34:57][ct][121.69.255.228]vim text.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 31525  [2017-11-16 23:37:46][ct][121.69.255.228]python text.py -i "`ls *.md | tr '\n' ' '`" >all.xls
+[/home/ct/blog/tong-chen.github.com/_posts] 31526  [2017-11-16 23:37:49][ct][121.69.255.228]less all.xls 
+[/home/ct/blog/tong-chen.github.com/_posts] 31527  [2017-11-16 23:37:55][ct][121.69.255.228]vim all.xls 
+[/home/ct/blog/tong-chen.github.com/_posts] 31528  [2017-11-17 00:13:00][ct][121.69.255.228]top
+[/home/ct/blog/tong-chen.github.com/_posts] 31691  [2017-11-18 10:43:04][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31692  [2017-11-18 10:43:05][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31693  [2017-11-18 13:12:32][ct][218.241.208.209]s-plot
+[/home/ct/blog/tong-chen.github.com/_posts] 31694  [2017-11-18 14:09:28][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31695  [2017-11-18 14:09:35][ct][218.241.208.209]cat 2017-11-15-transcriptome-training-summary.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31696  [2017-11-18 14:16:18][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31705  [2017-11-20 15:14:42][ct][61.148.244.176]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31706  [2017-11-20 15:14:43][ct][61.148.244.176]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31707  [2017-11-20 15:14:51][ct][61.148.244.176]ls | grep 'R'
+[/home/ct/blog/tong-chen.github.com/_posts] 31708  [2017-11-20 15:15:02][ct][61.148.244.176]cat 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31709  [2017-11-20 15:32:58][ct][61.148.244.176]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 31710  [2017-11-20 16:05:47][ct][61.148.244.176]R
+[/home/ct/blog/tong-chen.github.com/_posts] 31718  [2017-11-21 09:21:57][ct][61.148.242.172]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31719  [2017-11-21 09:21:57][ct][61.148.242.172]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31720  [2017-11-21 09:22:25][ct][61.148.242.172]cp 2012-04-08-circos-usage.md 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31721  [2017-11-21 09:28:52][ct][61.148.242.172]vim 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31721  [2017-11-21 09:28:52][ct][61.148.242.172]vim 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31721  [2017-11-21 09:28:52][ct][61.148.242.172]vim 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31722  [2017-11-21 09:44:03][ct][61.148.242.172]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 31723  [2017-11-21 09:44:27][ct][61.148.242.172]vim 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31723  [2017-11-21 09:44:27][ct][61.148.242.172]vim 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31723  [2017-11-21 09:44:27][ct][61.148.242.172]vim 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31724  [2017-11-21 11:39:27][ct][61.148.242.172]cat 2017-11-21-R-train2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 31725  [2017-11-21 13:48:49][ct][61.148.242.172]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 31726  [2017-11-21 13:48:51][ct][61.148.242.172]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31727  [2017-11-21 15:59:38][ct][61.148.242.172]s-plot lines
+[/home/ct/blog/tong-chen.github.com/_posts] 31866  [2017-11-22 14:15:21][ct][61.148.244.47]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 31867  [2017-11-22 14:15:22][ct][61.148.244.47]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 31868  [2017-11-22 14:15:26][ct][61.148.244.47]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32121  [2017-11-23 19:51:34][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32122  [2017-11-23 19:51:35][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32123  [2017-11-23 19:52:35][ct][218.241.208.209]grep -i 'profiler' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32124  [2017-11-23 19:52:51][ct][218.241.208.209]less 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32125  [2017-11-23 19:53:07][ct][218.241.208.209]cat 2017-07-19-enrichmentPlot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32126  [2017-11-23 20:59:51][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 32129  [2017-11-24 10:40:36][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32130  [2017-11-24 10:40:36][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32131  [2017-11-24 10:41:00][ct][59.108.50.194]ls | grep -i 'bash'
+[/home/ct/blog/tong-chen.github.com/_posts] 32132  [2017-11-24 10:41:10][ct][59.108.50.194]vim 2011-05-28-bash-tips-record.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32133  [2017-11-24 10:41:28][ct][59.108.50.194]vim 2010-10-13-bash-string-process.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32134  [2017-11-24 11:03:50][ct][59.108.50.194]less ../collections/Linux_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32135  [2017-11-24 11:14:21][ct][59.108.50.194]nano ../collections/Linux_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32235  [2017-11-24 20:00:35][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32236  [2017-11-24 20:00:35][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32400  [2017-11-26 16:54:35][ct][116.117.135.241]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32401  [2017-11-26 16:54:35][ct][116.117.135.241]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32394  [2017-11-26 16:54:56][ct][116.117.135.241]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 32395  [2017-11-26 16:55:13][ct][116.117.135.241]#scp 
+[/home/ct/blog/tong-chen.github.com/_posts] 32396  [2017-11-26 16:55:16][ct][116.117.135.241]less 2016-11-2-single-cell-rnaseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32397  [2017-11-26 16:55:33][ct][116.117.135.241]less 2017-07-13-boxplot-tutorial.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32402  [2017-11-26 16:55:46][ct][116.117.135.241]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 32398  [2017-11-26 16:57:47][ct][116.117.135.241]cat 2017-06-27-heatmap-plot.md 2017-06-27-heatmap-beautiful.md 2017-06-27-heatmap-simple.md 2017-07-09-R-boxplot.md 2017-07-09-R-lines.md 2017-07-13-boxplot-tutorial.md 2017-07-19-enrichmentPlot.md 2017-07-21-volcanoPlot.md 2017-07-27-scatterPlot.md 2017-07-29-enrichmentPlot2Y.md 2017-08-01-Venn.md 2017-08-05-Survival-analysis-plots.md 2017-08-12-barplot-r.md 2017-08-20-cytoscape-layout.md 2017-09-03-chineseFont.md 2017-09-18-articlePic2nd.md 2017-09-10-AI1.md >haha
+[/home/ct/blog/tong-chen.github.com/_posts] 32399  [2017-11-26 16:57:56][ct][116.117.135.241]scp haha ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 32400  [2017-11-26 18:52:44][ct][116.117.135.241]less 2017-06-27-R-Rstudio.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32582  [2017-11-29 10:24:01][ct][61.148.243.130]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32583  [2017-11-29 10:24:02][ct][61.148.243.130]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32584  [2017-11-29 10:24:06][ct][61.148.243.130]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32584  [2017-11-29 10:24:06][ct][61.148.243.130]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32658  [2017-11-30 15:25:43][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32659  [2017-11-30 15:25:44][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32656  [2017-11-30 18:03:55][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32657  [2017-11-30 18:04:03][ct][218.241.208.209]grep 'group_by' *
+[/home/ct/blog/tong-chen.github.com/_posts] 32660  [2017-11-30 15:26:11][ct][218.241.208.209]vim 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32661  [2017-11-30 20:29:30][ct][218.241.208.209]nano 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32662  [2017-11-30 20:29:43][ct][218.241.208.209]vim 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32663  [2017-11-30 20:30:05][ct][218.241.208.209]less 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32664  [2017-11-30 20:30:54][ct][218.241.208.209]nano 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32665  [2017-11-30 20:59:24][ct][218.241.208.209]less 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32734  [2017-12-01 09:29:27][ct][61.148.243.193]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32735  [2017-12-01 09:29:27][ct][61.148.243.193]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32736  [2017-12-01 09:29:31][ct][61.148.243.193]vim 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32737  [2017-12-01 14:06:28][ct][61.148.243.193]nano 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32738  [2017-12-01 14:13:34][ct][61.148.243.193]cat 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32812  [2017-12-01 20:55:59][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32813  [2017-12-01 20:56:00][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32814  [2017-12-01 20:56:26][ct][218.241.208.209]scp ct@aliyun500:/var/www/html/ehbio_doc/ct/new_titel.md .
+[/home/ct/blog/tong-chen.github.com/_posts] 32815  [2017-12-01 20:56:34][ct][218.241.208.209]vim 2017-11-30-gene-cluster.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32818  [2017-12-01 22:26:15][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32819  [2017-12-01 22:26:15][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32820  [2017-12-01 22:26:22][ct][121.69.255.229]vim 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32820  [2017-12-01 22:26:22][ct][121.69.255.229]vim 2017-11-30-gene-cluster.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32840  [2017-12-04 15:14:52][ct][61.148.244.69]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32841  [2017-12-04 15:14:53][ct][61.148.244.69]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32842  [2017-12-04 15:14:59][ct][61.148.244.69]ls | grep -i 'survi'
+[/home/ct/blog/tong-chen.github.com/_posts] 32843  [2017-12-04 15:15:05][ct][61.148.244.69]cat 2017-09-17-survivalAnalysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 32844  [2017-12-04 16:22:25][ct][61.148.244.69]generateRandomSeq.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 32845  [2017-12-04 16:22:35][ct][61.148.244.69]ls -l /MPATHB/self/NGS/
+[/home/ct/blog/tong-chen.github.com/_posts] 32846  [2017-12-04 16:22:45][ct][61.148.244.69]ls -ltr /MPATHB/self/NGS/
+[/home/ct/blog/tong-chen.github.com/_posts] 32945  [2017-12-06 11:26:16][ct][61.148.243.152]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 32946  [2017-12-06 11:26:17][ct][61.148.243.152]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 32947  [2017-12-06 11:26:24][ct][61.148.243.152]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32948  [2017-12-06 11:28:04][ct][61.148.243.152]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 32949  [2017-12-06 14:17:26][ct][61.148.243.152]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 33362  [2017-12-11 15:58:44][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33363  [2017-12-11 15:58:45][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33364  [2017-12-11 15:58:51][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33364  [2017-12-11 15:58:51][ct][218.241.208.209]vim 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33365  [2017-12-11 17:38:04][ct][218.241.208.209]cat 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33392  [2017-12-12 13:58:13][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33393  [2017-12-12 13:58:13][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33394  [2017-12-12 13:58:26][ct][59.108.50.194]vim 2017-12-12.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33394  [2017-12-12 13:58:26][ct][59.108.50.194]vim 2017-12-12.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33395  [2017-12-12 13:58:46][ct][59.108.50.194]vim 2017-12-12-python-traning.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33396  [2017-12-12 18:52:21][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33397  [2017-12-12 18:52:22][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 33398  [2017-12-12 18:52:41][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33399  [2017-12-12 18:52:45][ct][218.241.208.209]less 2017-12-12-python-traning.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33400  [2017-12-12 18:52:58][ct][218.241.208.209]#less 2017-12-12-python-traning.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33445  [2017-12-15 20:38:15][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33446  [2017-12-15 20:38:16][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33447  [2017-12-15 20:38:21][ct][218.241.208.209]cat 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33448  [2017-12-15 20:39:54][ct][218.241.208.209]cat 2017-12-12-python-traning.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33518  [2017-12-18 20:48:21][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33519  [2017-12-18 20:48:22][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33520  [2017-12-18 20:48:25][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33662  [2017-12-20 10:40:56][ct][114.242.248.99]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33663  [2017-12-20 10:40:56][ct][114.242.248.99]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33664  [2017-12-20 10:41:00][ct][114.242.248.99]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33937  [2017-12-21 20:38:49][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33938  [2017-12-21 20:38:49][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33939  [2017-12-21 20:38:52][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33940  [2017-12-21 20:39:21][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33941  [2017-12-21 20:40:07][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33941  [2017-12-21 20:40:07][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33951  [2017-12-22 09:31:40][ct][61.148.243.44]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33952  [2017-12-22 09:31:41][ct][61.148.243.44]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 33953  [2017-12-22 09:31:47][ct][61.148.243.44]vim 2017-12-21-python-quora.md
+[/home/ct/blog/tong-chen.github.com/_posts] 33949  [2017-12-22 14:20:13][ct][61.148.243.44]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 33950  [2017-12-22 14:20:15][ct][61.148.243.44]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33950  [2017-12-22 14:20:15][ct][61.148.243.44]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33950  [2017-12-22 14:20:15][ct][61.148.243.44]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33950  [2017-12-22 14:20:15][ct][61.148.243.44]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 33951  [2017-12-22 16:03:21][ct][61.148.243.44]top
+[/home/ct/blog/tong-chen.github.com/_posts] 34005  [2017-12-22 20:41:54][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34006  [2017-12-22 20:41:58][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34007  [2017-12-22 20:42:33][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34008  [2017-12-22 21:09:17][ct][218.241.208.209]type jupyter_server
+[/home/ct/blog/tong-chen.github.com/_posts] 34027  [2017-12-23 18:45:15][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34028  [2017-12-23 18:45:15][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34029  [2017-12-23 18:45:19][ct][218.241.208.209]vim 2017-12-22-jupyter.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34088  [2017-12-24 19:49:14][ct][111.63.3.185]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34089  [2017-12-24 19:49:15][ct][111.63.3.185]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34090  [2017-12-24 19:49:32][ct][111.63.3.185]ls 2017-*
+[/home/ct/blog/tong-chen.github.com/_posts] 34091  [2017-12-24 19:52:53][ct][111.63.3.185]#cat 2017-* 2012-04-08-circos-usage.md 2013-12-09-refname.md 2016-05-14-airflow.md 2016-11-1-docker-rstudio.md 2016-11-27-pandas.md 2016-09-16-bayes.md 2014-08-19-GSEA-usages.md 2014-02-20-backup-data-with-rdiff_backup.md 2016-07-12-ete.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34092  [2017-12-24 19:53:19][ct][111.63.3.185]cat *.md >/tmp/all_post
+[/home/ct/blog/tong-chen.github.com/_posts] 34093  [2017-12-24 19:53:25][ct][111.63.3.185]wordcloud.p
+[/home/ct/blog/tong-chen.github.com/_posts] 34094  [2017-12-24 19:53:43][ct][111.63.3.185]wordcloud_self.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 34095  [2017-12-24 19:53:52][ct][111.63.3.185]wordcloud_cli.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 34096  [2017-12-24 19:59:20][ct][111.63.3.185]locate stopwords
+[/home/ct/blog/tong-chen.github.com/_posts] 34097  [2017-12-24 20:04:37][ct][111.63.3.185]conda3 search wordcloud
+[/home/ct/blog/tong-chen.github.com/_posts] 34098  [2017-12-24 20:05:04][ct][111.63.3.185]conda3 -c conda-forge search wordcloud
+[/home/ct/blog/tong-chen.github.com/_posts] 34099  [2017-12-24 20:05:10][ct][111.63.3.185]conda3 -c conda_forge search wordcloud
+[/home/ct/blog/tong-chen.github.com/_posts] 34100  [2017-12-24 20:05:23][ct][111.63.3.185]conda3 search -c conda_forge wordcloud
+[/home/ct/blog/tong-chen.github.com/_posts] 34101  [2017-12-24 20:05:52][ct][111.63.3.185]less 2017-12-22-jupyter.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34102  [2017-12-24 20:06:07][ct][111.63.3.185]conda3 search -c conda-forge wordcloud
+[/home/ct/blog/tong-chen.github.com/_posts] 34103  [2017-12-24 20:06:41][ct][111.63.3.185]conda3 install -c conda-forge wordcloud
+[/home/ct/blog/tong-chen.github.com/_posts] 34104  [2017-12-24 20:47:24][ct][111.63.3.185]cat *.md >/tmp/all_post
+[/home/ct/blog/tong-chen.github.com/_posts] 34105  [2017-12-24 21:16:59][ct][111.63.3.185]cat 2017-* >/tmp/all_post
+[/home/ct/blog/tong-chen.github.com/_posts] 34106  [2017-12-24 23:01:57][ct][111.63.3.185]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34107  [2017-12-24 23:06:43][ct][111.63.3.185]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34108  [2017-12-24 23:18:55][ct][111.63.3.185]vim 2017-12-24-christmas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34109  [2017-12-24 23:35:48][ct][111.63.3.185]cat 2017-12-24-christmas.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34199  [2017-12-25 06:50:12][ct][111.63.3.185]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34200  [2017-12-25 06:50:13][ct][111.63.3.185]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34201  [2017-12-25 06:50:21][ct][111.63.3.185]less 2017-12-12-python-traning.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34209  [2017-12-25 10:56:22][ct][114.242.250.171]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34210  [2017-12-25 10:56:24][ct][114.242.250.171]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34211  [2017-12-25 10:57:25][ct][114.242.250.171]zip 20171225.zip 2017-11-15-transcriptome-training-summary.md 2012-04-08-circos-usage.md 2017-11-21-R-train2.md 2017-11-30-gene-cluster.md 2017-10-17-ImageGP.md 2017-12-12-python-traning.md 2010-10-13-bash-string-process.md 2017-12-20-python-hidden-features.md 2017-12-21-python-quora.md 2017-12-22-pyandex.md 2017-12-22-jupyter.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34215  [2017-12-25 12:33:15][ct][114.242.250.171]cd ~/blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34216  [2017-12-25 12:33:18][ct][114.242.250.171]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34217  [2017-12-25 12:33:23][ct][114.242.250.171]cat 2017-12-22-jupyter.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34320  [2017-12-26 10:19:07][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34320  [2017-12-26 10:19:07][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34321  [2017-12-26 10:19:17][ct][218.241.208.209]ls | grep 'airflow'
+[/home/ct/blog/tong-chen.github.com/_posts] 34426  [2017-12-27 23:05:15][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34427  [2017-12-27 23:06:51][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34428  [2017-12-27 23:07:20][ct][121.69.255.229]cp 2017-10-17-ImageGP.md 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34429  [2017-12-27 23:07:25][ct][121.69.255.229]vim 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34430  [2017-12-28 00:12:07][ct][121.69.255.229]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34431  [2017-12-28 00:12:40][ct][121.69.255.229]vim 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34444  [2017-12-28 09:38:24][ct][223.104.3.186]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34445  [2017-12-28 09:38:24][ct][223.104.3.186]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34446  [2017-12-28 09:38:28][ct][223.104.3.186]vim 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34444  [2017-12-28 11:04:02][ct][223.104.3.186]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34445  [2017-12-28 11:04:03][ct][223.104.3.186]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34446  [2017-12-28 11:04:16][ct][223.104.3.186]cp 2017-12-27-ImageGP.md 2017-12-27-google-image.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34447  [2017-12-28 11:04:20][ct][223.104.3.186]vim 2017-12-27-google-image.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34448  [2017-12-28 11:11:19][ct][223.104.3.186]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34449  [2017-12-28 11:11:30][ct][223.104.3.186]vim 2017-12-27-google-image.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34450  [2017-12-28 11:26:11][ct][223.104.3.186]#vim 2017-12-27-google-image.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34507  [2017-12-29 13:40:43][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34507  [2017-12-29 13:40:43][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34508  [2017-12-29 13:40:51][ct][218.241.208.209]cat 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34514  [2018-01-02 17:21:17][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34515  [2018-01-02 17:21:17][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34516  [2018-01-02 17:21:35][ct][218.241.208.209]vim 2018-01-02-cas9-activation-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34514  [2018-01-02 18:18:39][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34515  [2018-01-02 18:18:42][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34517  [2018-01-02 17:49:15][ct][218.241.208.209]vim 2018-01-02-biological-numbers.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34518  [2018-01-02 20:36:37][ct][218.241.208.209]# 2018-01-02-biological-numbers.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34515  [2018-01-02 18:18:42][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34535  [2018-01-02 22:46:59][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34536  [2018-01-02 22:47:01][ct][121.69.255.229]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34539  [2018-01-03 14:44:26][ct][114.242.249.36]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34540  [2018-01-03 14:44:27][ct][114.242.249.36]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34601  [2018-01-04 13:54:45][ct][114.242.248.189]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34602  [2018-01-04 13:54:51][ct][114.242.248.189]grep -i 'cegma' *
+[/home/ct/blog/tong-chen.github.com/_posts] 34603  [2018-01-04 13:55:08][ct][114.242.248.189]grep -l -i 'cegma' *
+[/home/ct/blog/tong-chen.github.com/_posts] 34604  [2018-01-04 17:19:34][ct][114.242.248.189]sp_barPlot
+[/home/ct/blog/tong-chen.github.com/_posts] 34605  [2018-01-04 17:19:36][ct][114.242.248.189]sp_barPlot.sh
+[/home/ct/blog/tong-chen.github.com/_posts] 34606  [2018-01-04 17:19:43][ct][114.242.248.189]which sp_barPlot.sh
+[/home/ct/blog/tong-chen.github.com/_posts] 34607  [2018-01-04 17:20:04][ct][114.242.248.189]scpimp /MPATHB/self/s-plot/sp_barPlot.sh ct@IMP:bin/
+[/home/ct/blog/tong-chen.github.com/_posts] 34608  [2018-01-04 17:24:10][ct][114.242.248.189]scpimp ct@IMP:/disk2/home/ct/bin/parseBusco.py /tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 34633  [2018-01-04 20:26:17][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34634  [2018-01-04 20:26:18][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34635  [2018-01-04 20:26:30][ct][218.241.208.209]vim 2018-01-04-literature-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34636  [2018-01-04 20:48:37][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34637  [2018-01-04 20:49:07][ct][218.241.208.209]vim 2018-01-04-literature-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34638  [2018-01-04 20:49:58][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34638  [2018-01-04 20:49:58][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34638  [2018-01-04 20:49:58][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34639  [2018-01-04 20:51:09][ct][218.241.208.209]vim 2018-01-04-literature-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34642  [2018-01-04 22:25:18][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34643  [2018-01-04 22:25:18][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34644  [2018-01-04 22:25:23][ct][121.69.255.229]vim 2018-01-04-literature-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34645  [2018-01-04 22:31:41][ct][121.69.255.229]cp 2018-01-04-literature-search.md 2018-01-04-string.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34646  [2018-01-04 22:31:46][ct][121.69.255.229]vim 2018-01-04-string.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34647  [2018-01-04 23:07:24][ct][121.69.255.229]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34642  [2018-01-04 23:09:20][ct][121.69.255.229]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34643  [2018-01-04 23:09:21][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34644  [2018-01-04 23:09:24][ct][121.69.255.229]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34644  [2018-01-04 23:09:24][ct][121.69.255.229]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34648  [2018-01-04 23:07:40][ct][121.69.255.229]vim 2018-01-04-string.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34644  [2018-01-04 23:09:24][ct][121.69.255.229]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34645  [2018-01-04 23:49:19][ct][121.69.255.229]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34645  [2018-01-04 23:49:19][ct][121.69.255.229]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34646  [2018-01-04 23:54:00][ct][121.69.255.229]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34647  [2018-01-04 23:55:12][ct][121.69.255.229]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34648  [2018-01-04 23:56:03][ct][121.69.255.229]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34667  [2018-01-05 14:58:23][ct][114.242.248.189]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34673  [2018-01-05 18:03:36][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34674  [2018-01-05 18:03:37][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34675  [2018-01-05 18:03:55][ct][218.241.208.209]vim 2018-01-04-literature-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34673  [2018-01-05 20:28:12][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34674  [2018-01-05 20:28:13][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34675  [2018-01-05 20:28:15][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34676  [2018-01-05 20:28:58][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34675  [2018-01-05 18:03:55][ct][218.241.208.209]vim 2018-01-04-literature-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34692  [2018-01-06 10:03:32][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34693  [2018-01-06 10:04:17][ct][218.241.208.209]vim 2018-01-06-non-ref-config.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34746  [2018-01-07 15:00:33][ct][121.69.255.229]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34747  [2018-01-07 15:00:34][ct][121.69.255.229]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34748  [2018-01-07 15:00:58][ct][121.69.255.229]vim hmdb.txt 
+[/home/ct/blog/tong-chen.github.com/_posts] 34748  [2018-01-07 15:00:58][ct][121.69.255.229]vim hmdb.txt 
+[/home/ct/blog/tong-chen.github.com/_posts] 34749  [2018-01-07 15:04:52][ct][121.69.255.229]mv hmdb.txt 2017-10-09-Extract-data-from-webpage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34786  [2018-01-08 10:37:35][ct][61.148.244.174]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34787  [2018-01-08 10:37:35][ct][61.148.244.174]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34788  [2018-01-08 10:37:54][ct][61.148.244.174]nano 2018-01-08-writing.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34786  [2018-01-08 14:33:53][ct][61.148.244.174]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34787  [2018-01-08 14:33:54][ct][61.148.244.174]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34788  [2018-01-08 14:33:57][ct][61.148.244.174]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34789  [2018-01-08 10:38:09][ct][61.148.244.174]vim 2018-01-08-writing.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34788  [2018-01-08 14:33:57][ct][61.148.244.174]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34789  [2018-01-08 15:25:09][ct][61.148.244.174]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34790  [2018-01-08 15:27:08][ct][61.148.244.174]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34791  [2018-01-08 15:28:11][ct][61.148.244.174]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34792  [2018-01-08 15:30:04][ct][61.148.244.174]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34793  [2018-01-08 16:31:31][ct][61.148.244.174]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34794  [2018-01-08 16:58:25][ct][61.148.244.174]cat 2017-01-08-writing.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34844  [2018-01-08 18:31:15][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 34845  [2018-01-08 18:31:16][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34846  [2018-01-08 18:32:32][ct][218.241.208.209]less 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34847  [2018-01-08 18:32:38][ct][218.241.208.209]less 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 34848  [2018-01-08 18:33:17][ct][218.241.208.209]less new_titel.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 34849  [2018-01-08 18:33:30][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 34850  [2018-01-08 18:34:08][ct][218.241.208.209]less 2018-01-06-non-ref-config.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35105  [2018-01-10 09:37:18][ct][114.242.248.115]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35106  [2018-01-10 09:37:19][ct][114.242.248.115]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35221  [2018-01-12 15:46:52][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35222  [2018-01-12 15:46:53][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35247  [2018-01-13 19:44:35][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35248  [2018-01-13 19:44:36][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35249  [2018-01-13 20:20:59][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35250  [2018-01-13 20:20:59][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35251  [2018-01-13 20:21:17][ct][218.241.208.209]mv 2017-01-13-scrispr.md 2017-01-13-gene-therapy.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35252  [2018-01-13 20:35:59][ct][218.241.208.209]vim 2017-01-13-gene-therapy.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 35278  [2018-01-14 11:30:11][ct][61.149.11.45]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35279  [2018-01-14 11:30:11][ct][61.149.11.45]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35283  [2018-01-14 17:48:50][ct][61.149.11.45]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35284  [2018-01-14 17:48:50][ct][61.149.11.45]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35285  [2018-01-14 17:49:01][ct][61.149.11.45]vim 2017-01-14-sequence-in-database.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35286  [2018-01-14 18:08:11][ct][61.149.11.45]cat 2017-12-27-ImageGP.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 35287  [2018-01-14 18:09:40][ct][61.149.11.45]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 35288  [2018-01-14 18:09:54][ct][61.149.11.45]cat  2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35289  [2018-01-14 18:20:21][ct][61.149.11.45]vim 2017-09-03-bioconda.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 35299  [2018-01-14 19:34:57][ct][61.149.11.45]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35300  [2018-01-14 19:35:00][ct][61.149.11.45]lltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35301  [2018-01-14 19:35:02][ct][61.149.11.45]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35302  [2018-01-14 19:35:12][ct][61.149.11.45]wc -c 2017-09-03-nobel.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35303  [2018-01-14 19:35:24][ct][61.149.11.45]vim 2017-09-03-nobel.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35304  [2018-01-14 20:32:34][ct][61.149.11.45]vim 2018-01-14-crispr-cas9.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35305  [2018-01-14 23:09:25][ct][61.149.11.45]vim 2017-01-13-gene-therapy.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35306  [2018-01-14 23:09:37][ct][61.149.11.45]vim 2018-01-14-crispr-cas9.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35389  [2018-01-15 21:22:07][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35390  [2018-01-15 21:22:07][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35391  [2018-01-15 21:22:22][ct][218.241.208.209]vim 2018-01-15-chinaooc.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35479  [2018-01-16 13:27:24][ct][114.242.248.8]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35480  [2018-01-16 13:27:24][ct][114.242.248.8]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35481  [2018-01-16 13:28:05][ct][114.242.248.8]#vim 2018-01-16-circos
+[/home/ct/blog/tong-chen.github.com/_posts] 35482  [2018-01-16 13:28:10][ct][114.242.248.8]vim 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35483  [2018-01-16 15:02:10][ct][114.242.248.8]cat 2012-04-08-circos-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35553  [2018-01-18 20:41:58][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35554  [2018-01-18 20:41:59][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35555  [2018-01-18 20:42:13][ct][218.241.208.209]vim 2018-01-18-python-tutor.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35556  [2018-01-18 20:51:30][ct][218.241.208.209]nano 2018-01-18-python-tutor.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35557  [2018-01-18 20:51:57][ct][218.241.208.209]vim 2018-01-18-python-tutor.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35569  [2018-01-19 15:21:53][ct][114.242.250.97]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35570  [2018-01-19 15:21:54][ct][114.242.250.97]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35615  [2018-01-19 21:27:08][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35616  [2018-01-19 21:27:09][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35617  [2018-01-19 21:27:22][ct][218.241.208.209]vim 2017-12-22-jupyter.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 35617  [2018-01-19 21:27:22][ct][218.241.208.209]vim 2017-12-22-jupyter.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 35632  [2018-01-20 11:39:38][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35633  [2018-01-20 11:39:38][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35634  [2018-01-20 11:39:42][ct][218.241.208.209]vim 2017-12-22-jupyter.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35713  [2018-01-22 10:48:31][ct][61.148.245.179]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35714  [2018-01-22 10:48:32][ct][61.148.245.179]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35715  [2018-01-22 10:48:46][ct][61.148.245.179]vim 2018-01-02-cas9-activation-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35716  [2018-01-22 10:49:47][ct][61.148.245.179]#zip 20180122.zip 2017-12-27-ImageGP.md 2017-12-27-google-image.md 2018-01-02-biological-numbers.md 2018-01-04-string.md 2017-10-09-Extract-data-from-webpage.md 2017-01-08-writing.md 2018-01-04-literature-search.md 2018-01-14-crispr-cas9.md 2012-04-08-circos-usage.md 2018-01-18-python-tutor.md 2017-12-22-jupyter.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35717  [2018-01-22 10:49:51][ct][61.148.245.179]less 2018-01-18-jingpinke.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35718  [2018-01-22 10:49:57][ct][61.148.245.179]less 2018-01-15-chinaooc.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35719  [2018-01-22 10:50:01][ct][61.148.245.179]rm -f 2018-01-15-chinaooc.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35720  [2018-01-22 10:50:08][ct][61.148.245.179]less 2017-01-14-sequence-in-database.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35721  [2018-01-22 10:50:35][ct][61.148.245.179]zip 20180122.zip 2017-12-27-ImageGP.md 2017-12-27-google-image.md 2018-01-02-biological-numbers.md 2018-01-04-string.md 2017-10-09-Extract-data-from-webpage.md 2017-01-08-writing.md 2018-01-04-literature-search.md 2018-01-14-crispr-cas9.md 2012-04-08-circos-usage.md 2018-01-18-python-tutor.md 2017-12-22-jupyter.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35722  [2018-01-22 10:50:41][ct][61.148.245.179]vim 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35723  [2018-01-22 10:50:50][ct][61.148.245.179]vim 2017-12-27-google-image.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35724  [2018-01-22 10:51:17][ct][61.148.245.179]vim 2018-01-02-biological-numbers.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35725  [2018-01-22 10:52:40][ct][61.148.245.179]vim 2018-01-04-string.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35726  [2018-01-22 10:52:55][ct][61.148.245.179]vim 2018-01-14-crispr-cas9.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35727  [2018-01-22 10:53:07][ct][61.148.245.179]zip 20180122.zip 2017-12-27-ImageGP.md 2017-12-27-google-image.md 2018-01-02-biological-numbers.md 2018-01-04-string.md 2017-10-09-Extract-data-from-webpage.md 2017-01-08-writing.md 2018-01-04-literature-search.md 2018-01-14-crispr-cas9.md 2012-04-08-circos-usage.md 2018-01-18-python-tutor.md 2017-12-22-jupyter.md
+[/home/ct/blog/tong-chen.github.com/_posts] 35826  [2018-01-22 20:05:14][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 35827  [2018-01-22 20:05:16][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 35828  [2018-01-22 20:05:35][ct][218.241.208.209]vim 2018-01-22-epigenome-snapshot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36018  [2018-01-29 16:34:45][ct][114.242.249.169]cd ~/blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 36019  [2018-01-29 16:34:46][ct][114.242.249.169]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 36020  [2018-01-29 16:35:20][ct][114.242.249.169]ls /MPATHB/self
+[/home/ct/blog/tong-chen.github.com/_posts] 36066  [2018-01-30 14:37:39][ct][114.242.249.102]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 36067  [2018-01-30 14:37:40][ct][114.242.249.102]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 36068  [2018-01-30 14:37:54][ct][114.242.249.102]less 2018-01-18-jingpinke.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36069  [2018-01-30 14:38:18][ct][114.242.249.102]less 2018-01-06-non-ref-config.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36064  [2018-01-30 14:58:18][ct][114.242.249.102]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 36065  [2018-01-30 14:58:24][ct][114.242.249.102]less 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36066  [2018-01-30 14:59:06][ct][114.242.249.102]vim 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36067  [2018-01-30 15:08:09][ct][114.242.249.102]cat 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36068  [2018-01-30 15:08:15][ct][114.242.249.102]vim 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36069  [2018-01-30 15:09:08][ct][114.242.249.102]cat 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36070  [2018-01-30 15:22:34][ct][114.242.249.102]vim 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36070  [2018-01-30 15:22:34][ct][114.242.249.102]vim 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36071  [2018-01-30 15:50:22][ct][114.242.249.102]cat 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 36088  [2018-01-31 09:20:45][ct][114.242.249.46]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 36089  [2018-01-31 09:20:45][ct][114.242.249.46]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 36090  [2018-01-31 09:20:49][ct][114.242.249.46]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 36688  [2018-02-05 18:39:04][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 36689  [2018-02-05 18:39:05][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 36690  [2018-02-05 18:42:07][ct][218.241.208.209]scp 2010-10-13-bash-string-process.md 2017-09-24-linux-sed.md 2017-09-24-linux-awk.md 2017-06-08-bash1.md 2017-09-03-bioconda.md ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 45925  [2018-02-18 14:42:43][ct][112.250.96.58]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 45926  [2018-02-18 14:42:44][ct][112.250.96.58]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 45927  [2018-02-18 14:43:14][ct][112.250.96.58]cp 2016-11-10-bookdown-usage.md 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45928  [2018-02-18 14:43:19][ct][112.250.96.58]vim 18-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45929  [2018-02-18 14:43:24][ct][112.250.96.58]vim 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45930  [2018-02-18 20:00:02][ct][112.250.96.58]nano 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45931  [2018-02-18 20:01:00][ct][112.250.96.58]vim 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45932  [2018-02-18 20:05:03][ct][112.250.96.58]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 45933  [2018-02-18 20:06:17][ct][112.250.96.58]vim 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45934  [2018-02-18 20:06:26][ct][112.250.96.58]nano 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45923  [2018-02-18 20:22:15][ct][112.250.96.58]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 45924  [2018-02-18 20:22:16][ct][112.250.96.58]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 45925  [2018-02-18 20:22:22][ct][112.250.96.58]less 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45926  [2018-02-18 20:22:42][ct][112.250.96.58]vim 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45927  [2018-02-18 20:25:39][ct][112.250.96.58]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 45928  [2018-02-18 20:26:06][ct][112.250.96.58]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 45929  [2018-02-18 20:26:29][ct][112.250.96.58]nano 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45930  [2018-02-18 20:27:06][ct][112.250.96.58]vim 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45931  [2018-02-18 20:27:47][ct][112.250.96.58]#vim 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45953  [2018-02-20 13:12:31][ct][1.180.237.250]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 45954  [2018-02-20 13:12:32][ct][1.180.237.250]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 45955  [2018-02-20 13:12:51][ct][1.180.237.250]nano 2018-2-18-network3d-forcenet.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 45956  [2018-02-20 13:13:56][ct][1.180.237.250]vim 2018-2-18-network3d-forcenet.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 45957  [2018-02-20 15:56:44][ct][1.180.237.250]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 45959  [2018-02-20 18:20:20][ct][1.180.237.237]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 45960  [2018-02-20 18:20:22][ct][1.180.237.237]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 45961  [2018-02-20 18:20:51][ct][1.180.237.237]cp 2100-01-01-shengxinbaodian.md 2018-02-20-go.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45962  [2018-02-20 18:21:26][ct][1.180.237.237]vim 2018-02-20-go.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45963  [2018-02-20 18:26:11][ct][1.180.237.237]grep 'odds rat' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45964  [2018-02-20 18:26:19][ct][1.180.237.237]vim 2017-10-14-enrichment-analysis.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45965  [2018-02-20 18:26:38][ct][1.180.237.237]vim 2018-02-20-go.md
+[/home/ct/blog/tong-chen.github.com/_posts] 45966  [2018-02-20 18:37:37][ct][1.180.237.237]:Wq
+[/home/ct/blog/tong-chen.github.com/_posts] 45957  [2018-02-20 18:49:11][ct][1.180.237.237]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 45957  [2018-02-20 18:49:38][ct][1.180.237.237]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 45958  [2018-02-20 18:49:40][ct][1.180.237.237]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 45959  [2018-02-20 18:49:46][ct][1.180.237.237]vim 2018-02-20-go.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 45997  [2018-02-23 20:45:59][ct][61.149.11.46]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 45998  [2018-02-23 20:46:00][ct][61.149.11.46]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 45999  [2018-02-23 20:46:34][ct][61.149.11.46]vim 2018-02-23-bio-course-international.md
+[/home/ct/blog/tong-chen.github.com/_posts] 46034  [2018-02-24 21:15:02][ct][61.149.11.46]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 46035  [2018-02-24 21:15:05][ct][61.149.11.46]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 46036  [2018-02-24 21:15:17][ct][61.149.11.46]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 46354  [2018-02-27 10:21:22][ct][61.148.245.3]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 46355  [2018-02-27 10:21:23][ct][61.148.245.3]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 46666  [2018-03-01 19:22:17][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 46667  [2018-03-01 19:22:18][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 46668  [2018-03-01 19:22:39][ct][218.241.208.209]vim 2018-01-18-jingpinke.md
+[/home/ct/blog/tong-chen.github.com/_posts] 46668  [2018-03-01 19:22:39][ct][218.241.208.209]vim 2018-01-18-jingpinke.md
+[/home/ct/blog/tong-chen.github.com/_posts] 46741  [2018-03-03 11:18:25][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 46742  [2018-03-03 11:18:26][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 46743  [2018-03-03 11:19:13][ct][218.241.208.209]cat 2016-11-10-bookdown-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 46744  [2018-03-03 11:21:59][ct][218.241.208.209]cat 2018-2-18-network3d-forcenet.md
+[/home/ct/blog/tong-chen.github.com/_posts] 46745  [2018-03-03 11:23:56][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 46746  [2018-03-03 11:23:59][ct][218.241.208.209]cat 2018-02-20-go.md
+[/home/ct/blog/tong-chen.github.com/_posts] 47754  [2018-03-14 09:03:54][ct][114.242.248.116]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 47755  [2018-03-14 09:03:55][ct][114.242.248.116]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 47756  [2018-03-14 09:04:11][ct][114.242.248.116]nano 2018-03-14-journal-info.md
+[/home/ct/blog/tong-chen.github.com/_posts] 47757  [2018-03-14 09:04:25][ct][114.242.248.116]vim 2018-03-14-journal-info.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48173  [2018-03-16 08:57:36][ct][61.148.245.178]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48174  [2018-03-16 08:57:36][ct][61.148.245.178]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48175  [2018-03-16 08:57:52][ct][61.148.245.178]less 2018-02-23-bio-course-international.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48176  [2018-03-16 08:59:25][ct][61.148.245.178]cat 2018-03-14-journal-info.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48177  [2018-03-16 09:04:06][ct][61.148.245.178]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48178  [2018-03-16 09:04:11][ct][61.148.245.178]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48194  [2018-03-16 15:10:11][ct][61.148.245.178]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48195  [2018-03-16 15:10:11][ct][61.148.245.178]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48196  [2018-03-16 15:10:28][ct][61.148.245.178]vim 2018-03-16-linux-faq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48197  [2018-03-16 16:14:11][ct][61.148.245.178]nano 2018-03-16-linux-faq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48198  [2018-03-16 16:21:35][ct][61.148.245.178]vim 2018-03-16-linux-faq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48304  [2018-03-16 18:24:58][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48305  [2018-03-16 18:24:59][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48306  [2018-03-16 18:25:03][ct][218.241.208.209]vim 2018-03-16-linux-faq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48307  [2018-03-16 20:14:41][ct][218.241.208.209]cp 2018-03-16-linux-faq.md 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48308  [2018-03-16 20:14:44][ct][218.241.208.209]vim 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48359  [2018-03-17 08:13:05][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48360  [2018-03-17 08:13:06][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48357  [2018-03-17 08:16:17][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48358  [2018-03-17 08:16:18][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48361  [2018-03-17 08:13:11][ct][218.241.208.209]vim 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48388  [2018-03-18 15:51:43][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48389  [2018-03-18 15:51:43][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48440  [2018-03-19 15:22:15][ct][61.148.243.73]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48441  [2018-03-19 15:22:16][ct][61.148.243.73]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48442  [2018-03-19 15:26:06][ct][61.148.243.73]vim 2018-03-19-linux-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48443  [2018-03-19 17:09:14][ct][61.148.243.73]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48444  [2018-03-19 17:10:00][ct][61.148.243.73]vim 2018-03-19-linux-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48445  [2018-03-19 17:10:22][ct][61.148.243.73]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48445  [2018-03-19 17:10:22][ct][61.148.243.73]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48446  [2018-03-19 17:11:30][ct][61.148.243.73]vim 2018-03-19-linux-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48447  [2018-03-19 17:11:47][ct][61.148.243.73]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48448  [2018-03-19 17:14:34][ct][61.148.243.73]vim 2018-03-19-linux-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48449  [2018-03-19 17:14:48][ct][61.148.243.73]#vim 2018-03-19-linux-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48595  [2018-03-21 09:37:08][ct][61.148.245.126]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48596  [2018-03-21 09:37:09][ct][61.148.245.126]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48597  [2018-03-21 09:37:17][ct][61.148.245.126]vim 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48598  [2018-03-21 09:43:40][ct][61.148.245.126]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48599  [2018-03-21 09:43:48][ct][61.148.245.126]vim 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48600  [2018-03-21 09:45:52][ct][61.148.245.126]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48601  [2018-03-21 09:46:08][ct][61.148.245.126]vim 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48602  [2018-03-21 10:20:07][ct][61.148.245.126]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48603  [2018-03-21 10:20:31][ct][61.148.245.126]vim 2018-03-16-linux-search.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48609  [2018-03-21 10:36:41][ct][61.148.245.126]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48610  [2018-03-21 10:36:43][ct][61.148.245.126]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48611  [2018-03-21 10:36:54][ct][61.148.245.126]less 2017-10-17-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48612  [2018-03-21 10:37:42][ct][61.148.245.126]less 2017-12-27-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48613  [2018-03-21 10:38:58][ct][61.148.245.126]cp 2017-12-27-ImageGP.md 2018-03-21-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48614  [2018-03-21 10:39:03][ct][61.148.245.126]vim 2018-03-21-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48615  [2018-03-21 11:28:15][ct][61.148.245.126]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48616  [2018-03-21 11:28:45][ct][61.148.245.126]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48616  [2018-03-21 11:28:45][ct][61.148.245.126]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48617  [2018-03-21 11:30:24][ct][61.148.245.126]vim 2018-03-21-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48617  [2018-03-21 11:30:24][ct][61.148.245.126]vim 2018-03-21-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48618  [2018-03-21 12:40:55][ct][61.148.245.126]cat 2018-03-21-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48619  [2018-03-21 15:45:17][ct][61.148.245.126]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 48796  [2018-03-22 17:26:43][ct][114.242.250.127]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48797  [2018-03-22 17:26:43][ct][114.242.250.127]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48798  [2018-03-22 17:26:58][ct][114.242.250.127]grep -i 'server' *
+[/home/ct/blog/tong-chen.github.com/_posts] 48799  [2018-03-22 17:27:09][ct][114.242.250.127]less 2013-12-09-server-info.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48800  [2018-03-22 17:27:18][ct][114.242.250.127]ls -l 2013-12-09-server-info.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48801  [2018-03-22 17:27:21][ct][114.242.250.127]less 2013-12-09-server-info.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48802  [2018-03-22 17:28:29][ct][114.242.250.127]scp 2013-12-09-server-info.md ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 48803  [2018-03-22 17:28:34][ct][114.242.250.127]serverInfo.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 48889  [2018-03-23 16:20:52][ct][61.148.245.172]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 48890  [2018-03-23 16:20:57][ct][61.148.245.172]ls | grep -i 'vim'
+[/home/ct/blog/tong-chen.github.com/_posts] 48891  [2018-03-23 16:21:03][ct][61.148.245.172]vim 2017-08-23-vim-tutorial2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48935  [2018-03-23 19:20:07][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48936  [2018-03-23 19:20:14][ct][218.241.208.209]ls | grep -i 'vim'
+[/home/ct/blog/tong-chen.github.com/_posts] 48937  [2018-03-23 19:20:28][ct][218.241.208.209]scp 2017-08-23-vim-tutorial2.md ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 48938  [2018-03-23 19:20:32][ct][218.241.208.209]less vim.txt 
+[/home/ct/blog/tong-chen.github.com/_posts] 48939  [2018-03-23 19:20:44][ct][218.241.208.209]scp vim.txt ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 48969  [2018-03-24 14:25:31][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48970  [2018-03-24 14:25:34][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48971  [2018-03-24 14:25:49][ct][218.241.208.209]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 48984  [2018-03-25 20:37:52][ct][111.40.217.121]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48985  [2018-03-25 20:37:53][ct][111.40.217.121]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48986  [2018-03-25 20:41:53][ct][111.40.217.121]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48986  [2018-03-25 20:41:53][ct][111.40.217.121]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 48987  [2018-03-25 20:58:18][ct][111.40.217.121]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 48984  [2018-03-25 22:23:12][ct][111.40.217.121]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 48985  [2018-03-25 22:23:13][ct][111.40.217.121]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 48986  [2018-03-25 22:23:23][ct][111.40.217.121]vim 2018-03-24-ampliconseqsumamry.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 49343  [2018-03-27 09:39:43][ct][61.148.245.11]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 49344  [2018-03-27 09:39:44][ct][61.148.245.11]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 49345  [2018-03-27 09:39:58][ct][61.148.245.11]vim 2018-03-27-ppt-islide.md
+[/home/ct/blog/tong-chen.github.com/_posts] 49732  [2018-03-29 10:23:29][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 49733  [2018-03-29 10:23:30][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 49734  [2018-03-29 10:23:35][ct][218.241.208.209]cat 2018-03-27-ppt-islide.md
+[/home/ct/blog/tong-chen.github.com/_posts] 49740  [2018-03-30 20:23:51][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 49741  [2018-03-30 20:23:52][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 49742  [2018-03-30 20:23:57][ct][218.241.208.209]ls | grep 'rsync'
+[/home/ct/blog/tong-chen.github.com/_posts] 49743  [2018-03-30 20:24:02][ct][218.241.208.209]less 2014-02-20-backup-data-with-rsyncs.md
+[/home/ct/blog/tong-chen.github.com/_posts] 49945  [2018-03-31 19:09:49][ct][111.40.217.122]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 49946  [2018-03-31 19:09:50][ct][111.40.217.122]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 49947  [2018-03-31 19:09:59][ct][111.40.217.122]nano 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 49948  [2018-03-31 19:10:08][ct][111.40.217.122]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50130  [2018-04-02 18:58:53][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50131  [2018-04-02 18:58:53][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50132  [2018-04-02 18:58:57][ct][218.241.208.209]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50133  [2018-04-02 20:01:24][ct][218.241.208.209]less 2018-01-22-epigenome-snapshot.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50134  [2018-04-02 20:05:52][ct][218.241.208.209]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50130  [2018-04-02 20:38:54][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50131  [2018-04-02 20:38:54][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50132  [2018-04-02 20:40:09][ct][218.241.208.209]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50132  [2018-04-02 20:40:09][ct][218.241.208.209]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50149  [2018-04-02 21:00:13][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50150  [2018-04-02 21:00:13][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50151  [2018-04-02 21:00:16][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50152  [2018-04-02 21:01:45][ct][218.241.208.209]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50153  [2018-04-02 21:08:44][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50154  [2018-04-02 21:21:27][ct][218.241.208.209]nano 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50155  [2018-04-02 21:22:01][ct][218.241.208.209]vim 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50168  [2018-04-03 06:08:46][ct][111.63.3.191]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50169  [2018-04-03 06:08:46][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50170  [2018-04-03 06:08:55][ct][111.63.3.191]cat 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50171  [2018-04-03 06:11:05][ct][111.63.3.191]vim 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50172  [2018-04-03 06:13:25][ct][111.63.3.191]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50173  [2018-04-03 06:13:48][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50174  [2018-04-03 06:13:54][ct][111.63.3.191]vim 2018-03-27-ppt-islide.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50175  [2018-04-03 06:14:15][ct][111.63.3.191]vim 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50176  [2018-04-03 06:14:50][ct][111.63.3.191]vim 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50177  [2018-04-03 06:17:09][ct][111.63.3.191]#vim 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50189  [2018-04-03 09:54:17][ct][61.148.245.77]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50190  [2018-04-03 09:54:18][ct][61.148.245.77]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50191  [2018-04-03 09:54:24][ct][61.148.245.77]vim 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50189  [2018-04-03 14:29:51][ct][61.148.245.77]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50268  [2018-04-04 06:34:25][ct][111.63.3.191]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50269  [2018-04-04 06:34:26][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50270  [2018-04-04 06:34:59][ct][111.63.3.191]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50303  [2018-04-04 16:27:20][ct][61.148.243.162]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50304  [2018-04-04 16:27:20][ct][61.148.243.162]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50305  [2018-04-04 16:27:27][ct][61.148.243.162]cat 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50306  [2018-04-04 16:27:32][ct][61.148.243.162]vim 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50307  [2018-04-04 16:28:27][ct][61.148.243.162]cat 2018-04-02-bedtools.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50308  [2018-04-04 16:31:23][ct][61.148.243.162]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 50325  [2018-04-04 20:32:57][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50326  [2018-04-04 20:32:57][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50327  [2018-04-04 20:33:04][ct][218.241.208.209]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50341  [2018-04-05 10:37:18][ct][111.63.3.191]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50342  [2018-04-05 10:37:19][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50343  [2018-04-05 10:37:24][ct][111.63.3.191]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50344  [2018-04-06 17:28:03][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50345  [2018-04-06 17:28:04][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50346  [2018-04-06 17:28:07][ct][218.241.208.209]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50396  [2018-04-07 10:38:07][ct][111.63.3.191]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50397  [2018-04-07 10:38:08][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50398  [2018-04-07 10:38:13][ct][111.63.3.191]less 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50396  [2018-04-07 12:02:00][ct][111.63.3.191]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 50397  [2018-04-07 12:02:01][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50399  [2018-04-07 11:40:53][ct][111.63.3.191]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50400  [2018-04-07 18:58:08][ct][111.63.3.191]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50400  [2018-04-07 18:58:08][ct][111.63.3.191]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50401  [2018-04-07 18:59:24][ct][111.63.3.191]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50398  [2018-04-07 12:19:22][ct][111.63.3.191]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50399  [2018-04-07 19:02:52][ct][111.63.3.191]vim 2018-03-24-ampliconseqsumamry.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50780  [2018-04-10 09:30:47][ct][114.242.248.157]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50781  [2018-04-10 09:30:49][ct][114.242.248.157]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50782  [2018-04-10 09:31:11][ct][114.242.248.157]ls | grep 'rfam'
+[/home/ct/blog/tong-chen.github.com/_posts] 50783  [2018-04-10 09:31:18][ct][114.242.248.157]ls | grep -i 'rfam'
+[/home/ct/blog/tong-chen.github.com/_posts] 50784  [2018-04-10 09:31:24][ct][114.242.248.157]vim 2017-06-16-Rfam.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50785  [2018-04-10 10:23:42][ct][114.242.248.157]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50903  [2018-04-11 18:35:32][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50904  [2018-04-11 18:35:32][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50905  [2018-04-11 18:35:37][ct][218.241.208.209]vim 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50905  [2018-04-11 18:35:37][ct][218.241.208.209]vim 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50906  [2018-04-11 18:46:00][ct][218.241.208.209]less 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50907  [2018-04-11 18:53:44][ct][218.241.208.209]vim 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50908  [2018-04-11 20:59:37][ct][218.241.208.209]nano 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 50909  [2018-04-11 20:59:56][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50945  [2018-04-11 22:47:33][ct][111.63.3.191]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 50946  [2018-04-11 22:47:34][ct][111.63.3.191]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 50947  [2018-04-11 22:47:44][ct][111.63.3.191]vim 2018-04-11-wgcna.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50948  [2018-04-11 22:48:14][ct][111.63.3.191]nano 2018-04-11-wgcna.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50949  [2018-04-11 22:48:27][ct][111.63.3.191]vim 2018-04-11-wgcna.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 50949  [2018-04-11 22:48:27][ct][111.63.3.191]vim 2018-04-11-wgcna.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51435  [2018-04-16 17:22:09][ct][111.63.3.190]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51436  [2018-04-16 17:22:10][ct][111.63.3.190]ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51432  [2018-04-16 17:23:26][ct][111.63.3.190]cd /MPATHB/ct/blog/tong-chen.github.com/_posts/
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51433  [2018-04-16 17:23:28][ct][111.63.3.190]ltr
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51434  [2018-04-16 17:23:41][ct][111.63.3.190]less 2018-03-31-chip.md
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51435  [2018-04-16 17:24:09][ct][111.63.3.190]ls | grep 'rna|trans'
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51435  [2018-04-16 17:24:09][ct][111.63.3.190]ls | grep 'rna|trans'
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51435  [2018-04-16 17:24:09][ct][111.63.3.190]ls | grep 'rna|trans'
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 51435  [2018-04-16 17:24:09][ct][111.63.3.190]ls | grep 'rna|trans'
+[/home/ct/blog/tong-chen.github.com/_posts] 51437  [2018-04-16 17:22:22][ct][111.63.3.190]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51453  [2018-04-16 19:35:33][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51454  [2018-04-16 19:35:34][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51455  [2018-04-16 19:35:37][ct][218.241.208.209]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51456  [2018-04-16 19:36:49][ct][218.241.208.209]grep '转录组分析的正确姿势' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51457  [2018-04-16 19:36:57][ct][218.241.208.209]vim 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51458  [2018-04-16 19:39:38][ct][218.241.208.209]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51459  [2018-04-16 19:45:33][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51460  [2018-04-16 19:45:44][ct][218.241.208.209]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51461  [2018-04-16 19:46:04][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51462  [2018-04-16 19:46:17][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51463  [2018-04-16 19:48:01][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51464  [2018-04-16 19:48:14][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51465  [2018-04-16 19:48:21][ct][218.241.208.209]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51466  [2018-04-16 19:49:04][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51451  [2018-04-16 20:44:43][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51452  [2018-04-16 20:44:44][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51453  [2018-04-16 20:47:21][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 51454  [2018-04-16 20:51:34][ct][218.241.208.209]less 2018-03-31-chip.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51467  [2018-04-16 19:49:15][ct][218.241.208.209]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51478  [2018-04-17 06:02:25][ct][122.70.129.238]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51479  [2018-04-17 06:02:26][ct][122.70.129.238]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51480  [2018-04-17 06:25:38][ct][122.70.129.238]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51480  [2018-04-17 06:25:38][ct][122.70.129.238]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51477  [2018-04-17 10:03:08][ct][61.148.245.123]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51478  [2018-04-17 10:03:08][ct][61.148.245.123]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51479  [2018-04-17 10:03:12][ct][61.148.245.123]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51509  [2018-04-17 16:57:19][ct][61.148.245.123]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51510  [2018-04-17 16:57:19][ct][61.148.245.123]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51511  [2018-04-17 17:09:51][ct][61.148.245.123]vim vim 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51512  [2018-04-17 17:10:00][ct][61.148.245.123]vim 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51546  [2018-04-17 20:03:33][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51547  [2018-04-17 20:03:34][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51713  [2018-04-18 09:25:37][ct][61.148.245.187]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51714  [2018-04-18 09:25:38][ct][61.148.245.187]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51715  [2018-04-18 09:26:25][ct][61.148.245.187]cat 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51716  [2018-04-18 09:28:23][ct][61.148.245.187]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51717  [2018-04-18 09:28:31][ct][61.148.245.187]zip blog.zip *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51731  [2018-04-18 20:33:44][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51732  [2018-04-18 20:33:44][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51733  [2018-04-18 20:33:50][ct][218.241.208.209]vim 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 51757  [2018-04-19 10:26:01][ct][114.242.248.47]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 51758  [2018-04-19 10:26:01][ct][114.242.248.47]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 51759  [2018-04-19 10:26:06][ct][114.242.248.47]cat 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52056  [2018-04-22 22:06:32][ct][111.63.3.190]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52057  [2018-04-22 22:06:33][ct][111.63.3.190]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52058  [2018-04-22 22:06:39][ct][111.63.3.190]ls | grep -i 'gsea'
+[/home/ct/blog/tong-chen.github.com/_posts] 52059  [2018-04-22 22:06:43][ct][111.63.3.190]less 2017-10-14-gsea.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52060  [2018-04-22 22:07:05][ct][111.63.3.190]ls ../images/gsea
+[/home/ct/blog/tong-chen.github.com/_posts] 52069  [2018-04-22 22:53:33][ct][111.63.3.190]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52070  [2018-04-22 22:53:34][ct][111.63.3.190]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52071  [2018-04-22 22:54:25][ct][111.63.3.190]grep '环境' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52072  [2018-04-22 22:54:40][ct][111.63.3.190]less 2018-03-19-linux-training.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52161  [2018-04-24 18:22:51][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52162  [2018-04-24 18:22:51][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52163  [2018-04-24 18:23:36][ct][218.241.208.209]grep'程序' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52164  [2018-04-24 18:23:40][ct][218.241.208.209]grep '程序' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52165  [2018-04-24 18:24:56][ct][218.241.208.209]less 2017-01-08-writing.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52166  [2018-04-24 18:26:38][ct][218.241.208.209]vim 2017-06-01-program-learn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52219  [2018-04-24 18:31:47][ct][218.241.208.209]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 52220  [2018-04-24 18:31:48][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52221  [2018-04-24 18:31:53][ct][218.241.208.209]vim 2017-06-01-program-learn.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52242  [2018-04-25 09:57:22][ct][61.148.243.136]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52243  [2018-04-25 09:57:22][ct][61.148.243.136]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52244  [2018-04-25 09:57:36][ct][61.148.243.136]grep '转录组正确' *
+[/home/ct/blog/tong-chen.github.com/_posts] 52245  [2018-04-25 09:57:47][ct][61.148.243.136]grep '正确' *
+[/home/ct/blog/tong-chen.github.com/_posts] 52246  [2018-04-25 09:58:23][ct][61.148.243.136]vim 2017-10-14-transcriptome-right-way.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 52242  [2018-04-25 11:01:36][ct][61.148.243.136]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52243  [2018-04-25 11:01:37][ct][61.148.243.136]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52244  [2018-04-25 11:03:24][ct][61.148.243.136]seq2profile.pl 
+[/home/ct/blog/tong-chen.github.com/_posts] 52245  [2018-04-25 11:03:34][ct][61.148.243.136]profile2seq.pl 
+[/home/ct/blog/tong-chen.github.com/_posts] 52246  [2018-04-25 11:04:42][ct][61.148.243.136]generateRandomSeq.py 
+[/home/ct/blog/tong-chen.github.com/_posts] 52247  [2018-04-25 11:05:38][ct][61.148.243.136]randomizeMotifs.pl 
+[/home/ct/blog/tong-chen.github.com/_posts] 52248  [2018-04-25 11:05:57][ct][61.148.243.136]which randomizeMotifs.pl 
+[/home/ct/blog/tong-chen.github.com/_posts] 52249  [2018-04-25 11:06:04][ct][61.148.243.136]ls -l `which randomizeMotifs.pl`
+[/home/ct/blog/tong-chen.github.com/_posts] 52242  [2018-04-25 13:10:38][ct][61.148.243.136]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52243  [2018-04-25 13:10:39][ct][61.148.243.136]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52244  [2018-04-25 13:10:51][ct][61.148.243.136]vim 2018-04-25-super-enhancer.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52244  [2018-04-25 13:10:51][ct][61.148.243.136]vim 2018-04-25-super-enhancer.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52307  [2018-04-26 09:13:16][ct][61.148.245.201]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52308  [2018-04-26 09:13:16][ct][61.148.245.201]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52309  [2018-04-26 09:13:19][ct][61.148.245.201]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 52310  [2018-04-26 09:14:40][ct][61.148.245.201]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52311  [2018-04-26 09:14:53][ct][61.148.245.201]cat 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52311  [2018-04-26 09:14:53][ct][61.148.245.201]cat 2018-04-11-wgcna.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52448  [2018-04-26 19:02:18][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52449  [2018-04-26 19:02:19][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52450  [2018-04-26 19:02:22][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 52451  [2018-04-26 19:06:11][ct][218.241.208.209]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 52452  [2018-04-26 19:07:51][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 52453  [2018-04-26 19:10:11][ct][218.241.208.209]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 52454  [2018-04-26 19:16:08][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 52455  [2018-04-26 19:16:09][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52470  [2018-04-27 14:47:41][ct][61.148.243.99]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 52471  [2018-04-27 14:47:41][ct][61.148.243.99]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 52472  [2018-04-27 14:47:50][ct][61.148.243.99]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 52472  [2018-04-27 14:47:50][ct][61.148.243.99]vim 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 53073  [2018-05-09 08:48:07][ct][61.148.244.5]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 53074  [2018-05-09 08:48:08][ct][61.148.244.5]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 53075  [2018-05-09 08:48:19][ct][61.148.244.5]less 2018-03-21-ImageGP.md
+[/home/ct/blog/tong-chen.github.com/_posts] 53076  [2018-05-09 08:59:01][ct][61.148.244.5]ls | grep -i 'imageGP'
+[/home/ct/blog/tong-chen.github.com/_posts] 53077  [2018-05-09 09:59:04][ct][61.148.244.5]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 53078  [2018-05-09 10:01:07][ct][61.148.244.5]ls | grep 'network'
+[/home/ct/blog/tong-chen.github.com/_posts] 53079  [2018-05-09 10:39:15][ct][61.148.244.5]ls | grep 'bookdown'
+[/home/ct/blog/tong-chen.github.com/_posts] 53080  [2018-05-09 12:33:20][ct][61.148.244.5]grep 'grouponX=' `which sp_scatterplot2.sh`
+[/home/ct/blog/tong-chen.github.com/_posts] 53081  [2018-05-09 12:33:32][ct][61.148.244.5]grep 'grouponX=' /MPATHB/self/NGS/
+[/home/ct/blog/tong-chen.github.com/_posts] 53082  [2018-05-09 12:33:36][ct][61.148.244.5]grep 'grouponX=' /MPATHB/self/NGS/*
+[/home/ct/blog/tong-chen.github.com/_posts] 53083  [2018-05-09 12:33:49][ct][61.148.244.5]grep 'grouponX' /MPATHB/self/NGS/*
+[/home/ct/blog/tong-chen.github.com/_posts] 53084  [2018-05-09 12:33:56][ct][61.148.244.5]grep 'grouponX' /MPATHB/self/s-plot/
+[/home/ct/blog/tong-chen.github.com/_posts] 53085  [2018-05-09 12:33:59][ct][61.148.244.5]grep 'grouponX' /MPATHB/self/s-plot/*
+[/home/ct/blog/tong-chen.github.com/_posts] 53086  [2018-05-09 12:34:03][ct][61.148.244.5]grep 'grouponX' /MPATHB/self/s-plot/*.sh
+[/home/ct/blog/tong-chen.github.com/_posts] 53087  [2018-05-09 12:34:08][ct][61.148.244.5]grep 'grouponX' /MPATHB/self/NGS/*.py
+[/home/ct/blog/tong-chen.github.com/_posts] 53088  [2018-05-09 12:34:18][ct][61.148.244.5]grep 'groupon' /MPATHB/self/NGS/*.py
+[/home/ct/blog/tong-chen.github.com/_posts] 53089  [2018-05-09 12:34:46][ct][61.148.244.5]grep 'geom_quasirandom' /MPATHB/self/NGS/*.py
+[/home/ct/blog/tong-chen.github.com/_posts] 53789  [2018-05-21 19:10:46][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 53790  [2018-05-21 19:10:47][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 53790  [2018-05-21 19:10:47][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 53791  [2018-05-21 19:11:07][ct][218.241.208.209]vim 2018-05-21-transcriptome_answer1.md
+[/home/ct/blog/tong-chen.github.com/_posts] 53842  [2018-05-26 20:23:04][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 53843  [2018-05-26 20:23:04][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 53844  [2018-05-26 20:23:07][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 53845  [2018-05-26 20:29:31][ct][218.241.208.209]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 53846  [2018-05-26 20:29:54][ct][218.241.208.209]#cat 2100-01-01-shengxinbaodian.md cd
+[/home/ct/blog/tong-chen.github.com/_posts] 53926  [2018-05-29 17:05:59][ct][61.148.244.31]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 53927  [2018-05-29 17:06:00][ct][61.148.244.31]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 53928  [2018-05-29 17:09:41][ct][61.148.244.31]cp /MPATHB/training/Transcriptome/04-2-DEseq2.md 2018-05-29-deseq2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 53929  [2018-05-29 17:09:46][ct][61.148.244.31]vim 2018-05-29-deseq2.md
+[/home/ct/blog/tong-chen.github.com/_posts] 53967  [2018-05-31 19:51:20][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 53968  [2018-05-31 19:51:21][ct][218.241.208.209]lt
+[/home/ct/blog/tong-chen.github.com/_posts] 53969  [2018-05-31 19:51:22][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 53970  [2018-05-31 19:51:48][ct][218.241.208.209]vim 2018-05-31-tnbc.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54044  [2018-06-04 19:12:34][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54045  [2018-06-04 19:12:35][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54046  [2018-06-04 19:14:48][ct][218.241.208.209]vim 2018-05-31-tnbc.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54047  [2018-06-04 19:16:47][ct][218.241.208.209]cat 2018-05-31-tnbc.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54156  [2018-06-07 18:27:32][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54157  [2018-06-07 18:27:33][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54158  [2018-06-07 18:27:49][ct][218.241.208.209]vim 2018-06-07-proteomics.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54159  [2018-06-07 18:46:33][ct][218.241.208.209]nano 2018-06-07-proteomics.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54160  [2018-06-07 18:57:17][ct][218.241.208.209]vim 2018-06-07-proteomics.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54161  [2018-06-07 20:55:57][ct][218.241.208.209]cd ../4
+[/home/ct/blog/tong-chen.github.com/_posts] 54164  [2018-06-08 11:09:53][ct][61.148.243.126]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54165  [2018-06-08 11:09:54][ct][61.148.243.126]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54166  [2018-06-08 11:09:58][ct][61.148.243.126]vim 2018-06-07-proteomics.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54183  [2018-06-08 14:37:49][ct][61.148.243.126]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54184  [2018-06-08 14:37:50][ct][61.148.243.126]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54185  [2018-06-08 14:37:54][ct][61.148.243.126]vim 2018-06-07-proteomics.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54328  [2018-06-12 20:36:06][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54329  [2018-06-12 20:36:08][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54330  [2018-06-12 20:36:20][ct][218.241.208.209]cat 2016-07-08-orthoMCL.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54330  [2018-06-12 20:36:20][ct][218.241.208.209]cat 2016-07-08-orthoMCL.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54331  [2018-06-12 20:44:01][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 54477  [2018-06-14 19:57:20][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54478  [2018-06-14 19:57:20][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54479  [2018-06-14 19:58:25][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54509  [2018-06-15 14:47:10][ct][114.242.248.254]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54510  [2018-06-15 14:47:11][ct][114.242.248.254]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54511  [2018-06-15 14:47:20][ct][114.242.248.254]vim 2018-06-15-m6A.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54511  [2018-06-15 14:47:20][ct][114.242.248.254]vim 2018-06-15-m6A.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54512  [2018-06-15 17:20:19][ct][114.242.248.254]cat 2018-06-15-m6A.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54761  [2018-06-21 11:00:44][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54762  [2018-06-21 11:00:45][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54759  [2018-06-21 15:35:08][ct][61.148.243.230]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54760  [2018-06-21 15:35:08][ct][61.148.243.230]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54761  [2018-06-21 15:35:14][ct][61.148.243.230]vim 2018-06-21-softLink.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54762  [2018-06-21 15:37:44][ct][61.148.243.230]nano 2018-06-21-softLink.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54763  [2018-06-21 16:48:16][ct][61.148.243.230]vim 2018-06-21-softLink.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54764  [2018-06-21 16:49:56][ct][61.148.243.230]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54765  [2018-06-21 16:50:33][ct][61.148.243.230]vim 2018-06-21-softLink.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54766  [2018-06-21 16:51:23][ct][61.148.243.230]cat 2018-06-21-softLink.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 54763  [2018-06-21 11:01:25][ct][218.241.208.209]vim 2018-06-21-softLink.md
+[/home/ct/blog/tong-chen.github.com/_posts] 54910  [2018-07-02 09:31:29][ct][61.148.244.190]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 54911  [2018-07-02 09:31:30][ct][61.148.244.190]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 54912  [2018-07-02 09:31:45][ct][61.148.244.190]vim 2018-07-02-epgg-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55007  [2018-07-03 10:40:05][ct][61.148.243.138]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55008  [2018-07-03 10:40:05][ct][61.148.243.138]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55009  [2018-07-03 10:40:28][ct][61.148.243.138]nano 2018-07-03-transcriptome-faq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55010  [2018-07-03 10:46:54][ct][61.148.243.138]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55011  [2018-07-03 11:04:52][ct][61.148.243.138]vim 2018-07-02-epgg-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55012  [2018-07-03 14:59:56][ct][61.148.243.138]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55013  [2018-07-03 15:00:10][ct][61.148.243.138]mv Article_SRA_data_get.Rmd 2018-06-28-sra-data-get.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55014  [2018-07-03 15:00:14][ct][61.148.243.138]vim 2018-06-28-sra-data-get.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55039  [2018-07-03 18:21:14][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55040  [2018-07-03 18:21:24][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55041  [2018-07-03 18:21:39][ct][218.241.208.209]_pos
+[/home/ct/blog/tong-chen.github.com/_posts] 55042  [2018-07-03 18:23:29][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55043  [2018-07-03 18:23:33][ct][218.241.208.209]cat 2018-06-28-sra-data-get.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55044  [2018-07-03 18:55:44][ct][218.241.208.209]WGCNA.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 55181  [2018-07-05 08:23:13][ct][61.148.244.108]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55182  [2018-07-05 08:23:15][ct][61.148.244.108]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55262  [2018-07-09 19:21:53][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55263  [2018-07-09 19:21:54][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55264  [2018-07-09 19:22:10][ct][218.241.208.209]vim 2018-07-02-summar-train.Rmd
+[/home/ct/blog/tong-chen.github.com/_posts] 55265  [2018-07-09 19:35:58][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 55266  [2018-07-09 19:36:28][ct][218.241.208.209]vim 2018-07-02-summar-train.Rmd
+[/home/ct/blog/tong-chen.github.com/_posts] 55298  [2018-07-10 09:07:19][ct][114.242.250.142]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55299  [2018-07-10 09:07:21][ct][114.242.250.142]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 55427  [2018-07-12 20:50:19][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55428  [2018-07-12 20:50:21][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55429  [2018-07-12 20:50:29][ct][218.241.208.209]cat 2018-07-10-AI-vector-image.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55430  [2018-07-12 20:52:02][ct][218.241.208.209]cat
+[/home/ct/blog/tong-chen.github.com/_posts] 55431  [2018-07-12 20:52:07][ct][218.241.208.209]cat 2018-07-02-epgg-usage.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55432  [2018-07-12 20:53:36][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55433  [2018-07-12 20:53:40][ct][218.241.208.209]cat 2018-06-28-sra-data-get.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55849  [2018-07-24 20:50:07][ct][218.241.208.209]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55850  [2018-07-24 20:50:08][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55857  [2018-07-25 06:07:07][ct][117.9.113.48]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55858  [2018-07-25 06:07:08][ct][117.9.113.48]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55862  [2018-07-25 08:24:04][ct][61.148.243.111]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55863  [2018-07-25 08:24:05][ct][61.148.243.111]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55863  [2018-07-25 08:24:05][ct][61.148.243.111]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55874  [2018-07-25 10:19:52][ct][61.148.243.111]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55875  [2018-07-25 10:19:53][ct][61.148.243.111]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55876  [2018-07-25 10:20:11][ct][61.148.243.111]less 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55877  [2018-07-25 10:20:51][ct][61.148.243.111]vim 2018-04-16-RNAseq.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 55878  [2018-07-25 10:21:15][ct][61.148.243.111]cp 2018-04-16-RNAseq.md 2018-07-25-RNAseq-train.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55879  [2018-07-25 10:21:18][ct][61.148.243.111]vim 2018-07-25-RNAseq-train.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55912  [2018-07-25 21:03:40][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55913  [2018-07-25 21:03:41][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55914  [2018-07-25 21:03:50][ct][218.241.208.209]cat 2018-07-25-uzerme.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55950  [2018-07-26 23:00:41][ct][111.63.3.190]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55951  [2018-07-26 23:00:42][ct][111.63.3.190]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55952  [2018-07-26 23:00:46][ct][111.63.3.190]cat 2018-07-26-R-collection.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55955  [2018-07-27 12:31:05][ct][124.64.16.228]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 55956  [2018-07-27 12:31:06][ct][124.64.16.228]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 55957  [2018-07-27 12:31:13][ct][124.64.16.228]vim 2018-07-25-amplicon-train.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55958  [2018-07-27 12:31:27][ct][124.64.16.228]nano 2018-07-25-amplicon-train.md
+[/home/ct/blog/tong-chen.github.com/_posts] 55959  [2018-07-27 12:31:45][ct][124.64.16.228]vim 2018-07-25-amplicon-train.md
+[/home/ct/blog/tong-chen.github.com/_posts] 56006  [2018-07-29 17:55:42][ct][124.16.144.58]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 56007  [2018-07-29 17:55:43][ct][124.16.144.58]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 56008  [2018-07-29 17:55:46][ct][124.16.144.58]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56333  [2018-08-01 18:41:40][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 56334  [2018-08-01 18:41:41][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 56335  [2018-08-01 18:41:43][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56336  [2018-08-01 18:46:59][ct][218.241.208.209]for i in {a..z}; do echo $i; done
+[/home/ct/blog/tong-chen.github.com/_posts] 56337  [2018-08-01 18:47:04][ct][218.241.208.209]for i in {a..zA-Z}; do echo $i; done
+[/home/ct/blog/tong-chen.github.com/_posts] 56338  [2018-08-01 18:47:15][ct][218.241.208.209]#for i in {a..z}; do echo $i; done
+[/home/ct/blog/tong-chen.github.com/_posts] 56331  [2018-08-01 18:47:28][ct][218.241.208.209]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 56339  [2018-08-01 18:52:10][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count=0;index=0;}{if($0~/^###/) {label=substr($0,5);} else if($0~/^* /) {title=substr($1,4); url=$2; count += 1; print count,label, title,url;}}' | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56340  [2018-08-01 18:52:31][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count=0;index=0;}{if($0~/^###/) {label=substr($0,5);} else if($0~/^* /) {title=substr($1,4); url=$2; count += 1; print count,label,title,url;}}' | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56340  [2018-08-01 18:52:31][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count=0;index=0;}{if($0~/^###/) {label=substr($0,5);} else if($0~/^* /) {title=substr($1,4); url=$2; count += 1; print count,label,title,url;}}' | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56341  [2018-08-01 18:52:57][ct][218.241.208.209]#sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count=0;index=0;}{if($0~/^###/) {label=substr($0,5);} else if($0~/^* /) {title=substr($1,4); url=$2; count += 1; print count,label,title,url;}}' | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56342  [2018-08-01 18:53:04][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56343  [2018-08-01 18:53:44][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' -e '/^[^#*]/d' 2100-01-01-shengxinbaodian.md | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56344  [2018-08-01 18:54:09][ct][218.241.208.209]#sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56345  [2018-08-01 18:55:02][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0;}{if($0~/^###/) {label1=substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56346  [2018-08-01 18:58:29][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split('ABCDEFGHIJKLMNOPQRSTUVWXYZ',alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56347  [2018-08-01 18:58:48][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split("ABCDEFGHIJKLMNOPQRSTUVWXYZ",alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56347  [2018-08-01 18:58:48][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split("ABCDEFGHIJKLMNOPQRSTUVWXYZ",alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56332  [2018-08-01 18:47:30][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56333  [2018-08-01 18:59:29][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56347  [2018-08-01 18:58:48][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split("ABCDEFGHIJKLMNOPQRSTUVWXYZ",alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - | less
+[/home/ct/blog/tong-chen.github.com/_posts] 56348  [2018-08-01 19:01:19][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split("ABCDEFGHIJKLMNOPQRSTUVWXYZ",alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - >2100-01-01-shengxinbaodian.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 56349  [2018-08-01 19:08:20][ct][218.241.208.209]bc -l
+[/home/ct/blog/tong-chen.github.com/_posts] 56333  [2018-08-01 18:59:29][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56350  [2018-08-01 19:36:09][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 56351  [2018-08-01 19:36:11][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split("ABCDEFGHIJKLMNOPQRSTUVWXYZ",alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - >2100-01-01-shengxinbaodian.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 56352  [2018-08-01 19:38:22][ct][218.241.208.209]scp 2100-01-01-shengxinbaodian.txt ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 56353  [2018-08-01 19:39:21][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.
+[/home/ct/blog/tong-chen.github.com/_posts] 56354  [2018-08-01 19:39:25][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56355  [2018-08-01 19:39:33][ct][218.241.208.209]sed -e 's/](/\t/' -e 's/)$//' 2100-01-01-shengxinbaodian.md | awk 'BEGIN{OFS=FS="\t";count1=0;index1=0; split("ABCDEFGHIJKLMNOPQRSTUVWXYZ",alpha,"");}{if($0~/^###/) {index1+=1; label1=alpha[index1]""substr($0,5);} else if($0~/^* /) {title1=substr($1,4); url=$2; count1 += 1; print count1,label1,title1,url;}}' - >2100-01-01-shengxinbaodian.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 56356  [2018-08-01 19:39:35][ct][218.241.208.209]scp 2100-01-01-shengxinbaodian.txt ct@aliyun500:/tmp/
+[/home/ct/blog/tong-chen.github.com/_posts] 56357  [2018-08-01 19:46:06][ct][218.241.208.209]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 56331  [2018-08-01 19:48:23][ct][218.241.208.209]cd /home/ct/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 56332  [2018-08-01 19:48:28][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56333  [2018-08-01 19:48:36][ct][218.241.208.209]2100sxbd.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 56334  [2018-08-01 19:48:45][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 56335  [2018-08-01 19:48:50][ct][218.241.208.209]less 2100-01-01-shengxinbaodian.txt
+[/home/ct/blog/tong-chen.github.com/_posts] 56336  [2018-08-01 19:49:26][ct][218.241.208.209]2100sxbd.sh 
+[/home/ct/blog/tong-chen.github.com/_posts] 56337  [2018-08-01 19:49:57][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 56338  [2018-08-01 19:53:39][ct][218.241.208.209]ssh -l ct aliyun500 'ls'
+[/home/ct/blog/tong-chen.github.com/_posts] 56339  [2018-08-01 19:53:48][ct][218.241.208.209]ssh ct@aliyun500 'ls'
+[/home/ct/blog/tong-chen.github.com/_posts] 56340  [2018-08-01 19:53:53][ct][218.241.208.209]#ssh ct@aliyun500 'ls'
+[/home/ct/blog/tong-chen.github.com/_posts] 57380  [2018-08-21 13:15:42][ct][114.242.249.28]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 57381  [2018-08-21 13:15:43][ct][114.242.249.28]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 57382  [2018-08-21 13:15:50][ct][114.242.249.28]vim 2018-08-25-tissgdb.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 57383  [2018-08-21 13:15:59][ct][114.242.249.28]nano 2018-08-25-tissgdb.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 57384  [2018-08-21 13:16:07][ct][114.242.249.28]vim 2018-08-25-tissgdb.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 57385  [2018-08-21 13:17:47][ct][114.242.249.28]#cd#cvim 2018-08-25-tissgdb.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 57409  [2018-08-23 19:08:34][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 57410  [2018-08-23 19:08:34][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 57411  [2018-08-23 19:09:15][ct][218.241.208.209]cat 2017-09-03-bioconda.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57413  [2018-08-23 20:46:16][ct][218.241.208.209]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 57414  [2018-08-23 20:46:17][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 57415  [2018-08-23 20:46:36][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-Linux.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57416  [2018-08-23 20:46:40][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-R.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57417  [2018-08-23 20:46:44][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-Python.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57418  [2018-08-23 20:46:50][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-NGS.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57419  [2018-08-23 20:47:00][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-literature.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57420  [2018-08-23 20:47:07][ct][218.241.208.209]cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-pic.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57421  [2018-08-23 20:47:21][ct][218.241.208.209]#cp 2100-01-01-shengxinbaodian.md 2100-01-01-shengxinbaodian-.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57422  [2018-08-23 20:47:26][ct][218.241.208.209]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57689  [2018-08-31 08:47:34][ct][223.104.3.166]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 57690  [2018-08-31 08:47:35][ct][223.104.3.166]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 57691  [2018-08-31 08:47:49][ct][223.104.3.166]nano 2018-08-31-phase.md
+[/home/ct/blog/tong-chen.github.com/_posts] 57692  [2018-08-31 08:48:53][ct][223.104.3.166]vim 2018-08-31-phase.md
+[/home/ct/blog/tong-chen.github.com/_posts] 58687  [2018-09-11 19:40:53][ct][218.241.208.209]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 58688  [2018-09-11 19:40:53][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 58689  [2018-09-11 19:41:03][ct][218.241.208.209]nano 2018-09-11-phase-soft.md
+[/home/ct/blog/tong-chen.github.com/_posts] 58690  [2018-09-11 19:41:10][ct][218.241.208.209]vim 2018-09-11-phase-soft.md
+[/home/ct/blog/tong-chen.github.com/_posts] 58737  [2018-09-22 22:09:01][ct][111.196.198.113]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 58738  [2018-09-22 22:09:02][ct][111.196.198.113]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 58739  [2018-09-22 22:09:10][ct][111.196.198.113]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 58863  [2018-09-27 18:33:38][ct][123.123.157.187]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 59407  [2018-10-05 07:05:32][ct][114.250.102.143]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 59408  [2018-10-05 07:05:49][ct][114.250.102.143]vim 2018-10-05-nobel-pub.md
+[/home/ct/blog/tong-chen.github.com/_posts] 59409  [2018-10-05 08:23:30][ct][114.250.102.143]vim 2017-10-05-presentation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 59461  [2018-10-07 14:09:05][ct][114.246.174.87]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 59462  [2018-10-07 14:09:06][ct][114.246.174.87]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 59463  [2018-10-07 14:09:11][ct][114.246.174.87]cat 2018-10-06-transcriptome.md
+[/home/ct/blog/tong-chen.github.com/_posts] 59936  [2018-10-22 18:16:08][ct][114.244.194.247]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 59937  [2018-10-22 18:16:08][ct][114.244.194.247]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 59938  [2018-10-22 18:16:20][ct][114.244.194.247]vim 2018-10-22-excel-gene-name.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 60300  [2018-10-31 21:41:37][ct][111.196.192.185]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60301  [2018-10-31 21:41:38][ct][111.196.192.185]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60302  [2018-10-31 21:41:44][ct][111.196.192.185]vim 2018-10-31-rnaseq-stat-qb.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60366  [2018-11-01 19:49:14][ct][221.217.82.106]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60367  [2018-11-01 19:49:15][ct][221.217.82.106]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60368  [2018-11-01 19:49:22][ct][221.217.82.106]ls | grep 'pca'
+[/home/ct/blog/tong-chen.github.com/_posts] 60369  [2018-11-01 19:49:28][ct][221.217.82.106]less 2016-10-30-Tsne-pca-high-dimension.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60370  [2018-11-01 19:49:41][ct][221.217.82.106]ls | grep -i 'pca'
+[/home/ct/blog/tong-chen.github.com/_posts] 60371  [2018-11-01 19:49:46][ct][221.217.82.106]less 2016-10-30-PCA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60726  [2018-11-08 08:55:40][ct][114.250.131.26]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60727  [2018-11-08 08:55:42][ct][114.250.131.26]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60728  [2018-11-08 08:55:49][ct][114.250.131.26]ls | grep -i 'rna'
+[/home/ct/blog/tong-chen.github.com/_posts] 60729  [2018-11-08 08:55:56][ct][114.250.131.26]less 2018-07-25-RNAseq-train.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60730  [2018-11-08 08:56:01][ct][114.250.131.26]less 2018-10-31-rnaseq-stat-qb.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60731  [2018-11-08 08:56:11][ct][114.250.131.26]less 2018-04-16-RNAseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60732  [2018-11-08 08:56:20][ct][114.250.131.26]less 2018-02-23-bio-course-international.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60733  [2018-11-08 08:56:28][ct][114.250.131.26];ess 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60734  [2018-11-08 08:56:30][ct][114.250.131.26]less 2017-07-15-RNAseqevaluation.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60735  [2018-11-08 08:56:36][ct][114.250.131.26]less 2016-11-2-single-cell-rnaseq.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60736  [2018-11-08 08:57:02][ct][114.250.131.26]grep '正确姿势' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60737  [2018-11-08 08:57:12][ct][114.250.131.26]less 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60738  [2018-11-08 08:57:19][ct][114.250.131.26]vim 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60739  [2018-11-08 08:57:25][ct][114.250.131.26]ls -ltr 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60740  [2018-11-08 08:57:28][ct][114.250.131.26]vim 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60741  [2018-11-08 09:24:26][ct][114.250.131.26]cat 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60742  [2018-11-08 09:41:13][ct][114.250.131.26]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 60985  [2018-11-20 08:13:41][ct][114.250.127.239]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60986  [2018-11-20 08:13:41][ct][114.250.127.239]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60983  [2018-11-20 08:14:21][ct][114.250.127.239]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 60984  [2018-11-20 08:14:22][ct][114.250.127.239]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60987  [2018-11-20 08:17:43][ct][114.250.127.239]vim 2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60987  [2018-11-20 08:17:43][ct][114.250.127.239]vim 2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60987  [2018-11-20 08:17:43][ct][114.250.127.239]vim 2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60987  [2018-11-20 08:17:43][ct][114.250.127.239]vim 2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60988  [2018-11-20 10:39:33][ct][114.250.127.239]less 2017-10-14-transcriptome-right-way.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60989  [2018-11-20 10:40:01][ct][114.250.127.239]less 2018-10-06-transcriptome.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 60983  [2018-11-20 10:40:43][ct][114.250.127.239]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 60984  [2018-11-20 10:40:52][ct][114.250.127.239]cat 2018-10-06-transcriptome.md >>2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60983  [2018-11-20 10:55:31][ct][114.250.127.239]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 60984  [2018-11-20 10:55:34][ct][114.250.127.239]vim 2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60985  [2018-11-20 10:55:53][ct][114.250.127.239]ls -ltra
+[/home/ct/blog/tong-chen.github.com/_posts] 60985  [2018-11-20 11:12:52][ct][114.250.127.239]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60986  [2018-11-20 11:12:53][ct][114.250.127.239]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60986  [2018-11-20 11:14:49][ct][114.250.127.239]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60987  [2018-11-20 11:14:50][ct][114.250.127.239]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60984  [2018-11-20 11:26:19][ct][114.250.127.239]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60985  [2018-11-20 11:26:20][ct][114.250.127.239]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60986  [2018-11-20 12:57:06][ct][114.250.127.239]less 2018-11-14-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60984  [2018-11-20 14:31:42][ct][114.250.127.239]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 60985  [2018-11-20 14:31:44][ct][114.250.127.239]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 60986  [2018-11-20 14:32:07][ct][114.250.127.239]cp 2018-10-06-transcriptome.md 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 60987  [2018-11-20 14:32:12][ct][114.250.127.239]vim 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61038  [2018-11-20 18:13:06][ct][111.193.119.129]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61039  [2018-11-20 18:13:06][ct][111.193.119.129]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61081  [2018-11-23 07:57:31][ct][114.250.132.184]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61082  [2018-11-23 07:57:32][ct][114.250.132.184]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61083  [2018-11-23 07:57:42][ct][114.250.132.184]cat 2018-11-20-bioinformatics-common.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61084  [2018-11-23 08:01:41][ct][114.250.132.184]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 61085  [2018-11-23 08:01:42][ct][114.250.132.184]ls
+[/home/ct/blog/tong-chen.github.com/_posts] 61106  [2018-11-26 08:36:26][ct][114.250.105.40]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61107  [2018-11-26 08:36:27][ct][114.250.105.40]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61107  [2018-11-26 08:36:27][ct][114.250.105.40]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61108  [2018-11-26 09:04:17][ct][114.250.105.40]cp 2018-11-22-database.md 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61109  [2018-11-26 09:04:21][ct][114.250.105.40]vim 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61110  [2018-11-26 09:04:35][ct][114.250.105.40]cp 2018-11-20-bioinformatics-common.md 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61111  [2018-11-26 09:04:57][ct][114.250.105.40]vim 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61111  [2018-11-26 09:04:57][ct][114.250.105.40]vim 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61112  [2018-11-26 10:15:12][ct][114.250.105.40]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61191  [2018-12-02 21:56:24][ct][114.246.166.124]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61192  [2018-12-02 21:56:24][ct][114.246.166.124]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61193  [2018-12-02 21:56:28][ct][114.246.166.124]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 61193  [2018-12-02 21:56:28][ct][114.246.166.124]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 61194  [2018-12-02 22:36:33][ct][114.246.166.124]less ~/airflow/dags/traresource.py
+[/home/ct/blog/tong-chen.github.com/_posts] 61195  [2018-12-02 22:36:53][ct][114.246.166.124]/MPATHB/self/NGS/2100sxbd.sh
+[/home/ct/blog/tong-chen.github.com/_posts] 61196  [2018-12-02 22:56:29][ct][114.246.166.124]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 61254  [2018-12-04 20:13:12][ct][111.199.243.10]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61255  [2018-12-04 20:13:16][ct][111.199.243.10]cat 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 61509  [2018-12-20 14:19:46][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61510  [2018-12-20 14:19:46][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61511  [2018-12-20 14:29:58][ct][59.108.50.194]cat 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61512  [2018-12-20 14:30:05][ct][59.108.50.194]vim 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61513  [2018-12-20 14:41:02][ct][59.108.50.194]cat 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61514  [2018-12-20 15:20:59][ct][59.108.50.194]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 61515  [2018-12-20 16:37:23][ct][59.108.50.194]vim ../collections/Linux_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 61939  [2019-01-07 10:22:48][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 61940  [2019-01-07 10:22:49][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 61941  [2019-01-07 10:23:10][ct][59.108.50.194]vim 2019-01-07-Linux_directory-permission-time.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61941  [2019-01-07 10:23:10][ct][59.108.50.194]vim 2019-01-07-Linux_directory-permission-time.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61941  [2019-01-07 10:23:10][ct][59.108.50.194]vim 2019-01-07-Linux_directory-permission-time.md
+[/home/ct/blog/tong-chen.github.com/_posts] 61942  [2019-01-07 11:23:57][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 62754  [2019-01-17 09:10:57][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 62755  [2019-01-17 09:10:58][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 62885  [2019-01-27 19:03:30][ct][114.244.202.242]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 62886  [2019-01-27 19:03:32][ct][114.244.202.242]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 62887  [2019-01-27 19:04:25][ct][114.244.202.242]less 2018-01-06-non-ref-config.md
+[/home/ct/blog/tong-chen.github.com/_posts] 62888  [2019-01-27 19:06:27][ct][114.244.202.242]less 2017-02-14-jalView.md
+[/home/ct/blog/tong-chen.github.com/_posts] 62907  [2019-01-28 16:10:22][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 62908  [2019-01-28 16:10:23][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 62909  [2019-01-28 16:10:27][ct][59.108.50.194]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 62909  [2019-01-28 16:10:27][ct][59.108.50.194]vim 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 62955  [2019-02-01 08:36:10][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 62956  [2019-02-01 08:36:12][ct][59.108.50.194]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 62957  [2019-02-01 08:36:22][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 62958  [2019-02-01 10:30:55][ct][59.108.50.194]less `which GSEA.sh`
+[/home/ct/blog/tong-chen.github.com/_posts] 62958  [2019-02-01 10:30:55][ct][59.108.50.194]less `which GSEA.sh`
+[/home/ct/blog/tong-chen.github.com/_posts] 63030  [2019-02-10 07:14:51][ct][114.246.170.52]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63031  [2019-02-10 07:14:52][ct][114.246.170.52]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63032  [2019-02-10 07:14:57][ct][114.246.170.52]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63033  [2019-02-10 07:21:02][ct][114.246.170.52]cat 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63034  [2019-02-10 07:22:27][ct][114.246.170.52]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63035  [2019-02-10 07:37:16][ct][114.246.170.52]cat 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63036  [2019-02-10 07:37:29][ct][114.246.170.52]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63037  [2019-02-10 07:39:24][ct][114.246.170.52]cat 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63038  [2019-02-10 07:41:14][ct][114.246.170.52]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63039  [2019-02-10 07:42:34][ct][114.246.170.52]cat 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63040  [2019-02-10 07:47:49][ct][114.246.170.52]vim 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63041  [2019-02-10 22:45:53][ct][114.246.170.52]bc -l
+[/home/ct/blog/tong-chen.github.com/_posts] 63044  [2019-02-12 14:04:21][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63045  [2019-02-12 14:04:22][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63046  [2019-02-12 14:04:25][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63046  [2019-02-12 14:04:25][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63047  [2019-02-12 14:17:30][ct][59.108.50.194]grep -i 'multiqc' 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63048  [2019-02-12 14:21:41][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63048  [2019-02-12 14:21:41][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63049  [2019-02-12 15:08:19][ct][59.108.50.194]samtools view -?
+[/home/ct/blog/tong-chen.github.com/_posts] 63050  [2019-02-12 15:27:46][ct][59.108.50.194]grep 'bedtools' 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63051  [2019-02-12 15:27:54][ct][59.108.50.194]grep -i 'bedtools' 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63052  [2019-02-12 15:56:32][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63052  [2019-02-12 15:56:32][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63053  [2019-02-12 16:21:42][ct][59.108.50.194]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63043  [2019-02-12 20:11:46][ct][114.246.170.52]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63044  [2019-02-12 20:11:48][ct][114.246.170.52]less 2100-01-01-shengxinbaodian
+[/home/ct/blog/tong-chen.github.com/_posts] 63045  [2019-02-12 20:11:50][ct][114.246.170.52]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 63045  [2019-02-12 20:11:50][ct][114.246.170.52]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 63046  [2019-02-13 22:26:50][ct][114.246.170.52]cat `which bookdown_build.sh`
+[/home/ct/blog/tong-chen.github.com/_posts] 63072  [2019-02-14 09:45:15][ct][59.108.50.194]cd  blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63073  [2019-02-14 09:45:16][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63047  [2019-02-14 21:05:15][ct][114.246.170.52]which R
+[/home/ct/blog/tong-chen.github.com/_posts] 63282  [2019-02-20 14:00:07][ct][59.108.50.194]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63283  [2019-02-20 14:00:07][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63371  [2019-02-26 13:50:16][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63372  [2019-02-26 13:50:17][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63373  [2019-02-26 14:07:15][ct][59.108.50.194]vim 2019-02-26-lcs-lncRNA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63374  [2019-02-26 14:07:29][ct][59.108.50.194]nano 2019-02-26-lcs-lncRNA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63375  [2019-02-26 14:07:43][ct][59.108.50.194]vim 2019-02-26-lcs-lncRNA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63375  [2019-02-26 14:07:43][ct][59.108.50.194]vim 2019-02-26-lcs-lncRNA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63383  [2019-02-26 16:08:39][ct][124.64.17.31]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63384  [2019-02-26 16:08:40][ct][124.64.17.31]ls -ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63371  [2019-02-26 16:17:10][ct][124.64.17.31]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63372  [2019-02-26 16:17:10][ct][124.64.17.31]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63385  [2019-02-26 16:08:45][ct][124.64.17.31]vim 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63373  [2019-02-26 16:17:14][ct][124.64.17.31]less 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63401  [2019-02-26 19:37:46][ct][221.219.33.89]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63525  [2019-02-28 19:55:31][ct][221.219.33.89]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63526  [2019-02-28 19:55:32][ct][221.219.33.89]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63703  [2019-03-04 15:48:13][ct][124.64.17.162]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63704  [2019-03-04 15:48:14][ct][124.64.17.162]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63705  [2019-03-04 15:48:18][ct][124.64.17.162]cat 2018-11-26-GEo-TCGA.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63706  [2019-03-04 15:52:35][ct][124.64.17.162]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 63791  [2019-03-04 18:10:06][ct][114.249.79.204]cd ~/blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63792  [2019-03-04 18:10:07][ct][114.249.79.204]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63793  [2019-03-04 18:10:10][ct][114.249.79.204]vim 2018-12-30-transcriptome-single-cell.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63817  [2019-03-09 05:14:19][ct][114.246.175.159]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63818  [2019-03-09 05:14:22][ct][114.246.175.159]less 2100-01-01-shengxinbaodian
+[/home/ct/blog/tong-chen.github.com/_posts] 63823  [2019-03-09 15:09:14][ct][114.249.79.204]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63824  [2019-03-09 15:09:15][ct][114.249.79.204]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63825  [2019-03-09 15:16:36][ct][114.249.79.204]bc -l
+[/home/ct/blog/tong-chen.github.com/_posts] 63891  [2019-03-21 19:42:50][ct][221.217.80.203]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63892  [2019-03-21 19:42:52][ct][221.217.80.203]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63893  [2019-03-21 19:43:14][ct][221.217.80.203]pwd
+[/home/ct/blog/tong-chen.github.com/_posts] 63979  [2019-03-28 09:29:13][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 63980  [2019-03-28 09:29:13][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 63981  [2019-03-28 09:29:21][ct][59.108.50.194]grep -i 'venn' *
+[/home/ct/blog/tong-chen.github.com/_posts] 63982  [2019-03-28 09:29:27][ct][59.108.50.194]grep -i 'venn' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63983  [2019-03-28 09:30:31][ct][59.108.50.194]grep 'www.pangloss.com' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63984  [2019-03-28 09:30:37][ct][59.108.50.194]vim 2016-04-01-vennDiagram.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63985  [2019-03-28 09:32:46][ct][59.108.50.194]cat 2016-04-01-vennDiagram.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63986  [2019-03-28 15:18:08][ct][59.108.50.194]vim 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63986  [2019-03-28 15:18:08][ct][59.108.50.194]vim 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63987  [2019-03-28 16:09:51][ct][59.108.50.194]nano 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63988  [2019-03-28 16:11:11][ct][59.108.50.194]vim 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63989  [2019-03-28 16:20:29][ct][59.108.50.194]nano 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 63990  [2019-03-28 16:20:41][ct][59.108.50.194]vim 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64006  [2019-03-29 06:00:23][ct][114.246.177.134]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64007  [2019-03-29 06:00:25][ct][114.246.177.134]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64008  [2019-03-29 06:00:30][ct][114.246.177.134]vim 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64004  [2019-03-29 08:09:24][ct][59.108.50.194]cd ~/blog/tong-chen.github.com/_posts
+[/home/ct/blog/tong-chen.github.com/_posts] 64005  [2019-03-29 08:09:35][ct][59.108.50.194]vim 2019-03-28-p-value.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 64026  [2019-03-31 06:03:56][ct][114.246.177.134]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64027  [2019-03-31 06:03:57][ct][114.246.177.134]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64028  [2019-03-31 06:04:20][ct][114.246.177.134]cat 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64046  [2019-04-01 06:04:39][ct][114.246.177.134]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64047  [2019-04-01 06:04:40][ct][114.246.177.134]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64048  [2019-04-01 06:04:47][ct][114.246.177.134]vim 2019-03-28-p-value.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 64049  [2019-04-01 06:04:57][ct][114.246.177.134]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64050  [2019-04-01 06:05:03][ct][114.246.177.134]vim 2019-03-29-permutation-test.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 64047  [2019-04-01 11:10:56][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64048  [2019-04-01 11:10:57][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64049  [2019-04-01 11:11:03][ct][59.108.50.194]cat 2019-03-21-science-oxygen-demethyl.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64050  [2019-04-01 11:15:08][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64051  [2019-04-01 11:15:13][ct][59.108.50.194]cat 2019-03-28-p-value.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64052  [2019-04-01 11:16:08][ct][59.108.50.194]less 2100-01-01-shengxinbaodian.md 
+[/home/ct/blog/tong-chen.github.com/_posts] 64053  [2019-04-01 11:17:30][ct][59.108.50.194]clear
+[/home/ct/blog/tong-chen.github.com/_posts] 64069  [2019-04-02 15:28:15][ct][59.108.50.194]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64070  [2019-04-02 15:28:16][ct][59.108.50.194]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64071  [2019-04-02 15:30:01][ct][59.108.50.194]vim 2019-04-02-ng-aml.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64072  [2019-04-03 05:27:29][ct][114.246.177.134]cd blog/tong-chen.github.com/_posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64073  [2019-04-03 05:27:30][ct][114.246.177.134]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64074  [2019-04-03 05:27:35][ct][114.246.177.134]less 2019-03-29-permutation-test.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64075  [2019-04-03 05:31:10][ct][114.246.177.134]ls | grep 'bayes'
+[/home/ct/blog/tong-chen.github.com/_posts] 64076  [2019-04-03 05:31:15][ct][114.246.177.134]less 2016-09-16-bayes.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64077  [2019-04-03 05:31:52][ct][114.246.177.134]# 2016-09-16-bayes.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64078  [2019-04-03 05:32:06][ct][114.246.177.134]cat 2016-09-16-bayes.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64378  [2019-04-10 10:09:23][ct][124.64.18.203]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64379  [2019-04-10 10:09:24][ct][124.64.18.203]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64380  [2019-04-10 10:09:31][ct][124.64.18.203]grep 'dplyr' *.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64381  [2019-04-10 10:09:50][ct][124.64.18.203]less 2017-08-12-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64382  [2019-04-10 10:10:03][ct][124.64.18.203]cat 2017-08-12-barplot-r.md
+[/home/ct/blog/tong-chen.github.com/_posts] 64858  [2019-06-04 11:15:12][ct][10.0.0.26]cd _posts/
+[/home/ct/blog/tong-chen.github.com/_posts] 64859  [2019-06-04 11:15:13][ct][10.0.0.26]ltr
+[/home/ct/blog/tong-chen.github.com/_posts] 64860  [2019-06-04 11:15:16][ct][10.0.0.26]less .history 
+[/home/ct/blog/tong-chen.github.com/_posts] 64861  [2019-06-04 11:16:36][ct][10.0.0.26]crontab -e
+[/home/ct/blog/tong-chen.github.com/_posts] 64862  [2019-06-04 11:17:04][ct][10.0.0.26]grep 'ssh' /MPATHB/self/NGS/*.sh
+[/home/ct/blog/tong-chen.github.com/_posts] 64863  [2019-06-04 11:17:22][ct][10.0.0.26]less 2100sxbd.sh
+[/home/ct/blog/tong-chen.github.com/_posts] 64864  [2019-06-04 11:17:28][ct][10.0.0.26]less /MPATHB/self/NGS/2100sxbd.sh
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65777  [2020-03-23 10:00:10][ct][10.0.0.23]cd _posts/
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65778  [2020-03-23 10:00:11][ct][10.0.0.23]ls
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65779  [2020-03-23 10:00:17][ct][10.0.0.23]rm -f */zip
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65780  [2020-03-23 10:00:22][ct][10.0.0.23]less haha 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65781  [2020-03-23 10:00:32][ct][10.0.0.23]ls | grep -v 'md$'
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65782  [2020-03-23 10:00:40][ct][10.0.0.23]less footer 
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65783  [2020-03-23 10:00:54][ct][10.0.0.23]rm -f `ls | grep -v 'md$'`
+[/MPATHB/ct/blog/tong-chen.github.com/_posts] 65784  [2020-03-23 10:00:56][ct][10.0.0.23]ls

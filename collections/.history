@@ -1,0 +1,59 @@
+ 7280  2016-11-04 11:54:44 cd collections/
+ 7281  2016-11-04 11:54:44 ls
+ 7282  2016-11-04 11:54:47 ls tutorial/
+ 7283  2016-11-04 11:55:03 mkdir tips
+ 7284  2016-11-04 11:56:03 git mv ../_posts/2016-09-01-computer-usage.md tips/index.md
+ 7285  2016-11-04 11:56:06 ls
+ 7286  2016-11-04 11:56:12 head tutorial/index.md 
+ 7287  2016-11-04 11:56:23 vim tips/index.md 
+ 7288  2016-11-04 11:56:49 ltr
+[/home/ct/blog/tong-chen.github.com/collections]  8326  [2016-11-27 08:26:20][ct][103.77.56.158]cd collections/
+[/home/ct/blog/tong-chen.github.com/collections]  8327  [2016-11-27 08:26:38][ct][103.77.56.158]mv tips/ other_tips
+[/home/ct/blog/tong-chen.github.com/collections]  8328  [2016-11-27 08:26:56][ct][103.77.56.158]mkdir py_tips R_tips
+[/home/ct/blog/tong-chen.github.com/collections]  8329  [2016-11-27 08:26:58][ct][103.77.56.158]ls
+[/home/ct/blog/tong-chen.github.com/collections]  8330  [2016-11-27 08:27:10][ct][103.77.56.158]cp other_tips/index.md py_tips/
+[/home/ct/blog/tong-chen.github.com/collections]  8331  [2016-11-27 08:27:16][ct][103.77.56.158]cp other_tips/index.md R_tips/
+[/home/ct/blog/tong-chen.github.com/collections]  8332  [2016-11-27 08:27:21][ct][103.77.56.158]vim other_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8333  [2016-11-27 08:27:56][ct][103.77.56.158]cp -r other_tips/ Linux_tips
+[/home/ct/blog/tong-chen.github.com/collections]  8334  [2016-11-27 08:28:33][ct][103.77.56.158]ls */*.md
+[/home/ct/blog/tong-chen.github.com/collections]  8335  [2016-11-27 08:28:48][ct][103.77.56.158]vim other_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8336  [2016-11-27 08:29:40][ct][103.77.56.158]cp -r other_tips/ Markdown_tips
+[/home/ct/blog/tong-chen.github.com/collections]  8337  [2016-11-27 08:29:42][ct][103.77.56.158]vim other_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8338  [2016-11-27 08:30:32][ct][103.77.56.158]ls
+[/home/ct/blog/tong-chen.github.com/collections]  8339  [2016-11-27 08:30:37][ct][103.77.56.158]vim Linux_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8340  [2016-11-27 08:36:59][ct][103.77.56.158]cp Linux_tips/index.md Markdown_tips/
+[/home/ct/blog/tong-chen.github.com/collections]  8341  [2016-11-27 08:37:06][ct][103.77.56.158]vim Markdown_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8342  [2016-11-27 08:37:28][ct][103.77.56.158]vim Linux_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8343  [2016-11-27 08:37:42][ct][103.77.56.158]l
+[/home/ct/blog/tong-chen.github.com/collections]  8348  [2016-11-27 08:38:33][ct][103.77.56.158]cd ../
+[/home/ct/blog/tong-chen.github.com/collections]  8349  [2016-11-27 08:38:37][ct][103.77.56.158]vim R_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8350  [2016-11-27 08:40:12][ct][103.77.56.158]R
+[/home/ct/blog/tong-chen.github.com/collections]  8351  [2016-11-27 08:40:43][ct][103.77.56.158]vim 1.r
+[/home/ct/blog/tong-chen.github.com/collections]  8352  [2016-11-27 08:40:55][ct][103.77.56.158]Rscript 1.r
+[/home/ct/blog/tong-chen.github.com/collections]  8353  [2016-11-27 08:41:04][ct][103.77.56.158]Rscript 1.r >>R_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8354  [2016-11-27 08:41:15][ct][103.77.56.158]vim 1.r
+[/home/ct/blog/tong-chen.github.com/collections]  8355  [2016-11-27 08:41:57][ct][103.77.56.158]Rscript 1.r >>R_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8356  [2016-11-27 08:43:07][ct][103.77.56.158]vim R_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections]  8357  [2016-11-27 08:47:22][ct][103.77.56.158]l
+[/home/ct/blog/tong-chen.github.com/collections]  8358  [2016-11-27 08:47:30][ct][103.77.56.158]rm -f 1.r 
+[/home/ct/blog/tong-chen.github.com/collections] 17427  [2017-04-10 18:07:44][ct][219.143.154.93]cd collections/
+[/home/ct/blog/tong-chen.github.com/collections] 17428  [2017-04-10 18:07:45][ct][219.143.154.93]ltr
+[/home/ct/blog/tong-chen.github.com/collections] 17429  [2017-04-10 18:07:58][ct][219.143.154.93]mkdir Webservers
+[/home/ct/blog/tong-chen.github.com/collections] 17430  [2017-04-10 18:08:07][ct][219.143.154.93]cp Links/index.md Webservers/
+[/home/ct/blog/tong-chen.github.com/collections] 17431  [2017-04-10 18:08:23][ct][219.143.154.93]vim ../_config.yml 
+[/home/ct/blog/tong-chen.github.com/collections] 17432  [2017-04-10 21:10:28][ct][219.143.154.93]vim Webservers/index.md 
+[/home/ct/blog/tong-chen.github.com/collections] 17818  [2017-04-15 10:16:26][ct][218.241.208.209]cd collections/
+[/home/ct/blog/tong-chen.github.com/collections] 17819  [2017-04-15 10:16:26][ct][218.241.208.209]ls
+[/home/ct/blog/tong-chen.github.com/collections] 17820  [2017-04-15 10:16:34][ct][218.241.208.209]mkdir make_tips
+[/home/ct/blog/tong-chen.github.com/collections] 17821  [2017-04-15 10:16:50][ct][218.241.208.209]cp Linux_tips/index.md make_tips/
+[/home/ct/blog/tong-chen.github.com/collections] 17822  [2017-04-15 10:17:01][ct][218.241.208.209]mv make_tips makefile_tips
+[/home/ct/blog/tong-chen.github.com/collections] 17823  [2017-04-15 10:17:35][ct][218.241.208.209]vim makefile_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections] 17823  [2017-04-15 10:17:35][ct][218.241.208.209]vim makefile_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections] 21479  [2017-07-15 10:57:57][ct][218.241.208.209]cd collections/
+[/home/ct/blog/tong-chen.github.com/collections] 21480  [2017-07-15 10:57:58][ct][218.241.208.209]ltr
+[/home/ct/blog/tong-chen.github.com/collections] 21481  [2017-07-15 10:58:03][ct][218.241.208.209]vim R_tips/index.md 
+[/home/ct/blog/tong-chen.github.com/collections] 50098  [2018-04-02 17:18:37][ct][114.242.250.198]cd ../
+[/home/ct/blog/tong-chen.github.com/collections] 58864  [2018-09-27 18:33:43][ct][123.123.157.187]cd ../collections/
+[/home/ct/blog/tong-chen.github.com/collections] 58865  [2018-09-27 18:33:43][ct][123.123.157.187]ltr
+[/home/ct/blog/tong-chen.github.com/collections] 58866  [2018-09-27 18:33:51][ct][123.123.157.187]less Links/index.md 
+[/home/ct/blog/tong-chen.github.com/collections] 58867  [2018-09-27 18:34:05][ct][123.123.157.187]vim Links/index.md 

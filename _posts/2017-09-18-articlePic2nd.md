@@ -93,7 +93,11 @@ tags:
 
 6. 视频文件统一下载地址：链接: <https://pan.baidu.com/s/1dFcWadV> 密码: (后台回复 `AI`或`拼图`获取密码)
 
-### 生信宝典，换个角度学生信
 
+## 生信宝典，生物信息学习系列教程，转录组，宏基因组，外显子组，R作图，Python学习，Cytoscape视频教程
 
+[http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
 
+## 生信宝典，最好的生物信息培训课程，培训课程资料
+
+[www.ehbio.com/Training](www.ehbio.com/Training)

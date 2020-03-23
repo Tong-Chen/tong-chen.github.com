@@ -44,3 +44,14 @@ tags:
 如果想看中文的，书好像是没有的，但公众号和博客还是很多的。不管看懂看不懂，每篇都翻一翻看一看，说不准什么时候就会了。就像大学时，去图书馆，不看书，而是挨个书架的走动，浏览书名就会有不少收获。
 
 最后，不管看书，还是看公众号，都要打起至少半年的主意；如果能坚持半年，再回头来看，拦路虎都成温顺的小猫了。
+
+
+
+
+## 生信宝典，生物信息学习系列教程，转录组，宏基因组，外显子组，R作图，Python学习，Cytoscape视频教程
+
+[http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg](http://mp.weixin.qq.com/s/d1KCETQZ88yaOLGwAtpWYg)
+
+## 生信宝典，最好的生物信息培训课程，培训课程资料
+
+[www.ehbio.com/Training](www.ehbio.com/Training)

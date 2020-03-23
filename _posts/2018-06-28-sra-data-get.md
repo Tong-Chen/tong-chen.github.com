@@ -43,7 +43,7 @@ NCBI的SRA (Sequence Read Archive) 数据库(http://www.ncbi.nlm.nih.gov/sra/) �
 
 在*Facets*下拉框中先勾选**Assay Type**，等待页面相应后勾选`wxs`，即全外显子组数据，等待页面相应。
 
-在*Facets*下拉框中勾选**Sample name**，等待页面相应后勾选`ktn102`及`ktn102`两个病人的分别四个样本（四种treatment：pre、2cycleschemo、operative和blood），如图。等待页面相应。获得Run编号（蓝色框）：**SRR5908363、SRR5908362...**
+在*Facets*下拉框中勾选**Sample name**，等待页面相应后勾选`ktn102`及`ktn134`两个病人的分别四个样本（四种treatment：pre、2cycleschemo、operative和blood），如图。等待页面相应。获得Run编号（蓝色框）：**SRR5908363、SRR5908362...**
 
 然后使用NCBI提供的工具SRAToolkit下载。
 

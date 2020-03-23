@@ -105,5 +105,6 @@ DNA复制突变率 10<sup>-8</sup>~10<sup>-9</sup>/bp
 
 <http://bionumbers.hms.harvard.edu/search.aspx?task=searchbypop>
 
+公众号
 
-
+[http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw](http://mp.weixin.qq.com/s/JQBZv6snTkZzFwEG12riWw)
