@@ -116,6 +116,7 @@ tags:
 * [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) - M. Garrels
 * [BASH Programming](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 * [Bash Reference Manual](http://www.gnu.org/software/bash/manual/bashref.html)
+* [Bash cheat sheet](https://www.pcwdld.com/bash-cheat-sheet#wbounce-modal)
 
 ### Vim
 
